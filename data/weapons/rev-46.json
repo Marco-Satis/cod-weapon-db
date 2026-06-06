@@ -7,7 +7,7 @@
   "in_warzone": true,
   "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
-  "note": "REV-46 = S4-Neuwaffe. TGD-Slots vorhanden, aber S4-OCR teils unsauber: Doubling per dedup entfernt; STOCK auf 2 verifizierte reduziert (21 OCR-Salat-Eintraege verworfen); OPTIC kann OCR-Drift-Varianten enthalten (z.B. 'Mk.2'/'Mk.z'). Bei TGD-S4-Cleanup neu ziehen.",
+  "note": "REV-46 = Season-2-SMG (Battle-Pass Page 3 HVT, S2-Launch 2026-02-05) - KEINE S4-Neuwaffe. TGD-S3.5-Slots vorhanden, aber OCR teils unsauber: Doubling per dedup entfernt; STOCK auf 2 verifizierte reduziert (21 OCR-Salat-Eintraege verworfen); OPTIC kann OCR-Drift-Varianten enthalten (z.B. 'Mk.2'/'Mk.z'). Bei sauberem TGD-Refresh neu ziehen.",
   "base": {
     "rpm": 1154,
     "mag": 35,
