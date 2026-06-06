@@ -1,0 +1,106 @@
+{
+  "id": "vst",
+  "name": "VST",
+  "class": "SMG",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "base": {
+    "rpm": 1091,
+    "mag": 30,
+    "reload_s": 2.18,
+    "ads_ms": 155,
+    "velocity_ms": 520,
+    "move_ms": 5.3,
+    "sprint_to_fire_ms": 100,
+    "sprint_ms": 7.7
+  },
+  "slots": {
+    "BARREL": [
+      "14\" LTI Expedition Barrel :: +16.7% Range | -7.9% ADS Move. | +9.7% ADS Time",
+      "12.5\" Hawker Broach Barrel :: -5.3% ADS Move. | -16.1% ADS Time",
+      "10.5\" Bowen Conquer Barrel :: +8.3% Range | +8% Bullet Velocity | +6.5% ADS Time",
+      "9.7\" Enmity Barrel :: -20% Max Hipfire Area | +7.5% Move. Speed | +2.6% Sprint Speed | -22.6% ADS Time | -45% Sprint to Fire",
+      "11\" Ursine Barrel :: +16.7% Range | +12% Bullet Velocity | -1.9% Move. Speed | -2.6% Sprint Speed | -5.3% ADS Move. | +5% Sprint to Fire"
+    ],
+    "FIRE_MODS": [
+      "Ammo Conversion :: +4.8% Range | +21.2% Bullet Velocity | -16.7% Fire Rate | -10.2% Gun Kick | -20% Horiz. Recoil | -10% Vert. Recoil | -5.7% Move. Speed | -3.7% Crouch Speed | -2.6% Sprint Speed | -7.9% ADS Move. | +19.4% ADS Time | +25% Sprint to Fire",
+      "Bolt Carrier Group :: -20.2% Range | -10% Bullet Velocity | +5.8% Fire Rate | +20.1% Gun Kick | +24.9% Horiz. Recoil | +20% Vert. Recoil",
+      "9mm Parabellum Overpressured :: +20% Bullet Velocity",
+      "Buffer Spring :: -10% Gun Kick | -10% Horiz. Recoil | -10% Vert. Recoil",
+      "9mm Parabellum FMJ"
+    ],
+    "LASER": [
+      "EAM ScatterLine Laser :: -15% Max Hipfire Area",
+      "Redwell Tactical Laser",
+      "LTI SwiftPoint Laser :: -9.7% ADS Time | -20% Sprint to Fire",
+      "EMT3 Agile Laser",
+      "VAS Precision Shift Laser"
+    ],
+    "MAGAZINE": [
+      "Amplify Extended Mag I",
+      "Divest Fast Mag :: -10.3% ADS Time | -18.3% Reload Time | -16% Sprint to Fire",
+      "Avarice Extended Mag II :: -3.8% Move. Speed | -1.3% Sprint Speed | -5.3% ADS Move. | +6.5% ADS Time | +18.3% Reload Time | +10% Sprint to Fire",
+      "Extended Mag :: +6.5% ADS Time | +10% Sprint to Fire",
+      "Fast Mag :: -6.5% ADS Time | -18.3% Reload Time | -10% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Redwell Shade-X Suppressor :: -14.3% Range | -13% Bullet Velocity | -14.9% Gun Kick | -11% Horiz. Recoil | -15% Vert. Recoil",
+      "Bowen .45 Suppressor",
+      "Hawker Series 45 :: -24.2% Gun Kick | -25% Vert. Recoil",
+      "Hawker Stabilizer MKII :: -14.6% Gun Kick | -15% Vert. Recoil",
+      "Hawker Hybrid 45 :: -25% Max Hipfire Area",
+      "Monolithic Suppressor :: +8.3% Range | +20% Bullet Velocity | +35.5% ADS Time"
+    ],
+    "OPTIC": [
+      "FANG Hoverpoint ELO :: +10.3% ADS Time",
+      "LTI Mini",
+      "VAS MicroFlex",
+      "Lethal Tools ELO",
+      "EAM Micro Dot",
+      "VAS LED",
+      "LTI Reflex",
+      "Greaves Red Dot",
+      "KES Slim Reflex",
+      "EAM xL Reflex",
+      "PrismaTech Digital Holo",
+      "EMT3 Holo Mk.z",
+      "Solaris Holo-IR :: -25% Gun Kick",
+      "Kepler T-Range Holo :: -30% Gun Kick | +9.7% ADS Time",
+      "EAM Dyad xL :: -50% Gun Kick | +9.7% ADS Time",
+      "LTI Target Finder VZ :: -10.5% ADS Move. | +32.3% ADS Time | +25% Sprint to Fire",
+      "Millimeter Scanner :: +10% Gun Kick | +19.4% ADS Time | +25% Sprint to Fire",
+      "Redwell 30-5 2x :: -30% Gun Kick | +6.5% ADS Time",
+      "Greaves AccuSpot 3x :: -30% Gun Kick | +9.7% ADS Time",
+      "Kepler Ultra 4x :: -30% Gun Kick | +12.9% ADS Time",
+      "PrismaTech Turbo 4x :: -30% Gun Kick | +12.9% ADS Time",
+      "VAS Duo Hybrid Sight :: -50% Gun Kick | +9.7% ADS Time",
+      "Bowen X-25 IR :: -50% Gun Kick | +8.4% ADS Time",
+      "EAM Dual Zoom :: -50% Gun Kick | +16.1% ADS Time"
+    ],
+    "REAR GRIP": [
+      "Solace Quick Aim Grip :: -41.9% ADS Time",
+      "Pillory Grip :: -42% Sprint to Fire",
+      "VAS Sustenance Grip :: -0.5% Gun Kick | -20% Horiz. Recoil | +3.2% ADS Time",
+      "LTI Coalesce Grip :: -22.6% ADS Time",
+      "Quiver Control Grip :: -17.5% Gun Kick | -18% Vert. Recoil"
+    ],
+    "STOCK": [
+      "Akimbo VST :: -3.5% Fire Rate | +15% Gun Kick | +14.9% Horiz. Recoil | +15% Vert. Recoil | +20% Max Hipfire Area | +15.8% Reload Time | +28% Sprint to Fire",
+      "Hawker Cub-55 Pad :: +17% Move. Speed | +25.9% Crouch Speed | +3.9% Sprint Speed",
+      "LTI Stern Aim Pad :: +8.3% Flinch | +15.8% ADS Move. | -16.1% ADS Time",
+      "VAS Blench Pad :: -20% Gun Kick | -20% Horiz. Recoil | -20% Vert. Recoil | -5.3% ADS Move. | +5.8% ADS Time",
+      "Suffuse Tactical Pad :: -15% Max Hipfire Area | -12.9% ADS Time | -12% Sprint to Fire",
+      "Clench-01 Grip :: -15% Gun Kick | -15.1% Horiz. Recoil | -15% Vert. Recoil | -25% Flinch | +3.9% ADS Time"
+    ],
+    "UNDERBARREL": [
+      "VAS Convergence Foregrip :: -9.7% Gun Kick | -13.1% Horiz. Recoil | -8.9% Vert. Recoil",
+      "Vitalize Handstop :: -0.5% Gun Kick | -20% Horiz. Recoil | -51.3% Idle Sway",
+      "Lateral Precision Grip :: -0.8% Gun Kick | -35.1% Horiz. Recoil",
+      "Respire Handstop :: -41.7% Flinch",
+      "EAM Lightpath Foregrip :: +9.4% Move. Speed | +7.4% Crouch Speed | +10.5% ADS Move.",
+      "EAM Steady-90 Grip :: -0.6% Gun Kick | -25.1% Horiz. Recoil | +13.2% Move. Speed | +7.4% Crouch Speed | +9.1% Sprint Speed"
+    ]
+  }
+}

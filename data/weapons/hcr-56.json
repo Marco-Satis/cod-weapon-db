@@ -1,0 +1,48 @@
+{
+  "id": "hcr-56",
+  "name": "HCR 56",
+  "class": "LMG",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 LMG (5.56 NATO, 741 RPM, 60-round). MUZZLE(43)=universal MW-Pool (>15-Guard übersprungen, kein Freeze). FIRE MODS zeigte .45 ACP = Fehl-Read (Kaliber 5.56 laut AMMUNITION) → ausgeschlossen.",
+  "extraction": "weapon-specific-only (MW: MUZZLE universal; FIRE MODS misread excl.)",
+  "base": {
+    "rpm": 741,
+    "mag": 60,
+    "reload_s": 4.4,
+    "ads_ms": 310,
+    "velocity_ms": 715,
+    "move_ms": 4.3,
+    "sprint_to_fire_ms": 225,
+    "sprint_ms": 5.8,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.56 NATO Low Grain Rounds :: -15.1% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "5.56 NATO High Grain Rounds :: +13.9% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "5.56 NATO Round Nose :: +50% Target Flinch | -20.1% Range",
+      "5.56 NATO Mono :: -1.4% Range | +8% Bullet Velocity | +3% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      "5.56 Frangible :: -5.2% Range",
+      "5.56 Hollowpoint",
+      "5.56 Armor Piercing",
+      "5.56 Overpressured +P :: +80% Target Flinch",
+      "5.56 High Velocity :: -5.2% Range | +20% Bullet Velocity",
+      "5.56 Incendiary :: -10.1% Range | -25% Bullet Velocity"
+    ],
+    "BARREL": [
+      "Bruen Turaco 686mm :: -8.1% Range | +16% Bullet Velocity | -14% Gun Kick | -14% Horiz. Recoil | -14% Vert. Recoil | -6% Move | -6% Crouch | -6% Sprint | -7% ADS Move | +5% ADS Time",
+      "FTAC Hornet 20\" Barrel :: -3.1% Range | +11% Bullet Velocity | -11% Gun Kick | -11% Horiz. Recoil | -11% Vert. Recoil | +4% Idle Sway | -5% Max Hipfire | -5% Move | -5% Crouch | -5% Sprint | -6% ADS Move",
+      "18\" Bruen Guerilla :: -7% Range | -4% Gun Kick | -5% Horiz. Recoil | -5% Vert. Recoil | +11% Idle Sway | -11% Max Hipfire | -2% Move | -2% Crouch | -2% Sprint | -2% ADS Move | -9% ADS Time",
+      "20\" Bruen S-620 :: -2.1% Range | -7% Bullet Velocity | +6% Gun Kick | +6% Horiz. Recoil | +6% Vert. Recoil | +3% Idle Sway | -3% Max Hipfire | +5% Move | +4% Crouch | +2% Sprint | +8% ADS Move | -9% ADS Time"
+    ],
+    "MAGAZINE": [
+      "42 Round Mag :: +2% Move | +2% Crouch | +2% Sprint | +9% ADS Move | -8% ADS Time | -27% Reload | -63% Sprint to Fire",
+      "30 Round Mag :: +4% Move | +3% Crouch | +3% Sprint | +18% ADS Move | -15% ADS Time | -35% Reload | -69% Sprint to Fire",
+      "10 Round Mag :: -7% Move | -7% Crouch | -4% Sprint | -9% ADS Move | +7% ADS Time | -2% Reload | +9% Sprint to Fire"
+    ]
+  },
+  "_universal": "MUZZLE(43)/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

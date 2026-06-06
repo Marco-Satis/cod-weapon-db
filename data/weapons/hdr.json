@@ -1,0 +1,99 @@
+{
+  "id": "hdr",
+  "name": "HDR",
+  "class": "Sniper",
+  "game": "mw2019",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Cross-Game (MW2019). Top-WZ-Sniper S4. Zoom 5x.",
+  "base": {
+    "rpm": 36,
+    "mag": 5,
+    "reload_s": 3.7,
+    "ads_ms": 630,
+    "velocity_ms": 660,
+    "move_ms": 4.5,
+    "sprint_to_fire_ms": 250,
+    "sprint_ms": 6.0
+  },
+  "slots": {
+    "BARREL": [
+      "Gain-Twist Barrel :: +30% Bullet Velocity",
+      "Long Barrel :: +30% Range",
+      "Reinforced Barrel :: +10% Range | +10% Bullet Velocity",
+      "Short Barrel",
+      "CHF Barrel :: +41.9% Gun Kick | +20% Horiz. Recoil | +50% Vert. Recoil | +20% ADS Time"
+    ],
+    "FIRE_MODS": [
+      "Rapid Fire :: kein Damage-Mod | -10% Bullet Velocity | +5.9% Fire Rate | +10% Gun Kick | +10% Horiz. Recoil | +10% Vert. Recoil",
+      "108mm FMJ",
+      "108mm Overpressured :: +15% Bullet Velocity"
+    ],
+    "LASER": [
+      "Steady Aim Laser :: -30% Max Hipfire Area",
+      "Fast Motion Laser",
+      "Tactical Laser",
+      "Strelok Laser",
+      "Target Laser"
+    ],
+    "MAGAZINE": [
+      "Extended Mag",
+      "Fast Mag I :: -2.9% ADS Time | -22.7% Reload Time | -4% Sprint to Fire",
+      "Extended Mag II :: +3.9% ADS Time | +8% Sprint to Fire",
+      "Fast Mag II :: -2.5% ADS Time | -34.3% Reload Time | -4% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Suppressor",
+      "Compensator :: -23.1% Gun Kick | -35% Vert. Recoil",
+      "Muzzle Brake",
+      "Ported Compensator :: -16.9% Gun Kick | -25% Vert. Recoil",
+      "Monolithic Suppressor :: +10% Range | +20% Bullet Velocity | +9.2% ADS Time"
+    ],
+    "OPTIC": [
+      "Iron Sight :: -29.7% Idle Sway | -8.3% ADS Time",
+      "Kepler Microflex :: -8.3% ADS Time",
+      "PrismaTech Reflex :: -8.3% ADS Time",
+      "Redwell Reflex :: -8.3% ADS Time",
+      "K&S Red Dot :: -5.8% ADS Time",
+      "Kepler Red Dot :: -5.8% ADS Time",
+      "OM3 '92 Holo :: -5.8% ADS Time",
+      "Accu-Spot Ultra Holo",
+      "Willis 3x",
+      "PrismaTech 4x",
+      "Dobrych 4x",
+      "K&S Thermal Holo",
+      "Pinpoint Hybrid",
+      "PrismaPoint Hybrid",
+      "R&K Multizoom",
+      "Remuda Range Finder :: +8.3% ADS Time",
+      "Blandwell 7x Scope",
+      "Remuda Dual Zoom",
+      "VMF Variable Scope :: +6.7% ADS Time",
+      "Redwell Custom Zoom :: +6.7% ADS Time",
+      "Otero Thermal 2x :: +1.7% ADS Time",
+      "Thermal 6x :: +5% ADS Time"
+    ],
+    "REAR GRIP": [
+      "Quickdraw Grip :: +14.6% Flinch | -11.7% ADS Time",
+      "Assault Grip :: -40% Sprint to Fire",
+      "Commando Grip :: -6.2% ADS Time | -20% Sprint to Fire",
+      "Ergonomic Grip :: +4.6% Flinch | -8.3% ADS Time",
+      "CQB Grip :: -32% Sprint to Fire"
+    ],
+    "STOCK": [
+      "Light Stock :: +20% Move. Speed | +42.1% Crouch Speed",
+      "Infiltrator Stock :: +31.6% ADS Move.",
+      "Heavy Stock :: -35.4% Flinch",
+      "Balanced Stock :: +11.1% Move. Speed | +21.1% Crouch Speed | +15.8% ADS Move.",
+      "Combat Stock :: -14.6% Flinch | +21.1% ADS Move. | -5.8% ADS Time | -18% Sprint to Fire"
+    ],
+    "UNDERBARREL": [
+      "Vertical Foregrip :: -9.8% Gun Kick | -40% Horiz. Recoil",
+      "Lightweight Bipod :: -45.3% Idle Sway",
+      "Marksman Bipod",
+      "Precision Foregrip :: -5.4% Gun Kick | -20% Horiz. Recoil | -25% Idle Sway",
+      "Ranger Foregrip :: -5.4% Gun Kick | -20% Horiz. Recoil | +10% Sprint Speed"
+    ]
+  }
+}

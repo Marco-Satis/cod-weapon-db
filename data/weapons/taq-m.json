@@ -1,0 +1,41 @@
+{
+  "id": "taq-m",
+  "name": "TAQ-M",
+  "class": "Marksman Rifle",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 Marksman Rifle (6.5mm, 240 RPM semi-auto, 10-round). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 240,
+    "mag": 10,
+    "reload_s": 2.6,
+    "ads_ms": 290,
+    "velocity_ms": 830,
+    "move_ms": 4.5,
+    "sprint_to_fire_ms": 210,
+    "sprint_ms": 6,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "6.5mm Hollowpoint",
+      "6.5mm Armor Piercing",
+      "6.5mm Frangible :: -4.9% Range",
+      "6.5mm Overpressured +P :: +80% Target Flinch",
+      "6.5mm High Velocity :: -4.9% Range",
+      "6.5mm Incendiary :: -9.9% Range"
+    ],
+    "BARREL": [
+      "15.5\" Theta-X13 :: -6.2% Range",
+      "LR1:7 20.5\" Barrel :: +23.8% Range"
+    ],
+    "MAGAZINE": [
+      "15 Round Mag :: -4% Move. Speed",
+      "20 Round Mag :: -6% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

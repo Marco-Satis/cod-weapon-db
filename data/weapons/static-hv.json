@@ -1,0 +1,38 @@
+{
+  "id": "static-hv",
+  "name": "Static-HV",
+  "class": "SMG",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 SMG (5.7x28mm, 822 RPM, 50-round fix). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION (kein MAGAZINE-Slot, integrales Mag).",
+  "extraction": "weapon-specific-only-MW-editorbound",
+  "base": {
+    "rpm": 822,
+    "mag": 50,
+    "reload_s": 2.8,
+    "ads_ms": 200,
+    "velocity_ms": 490,
+    "move_ms": 4.8,
+    "sprint_to_fire_ms": 99,
+    "sprint_ms": 6.4,
+    "zoom_x": 0.88
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.7x28mm Frangible :: -5.2% Range",
+      "5.7x28mm Hollowpoint",
+      "5.7x28mm Armor Piercing",
+      "5.7x28mm Overpressured +P :: +80% Target Flinch",
+      "5.8X42 Tracer"
+    ],
+    "BARREL": [
+      "Auger 840 Light Barrel :: +10% Gun Kick",
+      "Garrote-8 Long Barrel :: +22.3% Range",
+      "Rover MV2 Comp Barrel :: -20% Gun Kick",
+      "Supe-Sil Suppressed Barrel :: -15.3% Range"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

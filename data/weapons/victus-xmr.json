@@ -1,0 +1,49 @@
+{
+  "id": "victus-xmr",
+  "name": "Victus XMR",
+  "class": "Sniper",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 Sniper (.50 Cal, 36 RPM, 5-round, Single-Shot-Heavy). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE/GUARD.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 36,
+    "mag": 5,
+    "reload_s": 3.3,
+    "ads_ms": 615,
+    "velocity_ms": 610,
+    "move_ms": 4.3,
+    "sprint_to_fire_ms": 270,
+    "sprint_ms": 6,
+    "zoom_x": 0
+  },
+  "slots": {
+    "AMMUNITION": [
+      ".50 Cal High Grain Rounds :: +15.2% Range",
+      ".50 Cal Low Grain Rounds :: -14.8% Range",
+      ".50 Cal Mono :: -1.1% Range",
+      ".50 Cal Spire Point Rounds :: +5.5% Range",
+      ".50 Cal Frangible :: -5.6% Range",
+      ".50 Cal Armor Piercing",
+      ".50 Cal High Velocity :: -5.6% Range",
+      ".50 Cal Incendiary :: -9.9% Range",
+      ".50 Cal Explosive :: +43.2% Range"
+    ],
+    "BARREL": [
+      "Mack 8 33.5 Super :: +24.2% Range",
+      "Mack 8 21.5 Short :: -2.8% Range",
+      "26\" Mammoth HB50 :: +20% Bullet Velocity",
+      "Executor 546 :: -3.8% Range"
+    ],
+    "GUARD": [
+      "Corvus Responder :: -12% Gun Kick"
+    ],
+    "MAGAZINE": [
+      "7 Round Mag :: -4% Move. Speed",
+      "5 Round Mag :: -8% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

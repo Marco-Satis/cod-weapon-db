@@ -1,0 +1,43 @@
+{
+  "id": "gs-magna",
+  "name": "GS Magna",
+  "class": "Pistol",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 Pistol (.50, 488 RPM, 7-round). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 488,
+    "mag": 7,
+    "reload_s": 2.2,
+    "ads_ms": 210,
+    "velocity_ms": 470,
+    "move_ms": 5.0,
+    "sprint_to_fire_ms": 80,
+    "sprint_ms": 6.5,
+    "zoom_x": 0.8
+  },
+  "slots": {
+    "AMMUNITION": [
+      "9mm Hardened Rounds :: -25.8% Range | -15% Bullet Velocity",
+      ".50 Pistol Frangible :: -5.2% Range",
+      ".50 Pistol Hollowpoint",
+      ".50 Pistol Armor Piercing",
+      ".50 Pistol Overpressured +P :: +80% Target Flinch",
+      ".500 AET Rounds :: -30% Target Flinch | -20% Bullet Velocity"
+    ],
+    "BARREL": [
+      "SA Brake Barrel :: -10% Gun Kick | -27% Horiz. Recoil | -10% Vert. Recoil | +10% ADS Time",
+      "SA Comp Barrel :: -27% Gun Kick | -10% Horiz. Recoil | -27% Vert. Recoil | +10% ADS Time",
+      "SA Longshot-50 :: +31.9% Range | +16% Bullet Velocity | +3% Gun Kick | +3% Horiz. Recoil | +3% Vert. Recoil | -12% Idle Sway | +12% Max Hipfire | +2% Move | +2% Crouch | +1% Sprint | +3% ADS Move | +9% ADS Time",
+      "SA Tyrant Fifty :: +31.9% Range | +27% Bullet Velocity | -5% Gun Kick | -5% Horiz. Recoil | -5% Vert. Recoil | -12% Idle Sway | +12% Max Hipfire | -2% Move | -2% Crouch | -2% Sprint | -3% ADS Move | +14% ADS Time"
+    ],
+    "MAGAZINE": [
+      "13 Round Mag :: -7% Move | -7% Crouch | -5% Sprint | -9% ADS Move | +12% ADS Time | +26% Reload",
+      "10 Round Mag :: -3% Move | -4% Crouch | -2% Sprint | -5% ADS Move | +6% ADS Time | +12% Reload"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

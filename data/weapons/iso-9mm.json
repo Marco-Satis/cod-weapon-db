@@ -1,0 +1,46 @@
+{
+  "id": "iso-9mm",
+  "name": "ISO 9mm",
+  "class": "SMG",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 SMG (9mm, 1000 RPM). Teilt ISO-Plattform-Barrels. Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 1000,
+    "mag": 33,
+    "reload_s": 2.6,
+    "ads_ms": 220,
+    "velocity_ms": 540,
+    "move_ms": 4.7,
+    "sprint_to_fire_ms": 110,
+    "sprint_ms": 6.5,
+    "zoom_x": 0.88
+  },
+  "slots": {
+    "AMMUNITION": [
+      "9mm High Grain Rounds :: +14.9% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "9mm Low Grain Rounds :: -15.5% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "9mm Hardened Rounds :: -27.4% Range | -15% Bullet Velocity | +3% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      "9mm Frangible :: -6.7% Range",
+      "9mm Hollowpoint",
+      "9mm Armor Piercing",
+      "9mm Overpressured +P :: +80% Target Flinch",
+      "9mm High Velocity :: +30% Bullet Velocity | +5% Horiz. Recoil | +5% Vert. Recoil"
+    ],
+    "BARREL": [
+      "ISO 45 Factory :: +19.5% Range | +12% Bullet Velocity | -8% Idle Sway | +8% Max Hipfire | +7% ADS Time",
+      "7\" Ex Raptor-V2 :: -2% Range | -6% Bullet Velocity | +5% Gun Kick | +5% Horiz. Recoil | +5% Vert. Recoil | +3% Idle Sway | -3% Max Hipfire | +4% Move | +3% Crouch | +2% Sprint | +4% ADS Move | -8% ADS Time",
+      "9\" PTX Trainer :: +16% Range | +7% Bullet Velocity | +3% Gun Kick | +3% Horiz. Recoil | +3% Vert. Recoil | -6% Idle Sway | +6% Max Hipfire | +2% Move | +2% Crouch | +1% Sprint | +3% ADS Move | +3% ADS Time",
+      "16\" XLB-S :: +13.7% Range | +24% Bullet Velocity | -7% Gun Kick | -7% Horiz. Recoil | -7% Vert. Recoil | -9% Idle Sway | +9% Max Hipfire | -3% Move | -3% Crouch | -3% Sprint | -4% ADS Move | +12% ADS Time",
+      "6\" Axeblade :: -9.6% Range | +18% Bullet Velocity | -14% Gun Kick | -14% Horiz. Recoil | -14% Vert. Recoil | -6% Move | -6% Crouch | -6% Sprint | -8% ADS Move | +7% ADS Time"
+    ],
+    "MAGAZINE": [
+      "20 Round Mag :: +2% Move | +2% Crouch | +1% Sprint | +6% ADS Move | -8% ADS Time | -15% Sprint to Fire",
+      "50 Round Drum :: -7% Move | -7% Crouch | -4% Sprint | -9% ADS Move | +12% ADS Time | +19% Reload"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

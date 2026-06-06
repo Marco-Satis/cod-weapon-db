@@ -1,0 +1,52 @@
+{
+  "id": "xmg",
+  "name": "XMG",
+  "class": "LMG",
+  "game": "bo6",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO6 LMG (7.62 NATO, 697 RPM, 100-round, Belt-Fed-Option). reload roh '7960 s' -> 7.96. Universelle Slots = BO6-Pool. Weapon-spez: MUZZLE/BARREL/MAGAZINE/FIRE MODS.",
+  "extraction": "weapon-specific-only-BO-editorbound-split",
+  "base": {
+    "rpm": 697,
+    "mag": 100,
+    "reload_s": 7.96,
+    "ads_ms": 380,
+    "velocity_ms": 810,
+    "move_ms": 4.4,
+    "sprint_to_fire_ms": 249,
+    "sprint_ms": 5.8,
+    "zoom_x": 0
+  },
+  "slots": {
+    "BARREL": [
+      "Gain-Twist Barrel :: +35% Bullet Velocity",
+      "Long Barrel :: +39.9% Range",
+      "Reinforced Barrel :: +24.9% Range",
+      "CHF Barrel :: Makes neck damage the same as head",
+      "Short Barrel"
+    ],
+    "FIRE MODS": [
+      "Rapid Fire :: -12% Bullet Velocity",
+      "7.62 NATO Overpressured :: +23% Bullet Velocity",
+      "Recoil Springs :: -11% Gun Kick",
+      "7.62 NATO FMJ"
+    ],
+    "MAGAZINE": [
+      "Extended Mag I :: +4% Reload Time",
+      "Fast Mag I :: -3.9% ADS Time",
+      "Extended Mag II :: +9.2% ADS Time",
+      "Fast Mag II :: -6.6% ADS Time",
+      "Belt-Fed"
+    ],
+    "MUZZLE": [
+      "Suppressor",
+      "Compensator :: -34.3% Gun Kick",
+      "Muzzle Brake",
+      "Ported Compensator :: -24.5% Gun Kick",
+      "Monolithic Suppressor :: +10% Range"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO6-Pool (ref lc10.json)"
+}

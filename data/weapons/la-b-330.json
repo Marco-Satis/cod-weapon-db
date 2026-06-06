@@ -1,0 +1,45 @@
+{
+  "id": "la-b-330",
+  "name": "LA-B 330",
+  "class": "Sniper",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 Bolt-Sniper (.300, 47 RPM, 5-round). MUZZLE(29)=universal MW-Pool (Guard-skip). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: MUZZLE universal)",
+  "base": {
+    "rpm": 47,
+    "mag": 5,
+    "reload_s": 3.0,
+    "ads_ms": 602,
+    "velocity_ms": 760,
+    "move_ms": 4.4,
+    "sprint_to_fire_ms": 307,
+    "sprint_ms": 5.9
+  },
+  "slots": {
+    "AMMUNITION": [
+      ".300 Armor Piercing",
+      ".300 Incendiary :: -9.3% Range | -25% Bullet Velocity",
+      ".300 Frangible :: -4.1% Range",
+      ".300 Hollowpoint",
+      ".300 High Velocity :: -4.1% Range | +20% Bullet Velocity",
+      ".300 Overpressured +P :: +80% Target Flinch"
+    ],
+    "BARREL": [
+      "22\" Cavalry Barrel :: +11% Bullet Velocity | -9% Gun Kick | -9% Horiz. Recoil | -9% Vert. Recoil | -4% Move | -4% Crouch | -4% Sprint | -7% ADS Move | +2% ADS Time",
+      "23.5\" Fluted R-67 :: +17.1% Range | +7% Bullet Velocity | +3% Gun Kick | +3% Horiz. Recoil | +3% Vert. Recoil | -6% Idle Sway | +6% Max Hipfire | +2% Move | +2% Crouch | +1% Sprint | +6% ADS Move",
+      "18.5\" Bryson LR Factory :: -3.2% Range | -3% Bullet Velocity | +6% Idle Sway | -6% Max Hipfire | -6% ADS Time",
+      "16\" ZLR Executor 80 Barrel :: -4.1% Range | +3% Bullet Velocity | -5% Gun Kick | -5% Horiz. Recoil | -5% Vert. Recoil | +8% Idle Sway | -8% Max Hipfire | -2% Move | -2% Crouch | -2% Sprint | -4% ADS Move | -6% ADS Time"
+    ],
+    "BOLT": [
+      "ZLR Reinforced Lockbolt :: -7% Fire Rate",
+      "FSS ST87 Bolt :: +16% Fire Rate"
+    ],
+    "MAGAZINE": [
+      "8-Round Magazine :: -4% Move | -5% Crouch | -3% Sprint | -8% ADS Move | +3% ADS Time"
+    ]
+  },
+  "_universal": "MUZZLE(29)/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

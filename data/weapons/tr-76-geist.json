@@ -1,0 +1,47 @@
+{
+  "id": "tr-76-geist",
+  "name": "TR-76 Geist",
+  "class": "AR",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 AR (7.62x39, 638 RPM, 30-round). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP/COMB universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE. AMMUNITION-Labels teils gemischt (7.62x39/7.62x51) = TGD-Roh.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 638,
+    "mag": 30,
+    "reload_s": 3.2,
+    "ads_ms": 280,
+    "velocity_ms": 720,
+    "move_ms": 4.7,
+    "sprint_to_fire_ms": 170,
+    "sprint_ms": 6.4,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "7.62x39mm Frangible :: -5% Range",
+      "7.62x39mm Hollowpoint",
+      "7.62x39mm Armor Piercing",
+      "7.62x39mm Overpressured +P :: +80% Target Flinch",
+      "7.62x39mm High Velocity :: -5% Range",
+      "7.62X51mm Low Grain Rounds :: -14.9% Range",
+      "7.62X51mm High Grain Rounds :: +13.8% Range",
+      "7.62x39mm Round Nose :: +50% Target Flinch",
+      "7.62x39mm Mono :: -1.5% Range"
+    ],
+    "BARREL": [
+      "Bruen Bridle 60 :: +15% Bullet Velocity",
+      "LOC.5 Long Barrel :: +20.1% Range",
+      "LOC.2 Short Barrel :: -5% Range",
+      "Bruen Bridle Heavy :: +26.9% Range",
+      "Freight-40 Barrel :: +10.5% Range"
+    ],
+    "MAGAZINE": [
+      "45 Round Mag :: -6% Move. Speed",
+      "Geist Single-Tap Mod :: +5.7% Range"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP/COMB = MW-Pool (ref kar98k.json)"
+}

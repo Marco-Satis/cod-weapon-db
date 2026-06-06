@@ -1,0 +1,50 @@
+{
+  "id": "kastov-762",
+  "name": "Kastov 762",
+  "class": "AR",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 AR (7.62x39, AK-47-Plattform, 600 RPM). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 600,
+    "mag": 30,
+    "reload_s": 2.6,
+    "ads_ms": 260,
+    "velocity_ms": 720,
+    "move_ms": 4.6,
+    "sprint_to_fire_ms": 210,
+    "sprint_ms": 6.1,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "7.62X51mm High Grain Rounds :: +15% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "7.62X51mm Low Grain Rounds :: -15% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "7.62x39mm Round Nose :: +50% Target Flinch | -19.9% Range",
+      "7.62x39mm Mono :: -2.4% Range | +8% Bullet Velocity | +3% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      "7.62x39mm Frangible :: -4.9% Range",
+      "7.62x39mm Hollowpoint",
+      "7.62x39mm Armor Piercing",
+      "7.62x39mm Overpressured +P :: +80% Target Flinch",
+      "7.62x39mm High Velocity :: -4.9% Range | +20% Bullet Velocity"
+    ],
+    "BARREL": [
+      "KAS-10 584mm Barrel :: +23.8% Range | +19% Bullet Velocity | -4% Gun Kick | -4% Horiz. Recoil | -4% Vert. Recoil | -9% Idle Sway | +9% Max Hipfire | -2% Move | -2% Crouch | -2% Sprint | -2% ADS Move | +8% ADS Time",
+      "KAS-7 406mm :: -1.9% Range | +5% Bullet Velocity | -5% Gun Kick | -5% Horiz. Recoil | -5% Vert. Recoil | +3% Idle Sway | -3% Max Hipfire | -2% Move | -2% Crouch | -3% Sprint | -3% ADS Move | -1% ADS Time",
+      "IG-K30 406mm :: +13% Bullet Velocity | -11% Gun Kick | -11% Horiz. Recoil | -11% Vert. Recoil | -5% Move | -5% Crouch | -5% Sprint | -6% ADS Move | +5% ADS Time",
+      "Kastovia 343 :: -3.9% Range | -3% Bullet Velocity | +6% Idle Sway | -6% Max Hipfire | -7% ADS Time",
+      "342mm Sakin KL :: -3% Range | -5% Bullet Velocity | +3% Gun Kick | +3% Horiz. Recoil | +3% Vert. Recoil | +4% Idle Sway | -5% Max Hipfire | +2% Move | +2% Crouch | +1% Sprint | +3% ADS Move | -8% ADS Time"
+    ],
+    "CONVERSION KIT": [
+      "Jak Requiem :: -15% Bullet Velocity | -4% Fire Rate | -50% Gun Kick | -86% Horiz. Recoil"
+    ],
+    "MAGAZINE": [
+      "20 Round Mag :: +3% Move | +2% Crouch | +2% Sprint | +11% ADS Move | -11% ADS Time | -8% Reload | -21% Sprint to Fire",
+      "40 Round Mag :: -3% Move | -3% Crouch | -2% Sprint | -4% ADS Move | +4% ADS Time | +5% Reload"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

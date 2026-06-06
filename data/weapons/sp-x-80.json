@@ -1,0 +1,46 @@
+{
+  "id": "sp-x-80",
+  "name": "SP-X 80",
+  "class": "Sniper",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 Sniper (.300, 51 RPM, 5-round, Bolt). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE/BOLT.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 51,
+    "mag": 5,
+    "reload_s": 3,
+    "ads_ms": 590,
+    "velocity_ms": 760,
+    "move_ms": 4.5,
+    "sprint_to_fire_ms": 310,
+    "sprint_ms": 6.1,
+    "zoom_x": 0
+  },
+  "slots": {
+    "AMMUNITION": [
+      ".300 Frangible :: -4.3% Range",
+      ".300 Hollowpoint",
+      ".300 Armor Piercing",
+      ".300 Overpressured +P :: +80% Target Flinch",
+      ".300 High Velocity :: -4.3% Range",
+      ".300 Incendiary :: -9.5% Range"
+    ],
+    "BARREL": [
+      "22\" Cavalry Barrel :: -1.7% Range",
+      "22.5\" Elevate-11 :: -2.2% Range",
+      "18.5\" Bryson LR Factory :: -5.2% Range",
+      "16\" ZLR Executor 80 Barrel :: -6.3% Range"
+    ],
+    "BOLT": [
+      "ZLR Reinforced Lockbolt :: -8% Fire Rate",
+      "FSS ST87 Bolt :: +18% Fire Rate"
+    ],
+    "MAGAZINE": [
+      "8-Round Magazine :: -4% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

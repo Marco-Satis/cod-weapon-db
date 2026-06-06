@@ -1,0 +1,51 @@
+{
+  "id": "kilo-141",
+  "name": "Kilo 141",
+  "class": "AR",
+  "game": "bo6",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta AR (5.56 NATO, 750 RPM, MW2019-Ursprung; TGD nutzt BO6-Attachment-System). reload roh '2800 s' -> 2.8.",
+  "extraction": "weapon-specific-only",
+  "base": {
+    "rpm": 750,
+    "mag": 30,
+    "reload_s": 2.8,
+    "ads_ms": 240,
+    "velocity_ms": 830,
+    "move_ms": 4.8,
+    "sprint_to_fire_ms": 170,
+    "sprint_ms": 6.3,
+    "zoom_x": 1
+  },
+  "slots": {
+    "BARREL": [
+      "Gain-Twist Barrel :: +50% Bullet Velocity",
+      "Long Barrel :: +45.1% Range",
+      "Reinforced Barrel :: +24.7% Range | +25% Bullet Velocity",
+      "Short Barrel",
+      "CHF Barrel :: +49.7% Gun Kick | +20% Horiz. Recoil | +50% Vert. Recoil"
+    ],
+    "FIRE MODS": [
+      "Rapid Fire :: -15% Bullet Velocity | +9.6% Fire Rate | +15% Gun Kick | +15% Horiz. Recoil | +15% Vert. Recoil",
+      "5.56 NATO Overpressured :: +20% Bullet Velocity",
+      "Recoil Springs :: -16% Gun Kick | -16% Horiz. Recoil | -16% Vert. Recoil",
+      "5.56 NATO FMJ"
+    ],
+    "MAGAZINE": [
+      "Extended Mag I",
+      "Extended Mag II :: +7.4% ADS Time | +10% Sprint to Fire",
+      "Flip Mag :: -5.6% ADS Time | -35.7% Reload | -6% Sprint to Fire",
+      "Extended Mag III :: -6.2% ADS Move | +40.7% ADS Time | +17.9% Reload | +25% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Suppressor",
+      "Compensator :: -37.5% Gun Kick | -38% Vert. Recoil",
+      "Muzzle Brake",
+      "Ported Compensator :: -24.7% Gun Kick | -25% Vert. Recoil",
+      "Monolithic Suppressor :: +10.1% Range | +20% Bullet Velocity | +20.4% ADS Time"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO6-Pool (ref lc10.json)"
+}

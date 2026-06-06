@@ -1,0 +1,53 @@
+{
+  "id": "swordfish-a1",
+  "name": "Swordfish A1",
+  "class": "Battle Rifle",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO7 Battle Rifle (5.56 NATO, 488 RPM, 36-round, 5-Rnd-Burst). BO7-branded (Redwell/VAS/Bowen/Angler). Black-Ops-Layout: OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER universell. Weapon-spez: MUZZLE/BARREL/MAGAZINE/FIRE MODS.",
+  "extraction": "weapon-specific-only-BO-editorbound-split",
+  "base": {
+    "rpm": 488,
+    "mag": 36,
+    "reload_s": 2.62,
+    "ads_ms": 270,
+    "velocity_ms": 915,
+    "move_ms": 4.4,
+    "sprint_to_fire_ms": 240,
+    "sprint_ms": 6.9,
+    "zoom_x": 0
+  },
+  "slots": {
+    "BARREL": [
+      "17\" Angler Barrel :: +14.3% Range",
+      "16.5\" Gar-xL Barrel :: +18% Bullet Velocity",
+      "15.1\" Spatha Barrel :: +7.1% Range",
+      "13\" EAM Volare Barrel :: -5.2% ADS Time",
+      "15.9\" Bowen Melville Barrel :: -15% Gun Kick"
+    ],
+    "FIRE MODS": [
+      "5 Round Burst :: -6% Bullet Velocity",
+      "Bolt Carrier Group :: -19% Range",
+      "5.56 NATO Overpressured :: +15% Bullet Velocity",
+      "Recoil Sync Unit :: -8% Gun Kick",
+      "5.56 NATO FMJ"
+    ],
+    "MAGAZINE": [
+      "Dorado Extended Mag",
+      "VAS Samson Drum :: -6.8% Move. Speed",
+      "RO-G Speed Mag :: -13.6% Reload Time",
+      "Mini-Pearl Fast Mag :: -4.8% ADS Time"
+    ],
+    "MUZZLE": [
+      "Redwell Shade-X Suppressor :: -11.9% Range",
+      "VAS 5.56 Suppressor",
+      "Redwell 5.56 Compensator :: -19.1% Gun Kick",
+      "RL-5.56 Brake :: -9.6% Gun Kick",
+      "Titan-R 5.56 Compensator :: -20% Max Hipfire Area",
+      "Monolithic Suppressor :: +7.1% Range"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO7-Pool"
+}

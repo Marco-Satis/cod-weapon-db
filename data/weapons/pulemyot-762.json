@@ -1,0 +1,52 @@
+{
+  "id": "pulemyot-762",
+  "name": "Pulemyot 762",
+  "class": "LMG",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 LMG (7.62x54mmR, 545 RPM, 100-round Belt). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE/CONVERSION KIT.",
+  "extraction": "weapon-specific-only-MW",
+  "base": {
+    "rpm": 545,
+    "mag": 100,
+    "reload_s": 7.3,
+    "ads_ms": 420,
+    "velocity_ms": 700,
+    "move_ms": 4,
+    "sprint_to_fire_ms": 262,
+    "sprint_ms": 5.5,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "7.62X54mmR Frangible :: -4.7% Range",
+      "7.62X54mmR Hollowpoint",
+      "7.62X54mmR Tracer",
+      "7.62X54mmR Armor Piercing",
+      "7.62X54mmR Overpressured+P :: +80% Target Flinch",
+      "7.62X54mmR High Velocity :: -4.7% Range",
+      "7.62X54mmR Incendiary :: -9.7% Range",
+      "7.62X54mmR Low Grain Rounds :: -14.7% Range",
+      "7.62X54mmR High Grain Rounds :: +15.3% Range",
+      "7.62X54mmR Round Nose :: +40% Target Flinch",
+      "7.62X54mm Mono :: -1.1% Range"
+    ],
+    "BARREL": [
+      "Reckoning-8 Heavy Barrel :: -9% Gun Kick",
+      "ST Pyro Heavy Barrel :: +24.2% Range",
+      "Invoker Light Barrel :: +5% Horiz. Recoil",
+      "Supremacy-14 Short Barrel :: -10.5% Range"
+    ],
+    "CONVERSION KIT": [
+      "JAK Annihilator Bullpup Kit :: Damage profile modified"
+    ],
+    "MAGAZINE": [
+      "150 Round Belt :: -6% Move. Speed",
+      "75 Round Belt :: +3% Move. Speed",
+      "200 Round Belt :: -10% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

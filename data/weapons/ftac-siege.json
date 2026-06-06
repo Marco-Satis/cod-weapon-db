@@ -1,0 +1,50 @@
+{
+  "id": "ftac-siege",
+  "name": "FTAC Siege",
+  "class": "Pistol",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 Pistol (9mm, 1199 RPM Full-Auto-Machine-Pistol, 32-round). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 1199,
+    "mag": 32,
+    "reload_s": 3,
+    "ads_ms": 172,
+    "velocity_ms": 375,
+    "move_ms": 5.2,
+    "sprint_to_fire_ms": 80,
+    "sprint_ms": 6.6,
+    "zoom_x": 0.8
+  },
+  "slots": {
+    "AMMUNITION": [
+      "9mm High Grain Rounds :: +16.7% Range",
+      "9mm Low Grain Rounds :: -13.7% Range",
+      "9mm AET Rounds :: -30% Target Flinch",
+      "9mm Hardened Rounds :: -26% Range",
+      "9mm Frangible :: -3.3% Range",
+      "9mm Hollowpoint",
+      "9mm Armor Piercing",
+      "9mm Overpressured +P :: +80% Target Flinch",
+      "9mm High Velocity :: +30% Bullet Velocity"
+    ],
+    "BARREL": [
+      "CMRN-50 :: +15% Bullet Velocity",
+      "Ratchet BE :: +30% Range",
+      "SuperTac-VI :: +26% Range",
+      "Ratchet BE Tac :: -6.7% Range",
+      "Mouse 40 :: -5.7% Range",
+      "RN5-XV 9mm :: -6% Bullet Velocity",
+      "NST-81 :: +16% Range"
+    ],
+    "MAGAZINE": [
+      "20 Round Mag :: +3% Move. Speed",
+      "50 Round Drum :: -8% Move. Speed",
+      "72 Round Drum :: -12% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

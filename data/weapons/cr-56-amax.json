@@ -1,0 +1,51 @@
+{
+  "id": "cr-56-amax",
+  "name": "CR-56 AMAX",
+  "class": "AR",
+  "game": "bo6",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO6 AR (Galil-Reboot). Universelle Slots = BO6-Pool.",
+  "extraction": "weapon-specific-only",
+  "base": {
+    "rpm": 632,
+    "mag": 30,
+    "reload_s": 2.77,
+    "ads_ms": 250,
+    "velocity_ms": 900,
+    "move_ms": 4.7,
+    "sprint_to_fire_ms": 180,
+    "sprint_ms": 6.2,
+    "zoom_x": 1
+  },
+  "slots": {
+    "BARREL": [
+      "Gain-Twist Barrel :: +50% Bullet Velocity",
+      "Long Barrel :: +45% Range",
+      "Reinforced Barrel :: +25% Range | +25% Bullet Velocity",
+      "Short Barrel",
+      "CHF Barrel :: +58% Gun Kick | +40% Horiz. Recoil | +60% Vert. Recoil"
+    ],
+    "FIRE_MODS": [
+      "Rapid Fire :: -15% Bullet Velocity | +9.2% Fire Rate | +15% Gun Kick | +15.1% Horiz | +15% Vert",
+      "7.62x39mm Overpressured :: +20% Bullet Velocity",
+      "Recoil Springs :: -13% Gun Kick | -13% Horiz. Recoil | -13% Vert. Recoil",
+      "7.62x39mm FMJ"
+    ],
+    "MAGAZINE": [
+      "Extended Mag :: +9.6% Reload Time",
+      "M-67 10-R Mags :: -21.7% Range | +16.3% Bullet Velocity | -50% Fire Rate | -10.5% Gun Kick | +137.7% Horiz | +6.6% Vert | +13.3% ADS Move | -10% ADS Time | -18.1% Reload",
+      "Extended Mag II :: +7.1% ADS Time | +20.5% Reload | +9.3% Sprint to Fire",
+      "Flip Mag :: -5.4% ADS Time | -13.3% Reload | -5.6% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Suppressor",
+      "Compensator :: -31.4% Gun Kick | -36% Vert. Recoil",
+      "Muzzle Brake",
+      "Ported Compensator :: -22% Gun Kick | -25% Vert. Recoil",
+      "Monolithic Suppressor :: +10% Range | +20% Bullet Velocity | +19.6% ADS Time"
+    ],
+    "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO6-Pool (ref lc10.json)"
+  }
+}

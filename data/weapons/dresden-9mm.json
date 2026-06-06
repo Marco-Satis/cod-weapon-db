@@ -1,0 +1,24 @@
+{
+  "id": "dresden-9mm",
+  "name": "Dresden 9mm",
+  "class": "SMG",
+  "game": "unknown",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta SMG (9mm, 536 RPM). TGD S3.5 hat KEINE Attachment-Builder-Daten (nSlots=0 trotz geladener Waffe) -> base-only, wie REV-46-Gap. Attachments + Ära (Game-Filter-Tab) via codmunity-S4 / TGD-S4-Update nachtragen.",
+  "extraction": "base-only (ns=0)",
+  "base": {
+    "rpm": 536,
+    "mag": 32,
+    "reload_s": 2.86,
+    "ads_ms": 200,
+    "velocity_ms": 700,
+    "move_ms": 5.0,
+    "sprint_to_fire_ms": 140,
+    "sprint_ms": 6.5,
+    "zoom_x": 1
+  },
+  "slots": {},
+  "_universal": "TBD"
+}

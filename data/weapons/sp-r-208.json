@@ -1,0 +1,52 @@
+{
+  "id": "sp-r-208",
+  "name": "SP-R 208",
+  "class": "Marksman Rifle",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 Marksman Rifle (7.62x51, 59 RPM, 5-round, Bolt). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/COMB universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE/BOLT.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 59,
+    "mag": 5,
+    "reload_s": 3,
+    "ads_ms": 354,
+    "velocity_ms": 730,
+    "move_ms": 4.5,
+    "sprint_to_fire_ms": 307,
+    "sprint_ms": 6,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "7.62X51mm Low Grain Rounds :: -14.9% Range",
+      "7.62X51mm High Grain Rounds :: +13.8% Range",
+      "7.62X51mm Round Nose :: +40% Target Flinch",
+      "7.62X51mm Mono :: -1.5% Range",
+      "7.62X51mm Frangible :: -5% Range",
+      "7.62X51mm Hollowpoint",
+      "7.62X51mm Armor Piercing",
+      "7.62X51mm Overpressured +P :: +80% Target Flinch",
+      "7.62X51mm High Velocity :: -5% Range",
+      "7.62X51mm Incendiary :: -10.3% Range"
+    ],
+    "BARREL": [
+      "22.5\" Elevate-11 :: +16% Range",
+      "23.5\" Fluted R-67 :: +24.1% Range",
+      "18.5\" XRK Resonate :: -8.1% Range",
+      "16\" ZLR Executor 80 Barrel :: -2.4% Range",
+      "12.5\" Carbon Barrel :: -5.9% Range"
+    ],
+    "BOLT": [
+      "ZLR Reinforced Lockbolt :: -9% Fire Rate",
+      "FSS ST87 Bolt :: +13% Fire Rate"
+    ],
+    "MAGAZINE": [
+      "15 Round Mag :: -8% Move. Speed",
+      "10 Round Mag :: -4% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/COMB = MW-Pool (ref kar98k.json)"
+}

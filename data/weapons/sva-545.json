@@ -1,0 +1,46 @@
+{
+  "id": "sva-545",
+  "name": "SVA 545",
+  "class": "AR",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 AR (5.45, 740 RPM, 30-round, Hyperburst-Basis). Roster-Varianten (Burst/No-Hyperburst) = Stat-Splits, hier nur Basis. MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 740,
+    "mag": 30,
+    "reload_s": 2.6,
+    "ads_ms": 230,
+    "velocity_ms": 720,
+    "move_ms": 4.9,
+    "sprint_to_fire_ms": 189,
+    "sprint_ms": 6.4,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.45 Low Grain Rounds :: -15.1% Range",
+      "5.45 High Grain Rounds :: +15.1% Range",
+      "5.45 Armor Piercing",
+      "5.45 Frangible :: -5% Range",
+      "5.45 Hollowpoint",
+      "5.45 High Velocity :: -5% Range",
+      "5.45 Overpressured +P :: +80% Target Flinch"
+    ],
+    "BARREL": [
+      "STV Precision Barrel :: +12.5% Range",
+      "Warpig Short Barrel :: +3% Horiz. Recoil",
+      "SA Lightweight CQC Barrel :: +6% Horiz. Recoil",
+      "SVA-5 Short Barrel :: -8.5% Range",
+      "NT Quietus Suppressed Barrel :: -20.8% Range"
+    ],
+    "MAGAZINE": [
+      "20 Round Mag :: +2% Move. Speed",
+      "45 Round Mag :: -4% Move. Speed",
+      "60 Round Mag :: -7% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

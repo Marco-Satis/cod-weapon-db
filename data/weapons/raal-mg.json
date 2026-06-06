@@ -1,0 +1,46 @@
+{
+  "id": "raal-mg",
+  "name": "RAAL MG",
+  "class": "LMG",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 LMG (.338 Magnum, 555 RPM, 75-round Belt). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE/CONVERSION KIT.",
+  "extraction": "weapon-specific-only-MW",
+  "base": {
+    "rpm": 555,
+    "mag": 75,
+    "reload_s": 8,
+    "ads_ms": 380,
+    "velocity_ms": 810,
+    "move_ms": 4.2,
+    "sprint_to_fire_ms": 216,
+    "sprint_ms": 5.7,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      ".338 Magnum Round Nose :: +40% Target Flinch",
+      ".338 Mag Frangible :: -4.9% Range",
+      ".338 Mag Hollowpoint",
+      ".338 Mag Armor Piercing",
+      ".338 Mag Overpressured +P :: +80% Target Flinch",
+      ".338 Mag High Velocity :: -4.9% Range",
+      ".338 Mag Incendiary :: -9.9% Range"
+    ],
+    "BARREL": [
+      "EXF Gulf-16 Barrel :: -3% Range",
+      "21\" EXF Rhino Barrel :: +13% Bullet Velocity",
+      "26.5\" Demo Field Pro Barrel :: +16.1% Range"
+    ],
+    "CONVERSION KIT": [
+      "Jak Protean :: Damage profile modified"
+    ],
+    "MAGAZINE": [
+      "100 Round Belt Mag :: -6% Move. Speed",
+      "50 Round Belt Mag :: +4% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

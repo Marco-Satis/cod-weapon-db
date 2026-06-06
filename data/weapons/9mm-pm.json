@@ -1,0 +1,53 @@
+{
+  "id": "9mm-pm",
+  "name": "9mm PM",
+  "class": "Pistol",
+  "game": "bo6",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO6 (Makarov). Universelle Slots (MUZZLE/OPTIC/REAR GRIP/STOCK/LASER) = BO6-Standard-Pool (ref lc10.json).",
+  "extraction": "weapon-specific-only",
+  "all_slots": [
+    "OPTIC",
+    "MUZZLE",
+    "BARREL",
+    "MAGAZINE",
+    "REAR GRIP",
+    "STOCK",
+    "LASER",
+    "FIRE MODS"
+  ],
+  "base": {
+    "rpm": 375,
+    "mag": 10,
+    "reload_s": 2.83,
+    "ads_ms": 150,
+    "velocity_ms": 340,
+    "move_ms": 5.2,
+    "sprint_to_fire_ms": 100,
+    "sprint_ms": 6.5
+  },
+  "slots": {
+    "BARREL": [
+      "Gain-Twist Barrel :: +45% Bullet Velocity",
+      "Long Barrel :: +29.9% Range",
+      "Reinforced Barrel :: +18.1% Range | +25% Bullet Velocity",
+      "Short Barrel",
+      "CHF Barrel :: +49% Gun Kick | +20% Horiz. Recoil | +50% Vert. Recoil"
+    ],
+    "FIRE_MODS": [
+      "Rapid Fire :: kein Damage-Mod | +11.2% Fire Rate | +14.8% Gun Kick | +10% Horiz. Recoil | +15% Vert. Recoil",
+      "9x18mm Makarov Overpressured :: +20% Bullet Velocity",
+      "Recoil Springs :: -10% Gun Kick | -10% Horiz. Recoil | -10% Vert. Recoil",
+      "9x18mm Makarov FMJ"
+    ],
+    "MAGAZINE": [
+      "Extended Mag I :: +8% Reload Time",
+      "Fast Mag I :: -16.7% ADS Time | -24.5% Reload Time | -20% Sprint to Fire",
+      "Extended Mag II :: +13.3% ADS Time | +12.5% Reload Time | +20% Sprint to Fire",
+      "Fast Mag II :: -16.7% ADS Time | -25% Reload Time | -20% Sprint to Fire"
+    ],
+    "_universal": "MUZZLE/OPTIC/REAR GRIP/STOCK/LASER = BO6-Standard-Pool (ref lc10.json)"
+  }
+}

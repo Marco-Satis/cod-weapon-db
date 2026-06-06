@@ -1,0 +1,56 @@
+{
+  "id": "bp50",
+  "name": "BP50",
+  "class": "AR",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 AR (Jak Revenger Kit konvertiert auf 9mm). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 857,
+    "mag": 30,
+    "reload_s": 2.9,
+    "ads_ms": 230,
+    "velocity_ms": 710,
+    "move_ms": 4.6,
+    "sprint_to_fire_ms": 168,
+    "sprint_ms": 6.2,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.56 NATO Low Grain :: -15% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz | -8% Vert",
+      "5.56 NATO High Grain :: +15% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz | +8% Vert",
+      "5.56 NATO Round Nose :: +50% Target Flinch | -20.1% Range",
+      "5.56 NATO Mono :: -1.4% Range | +8% Bullet Velocity | +2% Gun Kick | +4% Horiz | +4% Vert",
+      "5.56 Frangible :: -6.5% Range",
+      "5.56 Hollowpoint",
+      "5.56 Armor Piercing",
+      "5.56 Overpressured +P :: +80% Target Flinch",
+      "5.56 High Velocity :: -6.5% Range | +20% Bullet Velocity",
+      "5.56 Incendiary :: -9.9% Range | -25% Bullet Velocity",
+      "9mm Low Grain :: -15% Bullet Velocity | -5% Gun Kick | -8% Horiz | -8% Vert",
+      "9mm Armour Piercing",
+      "9mm Frangible",
+      "9mm Hollowpoint",
+      "9mm High Velocity :: +30% Bullet Velocity | +5% Horiz | +5% Vert",
+      "9mm High Grain :: +15% Bullet Velocity | +5% Gun Kick | +8% Horiz | +8% Vert",
+      "9mm Overpressured :: +80% Target Flinch"
+    ],
+    "BARREL": [
+      "Lore-9 Heavy Barrel :: +15% Range | +18% Bullet Velocity | -5% Gun Kick | -7% Horiz | -7% Vert | +18% Idle Sway | +18% Max Hipfire | -Mobility | +9% Sprint to Fire",
+      "LHT-200 Barrel :: -9.3% Range | -18% Bullet Velocity | +Mobility",
+      "Normandy-41 Short Barrel :: +6% Horiz | +7% Vert | -10% Idle Sway | -10% Max Hipfire | +3% Sprint Speed | -7% ADS Time | -8% Sprint to Fire"
+    ],
+    "CONVERSION KIT": [
+      "Jak Revenger Kit :: Damage-Profil modifiziert | -35% Bullet Velocity | +15% Fire Rate | +15% Horiz | -30% Vert | +Mobility | -22% ADS Time | +26% Reload | -20% Sprint to Fire"
+    ],
+    "MAGAZINE": [
+      "45 Round Mag :: -4% Move | -5% Crouch | -2% Sprint | -4% ADS Move | +9% ADS Time | +24% Reload | +1% Sprint to Fire",
+      "20 Round Mag :: +Mobility | -8% ADS Time | -14% Reload | -15% Sprint to Fire"
+    ],
+    "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "lw3a1-frostline",
+  "name": "LW3A1 Frostline",
+  "class": "Sniper",
+  "game": "bo6",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO6 Bolt-Sniper (7.62 NATO, 45 RPM, 5-round). reload roh '3330 s' -> 3.33. Universelle Slots = BO6-Pool.",
+  "extraction": "weapon-specific-only",
+  "base": {
+    "rpm": 45,
+    "mag": 5,
+    "reload_s": 3.33,
+    "ads_ms": 535,
+    "velocity_ms": 940,
+    "move_ms": 4.6,
+    "sprint_to_fire_ms": 290,
+    "sprint_ms": 6.1
+  },
+  "slots": {
+    "BARREL": [
+      "Gain-Twist Barrel :: +25% Bullet Velocity",
+      "Long Barrel :: +25% Range",
+      "Reinforced Barrel :: +10.1% Range | +10% Bullet Velocity",
+      "Short Barrel",
+      "CHF Barrel :: Makes leg damage the same as chest/stomach | +49.8% Gun Kick | +20% Horiz. Recoil | +50% Vert. Recoil | +22.4% ADS Time"
+    ],
+    "FIRE MODS": [
+      "Rapid Fire :: Does not modify damage profile | -15% Bullet Velocity | +28.9% Fire Rate | +20% Gun Kick | +15% Horiz. Recoil | +20% Vert. Recoil",
+      "7.62 NATO Overpressured :: +15% Bullet Velocity",
+      "7.62 NATO FMJ"
+    ],
+    "MAGAZINE": [
+      "Extended Mag I :: +3.7% ADS Time | +21% Reload | +6.9% Sprint to Fire",
+      "Fast Mag I :: -2.8% ADS Time | -12.9% Reload | -3.4% Sprint to Fire",
+      "Extended Mag II :: +3.7% ADS Time | +21% Reload | +6.9% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Suppressor",
+      "Compensator :: -29.7% Gun Kick | -30% Vert. Recoil",
+      "Muzzle Brake",
+      "Ported Compensator :: -19.8% Gun Kick | -20% Vert. Recoil",
+      "Monolithic Suppressor :: +10.1% Range | +20% Bullet Velocity | +10.3% ADS Time"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO6-Pool (ref lc10.json)"
+}

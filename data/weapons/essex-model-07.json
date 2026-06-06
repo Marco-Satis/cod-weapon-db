@@ -1,0 +1,58 @@
+{
+  "id": "essex-model-07",
+  "name": "Essex Model 07",
+  "name_de": "Essex Modell 07",
+  "class": "Marksman Rifle",
+  "game": "bo6",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO6 Lever-Action Marksman (7.62 NATO, 740 RPM). Weapon-unique Slot = LEVER. MUZZLE/BARREL = generischer BO6-Pool mit weapon-spez. %-Deltas.",
+  "extraction": "weapon-specific-only (+LEVER)",
+  "base": {
+    "rpm": 740,
+    "mag": 8,
+    "reload_s": 3.16,
+    "ads_ms": 330,
+    "velocity_ms": 520,
+    "move_ms": 4.6,
+    "sprint_to_fire_ms": 250,
+    "sprint_ms": 6.1,
+    "zoom_x": 1
+  },
+  "slots": {
+    "BARREL": [
+      "Gain-Twist Barrel :: +40% Bullet Velocity",
+      "Long Barrel :: +35% Range",
+      "Reinforced Barrel :: +20% Range | +30% Bullet Velocity",
+      "Short Barrel",
+      "CHF Barrel :: +48.5% Gun Kick | +20.1% Horiz. Recoil | +55% Vert. Recoil"
+    ],
+    "FIRE MODS": [
+      "Rapid Fire :: Does not modify damage profile | -20% Bullet Velocity | +11.9% Fire Rate | +11.1% Gun Kick | +15% Horiz. Recoil | +10% Vert. Recoil",
+      "7.62 NATO Overpressured :: +20% Bullet Velocity",
+      "Recoil Springs :: -18% Gun Kick | -17.9% Horiz. Recoil | -18% Vert. Recoil",
+      "7.62 NATO FMJ"
+    ],
+    "LEVER": [
+      "Quickdraw Riser :: -27.3% ADS Time",
+      "Assault Lever :: -30% Sprint to Fire",
+      "Commando Riser :: -13.6% ADS Time | -10% Sprint to Fire",
+      "Ergonomic Riser :: -16.7% ADS Time",
+      "CQB Lever :: -20% Sprint to Fire"
+    ],
+    "MAGAZINE": [
+      "Extended Mag I :: +1.3% Reload Time",
+      "Stripper Clip :: -4.5% ADS Time | -28.5% Reload Time | -4% Sprint to Fire",
+      "Extended Mag II :: +6.1% ADS Time | +7.6% Reload Time | +8% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Suppressor",
+      "Compensator :: -26.4% Gun Kick | -35% Vert. Recoil",
+      "Muzzle Brake",
+      "Ported Compensator :: -19.2% Gun Kick | -25% Vert. Recoil",
+      "Monolithic Suppressor :: +10% Range | +20% Bullet Velocity | +16.7% ADS Time"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL/STOCK/LASER = BO6-Pool (ref lc10.json)"
+}

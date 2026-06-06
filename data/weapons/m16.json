@@ -1,0 +1,50 @@
+{
+  "id": "m16",
+  "name": "M16",
+  "class": "AR",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 Burst-AR (5.56 NATO, 596 RPM). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 596,
+    "mag": 30,
+    "reload_s": 2.6,
+    "ads_ms": 240,
+    "velocity_ms": 720,
+    "move_ms": 4.6,
+    "sprint_to_fire_ms": 189,
+    "sprint_ms": 6.1,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.56 NATO Low Grain Rounds :: -16% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "5.56 NATO High Grain Rounds :: +14.8% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "5.56 NATO Round Nose :: +50% Target Flinch | -20.1% Range",
+      "5.56 NATO Mono :: -1.6% Range | +8% Bullet Velocity | +3% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      "5.56 Frangible :: -5.1% Range",
+      "5.56 Hollowpoint",
+      "5.56 Armor Piercing",
+      "5.56 Overpressured +P :: +80% Target Flinch",
+      "5.56 High Velocity :: -5.1% Range | +20% Bullet Velocity"
+    ],
+    "BARREL": [
+      "14\" Carbine Shroud :: -3.1% Range | +9% Bullet Velocity | -9% Gun Kick | -9% Horiz. Recoil | -9% Vert. Recoil | +4% Idle Sway | -5% Max Hipfire | -4% Move | -4% Crouch | -4% Sprint | -5% ADS Move",
+      "Demo 501 Factory :: -4.1% Range | -6% Bullet Velocity | +4% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil | +6% Idle Sway | -6% Max Hipfire | +3% Move | +3% Crouch | +2% Sprint | +4% ADS Move | -10% ADS Time",
+      "11.5\" T-H4 Barrel :: -7% Range | -11% Bullet Velocity | +7% Gun Kick | +7% Horiz. Recoil | +7% Vert. Recoil | +11% Idle Sway | -11% Max Hipfire | +5% Move | +5% Crouch | +3% Sprint | +8% ADS Move | -17% ADS Time",
+      "11.5\" Carbine Shroud :: -8% Range | +5% Bullet Velocity | -9% Gun Kick | -9% Horiz. Recoil | -9% Vert. Recoil | +12% Idle Sway | -13% Max Hipfire | -4% Move | -4% Crouch | -4% Sprint | -5% ADS Move | -8% ADS Time"
+    ],
+    "CONVERSION KIT": [
+      "Jak Patriot :: Damage profile modified | +36% Fire Rate | -60% Gun Kick | -45% Horiz. Recoil | -45% Vert. Recoil | +1% Max Hipfire"
+    ],
+    "MAGAZINE": [
+      "15 Round Magazine :: +4% Move | +3% Crouch | +3% Sprint | +15% ADS Move | -15% ADS Time | -9% Reload | -30% Sprint to Fire",
+      "45 Round Mag :: -6% Move | -7% Crouch | -4% Sprint | -8% ADS Move | +10% ADS Time | +10% Reload | +1% Sprint to Fire",
+      "60 Round Mag :: -10% Move | -11% Crouch | -7% Sprint | -13% ADS Move | +16% ADS Time | +21% Reload | +2% Sprint to Fire"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

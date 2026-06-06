@@ -1,0 +1,51 @@
+{
+  "id": "shadow-sk",
+  "name": "Shadow SK",
+  "class": "Marksman Rifle",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "BO7 Marksman (.300 Win Mag, 100 RPM semi-auto, 10-round). Endgame S4 S-Tier (Torso-Buff). BO7-branded (SWF/EMT3/Eclipse/Strand/Bell-XI). Black-Ops-Layout: OPTIC/STOCK/REAR GRIP/LASER universell. Weapon-spez: MUZZLE/BARREL/MAGAZINE/FIRE MODS.",
+  "extraction": "weapon-specific-only-BO-editorbound-split",
+  "base": {
+    "rpm": 100,
+    "mag": 10,
+    "reload_s": 2.52,
+    "ads_ms": 500,
+    "velocity_ms": 920,
+    "move_ms": 4.7,
+    "sprint_to_fire_ms": 260,
+    "sprint_ms": 7.1,
+    "zoom_x": 0
+  },
+  "slots": {
+    "BARREL": [
+      "22.47\" Strand Barrel :: +20% Range",
+      "19.6\" Bell-XI Barrel :: +25% Bullet Velocity",
+      "18.3\" Dimpled-4150 Barrel :: +10% Range",
+      "17\" Thrust Barrel :: -4% ADS Time",
+      "19.6\" EMT3 Fluted Barrel :: +10% Bullet Velocity"
+    ],
+    "FIRE MODS": [
+      "LW Trigger :: +8% Fire Rate",
+      "300 WM Overpressured :: +20% Bullet Velocity",
+      "Buffer Spring :: -10% Gun Kick",
+      "300 WM FMJ"
+    ],
+    "MAGAZINE": [
+      "Targil Extended Mag :: +4% ADS Time",
+      "Riptide Fast Mag :: -3% ADS Time",
+      "Progenitor Extended :: +6% ADS Time",
+      "Rapid Gulf Fast Mag II :: -4% ADS Time"
+    ],
+    "MUZZLE": [
+      "SWF Tishina-II",
+      "EMT3 Compensator :: -14.9% Gun Kick",
+      "Eclipse 7.62 Brake :: -7.9% Gun Kick",
+      "EMT3 Ported-70 :: -15% Max Hipfire Area",
+      "Monolithic Suppressor :: +8.6% Range"
+    ]
+  },
+  "_universal": "OPTIC/STOCK/REAR GRIP/LASER = BO7-Pool"
+}

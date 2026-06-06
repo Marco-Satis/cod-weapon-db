@@ -1,0 +1,55 @@
+{
+  "id": "iso-hemlock",
+  "name": "ISO Hemlock",
+  "class": "AR",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 AR (Dual-Kaliber 5.56 NATO / .300 BLK, 600 RPM). AMMUNITION=17 (beide Kaliber) weapon-spez. Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE; AMMUNITION trotz >15 voll erfasst)",
+  "base": {
+    "rpm": 600,
+    "mag": 30,
+    "reload_s": 3.1,
+    "ads_ms": 260,
+    "velocity_ms": 720,
+    "move_ms": 4.7,
+    "sprint_to_fire_ms": 210,
+    "sprint_ms": 6.1,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.56 NATO Low Grain Rounds :: -15% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "5.56 NATO High Grain Rounds :: +15% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "5.56 NATO Round Nose :: +50% Target Flinch | -20.1% Range",
+      "5.56 NATO Mono :: -1.6% Range | +8% Bullet Velocity | +2% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      "5.56 Frangible :: -4.9% Range",
+      "5.56 Hollowpoint",
+      "5.56 Incendiary :: -10% Range | -25% Bullet Velocity",
+      "5.56 Armor Piercing",
+      "5.56 Overpressured +P :: +80% Target Flinch",
+      "5.56 High Velocity :: -4.9% Range | +20% Bullet Velocity",
+      "Blackout Round Nose :: +40% Target Flinch | -20.1% Range",
+      "Blackout Mono :: -1.6% Range | +8% Bullet Velocity | +2% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      ".300 BLK Armor Piercing :: Damage profile modified | -51% Bullet Velocity | -8% Fire Rate | +35% Gun Kick | +13% Horiz. Recoil | +9% Vert. Recoil",
+      ".300 Blk Frangible :: Damage profile modified | -51% Bullet Velocity | -8% Fire Rate | +35% Gun Kick | +13% Horiz. Recoil | +9% Vert. Recoil",
+      "Blackout Low Grain Rounds :: -15% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "Blackout High Grain Rounds :: +15% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      ".300 Blackout :: Damage profile modified | -51% Bullet Velocity | -8% Fire Rate | +35% Gun Kick | +13% Horiz. Recoil | +9% Vert. Recoil"
+    ],
+    "BARREL": [
+      "RCQ-7 :: -5.9% Range | -7% Bullet Velocity | +3% Gun Kick | +3% Horiz. Recoil | +3% Vert. Recoil | +9% Idle Sway | -10% Max Hipfire | +2% Move | +2% Crouch | +1% Sprint | +3% ADS Move | -12% ADS Time",
+      "Series 4-MR :: -3% Range | +9% Bullet Velocity | -9% Gun Kick | -9% Horiz. Recoil | -9% Vert. Recoil | +4% Idle Sway | -5% Max Hipfire | -4% Move | -4% Crouch | -4% Sprint | -5% ADS Move | -1% ADS Time",
+      "Cipher-121 :: -8.1% Range",
+      "LR-30/56 :: +31.9% Range | +19% Bullet Velocity | -12% Idle Sway | +12% Max Hipfire | +9% ADS Time",
+      "Fielder-T50 :: +31.9% Range | +32% Bullet Velocity | -9% Gun Kick | -9% Horiz. Recoil | -9% Vert. Recoil | -12% Idle Sway | +12% Max Hipfire | -4% Move | -4% Crouch | -4% Sprint | -5% ADS Move | +13% ADS Time"
+    ],
+    "MAGAZINE": [
+      "45 Round Mag :: -6% Move | -7% Crouch | -4% Sprint | -8% ADS Move | +9% ADS Time | +22% Reload",
+      "20 Round Mag :: +2% Move | +2% Crouch | +1% Sprint | +8% ADS Move | -8% ADS Time | -15% Reload | -15% Sprint to Fire"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

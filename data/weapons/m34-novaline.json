@@ -1,0 +1,49 @@
+{
+  "id": "m34-novaline",
+  "name": "M34 Novaline",
+  "class": "Battle Rifle",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "BO7-native Battle Rifle (7.62 NATO, 235 RPM semi, 20-round; Endgame-Sleeper-Pick +50% Dmg). BO7-Naming (Callisto/Velox/Severus/Bowen). Universelle Slots = BO7-Pool.",
+  "extraction": "weapon-specific-only",
+  "base": {
+    "rpm": 235,
+    "mag": 20,
+    "reload_s": 2.55,
+    "ads_ms": 300,
+    "velocity_ms": 885,
+    "move_ms": 4.4,
+    "sprint_to_fire_ms": 250,
+    "sprint_ms": 7
+  },
+  "slots": {
+    "BARREL": [
+      "18.5\" Callisto Barrel :: +16.1% Range | +5% ADS Time",
+      "17.3\" Velox-90 Barrel :: +18% Bullet Velocity | -4.6% Gun Kick | -5% Vert. Recoil | -3.6% ADS Move",
+      "17\" BI-Hybrid Barrel :: +7.8% Range | +8% Bullet Velocity | +3.3% ADS Time",
+      "14.2\" Severus Light Barrel :: -6.7% ADS Time | -10% Sprint to Fire",
+      "15\" Cyclops-03 Barrel :: -17.3% Gun Kick | -10% Horiz. Recoil | -18% Vert. Recoil | -15.7% Idle Sway | -20% Flinch | -7.1% ADS Move | +9.3% ADS Time | +8% Sprint to Fire"
+    ],
+    "FIRE MODS": [
+      "Bolt Carrier Group :: -20% Range | -15% Bullet Velocity | +1.7% Fire Rate | +35% Gun Kick | +35% Horiz. Recoil | +35% Vert. Recoil",
+      "7.62 NATO Overpressured :: +20% Bullet Velocity",
+      "Recoil Sync Unit :: -14.1% Gun Kick | -5% Horiz. Recoil | -15% Vert. Recoil",
+      "7.62 NATO FMJ"
+    ],
+    "MAGAZINE": [
+      "Bowen 762 Extended Mag",
+      "Templar Flip Mags :: -24% Reload",
+      "Syncopate Fast Mag :: -3.3% ADS Time | -33.8% Reload | -4% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Greaves A-762",
+      "RL-7.62 Compensator :: -16.4% Gun Kick | -18% Vert. Recoil",
+      "Redwell 7.62 Brake :: -9.2% Gun Kick | -10% Vert. Recoil",
+      "Titan-R 7.62 Compensator :: -25% Max Hipfire",
+      "Monolithic Suppressor :: +6.7% Range | +20% Bullet Velocity | +18.3% ADS Time"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO7-Pool"
+}

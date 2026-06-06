@@ -1,0 +1,50 @@
+{
+  "id": "x12",
+  "name": "X12",
+  "class": "Pistol",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 Pistol (9mm, 364 RPM semi-auto, 17-round). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE/TRIGGER ACTION.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 364,
+    "mag": 17,
+    "reload_s": 2.1,
+    "ads_ms": 150,
+    "velocity_ms": 375,
+    "move_ms": 5.2,
+    "sprint_to_fire_ms": 80,
+    "sprint_ms": 6.8,
+    "zoom_x": 0.8
+  },
+  "slots": {
+    "AMMUNITION": [
+      "9mm High Grain Rounds :: +15.1% Range",
+      "9mm Low Grain Rounds :: -15.1% Range",
+      "9mm AET Rounds :: -30% Target Flinch",
+      "9mm Hardened Rounds :: -27.4% Range",
+      "9mm Frangible :: -5% Range",
+      "9mm Hollowpoint",
+      "9mm Armor Piercing",
+      "9mm Overpressured +P :: +80% Target Flinch",
+      "9mm High Velocity :: +30% Bullet Velocity"
+    ],
+    "BARREL": [
+      "XRK Sidewinder-6 Slide :: +9% Bullet Velocity",
+      "XRK LUC-9 :: -4% Bullet Velocity"
+    ],
+    "MAGAZINE": [
+      "24 Round Mag :: -4% Move. Speed",
+      "33 Round Mag :: -8% Move. Speed",
+      "50 Round Drum :: -16% Move. Speed"
+    ],
+    "TRIGGER ACTION": [
+      "XRK Lighting Fire :: +43% Fire Rate",
+      "XRK TR9 Trigger :: +18% Fire Rate",
+      "XRK V6 Match :: -9% Fire Rate"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

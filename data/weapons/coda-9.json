@@ -1,0 +1,24 @@
+{
+  "id": "coda-9",
+  "name": "Coda 9",
+  "class": "SMG",
+  "game": "bo6",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO6 SMG (9mm, 938 RPM, 20-round). nSlots=0 in TGD S3.5 (kein Builder-Daten, base-only wie REV-46/Dresden). Aufsatz-Deltas via codmunity-S4/TGD-S4-Update nachziehen.",
+  "extraction": "base-only",
+  "base": {
+    "rpm": 938,
+    "mag": 20,
+    "reload_s": 2.38,
+    "ads_ms": 180,
+    "velocity_ms": 280,
+    "move_ms": 5.1,
+    "sprint_to_fire_ms": 120,
+    "sprint_ms": 7.5,
+    "zoom_x": 0
+  },
+  "slots": {},
+  "_universal": "keine Slot-Daten in S3.5 (S4-Neuwaffe-Gap)"
+}

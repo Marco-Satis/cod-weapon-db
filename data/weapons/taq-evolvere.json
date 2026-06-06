@@ -1,0 +1,53 @@
+{
+  "id": "taq-evolvere",
+  "name": "TAQ Evolvere",
+  "class": "LMG",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 LMG (Dual-Caliber 7.62x51 default + 5.56 Conversion, 500 RPM, 100-round Belt). AMMUNITION=16 (beide Kaliber). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE.",
+  "extraction": "weapon-specific-only-MW-editorbound-dualcaliber",
+  "base": {
+    "rpm": 500,
+    "mag": 100,
+    "reload_s": 6.8,
+    "ads_ms": 415,
+    "velocity_ms": 695,
+    "move_ms": 4.2,
+    "sprint_to_fire_ms": 257,
+    "sprint_ms": 5.9,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "7.62X51mm Frangible :: -4.1% Range",
+      "7.62X51mm Hollowpoint",
+      "7.62X51mm Armor Piercing",
+      "7.62X51mm Overpressured +P :: +80% Target Flinch",
+      "7.62X51mm High Velocity :: -4.1% Range",
+      "7.62X51mm Incendiary :: -9% Range",
+      "7.62X51mm High Grain Rounds :: +16.3% Range",
+      "7.62X51mm Low Grain Rounds :: -14.3% Range",
+      "5.56 Incendiary :: +1% Swap Speed",
+      "5.56 High Velocity :: +1% Swap Speed",
+      "5.56 Hollowpoint :: +1% Swap Speed",
+      "5.56 Armor Piercing :: +1% Swap Speed",
+      "5.56 Overpressured +P :: +1% Swap Speed",
+      "5.56 Frangible :: +1% Swap Speed",
+      "5.56 NATO High Grain Rounds :: +16.3% Range",
+      "5.56 NATO Low Grain Rounds :: -14.3% Range"
+    ],
+    "BARREL": [
+      "LRF Righteous Long Barrel :: +21.2% Range",
+      "Eviction 762 Heavy Barrel :: -9% Gun Kick",
+      "JAB-30 Short Barrel :: -2% Horiz. Recoil"
+    ],
+    "MAGAZINE": [
+      "50 Round 762 Belt :: +2% Move. Speed",
+      "100 Round 556 Belt :: Damage profile modified",
+      "200 Round 556 Belt :: Damage profile modified"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

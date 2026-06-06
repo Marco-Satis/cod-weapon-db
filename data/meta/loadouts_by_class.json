@@ -1,0 +1,808 @@
+{
+  "category": "meta_loadouts_by_class",
+  "game": "bo7",
+  "data_version": "2026-06-05",
+  "source": "wzhub.gg (Einzel-Slugs bo7-<waffe>) — Konsolidierung aus 24 Waffen-Datenblaettern (23 mit Daten + HDR-Negativ)",
+  "verbatim_note": "Attachment-Namen woertlich von wzhub uebernommen, inkl. offensichtlicher Quell-Tippfehler (z.B. VOYAK KT-3 'MONOLITHIC SUPPRESSPR' statt 'SUPPRESSOR'). [sic] gilt global. Alle Meta-Builds haben 5 Attachment-Slots (kein 8-Slot-Build in den Quelldateien).",
+  "rating_note": "rating = wzhub-Community-Bewertung. score = X/5, votes = Anzahl Stimmen. null = auf Seite kein Rating ausgewiesen.",
+  "items": [
+    {
+      "id": "voyak-kt-3",
+      "weapon": "VOYAK KT-3",
+      "class": "AR",
+      "rating": {
+        "score": 4.5,
+        "votes": 2
+      },
+      "build": [
+        {
+          "slot": "Visier",
+          "attachment": "FANG HOVERPOINT ELO"
+        },
+        {
+          "slot": "Muendung",
+          "attachment": "MONOLITHIC SUPPRESSPR"
+        },
+        {
+          "slot": "Lauf",
+          "attachment": "17.6\" LTI GRAV-4 BARREL"
+        },
+        {
+          "slot": "Magazin",
+          "attachment": "SK-GARRISON DRUM"
+        },
+        {
+          "slot": "Schaft",
+          "attachment": "V-LAST CONTROL PAD"
+        }
+      ]
+    },
+    {
+      "id": "ds20-mirage",
+      "weapon": "DS20 MIRAGE",
+      "class": "AR",
+      "rating": {
+        "score": null,
+        "votes": null
+      },
+      "build": [
+        {
+          "slot": "Visier",
+          "attachment": "GREAVES ACCUSPOT 3X"
+        },
+        {
+          "slot": "Muendung",
+          "attachment": "SCHALLDÄMPFER (MONOLITH)"
+        },
+        {
+          "slot": "Lauf",
+          "attachment": "17.1\" ABDICATOR BARREL"
+        },
+        {
+          "slot": "Magazin",
+          "attachment": "GRIFFON RESERVE EXTENDED II"
+        },
+        {
+          "slot": "Fire Mod",
+          "attachment": "RECOIL SYNC UNIT"
+        }
+      ]
+    },
+    {
+      "id": "egrt-17",
+      "weapon": "EGRT-17",
+      "class": "AR",
+      "rating": {
+        "score": null,
+        "votes": null
+      },
+      "build": [
+        {
+          "slot": "Visier",
+          "attachment": "GREAVES ACCUSPOT 3X"
+        },
+        {
+          "slot": "Muendung",
+          "attachment": "EAM FINSET BRAKE"
+        },
+        {
+          "slot": "Lauf",
+          "attachment": "16.5\" BOWEN RESISTOR BARREL"
+        },
+        {
+          "slot": "Magazin",
+          "attachment": "FUEL CELL-X3 MAG"
+        },
+        {
+          "slot": "Schaft",
+          "attachment": "FRIGATE CONTROL STOCK"
+        }
+      ]
+    },
+    {
+      "id": "mk35-isr",
+      "weapon": "MK35 ISR",
+      "class": "AR",
+      "rating": {
+        "score": 5,
+        "votes": 1
+      },
+      "build": [
+        {
+          "slot": "Visier",
+          "attachment": "FANG HOVERPOINT ELO"
+        },
+        {
+          "slot": "Muendung",
+          "attachment": "SCHALLDÄMPFER (MONOLITH)"
+        },
+        {
+          "slot": "Lauf",
+          "attachment": "16.5\" GREAVES BELLUM BARREL"
+        },
+        {
+          "slot": "Magazin",
+          "attachment": "BOWEN SIREN DRUM"
+        },
+        {
+          "slot": "Munition",
+          "attachment": "5,56 NATO VOLLMANTEL"
+        }
+      ]
+    },
+    {
+      "id": "mxr-17",
+      "weapon": "MXR-17",
+      "class": "AR",
+      "rating": {
+        "score": 5,
+        "votes": 1
+      },
+      "build": [
+        {
+          "slot": "Visier",
+          "attachment": "LETHAL TOOLS ELO"
+        },
+        {
+          "slot": "Muendung",
+          "attachment": "SCHALLDÄMPFER (MONOLITH)"
+        },
+        {
+          "slot": "Lauf",
+          "attachment": "17\" GREAVES SCOURGE BARREL"
+        },
+        {
+          "slot": "Magazin",
+          "attachment": "RHODES DRUM MAG"
+        },
+        {
+          "slot": "Unterlauf",
+          "attachment": "LATERAL PRECISION GRIP"
+        }
+      ]
+    },
+    {
+      "id": "m15-mod-0",
+      "weapon": "M15 MOD 0",
+      "class": "AR",
+      "rating": {
+        "score": 5,
+        "votes": 2
+      },
+      "build": [
+        {
+          "slot": "Visier",
+          "attachment": "LETHAL TOOLS ELO"
+        },
+        {
+          "slot": "Muendung",
+          "attachment": "SCHALLDÄMPFER (MONOLITH)"
+        },
+        {
+          "slot": "Lauf",
+          "attachment": "16\" RETICULATED BARREL"
+        },
+        {
+          "slot": "Magazin",
+          "attachment": "BOWEN BULWARK MAG"
+        },
+        {
+          "slot": "Griff",
+          "attachment": "CARAVAN-H2 GRIP"
+        }
+      ]
+    },
+    {
+      "id": "maddox-rfb",
+      "weapon": "MADDOX RFB",
+      "class": "AR",
+      "rating": {
+        "score": null,
+        "votes": null
+      },
+      "build": [
+        {
+          "slot": "Visier",
+          "attachment": "GREAVES ACCUSPOT 3X"
+        },
+        {
+          "slot": "Muendung",
+          "attachment": "SCHALLDÄMPFER (MONOLITH)"
+        },
+        {
+          "slot": "Lauf",
+          "attachment": "19\" VIRTUOUS-OP BARREL"
+        },
+        {
+          "slot": "Magazin",
+          "attachment": "BILLING EXTENDED MAG"
+        },
+        {
+          "slot": "Schaft",
+          "attachment": "FURROW CONTROL STOCK"
+        }
+      ]
+    },
+    {
+      "id": "ak-27",
+      "weapon": "AK-27",
+      "class": "AR",
+      "rating": {
+        "score": 5,
+        "votes": 1
+      },
+      "build": [
+        {
+          "slot": "Visier",
+          "attachment": "LETHAL TOOLS ELO"
+        },
+        {
+          "slot": "Muendung",
+          "attachment": "SCHALLDÄMPFER (MONOLITH)"
+        },
+        {
+          "slot": "Lauf",
+          "attachment": "17.6\" VANDAL HEAVY BARREL"
+        },
+        {
+          "slot": "Magazin",
+          "attachment": "SABER PACK HEAVY DRUM"
+        },
+        {
+          "slot": "Unterlauf",
+          "attachment": "LATERAL PRECISION GRIP"
+        }
+      ]
+    },
+    {
+      "id": "vst",
+      "weapon": "VST",
+      "class": "SMG",
+      "rating": {
+        "score": 5,
+        "votes": 1
+      },
+      "build": [
+        {
+          "slot": "Muendung",
+          "attachment": "HAWKER SERIES 45"
+        },
+        {
+          "slot": "Lauf",
+          "attachment": "14\" LTI EXPEDITION BARREL"
+        },
+        {
+          "slot": "Magazin",
+          "attachment": "AVARICE EXTENDED MAG II"
+        },
+        {
+          "slot": "Schaft",
+          "attachment": "HAWKER CUB-55 PAD"
+        },
+        {
+          "slot": "Fire Mod",
+          "attachment": "BUFFER SPRINGS"
+        }
+      ]
+    },
+    {
+      "id": "razor-9mm",
+      "weapon": "RAZOR 9MM",
+      "class": "SMG",
+      "rating": {
+        "score": 5,
+        "votes": 1
+      },
+      "build": [
+        {
+          "slot": "Visier",
+          "attachment": "LETHAL TOOLS ELO"
+        },
+        {
+          "slot": "Muendung",
+          "attachment": "H-9MM PRECISION COMP"
+        },
+        {
+          "slot": "Lauf",
+          "attachment": "12\" MFS SIDEWINDER BARREL"
+        },
+        {
+          "slot": "Magazin",
+          "attachment": "ZEALOT EXTENDED MAG II"
+        },
+        {
+          "slot": "Fire Mod",
+          "attachment": "ACCELERATED RECOIL SYSTEM"
+        }
+      ]
+    },
+    {
+      "id": "dravec-45",
+      "weapon": "DRAVEC 45",
+      "class": "SMG",
+      "rating": {
+        "score": 5,
+        "votes": 1
+      },
+      "build": [
+        {
+          "slot": "Muendung",
+          "attachment": "HAWKER SERIES 45"
+        },
+        {
+          "slot": "Lauf",
+          "attachment": "19\" EAM HORIZON BARREL"
+        },
+        {
+          "slot": "Magazin",
+          "attachment": "GATOR EXTENDED MAG"
+        },
+        {
+          "slot": "Laser",
+          "attachment": "MFS AGILE LASER PRO"
+        },
+        {
+          "slot": "Fire Mod",
+          "attachment": "BOLT CARRIER GROUP"
+        }
+      ]
+    },
+    {
+      "id": "sturmwolf-45",
+      "weapon": "STURMWOLF 45",
+      "class": "SMG",
+      "rating": {
+        "score": 5,
+        "votes": 1
+      },
+      "build": [
+        {
+          "slot": "Lauf",
+          "attachment": "14.8\" PERIGEE BARREL"
+        },
+        {
+          "slot": "Unterlauf",
+          "attachment": "ENVOY FOREGRIP"
+        },
+        {
+          "slot": "Magazin",
+          "attachment": "B-45 ROAR DRUM"
+        },
+        {
+          "slot": "Griff",
+          "attachment": "SELENE ROVER GRIP"
+        },
+        {
+          "slot": "Schaft",
+          "attachment": "ITINERANT LIGHT STOCK"
+        }
+      ]
+    },
+    {
+      "id": "kogot-7",
+      "weapon": "KOGOT-7",
+      "class": "SMG",
+      "rating": {
+        "score": 5,
+        "votes": 1
+      },
+      "build": [
+        {
+          "slot": "Muendung",
+          "attachment": "HAWKER SERIES 45"
+        },
+        {
+          "slot": "Lauf",
+          "attachment": "13.5\" CANIS-05 BARREL"
+        },
+        {
+          "slot": "Unterlauf",
+          "attachment": "VAS DRIFT LOCK FOREGRIP"
+        },
+        {
+          "slot": "Magazin",
+          "attachment": "VEX EXPANSE MAG"
+        },
+        {
+          "slot": "Fire Mod",
+          "attachment": "BUFFER SPRING"
+        }
+      ]
+    },
+    {
+      "id": "mpc-25",
+      "weapon": "MPC-25",
+      "class": "SMG",
+      "rating": {
+        "score": null,
+        "votes": null
+      },
+      "build": [
+        {
+          "slot": "Muendung",
+          "attachment": "K&S COMPENSATOR"
+        },
+        {
+          "slot": "Unterlauf",
+          "attachment": "ZERO SHIFT HANDSTOP"
+        },
+        {
+          "slot": "Magazin",
+          "attachment": "MPC OVERLOAD DRUM"
+        },
+        {
+          "slot": "Griff",
+          "attachment": "MAGNATE GRIP"
+        },
+        {
+          "slot": "Fire Mod",
+          "attachment": "RECOIL SYNC UNIT"
+        }
+      ]
+    },
+    {
+      "id": "rev-46",
+      "weapon": "REV-46",
+      "class": "SMG",
+      "rating": {
+        "score": 5,
+        "votes": 1
+      },
+      "build": [
+        {
+          "slot": "Visier",
+          "attachment": "LETHAL TOOLS ELO"
+        },
+        {
+          "slot": "Muendung",
+          "attachment": "HAWKER SERIES 45"
+        },
+        {
+          "slot": "Lauf",
+          "attachment": "CAUDAL TARGET BARREL"
+        },
+        {
+          "slot": "Magazin",
+          "attachment": "CAWDOR EXTENDED MAG"
+        },
+        {
+          "slot": "Fire Mod",
+          "attachment": "RECOIL SYNC UNIT"
+        }
+      ]
+    },
+    {
+      "id": "carbon-57",
+      "weapon": "CARBON 57",
+      "class": "SMG",
+      "rating": {
+        "score": 5,
+        "votes": 1
+      },
+      "build": [
+        {
+          "slot": "Muendung",
+          "attachment": "K&S COMPENSATOR"
+        },
+        {
+          "slot": "Lauf",
+          "attachment": "14\" ROCKLEIGH BARREL"
+        },
+        {
+          "slot": "Unterlauf",
+          "attachment": "SAPPER GUARD HANDSTOP"
+        },
+        {
+          "slot": "Griff",
+          "attachment": "DULCET CONTROL GRIP"
+        },
+        {
+          "slot": "Fire Mod",
+          "attachment": "ACCELERATED RECOIL SYSTEM"
+        }
+      ]
+    },
+    {
+      "id": "strider-300",
+      "weapon": "STRIDER 300",
+      "class": "Sniper",
+      "rating": {
+        "score": 5,
+        "votes": 1
+      },
+      "build": [
+        {
+          "slot": "Muendung",
+          "attachment": "SCHALLDÄMPFER (MONOLITH)"
+        },
+        {
+          "slot": "Lauf",
+          "attachment": "25\" BOWEN GROOVED BARREL"
+        },
+        {
+          "slot": "Unterlauf",
+          "attachment": "CORNERSTONE-642 GUARD"
+        },
+        {
+          "slot": "Griff",
+          "attachment": "HATCH QUICK GRIP"
+        },
+        {
+          "slot": "Munition",
+          "attachment": ".300 WM OVERPRESSURED"
+        }
+      ]
+    },
+    {
+      "id": "hawker-hx",
+      "weapon": "HAWKER HX",
+      "class": "Sniper",
+      "rating": {
+        "score": null,
+        "votes": null
+      },
+      "build": [
+        {
+          "slot": "Muendung",
+          "attachment": "SCHALLDÄMPFER (MONOLITH)"
+        },
+        {
+          "slot": "Lauf",
+          "attachment": "27.4\" TELEOS RANGE BARREL"
+        },
+        {
+          "slot": "Magazin",
+          "attachment": "AMRITA FAST MAG"
+        },
+        {
+          "slot": "Griff",
+          "attachment": "AURORAL LIGHT GRIP"
+        },
+        {
+          "slot": "Fire Mod",
+          "attachment": ".338 LM OVERPRESSURED"
+        }
+      ],
+      "note": "5 Slots, kein Unterlauf."
+    },
+    {
+      "id": "vs-recon",
+      "weapon": "VS RECON",
+      "class": "Sniper",
+      "rating": {
+        "score": null,
+        "votes": null
+      },
+      "build": [
+        {
+          "slot": "Muendung",
+          "attachment": "SCHALLDÄMPFER (MONOLITH)"
+        },
+        {
+          "slot": "Lauf",
+          "attachment": "23\" G-FORCE BARREL"
+        },
+        {
+          "slot": "Unterlauf",
+          "attachment": "STETIG-C HANDGUARD"
+        },
+        {
+          "slot": "Griff",
+          "attachment": "R-1 SHELF GRIP"
+        },
+        {
+          "slot": "Munition",
+          "attachment": "7,62 NATO ÜBERDRUCK"
+        }
+      ]
+    },
+    {
+      "id": "sg-12",
+      "weapon": "SG-12",
+      "class": "Shotgun",
+      "rating": {
+        "score": 5,
+        "votes": 1
+      },
+      "build": [
+        {
+          "slot": "Muendung",
+          "attachment": "BREACHER ONYX BRAKE"
+        },
+        {
+          "slot": "Lauf",
+          "attachment": "20\" HAWKER REACH BARREL"
+        },
+        {
+          "slot": "Unterlauf",
+          "attachment": "REDWELL DASH HANDSTOP"
+        },
+        {
+          "slot": "Magazin",
+          "attachment": "BOWEN BIGHORN DRUM"
+        },
+        {
+          "slot": "Laser",
+          "attachment": "CONVERGENCE BOX LASER"
+        }
+      ]
+    },
+    {
+      "id": "mk-78",
+      "weapon": "MK.78",
+      "class": "LMG",
+      "rating": {
+        "score": 5,
+        "votes": 1
+      },
+      "build": [
+        {
+          "slot": "Visier",
+          "attachment": "GREAVES ACCUSPOT 3X"
+        },
+        {
+          "slot": "Muendung",
+          "attachment": "RL-7.62 COMPENSATOR"
+        },
+        {
+          "slot": "Lauf",
+          "attachment": "25\" EAM HEAVY BARREL"
+        },
+        {
+          "slot": "Unterlauf",
+          "attachment": "BOWEN SENTRY FOREGRIP"
+        },
+        {
+          "slot": "Fire Mod",
+          "attachment": "ACCELERATED RECOIL SYSTEM"
+        }
+      ],
+      "slug_note": "Nur bo7-mk.78 (mit Punkt) lud — bo7-mk-78/bo7-mk78 = 404."
+    },
+    {
+      "id": "sokol-545",
+      "weapon": "SOKOL 545",
+      "class": "LMG",
+      "rating": {
+        "score": 5,
+        "votes": 1
+      },
+      "build": [
+        {
+          "slot": "Visier",
+          "attachment": "GREAVES ACCUSPOT 3X"
+        },
+        {
+          "slot": "Muendung",
+          "attachment": "SCHALLDÄMPFER (MONOLITH)"
+        },
+        {
+          "slot": "Lauf",
+          "attachment": "18.2\" PARLOUS HEAVY BARREL"
+        },
+        {
+          "slot": "Schaft",
+          "attachment": "TACTION CONTROL STOCK"
+        },
+        {
+          "slot": "Fire Mod",
+          "attachment": "BUFFER SPRING"
+        }
+      ]
+    },
+    {
+      "id": "m8a1",
+      "weapon": "M8A1",
+      "class": "Rifle (Marksman)",
+      "rating": {
+        "score": 5,
+        "votes": 2
+      },
+      "build": [
+        {
+          "slot": "Visier",
+          "attachment": "GREAVES ACCUSPOT 3X"
+        },
+        {
+          "slot": "Muendung",
+          "attachment": "SCHALLDÄMPFER (MONOLITH)"
+        },
+        {
+          "slot": "Lauf",
+          "attachment": "M8A1 AUTOSTRIKE-X8 CONVERSION"
+        },
+        {
+          "slot": "Magazin",
+          "attachment": "REDLINE CAPACITY DRUM"
+        },
+        {
+          "slot": "Schaft",
+          "attachment": "GRIDLOCK STOCK"
+        }
+      ],
+      "note": "wzhub-Klasse 'Rifle' (Marksman-/Long-Range-Tactical-Rifle). 3x-Visier + Conversion-Lauf -> Long-Range-Loadout."
+    }
+  ],
+  "alternatives_by_class": {
+    "AR": [
+      "DS20 MIRAGE",
+      "VOYAK KT-3",
+      "MK35 ISR",
+      "EGRT-17",
+      "XM4",
+      "GOBLIN MK 2",
+      "MODEL L",
+      "AS VAL",
+      "KRIG C",
+      "CR-56 AMAX"
+    ],
+    "SMG": [
+      "VST",
+      "RAZOR 9MM",
+      "STURMWOLF 45",
+      "KOGOT-7",
+      "DRAVEC 45",
+      "DRESDEN 9MM",
+      "JACKAL PDW",
+      "TANTO .22",
+      "C9",
+      "MPC-25"
+    ],
+    "Sniper": [
+      "STRIDER 300",
+      "VS RECON",
+      "HAWKER HX",
+      "LR 7.62",
+      "LW3A1 FROSTLINE",
+      "VICTUS XMR",
+      "XR-3 ION",
+      "MORS",
+      "KATT-AMR",
+      "AMR MOD 4",
+      "XRK STALKER"
+    ],
+    "Shotgun": [
+      "HAYMAKER",
+      "RECLAIMER 18",
+      "LOCKWOOD 300",
+      "LOCKWOOD 680",
+      "MAELSTROM",
+      "ASG-89",
+      "MARINE SP"
+    ],
+    "LMG": [
+      "MK.78",
+      "XMG",
+      "SOKOL 545",
+      "HOLGER 26",
+      "DG-58 LSW",
+      "PULEMYOT 762",
+      "TAQ EVOLVERE"
+    ],
+    "Marksman": [
+      "DM-10",
+      "ESSEX MODEL 07",
+      "TR2",
+      "SWAT 5.56",
+      "KAR98K",
+      "CROSSBOW",
+      "MTZ INTERCEPTOR"
+    ]
+  },
+  "pistol_note": "Keine Pistole in den 24 Quelldateien. wzhub-BO7-Index listet bo7-velox-5 / VELOX 5.7 als Pistol, aber kein Quell-Datenblatt vorhanden.",
+  "negative_results": [
+    {
+      "weapon": "HDR",
+      "class": "Sniper (in MW 2019 / Original-Warzone)",
+      "status": "NICHT in Black Ops 7 — keine wzhub-BO7-Seite",
+      "checked_urls": [
+        "bo7-hdr",
+        "hdr",
+        "bo7-hdr-sniper",
+        "warzone-hdr"
+      ],
+      "note": "MW-2019-/Verdansk-Waffe. Kein Meta-Build, keine Camos, kein Playstyle — bewusste Luecke, nicht erfunden. Taucht nur als Alternativ-Name bei STRIDER 300 + VS RECON auf.",
+      "todo": true
+    }
+  ]
+}

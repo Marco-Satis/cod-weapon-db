@@ -1,0 +1,40 @@
+{
+  "id": "pdsw-528",
+  "name": "PDSW 528",
+  "class": "SMG",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 SMG (P90, 5.7x28mm, 909 RPM, 50-round). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 909,
+    "mag": 50,
+    "reload_s": 3.2,
+    "ads_ms": 210,
+    "velocity_ms": 570,
+    "move_ms": 4.8,
+    "sprint_to_fire_ms": 110,
+    "sprint_ms": 6.1,
+    "zoom_x": 0.88
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.7x28mm Frangible :: -5.1% Range",
+      "5.7x28mm Armor Piercing",
+      "5.7x28mm Overpressured +P :: +80% Target Flinch",
+      "5.7x28mm Hollowpoint",
+      "5.8X42 Tracer"
+    ],
+    "BARREL": [
+      "9.5\" Duke-30 :: -5.1% Range | -3% Bullet Velocity | +8% Idle Sway | -8% Max Hipfire | -8% ADS Time",
+      "FTAC Series IX 14.5\" :: +19.9% Range | +7% Bullet Velocity | +5% Gun Kick | +5% Horiz. Recoil | +5% Vert. Recoil | -7% Idle Sway | +8% Max Hipfire | +4% Move | +4% Crouch | +2% Sprint | +5% ADS Move | +2% ADS Time",
+      "FTAC Defense 14.5\" :: +19.9% Range | +19% Bullet Velocity | -5% Gun Kick | -5% Horiz. Recoil | -5% Vert. Recoil | -7% Idle Sway | +8% Max Hipfire | -2% Move | -2% Crouch | -2% Sprint | -3% ADS Move | +9% ADS Time",
+      "17\" Corvus ProRange :: +30% Range | +40% Bullet Velocity | -14% Gun Kick | -14% Horiz. Recoil | -14% Vert. Recoil | -12% Idle Sway | +12% Max Hipfire | -6% Move | -6% Crouch | -6% Sprint | -8% ADS Move | +17% ADS Time",
+      "16\" Cloak 90 :: +4.7% Range | +24% Bullet Velocity | -11% Gun Kick | -11% Horiz. Recoil | -11% Vert. Recoil | -6% Idle Sway | +6% Max Hipfire | -5% Move | -5% Crouch | -5% Sprint | -6% ADS Move | +10% ADS Time",
+      "18.75\" Cloak 90 :: +21.3% Range | +40% Bullet Velocity | -14% Gun Kick | -14% Horiz. Recoil | -14% Vert. Recoil | -12% Idle Sway | +12% Max Hipfire | -6% Move | -6% Crouch | -6% Sprint | -8% ADS Move | +17% ADS Time"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP/MAGAZINE = MW-Pool (ref kar98k.json)"
+}

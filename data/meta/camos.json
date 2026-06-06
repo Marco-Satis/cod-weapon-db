@@ -1,0 +1,332 @@
+{
+  "category": "camos",
+  "game": "bo7",
+  "data_version": "2026-06-05",
+  "source": "wzhub.gg — 23 Waffen-Datenblaetter (HDR ohne Daten)",
+  "scope_note": "Diese Datei = Camo-NAMEN (kanonische Leiter L1-15 pro Modus + Prestige-Camo-Namen). Die Freischalt-BEDINGUNGEN stehen in challenges.json.",
+  "modes": {
+    "MP": "Multiplayer",
+    "WZ": "Warzone",
+    "ZM": "Zombies",
+    "CO": "Co-Op Campaign",
+    "PR": "Prestige"
+  },
+  "naming_note": "Schreibweise auf wzhub teils variabel (z.B. 'arctic'/'Arctic', 'Forest digital'/'Forest Digital', 'Golden damascus') — hier in Title-Case normalisiert; Quelle uneinheitlich.",
+  "items": [
+    {
+      "level": 1,
+      "MP": "Underbrush",
+      "WZ": "Autumn",
+      "ZM": "Char",
+      "CO": "Foliage"
+    },
+    {
+      "level": 2,
+      "MP": "Woodland",
+      "WZ": "Arctic",
+      "ZM": "Tundra",
+      "CO": "Desert"
+    },
+    {
+      "level": 3,
+      "MP": "Slate Digital",
+      "WZ": "Forest Digital",
+      "ZM": "Flood Digital",
+      "CO": "City Digital"
+    },
+    {
+      "level": 4,
+      "MP": "Redwood",
+      "WZ": "Balsam",
+      "ZM": "Cedar",
+      "CO": "Pine"
+    },
+    {
+      "level": 5,
+      "MP": "Poison",
+      "WZ": "Arid",
+      "ZM": "Marshland",
+      "CO": "Forest"
+    },
+    {
+      "level": 6,
+      "MP": "Toxic",
+      "WZ": "Oil",
+      "ZM": "Mire",
+      "CO": "Sludge"
+    },
+    {
+      "level": 7,
+      "MP": "Mountain",
+      "WZ": "Snowcap",
+      "ZM": "Ravine",
+      "CO": "Plateau"
+    },
+    {
+      "level": 8,
+      "MP": "Stalker",
+      "WZ": "Hunter",
+      "ZM": "Skulk",
+      "CO": "Nocturne"
+    },
+    {
+      "level": 9,
+      "MP": "Ruby Snake",
+      "WZ": "Sapphire Snake",
+      "ZM": "Emerald Snake",
+      "CO": "Topaz Snake"
+    },
+    {
+      "level": 10,
+      "MP": "Diamondback",
+      "WZ": "Shimmer",
+      "ZM": "Mutilate",
+      "CO": "Cinder"
+    },
+    {
+      "level": 11,
+      "MP": "Raptor",
+      "WZ": "Tyrant",
+      "ZM": "Slither",
+      "CO": "Caiman"
+    },
+    {
+      "level": 12,
+      "MP": "Mainframe",
+      "WZ": "Trace",
+      "ZM": "Pathfinder",
+      "CO": "Network"
+    },
+    {
+      "level": 13,
+      "MP": "Shattered Gold",
+      "WZ": "Golden Damascus",
+      "ZM": "Golden Dragon",
+      "CO": "Molten Gold"
+    },
+    {
+      "level": 14,
+      "MP": "Arclight",
+      "WZ": "Starglass",
+      "ZM": "Bloodstone",
+      "CO": "Moonstone"
+    },
+    {
+      "level": 15,
+      "MP": "Tempest",
+      "WZ": "Absolute Zero",
+      "ZM": "Doomsteel",
+      "CO": "Chroma Flux"
+    }
+  ],
+  "prestige_camos": {
+    "structure_note": "L3-5 universell: L3 = Cobalt Circuit (Master-Level 100), L4 = Vermilion Cypher (150), L5 = Violet Network (200). L1/L2 = waffen-individuelle Camos + 'Reach max level X and Enter Weapon Prestige 1/2'. L6 = waffen-individueller Camo (Master-Level 250). Nur L1-Name, L2-Name, max_level (X), L6-Name variieren.",
+    "universal": {
+      "L3": {
+        "name": "Cobalt Circuit",
+        "master_level": 100
+      },
+      "L4": {
+        "name": "Vermilion Cypher",
+        "master_level": 150
+      },
+      "L5": {
+        "name": "Violet Network",
+        "master_level": 200
+      }
+    },
+    "per_weapon": [
+      {
+        "id": "voyak-kt-3",
+        "weapon": "VOYAK KT-3",
+        "max_level": 42,
+        "l1_camo": "Splatter",
+        "l2_camo": "Chevrons",
+        "l6_camo": "Potion"
+      },
+      {
+        "id": "ds20-mirage",
+        "weapon": "DS20 MIRAGE",
+        "max_level": 43,
+        "l1_camo": "Fracture",
+        "l2_camo": "Nocturnal",
+        "l6_camo": "Oni"
+      },
+      {
+        "id": "egrt-17",
+        "weapon": "EGRT-17",
+        "max_level": 41,
+        "l1_camo": "Retro",
+        "l2_camo": "Brick",
+        "l6_camo": "Void Stripe"
+      },
+      {
+        "id": "mk35-isr",
+        "weapon": "MK35 ISR",
+        "max_level": 43,
+        "l1_camo": "Heatmap",
+        "l2_camo": "Groovy",
+        "l6_camo": "Glitch"
+      },
+      {
+        "id": "mxr-17",
+        "weapon": "MXR-17",
+        "max_level": 47,
+        "l1_camo": "Skulls",
+        "l2_camo": "Dia De Muertos",
+        "l6_camo": "Afterlife"
+      },
+      {
+        "id": "m15-mod-0",
+        "weapon": "M15 MOD 0",
+        "max_level": 47,
+        "l1_camo": "Graffiti",
+        "l2_camo": "Aces",
+        "l6_camo": "Obscured"
+      },
+      {
+        "id": "maddox-rfb",
+        "weapon": "MADDOX RFB",
+        "max_level": 43,
+        "l1_camo": "Galactic",
+        "l2_camo": "Sand",
+        "l6_camo": "Electromagnetic"
+      },
+      {
+        "id": "ak-27",
+        "weapon": "AK-27",
+        "max_level": 47,
+        "l1_camo": "Carbon Fiber",
+        "l2_camo": "Shackled",
+        "l6_camo": "Lotus"
+      },
+      {
+        "id": "vst",
+        "weapon": "VST",
+        "max_level": 39,
+        "l1_camo": "Targeted",
+        "l2_camo": "Lattice",
+        "l6_camo": "Ravenous"
+      },
+      {
+        "id": "razor-9mm",
+        "weapon": "RAZOR 9MM",
+        "max_level": 42,
+        "l1_camo": "Leopard",
+        "l2_camo": "Scorch",
+        "l6_camo": "Heatwave"
+      },
+      {
+        "id": "dravec-45",
+        "weapon": "DRAVEC 45",
+        "max_level": 36,
+        "l1_camo": "Kawaii",
+        "l2_camo": "Concrete",
+        "l6_camo": "Sealed"
+      },
+      {
+        "id": "sturmwolf-45",
+        "weapon": "STURMWOLF 45",
+        "max_level": 38,
+        "l1_camo": "Elevate",
+        "l2_camo": "Olive",
+        "l6_camo": "Vines"
+      },
+      {
+        "id": "kogot-7",
+        "weapon": "KOGOT-7",
+        "max_level": 39,
+        "l1_camo": "Haste",
+        "l2_camo": "Fragmented",
+        "l6_camo": "Spinal"
+      },
+      {
+        "id": "mpc-25",
+        "weapon": "MPC-25",
+        "max_level": 42,
+        "l1_camo": "Comics",
+        "l2_camo": "Plum",
+        "l6_camo": "Bacon"
+      },
+      {
+        "id": "rev-46",
+        "weapon": "REV-46",
+        "max_level": 34,
+        "l1_camo": "Heatmap",
+        "l2_camo": "Leaf",
+        "l6_camo": "Rosette"
+      },
+      {
+        "id": "carbon-57",
+        "weapon": "CARBON 57",
+        "max_level": 41,
+        "l1_camo": "Paladin",
+        "l2_camo": "Wavelength",
+        "l6_camo": "Shrouded"
+      },
+      {
+        "id": "strider-300",
+        "weapon": "STRIDER 300",
+        "max_level": 37,
+        "l1_camo": "Struct",
+        "l2_camo": "Pastel",
+        "l6_camo": "Vivid Wave"
+      },
+      {
+        "id": "hawker-hx",
+        "weapon": "HAWKER HX",
+        "max_level": 38,
+        "l1_camo": "Smoulder",
+        "l2_camo": "Thorns",
+        "l6_camo": "Medley"
+      },
+      {
+        "id": "vs-recon",
+        "weapon": "VS RECON",
+        "max_level": 45,
+        "l1_camo": "Arachnid",
+        "l2_camo": "Sulfur",
+        "l6_camo": "Nightlight"
+      },
+      {
+        "id": "sg-12",
+        "weapon": "SG-12",
+        "max_level": 38,
+        "l1_camo": "Chrysalis",
+        "l2_camo": "Rocket Box",
+        "l6_camo": "Shimmer"
+      },
+      {
+        "id": "mk-78",
+        "weapon": "MK.78",
+        "max_level": 50,
+        "l1_camo": "Invertebrate",
+        "l2_camo": "Mitosis",
+        "l6_camo": "Luna"
+      },
+      {
+        "id": "sokol-545",
+        "weapon": "SOKOL 545",
+        "max_level": 40,
+        "l1_camo": "Coral",
+        "l2_camo": "Lavender",
+        "l6_camo": "Scallywag"
+      },
+      {
+        "id": "m8a1",
+        "weapon": "M8A1",
+        "max_level": 50,
+        "l1_camo": "Cherry Blossom",
+        "l2_camo": "Clay",
+        "l6_camo": "Dragon"
+      }
+    ]
+  },
+  "gaps": [
+    {
+      "item": "HDR (Sniper)",
+      "note": "Keine wzhub-BO7-Seite (404/500). HDR ist MW-2019-/Verdansk-Waffe, nicht in BO7. Keine Camo-Daten — bewusste Luecke, nicht erfunden.",
+      "todo": true
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "kar98k",
+  "name": "Kar98k",
+  "class": "Marksman/Sniper",
+  "game": "mw2019_mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Cross-Game-Waffe (MW-Aera, universelles Attachment-System mit vielen Optionen). In WZ verfuegbar.",
+  "base": {
+    "rpm": 55,
+    "mag": 5,
+    "reload_s": 3.3,
+    "ads_ms": 360,
+    "velocity_ms": 600,
+    "move_ms": 4.5,
+    "sprint_to_fire_ms": 266,
+    "sprint_ms": 6.0
+  },
+  "slots": {
+    "AMMUNITION": [
+      "7.92x57mm Round Nose :: +40% Target Flinch | -20.1% Range",
+      "7.92x57mm Mono :: -1.3% Range | +8% Bullet Velocity | +2% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      "7.92x57mm Frangible :: -5.5% Range",
+      "7.92x57mm Hollowpoint",
+      "7.92x57mm Armor Piercing",
+      "7.92x57mm Overpressured +P80 :: +80% Target Flinch",
+      "7.92x57mm High Velocity :: -5.5% Range | +20% Bullet Velocity",
+      "7.62X51mm Low Grain Rounds :: -15% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "7.92x57mm High Grain Rounds :: +15% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "7.92x57mm Spire Point :: +5.3% Range | +15% Bullet Velocity"
+    ],
+    "BARREL": [
+      "Bryson Carbine-S Barrel :: -5.5% Range | -8% Bullet Velocity | +5% Horiz. Recoil | +5% Vert. Recoil | -8% Idle Sway | -7% Max Hipfire Area | +11% ADS Move. | -8% ADS Time",
+      "Canvas Barrel Wrap :: -8% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil | -9% ADS Move. | +9% ADS Time",
+      "Prazisionsgewehr 762 Long Barrel :: +12% Range | +15% Bullet Velocity | +8% Idle Sway | +7% Max Hipfire Area | +5% ADS Time | +8% Sprint to Fire"
+    ],
+    "LASER": [
+      "SL Razorhawk Laser Light :: -10% ADS Time | -15% Sprint to Fire",
+      "Pro Sapphine Box Laser :: -12% Sprint to Fire",
+      "Verdant Hook Box Laser :: -10% Idle Sway | -10% Max Hipfire Area | -8% Sprint to Fire",
+      "Schlager Peq Box IV :: -4% ADS Time",
+      "Corio LAZ-44 V3 :: -8% ADS Time",
+      "FSS OLE-V Laser :: -5% ADS Time | -6% Sprint to Fire",
+      "Canted Vibro-Dot 7 :: -3% ADS Time | -6% Sprint to Fire",
+      "Corvus Peq BEAM-5 :: -12% Idle Sway | -12% Max Hipfire Area",
+      "FTAC Grimline Laser :: -8% Idle Sway | -8% Max Hipfire Area | -5% Sprint to Fire",
+      "DXS Flash 90 :: -13% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Jak BFB :: -20% Bullet Velocity | -40% Gun Kick | -20% Horiz. Recoil | -25% Vert. Recoil | -20% ADS Move. | +22% ADS Time | +16% Sprint to Fire",
+      "Scratch 20-L Suppressor :: +8% Range | +14% Bullet Velocity",
+      "Shadowstrike Suppressor :: +8% Range | +14% Bullet Velocity",
+      "Sonic Suppressor L :: +8% Range | +14% Bullet Velocity",
+      "Colossus Suppressor L :: +8% Range | +14% Bullet Velocity",
+      "Bruen Harmonic Suppressor L :: +8% Range | +14% Bullet Velocity",
+      "Husher-65 Silencer :: +8% Range | +14% Bullet Velocity",
+      "FR Titan Silencer :: +8% Range | +14% Bullet Velocity",
+      "Polarfire-S :: +8% Range | +14% Bullet Velocity",
+      "ZLR Talon 5 :: +8% Range | +14% Bullet Velocity",
+      "Echoline GS-X :: +8% Range | +14% Bullet Velocity",
+      "Zulu-60 :: +8% Range | +14% Bullet Velocity",
+      "Kastovia DX90 :: +8% Range | +14% Bullet Velocity",
+      "EX-01 Match Compensator L :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil",
+      "Casus Brake L :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil",
+      "ZEHMN35 Compensated Flash Hider :: -8% Horiz. Recoil | -15% Vert. Recoil",
+      "Tempus GH50 :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil",
+      "TY-LR8 :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil",
+      "Lockshot KT85 :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil",
+      "SA Leveler 55 :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil",
+      "Bore-490 :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil",
+      "Sakin Tread-40 :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil",
+      "L4R Flash Hider :: +12% Range",
+      "Eight-Point Flash Hider :: +12% Range",
+      "TZL-90 v3 :: +12% Range",
+      "Cronen Dark KX30 :: +12% Range",
+      "GL Clear Breach :: -6% Gun Kick | -6% Horiz. Recoil | -6% Vert. Recoil",
+      "TA HUL-Breach KL :: -6% Gun Kick | -6% Horiz. Recoil | -6% Vert. Recoil",
+      "Silentium 792 :: +8% Range | +14% Bullet Velocity",
+      "Bayonet :: +5% Move. Speed | +3% Sprint Speed | +5% ADS Time",
+      "Quartermaster Suppressor",
+      "XTEN Binate Suppressor",
+      "T51R Billeted Brake S :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil",
+      "Purger Brake :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil",
+      "S-37C DL Breacher Device :: -6% Gun Kick | -6% Horiz. Recoil | -6% Vert. Recoil",
+      "Wrathguard Compensator :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil",
+      "T4LR Saber Compensator :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil",
+      "STER45 Skyfury Compensator :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil",
+      "HMRES Mod Suppressor :: +8% Range | +14% Bullet Velocity",
+      "Monolithic Suppressor :: +8% Range | +14% Bullet Velocity",
+      "VT-7 Spiritfire Suppressor :: +13.4% Range | +14% Bullet Velocity | +5% Sprint to Fire",
+      "ELR Blackfire Compensator :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil",
+      "Caster-X1 Compensator :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil"
+    ],
+    "OPTIC": [
+      "Iron/Reflex/Sniper-Optiken (68 Optionen) — Standard-MW-Optik-Pool. Auswahl mit Delta: Cronen Intlas MSP-12 :: -10% Idle Sway -10% Max Hipfire -1% ADS Time; SP-X 80 6.6x :: -15% ADS Move. +14% ADS Time +68% Reload; AOK 4.0X RQ-9 Recon :: -10% ADS Move. +6% ADS Time; 2.5x-Optiken :: -4% ADS Move. +4% ADS Time; 4x-Optiken :: -7% ADS Move. +6% ADS Time. (Voll-Liste 68 in TGD)"
+    ],
+    "SLING": [
+      "Recon Sling :: -9% ADS Move.",
+      "Target Sling :: -7% ADS Time",
+      "Tactical Sling :: +6% Gun Kick | +6% Horiz. Recoil | +6% Vert. Recoil | +5% ADS Move. | -10% Sprint to Fire"
+    ],
+    "STOCK": [
+      "Prazisionsschaft Stock :: -8% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil | -5% ADS Move. | +9% ADS Time",
+      "Repeller Tac Stock :: +5% Gun Kick | +5% Horiz. Recoil | +5% Vert. Recoil | +9% ADS Move. | -4% ADS Time",
+      "No Stock :: +15% Gun Kick | +15% Horiz. Recoil | +15% Vert. Recoil | -6% Max Hipfire Area | +9% Move. Speed | +13% Crouch Speed | +3% Sprint Speed | +15% ADS Move. | -13% ADS Time | -15% Sprint to Fire"
+    ],
+    "UNDERBARREL": [
+      "Handstops :: -10% ADS Time | -8% Sprint to Fire (XRK Edge BW-4, FTAC MSP-98, DR-6, XTEN Phantom-5/TX-12)",
+      "Angled Grips :: -15% Idle Sway | -15% Max Hipfire Area (FTAC SP-10, Bruen Bastion, Commando, EDGE-47, viele)",
+      "Vertical Grips :: -10% Gun Kick | -10% Horiz. Recoil | -10% Vert. Recoil (Kimura RYN-03, Holger, Bruen Tactical/Pivot, viele)",
+      "Bipods (Bipod V9, Hardstance :: -12% ADS Move., Level Aim, Cornerstone)",
+      "Jak Slash :: -8% Vert. Recoil | +10% Idle Sway | +10% Max Hipfire | +4% Move | +2% Crouch | +3% Sprint"
+    ]
+  }
+}

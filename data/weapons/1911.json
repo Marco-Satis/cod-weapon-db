@@ -1,0 +1,59 @@
+{
+  "id": "1911",
+  "name": "1911",
+  "class": "Pistol",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta. .45 Cal. Basis fuer Endgame-Exotic 'Reboot'. Universelle Slots (OPTIC/REAR GRIP/STOCK/LASER) = BO7-Standard-Pool.",
+  "extraction": "weapon-specific-only",
+  "all_slots": [
+    "MUZZLE",
+    "OPTIC",
+    "BARREL",
+    "MAGAZINE",
+    "REAR GRIP",
+    "STOCK",
+    "LASER",
+    "FIRE MODS"
+  ],
+  "base": {
+    "rpm": 400,
+    "mag": 7,
+    "reload_s": 2.34,
+    "ads_ms": 150,
+    "velocity_ms": 450,
+    "move_ms": 5.1,
+    "sprint_to_fire_ms": 120,
+    "sprint_ms": 7.5
+  },
+  "slots": {
+    "BARREL": [
+      "6.4\" Long Slide Barrel :: +35% Range",
+      "5.1\" Tessellate Barrel :: +40% Bullet Velocity",
+      "4.5\" Torx Reinforced Barrel :: +20% Range | +25% Bullet Velocity",
+      "3.7\" Vela Short Barrel :: -13.3% ADS Time | -20.8% Sprint to Fire",
+      "4.5\" LTI Lout Barrel :: +46.2% Gun Kick | +20% Horiz. Recoil | +50% Vert. Recoil"
+    ],
+    "FIRE_MODS": [
+      "Sear Fast Trigger :: +11% Fire Rate | +19.3% Gun Kick | +15% Horiz. Recoil | +20% Vert. Recoil",
+      "45 Cal Overpressured :: +15% Range | +15% Bullet Velocity",
+      "Recoil Sync Unit :: -10% Gun Kick | -10% Horiz. Recoil | -10% Vert. Recoil",
+      "45 Cal FMJ"
+    ],
+    "MAGAZINE": [
+      "Sirius Extended Mag",
+      "Rigel Extended II :: +20% ADS Time | +8.1% Reload Time | +16.7% Sprint to Fire",
+      "Clepen Fast Mag :: -6.7% ADS Time | -4.1% Reload Time | -8.3% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Full-Auto Muzzle :: -85% Range | +18% Fire Rate | +20% Max Hipfire Area",
+      "Redwell Shade-X Suppressor :: -10% Range | -13% Bullet Velocity | -11% Gun Kick | -11% Horiz. Recoil | -11% Vert. Recoil",
+      "P-45 Strike Comp",
+      "Caster-X1 Compensator :: -12.8% Gun Kick | -15% Vert. Recoil",
+      "Monolithic Suppressor :: +10% Range | +20% Bullet Velocity | +36.7% ADS Time"
+    ],
+    "_universal": "OPTIC/REAR GRIP/STOCK/LASER = BO7-Standard-Pool (siehe Meta-Pistol DS20/Voyak-Optik-Set)"
+  }
+}

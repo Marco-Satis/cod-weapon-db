@@ -1,0 +1,55 @@
+{
+  "id": "556-icarus",
+  "name": "556 Icarus",
+  "class": "LMG",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta Cross-Game (MW3). MW-universelle Slots (MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP) = MW-Standard-Pool (Muzzle: Suppressoren +8.1%R/+14%V, Comps -15% Recoil/Achse, Flash +10.8%R; Detail in kar98k.json).",
+  "extraction": "weapon-specific-only",
+  "all_slots": [
+    "MUZZLE",
+    "BARREL",
+    "LASER",
+    "OPTIC",
+    "STOCK",
+    "UNDERBARREL",
+    "AMMUNITION",
+    "MAGAZINE",
+    "REAR GRIP"
+  ],
+  "base": {
+    "rpm": 779,
+    "mag": 75,
+    "reload_s": 7.7,
+    "ads_ms": 350,
+    "velocity_ms": 675,
+    "move_ms": 4.4,
+    "sprint_to_fire_ms": 235,
+    "sprint_ms": 5.8,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.56 NATO Low Grain Rounds :: -16.3% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "5.56 NATO High Grain Rounds :: +15% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "5.56 NATO Round Nose :: +50% Target Flinch | -21.2% Range",
+      "5.56 NATO Mono :: -1.5% Range | +8% Bullet Velocity | +3% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      "5.56 Frangible :: -4.9% Range",
+      "5.56 Hollowpoint",
+      "5.56 Armor Piercing",
+      "5.56 Overpressured +P :: +80% Target Flinch",
+      "5.56 High Velocity :: -4.9% Range | +20% Bullet Velocity",
+      "5.56 Incendiary :: -9.9% Range | -25% Bullet Velocity"
+    ],
+    "BARREL": [
+      "FTAC Coldforge 16\" Barrel :: +28.1% Range | +17% Bullet Velocity | -10% Idle Sway | +11% Max Hipfire Area | +6% ADS Time",
+      "FTAC SB :: -5.9% Range | -4% Bullet Velocity | +9% Idle Sway | -10% Max Hipfire Area | -9% ADS Time"
+    ],
+    "MAGAZINE": [
+      "100 Round Box Mag :: -4% Move. Speed | -5% Crouch Speed | -2% Sprint Speed | -5% ADS Move. | +4% ADS Time | +10% Reload Time | +6% Sprint to Fire"
+    ],
+    "_universal": "MUZZLE (42 Optionen)/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Standard-Pool (ref kar98k.json)"
+  }
+}

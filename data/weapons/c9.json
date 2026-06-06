@@ -1,0 +1,105 @@
+{
+  "id": "c9",
+  "name": "C9",
+  "class": "SMG",
+  "game": "bo6",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Cross-Game (BO6). Solide Einsteiger-SMG S4.",
+  "base": {
+    "rpm": 732,
+    "mag": 30,
+    "reload_s": 2.8,
+    "ads_ms": 215,
+    "velocity_ms": 540,
+    "move_ms": 5.0,
+    "sprint_to_fire_ms": 120,
+    "sprint_ms": 6.4
+  },
+  "slots": {
+    "BARREL": [
+      "Gain-Twist Barrel :: +55% Bullet Velocity",
+      "Long Barrel :: +30% Range",
+      "Reinforced Barrel :: +12.7% Range | +30% Bullet Velocity",
+      "Short Barrel",
+      "CHF Barrel :: Neck-dmg = Head | +43.7% Gun Kick | +20% Horiz. Recoil | +45% Vert. Recoil"
+    ],
+    "FIRE_MODS": [
+      "Rapid Fire :: -25% Bullet Velocity | +12.3% Fire Rate | +20% Gun Kick | +20% Horiz. Recoil | +20% Vert. Recoil",
+      "9mm Parabellum Overpressured :: +20% Bullet Velocity",
+      "Recoil Springs :: -13% Gun Kick | -13% Horiz. Recoil | -13% Vert. Recoil",
+      "9mm Parabellum FMJ"
+    ],
+    "LASER": [
+      "Steady Aim Laser :: -20% Max Hipfire Area",
+      "Fast Motion Laser",
+      "Tactical Laser",
+      "Strelok Laser",
+      "Target Laser"
+    ],
+    "MAGAZINE": [
+      "Extended Mag I :: +14% Reload Time",
+      "Flip Mag :: -13.1% Reload Time",
+      "Extended Mag II :: +10% ADS Time | +21.4% Reload Time | +16.7% Sprint to Fire",
+      "Fast Mag II :: -7% ADS Time | -17% Reload Time | -8% Sprint to Fire",
+      "10mm Auto 30-Round Mags :: Damage-Profil modifiziert | +10% Bullet Velocity | -9% Fire Rate | +19% Gun Kick | +20% Vert. Recoil",
+      "C9 10mm Auto 30-Round Mags :: +10% Bullet Velocity | -8.9% Fire Rate | +19% Gun Kick | +20% Vert. Recoil"
+    ],
+    "MUZZLE": [
+      "Suppressor",
+      "Compensator :: -32.6% Gun Kick | -35% Vert. Recoil",
+      "Muzzle Brake",
+      "Ported Compensator :: -21.6% Gun Kick | -23% Vert. Recoil",
+      "Monolithic Suppressor :: +8% Range | +20% Bullet Velocity | +27.5% ADS Time"
+    ],
+    "OPTIC": [
+      "Remuda Mini Reflex",
+      "Otero Micro Dot",
+      "Kepler Microflex",
+      "Merlin Mini",
+      "PrismaTech Reflex",
+      "Volzhskiy Reflex",
+      "Merlin Reflex",
+      "Redwell Reflex",
+      "Dobrych MF Reflex",
+      "Accu-Spot Reflex",
+      "K&S Red Dot",
+      "Kepler Red Dot",
+      "Otero Red Dot",
+      "OM3 '92 Holo",
+      "Pinpoint Holoscout",
+      "Accu-Spot Ultra Holo :: -30% Gun Kick",
+      "Jason Armory 2x :: -30% Gun Kick | +5% ADS Time",
+      "Willis 3x :: -30% Gun Kick | +7.5% ADS Time",
+      "PrismaTech 4x :: -30% Gun Kick | +10% ADS Time",
+      "K&S Thermal Holo :: -25% Gun Kick",
+      "Pinpoint Hybrid :: -50% Gun Kick | +10% ADS Time",
+      "R&K Multizoom :: -50% Gun Kick | +12.5% ADS Time",
+      "VMF Variable Scope :: -50% Gun Kick | +25% ADS Time",
+      "Otero Thermal 2x :: -50% Gun Kick | +5% ADS Time"
+    ],
+    "REAR GRIP": [
+      "Quickdraw Grip :: -32.5% ADS Time",
+      "Assault Grip :: -35% Sprint to Fire",
+      "Commando Grip :: -12.5% ADS Time | -16.7% Sprint to Fire",
+      "Ergonomic Grip :: -17.5% ADS Time",
+      "CQB Grip :: -26.7% Sprint to Fire"
+    ],
+    "STOCK": [
+      "No Stock :: +16% Move. Speed | +29.2% Crouch Speed",
+      "Infiltrator Stock :: +16.7% ADS Move.",
+      "Heavy Stock :: -47.1% Flinch",
+      "Balanced Stock :: +10% Move. Speed | +16.7% Crouch Speed | +8.3% ADS Move.",
+      "Combat Stock :: -47.1% Flinch | +11.1% ADS Move."
+    ],
+    "UNDERBARREL": [
+      "Vertical Foregrip :: -1.6% Gun Kick | -35% Horiz. Recoil",
+      "Lightweight Foregrip :: -59% Idle Sway",
+      "Marksman Foregrip",
+      "Precision Foregrip :: -0.8% Gun Kick | -14.9% Horiz. Recoil | -41% Idle Sway",
+      "Ranger Foregrip :: -0.8% Gun Kick | -14.9% Horiz. Recoil | +6.2% Sprint Speed",
+      "G-Grip :: -1% Gun Kick | -20% Horiz. Recoil"
+    ]
+  }
+}

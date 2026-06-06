@@ -1,0 +1,99 @@
+{
+  "id": "carbon-57",
+  "name": "Carbon 57",
+  "class": "SMG",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "base": {
+    "rpm": 857,
+    "mag": 40,
+    "reload_s": 2.56,
+    "ads_ms": 175,
+    "velocity_ms": 550,
+    "move_ms": 5.0,
+    "sprint_to_fire_ms": 113,
+    "sprint_ms": 7.3
+  },
+  "slots": {
+    "BARREL": [
+      "14\" Rockleigh Barrel :: +15.8% Range | +8.6% ADS Time",
+      "8.5\" VAS Radiant Barrel :: -2.9% ADS Move. | -20% ADS Time",
+      "11\" Greaves Repose Barrel :: +7.9% Range | +8% Bullet Velocity | +5.7% ADS Time",
+      "8.6\" Orbital Light Barrel :: -20% Max Hipfire Area | +6% Move. Speed | +2.7% Sprint Speed | -21.7% ADS Time | -31% Sprint to Fire",
+      "10.2\" EX-3 Heavy Barrel :: +17.4% Range | +12% Bullet Velocity | -4% Move. Speed | -4.1% Sprint Speed | -2.9% ADS Move. | +5.3% Sprint to Fire"
+    ],
+    "FIRE_MODS": [
+      "Enhanced Cycle System :: -21.6% Range | -10% Bullet Velocity | +4.6% Fire Rate | +20.1% Gun Kick | +25% Horiz. Recoil | +20% Vert. Recoil",
+      "5.7x28mm Overpressured :: +20% Bullet Velocity",
+      "Accelerated Recoil System :: -12% Gun Kick | -14% Horiz. Recoil | -12% Vert. Recoil",
+      "5.7x28mm FMJ"
+    ],
+    "LASER": [
+      "EAM ScatterLine Laser :: -15% Max Hipfire Area",
+      "Redwell Tactical Laser",
+      "LTI SwiftPoint Laser :: -8.6% ADS Time | -17.7% Sprint to Fire",
+      "EMT3 Agile Laser",
+      "VAS Precision Shift Laser"
+    ],
+    "MAGAZINE": [
+      "MFS Renown Plus Mag :: -20.6% Range | +2.7% Sprint Speed | +9.1% ADS Move. | +13.4% Reload Time",
+      "Bowen Sideline Extended :: -4% Move. Speed | -1.4% Sprint Speed | -5.9% ADS Move. | +11.4% ADS Time | +14.4% Reload Time | +17.7% Sprint to Fire",
+      "Compact-246 Fast Mag :: -5.7% ADS Time | -16.9% Reload Time | -8.8% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "KES Stalker 57-X",
+      "KES Compensator :: -19.6% Gun Kick | -20% Vert. Recoil",
+      "KGS Brake-ZB :: -4.9% Gun Kick | -5% Vert. Recoil",
+      "Kuhn Ported Comp :: -25% Max Hipfire Area",
+      "Monolithic Suppressor :: +7.9% Range | +20% Bullet Velocity | +31.4% ADS Time"
+    ],
+    "OPTIC": [
+      "LTI Mini",
+      "VAS MicroFlex",
+      "Lethal Tools ELO",
+      "EAM Micro Dot",
+      "VAS LED",
+      "LTI Reflex",
+      "Greaves Red Dot",
+      "KES Slim Reflex",
+      "EAM xL Reflex",
+      "PrismaTech Digital Holo",
+      "EMT3 Holo Mk.2 :: -16.7% Crouch Speed",
+      "Kepler T-Range Holo :: -30% Gun Kick | +8.6% ADS Time",
+      "Solaris Holo-IR :: -25% Gun Kick",
+      "EAM Dyad xL :: -50% Gun Kick | +8.6% ADS Time",
+      "LTI Target Finder VZ :: -8.8% ADS Move. | +28.6% ADS Time | +22.1% Sprint to Fire",
+      "Millimeter Scanner :: +10% Gun Kick | +17.1% ADS Time | +22.1% Sprint to Fire",
+      "Redwell 30-5 2x :: -30.5% Gun Kick | -16.7% Crouch Speed | +5% ADS Time",
+      "Greaves Accuspot 3x :: -30% Gun Kick | +8.6% ADS Time",
+      "Kepler Ultra 4x :: -30% Gun Kick | +11.4% ADS Time",
+      "PrismaTech Turbo 4x :: -30% Gun Kick | +11.4% ADS Time",
+      "VAS Duo Hybrid Sight :: -50% Gun Kick | +8.6% ADS Time",
+      "Bowen X-25 IR :: -50% Gun Kick | +7.4% ADS Time",
+      "EAM Dual Zoom :: -50% Gun Kick | +14.3% ADS Time"
+    ],
+    "REAR GRIP": [
+      "Puck-57 Grip :: -25.7% ADS Time",
+      "Remus Sprint Grip :: -37.2% Sprint to Fire",
+      "Dulcet Control Grip :: -0.4% Gun Kick | -20% Horiz. Recoil | +4% ADS Time",
+      "Bombus Quick Grip :: -14.3% ADS Time",
+      "Goliath Steady Grip :: -19.6% Gun Kick | -20% Vert. Recoil"
+    ],
+    "STOCK": [
+      "Graph-Aero Stock :: +16% Move. Speed | +23.1% Crouch Speed | +1.4% Sprint Speed",
+      "Hammer Platoon Pad :: +8.3% Flinch | +26.5% ADS Move. | -15.4% ADS Time",
+      "Heavy Bound Pad :: -15.1% Gun Kick | -20% Horiz. Recoil | -15% Vert. Recoil | -2.9% ADS Move. | +8.6% ADS Time",
+      "Oberon Tactical Pad :: -15% Max Hipfire Area | -18.3% ADS Time | -11.5% Sprint to Fire",
+      "Bowen Resolute Pad :: -12% Gun Kick | -12% Horiz. Recoil | -12% Vert. Recoil | -25% Flinch | +6.9% ADS Time"
+    ],
+    "UNDERBARREL": [
+      "Lateral Precision Grip :: -0.4% Gun Kick | -20% Horiz. Recoil",
+      "Vitalize Handstop :: -0.4% Gun Kick | -20% Horiz. Recoil | -51.3% Idle Sway",
+      "Respire Handstop :: -41.7% Flinch",
+      "Quickstep Foregrip :: +6% Move. Speed | +7.7% Crouch Speed | +8.8% ADS Move.",
+      "Sapper Guard Handstop :: -0.2% Gun Kick | -10% Horiz. Recoil | +6% Move. Speed | +7.7% Crouch Speed | +1.4% Sprint Speed"
+    ]
+  }
+}

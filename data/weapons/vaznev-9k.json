@@ -1,0 +1,42 @@
+{
+  "id": "vaznev-9k",
+  "name": "Vaznev-9K",
+  "class": "SMG",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 SMG (9mm, 779 RPM, 30-round, AK-74u-Style). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 779,
+    "mag": 30,
+    "reload_s": 3.5,
+    "ads_ms": 210,
+    "velocity_ms": 540,
+    "move_ms": 4.8,
+    "sprint_to_fire_ms": 110,
+    "sprint_ms": 6.3,
+    "zoom_x": 0.88
+  },
+  "slots": {
+    "AMMUNITION": [
+      "9mm High Grain Rounds :: +14.9% Range",
+      "9mm Low Grain Rounds :: -15.1% Range",
+      "9mm Hardened Rounds :: -27.2% Range",
+      "9mm Frangible :: -5% Range",
+      "9mm Hollowpoint",
+      "9mm Armor Piercing",
+      "9mm Overpressured +P :: +80% Target Flinch",
+      "9mm High Velocity :: +30% Bullet Velocity"
+    ],
+    "BARREL": [
+      "SA Response III :: +7.9% Range",
+      "KAS-1 254mm :: +23.8% Range"
+    ],
+    "MAGAZINE": [
+      "45 Round Mag :: -4% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "mcw",
+  "name": "MCW",
+  "class": "AR",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 AR (5.56 NATO, ACR, 714 RPM). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 714,
+    "mag": 30,
+    "reload_s": 2.8,
+    "ads_ms": 265,
+    "velocity_ms": 750,
+    "move_ms": 4.7,
+    "sprint_to_fire_ms": 252,
+    "sprint_ms": 6.2,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.56 NATO Low Grain Rounds :: -14.9% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "5.56 NATO High Grain Rounds :: +14.9% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "5.56 NATO Round Nose :: +50% Target Flinch | -19.8% Range",
+      "5.56 NATO Mono :: -1.1% Range | +8% Bullet Velocity | +3% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      "5.56 Frangible :: -5% Range",
+      "5.56 Hollowpoint",
+      "5.56 Armor Piercing",
+      "5.56 Overpressured +P :: +80% Target Flinch",
+      "5.56 High Velocity :: -5% Range | +20% Bullet Velocity",
+      "5.56 Incendiary :: -9.9% Range | -25% Bullet Velocity"
+    ],
+    "BARREL": [
+      "16.5\" MCW Cyclone Long Barrel :: +14.9% Range | +18% Bullet Velocity | +20% Idle Sway | +20% Max Hipfire | -7% ADS Move | +5% Sprint to Fire",
+      "SL Crater Heavy Barrel :: -9% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil | -3% Move | -2% Sprint | +7% ADS Time | +8% Sprint to Fire",
+      "Kimura Blackiron Heavy Short Barrel :: -12.2% Range | -16% Bullet Velocity | +5% Move | +6% Crouch | +10% ADS Move | -6% Sprint to Fire",
+      "Second Line Mammoth Heavy Barrel :: +16.2% Range | +8% Bullet Velocity | +18% Idle Sway | +18% Max Hipfire | +3% Move | +4% ADS Move | +4% Sprint to Fire",
+      "Orchestra-40 Short Heavy Barrel :: -4.5% Range | -3% Bullet Velocity | +4% Horiz. Recoil | +4% Vert. Recoil | -17% Idle Sway | -18% Max Hipfire | -6% Sprint to Fire",
+      "KR Midnight 13\" Barrel :: +20% Range | +10% Bullet Velocity | +3% Horiz. Recoil | +2% Vert. Recoil | +3% Move | +3% Crouch | -5% ADS Time | +5% Sprint to Fire",
+      "Kimura Silentshot Integral Suppressor :: -19.8% Range | -20% Bullet Velocity | +5% Move | +4% Crouch | +7% ADS Move | -9% ADS Time | -10% Sprint to Fire"
+    ],
+    "CONVERSION KIT": [
+      "Jak Raven Kit :: Damage profile modified | -36% Bullet Velocity | +12% Fire Rate | +61% Gun Kick | +130% Horiz. Recoil | -15% Vert. Recoil | -22% Idle Sway | -20% Max Hipfire | +6% Move | +7% Crouch | +7% Sprint | +8% ADS Move | -8% ADS Time | -23% Sprint to Fire"
+    ],
+    "MAGAZINE": [
+      "40 Round Mag :: -3% Move | -3% Crouch | -1% Sprint | -3% ADS Move | +5% ADS Time",
+      "60 Round Drum :: -7% Move | -7% Crouch | -3% Sprint | -7% ADS Move | +12% ADS Time | +25% Reload | +2% Sprint to Fire",
+      "20 Round Mag :: +2% Move | +2% Crouch | +2% Sprint | +7% ADS Move | -8% ADS Time | -13% Reload | -15% Sprint to Fire"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

@@ -1,0 +1,39 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+=========================================================
+
+Copyright (c) 2026 Marco — "CoD Weapon-DB" contributors
+
+Diese Datenbank (Auswahl, Strukturierung, Aufbereitung und Dokumentation der
+Waffen-/Aufsatz-Daten) steht unter der Lizenz
+Creative Commons Attribution 4.0 International.
+
+Du darfst:
+  - Teilen     — das Material in jedem Format kopieren und weiterverbreiten
+  - Bearbeiten — das Material remixen, verändern und darauf aufbauen,
+                 für beliebige Zwecke, auch kommerziell.
+
+Unter folgenden Bedingungen:
+  - Namensnennung — Du musst angemessene Urheber- und Rechteangaben machen,
+    einen Link zur Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden.
+
+Empfohlene Namensnennung:
+  "CoD Weapon-DB (Marco), CC BY 4.0 — Daten aufbereitet aus Community-Quellen
+   (TrueGameData, codmunity, wzhub u.a.)."
+
+Vollständiger Lizenztext (Legal Code):
+  https://creativecommons.org/licenses/by/4.0/legalcode.de
+Kurzfassung (Deed):
+  https://creativecommons.org/licenses/by/4.0/deed.de
+
+----------------------------------------------------------------------
+Hinweise (kein Teil der Lizenz)
+----------------------------------------------------------------------
+- Reine Fakten (Schadenswerte, RPM, TTK etc.) sind nicht urheberrechtlich
+  schützbar; CC BY 4.0 deckt die schützbare Zusammenstellung/Kuratierung.
+- Die Roh-Stats stammen aus Dritt-Quellen (TrueGameData, codmunity, wzhub …)
+  und werden als Referenz attribuiert; Stände sind pro Eintrag via
+  `data_version` versioniert.
+- Nicht mit Activision / Treyarch affiliiert. Call of Duty, Black Ops und
+  Warzone sind Marken ihrer jeweiligen Inhaber; hier nur referenziell genutzt.
+- Für GitHub-Lizenz-Auto-Erkennung beim Publish ggf. den vollständigen
+  CC-BY-4.0-Legal-Code in diese Datei einsetzen (oder im Repo-Setup wählen).

@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/cod-weapon-db/cod-weapon-db/schema/weapon.schema.json",
+  "title": "CoD Weapon Delta",
+  "description": "Eine Waffe der CoD-Weapon-DB: Identitaet, Provenance, Base-Stats und rohe Attachment-Slot-Deltas. Slot-Strings bleiben roh ('Name :: +X% Stat | -Y% Stat'); der Build-Parser strukturiert spaeter. Abgeleitet aus dem On-Disk-Format der cod_db_deltas/<id>.json (Stand 2026-06-05, 42 Waffen).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "class", "game", "in_warzone", "source", "data_version", "base", "slots"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Kanonischer Slug: kleinbuchstaben + Bindestrich (ds20-mirage, ak-74, 9mm-daemon)."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Anzeigename wie in der Quelle (DS20 Mirage, AK-74)."
+    },
+    "name_de": {
+      "type": "string",
+      "description": "Optionaler deutscher Anzeigename (Chimaere, Chiffre 091)."
+    },
+    "class": {
+      "type": "string",
+      "enum": ["AR", "SMG", "Sniper", "Marksman", "Marksman Rifle", "Marksman/Sniper", "LMG", "Pistol", "Shotgun", "Launcher", "Battle Rifle", "Melee", "Knife", "Crossbow", "Special"],
+      "description": "Waffenklasse. TGD-Klassifikation 1:1: 'Marksman Rifle' (TGD-Originalname) und 'Marksman'/'Marksman/Sniper' (Cross-Game-Compounds) koexistieren; Sonderklassen (Crossbow, Melee, Special) fuer den Off-Meta-Tail."
+    },
+    "game": {
+      "type": "string",
+      "enum": ["mw2", "mw3", "mw2019", "mw2019_mw3", "bo6", "bo7", "unknown"],
+      "description": "Herkunfts-Titel. mw2019 = Modern Warfare 2019; mw2019_mw3 = ueber beide MW-Titel gefuehrt; mw2/mw3 = MW2(2022)/MW3(2023). 'unknown' = Aera-Tab in der Quelle nicht bestimmbar (Platzhalter, spaeter nachtragen)."
+    },
+    "in_warzone": {
+      "type": "boolean",
+      "description": "In Warzone verfuegbar (Cross-Game-Pool ab MW2)."
+    },
+    "source": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Provenance-Quelle der Stats/Deltas (z.B. 'truegamedata')."
+    },
+    "data_version": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stand der Quelldaten (z.B. 'S3.5_2026-04-25')."
+    },
+    "note": {
+      "type": "string",
+      "description": "Freitext-Hinweis (Off-Meta-Status, fehlende S4-Daten, Universal-Pool-Referenz, Veraltet-Markierung)."
+    },
+    "base_note": {
+      "type": "string",
+      "description": "Hinweis speziell zur base-Sektion (z.B. Base nicht gelesen, spaeter nachtragen)."
+    },
+    "extraction": {
+      "type": "string",
+      "pattern": "^(weapon-specific-only|base-only)",
+      "description": "Extraktions-Modus. 'weapon-specific-only' = nur waffenspezifische Slots erfasst (universelle Slots als _universal-Referenz, Tail-Optimierung); 'base-only' = keine Builder-Daten in der Quelle (ns=0, Meme-Waffe, Special), nur Base. Optionaler Klammer-Zusatz dokumentiert Abweichungen (z.B. '(MW: ohne MUZZLE)', '(ns=0)')."
+    },
+    "all_slots": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Vollstaendige Slot-Liste der Waffe (auch nicht-extrahierte universelle Slots), zur Doku des _universal-Verweises."
+    },
+    "base": {
+      "type": "object",
+      "description": "Base-Stats in fixer Konvention. Darf {} sein, wenn Base noch nicht erfasst wurde (dann base_note setzen).",
+      "additionalProperties": false,
+      "properties": {
+        "rpm": {"type": "number", "description": "Schussrate (rounds per minute)."},
+        "mag": {"type": "number", "description": "Magazingroesse."},
+        "reload_s": {"type": "number", "description": "Nachladezeit in Sekunden."},
+        "ads_ms": {"type": "number", "description": "Aim-Down-Sight-Zeit in Millisekunden."},
+        "velocity_ms": {"type": "number", "description": "Muendungsgeschwindigkeit in m/s."},
+        "move_ms": {"type": "number", "description": "Bewegungsgeschwindigkeit (m/s)."},
+        "sprint_to_fire_ms": {"type": "number", "description": "Sprint-to-Fire-Zeit in Millisekunden."},
+        "sprint_ms": {"type": "number", "description": "Sprintgeschwindigkeit (m/s)."},
+        "zoom_x": {"type": "number", "description": "Optischer Zoom-Faktor (Sniper/Marksman)."}
+      }
+    },
+    "slots": {
+      "type": "object",
+      "description": "Attachment-Slots. Jeder Slot-Key (MUZZLE, BARREL, ...) -> Array roher Delta-Strings. Sonderschluessel _universal = String-Referenz auf den geteilten universellen Attachment-Pool.",
+      "properties": {
+        "_universal": {
+          "type": "string",
+          "description": "Referenz-String auf den universellen Attachment-Pool (z.B. 'OPTIC/UNDERBARREL/... = BO6-Pool (ref lc10.json)')."
+        }
+      },
+      "additionalProperties": {
+        "type": "array",
+        "items": {"type": "string"},
+        "description": "Rohe Attachment-Delta-Strings im Format 'Name :: +X% Stat | -Y% Stat'."
+      }
+    },
+    "_universal": {
+      "type": "string",
+      "description": "Referenz-String auf den geteilten universellen Attachment-Pool (z.B. 'OPTIC/UNDERBARREL/... = BO6-Pool (ref lc10.json)'). L1 legt diesen Schluessel uneinheitlich ab: in aelteren Files innerhalb von 'slots' (letzter Slot-Key), in neueren auf Root-Ebene. Beide Platzierungen sind gueltig; der Build-Parser liest beide."
+    }
+  }
+}

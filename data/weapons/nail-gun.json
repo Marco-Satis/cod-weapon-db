@@ -1,0 +1,23 @@
+{
+  "id": "nail-gun",
+  "name": "Nail Gun",
+  "class": "Special",
+  "game": "bo6",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Special-Waffe (Nail Gun, 517 RPM, 100 m/s Velocity). TGD ohne Attachment-Slots (nSlots=0) -> base-only.",
+  "extraction": "base-only (ns=0, Special)",
+  "base": {
+    "rpm": 517,
+    "mag": 30,
+    "reload_s": 2.17,
+    "ads_ms": 180,
+    "velocity_ms": 100,
+    "move_ms": 5,
+    "sprint_to_fire_ms": 100,
+    "sprint_ms": 6.4
+  },
+  "slots": {},
+  "_universal": "keine (Special)"
+}

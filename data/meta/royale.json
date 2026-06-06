@@ -1,0 +1,312 @@
+{
+  "category": "royale_drumherum",
+  "game": "warzone",
+  "data_version": "2026-03-13 (Black Ops Royale) / S4 (2026-06-05, Resurgence)",
+  "source": "dotesports 'All Perks, Equipment, Field Upgrades, and Killstreaks in Warzone Black Ops Royale' (13.03.2026) + wzstats.gg/warzone/meta/resurgence/loadouts",
+  "scope_warning": "Perks/Equipment-Listen gelten AUSSCHLIESSLICH fuer den Modus 'Black Ops Royale' (eigenstaendiger Blackout-Style-Modus). NICHT mit klassischem Battle Royale oder Rebirth/Resurgence vermischen. In Black Ops Royale sind Perks temporaere Consumable-Pickups, KEINE festen Loadout-Slot-Perks. Alte WZ-Perks (Ghost/Sprinter/Overkill/Double Time) gelten NICHT in Black Ops Royale.",
+  "perks_carry_rule": "Black Ops Royale: bis zu 5 gleichzeitig tragbar, einzeln aktivierbar/queuebar. Wirkdauer: Short ~2min · Medium 2,5-3,5min · Long ~4min.",
+  "items": [
+    {
+      "id": "awareness",
+      "type": "perk",
+      "name": "Awareness",
+      "duration": "Short",
+      "effect": "Lautere Gegner-Schritte (moderat) + Spurenlesen (Fussabdruecke verfolgen)."
+    },
+    {
+      "id": "brawler",
+      "type": "perk",
+      "name": "Brawler",
+      "duration": "Long",
+      "effect": "+HP bei Nahkampf, Bonus-HP wenn voll geheilt, starker Melee-Schaden-Boost, Tactical-Sprint."
+    },
+    {
+      "id": "engineer",
+      "type": "perk",
+      "name": "Engineer",
+      "duration": "Medium",
+      "effect": "Gegner-Equipment/Killstreaks/Fahrzeuge durch Waende sehen; Fahrzeug repariert sich als Fahrer/Passagier."
+    },
+    {
+      "id": "iron-lungs",
+      "type": "perk",
+      "name": "Iron Lungs",
+      "duration": "Long",
+      "effect": "Laengeres Luftanhalten (Tauchen/Optik-Scopes), weniger Flinch + Idle-Sway."
+    },
+    {
+      "id": "looter",
+      "type": "perk",
+      "name": "Looter",
+      "duration": "Short",
+      "effect": "Supply-Boxen in Naehe markiert + moderat hoehere High-Value-Loot-Chance."
+    },
+    {
+      "id": "medic",
+      "type": "perk",
+      "name": "Medic",
+      "duration": "Long",
+      "effect": "Wiederbelebte Allies mit Bonus-HP, schnelleres Platten-Einsetzen, schnelleres (Selbst-)Reviven."
+    },
+    {
+      "id": "mobility",
+      "type": "perk",
+      "name": "Mobility",
+      "duration": "Long",
+      "effect": "Kein Fallschaden, schnellerer Waffenwechsel + Reload."
+    },
+    {
+      "id": "outlander",
+      "type": "perk",
+      "name": "Outlander",
+      "duration": "Medium",
+      "effect": "Weniger Schaden + mehr Movement im Circle-Collapse (je moderat)."
+    },
+    {
+      "id": "paranoia",
+      "type": "perk",
+      "name": "Paranoia",
+      "duration": "Long",
+      "effect": "Spuert, wenn ein Gegner dich anvisiert."
+    },
+    {
+      "id": "reinforced",
+      "type": "perk",
+      "name": "Reinforced",
+      "duration": "Long",
+      "effect": "Stark reduzierter Explosiv-/Feuer-Schaden (kein Down bei voller HP), Resistenz vs. Flash/Stun, weniger Schaden von Hand Cannon/War Machine/Death Machine."
+    },
+    {
+      "id": "skulker",
+      "type": "perk",
+      "name": "Skulker",
+      "duration": "Long",
+      "effect": "+Movement (minor), +Crouch/Prone-Speed (moderat), +Schwimm-Speed (stark)."
+    },
+    {
+      "id": "squad-link",
+      "type": "perk",
+      "name": "Squad Link",
+      "duration": "Short",
+      "effect": "ADS pingt Gegner automatisch; Treffer outlinen kurz; downed Gegner in Naehe durch Waende sichtbar."
+    }
+  ],
+  "lethal_equipment": {
+    "carry_rule": "2 Sets tragbar",
+    "list": [
+      {
+        "id": "cluster-grenade",
+        "name": "Cluster Grenade",
+        "effect": "Streut beim Detonieren kleinere Explosiva.",
+        "rarity": "Uncommon"
+      },
+      {
+        "id": "combat-axe",
+        "name": "Combat Axe",
+        "effect": "Wurf-Axt, One-Hit-Kill, prallt ab.",
+        "rarity": "Uncommon"
+      },
+      {
+        "id": "cymbal-monkey",
+        "name": "Cymbal Monkey",
+        "effect": "Lockt mit Geraeusch Zombies an, explodiert nach Countdown.",
+        "rarity": "Rare (in Cradle Breaches)"
+      },
+      {
+        "id": "frag-grenade",
+        "name": "Frag Grenade",
+        "effect": "Cookbare Splittergranate.",
+        "rarity": "Common"
+      },
+      {
+        "id": "needle-drone",
+        "name": "Needle Drone",
+        "effect": "Kleine Flugdrohne, explodiert bei Aufprall, Auto/Manuell.",
+        "rarity": "Rare"
+      },
+      {
+        "id": "point-turret",
+        "name": "Point Turret",
+        "effect": "Deploybarer Sentry-Turret, schiesst automatisch.",
+        "rarity": "Rare"
+      },
+      {
+        "id": "sticky-grenade",
+        "name": "Sticky Grenade",
+        "effect": "Timed Haftgranate.",
+        "rarity": "Common"
+      }
+    ]
+  },
+  "tactical_equipment": {
+    "carry_rule": "2 Sets tragbar",
+    "list": [
+      {
+        "id": "emp-grenade",
+        "name": "EMP Grenade",
+        "effect": "Deaktiviert/zerstoert Elektronik (Equipment, Killstreaks, Spieler).",
+        "rarity": "Uncommon"
+      },
+      {
+        "id": "flashbang",
+        "name": "Flashbang",
+        "effect": "Blendet + betaeubt kurz.",
+        "rarity": "Common"
+      },
+      {
+        "id": "grappling-hook",
+        "name": "Grappling Hook",
+        "effect": "An Gebaeude/Fahrzeuge/RC-XD haken, Loslassen -> Wingsuit-Glide.",
+        "rarity": "Uncommon"
+      },
+      {
+        "id": "psych-grenade",
+        "name": "Psych Grenade",
+        "effect": "Halluzinogene Gaswolke bei Aufprall (Phantom-Klone).",
+        "rarity": "Common"
+      },
+      {
+        "id": "sensor-dart",
+        "name": "Sensor Dart",
+        "effect": "Projektil, pingt Gegner in Umgebung am Landepunkt.",
+        "rarity": "Rare"
+      },
+      {
+        "id": "smoke-grenade",
+        "name": "Smoke Grenade",
+        "effect": "Sichtblockade, blockt Auto-Targeting.",
+        "rarity": "Common"
+      },
+      {
+        "id": "stim-shot",
+        "name": "Stim Shot",
+        "effect": "Schnellheilung.",
+        "rarity": "Common"
+      },
+      {
+        "id": "stun-grenade",
+        "name": "Stun Grenade",
+        "effect": "Verlangsamt Movement + Aim des Ziels.",
+        "rarity": "Common"
+      }
+    ]
+  },
+  "field_upgrades": {
+    "carry_rule": "2 tragbar",
+    "list": [
+      {
+        "id": "armor-box",
+        "name": "Armor Box",
+        "effect": "Blaue Box, Platten-Nachschub fuer Team.",
+        "rarity": "Common"
+      },
+      {
+        "id": "bubble-shield",
+        "name": "Bubble Shield",
+        "effect": "Domfoermiger Schild, absorbiert Range-/Explosiv-Schaden bis zerstoert.",
+        "rarity": "Rare"
+      },
+      {
+        "id": "deployable-cover",
+        "name": "Deployable Cover",
+        "effect": "Ballistik-Schild zum Aufstellen / Waffe aufstuetzen.",
+        "rarity": "Common"
+      },
+      {
+        "id": "echo-unit",
+        "name": "Echo Unit",
+        "effect": "Stationaerer Spieler-Klon als Ablenkung (Basis beschiessen = zerstoert).",
+        "rarity": "Common"
+      },
+      {
+        "id": "munitions-box",
+        "name": "Munitions Box",
+        "effect": "Olive Box, fuellt Primary/Secondary/Tactical/Lethal fuer Squad.",
+        "rarity": "Uncommon"
+      },
+      {
+        "id": "trauma-kit",
+        "name": "Trauma Kit",
+        "effect": "Nach 3s volle HP + Bonus-HP.",
+        "rarity": "Uncommon"
+      },
+      {
+        "id": "trophy-system",
+        "name": "Trophy System",
+        "effect": "Zerstoert eingehende Projektile (Boden/Fahrzeug).",
+        "rarity": "Common"
+      }
+    ]
+  },
+  "killstreaks": {
+    "carry_rule": "je 2 verschiedene tragbar, alle Uncommon",
+    "list": [
+      {
+        "id": "dawg",
+        "name": "D.A.W.G.",
+        "effect": "Mobiler vierbeiniger Turret (Grosskaliber + Raketenpod), folgt dir, feuert auf Gegner. Stark vs. Infanterie."
+      },
+      {
+        "id": "deadeye-drone",
+        "name": "Deadeye Drone",
+        "effect": "Ferngesteuerte Luftdrohne mit Kleinkaliber-Sniper, begrenzte Munition."
+      },
+      {
+        "id": "death-machine",
+        "name": "Death Machine",
+        "effect": "Schwere Minigun, hohe Feuerrate/Penetration, grosses Mag."
+      },
+      {
+        "id": "hand-cannon",
+        "name": "Hand Cannon",
+        "effect": "Grosskaliber-Handfeuerwaffe, hoher Bullet-Damage + Penetration."
+      },
+      {
+        "id": "hkds",
+        "name": "HKDs",
+        "effect": "Luft-Lieferung von Hunter-Killer-Drohnen (suchen Ziel, explodieren)."
+      },
+      {
+        "id": "psych-bomb",
+        "name": "Psych Bomb",
+        "effect": "Cluster-Strike mit neurotoxischer Gaswolke an Einschlaegen."
+      },
+      {
+        "id": "rc-xd",
+        "name": "RC-XD",
+        "effect": "Kleines ferngesteuertes, fern-detoniertes Explosiv-Fahrzeug."
+      },
+      {
+        "id": "war-machine",
+        "name": "War Machine",
+        "effect": "Burst-Granatwerfer, Projektile explodieren bei Aufprall, grosses Mag."
+      }
+    ]
+  },
+  "resurgence": {
+    "scope_note": "Resurgence/Rebirth (Marcos Primaer-Modus) — ANDERES Perk-System als Black Ops Royale.",
+    "source": "Web-Recherche + wzstats.gg/warzone/meta/resurgence/loadouts",
+    "freshness_flag": "wzstats-Perk-Picks waren 'Season 2'-getaggt; klassische Perk-Namen existieren Aera-uebergreifend -> exakte Meta-Picks mit Vorsicht, System ist aber bestaetigt.",
+    "key_differences": [
+      "Resurgence nutzt Custom-Loadouts (Loadout-Drops) mit festen Loadout-Slot-Perks (klassisches System) — NICHT die temporaeren Consumable-Perks von Black Ops Royale.",
+      "Specialist-Quest-System: jede Elimination gibt einen zusaetzlichen Perk; genug Elims -> 'Specialist' = volles Perk-Paket. Perk-Progression laeuft nach dem Tod weiter.",
+      "LTM-Variante 'Loaded Resurgence Casual': voller Loadout schon beim Spawn + Bot-gefuellte Lobbys."
+    ],
+    "meta_perks_flagged": [
+      "Scavenger",
+      "Sprinter",
+      "Hunter (bzw. Ghost in Sniper-Builds)"
+    ],
+    "equipment_picks": {
+      "lethal": "Frag",
+      "tactical": "Smoke",
+      "melee": "Knife"
+    },
+    "todo": true,
+    "todo_note": "Vollstaendige Resurgence-Perk-LISTE (alle Slots/Optionen) + verifizierte S4-Picks noch offen — wzstats zeigt nur wiederkehrende Top-Picks ohne Slot-Zuordnung."
+  },
+  "open": [
+    "Vollstaendige Resurgence-Loadout-Perk-Liste (alle Slot-Optionen) + S4-verifizierte Meta-Picks",
+    "Killstreak-Kosten/Preise (Artikel listet nur Effekte, keine Cash-Kosten)"
+  ]
+}

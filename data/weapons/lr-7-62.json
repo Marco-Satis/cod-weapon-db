@@ -1,0 +1,49 @@
+{
+  "id": "lr-7-62",
+  "name": "LR 7.62",
+  "class": "Sniper",
+  "game": "bo6",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO6 Sniper/DMR (7.62 NATO, 39 RPM, 5-round). reload roh '3460 s' -> 3.46. Universelle Slots = BO6-Pool.",
+  "extraction": "weapon-specific-only",
+  "base": {
+    "rpm": 39,
+    "mag": 5,
+    "reload_s": 3.46,
+    "ads_ms": 600,
+    "velocity_ms": 920,
+    "move_ms": 4.5,
+    "sprint_to_fire_ms": 320,
+    "sprint_ms": 6
+  },
+  "slots": {
+    "BARREL": [
+      "Gain-Twist Barrel :: +30% Bullet Velocity",
+      "Long Barrel :: +26% Range",
+      "Reinforced Barrel :: +16% Range | +10% Bullet Velocity",
+      "Short Barrel",
+      "CHF Barrel :: Makes leg damage the same as chest/stomach | +49.8% Gun Kick | +20% Horiz. Recoil | +50% Vert. Recoil | +20.8% ADS Time"
+    ],
+    "FIRE MODS": [
+      "Rapid Fire :: Does not modify damage profile | -15% Bullet Velocity | +41% Fire Rate | +20% Gun Kick | +15% Horiz. Recoil | +20% Vert. Recoil",
+      "7.62 NATO Overpressured :: +15% Bullet Velocity",
+      "7.62 NATO FMJ"
+    ],
+    "MAGAZINE": [
+      "Extended Mag I :: +11% Reload",
+      "Fast Mag I :: -13.3% Reload",
+      "Extended Mag II :: +3.3% ADS Time | +21.4% Reload | +6.2% Sprint to Fire",
+      "Fast Mag II :: -4.2% ADS Time | -26% Reload | -3.1% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Suppressor",
+      "Compensator :: -24.8% Gun Kick | -25% Vert. Recoil",
+      "Muzzle Brake",
+      "Ported Compensator :: -19.8% Gun Kick | -20% Vert. Recoil",
+      "Monolithic Suppressor :: +10.9% Range | +20% Bullet Velocity | +9.2% ADS Time"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO6-Pool (ref lc10.json)"
+}

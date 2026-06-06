@@ -1,0 +1,35 @@
+{
+  "id": "sirin-9mm",
+  "name": "Sirin 9mm",
+  "class": "Pistol",
+  "game": "bo6",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO6 Spezial-Pistole (9mm, 500 RPM, 32-round, 0.88x). Stark reduzierter Aufsatz-Pool (Editor nur 5 Slots: OPTIC/MUZZLE/BARREL/UNDERBARREL/MAGAZINE; kein FIRE MODS/AMMUNITION/STOCK/REAR GRIP). Weapon-spez: MUZZLE/BARREL/MAGAZINE (minimal).",
+  "extraction": "weapon-specific-only-BO-editorbound-split-minimal",
+  "base": {
+    "rpm": 500,
+    "mag": 32,
+    "reload_s": 2.76,
+    "ads_ms": 185,
+    "velocity_ms": 480,
+    "move_ms": 5.1,
+    "sprint_to_fire_ms": 110,
+    "sprint_ms": 6.7,
+    "zoom_x": 0.88
+  },
+  "slots": {
+    "BARREL": [
+      "Long Barrel :: +22.3% Range"
+    ],
+    "MAGAZINE": [
+      "Extended Mag :: +9% Reload Time",
+      "Fast Mag I :: -19% Reload Time"
+    ],
+    "MUZZLE": [
+      "Suppressor"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL = BO6-Pool (ref lc10.json); weitere Slots fehlen bei dieser Waffe"
+}

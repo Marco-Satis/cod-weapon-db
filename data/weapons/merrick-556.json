@@ -1,0 +1,24 @@
+{
+  "id": "merrick-556",
+  "name": "Merrick 556",
+  "class": "AR",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "BO7-native AR (5.56, 732 RPM). TGD S3.5 ohne Attachment-Builder-Daten (nSlots=0) -> base-only, wie Dresden/Jager/REV-46-Gap. Attachments via codmunity-S4 / TGD-S4 nachtragen.",
+  "extraction": "base-only (ns=0)",
+  "base": {
+    "rpm": 732,
+    "mag": 30,
+    "reload_s": 2.86,
+    "ads_ms": 230,
+    "velocity_ms": 915,
+    "move_ms": 4.9,
+    "sprint_to_fire_ms": 178,
+    "sprint_ms": 6.3,
+    "zoom_x": 1
+  },
+  "slots": {},
+  "_universal": "TBD (BO7-Pool)"
+}

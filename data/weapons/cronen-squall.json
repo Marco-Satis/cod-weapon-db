@@ -1,0 +1,47 @@
+{
+  "id": "cronen-squall",
+  "name": "Cronen Squall",
+  "class": "Battle Rifle",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 Battle-Rifle (Burst). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 674,
+    "mag": 20,
+    "reload_s": 3.2,
+    "ads_ms": 285,
+    "velocity_ms": 700,
+    "move_ms": 4.5,
+    "sprint_to_fire_ms": 140,
+    "sprint_ms": 6.1,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      ".277 Round Nose :: +50% Target Flinch | -20.1% Range",
+      ".277 Mono :: -1.6% Range | +8% Bullet Velocity | +3% Gun Kick | +4% Horiz | +4% Vert",
+      "6.8 Armor Piercing",
+      "6.8 Composite :: -10% Bullet Velocity | -2% ADS Time | -10% Sprint to Fire",
+      "6.8 Frangible :: -4.9% Range",
+      "6.8 Hollow Point",
+      "6.8 High Velocity :: -4.9% Range | +20% Bullet Velocity",
+      "6.8 Overpressure +P :: +80% Target Flinch",
+      ".277 Low Grain :: -15% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz | -8% Vert",
+      "6.8 Incendiary :: -10% Range | -25% Bullet Velocity",
+      ".277 High Grain :: +15% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz | +8% Vert"
+    ],
+    "BARREL": [
+      "SB6.8 16\" :: -3.9% Range | -5% Bullet Velocity | +2% Recoil(alle) | +6% Idle Sway | -6% Max Hipfire | +Mobility | -8% ADS Time",
+      "LR6.8 22\" :: +20.1% Range | +17% Bullet Velocity | -4% Recoil(alle) | -7% Idle Sway | +8% Max Hipfire | -Mobility | +7% ADS Time",
+      "HR6.8 Barrel :: +28% Range | +32% Bullet Velocity | -11% Recoil(alle) | -10% Idle Sway | +10% Max Hipfire | -Mobility | +12% ADS Time"
+    ],
+    "MAGAZINE": [
+      "30 Round Mag :: -5% Move | -6% Crouch | -3% Sprint | -6% ADS Move | +7% ADS Time | +11% Reload",
+      "50 Round Drum :: -13% Move | -14% Crouch | -8% Sprint | -15% ADS Move | +17% ADS Time | +25% Reload | +2% Sprint to Fire"
+    ],
+    "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+  }
+}

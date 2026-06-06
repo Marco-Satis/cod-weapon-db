@@ -1,0 +1,50 @@
+{
+  "id": "xr-3-ion",
+  "name": "XR-3 Ion",
+  "class": "Sniper",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO7 Sniper (7.62 NATO, 136 RPM semi-auto, 12-round). BO7-branded (MFS/LTI/Ion Trinity). Endgame S4: Headshot -36% + Explosive-Mod-Nerf -> abgestuerzt (war S-Tier). Black-Ops-Layout: OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER universell. Weapon-spez: MUZZLE/BARREL/MAGAZINE/FIRE MODS.",
+  "extraction": "weapon-specific-only-BO-editorbound-split",
+  "base": {
+    "rpm": 136,
+    "mag": 12,
+    "reload_s": 2.91,
+    "ads_ms": 620,
+    "velocity_ms": 820,
+    "move_ms": 4.5,
+    "sprint_to_fire_ms": 250,
+    "sprint_ms": 7,
+    "zoom_x": 0
+  },
+  "slots": {
+    "BARREL": [
+      "21\" LTI Infinity Barrel :: +25% Range",
+      "20\" Ion Trinity Barrel :: +40% Bullet Velocity",
+      "17\" XR-Adapt Barrel :: +12.5% Range",
+      "15\" Fringe Barrel :: -5.3% ADS Time",
+      "19\" Revolution Barrel :: -10% Gun Kick"
+    ],
+    "FIRE MODS": [
+      "Quick Charge :: -15% Bullet Velocity",
+      "7.62 NATO Overpressured :: +15% Bullet Velocity",
+      "Accelerated Recoil System :: -10% Gun Kick",
+      "7.62 NATO FMJ"
+    ],
+    "MAGAZINE": [
+      "Overload Capacity Mag :: +3.2% ADS Time",
+      "Mammoth Stack Extended :: +4.8% ADS Time",
+      "Phantom-V Fast Mag :: -3.7% ADS Time"
+    ],
+    "MUZZLE": [
+      "MFS 3x3 Compensator :: -21.3% Fire Rate",
+      "LTI Triad Suppressor",
+      "Trishot Compensator :: -14.2% Gun Kick",
+      "Triptych Brake :: -7.6% Gun Kick",
+      "Monolithic Suppressor :: +7.5% Range"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO7-Pool"
+}

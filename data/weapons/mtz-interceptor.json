@@ -1,0 +1,44 @@
+{
+  "id": "mtz-interceptor",
+  "name": "MTZ Interceptor",
+  "class": "Marksman Rifle",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 Marksman Rifle (7.62x51, 214 RPM semi, 10-round, Lever-Action). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 214,
+    "mag": 10,
+    "reload_s": 2.7,
+    "ads_ms": 300,
+    "velocity_ms": 820,
+    "move_ms": 4.5,
+    "sprint_to_fire_ms": 262,
+    "sprint_ms": 6,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "7.62X51mm Low Grain Rounds :: -15% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "7.62X51mm High Grain Rounds :: +15% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "7.62X51mm Round Nose :: +40% Target Flinch | -19.9% Range",
+      "7.62X51mm Mono :: -2.4% Range | +8% Bullet Velocity | +2% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      "7.62X51mm Hollowpoint",
+      "7.62X51mm Armor Piercing",
+      "7.62X51mm Frangible :: -4.9% Range",
+      "7.62X51mm Overpressured +P :: +80% Target Flinch",
+      "7.62X51mm High Velocity :: -4.9% Range | +20% Bullet Velocity",
+      "7.62X51mm Incendiary :: -9.9% Range | -25% Bullet Velocity"
+    ],
+    "BARREL": [
+      "MTZ Longshot Pro Barrel :: +7.5% Range | +9% Bullet Velocity | -7% Gun Kick | -11% Horiz. Recoil | -10% Vert. Recoil | +9% Idle Sway | +9% Max Hipfire | -4% Move | -2% Sprint | -3% ADS Move | +10% Sprint to Fire",
+      "MTZ Blackthorn Barrel :: +25.1% Range | +30% Bullet Velocity | +30% Idle Sway | +30% Max Hipfire | -10% ADS Move | +5% Sprint to Fire"
+    ],
+    "MAGAZINE": [
+      "20 Round Mag :: -5% Move | -5% Crouch | -2% Sprint | -5% ADS Move | +7% ADS Time | +15% Reload | +2% Sprint to Fire"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

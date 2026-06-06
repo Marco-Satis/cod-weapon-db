@@ -1,0 +1,321 @@
+{
+  "category": "prestige_attachments",
+  "game": "bo7",
+  "data_version": "S4 (2026-06-05)",
+  "source": "Steam Community Guide 'All Prestige weapon attachments (Black Ops 7)' (id 3612330006) + dotesports/thegamer/game8",
+  "confidence": "MITTEL-HOCH — Attachment-Namen + Effekt-Richtung solide (Community-Guide, single-source); exakte %-Werte in-game gegenpruefen",
+  "system": {
+    "rule": "1 Prestige-Aufsatz pro Waffe (exklusiv)",
+    "unlock": "Waffe auf Max-Level -> Prestige 1 ausloesen (Gunsmith, Y/Dreieck halten -> Level + Module reset, Sights/Optics bleiben)",
+    "scope": "Nur Firearms — KEINE Launcher, KEINE Melee",
+    "effect_note": "Oft starke/konvertierende Boosts (Burst-Conversion, Akimbo, Fire-Rate, One-Shot-Barrel)"
+  },
+  "items": [
+    {
+      "id": "ak-27",
+      "weapon": "AK-27",
+      "class": "AR",
+      "prestige_attachment": "Enhanced Cycle System",
+      "effect": "+Fire-Rate (~19%), -Bullet-Velocity-Range (~8%)"
+    },
+    {
+      "id": "ds20-mirage",
+      "weapon": "DS20 Mirage",
+      "class": "AR",
+      "prestige_attachment": "Mirage Tandem Launcher",
+      "effect": "Underbarrel-Launcher, +Clip, Burst-Fire"
+    },
+    {
+      "id": "egrt-17",
+      "weapon": "EGRT-17",
+      "class": "AR",
+      "prestige_attachment": "MFS Heated Echo Rounds",
+      "effect": "+Range +Velocity, Reflection"
+    },
+    {
+      "id": "maddox-rfb",
+      "weapon": "Maddox RFB",
+      "class": "AR",
+      "prestige_attachment": "13\" MFS Echo-Fire Barrel",
+      "effect": "-> Burst-Fire, +Crit"
+    },
+    {
+      "id": "mk35-isr",
+      "weapon": "MK35 ISR",
+      "class": "AR",
+      "prestige_attachment": "19\" MFS Nightfall Suppressed Barrel",
+      "effect": "+Range, +Hipfire-Accuracy"
+    },
+    {
+      "id": "mxr-17",
+      "weapon": "MXR-17",
+      "class": "AR",
+      "prestige_attachment": "MFS Semi-Auto Fast Mag",
+      "effect": "-> Semi-Auto, +Reload +Handling"
+    },
+    {
+      "id": "m15-mod-0",
+      "weapon": "M15 Mod 0",
+      "class": "AR",
+      "prestige_attachment": "MFS 5.56 NATO FMJ",
+      "effect": "+Damage-Range, kein Minimap-Ping beim Feuern"
+    },
+    {
+      "id": "peacekeeper-mk1",
+      "weapon": "Peacekeeper Mk1",
+      "class": "AR",
+      "prestige_attachment": "MFS Counterforce-C1 Stock",
+      "effect": "-Recoil (~15%)"
+    },
+    {
+      "id": "voyak-kt-3",
+      "weapon": "Voyak KT-3",
+      "class": "AR",
+      "prestige_attachment": "MFS Anti-Dispertion Module",
+      "effect": "-Hipfire-Spread (~57%)"
+    },
+    {
+      "id": "x9-maverick",
+      "weapon": "X9 Maverick",
+      "class": "AR",
+      "prestige_attachment": "14.6\" MFS Pulse Load+ Barrel",
+      "effect": "+Movement +Reload"
+    },
+    {
+      "id": "carbon-57",
+      "weapon": "Carbon 57",
+      "class": "SMG",
+      "prestige_attachment": "MFS Renown Plus Mag",
+      "effect": "+Mag +Movement"
+    },
+    {
+      "id": "dravec-45",
+      "weapon": "Dravec 45",
+      "class": "SMG",
+      "prestige_attachment": "MFS Agile Laser Pro",
+      "effect": "+Range +Movement, sichtbarer Laser"
+    },
+    {
+      "id": "kogot-7",
+      "weapon": "Kogot-7",
+      "class": "SMG",
+      "prestige_attachment": "MFS Kogot-7 Akimbo",
+      "effect": "Dual-Wield, +Spread"
+    },
+    {
+      "id": "mpc-25",
+      "weapon": "MPC-25",
+      "class": "SMG",
+      "prestige_attachment": "8.6\" MFS Stratus-X Barrel",
+      "effect": "-Recoil (~30%)"
+    },
+    {
+      "id": "razor-9mm",
+      "weapon": "Razor 9mm",
+      "class": "SMG",
+      "prestige_attachment": "12\" MFS Sidewinder Barrel",
+      "effect": "+Velocity (~60%), -Recoil"
+    },
+    {
+      "id": "rev-46",
+      "weapon": "REV-46",
+      "class": "SMG",
+      "prestige_attachment": "MFS Reforge Flip Stock",
+      "effect": "+ADS-Movement"
+    },
+    {
+      "id": "rk-9",
+      "weapon": "RK-9",
+      "class": "SMG",
+      "prestige_attachment": "MFS Ironlung Handstop",
+      "effect": "+Fire-Rate (~19%), -Recoil (~50%)"
+    },
+    {
+      "id": "ryden-45k",
+      "weapon": "Ryden 45K",
+      "class": "SMG",
+      "prestige_attachment": "MFS Full Stock+",
+      "effect": "+Hipfire-Accuracy +Movement"
+    },
+    {
+      "id": "sturmwolf-45",
+      "weapon": "Sturmwolf 45",
+      "class": "SMG",
+      "prestige_attachment": "MFS Tigris .40 Cal Mag",
+      "effect": "Ammo-Wechsel, +Reload-Speed"
+    },
+    {
+      "id": "vst",
+      "weapon": "VST",
+      "class": "SMG",
+      "prestige_attachment": "MFS 5.56m Defense Conversion",
+      "effect": "-> Burst-Fire, +Range"
+    },
+    {
+      "id": "akita",
+      "weapon": "Akita",
+      "class": "Shotgun",
+      "prestige_attachment": "MFS GD-7 Shock Stock",
+      "effect": "+ADS +Movement"
+    },
+    {
+      "id": "echo-12",
+      "weapon": "Echo 12",
+      "class": "Shotgun",
+      "prestige_attachment": "18\" MFS Greyhound Barrel",
+      "effect": "+Velocity (~60%), -Recoil"
+    },
+    {
+      "id": "m10-breacher",
+      "weapon": "M10 Breacher",
+      "class": "Shotgun",
+      "prestige_attachment": "MFS XK-Lite Stock",
+      "effect": "-Range, +Hipfire +Sprint-to-Fire"
+    },
+    {
+      "id": "sg-12",
+      "weapon": "SG-12",
+      "class": "Shotgun",
+      "prestige_attachment": "MFS Pulse Fire Taclight",
+      "effect": "Binary-Trigger, +Fire-Rate (~67%)"
+    },
+    {
+      "id": "mk-78",
+      "weapon": "Mk.78",
+      "class": "LMG",
+      "prestige_attachment": "MFS Heatshield Belt Fed",
+      "effect": "Mag -> 500 Schuss"
+    },
+    {
+      "id": "sokol-545",
+      "weapon": "Sokol 545",
+      "class": "LMG",
+      "prestige_attachment": "MFS 48-Dread Burst Mod",
+      "effect": "-> Burst-Fire, +Fire-Rate"
+    },
+    {
+      "id": "xm325",
+      "weapon": "XM325",
+      "class": "LMG",
+      "prestige_attachment": "MFS Motion Strike Laser",
+      "effect": "+Range, -Hipfire-Spread"
+    },
+    {
+      "id": "m34-novaline",
+      "weapon": "M34 Novaline",
+      "class": "Marksman",
+      "prestige_attachment": "MFS Enhance-32 Handstop",
+      "effect": "-Aim-Sway -Flinch (~50%)"
+    },
+    {
+      "id": "m8a1",
+      "weapon": "M8A1",
+      "class": "Marksman",
+      "prestige_attachment": "MFS Striker Tactical Stock",
+      "effect": "+Hipfire +ADS"
+    },
+    {
+      "id": "swordfish-a1",
+      "weapon": "Swordfish A1",
+      "class": "Marksman",
+      "prestige_attachment": "MFS Penta Burst Mod",
+      "effect": "Burst -> 5 Schuss, +Fire-Rate"
+    },
+    {
+      "id": "warden-308",
+      "weapon": "Warden 308",
+      "class": "Marksman",
+      "prestige_attachment": "MFS Stap Trigger",
+      "effect": "+Fire-Rate (~25%), -Range"
+    },
+    {
+      "id": "hawker-hx",
+      "weapon": "Hawker HX",
+      "class": "Sniper",
+      "prestige_attachment": "MFS 25\" Votive Barrel",
+      "effect": "+ADS, +Movement beim Luftanhalten"
+    },
+    {
+      "id": "shadow-sk",
+      "weapon": "Shadow SK",
+      "class": "Sniper",
+      "prestige_attachment": "MFS Convergence Box Laser",
+      "effect": "-Hipfire-Spread (~35%)"
+    },
+    {
+      "id": "strider-300",
+      "weapon": "Strider 300",
+      "class": "Sniper",
+      "prestige_attachment": "MFS Ballast Guard Stabilizer",
+      "effect": "-Aim-Sway, +ADS-Movement"
+    },
+    {
+      "id": "vs-recon",
+      "weapon": "VS Recon",
+      "class": "Sniper",
+      "prestige_attachment": "MFS R-Stop Handguard",
+      "effect": "-Recoil (~50%), +Breath-Hold"
+    },
+    {
+      "id": "xr-3-ion",
+      "weapon": "XR-3 ION",
+      "class": "Sniper",
+      "prestige_attachment": "MFS 3x3 Compensator",
+      "effect": "-Hipfire-Spread (~50%), +Sprint-to-Fire"
+    },
+    {
+      "id": "1911",
+      "weapon": "1911",
+      "class": "Pistol",
+      "prestige_attachment": "MFS Overdrive Auto-Brake",
+      "effect": "-> Full-Auto, schnellerer Kick-Reset"
+    },
+    {
+      "id": "coda-9",
+      "weapon": "Coda 9",
+      "class": "Pistol",
+      "prestige_attachment": "MFS DeltaCell Bulk Mag",
+      "effect": "Mag 20->30, +Range"
+    },
+    {
+      "id": "jager-45",
+      "weapon": "Jaeger 45",
+      "name_de": "Jäger 45",
+      "class": "Pistol",
+      "prestige_attachment": "9.6\" MFS Vital Ace Barrel",
+      "effect": "2x Damage (One-Shot-HS-faehig), stark -Fire-Rate"
+    },
+    {
+      "id": "velox-5-7",
+      "weapon": "Velox 5.7",
+      "class": "Pistol",
+      "prestige_attachment": "4\" MFS Celeste Barrel",
+      "effect": "+Movement +Jump-Stability"
+    },
+    {
+      "id": "gdl-havoc",
+      "weapon": "GDL Havoc",
+      "class": "Special",
+      "prestige_attachment": "MFS Airstrike Mag",
+      "effect": "2x Mag, +Projektil-Speed"
+    },
+    {
+      "id": "nx-ravager",
+      "weapon": "NX Ravager",
+      "class": "Special",
+      "prestige_attachment": "Tribolt",
+      "effect": "+Fire-Rate (~72%), Clip -> 3"
+    },
+    {
+      "id": "siren",
+      "weapon": "Siren",
+      "class": "Special",
+      "prestige_attachment": "Tribolt",
+      "effect": "+Projektil-Speed (~50%), Ricochet"
+    }
+  ],
+  "open": [
+    "Exakte %-Werte in-game verifizieren",
+    "Prestige-Aufsaetze in Meta-Builds einarbeiten (welche lohnen sich pro Waffe)"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "rev-46",
+  "name": "REV-46",
+  "class": "SMG",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Attachments in TGD S3.5 nicht verfuegbar (REV-46 = S4-Neuwaffe; Editor-Card zeigt keine Slots, nur Base-Stats). Attachment-Deltas spaeter nachziehen wenn TGD auf S4 aktualisiert, oder via codmunity Meta-Build (S4).",
+  "base": {
+    "rpm": 1154,
+    "mag": 35,
+    "reload_s": 2.23,
+    "ads_ms": 175,
+    "velocity_ms": 620,
+    "move_ms": 5.2,
+    "sprint_to_fire_ms": 105,
+    "sprint_ms": 7.6
+  },
+  "slots": {}
+}

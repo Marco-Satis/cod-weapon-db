@@ -1,0 +1,245 @@
+{
+  "category": "playstyles",
+  "game": "bo7",
+  "data_version": "2026-06-05",
+  "source": "wzhub.gg — 24 Waffen-Datenblaetter (23 mit Daten + HDR-Negativ)",
+  "methodik": "Rolle aus explizitem wzhub-Playstyle-Feld wo vorhanden; sonst aus Reichweiten-Kategorie der gelisteten Alternativ-Waffen abgeleitet. role_source markiert: 'wzhub_explicit' | 'wzhub_category' | 'derived' | 'none'.",
+  "items": [
+    {
+      "id": "voyak-kt-3",
+      "weapon": "VOYAK KT-3",
+      "class": "AR",
+      "role": "Long Range",
+      "role_source": "derived",
+      "note": "Keine explizite Playstyle-Beschreibung; Alternativen alle 'Long Range'."
+    },
+    {
+      "id": "ds20-mirage",
+      "weapon": "DS20 MIRAGE",
+      "class": "AR",
+      "role": "Long Range",
+      "role_source": "derived",
+      "note": "wzhub-Beschreibung 'nicht verfuegbar'; Alt VOYAK/MK35/EGRT = Long Range."
+    },
+    {
+      "id": "egrt-17",
+      "weapon": "EGRT-17",
+      "class": "AR",
+      "role": "Long Range",
+      "role_source": "derived",
+      "note": "Beschreibung 'nicht verfuegbar'; Alt-Waffen 'Long Range'."
+    },
+    {
+      "id": "mk35-isr",
+      "weapon": "MK35 ISR",
+      "class": "AR",
+      "role": "Long Range",
+      "role_source": "derived",
+      "note": "Beschreibung 'nicht verfuegbar'; Rolle aus Alt-Empfehlungen."
+    },
+    {
+      "id": "mxr-17",
+      "weapon": "MXR-17",
+      "class": "AR",
+      "role": "Long Range",
+      "role_source": "derived",
+      "note": "Platzhalter-Beschreibung; Alt-Pool 'Lange Reichweite'."
+    },
+    {
+      "id": "m15-mod-0",
+      "weapon": "M15 MOD 0",
+      "class": "AR",
+      "role": "Mid-to-Long Range",
+      "role_source": "derived",
+      "note": "Keine explizite Beschreibung; Alt 'Lange Reichweite'."
+    },
+    {
+      "id": "maddox-rfb",
+      "weapon": "MADDOX RFB",
+      "class": "AR",
+      "role": null,
+      "role_source": "none",
+      "todo": true,
+      "note": "wzhub-Beschreibung 'nicht verfuegbar'; keine Reichweiten-Tags an Alternativen -> Rolle nicht belegbar. AR-Long-Range nur vermutbar."
+    },
+    {
+      "id": "ak-27",
+      "weapon": "AK-27",
+      "class": "AR",
+      "role": "Long Range",
+      "role_source": "derived",
+      "note": "Keine explizite Beschreibung; 'Long Range'-Alternativen -> Ableitung."
+    },
+    {
+      "id": "vst",
+      "weapon": "VST",
+      "class": "SMG",
+      "role": "Close Range",
+      "role_source": "derived",
+      "note": "Beschreibung 'nicht verfuegbar'; SMG-Alt-Pool."
+    },
+    {
+      "id": "razor-9mm",
+      "weapon": "RAZOR 9MM",
+      "class": "SMG",
+      "role": "Close Range",
+      "role_source": "wzhub_explicit",
+      "note": "'Kurze Reichweite' auf Seite ausgewiesen — aggressives Nahkampf-SMG."
+    },
+    {
+      "id": "dravec-45",
+      "weapon": "DRAVEC 45",
+      "class": "SMG",
+      "role": "Close Range",
+      "role_source": "derived",
+      "note": "Keine explizite Playstyle-Beschreibung; nur Klassen-Einordnung SMG."
+    },
+    {
+      "id": "sturmwolf-45",
+      "weapon": "STURMWOLF 45",
+      "class": "SMG",
+      "role": "Close Range",
+      "role_source": "derived",
+      "note": "wzhub nennt keinen Playstyle; SMG-Short-Range-Pool."
+    },
+    {
+      "id": "kogot-7",
+      "weapon": "KOGOT-7",
+      "class": "SMG",
+      "role": "Close Range",
+      "role_source": "derived",
+      "note": "Beschreibung 'temporarily unavailable'; SMG-Alt-Pool."
+    },
+    {
+      "id": "mpc-25",
+      "weapon": "MPC-25",
+      "class": "SMG",
+      "role": "Close Range",
+      "role_source": "wzhub_explicit",
+      "note": "'Kurze Reichweite' ausgewiesen — aggressives Nahkampf-SMG."
+    },
+    {
+      "id": "rev-46",
+      "weapon": "REV-46",
+      "class": "SMG",
+      "role": "Close Range / CQB",
+      "role_source": "wzhub_category",
+      "note": "Auf Seite unter 'short-range weapons' eingeordnet; kein Aggressiv-Tag im Loadout."
+    },
+    {
+      "id": "carbon-57",
+      "weapon": "CARBON 57",
+      "class": "SMG",
+      "role": "Close Range",
+      "role_source": "derived",
+      "note": "Beschreibung Platzhalter; SMG-Short-Range-Alternativen."
+    },
+    {
+      "id": "strider-300",
+      "weapon": "STRIDER 300",
+      "class": "Sniper",
+      "role": "Long Range",
+      "role_source": "wzhub_category",
+      "note": "Alt VS RECON/HAWKER HX/XR-3 ION explizit unter 'Lange Reichweite' — verdeckte Distanz-Eliminierungen (Suppressor + 25\"-Lauf + Overpressured)."
+    },
+    {
+      "id": "hawker-hx",
+      "weapon": "HAWKER HX",
+      "class": "Sniper",
+      "role": "Long Range",
+      "role_source": "wzhub_category",
+      "note": "Kategorie 'Lange Reichweite' auf Seite; Detail-Beschreibung 'temporarily unavailable'."
+    },
+    {
+      "id": "vs-recon",
+      "weapon": "VS RECON",
+      "class": "Sniper",
+      "role": "Long Range",
+      "role_source": "derived",
+      "note": "Beschreibung 'nicht verfuegbar'; zwischen HDR/VICTUS XMR/KATT-AMR gelistet -> Sniper/Long-Range."
+    },
+    {
+      "id": "sg-12",
+      "weapon": "SG-12",
+      "class": "Shotgun",
+      "role": "Close Range",
+      "role_source": "derived",
+      "note": "Keine Beschreibung fuer SG-12 selbst; Alternativen mit 'Hip-fire/Tactical Stance/Short Range/Close'-Tags (gelten aber fuer die Alt-Waffen)."
+    },
+    {
+      "id": "mk-78",
+      "weapon": "MK.78",
+      "class": "LMG",
+      "role": "Long Range",
+      "role_source": "derived",
+      "note": "Beschreibung 'temporarily unavailable'; Alt-LMGs fast alle 'Long range' — keine explizite MK.78-Aussage."
+    },
+    {
+      "id": "sokol-545",
+      "weapon": "SOKOL 545",
+      "class": "LMG",
+      "role": "Long Range",
+      "role_source": "derived",
+      "note": "Keine explizite Beschreibung; Alt-LMGs durchweg 'Lange Reichweite'."
+    },
+    {
+      "id": "m8a1",
+      "weapon": "M8A1",
+      "class": "Rifle (Marksman)",
+      "role": "Long Range",
+      "role_source": "derived",
+      "note": "Alt-Waffen durchweg 'Lange Reichweite/LONG'; 3x-Visier + Conversion-Lauf -> Long-Range-Rifle. Kein expliziter Playstyle-Text."
+    },
+    {
+      "id": "hdr",
+      "weapon": "HDR",
+      "class": "Sniper",
+      "role": null,
+      "role_source": "none",
+      "todo": true,
+      "note": "Nicht in BO7 (MW-2019-/Verdansk-Waffe). Keine wzhub-BO7-Seite -> keine Rolle."
+    }
+  ],
+  "summary_by_role": {
+    "long_range_ar": [
+      "voyak-kt-3",
+      "ds20-mirage",
+      "egrt-17",
+      "mk35-isr",
+      "mxr-17",
+      "m15-mod-0",
+      "ak-27",
+      "maddox-rfb (unbelegt)"
+    ],
+    "long_range_sniper": [
+      "strider-300",
+      "hawker-hx",
+      "vs-recon"
+    ],
+    "long_range_lmg": [
+      "mk-78",
+      "sokol-545"
+    ],
+    "long_range_marksman": [
+      "m8a1"
+    ],
+    "close_range_smg": [
+      "vst",
+      "razor-9mm*",
+      "dravec-45",
+      "sturmwolf-45",
+      "kogot-7",
+      "mpc-25*",
+      "rev-46",
+      "carbon-57"
+    ],
+    "close_range_shotgun": [
+      "sg-12"
+    ],
+    "no_data": [
+      "maddox-rfb (Rolle unbekannt)",
+      "hdr (nicht in BO7)"
+    ]
+  },
+  "honesty_note": "Von 23 Waffen mit Daten hatten nur RAZOR 9MM und MPC-25 explizite Playstyle-Beschreibung ('Kurze Reichweite'); STRIDER 300 + HAWKER HX hatten explizite Reichweiten-Kategorie. Alle uebrigen Rollen sind aus Klasse/Alternativ-Kategorie abgeleitet. MADDOX RFB einziger Fall ohne jegliche Tags -> Rolle bleibt offen statt geraten. (* = explizit)"
+}

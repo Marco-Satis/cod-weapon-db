@@ -1,0 +1,52 @@
+{
+  "id": "sturmwolf-45",
+  "name": "Sturmwolf 45",
+  "class": "SMG",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO7 SMG (.45 Cal, 645 RPM, 32-round). BO7-branded (Redwell/Bowen/Hawker/MFS/LTI). Black-Ops-Layout: OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER universell. Weapon-spez: MUZZLE/BARREL/MAGAZINE/FIRE MODS. MFS Tigris Mag konvertiert auf .40 Cal.",
+  "extraction": "weapon-specific-only-BO-editorbound-split",
+  "base": {
+    "rpm": 645,
+    "mag": 32,
+    "reload_s": 2.18,
+    "ads_ms": 190,
+    "velocity_ms": 540,
+    "move_ms": 5,
+    "sprint_to_fire_ms": 130,
+    "sprint_ms": 7.4,
+    "zoom_x": 0
+  },
+  "slots": {
+    "BARREL": [
+      "14.8\" Perigee Barrel :: +13.3% Range",
+      "13.2\" Piston Mosaic Barrel :: -5.9% ADS Move.",
+      "12.3\" Lethal Conflux Barrel :: +9.2% Range",
+      "11.5\" LTI Ascendancy Barrel :: -20% Max Hipfire Area",
+      "15\" Regnant Barrel :: +17.5% Range"
+    ],
+    "FIRE MODS": [
+      "Bolt Carrier Group :: -18.3% Range",
+      "45 Cal Overpressured :: +15% Bullet Velocity",
+      "Recoil Spring Assembly :: -10% Gun Kick",
+      "45 Cal FMJ"
+    ],
+    "MAGAZINE": [
+      "MFS Tigris .40 Cal Mag :: -20% Bullet Velocity",
+      "Extended Mag I",
+      "LTI Upend Flip Mag :: -15.8% Reload Time",
+      "B-45 Roar Drum :: -4% Move. Speed"
+    ],
+    "MUZZLE": [
+      "Redwell Shade-X Suppressor :: -9.2% Range",
+      "Bowen .45 Suppressor",
+      "Hawker Series 45 :: -14.3% Gun Kick",
+      "Hawker Stabilizer MKII :: -7.6% Gun Kick",
+      "Hawker Hybrid 45 :: -25% Max Hipfire Area",
+      "Monolithic Suppressor :: +9.2% Range"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO7-Pool"
+}

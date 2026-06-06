@@ -1,0 +1,45 @@
+{
+  "id": "dg-56",
+  "name": "DG-56",
+  "class": "AR",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 AR (5.56 NATO). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 588,
+    "mag": 30,
+    "reload_s": 3.2,
+    "ads_ms": 240,
+    "velocity_ms": 720,
+    "move_ms": 4.8,
+    "sprint_to_fire_ms": 199,
+    "sprint_ms": 6.2,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.56 NATO Tracer",
+      "5.56 NATO Round Nose :: +50% Target Flinch | -18.7% Range",
+      "5.56 NATO Overpressure +P :: +80% Target Flinch",
+      "5.56 NATO High Grain Rounds :: +16.7% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "5.56 NATO Low Grain Rounds :: -13.7% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      ".45 Auto Frangible :: -3.3% Range"
+    ],
+    "BARREL": [
+      "DG-56 LS18 Barrel :: +16.7% Range | +18% Bullet Velocity | -4% Gun Kick | -6% Horiz. Recoil | -6% Vert. Recoil | +18% Idle Sway | +18% Max Hipfire | -2% Move | -1% Sprint | -5% ADS Move | +8% Sprint to Fire",
+      "CDG T-25 Light Barrel :: +22% Range | +11% Bullet Velocity | +15% Idle Sway | +15% Max Hipfire | +2% Move | +4% ADS Move | +5% Sprint to Fire",
+      "Aiguo Defender Short Barrel :: -6% Range | -4% Bullet Velocity | -4% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil | +13% ADS Time | -10% Sprint to Fire",
+      "Culpa OGS Light Barrel :: -5.7% Range | -14% Bullet Velocity | +2% Horiz. Recoil | +1% Vert. Recoil | +7% Move | +7% Crouch | +10% ADS Move | -3% ADS Time",
+      "DG-58 Micro Barrel :: +3% Horiz. Recoil | +5% Vert. Recoil | +3% Sprint | -8% ADS Time | -9% Sprint to Fire"
+    ],
+    "MAGAZINE": [
+      "20 Round Mag :: +2% Move | +2% Crouch | +2% Sprint | +8% ADS Move | -8% ADS Time | -23% Reload | -15% Sprint to Fire",
+      "40 Round Mag :: -3% Move | -3% Crouch | -1% Sprint | -3% ADS Move | +6% ADS Time | +1% Sprint to Fire",
+      "60 Round Drum :: -7% Move | -7% Crouch | -3% Sprint | -7% ADS Move | +13% ADS Time | +12% Reload | +2% Sprint to Fire"
+    ],
+    "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP/COMB = MW-Pool (ref kar98k.json)"
+  }
+}

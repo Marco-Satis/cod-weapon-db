@@ -1,0 +1,46 @@
+{
+  "id": "fr-5-56",
+  "name": "FR 5.56",
+  "class": "Battle Rifle",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 Battle Rifle (5.56 NATO, 554 RPM Burst/FAMAS, 25-round). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP/COMB universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 554,
+    "mag": 25,
+    "reload_s": 2.8,
+    "ads_ms": 250,
+    "velocity_ms": 720,
+    "move_ms": 4.7,
+    "sprint_to_fire_ms": 216,
+    "sprint_ms": 6.1,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.56 NATO Low Grain Rounds :: -15.1% Range",
+      "5.56 NATO High Grain Rounds :: +13.9% Range",
+      "5.56 NATO Round Nose :: +50% Target Flinch",
+      "5.56 NATO Mono :: -1.4% Range",
+      "5.56 Frangible :: -5.2% Range",
+      "5.56 Hollowpoint",
+      "5.56 Armor Piercing",
+      "5.56 Overpressured +P :: +80% Target Flinch",
+      "5.56 High Velocity :: -5.2% Range",
+      "5.56 Incendiary :: -10.1% Range"
+    ],
+    "BARREL": [
+      "600mm FR Longbore :: +29.8% Range",
+      "435mm FR435 :: -12% Gun Kick",
+      "395mm FR Minibore :: -10.1% Range"
+    ],
+    "MAGAZINE": [
+      "45 Round Mag :: -3% Move. Speed",
+      "60 Round Mag :: -7% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP/COMB = MW-Pool (ref kar98k.json)"
+}

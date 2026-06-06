@@ -1,0 +1,50 @@
+{
+  "id": "ames-85",
+  "name": "AMES 85",
+  "class": "AR",
+  "game": "bo6",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO6 AR. Universelle Slots = BO6-Pool (ref lc10.json).",
+  "extraction": "weapon-specific-only",
+  "base": {
+    "rpm": 750,
+    "mag": 30,
+    "reload_s": 3.0,
+    "ads_ms": 230,
+    "velocity_ms": 880,
+    "move_ms": 4.7,
+    "sprint_to_fire_ms": 180,
+    "sprint_ms": 6.2
+  },
+  "slots": {
+    "BARREL": [
+      "Gain-Twist Barrel :: +40% Bullet Velocity",
+      "Long Barrel :: +28.1% Range",
+      "Reinforced Barrel :: +10.1% Range | +15% Bullet Velocity",
+      "Short Barrel",
+      "CHF Barrel :: Neck-dmg = Head | +44.3% Gun Kick | +20% Horiz. Recoil | +45% Vert. Recoil"
+    ],
+    "FIRE_MODS": [
+      "Rapid Fire :: -20% Bullet Velocity | +9.6% Fire Rate | +15.1% Gun Kick | +20% Horiz. Recoil | +15% Vert. Recoil",
+      "5.56 NATO Overpressured :: +25% Bullet Velocity",
+      "Recoil Springs :: -10% Gun Kick | -10% Horiz. Recoil | -10% Vert. Recoil",
+      "5.56 NATO FMJ"
+    ],
+    "MAGAZINE": [
+      "Extended Mag I :: +13% Reload Time",
+      "Fast Mag I :: -6.5% ADS Time | -22% Reload Time | -5.6% Sprint to Fire",
+      "Extended Mag III :: +8% ADS Time | +29% Reload Time | +11% Sprint to Fire",
+      "Flip Mag :: -9.4% ADS Time | -31.3% Reload Time | -10.5% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Suppressor",
+      "Compensator :: -28.9% Gun Kick | -30% Vert. Recoil",
+      "Muzzle Brake",
+      "Ported Compensator :: -24.1% Gun Kick | -25% Vert. Recoil",
+      "Monolithic Suppressor :: +10.1% Range | +20% Bullet Velocity | +23.9% ADS Time"
+    ],
+    "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO6-Pool (ref lc10.json)"
+  }
+}

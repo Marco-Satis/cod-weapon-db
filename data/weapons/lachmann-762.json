@@ -1,0 +1,51 @@
+{
+  "id": "lachmann-762",
+  "name": "Lachmann-762",
+  "class": "Battle Rifle",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 Battle Rifle (7.62x51, 522 RPM, 20-round). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 522,
+    "mag": 20,
+    "reload_s": 3.7,
+    "ads_ms": 258,
+    "velocity_ms": 747,
+    "move_ms": 4.6,
+    "sprint_to_fire_ms": 210,
+    "sprint_ms": 6.2,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "7.62X51mm Low Grain Rounds :: -14.9% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "7.62X51mm High Grain Rounds :: +15.1% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "7.62X51mm Round Nose :: +40% Target Flinch | -22% Range",
+      "7.62X51mm Mono :: -2.4% Range | +8% Bullet Velocity | +2% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      "7.62X51mm Frangible :: -4.9% Range",
+      "7.62X51mm Hollowpoint",
+      "7.62X51mm Armor Piercing",
+      "7.62X51mm Overpressured +P :: +80% Target Flinch",
+      "7.62X51mm High Velocity :: -4.9% Range | +20% Bullet Velocity",
+      "7.62X51mm Incendiary :: -10% Range | -25% Bullet Velocity"
+    ],
+    "BARREL": [
+      "Romeo FT 16\" Barrel :: +26.3% Range | +34% Bullet Velocity | -13% Gun Kick | -13% Horiz. Recoil | -13% Vert. Recoil | -14% Idle Sway | +17% Max Hipfire | -6% Move | -6% Crouch | -6% Sprint | -7% ADS Move | +20% ADS Time",
+      "15.9\" Lachmann RAPP Barrel :: +5.4% Range | +20% Bullet Velocity | -13% Gun Kick | -13% Horiz. Recoil | -13% Vert. Recoil | -7% Idle Sway | +9% Max Hipfire | -6% Move | -6% Crouch | -6% Sprint | -7% ADS Move | +14% ADS Time",
+      "Lachmann Nova :: +5.4% Range | +4% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil | -7% Idle Sway | +9% Max Hipfire | +3% Move | +3% Crouch | +1% Sprint | +5% ADS Move | +4% ADS Time",
+      "LM Aurora 90 Barrel :: +2.2% Range | -5% Bullet Velocity | +7% Gun Kick | +7% Horiz. Recoil | +7% Vert. Recoil | -3% Idle Sway | +3% Max Hipfire | +5% Move | +4% Crouch | +3% Sprint | +8% ADS Move | -3% ADS Time",
+      "10.6\" Lachstrike Barrel :: -1.5% Range | +10% Bullet Velocity | -9% Gun Kick | -9% Horiz. Recoil | -9% Vert. Recoil | +2% Idle Sway | -3% Max Hipfire | -4% Move | -4% Crouch | -4% Sprint | -5% ADS Move | +2% ADS Time",
+      "Meer-56 11\" Factory Barrel :: -1.5% Range | -6% Bullet Velocity | +5% Gun Kick | +5% Horiz. Recoil | +5% Vert. Recoil | +2% Idle Sway | -3% Max Hipfire | +4% Move | +3% Crouch | +2% Sprint | +6% ADS Move | -7% ADS Time"
+    ],
+    "MAGAZINE": [
+      "15 Round Mag :: +2% Move | +1% Crouch | +1% Sprint | +8% ADS Move | -7% ADS Time | -5% Reload | -15% Sprint to Fire",
+      "50 Round Drum :: -13% Move | -14% Crouch | -8% Sprint | -17% ADS Move | +19% ADS Time | +41% Reload | +2% Sprint to Fire",
+      "30 Round Mag :: -4% Move | -5% Crouch | -3% Sprint | -6% ADS Move | +6% ADS Time | +5% Reload",
+      "10 Round Mag :: +4% Move | +3% Crouch | +3% Sprint | +17% ADS Move | -14% ADS Time | -29% Reload | -30% Sprint to Fire"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

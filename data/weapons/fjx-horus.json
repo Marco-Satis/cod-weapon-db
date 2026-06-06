@@ -1,0 +1,49 @@
+{
+  "id": "fjx-horus",
+  "name": "FJX Horus",
+  "class": "SMG",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 SMG (9mm, 984 RPM). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 984,
+    "mag": 32,
+    "reload_s": 2.2,
+    "ads_ms": 170,
+    "velocity_ms": 480,
+    "move_ms": 4.8,
+    "sprint_to_fire_ms": 110,
+    "sprint_ms": 6.6,
+    "zoom_x": 0.88
+  },
+  "slots": {
+    "AMMUNITION": [
+      "9mm High Grain Rounds :: +15.1% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "9mm Low Grain Rounds :: -15.1% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "9mm AET Rounds :: -30% Target Flinch | -20% Bullet Velocity",
+      "9mm Hardened Rounds :: -27.4% Range | -15% Bullet Velocity | +3% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      "9mm Frangible :: -5% Range",
+      "9mm Hollowpoint",
+      "9mm Armor Piercing",
+      "9mm Overpressured +P :: +80% Target Flinch",
+      "9mm High Velocity :: +30% Bullet Velocity | +5% Horiz. Recoil | +5% Vert. Recoil"
+    ],
+    "BARREL": [
+      "Ruse-90 Light Barrel :: +5% Horiz. Recoil | +5% Vert. Recoil | +3% Move | +3% Crouch | +2% Sprint | -9% ADS Time | -5% Sprint to Fire",
+      "Martis Heavy Barrel :: -12% Gun Kick | -12% Horiz. Recoil | -12% Vert. Recoil | -4% Move | +12% ADS Time",
+      "Syn9 Long Barrel :: +15.1% Range | +20% Bullet Velocity | +20% Idle Sway | +20% Max Hipfire | -10% ADS Move | +5% Sprint to Fire"
+    ],
+    "CONVERSION KIT": [
+      "Jak Scimitar Kit (MP Version) :: Damage profile modified | +15% Bullet Velocity | -16% Fire Rate | -30% Horiz. Recoil | -15% Vert. Recoil | +2% Move | -5% Crouch | -10% Sprint | -9% ADS Move | +25% ADS Time | +19% Reload | +45% Sprint to Fire"
+    ],
+    "MAGAZINE": [
+      "25 Round Mag :: +2% Move | +2% Crouch | +2% Sprint | +6% ADS Move | -8% ADS Time | -15% Reload | -15% Sprint to Fire",
+      "48 Round Mag :: -5% Move | -5% Crouch | -2% Sprint | -5% ADS Move | +13% ADS Time | +19% Reload",
+      "60 Round Drum :: -5% Move | -5% Crouch | -2% Sprint | -5% ADS Move | +13% ADS Time | +19% Reload"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

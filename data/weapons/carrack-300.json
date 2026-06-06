@@ -1,0 +1,44 @@
+{
+  "id": "carrack-300",
+  "name": "Carrack .300",
+  "class": "Sniper",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 Sniper. Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 188,
+    "mag": 6,
+    "reload_s": 4.0,
+    "ads_ms": 535,
+    "velocity_ms": 860,
+    "move_ms": 4.6,
+    "sprint_to_fire_ms": 270,
+    "sprint_ms": 6.1
+  },
+  "slots": {
+    "AMMUNITION": [
+      ".300 Armor Piercing",
+      ".300 Incendiary :: -10.1% Range | -25% Bullet Velocity",
+      ".300 Frangible :: -4.3% Range",
+      ".300 Hollowpoint",
+      ".300 High Velocity :: -4.3% Range | +20% Bullet Velocity",
+      ".300 Overpressured +P :: +80% Target Flinch"
+    ],
+    "BARREL": [
+      "26\" CF-Bipod Barrel :: +3% ADS Time",
+      "30\" Flintline :: +33.2% Range | +19% Bullet Velocity | -12% Idle Sway | +12% Max Hipfire | +4% ADS Time",
+      "30\" Flintline Bipod :: +33.2% Range | +19% Bullet Velocity | -12% Idle Sway | +12% Max Hipfire | +7% ADS Time",
+      "Heavy-Tac 80 :: +17% Range | +29% Bullet Velocity | -14% Recoil(alle) | -6% Idle Sway | +6% Max Hipfire | -Mobility | +5% ADS Time",
+      "300 Subsound :: -7.2% Range",
+      "300 Subsound Bipod :: +3% ADS Time"
+    ],
+    "MAGAZINE": [
+      "15 Round Mag :: -5% Move | -6% Crouch | -4% Sprint | -9% ADS Move | +4% ADS Time | +16% Reload",
+      "10 Round Mag :: -2% Move | -3% Crouch | -2% Sprint | -4% ADS Move | +2% ADS Time | +7% Reload"
+    ],
+    "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+  }
+}

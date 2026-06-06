@@ -1,0 +1,54 @@
+{
+  "id": "mcw-6-8",
+  "name": "MCW 6.8",
+  "class": "Battle Rifle",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 Battle Rifle (6.8 Wrath, 353 RPM semi, 10-round). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 353,
+    "mag": 10,
+    "reload_s": 2.5,
+    "ads_ms": 245,
+    "velocity_ms": 840,
+    "move_ms": 4.5,
+    "sprint_to_fire_ms": 210,
+    "sprint_ms": 6.2,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "6.8 Wrath Hollowpoint",
+      "6.8 Wrath Armor Piercing",
+      "6.8 Wrath Frangible :: -4.9% Range",
+      "6.8 Wrath Overpressured+P :: +80% Target Flinch",
+      "6.8 Wrath High Velocity :: -4.9% Range | +20% Bullet Velocity",
+      "6.8 Wrath Incendiary :: -9.9% Range | -25% Bullet Velocity",
+      "6.8 Wrath Tracer",
+      "6.8 Wrath Low Grain Rounds :: -16.3% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "6.8 Wrath High Grain Rounds :: +15% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "6.8 Wrath Round Nose :: +40% Target Flinch | -21.2% Range",
+      "6.8 Wrath Mono :: -1.5% Range | +8% Bullet Velocity | +3% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      "6.8 Wrath Spire Point Rounds :: +3.4% Range | +49% Bullet Velocity"
+    ],
+    "BARREL": [
+      "MCW Crown-30 Barrel :: +17.7% Range | +21% Bullet Velocity | -4% Gun Kick | -7% Horiz. Recoil | -7% Vert. Recoil | +21% Idle Sway | +21% Max Hipfire | -8% ADS Move | +11% ADS Time | +3% Sprint to Fire",
+      "Orchestra-40 Short Heavy Barrel :: +5% Horiz. Recoil | +5% Vert. Recoil | +3% Move | +3% Crouch | +2% Sprint | -9% ADS Time | -5% Sprint to Fire",
+      "76L-P Heavy Barrel :: -7% Gun Kick | -13% Horiz. Recoil | -13% Vert. Recoil | +21% ADS Time",
+      "Tempus Predator Precision Barrel :: +22.7% Range | +27% Bullet Velocity | +27% Idle Sway | +27% Max Hipfire | -10% ADS Move | +4% Sprint to Fire",
+      "Rattleback Pro 14.5\" Maw Barrel :: -7.4% Range | -4% Bullet Velocity | +15% Idle Sway | +15% Max Hipfire | +3% Move | +4% ADS Move | -10% Sprint to Fire",
+      "Huntsman Series-R Integrated Suppressor Barrel :: +20.2% Range | +30% Bullet Velocity | +7% ADS Time | +7% Sprint to Fire"
+    ],
+    "CONVERSION KIT": [
+      "MCW 6.8 Full-Auto Conversion :: Damage profile modified | +13% Fire Rate | +2% ADS Move"
+    ],
+    "MAGAZINE": [
+      "30 Round Mag :: -5% Move | -5% Crouch | -2% Sprint | -5% ADS Move | +9% ADS Time | +15% Reload | +1% Sprint to Fire",
+      "60 Round Drum :: -10% Move | -10% Crouch | -4% Sprint | -10% ADS Move | +18% ADS Time | +43% Reload | +3% Sprint to Fire"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

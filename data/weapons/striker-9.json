@@ -1,0 +1,45 @@
+{
+  "id": "striker-9",
+  "name": "Striker 9",
+  "class": "SMG",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 SMG (9mm, 857 RPM, 30-round). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 857,
+    "mag": 30,
+    "reload_s": 2.6,
+    "ads_ms": 205,
+    "velocity_ms": 470,
+    "move_ms": 4.9,
+    "sprint_to_fire_ms": 103,
+    "sprint_ms": 6.6,
+    "zoom_x": 0.88
+  },
+  "slots": {
+    "AMMUNITION": [
+      "9mm High Grain Rounds :: +15% Range",
+      "9mm Low Grain Rounds :: -15% Range",
+      "9mm Hardened Rounds :: -27.2% Range",
+      "9mm Frangible :: -5.5% Range",
+      "9mm Hollowpoint",
+      "9mm Armor Piercing",
+      "9mm Overpressured +P :: +80% Target Flinch",
+      "9mm High Velocity :: +30% Bullet Velocity"
+    ],
+    "BARREL": [
+      "Striker Stubby Barrel :: -13.8% Range",
+      "Striker Elite Long Barrel :: +10.2% Range",
+      "Striker Recon Long Barrel :: +18.1% Range"
+    ],
+    "MAGAZINE": [
+      "25 Round Mag :: +2% Move. Speed",
+      "40 Round Mag :: -3% Move. Speed",
+      "50 Round Drum :: -5% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

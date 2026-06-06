@@ -1,0 +1,52 @@
+{
+  "id": "lockwood-mk2",
+  "name": "Lockwood MK2",
+  "class": "Marksman Rifle",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 Lever-Action Marksman (.45 GVT, 95 RPM, 6-round). Weapon-unique: LEVER+GUARD. MUZZLE(29)=universal MW-Pool.",
+  "extraction": "weapon-specific-only (MW: MUZZLE universal; +LEVER+GUARD)",
+  "base": {
+    "rpm": 95,
+    "mag": 6,
+    "reload_s": 4.3,
+    "ads_ms": 240,
+    "velocity_ms": 720,
+    "move_ms": 4.8,
+    "sprint_to_fire_ms": 118,
+    "sprint_ms": 6.3,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      ".45 GVT Frangible :: -4.9% Range",
+      ".45 GVT Hollowpoint",
+      ".45 GVT Armor Piercing",
+      ".45 GVT Overpressured +P :: +80% Target Flinch",
+      ".45 GVT High Velocity :: -4.9% Range | +20% Bullet Velocity",
+      ".45 GVT Incendiary :: -10% Range | -25% Bullet Velocity"
+    ],
+    "BARREL": [
+      "13.5\" Lonestar Barrel :: -5.9% Range | -4% Bullet Velocity | +9% Idle Sway | -10% Max Hipfire | +2% ADS Move | -12% ADS Time | -25% Reload",
+      "Lockwood Frontiersman :: -4% Bullet Velocity | +5% Gun Kick | +5% Horiz. Recoil | +5% Vert. Recoil | +4% Move | +3% Crouch | +2% Sprint | +5% ADS Move | -5% ADS Time",
+      "21\" Coyote Barrel :: +9% Bullet Velocity | -7% Gun Kick | -7% Horiz. Recoil | -7% Vert. Recoil | -3% Move | -3% Crouch | -3% Sprint | -3% ADS Move | +3% ADS Time | +25% Reload",
+      "25\" Buffalo Barrel :: +20.1% Range | +9% Bullet Velocity | +3% Gun Kick | +3% Horiz. Recoil | +3% Vert. Recoil | -8% Idle Sway | +8% Max Hipfire | +2% Move | +2% Crouch | +1% Sprint | +3% ADS Move | +3% ADS Time",
+      "22.5\" EXF Alamo :: -10% Range | +15% Bullet Velocity | -13% Gun Kick | -13% Horiz. Recoil | -13% Vert. Recoil | -4% Move | -4% Crouch | -5% Sprint | -3% ADS Move | +2% ADS Time | -25% Reload"
+    ],
+    "CONVERSION KIT": [
+      "JAK Wardens :: +80% Target Flinch | -30% Bullet Velocity | +5% Fire Rate | +91% Gun Kick | -60% Horiz. Recoil | -60% Vert. Recoil | -27% Idle Sway | -47% Max Hipfire | -36% Reload | -15% Sprint to Fire | -43% Swap Speed"
+    ],
+    "GUARD": [
+      "Lockwood Combat Guard :: -12% Gun Kick | -12% Horiz. Recoil | -12% Vert. Recoil | +29% ADS Time",
+      "Lockwood Saddle Guard :: +10% Gun Kick | +10% Horiz. Recoil | +10% Vert. Recoil | +2% Move | +5% Sprint",
+      "Lockwood Commando Guard :: +10% Crouch | -2% Sprint | -3% ADS Time"
+    ],
+    "LEVER": [
+      "Stallion Lever :: -3% Fire Rate",
+      "Longhorn Lever :: +7% Fire Rate"
+    ]
+  },
+  "_universal": "MUZZLE(29)/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

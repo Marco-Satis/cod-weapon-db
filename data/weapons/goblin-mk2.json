@@ -1,0 +1,51 @@
+{
+  "id": "goblin-mk2",
+  "name": "Goblin Mk2",
+  "class": "Battle Rifle",
+  "game": "bo6",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO6 Battle Rifle (7.62 NATO, 462 RPM, semi). FIRE MODS hat weapon-spez. Mini-Rocket-Conversion. reload roh '3000 s' -> 3.0.",
+  "extraction": "weapon-specific-only",
+  "base": {
+    "rpm": 462,
+    "mag": 20,
+    "reload_s": 3.0,
+    "ads_ms": 230,
+    "velocity_ms": 820,
+    "move_ms": 4.9,
+    "sprint_to_fire_ms": 170,
+    "sprint_ms": 6.3
+  },
+  "slots": {
+    "BARREL": [
+      "Gain-Twist Barrel :: +40% Bullet Velocity",
+      "Long Barrel :: +40.3% Range",
+      "Reinforced Barrel :: +20.1% Range | +15% Bullet Velocity",
+      "Short Barrel :: -79.6% Move",
+      "CHF Barrel :: Makes neck damage the same as head | +49.1% Gun Kick | +25.1% Horiz. Recoil | +50% Vert. Recoil"
+    ],
+    "FIRE MODS": [
+      "Rapid Fire :: Does not modify damage profile | +11% Fire Rate | +20% Gun Kick | +20.2% Horiz. Recoil | +20% Vert. Recoil",
+      "7.62 NATO Overpressured :: +25% Bullet Velocity",
+      "Recoil Springs :: -13% Gun Kick | -12.8% Horiz. Recoil | -13% Vert. Recoil",
+      "7.62 NATO FMJ",
+      "Goblin Mk2 7.63 Mini-Rocket Conversion :: -81.7% Bullet Velocity | -33.3% Fire Rate"
+    ],
+    "MAGAZINE": [
+      "Extended Mag I :: +8.7% ADS Time | +21% Reload | +11.8% Sprint to Fire",
+      "Extended Mag II :: +8.7% ADS Time | +21% Reload | +11.8% Sprint to Fire",
+      "Flip Mag :: -6.5% ADS Time | -22.3% Reload | -5.9% Sprint to Fire",
+      "Fast Mag II :: -10.9% ADS Time | -30% Reload | -11.8% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Suppressor",
+      "Compensator :: -38.2% Gun Kick | -40% Vert. Recoil",
+      "Muzzle Brake",
+      "Ported Compensator :: -19.2% Gun Kick | -20% Vert. Recoil",
+      "Monolithic Suppressor :: +10.1% Range | +20% Bullet Velocity | +23.9% ADS Time"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO6-Pool (ref lc10.json)"
+}

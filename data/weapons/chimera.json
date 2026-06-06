@@ -1,0 +1,45 @@
+{
+  "id": "chimera",
+  "name": "Chimera",
+  "name_de": "Chimäre",
+  "class": "AR",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 AR (.300 Blackout, integral). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 800,
+    "mag": 30,
+    "reload_s": 2.6,
+    "ads_ms": 250,
+    "velocity_ms": 420,
+    "move_ms": 4.7,
+    "sprint_to_fire_ms": 210,
+    "sprint_ms": 6.2,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "Blackout Round Nose :: +40% Target Flinch | -20% Range",
+      "Blackout Mono :: -1.2% Range | +8% Bullet Velocity | +2% Gun Kick | +4% Horiz | +4% Vert",
+      ".300 Blk Frangible :: -4.9% Range",
+      ".300 Blk Hollowpoint",
+      ".300 BLK Armor Piercing",
+      ".300 Blk Overpressured +P :: +80% Target Flinch",
+      "Blackout Low Grain :: -15% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz | -8% Vert",
+      "Blackout High Grain :: +15% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz | +8% Vert"
+    ],
+    "BARREL": [
+      "10\" SA Phoenix :: +26.1% Range | +17% Bullet Velocity | -5% Recoil(alle) | -6% Idle Sway | +6% Max Hipfire | -Mobility | +7% ADS Time",
+      "6.5\" EXF Op-40 :: +5.4% Range | -7% Bullet Velocity | +5% Recoil(alle) | +4% Idle Sway | -5% Max Hipfire | +Mobility | -9% ADS Time",
+      "6.5\" EXF Vorpal :: +7% Range | -3% Bullet Velocity | +3% Recoil(alle) | +Mobility | -3% ADS Time"
+    ],
+    "MAGAZINE": [
+      "20 Round Mag :: +Mobility | +10% ADS Move | -10% ADS Time | -9% Reload | -20% Sprint to Fire",
+      "45 Round Mag :: -6% Move | -7% Crouch | -4% Sprint | -8% ADS Move | +10% ADS Time | +18% Reload"
+    ],
+    "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+  }
+}

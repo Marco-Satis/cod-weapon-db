@@ -1,0 +1,50 @@
+{
+  "id": "ksv",
+  "name": "KSV",
+  "class": "SMG",
+  "game": "bo6",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO6 SMG (9x39 Soviet, 800 RPM). reload roh '2530 s' -> 2.53. Universelle Slots = BO6-Pool.",
+  "extraction": "weapon-specific-only",
+  "base": {
+    "rpm": 800,
+    "mag": 30,
+    "reload_s": 2.53,
+    "ads_ms": 190,
+    "velocity_ms": 575,
+    "move_ms": 5.1,
+    "sprint_to_fire_ms": 110,
+    "sprint_ms": 6.4
+  },
+  "slots": {
+    "BARREL": [
+      "Gain-Twist Barrel :: +60% Bullet Velocity",
+      "Long Barrel :: +40.4% Range",
+      "Reinforced Barrel :: +20.2% Range | +35% Bullet Velocity",
+      "Short Barrel",
+      "CHF Barrel :: Makes neck damage the same as head | +43.5% Gun Kick | +20% Horiz. Recoil | +45% Vert. Recoil"
+    ],
+    "FIRE MODS": [
+      "Rapid Fire :: -25% Bullet Velocity | +12% Fire Rate | +10.3% Gun Kick | +15% Horiz. Recoil | +10% Vert. Recoil",
+      "9x39mm Soviet Overpressured :: +25% Bullet Velocity",
+      "Recoil Springs :: -13% Gun Kick | -13% Horiz. Recoil | -13% Vert. Recoil",
+      "9x39mm Soviet FMJ"
+    ],
+    "MAGAZINE": [
+      "Extended Mag I :: +17% Reload",
+      "Extended Mag II :: +10% ADS Time | +30% Reload | +16.7% Sprint to Fire",
+      "Flip Mag :: -13% Reload",
+      "Fast Mag II :: -7% ADS Time | -16% Reload | -8% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Suppressor",
+      "Compensator :: -32.3% Gun Kick | -35% Vert. Recoil",
+      "Muzzle Brake",
+      "Ported Compensator :: -21.4% Gun Kick | -23% Vert. Recoil",
+      "Monolithic Suppressor :: +10.1% Range | +20% Bullet Velocity | +27.5% ADS Time"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO6-Pool (ref lc10.json)"
+}

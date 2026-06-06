@@ -1,0 +1,46 @@
+{
+  "id": "sakin-mg38",
+  "name": "Sakin MG38",
+  "class": "LMG",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 LMG (7.62x51, 652 RPM, 100-round Belt). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 652,
+    "mag": 100,
+    "reload_s": 7.8,
+    "ads_ms": 410,
+    "velocity_ms": 725,
+    "move_ms": 4.3,
+    "sprint_to_fire_ms": 250,
+    "sprint_ms": 5.7,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "7.62X51mm Low Grain Rounds :: -15% Range",
+      "7.62X51mm High Grain Rounds :: +15% Range",
+      "7.62X51mm Round Nose :: +40% Target Flinch",
+      "7.62X51mm Mono :: -1.6% Range",
+      "7.62X51mm Frangible :: -4.9% Range",
+      "7.62X51mm Hollowpoint",
+      "7.62X51mm Armor Piercing",
+      "7.62X51mm Overpressured +P :: +80% Target Flinch",
+      "7.62X51mm High Velocity :: -4.9% Range",
+      "7.62X51mm Incendiary :: -10% Range"
+    ],
+    "BARREL": [
+      "355mm HGS-55 :: -3.9% Range",
+      "Kyzyl Dawn Barrel :: +15.9% Range",
+      "20\" Bruen Silver Series Barrel :: +15.9% Range"
+    ],
+    "MAGAZINE": [
+      "125 Round Belt Mag :: -5% Move. Speed",
+      "150-Round Box Magazine :: -9% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

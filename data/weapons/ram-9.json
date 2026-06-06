@@ -1,0 +1,45 @@
+{
+  "id": "ram-9",
+  "name": "RAM-9",
+  "class": "SMG",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 SMG (9mm, 923 RPM, 32-round). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE (kein CONVERSION KIT im Editor; COMB=universell).",
+  "extraction": "weapon-specific-only-MW-editorbound",
+  "base": {
+    "rpm": 923,
+    "mag": 32,
+    "reload_s": 2.8,
+    "ads_ms": 220,
+    "velocity_ms": 450,
+    "move_ms": 4.9,
+    "sprint_to_fire_ms": 147,
+    "sprint_ms": 6.6,
+    "zoom_x": 0.88
+  },
+  "slots": {
+    "AMMUNITION": [
+      "9mm High Grain Rounds :: +15% Range",
+      "9mm Low Grain Rounds :: -15% Range",
+      "9mm Hardened Rounds :: -27.3% Range",
+      "9mm Frangible :: -5.1% Range",
+      "9mm Hollowpoint",
+      "9mm Armor Piercing",
+      "9mm Overpressured +P :: +80% Target Flinch",
+      "9mm High Velocity :: +30% Bullet Velocity"
+    ],
+    "BARREL": [
+      "Speedway V5 Short Barrel :: -7.6% Range",
+      "FSS Imperator Light Barrel :: +19.9% Range",
+      "Armistice Light Barrel :: +5% Horiz. Recoil",
+      "Boreal-6C Suppressed Barrel :: -12% Range"
+    ],
+    "MAGAZINE": [
+      "40 Round Mag :: -2% Move. Speed",
+      "50 Round Mag :: -2% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "m8a1",
+  "name": "M8A1",
+  "class": "Marksman Rifle",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "BO7-native Burst-DMR (5.56 NATO, 591 RPM, 32-round; Named-Exotic 'Flashburst'/Frost Rounds in Endgame). BO7-Naming. reload roh 2.88. Universelle Slots = BO7-Pool.",
+  "extraction": "weapon-specific-only",
+  "base": {
+    "rpm": 591,
+    "mag": 32,
+    "reload_s": 2.88,
+    "ads_ms": 265,
+    "velocity_ms": 900,
+    "move_ms": 4.5,
+    "sprint_to_fire_ms": 200,
+    "sprint_ms": 7.1
+  },
+  "slots": {
+    "BARREL": [
+      "23\" Barrier Barrel :: +15.6% Range | +5.7% ADS Time",
+      "18\" Ionic-8 Barrel :: +18% Bullet Velocity | -1% Gun Kick | -5% Horiz. Recoil | -3.4% ADS Move",
+      "21\" Frontline Barrel :: +8.9% Range | +8% Bullet Velocity | +3.8% ADS Time",
+      "15\" Ascend-KS Barrel :: -7.5% ADS Time | -7.5% Sprint to Fire",
+      "16.5\" Deadeye Barrel :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil | -15.7% Idle Sway | -20% Flinch | -6.9% ADS Move | +10.6% ADS Time | +8% Sprint to Fire"
+    ],
+    "FIRE MODS": [
+      "Bolt Carrier Group :: -20% Range | -15% Bullet Velocity | +5.8% Fire Rate | +35% Gun Kick | +35% Horiz. Recoil | +35% Vert. Recoil",
+      "5.56 NATO Overpressured :: +15% Bullet Velocity",
+      "Buffer Spring :: -8% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "5.56 NATO FMJ"
+    ],
+    "MAGAZINE": [
+      "Sentinel Extended Mag",
+      "Echo Reverse Flip Mag :: -20.2% Reload",
+      "Redline Capacity Drum :: -4.4% Move | -4.3% Crouch | -4.2% Sprint | -10.3% ADS Move | +7.5% ADS Time | +13.5% Reload",
+      "Blink-Chamber Fast Clip :: -3.8% ADS Time | -35.6% Reload | -5% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "VAS 5.56 Suppressor",
+      "Redwell 5.56 Compensator :: -9.4% Gun Kick | -12% Vert. Recoil",
+      "RL-5.56 Brake :: -6.3% Gun Kick | -8% Vert. Recoil",
+      "Titan-R 5.56 Compensator :: -25% Max Hipfire",
+      "Monolithic Suppressor :: +6.7% Range | +20% Bullet Velocity | +20.8% ADS Time"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO7-Pool"
+}

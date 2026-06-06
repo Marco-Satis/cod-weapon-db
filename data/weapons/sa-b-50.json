@@ -1,0 +1,47 @@
+{
+  "id": "sa-b-50",
+  "name": "SA-B 50",
+  "class": "Marksman Rifle",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 Marksman Rifle (.308, 65 RPM, 10-round, Bolt). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE/BOLT.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 65,
+    "mag": 10,
+    "reload_s": 3,
+    "ads_ms": 270,
+    "velocity_ms": 720,
+    "move_ms": 4.7,
+    "sprint_to_fire_ms": 216,
+    "sprint_ms": 6.1,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      ".308 Frangible :: -5.1% Range",
+      ".308 Hollowpoint",
+      ".308 Armor Piercing",
+      ".308 Overpressured +P :: +80% Target Flinch",
+      ".308 High Velocity :: -5.1% Range",
+      ".308 Incendiary :: -10.2% Range"
+    ],
+    "BARREL": [
+      "18.5\" XRK Resonate :: +1% Range",
+      "18.5\" Bryson LR Factory :: +9.9% Range",
+      "12.5\" Carbon Barrel :: -4.1% Range",
+      "9\" Tac-CB 55 :: -7.1% Range"
+    ],
+    "BOLT": [
+      "ZLR Reinforced Lockbolt :: -15% Fire Rate",
+      "FSS ST87 Bolt :: +13% Fire Rate"
+    ],
+    "MAGAZINE": [
+      "15 Round Mag :: -8% Move. Speed",
+      "5 Round Mag :: +3% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

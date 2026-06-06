@@ -1,0 +1,106 @@
+{
+  "id": "kompakt-92",
+  "name": "Kompakt 92",
+  "class": "SMG",
+  "game": "bo6",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Cross-Game (BO6). Schnellste SMG-TTK (~552ms avg) S4.",
+  "base": {
+    "rpm": 1091,
+    "mag": 30,
+    "reload_s": 2.86,
+    "ads_ms": 170,
+    "velocity_ms": 475,
+    "move_ms": 5.2,
+    "sprint_to_fire_ms": 105,
+    "sprint_ms": 6.4
+  },
+  "slots": {
+    "BARREL": [
+      "Gain-Twist Barrel :: +60% Bullet Velocity",
+      "Long Barrel :: +20.2% Range",
+      "Reinforced Barrel :: +9.8% Range | +40% Bullet Velocity",
+      "Short Barrel",
+      "CHF Barrel :: Neck-dmg = Head | +43.6% Gun Kick | +20% Horiz. Recoil | +45% Vert. Recoil",
+      "Integrated Suppressor Barrel :: +15% Range | +15% Bullet Velocity"
+    ],
+    "FIRE_MODS": [
+      "Rapid Fire :: -20% Bullet Velocity | +10% Fire Rate | +15% Gun Kick | +15% Horiz. Recoil | +15% Vert. Recoil",
+      "9mm Parabellum Overpressured :: +30% Bullet Velocity",
+      "Recoil Springs :: -18% Gun Kick | -18% Horiz. Recoil | -18% Vert. Recoil",
+      "9mm Parabellum FMJ",
+      "3-Round-Burst :: Damage-Profil modifiziert | -33% Fire Rate | +70% Horiz. Recoil | +12% Vert. Recoil | -20% Idle Sway | -20% Max Hipfire Area"
+    ],
+    "LASER": [
+      "Steady Aim Laser :: -28% Max Hipfire Area",
+      "Fast Motion Laser",
+      "Tactical Laser",
+      "Strelok Laser",
+      "Target Laser"
+    ],
+    "MAGAZINE": [
+      "Extended Mag I",
+      "Extended Mag II :: +10.5% ADS Time | +19% Reload Time | +17.4% Sprint to Fire",
+      "Fast Mag I :: -7.9% ADS Time | -26.6% Reload Time | -8.7% Sprint to Fire",
+      "Flip Mag :: -7% Reload Time",
+      "Extended Mag III :: +13.2% ADS Time | +29.4% Reload Time | +21.7% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Suppressor",
+      "Compensator :: -23.2% Gun Kick | -25% Vert. Recoil",
+      "Muzzle Brake",
+      "Ported Compensator :: -16.8% Gun Kick | -18% Vert. Recoil",
+      "Monolithic Suppressor :: +9.8% Range | +20% Bullet Velocity | +28.9% ADS Time"
+    ],
+    "OPTIC": [
+      "Remuda Mini Reflex",
+      "Otero Micro Dot",
+      "Kepler Microflex",
+      "Merlin Mini",
+      "PrismaTech Reflex",
+      "Volzhskiy Reflex",
+      "Merlin Reflex",
+      "Redwell Reflex",
+      "Dobrych MF Reflex",
+      "Accu-Spot Reflex",
+      "K&S Red Dot",
+      "Kepler Red Dot",
+      "Otero Red Dot",
+      "OM3 '92 Holo",
+      "Pinpoint Holoscout",
+      "Accu-Spot Ultra Holo :: -30% Gun Kick",
+      "Jason Armory 2x :: -30% Gun Kick | +5.3% ADS Time",
+      "Willis 3x :: -30% Gun Kick | +7.9% ADS Time",
+      "PrismaTech 4x :: -30% Gun Kick | +10.5% ADS Time",
+      "K&S Thermal Holo :: -25% Gun Kick",
+      "Pinpoint Hybrid :: -50% Gun Kick | +10.5% ADS Time",
+      "R&K Multizoom :: -50% Gun Kick | +13.2% ADS Time",
+      "VMF Variable Scope :: -50% Gun Kick | +26.3% ADS Time",
+      "Otero Thermal 2x :: -50% Gun Kick | +5.3% ADS Time"
+    ],
+    "REAR GRIP": [
+      "Quickdraw Grip :: -34.2% ADS Time",
+      "Assault Grip :: -39.1% Sprint to Fire",
+      "Commando Grip :: -13.2% ADS Time | -20.9% Sprint to Fire",
+      "Ergonomic Grip :: -18.4% ADS Time",
+      "CQB Grip :: -30.4% Sprint to Fire"
+    ],
+    "STOCK": [
+      "No Stock :: +14.6% Move. Speed | +26.1% Crouch Speed",
+      "Infiltrator Stock :: +17.1% ADS Move.",
+      "Heavy Stock :: -58.8% Flinch",
+      "Balanced Stock :: +8.3% Move. Speed | +13% Crouch Speed | +8.6% ADS Move.",
+      "Combat Stock :: -41.2% Flinch | +8.6% ADS Move."
+    ],
+    "UNDERBARREL": [
+      "Vertical Foregrip :: -1.6% Gun Kick | -30% Horiz. Recoil",
+      "Lightweight Foregrip :: -53.8% Idle Sway",
+      "Marksman Foregrip",
+      "Precision Foregrip :: -1.1% Gun Kick | -20% Horiz. Recoil | -35.9% Idle Sway",
+      "Ranger Foregrip :: -1.4% Gun Kick | -25% Horiz. Recoil | +6.2% Sprint Speed",
+      "G-Grip :: -1.1% Gun Kick | -20% Horiz. Recoil"
+    ]
+  }
+}

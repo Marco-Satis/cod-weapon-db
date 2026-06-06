@@ -1,0 +1,51 @@
+{
+  "id": "basilisk",
+  "name": "Basilisk",
+  "class": "Pistol",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 .500-Revolver. JAK Gunslinger = Full-Auto-Konvertierung. Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 300,
+    "mag": 5,
+    "reload_s": 3.6,
+    "ads_ms": 150,
+    "velocity_ms": 375,
+    "move_ms": 5.1,
+    "sprint_to_fire_ms": 80,
+    "sprint_ms": 6.8,
+    "zoom_x": 0.8
+  },
+  "slots": {
+    "AMMUNITION": [
+      "9mm Hardened Rounds :: -25.1% Range | -15% Bullet Velocity",
+      ".500 Armor Piercing",
+      ".500 Frangible :: -6.3% Range",
+      ".500 Snakeshot :: -67.2% Range | -53% Bullet Velocity | +67% Idle Sway | -24% Max Hipfire",
+      ".500 AET Rounds :: -30% Target Flinch | -20% Bullet Velocity",
+      ".500 Hollowpoint",
+      ".500 Overpressured +P :: +80% Target Flinch",
+      ".30-06 High Grain :: +14.8% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz | +8% Vert",
+      ".30-06 Low Grain :: -15% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz | -8% Vert"
+    ],
+    "BARREL": [
+      "Bryson Snubby :: -8% Range | -11% Bullet Velocity | +6% Recoil(alle) | +12% Idle Sway | -13% Max Hipfire | +Mobility | -17% ADS Time",
+      "FTAC Fang Ported :: -6.3% Range | -4% Bullet Velocity | +9% Idle Sway | -10% Max Hipfire | -9% ADS Time",
+      "6.75\" Corvus Cougar 500 :: -6% Bullet Velocity | +7% Recoil(alle) | +Mobility | -7% ADS Time",
+      "10.5\" FTAC Arrow :: +27.9% Range | +12% Bullet Velocity | +5% Recoil(alle) | -10% Idle Sway | +11% Max Hipfire | +Mobility | +9% ADS Time",
+      "FTAC Carnivora 7\" :: +11% Bullet Velocity | -9% Recoil(alle) | -Mobility | +7% ADS Time"
+    ],
+    "CONVERSION KIT": [
+      "JAK Gunslinger :: Damage-Profil modifiziert (Full-Auto) | +34% Fire Rate | -60% Horiz | -60% Vert | -30% Idle Sway | -30% Max Hipfire | -9% ADS Time | -10% Sprint to Fire"
+    ],
+    "TRIGGER ACTION": [
+      "Bryson HTA :: +15% Sprint to Fire",
+      "Basilisk HT-7 :: -7% ADS Time | -14% Sprint to Fire",
+      "Bryson Match Grade :: +15% Max Hipfire Area"
+    ],
+    "_universal": "MUZZLE/OPTIC/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+  }
+}

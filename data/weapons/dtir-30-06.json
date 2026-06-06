@@ -1,0 +1,46 @@
+{
+  "id": "dtir-30-06",
+  "name": "DTIR 30-06",
+  "class": "Battle Rifle",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 Battle Rifle (.30-06). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 472,
+    "mag": 20,
+    "reload_s": 2.8,
+    "ads_ms": 250,
+    "velocity_ms": 730,
+    "move_ms": 4.7,
+    "sprint_to_fire_ms": 210,
+    "sprint_ms": 6.3,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      ".30-06 Frangible :: -3.3% Range",
+      ".30-06 High Velocity :: -3.3% Range | +20% Bullet Velocity",
+      ".30-06 High Grain Rounds :: +16.7% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      ".30-06 Low Grain Rounds :: -13.7% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      ".30-06 Overpressured +P :: +80% Target Flinch",
+      ".30-06 Hollowpoint",
+      ".30-06 Armor Piercing",
+      ".30-06 Mono :: +8% Bullet Velocity | +2% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil"
+    ],
+    "BARREL": [
+      "Extnd-10 Long Barrel :: +22% Range | +20% Bullet Velocity | +18% Idle Sway | +18% Max Hipfire | +7% Move | +7% ADS Move",
+      "Barter-XS Short Barrel :: -9% Range | -6% Bullet Velocity | +4% Horiz. Recoil | +3% Vert. Recoil | +4% Move | +4% Crouch | -6% ADS Time | -14% Sprint to Fire",
+      "Sanctum-60 Long Barrel :: +16.7% Range | +15% Bullet Velocity | -15% Gun Kick | -10% Horiz. Recoil | -10% Vert. Recoil | -10% Move | -10% Sprint | -9% ADS Move | +8% ADS Time | +8% Sprint to Fire",
+      "Fixer 1.4 Long Barrel :: -7% Gun Kick | -12% Horiz. Recoil | -12% Vert. Recoil | -5% Move | -5% Sprint | +3% ADS Time | +4% Sprint to Fire",
+      "Shadowcaster Suppressed Barrel :: +10% Bullet Velocity | -8% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil | +4% ADS Time | +5% Sprint to Fire"
+    ],
+    "MAGAZINE": [
+      "30 Round Mag :: -2% Move | -2% Crouch | -2% ADS Move | +4% ADS Time | +13% Reload",
+      "40 Round Mag :: -4% Move | -4% Crouch | -2% Sprint | -4% ADS Move | +7% ADS Time | +13% Reload"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "so-14",
+  "name": "SO-14",
+  "class": "Battle Rifle",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 Battle Rifle (7.62x51, 545 RPM, 20-round). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP/COMB universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE. REAR GRIP locked hinter Stock-Wahl.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 545,
+    "mag": 20,
+    "reload_s": 3,
+    "ads_ms": 281,
+    "velocity_ms": 790,
+    "move_ms": 4.6,
+    "sprint_to_fire_ms": 261,
+    "sprint_ms": 6.4,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "7.62X51mm Low Grain Rounds :: -14.7% Range",
+      "7.62X51mm High Grain Rounds :: +15.3% Range",
+      "7.62X51mm Round Nose :: +40% Target Flinch",
+      "7.62X51mm Mono :: -1.1% Range",
+      "7.62X51mm Frangible :: -4.7% Range",
+      "7.62X51mm Hollowpoint",
+      "7.62X51mm Armor Piercing",
+      "7.62X51mm Overpressured +P :: +80% Target Flinch",
+      "7.62X51mm High Velocity :: -4.7% Range",
+      "7.62X51mm Incendiary :: -9.7% Range"
+    ],
+    "BARREL": [
+      "22\" Factory Fourteen Barrel :: +16.3% Range",
+      "22\" Boremaster Barrel :: +16.3% Range",
+      "18\" T300 Barrel :: +9% Bullet Velocity",
+      "16\" Chrome-lined RFX40 Barrel :: -3.7% Range"
+    ],
+    "MAGAZINE": [
+      "25 Round Mag :: -4% Move. Speed",
+      "50 Round Drum :: -13% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP/COMB = MW-Pool (ref kar98k.json)"
+}

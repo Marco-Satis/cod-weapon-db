@@ -1,0 +1,46 @@
+{
+  "id": "mcpr-300",
+  "name": "MCPR-300",
+  "class": "Sniper",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 Bolt-Sniper (.300 Mag, 41 RPM, 10-round). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 41,
+    "mag": 10,
+    "reload_s": 4.3,
+    "ads_ms": 570,
+    "velocity_ms": 760,
+    "move_ms": 4.4,
+    "sprint_to_fire_ms": 270,
+    "sprint_ms": 6
+  },
+  "slots": {
+    "AMMUNITION": [
+      ".300 Mag Armor Piercing",
+      ".300 Mag Incendiary :: -9.3% Range | -25% Bullet Velocity",
+      ".300 Mag Frangible :: -4.1% Range",
+      ".300 Mag Hollowpoint",
+      ".300 Mag High Velocity :: -4.1% Range | +20% Bullet Velocity",
+      ".300 Mag Overpressured +P :: +80% Target Flinch",
+      ".300 Mag Explosive :: +44.1% Range | -48% Bullet Velocity"
+    ],
+    "BARREL": [
+      "22\" OMX-456 :: +12.9% Range | +14% Bullet Velocity | -5% Gun Kick | -5% Horiz. Recoil | -5% Vert. Recoil | -4% Idle Sway | +4% Max Hipfire | -2% Move | -2% Crouch | -2% Sprint | -4% ADS Move | +3% ADS Time",
+      "17.5\" Orca Barrel :: -3.2% Range | -3% Bullet Velocity | +6% Idle Sway | -6% Max Hipfire | -6% ADS Time",
+      "19\" Silentfire Barrel :: -9.1% Range | +9% Bullet Velocity | -9% Gun Kick | -9% Horiz. Recoil | -9% Vert. Recoil | +3% Idle Sway | -3% Max Hipfire | -4% Move | -4% Crouch | -4% Sprint | -6% ADS Move | -1% ADS Time"
+    ],
+    "BOLT": [
+      "Cronen B85 Bolt :: -19% Fire Rate",
+      "Cronen Smooth Bolt :: +5% Fire Rate"
+    ],
+    "MAGAZINE": [
+      "15 Round Mag :: -8% Move | -9% Crouch | -5% Sprint | -14% ADS Move | +5% ADS Time | +9% Reload | +1% Sprint to Fire",
+      "5 Round Mag :: +4% Move | +3% Crouch | +3% Sprint | +25% ADS Move | -14% ADS Time | -9% Reload | -30% Sprint to Fire"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

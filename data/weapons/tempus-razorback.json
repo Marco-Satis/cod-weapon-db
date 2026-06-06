@@ -1,0 +1,46 @@
+{
+  "id": "tempus-razorback",
+  "name": "Tempus Razorback",
+  "class": "AR",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 AR (5.56 NATO, 833 RPM, 30-round). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP/COMB universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 833,
+    "mag": 30,
+    "reload_s": 2.8,
+    "ads_ms": 220,
+    "velocity_ms": 720,
+    "move_ms": 4.6,
+    "sprint_to_fire_ms": 149,
+    "sprint_ms": 6.3,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.56 NATO Low Grain Rounds :: -15% Range",
+      "5.56 NATO High Grain Rounds :: +15% Range",
+      "5.56 NATO Round Nose :: +50% Target Flinch",
+      "5.56 NATO Mono :: -1.4% Range",
+      "5.56 Frangible :: -5.1% Range",
+      "5.56 Hollowpoint",
+      "5.56 Armor Piercing",
+      "5.56 Overpressured +P :: +80% Target Flinch",
+      "5.56 High Velocity :: -5.1% Range"
+    ],
+    "BARREL": [
+      "18\" TACK-2L :: +28% Range",
+      "13\" Frenzy IX :: -8.1% Range",
+      "16\" TANKR-V :: +18% Bullet Velocity",
+      "17\" OI-XL :: +15.7% Range"
+    ],
+    "MAGAZINE": [
+      "45 Round Mag :: -6% Move. Speed",
+      "60 Round Mag :: -12% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP/COMB = MW-Pool (ref kar98k.json)"
+}

@@ -1,0 +1,837 @@
+{
+  "category": "camo_challenges",
+  "game": "bo7",
+  "data_version": "2026-06-05",
+  "source": "wzhub.gg — 23 Waffen-Datenblaetter (HDR ohne Daten)",
+  "scope_note": "Diese Datei = Freischalt-BEDINGUNGEN der Camos. Die Camo-NAMEN stehen in camos.json. Bedingungstexte verbatim von wzhub (teils Deutsch/Englisch gemischt, teils quellseitig fehlerhaft formuliert) — [sic] belassen, nicht korrigiert.",
+  "standard_conditions_l1_9": {
+    "note": "L1-9-Bedingungen haengen von der Waffenklasse ab. Schwellen pro Stufe.",
+    "mp": [
+      {
+        "classes": [
+          "AR",
+          "SMG",
+          "LMG",
+          "Rifle"
+        ],
+        "condition": "Kopfschuesse (Headshots)",
+        "thresholds": [
+          5,
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          70,
+          80
+        ]
+      },
+      {
+        "classes": [
+          "Shotgun"
+        ],
+        "weapons": [
+          "sg-12"
+        ],
+        "condition": "Abschuesse aus naechster Naehe (close-range kills)",
+        "thresholds": [
+          5,
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          70,
+          80
+        ]
+      },
+      {
+        "classes": [
+          "Sniper"
+        ],
+        "weapons": [
+          "vs-recon"
+        ],
+        "condition": "Operator one-shot-one-kills",
+        "thresholds": [
+          5,
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          70,
+          80
+        ]
+      },
+      {
+        "classes": [
+          "Sniper"
+        ],
+        "weapons": [
+          "strider-300",
+          "hawker-hx"
+        ],
+        "condition": "Kopfschuesse (Headshots)",
+        "thresholds": [
+          5,
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          70,
+          80
+        ]
+      }
+    ],
+    "wz": [
+      {
+        "classes": [
+          "all"
+        ],
+        "condition": "Eliminations (klassen-unabhaengig identisch)",
+        "thresholds": [
+          5,
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          80,
+          100
+        ]
+      }
+    ],
+    "zm": [
+      {
+        "classes": [
+          "AR",
+          "SMG",
+          "LMG",
+          "Sniper",
+          "Rifle"
+        ],
+        "condition": "Kritische Kills (critical kills)",
+        "thresholds": [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          1000
+        ]
+      },
+      {
+        "classes": [
+          "Shotgun"
+        ],
+        "weapons": [
+          "sg-12"
+        ],
+        "condition": "Abschuesse aus naechster Naehe (close-range)",
+        "thresholds": [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          1000
+        ]
+      }
+    ],
+    "co": [
+      {
+        "classes": [
+          "AR",
+          "SMG",
+          "LMG",
+          "Sniper",
+          "Rifle"
+        ],
+        "condition": "Kritische Kills (critical kills)",
+        "thresholds": [
+          10,
+          25,
+          50,
+          75,
+          100,
+          125,
+          150,
+          200,
+          250
+        ]
+      },
+      {
+        "classes": [
+          "Shotgun"
+        ],
+        "weapons": [
+          "sg-12"
+        ],
+        "condition": "Abschuesse aus naechster Naehe (close-range)",
+        "thresholds": [
+          10,
+          25,
+          50,
+          75,
+          100,
+          125,
+          150,
+          200,
+          250
+        ]
+      }
+    ]
+  },
+  "universal_mastery_conditions": {
+    "mp": {
+      "note": "L13/L14/L15 ueber alle Waffen identisch. L10-L12 'Gemeinsames Muster' gilt wo Item-Wert '(Standard)' ist.",
+      "common_l10": "30 objective kills",
+      "common_l11": "50 Kills while moving",
+      "common_l12": "1 Kill affected by Tactical Equipment/non-lethal scorestreak 30 times",
+      "l13_shattered_gold": "10x 3 kills without dying",
+      "l14_arclight": "10 double kills or better",
+      "l15_tempest": "3x 5 kills without dying"
+    },
+    "wz": {
+      "l13_golden_damascus": "3 kills in a single match 5 times",
+      "l15_absolute_zero": "10 eliminations while in the TOP 10",
+      "l14_starglass_note": "Variiert: meist '5x 5 kills without dying' (AR/Sniper) ODER '2 kills within 90 sec 5 times' / '5 kills within 90 sec 5 times' (SMG) — per-Waffe in items.wz.l14"
+    },
+    "zm": {
+      "note": "L13/L14/L15 ueber alle Waffen identisch. Nur L10-L12 weichen ab.",
+      "l13_golden_dragon": "10 kills rapidly 15 times",
+      "l14_bloodstone": "5x -20 consecutive kills without taking damage",
+      "l15_doomsteel": "10 Elite Zombie Eliminations"
+    },
+    "co": {
+      "note": "L13/L14/L15 ueber alle Waffen identisch. Nur L10-L12 weichen ab.",
+      "l13_molten_gold": "20 Special Kills",
+      "l14_moonstone": "100 Zone 3 or 4 Kills",
+      "l15_chroma_flux": "10 Elite Kills"
+    }
+  },
+  "items": [
+    {
+      "id": "voyak-kt-3",
+      "weapon": "VOYAK KT-3",
+      "class": "AR",
+      "mp": {
+        "l10": "30 objective kills",
+        "l11": "50 kills without any attachments",
+        "l12": "(Standard)"
+      },
+      "wz": {
+        "l10": "5 Kopfschuesse",
+        "l11": "5 kills with suppressor",
+        "l12": "5 kills without taking damage",
+        "l14": "5 kills within 90 sec 5 times"
+      },
+      "zm": {
+        "l10": "300 Eliminations as Rare or higher",
+        "l11": "5x -3 Consecutive Critical Kills",
+        "l12": "75 kills armored zombies"
+      },
+      "co": {
+        "l10": "100 Eliminations as Rare or higher",
+        "l11": "50 kills aiming while moving",
+        "l12": "50 kills shortly after sprinting"
+      }
+    },
+    {
+      "id": "ds20-mirage",
+      "weapon": "DS20 MIRAGE",
+      "class": "AR",
+      "mp": {
+        "l10": "50 eliminations with 4.0x+ scope",
+        "l11": "50 Abschuesse mit Schalldaempfer",
+        "l12": "50 kills with gunfighter wildcard while 8 attachments"
+      },
+      "wz": {
+        "l10": "5 kills with suppressor",
+        "l11": "5 kills while moving",
+        "l12": "5 kills without taking damage",
+        "l14": "5x 5 kills without dying"
+      },
+      "zm": {
+        "l10": "Kill without taking any damage 10 times",
+        "l11": "150 kills with tier 2+ armor",
+        "l12": "300 Eliminations with Dead Wire"
+      },
+      "co": {
+        "l10": "3 Kills rapidly 10 times",
+        "l11": "25 kills after sliding/diving/wall-jumping",
+        "l12": "100 kills with extended magazine"
+      }
+    },
+    {
+      "id": "egrt-17",
+      "weapon": "EGRT-17",
+      "class": "AR",
+      "mp": {
+        "l10": "Kill without taking any damage 30 times",
+        "l11": "50 Kills while moving",
+        "l12": "(Standard)"
+      },
+      "wz": {
+        "l10": "5 Kopfschuesse",
+        "l11": "5 kills without taking damage",
+        "l12": "5 kills after sprinting",
+        "l14": "5 kills within 90 sec 5 times"
+      },
+      "zm": {
+        "l10": "150 kills with tier 2+ armor",
+        "l11": "300 Eliminations with Dead Wire",
+        "l12": "300 Eliminations with PAP"
+      },
+      "co": {
+        "l10": "50 close-range kills",
+        "l11": "100 kills with 8 attachments",
+        "l12": "50 kills guild tech enemies"
+      }
+    },
+    {
+      "id": "mk35-isr",
+      "weapon": "MK35 ISR",
+      "class": "AR",
+      "mp": {
+        "l10": "20 Kills with Underbarrel attachments",
+        "l11": "50 kills with gunfighter wildcard while 8 attachments",
+        "l12": "(Standard)"
+      },
+      "wz": {
+        "l10": "5 kills with suppressor",
+        "l11": "5 kills while moving",
+        "l12": "5 kills without taking damage",
+        "l14": "5 kills within 90 sec 5 times"
+      },
+      "zm": {
+        "l10": "15x 10 kills within 3 seconds",
+        "l11": "300 kills in single game",
+        "l12": "25 kills during T.E.D.D task 15 times"
+      },
+      "co": {
+        "l10": "100 eliminations as Rare or higher",
+        "l11": "100 kills with extended magazine",
+        "l12": "100 kills fear enemies"
+      }
+    },
+    {
+      "id": "mxr-17",
+      "weapon": "MXR-17",
+      "class": "AR",
+      "mp": {
+        "l10": "50 Kills with 5+ Attachments",
+        "l11": "30 Kills shortly after sprinting",
+        "l12": "20 kills with underbarrel launcher attachment"
+      },
+      "wz": {
+        "l10": "5 Kopfschuesse",
+        "l11": "5 kills with suppressor",
+        "l12": "5 kills without taking damage",
+        "l14": "5x 5 kills without dying"
+      },
+      "zm": {
+        "l10": "5 Kills rapidly 15 times",
+        "l11": "10 kills without reloading 15 times",
+        "l12": "300 kills with cryo freeze ammo mod"
+      },
+      "co": {
+        "l10": "150 kills with 8 attachments",
+        "l11": "150 Eliminations as Rare or higher",
+        "l12": "3 Kills rapidly 10 times"
+      }
+    },
+    {
+      "id": "m15-mod-0",
+      "weapon": "M15 MOD 0",
+      "class": "AR",
+      "mp": {
+        "l10": "50 Kills while moving",
+        "l11": "30 objective kills",
+        "l12": "20 kills with underbarrel launcher attachment"
+      },
+      "wz": {
+        "l10": "5 Kopfschuesse",
+        "l11": "5 kills with suppressor",
+        "l12": "5 kills after sprinting",
+        "l14": "5x 5 kills without dying"
+      },
+      "zm": {
+        "l10": "300 hip-fire kills",
+        "l11": "5x -3 Consecutive Critical Kills",
+        "l12": "300 kills with Fire Works activation"
+      },
+      "co": {
+        "l10": "50 kills shortly after sprinting",
+        "l11": "100 eliminations with 4.0x+ scope",
+        "l12": "100 kills fear enemies"
+      }
+    },
+    {
+      "id": "maddox-rfb",
+      "weapon": "MADDOX RFB",
+      "class": "AR",
+      "mp": {
+        "l10": "50 kills without any attachments",
+        "l11": "Kill without taking any damage 30 times",
+        "l12": "50 Kills while moving"
+      },
+      "wz": {
+        "l10": "5 Kopfschuesse",
+        "l11": "5 kills without taking damage",
+        "l12": "5 kills after sprinting",
+        "l14": "5 kills within 90 sec 5 times"
+      },
+      "zm": {
+        "l10": "100 kills affected by Tactical Equipment",
+        "l11": "5 critical kills rapidly 15 times",
+        "l12": "300 kills with napalm burst ammo"
+      },
+      "co": {
+        "l10": "50 kills shortly after sprinting",
+        "l11": "50 kills guild tech enemies",
+        "l12": "100 Eliminations as Rare or higher"
+      }
+    },
+    {
+      "id": "ak-27",
+      "weapon": "AK-27",
+      "class": "AR",
+      "mp": {
+        "l10": "30 hip-fire kills",
+        "l11": "2 kills without reloading 10 times",
+        "l12": "20 kills with underbarrel launcher attachment"
+      },
+      "wz": {
+        "l10": "5 Kopfschuesse",
+        "l11": "5 kills while moving",
+        "l12": "5 kills without taking damage",
+        "l14": "5x 5 kills without dying"
+      },
+      "zm": {
+        "l10": "15x -2 critical kills with single shoot",
+        "l11": "300 kills with napalm burst ammo",
+        "l12": "10 kills without taking damage 5 times"
+      },
+      "co": {
+        "l10": "50 kills shortly after sprinting",
+        "l11": "50 kills aiming while moving",
+        "l12": "100 kills human enemies"
+      }
+    },
+    {
+      "id": "vst",
+      "weapon": "VST",
+      "class": "SMG",
+      "mp": {
+        "l10": "50 kills with suppressor",
+        "l11": "50 Kills while moving",
+        "l12": "50 kills without any attachments"
+      },
+      "wz": {
+        "l10": "Kill without taking any damage times [sic]",
+        "l11": "5 kills with suppressor",
+        "l12": "5 kills after sliding",
+        "l14": "2 kills within 90 sec 5 times"
+      },
+      "zm": {
+        "l10": "500 kills in single game",
+        "l11": "100 kills affected by Tactical Equipment",
+        "l12": "300 hip-fire kills"
+      },
+      "co": {
+        "l10": "50 kills shortly after sprinting",
+        "l11": "100 kills human enemies",
+        "l12": "50 kills w/ tactical laser in Tactical Stance"
+      }
+    },
+    {
+      "id": "razor-9mm",
+      "weapon": "RAZOR 9MM",
+      "class": "SMG",
+      "mp": {
+        "l10": "30 hip-fire kills",
+        "l11": "30 objective kills",
+        "l12": "50 Kills while moving"
+      },
+      "wz": {
+        "l10": "5 kills without taking damage",
+        "l11": "5 kills with suppressor",
+        "l12": "5 kills while sliding",
+        "l14": "5x 5 kills without dying"
+      },
+      "zm": {
+        "l10": "300 hip-fire kills",
+        "l11": "150 kills with tier 2+ armor",
+        "l12": "10 kills without reloading 15 times"
+      },
+      "co": {
+        "l10": "100 kills fear enemies",
+        "l11": "25 kills after sliding/diving/wall-jumping",
+        "l12": "50 close-range kills"
+      }
+    },
+    {
+      "id": "dravec-45",
+      "weapon": "DRAVEC 45",
+      "class": "SMG",
+      "mp": {
+        "l10": "30 objective kills",
+        "l11": "2 kills without reloading 10 times",
+        "l12": "15 kills shortly after sliding/diving/wall-jumping"
+      },
+      "wz": {
+        "l10": "5 kills without taking damage",
+        "l11": "5 kills after sprinting",
+        "l12": "5 kills while sliding",
+        "l14": "5x 5 kills without dying"
+      },
+      "zm": {
+        "l10": "300 eliminations with Brain Rot",
+        "l11": "5 critical kills rapidly 15 times",
+        "l12": "100 kills while Field Upgrade active"
+      },
+      "co": {
+        "l10": "50 kills shortly after sprinting",
+        "l11": "100 kills with extended magazine",
+        "l12": "50 kills w/ tactical laser in Tactical Stance"
+      }
+    },
+    {
+      "id": "sturmwolf-45",
+      "weapon": "STURMWOLF 45",
+      "class": "SMG",
+      "mp": {
+        "l10": "15x -1 kills shortly after sliding/diving/wall-jumping",
+        "l11": "50 Kills while moving",
+        "l12": "30 kills shortly after sprinting"
+      },
+      "wz": {
+        "l10": "5 kills without taking damage",
+        "l11": "5 kills with suppressor",
+        "l12": "5 kills while sliding",
+        "l14": "2 kills within 90 sec 5 times"
+      },
+      "zm": {
+        "l10": "150 kills with tier 2+ armor",
+        "l11": "75 kills armored zombies",
+        "l12": "300 hip-fire kills"
+      },
+      "co": {
+        "l10": "50 kills aiming while moving",
+        "l11": "100 kills human enemies",
+        "l12": "50 hip-fire kills"
+      }
+    },
+    {
+      "id": "kogot-7",
+      "weapon": "KOGOT-7",
+      "class": "SMG",
+      "mp": {
+        "l10": "50 kills with suppressor",
+        "l11": "2 kills without reloading 10 times",
+        "l12": "30 hip-fire kills"
+      },
+      "wz": {
+        "l10": "5 kills while moving",
+        "l11": "5 kills after sprinting",
+        "l12": "5 kills while sliding",
+        "l14": "2 kills within 90 sec 5 times"
+      },
+      "zm": {
+        "l10": "300 hip-fire kills",
+        "l11": "100 kills while Field Upgrade active",
+        "l12": "300 Eliminations with Dead Wire"
+      },
+      "co": {
+        "l10": "50 hip-fire kills",
+        "l11": "100 kills human enemies",
+        "l12": "25x 1 kill after sliding/diving/wall-jumping"
+      }
+    },
+    {
+      "id": "mpc-25",
+      "weapon": "MPC-25",
+      "class": "SMG",
+      "mp": {
+        "l10": "50 kills with suppressor",
+        "l11": "15x -1 kills shortly after sliding/diving/wall-jumping",
+        "l12": "50 kills with gunfighter wildcard while 8 attachments"
+      },
+      "wz": {
+        "l10": "5 kills while moving",
+        "l11": "5 kills after sprinting",
+        "l12": "5 kills while sliding",
+        "l14": "5x 5 kills without dying"
+      },
+      "zm": {
+        "l10": "300 kills with napalm burst ammo",
+        "l11": "5x -3 Consecutive Critical Kills",
+        "l12": "300 close-range kills"
+      },
+      "co": {
+        "l10": "100 kills with extended magazine",
+        "l11": "150 Eliminations as Rare or higher",
+        "l12": "50 kills guild tech enemies"
+      }
+    },
+    {
+      "id": "rev-46",
+      "weapon": "REV-46",
+      "class": "SMG",
+      "mp": {
+        "l10": "50 kills with suppressor",
+        "l11": "15 kills after sliding/diving/wall-jumping",
+        "l12": "30 kills after sprinting"
+      },
+      "wz": {
+        "l10": "5 kills while moving",
+        "l11": "5 kills after sprinting",
+        "l12": "5 kills while sliding",
+        "l14": "2 kills within 90 sec 5 times"
+      },
+      "zm": {
+        "l10": "100 kills affected by Tactical Equipment",
+        "l11": "300 close-range kills",
+        "l12": "300 Eliminations with PAP"
+      },
+      "co": {
+        "l10": "100 kills with extended magazine",
+        "l11": "50 hip-fire kills",
+        "l12": "3 rapid kills 10 times"
+      }
+    },
+    {
+      "id": "carbon-57",
+      "weapon": "CARBON 57",
+      "class": "SMG",
+      "mp": {
+        "l10": "30 hip-fire kills",
+        "l11": "2 kills without reloading 10 times",
+        "l12": "50 kills with gunfighter wildcard while 8 attachments"
+      },
+      "wz": {
+        "l10": "5 kills without taking damage",
+        "l11": "5 kills with suppressor",
+        "l12": "5 kills while sliding",
+        "l14": "5x 5 kills without dying"
+      },
+      "zm": {
+        "l10": "300 kills with Fire Works activation",
+        "l11": "10 kills without reloading 15 times",
+        "l12": "75 kills armored zombies"
+      },
+      "co": {
+        "l10": "25 destroy guild D.A.W.G.s/Sentry turrets/Drones",
+        "l11": "50 hip-fire kills",
+        "l12": "3 Kills rapidly 10 times"
+      }
+    },
+    {
+      "id": "strider-300",
+      "weapon": "STRIDER 300",
+      "class": "Sniper",
+      "mp": {
+        "l10": "30 objective kills",
+        "l11": "2 kills without reloading 10 times",
+        "l12": "15 longshot kills"
+      },
+      "wz": {
+        "l10": "5 Kopfschuesse",
+        "l11": "5 kills without taking damage",
+        "l12": "10 kills with suppressor",
+        "l14": "5x 5 kills without dying"
+      },
+      "zm": {
+        "l10": "10 kills without reloading 15 times",
+        "l11": "300 kills in single match",
+        "l12": "5 critical kills rapidly 15 times"
+      },
+      "co": {
+        "l10": "10 kills without reloading 10 times",
+        "l11": "100 kills with suppressor",
+        "l12": "3 Kills rapidly 10 times"
+      }
+    },
+    {
+      "id": "hawker-hx",
+      "weapon": "HAWKER HX",
+      "class": "Sniper",
+      "mp": {
+        "l10": "30 objective kills",
+        "l11": "15 longshot kills",
+        "l12": "50 kills with suppressor"
+      },
+      "wz": {
+        "l10": "5 Kopfschuesse",
+        "l11": "5 kills without taking damage",
+        "l12": "5 kills while moving",
+        "l14": "5x 5 kills without dying"
+      },
+      "zm": {
+        "l10": "100 kills affected by Tactical Equipment",
+        "l11": "15x -2 critical kills with single shoot",
+        "l12": "75 kills armored zombies"
+      },
+      "co": {
+        "l10": "100 kills with suppressor",
+        "l11": "100 kills fear enemies",
+        "l12": "100 kills with 8 attachments"
+      }
+    },
+    {
+      "id": "vs-recon",
+      "weapon": "VS RECON",
+      "class": "Sniper",
+      "mp": {
+        "l10": "50 eliminations with 4.0x+ scope",
+        "l11": "30 operator one-shot-one kills",
+        "l12": "2 kills without reloading 10 times"
+      },
+      "wz": {
+        "l10": "5 Kopfschuesse",
+        "l11": "5 kills without taking damage",
+        "l12": "5 kills while moving",
+        "l14": "5x 5 kills without dying"
+      },
+      "zm": {
+        "l10": "5x -3 Consecutive Critical Kills",
+        "l11": "300 Eliminations with Dead Wire",
+        "l12": "300 Eliminations with PAP"
+      },
+      "co": {
+        "l10": "100 kills fear enemies",
+        "l11": "100 kills with suppressor",
+        "l12": "100 kills with 8 attachments"
+      }
+    },
+    {
+      "id": "sg-12",
+      "weapon": "SG-12",
+      "class": "Shotgun",
+      "mp": {
+        "l10": "50 kills with gunfighter wildcard while 8 attachments",
+        "l11": "30 hip-fire kills",
+        "l12": "30 objective kills"
+      },
+      "wz": {
+        "l10": "5 kills while moving",
+        "l11": "5 kills after sliding",
+        "l12": "5 hip-fire kills",
+        "l14": "5x 5 kills without dying"
+      },
+      "zm": {
+        "l10": "300 hip-fire kills",
+        "l11": "10 kills without reloading 15 times",
+        "l12": "75 kills armored zombies"
+      },
+      "co": {
+        "l10": "50 kills aiming while moving",
+        "l11": "50 hip-fire kills",
+        "l12": "100 kills with 8 attachments"
+      }
+    },
+    {
+      "id": "mk-78",
+      "weapon": "MK.78",
+      "class": "LMG",
+      "mp": {
+        "l10": "50 objective kills",
+        "l11": "5x -2 kills without releasing trigger",
+        "l12": "50 kills with 5 attachments"
+      },
+      "wz": {
+        "l10": "5 kills with suppressor",
+        "l11": "5 kills without taking damage",
+        "l12": "5 Kopfschuesse",
+        "l14": "5x 5 kills without dying"
+      },
+      "zm": {
+        "l10": "150 kills with tier 2+ armor",
+        "l11": "75 kills with shadow rift activations",
+        "l12": "100 kills while field upgrade active"
+      },
+      "co": {
+        "l10": "10x -3 kills without releasing trigger",
+        "l11": "100 kills with extended magazine",
+        "l12": "100 kills on human enemies"
+      }
+    },
+    {
+      "id": "sokol-545",
+      "weapon": "SOKOL 545",
+      "class": "LMG",
+      "mp": {
+        "l10": "30 Kills affected by Tactical Equipment/non-lethal scorestreak",
+        "l11": "50 Kills with Gunfighter Wildcard while 8 attachments",
+        "l12": "5x -2 kills without releasing trigger"
+      },
+      "wz": {
+        "l10": "5 kills while moving",
+        "l11": "5 kills without taking damage",
+        "l12": "5 Kopfschuesse",
+        "l14": "5x 5 kills without dying"
+      },
+      "zm": {
+        "l10": "5x -3 Consecutive Critical Kills",
+        "l11": "300 Eliminations with Brain Rot",
+        "l12": "10 kills without reloading 15 times"
+      },
+      "co": {
+        "l10": "50 kills guild tech enemies",
+        "l11": "10 kills without reloading 10 times",
+        "l12": "50 kills aiming while moving"
+      }
+    },
+    {
+      "id": "m8a1",
+      "weapon": "M8A1",
+      "class": "Rifle (Marksman)",
+      "mp": {
+        "l10": "50 eliminations with 4.0x+ scope",
+        "l11": "15 longshot kills",
+        "l12": "1 Kill without enemy dealing you damage"
+      },
+      "wz": {
+        "l10": "5 Kopfschuesse",
+        "l11": "5 kills without taking damage",
+        "l12": "5 kills while moving",
+        "l14": "5x 5 kills without dying"
+      },
+      "zm": {
+        "l10": "300 Eliminations with PAP",
+        "l11": "300 Eliminations with Cryo",
+        "l12": "100 kills while Field Upgrade active"
+      },
+      "co": {
+        "l10": "100 eliminations with 4.0x+ scope",
+        "l11": "50 kills aiming while moving",
+        "l12": "100 Eliminations as Rare or higher"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "item": "HDR (Sniper)",
+      "note": "Keine wzhub-BO7-Seite (404/500). HDR ist MW-2019-/Verdansk-Waffe, nicht in BO7. Keine Camo-Daten — bewusste Luecke, nicht erfunden.",
+      "todo": true
+    },
+    {
+      "item": "MK.78 ZM-L1-9-Header",
+      "note": "Quelle lieferte keinen expliziten 'critical kills'-Header, aber Werte (100-1000) entsprechen ZM-Standard -> als Standard eingeordnet."
+    }
+  ]
+}

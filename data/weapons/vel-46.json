@@ -1,0 +1,45 @@
+{
+  "id": "vel-46",
+  "name": "VEL 46",
+  "class": "SMG",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 SMG (4.6x30mm, 952 RPM, 40-round, MP7). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 952,
+    "mag": 40,
+    "reload_s": 2.3,
+    "ads_ms": 216,
+    "velocity_ms": 540,
+    "move_ms": 4.9,
+    "sprint_to_fire_ms": 110,
+    "sprint_ms": 6.3,
+    "zoom_x": 0.88
+  },
+  "slots": {
+    "AMMUNITION": [
+      "4.6mm Frangible :: -5.1% Range",
+      "4.6mm Hollowpoint",
+      "4.6mm Armor Piercing",
+      "4.6mm Overpressured +P :: +80% Target Flinch"
+    ],
+    "BARREL": [
+      "Tango 228 Barrel :: +24% Range",
+      "Schlager RV-B :: +24% Range",
+      "Schlager L203 Barrel :: +12% Range",
+      "Lach-DX 203mm :: +12% Range",
+      "Lachmann Dart 165mm :: +7% Bullet Velocity",
+      "Lach-165 Zulu :: -4.6% Range",
+      "LM Series-7 :: -4.6% Range"
+    ],
+    "MAGAZINE": [
+      "30 Round Mag :: +6% Move. Speed",
+      "50 Round Mag :: +14% Reload Time",
+      "60 Round Mag :: -3% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

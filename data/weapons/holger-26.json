@@ -1,0 +1,50 @@
+{
+  "id": "holger-26",
+  "name": "Holger 26",
+  "class": "LMG",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 LMG (5.56 NATO, 706 RPM, 60-round). MUZZLE(43)=universal MW-Pool (Guard-skip). FIRE MODS=.45 ACP Phantom (AMMUNITION=5.56) -> excl. Via Split-Extraktion nach Freeze gerettet.",
+  "extraction": "weapon-specific-only (MW: MUZZLE universal; FIRE MODS Phantom excl.)",
+  "base": {
+    "rpm": 706,
+    "mag": 60,
+    "reload_s": 3.9,
+    "ads_ms": 300,
+    "velocity_ms": 690,
+    "move_ms": 4.5,
+    "sprint_to_fire_ms": 210,
+    "sprint_ms": 6.0,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.56 NATO Low Grain Rounds :: -15.2% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "5.56 NATO High Grain Rounds :: +15.2% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "5.56 NATO Round Nose :: +50% Target Flinch | -20% Range",
+      "5.56 NATO Mono :: -3% Range | +8% Bullet Velocity | +3% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      "5.56 Frangible :: -4.8% Range",
+      "5.56 Hollowpoint",
+      "5.56 Armor Piercing",
+      "5.56 Overpressured +P :: +80% Target Flinch",
+      "5.56 High Velocity :: -4.8% Range | +20% Bullet Velocity",
+      "5.56 Incendiary :: -10% Range | -25% Bullet Velocity"
+    ],
+    "BARREL": [
+      "Prime Lord Heavy Barrel :: -5% Gun Kick | -7% Horiz. Recoil | -7% Vert. Recoil | -10% Idle Sway | -10% Max Hipfire | +12% ADS Time",
+      "Holger Factory Barrel :: +20% Range | +11% Bullet Velocity | -4% Gun Kick | -7% Horiz. Recoil | -8% Vert. Recoil | +10% ADS Time | +5% Sprint to Fire",
+      "Chrios-6 Match :: +3% Horiz. Recoil | +2% Vert. Recoil | +15% Idle Sway | +15% Max Hipfire | +6% Move | +3% Crouch | +4% ADS Move | -5% ADS Time",
+      "HGL-92 :: -9% Gun Kick | -13% Horiz. Recoil | -13% Vert. Recoil | -4% Move | -3% Sprint | +10% Sprint to Fire"
+    ],
+    "CONVERSION KIT": [
+      "Jak Burnout Kit :: Damage profile modified | +20% Bullet Velocity | +42% Fire Rate | +23% Gun Kick | -2% Horiz. Recoil | +2% Vert. Recoil"
+    ],
+    "MAGAZINE": [
+      "40 Round Mag :: +2% Move | +1% Crouch | +1% Sprint | +5% ADS Move | -5% ADS Time | -10% Sprint to Fire",
+      "100 Round Drum :: -9% Move | -11% Crouch | -6% Sprint | -13% ADS Move | +10% ADS Time | +32% Reload | +5% Sprint to Fire"
+    ]
+  },
+  "_universal": "MUZZLE(43)/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP/COMB = MW-Pool (ref kar98k.json)"
+}

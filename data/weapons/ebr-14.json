@@ -1,0 +1,47 @@
+{
+  "id": "ebr-14",
+  "name": "EBR-14",
+  "class": "Marksman Rifle",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 Marksman Rifle (7.62x51, semi-auto). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 286,
+    "mag": 10,
+    "reload_s": 2.4,
+    "ads_ms": 240,
+    "velocity_ms": 830,
+    "move_ms": 4.5,
+    "sprint_to_fire_ms": 216,
+    "sprint_ms": 6,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "7.62X51mm Low Grain Rounds :: -15% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "7.62X51mm High Grain Rounds :: +15% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "7.62X51mm Round Nose :: +40% Target Flinch | -20% Range",
+      "7.62X51mm Mono :: -1.6% Range | +8% Bullet Velocity | +3% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      "7.62X51mm Frangible :: -5.2% Range",
+      "7.62X51mm Hollowpoint",
+      "7.62X51mm Armor Piercing",
+      "7.62X51mm Overpressured +P :: +80% Target Flinch",
+      "7.62X51mm High Velocity :: -5.2% Range | +20% Bullet Velocity",
+      "7.62X51mm Incendiary :: -10% Range | -25% Bullet Velocity"
+    ],
+    "BARREL": [
+      "22\" Boremaster Barrel :: +9% Bullet Velocity | -7% Gun Kick | -7% Horiz. Recoil | -7% Vert. Recoil | -3% Move | -3% Crouch | -3% Sprint | -4% ADS Move | +3% ADS Time",
+      "18\" Lonestar Barrel :: -3% Range | -2% Bullet Velocity | +4% Idle Sway | -5% Max Hipfire | -5% ADS Time",
+      "18\" T300 Barrel :: -3% Range | +7% Bullet Velocity | -7% Gun Kick | -7% Horiz. Recoil | -7% Vert. Recoil | +4% Idle Sway | -5% Max Hipfire | -3% Move | -3% Crouch | -3% Sprint | -4% ADS Move | -2% ADS Time",
+      "16\" Chrome-lined RFX40 Barrel :: -7% Range | -4% Bullet Velocity | +9% Idle Sway | -10% Max Hipfire | -9% ADS Time"
+    ],
+    "MAGAZINE": [
+      "15 Round Mag :: -4% Move | -5% Crouch | -3% Sprint | -6% ADS Move | +7% ADS Time | +25% Reload",
+      "20 Round Mag :: -9% Move | -10% Crouch | -6% Sprint | -12% ADS Move | +14% ADS Time | +38% Reload | +1% Sprint to Fire"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP/COMB = MW-Pool (ref kar98k.json)"
+}

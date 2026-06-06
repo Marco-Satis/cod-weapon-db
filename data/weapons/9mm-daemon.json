@@ -1,0 +1,62 @@
+{
+  "id": "9mm-daemon",
+  "name": "9mm Daemon",
+  "class": "Pistol",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3. Universelle Slots (MUZZLE/OPTIC/LASER/REAR GRIP) = MW-Standard-Pool (ref kar98k.json).",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "all_slots": [
+    "MUZZLE",
+    "LASER",
+    "OPTIC",
+    "AMMUNITION",
+    "MAGAZINE",
+    "REAR GRIP",
+    "TRIGGER ACTION",
+    "BARREL"
+  ],
+  "base": {
+    "rpm": 462,
+    "mag": 15,
+    "reload_s": 2.4,
+    "ads_ms": 200,
+    "velocity_ms": 375,
+    "move_ms": 5.3,
+    "sprint_to_fire_ms": 80,
+    "sprint_ms": 6.8,
+    "zoom_x": 0.8
+  },
+  "slots": {
+    "AMMUNITION": [
+      "9mm High Grain Rounds :: +14.8% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz | +8% Vert",
+      "9mm Low Grain Rounds :: -15.2% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz | -8% Vert",
+      "9mm AET Rounds :: -30% Target Flinch | -20% Bullet Velocity",
+      "9mm Hardened Rounds :: -29% Range | -15% Bullet Velocity | +3% Gun Kick | +4% Horiz | +4% Vert",
+      "9mm Frangible :: -5.2% Range",
+      "9mm Hollowpoint",
+      "9mm Armor Piercing",
+      "9mm Overpressured +P :: +80% Target Flinch",
+      "9mm High Velocity :: +30% Bullet Velocity | +5% Horiz | +5% Vert"
+    ],
+    "BARREL": [
+      "EXF Opal-9 :: -6% Bullet Velocity | +7% Recoil(alle) | +Mobility minor | +6% ADS Move | -6% ADS Time",
+      "EXF Trope-H :: +15% Bullet Velocity | -13% Recoil(alle) | -Mobility minor | +6% ADS Time",
+      "FT Competition :: +23.9% Range | +22% Bullet Velocity | -30% Gun Kick | -15% Horiz | -31% Vert | -9% Idle Sway | +9% Max Hipfire | +22% ADS Time",
+      "XTEN Windfall :: -6.5% Range | -4% Bullet Velocity | +9% Idle Sway | -10% Max Hipfire | -9% ADS Time",
+      "SA Longfire :: +31.9% Range | +19% Bullet Velocity | -12% Idle Sway | +12% Max Hipfire | +12% ADS Time"
+    ],
+    "MAGAZINE": [
+      "20 Round Mag :: -3% Move | -3% Crouch | -2% Sprint | -4% ADS Move | +5% ADS Time | +6% Reload",
+      "26 Round Mag :: -5% Move | -6% Crouch | -4% Sprint | -8% ADS Move | +10% ADS Time | +17% Reload"
+    ],
+    "TRIGGER ACTION": [
+      "Precision Trigger :: -13% Fire Rate | -8% ADS Time | -14% Sprint to Fire",
+      "DEX8 Trigger :: +8% Fire Rate | +15% Max Hipfire Area",
+      "Rapid 30 Trigger :: +18% Fire Rate | +15% Sprint to Fire"
+    ],
+    "_universal": "MUZZLE/OPTIC/LASER/REAR GRIP = MW-Standard-Pool (ref kar98k.json)"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "category": "calling_cards",
+  "game": "bo7",
+  "data_version": "S4 (2026-06-05)",
+  "source": "dotesports/gamerant/windowscentral/overgear + Call of Duty Fandom Wiki (Season 4, 2026)",
+  "scope_note": "Calling Cards = Kosmetik (kein Build-Impact). Diese Datei dokumentiert System + Kategorien + S4-Highlights + Voll-Listen-Quellen — keine 1:1-Enumeration aller hunderte Karten.",
+  "unlock_system": [
+    {
+      "source": "Multiplayer-Challenges",
+      "detail": "inkl. Ranked Play"
+    },
+    {
+      "source": "Zombies-Challenges",
+      "detail": "Round-Meilensteine, Easter-Eggs, Directed Mode"
+    },
+    {
+      "source": "Warzone-Challenges",
+      "detail": "inkl. Warzone-2.0-Carry-overs"
+    },
+    {
+      "source": "Battle Pass",
+      "detail": "Free + Premium Tiers (S4 headliner: Leon Rook)"
+    },
+    {
+      "source": "Store",
+      "detail": "Kauf-Bundles"
+    },
+    {
+      "source": "Weekly Challenges",
+      "detail": "rotierend ueber die Season"
+    },
+    {
+      "source": "Dark Ops",
+      "detail": "versteckte Challenges, Requirements ungelistet -> schwer gezielt zu machen; oft die prestigetraechtigsten Cards"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Mastery/Camo-gekoppelt",
+      "description": "Viele Cards spiegeln Camo-/Mastery-Fortschritt (Gold/Diamond/etc.)."
+    },
+    {
+      "name": "Event-Cards",
+      "description": "Limited-Time-Events (z.B. Nuked Survival, Operation Wallbreaker S4-Boss -> 'Decay'/'Visitors' Camos + Cards)."
+    },
+    {
+      "name": "Ranked-Reward-Cards",
+      "description": "Seasonal, oft animiert, Skill-gated."
+    },
+    {
+      "name": "Dark-Ops-Cards",
+      "description": "Versteckte Achievements, ungelistete Bedingungen."
+    },
+    {
+      "name": "Battle-Pass-Cards",
+      "description": "Tier-Belohnungen."
+    }
+  ],
+  "items": [
+    {
+      "id": "totenreich-directed-mode-completion",
+      "card": "Totenreich Directed Mode Completion",
+      "condition": "Totenreich im Directed Mode abschliessen (+ 'Dead Man's Drip' Weaver-Skin + 5.000 XP)",
+      "mode": "Zombies"
+    },
+    {
+      "id": "cold-reel",
+      "card": "Cold Reel",
+      "condition": "Totenreich Runde 25 erreichen (+ 2.500 XP)",
+      "mode": "Zombies"
+    },
+    {
+      "id": "aether-fisher",
+      "card": "Aether Fisher",
+      "condition": "Totenreich Runde 50 erreichen (+ 5.000 XP)",
+      "mode": "Zombies"
+    },
+    {
+      "id": "ranked-s04-top-250",
+      "card": "Ranked Season 04 — Top 250 (animiert)",
+      "condition": "S4 in Top 250 abschliessen (+ animierte Waffen-Camo)",
+      "mode": "Ranked"
+    },
+    {
+      "id": "ranked-s04-top-250-champion",
+      "card": "Ranked Season 04 — Top 250 Champion (animiert)",
+      "condition": "S4 als Top 250 #1 Overall abschliessen",
+      "mode": "Ranked"
+    }
+  ],
+  "zombies_round_milestones": "R10 -> GobbleGum, R25 -> 'Cold Reel', R50 -> 'Aether Fisher'. BlackCell (S4) buendelt zusaetzliche Camos/Cosmetics inkl. Cards via BlackCell-BP-Upgrade.",
+  "full_list_sources": [
+    {
+      "name": "Fandom Wiki",
+      "url": "callofduty.fandom.com/wiki/Calling_Cards/Call_of_Duty:_Black_Ops_7",
+      "detail": "vollstaendige Card-Liste, community-gepflegt"
+    },
+    {
+      "name": "GameFAQs",
+      "url": "gamefaqs.gamespot.com/pc/539641-call-of-duty-black-ops-7/faqs/82246",
+      "detail": "BO7 Calling-Cards-Guide"
+    },
+    {
+      "name": "Windows Central",
+      "url": null,
+      "detail": "alle Dark-Ops-Challenges + Rewards (4 Modi: MP/Zombies/Campaign/Warzone)"
+    },
+    {
+      "name": "overgear",
+      "url": null,
+      "detail": "How-to-Get-Guide"
+    }
+  ],
+  "open": [
+    {
+      "item": "Vollstaendige 1:1-Card-Enumeration (hunderte)",
+      "status": "bei Bedarf aus Fandom-Wiki ziehbar; aktuell bewusst nicht eingezogen (Kosmetik, low-Build-Relevanz)",
+      "todo": true
+    },
+    {
+      "item": "Dark-Ops-Detail-Liste",
+      "status": "WebFetch der windowscentral-Quelle truncated -> via Chrome get_page_text nachziehbar falls gewuenscht",
+      "todo": true
+    }
+  ]
+}

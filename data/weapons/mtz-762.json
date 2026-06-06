@@ -1,0 +1,49 @@
+{
+  "id": "mtz-762",
+  "name": "MTZ-762",
+  "class": "Battle Rifle",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 Battle Rifle (7.62x51, 541 RPM, 20-round). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 541,
+    "mag": 20,
+    "reload_s": 3.1,
+    "ads_ms": 260,
+    "velocity_ms": 790,
+    "move_ms": 4.7,
+    "sprint_to_fire_ms": 231,
+    "sprint_ms": 6,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "7.62X51mm Low Grain Rounds :: -15.1% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "7.62X51mm High Grain Rounds :: +13.9% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "7.62X51mm Round Nose :: +40% Target Flinch | -20.1% Range",
+      "7.62X51mm Mono :: -1.4% Range | +8% Bullet Velocity | +2% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      "7.62X51mm Frangible :: -5.2% Range",
+      "7.62X51mm Hollowpoint",
+      "7.62X51mm Armor Piercing",
+      "7.62X51mm Overpressured +P :: +80% Target Flinch",
+      "7.62X51mm High Velocity :: -5.2% Range | +20% Bullet Velocity",
+      "7.62X51mm Incendiary :: -10.1% Range | -25% Bullet Velocity"
+    ],
+    "BARREL": [
+      "MTZ Rowan XL-356 :: +2% Horiz. Recoil | +3% Vert. Recoil | +2% Sprint | -5% ADS Time | -5% Sprint to Fire",
+      "MTZ Clinch Pro Barrel :: +11.8% Range | +6% Bullet Velocity | -6% Gun Kick | -10% Horiz. Recoil | -10% Vert. Recoil | +16% ADS Time | +3% Sprint to Fire",
+      "MTZ-Precision Blackthorn Barrel :: +24.8% Range | +30% Bullet Velocity | +30% Idle Sway | +30% Max Hipfire | -10% ADS Move | +5% Sprint to Fire"
+    ],
+    "CONVERSION KIT": [
+      "JAK Heretic Carbine Kit :: Damage profile modified | -21% Bullet Velocity | +11% Fire Rate | -31% Gun Kick | -47% Horiz. Recoil | -5% Vert. Recoil | -20% Idle Sway | -6% Max Hipfire | +2% Move | +6% Crouch | +8% Sprint | +9% ADS Move | +1% Reload | -27% Sprint to Fire"
+    ],
+    "MAGAZINE": [
+      "7.62x51 10 Round Mag :: +5% Move | +4% Crouch | +3% Sprint | +17% ADS Move | -15% ADS Time | -11% Reload | -30% Sprint to Fire",
+      "7.62x51 30 Round Mag :: -5% Move | -5% Crouch | -2% Sprint | -5% ADS Move | +8% ADS Time | -8% Reload | +1% Sprint to Fire"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mtz-556",
+  "name": "MTZ-556",
+  "class": "AR",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 AR (5.56 NATO, 811 RPM). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 811,
+    "mag": 30,
+    "reload_s": 3.1,
+    "ads_ms": 220,
+    "velocity_ms": 720,
+    "move_ms": 4.8,
+    "sprint_to_fire_ms": 189,
+    "sprint_ms": 6.5,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.56 NATO Low Grain Rounds :: -15% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "5.56 NATO High Grain Rounds :: +15% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "5.56 NATO Round Nose :: +50% Target Flinch | -20.1% Range",
+      "5.56 NATO Mono :: -1.6% Range | +8% Bullet Velocity | +2% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      "5.56 Frangible :: -4.9% Range",
+      "5.56 Hollowpoint",
+      "5.56 Armor Piercing",
+      "5.56 Overpressured +P :: +80% Target Flinch",
+      "5.56 High Velocity :: -4.9% Range | +20% Bullet Velocity",
+      "5.56 Incendiary :: -10% Range | -25% Bullet Velocity"
+    ],
+    "BARREL": [
+      "MTZ Clinch Pro Barrel :: +21.3% Range | +25% Bullet Velocity | +25% Idle Sway | +25% Max Hipfire | -7% ADS Move | +4% Sprint to Fire",
+      "MTZ Rowan XL-356 :: -9% Gun Kick | -14% Horiz. Recoil | -14% Vert. Recoil | -2% Move | -2% Sprint | +14% ADS Time | +6% Sprint to Fire",
+      "MTZ Drifter Heavy Long Barrel :: +28% Range | +15% Bullet Velocity | -3% Gun Kick | -5% Horiz. Recoil | -4% Vert. Recoil | -1% Move | +11% Sprint to Fire",
+      "MTZ Para Long Barrel :: +25% Idle Sway | +25% Max Hipfire | +4% Move | +6% ADS Move",
+      "MTZ Natter Heavy Short Barrel :: -9.1% Range | -5% Bullet Velocity | +2% Horiz. Recoil | +2% Vert. Recoil | -10% Idle Sway | -10% Max Hipfire | -12% Sprint to Fire",
+      "MTZ VLDL-3568 Barrel :: +3% Horiz. Recoil | +5% Vert. Recoil | +3% Sprint | -8% ADS Time | -9% Sprint to Fire"
+    ],
+    "MAGAZINE": [
+      "20 Round Mag :: +2% Move | +2% Crouch | +2% Sprint | +7% ADS Move | -8% ADS Time | -14% Reload | -15% Sprint to Fire",
+      "50 Round Drum :: -6% Move | -6% Crouch | -2% Sprint | -6% ADS Move | +12% ADS Time | +3% Reload | +2% Sprint to Fire"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "stg44",
+  "name": "STG44",
+  "class": "AR",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 AR (7.92x33mm Kurz, 600 RPM, 30-round, WW2-Rifle). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 600,
+    "mag": 30,
+    "reload_s": 2.5,
+    "ads_ms": 260,
+    "velocity_ms": 720,
+    "move_ms": 4.7,
+    "sprint_to_fire_ms": 210,
+    "sprint_ms": 6.1,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "7.92x33mm High Grain Rounds :: +15% Range",
+      "7.92x33mm Mono :: -1.6% Range",
+      "7.92x33mm Low Grain Rounds :: -15% Range",
+      "7.62x39mm Round Nose :: +50% Target Flinch",
+      "7.92x33mm Frangible :: -4.9% Range",
+      "7.92x33mm Hollowpoint",
+      "7.92x33mm Armor Piercing",
+      "7.92x33mm Overpressured P+ :: +80% Target Flinch",
+      "7.92x33mm High Velocity :: -4.9% Range",
+      "7.92x33mm Incendiary :: -10% Range"
+    ],
+    "BARREL": [
+      "Bruen Acrux Heavy Barrel :: +24% Range",
+      "Factory Short Barrel :: -1.8% Range",
+      "Stalker D9 Suppressed Barrel :: +15.9% Range",
+      "Heinrichter C70 Long Barrel :: +27.6% Range",
+      "Ferngewehr 792 Barrel :: +15% Range"
+    ],
+    "MAGAZINE": [
+      "40 Round Mag :: -3% Move. Speed",
+      "50 Round Drum :: -6% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

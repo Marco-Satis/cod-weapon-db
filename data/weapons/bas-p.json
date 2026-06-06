@@ -1,0 +1,45 @@
+{
+  "id": "bas-p",
+  "name": "BAS-P",
+  "class": "SMG",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 SMG (BAS-B-PDW). Universelle Slots = MW-Pool (ref kar98k.json).",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 870,
+    "mag": 30,
+    "reload_s": 2.8,
+    "ads_ms": 210,
+    "velocity_ms": 540,
+    "move_ms": 4.8,
+    "sprint_to_fire_ms": 110,
+    "sprint_ms": 6.3,
+    "zoom_x": 0.88
+  },
+  "slots": {
+    "AMMUNITION": [
+      "9mm High Grain :: +14.9% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz | +8% Vert",
+      "9mm Low Grain :: -14.9% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz | -8% Vert",
+      "9mm Hardened :: -27.3% Range | -15% Bullet Velocity | +2% Gun Kick | +4% Horiz | +4% Vert",
+      "9mm Frangible :: -5% Range",
+      "9mm Hollowpoint",
+      "9mm Armor Piercing",
+      "9mm Overpressured +P :: +80% Target Flinch",
+      "9mm High Velocity :: +30% Bullet Velocity | +5% Horiz | +5% Vert"
+    ],
+    "BARREL": [
+      "12\" Bruen SZ-36 :: +14.9% Range | +19% Bullet Velocity | -7% Recoil(alle) | -6% Idle Sway | +6% Max Hipfire | -Mobility | +10% ADS Time",
+      "10.5\" Bruen Typhon :: +3% Range | +7% Bullet Velocity | -5% Idle Sway | +4% Max Hipfire | +4% ADS Time",
+      "6.5\" Bruen Drake :: -3% Range | -5% Bullet Velocity | +3% Recoil(alle) | +4% Idle Sway | -5% Max Hipfire | +Mobility | -8% ADS Time",
+      "4\" Thunderfire :: -6.9% Range | -11% Bullet Velocity | +7% Recoil(alle) | +11% Idle Sway | -11% Max Hipfire | +Mobility | -17% ADS Time"
+    ],
+    "MAGAZINE": [
+      "20 Round Mag :: +Mobility | -10% ADS Time | -20% Sprint to Fire",
+      "50 Round Drum :: -8% Move | -9% Crouch | -6% Sprint | -11% ADS Move | +16% ADS Time | +19% Reload"
+    ],
+    "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+  }
+}

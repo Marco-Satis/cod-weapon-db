@@ -1,0 +1,51 @@
+{
+  "id": "razer-9mm",
+  "name": "Razer 9mm",
+  "class": "SMG",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO7 SMG (9mm Parabellum, 1000 RPM, 30-round). BO7-native (BARREL 'MFS Sidewinder'). Black-Ops-Layout: OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER universell. Weapon-spez: MUZZLE/BARREL/MAGAZINE/FIRE MODS.",
+  "extraction": "weapon-specific-only-BO-editorbound-split",
+  "base": {
+    "rpm": 1000,
+    "mag": 30,
+    "reload_s": 2.21,
+    "ads_ms": 165,
+    "velocity_ms": 500,
+    "move_ms": 5.1,
+    "sprint_to_fire_ms": 103,
+    "sprint_ms": 7.5,
+    "zoom_x": 0
+  },
+  "slots": {
+    "BARREL": [
+      "12\" MFS Sidewinder Barrel :: +20% Bullet Velocity",
+      "13\" RL-Genesys Barrel :: +11.3% Range",
+      "9.5\" Synthesis Barrel :: +8.9% Range",
+      "9\" Heron Barrel :: -20% Max Hipfire Area",
+      "10\" Razor Impact Barrel :: +11.9% Range"
+    ],
+    "FIRE MODS": [
+      "Bolt Carrier Group :: -17.9% Range",
+      "9mm Parabellum Overpressured :: +15% Bullet Velocity",
+      "Accelerated Recoil System :: -9.1% Gun Kick",
+      "9mm Parabellum FMJ"
+    ],
+    "MAGAZINE": [
+      "Strikeface Extended Mag",
+      "Zealot Extended Mag II :: -1.4% Sprint Speed",
+      "Hawkline Fast Mag :: -15.6% Reload Time",
+      "Bolt Strike Fast Mag II :: -11.8% ADS Move."
+    ],
+    "MUZZLE": [
+      "Bowen 9mm Suppressor",
+      "H-9mm Precision Comp :: -18.2% Gun Kick",
+      "Hawker Stabilizer MKII :: -4.5% Gun Kick",
+      "Hawker Ported Comp :: -25% Max Hipfire Area",
+      "Monolithic Suppressor :: +8.9% Range"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO7-Pool"
+}

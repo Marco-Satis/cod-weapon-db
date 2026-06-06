@@ -1,0 +1,51 @@
+{
+  "id": "xm325",
+  "name": "XM325",
+  "class": "LMG",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO7 LMG (5.56 Caseless, 1000 RPM, 60-round Belt). BO7-branded (Greaves/RL/Redwell/Fractal). Black-Ops-Layout: OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER universell. Weapon-spez: MUZZLE/BARREL/MAGAZINE/FIRE MODS. Endgame: Named Exotic 'Redline' (Mortar Rounds).",
+  "extraction": "weapon-specific-only-BO-editorbound-split",
+  "base": {
+    "rpm": 1000,
+    "mag": 60,
+    "reload_s": 4.59,
+    "ads_ms": 245,
+    "velocity_ms": 920,
+    "move_ms": 4.6,
+    "sprint_to_fire_ms": 220,
+    "sprint_ms": 7,
+    "zoom_x": 0
+  },
+  "slots": {
+    "BARREL": [
+      "24\" Fractal-LRB Barrel :: +16% Range",
+      "22\" Hermes Fluted Barrel :: -10% Bullet Velocity",
+      "20\" Rist-76 Nova Barrel :: +8% Range",
+      "18\" RistRauch 5-100 Barrel :: -9.8% ADS Time",
+      "19.3\" R-556 Chief Barrel :: -25% Gun Kick"
+    ],
+    "FIRE MODS": [
+      "Bolt Carrier Group :: -20% Range",
+      "5.56 Caseless Overpressure :: +20% Bullet Velocity",
+      "Accelerated Recoil System :: -12% Gun Kick",
+      "5.56 Caseless FMJ"
+    ],
+    "MAGAZINE": [
+      "Sawblade Drum Mag :: +8.2% ADS Time",
+      "Wessi Fast Belt :: -8.2% ADS Time",
+      "Enforcer Extended Belt :: +12.2% ADS Time",
+      "Leyden Spark Belt Fed"
+    ],
+    "MUZZLE": [
+      "Greaves A-762",
+      "RL-7.62 Compensator :: -23.5% Gun Kick",
+      "Redwell 7.62 Brake :: -9.5% Gun Kick",
+      "Titan-R 7.62 Compensator :: -24.9% Max Hipfire Area",
+      "Monolithic Suppressor :: +8% Range"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO7-Pool"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "ak-27",
+  "name": "AK-27",
+  "class": "AR",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "BO7-native Meta-AR (7.62 Soviet, 690 RPM, 30-round). Voll-Extraktion (Quelle wz_attachment_deltas.md), kanonisiert auf weapon-spez; universelle Slots = BO7-Pool.",
+  "extraction": "weapon-specific-only-BO-fromMD",
+  "base": {
+    "rpm": 690,
+    "mag": 30,
+    "reload_s": 2.47,
+    "ads_ms": 240,
+    "velocity_ms": 920,
+    "move_ms": 4.7,
+    "sprint_to_fire_ms": 190,
+    "sprint_ms": 7.2
+  },
+  "slots": {
+    "BARREL": [
+      "18.2\" Vostok Extended Barrel :: +15.2% Range | +6.2% ADS Time",
+      "17\" Bystro Speed Barrel :: +17.7% Range | -6% Bullet Velocity | -0.5% Gun Kick | -25% Horiz. Recoil | +9.5% Idle Sway | +6.7% ADS Move.",
+      "16.3\" SWF Tumult Barrel :: +7.6% Range | +8% Bullet Velocity | +4.2% ADS Time",
+      "14\" Prism Light Barrel :: -8.3% ADS Time | -13.2% Sprint to Fire",
+      "17.6\" Vandal Heavy Barrel :: +15% Bullet Velocity | -20% Gun Kick | -20% Horiz. Recoil | -20% Vert. Recoil | -10% ADS Move. | +14.6% ADS Time | +7.9% Sprint to Fire"
+    ],
+    "FIRE MODS": [
+      "Enhanced Cycle System :: -12.6% Range | -12% Bullet Velocity | +4.7% Fire Rate | -17.6% Gun Kick | +22.5% Vert. Recoil",
+      "7.62 Soviet Overpressured :: +20% Bullet Velocity",
+      "Buffer Spring :: -8.1% Gun Kick | -12% Horiz. Recoil | -8% Vert. Recoil",
+      "7.62 Soviet FMJ :: +14.4% Range | +14% Bullet Velocity"
+    ],
+    "MAGAZINE": [
+      "Epitaph Extended Mag :: -3.3% ADS Move. | +4.2% ADS Time",
+      "Riker Flip Mag :: -15.2% Reload Time",
+      "Saber Pack Heavy Drum :: -6.4% Move. Speed | -4.2% Crouch Speed | -4.2% Sprint Speed | -6.7% ADS Move. | +8.3% ADS Time | +30.3% Reload Time | +10.5% Sprint to Fire",
+      "IronDivide Fast Mag :: -4.2% ADS Time | -30% Reload Time | -5.3% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "SWF Tishina-II",
+      "EMT3 Compensator :: -19.5% Gun Kick | -20% Vert. Recoil",
+      "Eclipse 7.62 Brake :: -15.6% Gun Kick | -16% Vert. Recoil",
+      "EMT3 Ported-70 :: -24.9% Max Hipfire Area",
+      "Monolithic Suppressor :: +12.4% Range | +20% Bullet Velocity | +22.9% ADS Time"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO7-Pool (volle Dumps in wz_attachment_deltas.md)"
+}

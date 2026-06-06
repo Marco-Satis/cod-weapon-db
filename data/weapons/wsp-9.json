@@ -1,0 +1,51 @@
+{
+  "id": "wsp-9",
+  "name": "WSP-9",
+  "class": "SMG",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 SMG (9mm, 600 RPM, 25-round). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE/CONVERSION KIT (Broodmother .45).",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 600,
+    "mag": 25,
+    "reload_s": 2.8,
+    "ads_ms": 220,
+    "velocity_ms": 500,
+    "move_ms": 4.8,
+    "sprint_to_fire_ms": 120,
+    "sprint_ms": 6.2,
+    "zoom_x": 0.88
+  },
+  "slots": {
+    "AMMUNITION": [
+      "9mm High Grain Rounds :: +15% Range",
+      "9mm Low Grain Rounds :: -15% Range",
+      "9mm Hardened Rounds :: -27.3% Range",
+      "9mm Frangible :: -5.2% Range",
+      "9mm Hollowpoint",
+      "9mm Armor Piercing",
+      "9mm Overpressured +P :: +80% Target Flinch",
+      "9mm High Velocity :: +30% Bullet Velocity"
+    ],
+    "BARREL": [
+      "Pestilence-12 Short Compensated Barrel :: -6% Gun Kick",
+      "WSP OPTAC Long Barrel :: +9.7% Range",
+      "WSP ZIP Barrel :: -15% Range",
+      "WSP Reckless-90 Long Barrel :: +12% Range",
+      "WSP Infiltrator Integrated Suppressor :: -10.5% Range",
+      "HISS Short Light Barrel :: +3% Horiz. Recoil"
+    ],
+    "CONVERSION KIT": [
+      "Broodmother .45 Kit :: Damage profile modified"
+    ],
+    "MAGAZINE": [
+      "32 Round Mag :: -3% Move. Speed",
+      "40 Round Mag :: -4% Move. Speed",
+      "50 Round Mag :: -7% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

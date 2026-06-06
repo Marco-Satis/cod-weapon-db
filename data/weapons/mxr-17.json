@@ -1,0 +1,108 @@
+{
+  "id": "mxr-17",
+  "name": "MXR-17",
+  "class": "AR",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "base": {
+    "rpm": 500,
+    "mag": 30,
+    "reload_s": 2.27,
+    "ads_ms": 245,
+    "velocity_ms": 900,
+    "move_ms": 4.7,
+    "sprint_to_fire_ms": 200,
+    "sprint_ms": 7.2
+  },
+  "slots": {
+    "BARREL": [
+      "20\" Imperial Barrel :: +14.8% Range | +5.7% ADS Time",
+      "18\" Rapid Sterling Barrel :: +20% Range | -4% Bullet Velocity | -0.1% Gun Kick | -20% Horiz. Recoil | +9.5% Idle Sway | +6.9% ADS Move.",
+      "18\" Rift-M7 Barrel :: +7.4% Range | +8% Bullet Velocity | +4.1% ADS Time",
+      "15\" Wraith Barrel :: -9.4% ADS Time | -5% Sprint to Fire",
+      "17\" Greaves Scourge Barrel :: +18% Bullet Velocity | -15% Gun Kick | -12% Horiz. Recoil | -15% Vert. Recoil | -10.3% ADS Move. | +14.3% ADS Time | +8% Sprint to Fire"
+    ],
+    "FIRE_MODS": [
+      "Bolt Carrier Group :: -9.5% Range | -15% Bullet Velocity | +4.4% Fire Rate | +20.1% Gun Kick | +25% Horiz. Recoil | +20% Vert. Recoil",
+      "7.62 NATO Overpressured :: +20% Bullet Velocity",
+      "Recoil Sync Unit :: -10% Gun Kick | -10% Horiz. Recoil | -10% Vert. Recoil",
+      "7.62 NATO FMJ :: +14.8% Range | +14% Bullet Velocity"
+    ],
+    "LASER": [
+      "Convergence Box Laser :: -15% Max Hipfire Area",
+      "1mW Adaptive Tactical Laser",
+      "1mW Instinct Laser Array :: -7.2% ADS Time | -7.5% Sprint to Fire",
+      "1mW Motion Strike Laser",
+      "5mW Lockstep Laser"
+    ],
+    "MAGAZINE": [
+      "MFS Semi-Auto Fast Mag :: +5.2% Fire Rate | +23.8% Gun Kick | -1.4% Horiz. Recoil | +1.3% Vert. Recoil | +3.4% ADS Move. | -11.8% ADS Time | -26.3% Reload Time | -9.5% Sprint to Fire",
+      "Vault Extended Mag",
+      "TwinPack Flip Mags :: +3.4% ADS Move. | -4.1% ADS Time | -13.7% Reload Time",
+      "Rhodes Drum Mag :: -6.4% Move. Speed | -4.2% Crouch Speed | -2.8% Sprint Speed | -6.9% ADS Move. | +4.1% ADS Time | +25.8% Reload Time"
+    ],
+    "MUZZLE": [
+      "Greaves Ti-762",
+      "Redwell-90 Compensator :: -14.8% Gun Kick | -15% Vert. Recoil",
+      "Redwell 7.62 Brake :: -4.9% Gun Kick | -5% Vert. Recoil",
+      "Titan-R 7.62 Compensator :: -25% Max Hipfire Area",
+      "Monolithic Suppressor :: +7.4% Range | +15% Bullet Velocity | +22.4% ADS Time"
+    ],
+    "OPTIC": [
+      "LTI Mini",
+      "VAS MicroFlex",
+      "Lethal Tools ELO",
+      "EAM Micro Dot",
+      "VAS LED",
+      "Kepler-Pro Red Dot",
+      "LTI Reflex",
+      "Greaves Red Dot",
+      "KES Slim Reflex",
+      "EAM xL Reflex",
+      "PrismaTech Digital Holo",
+      "EMT3 Holo Mk.2",
+      "Kepler T-Range Holo :: -30% Gun Kick | +5.7% ADS Time",
+      "Solaris Holo-IR :: -25% Gun Kick",
+      "EAM Dyad xL :: -50% Gun Kick | +5.7% ADS Time",
+      "LTI Target Finder VZ :: -13.8% ADS Move. | +20.4% ADS Time | +12.5% Sprint to Fire",
+      "Millimeter Scanner :: +10% Gun Kick | +12.2% ADS Time | +12.5% Sprint to Fire",
+      "Redwell 30-5 2x :: -28.6% Gun Kick | +4% ADS Time",
+      "Greaves Accuspot 3x :: -30% Gun Kick | +5.7% ADS Time",
+      "Kepler Ultra 4x :: -30% Gun Kick | +8.2% ADS Time",
+      "PrismaTech Turbo 4x :: -30% Gun Kick | +8.2% ADS Time",
+      "VAS Duo Hybrid Sight :: -50% Gun Kick | +5.7% ADS Time",
+      "Bowen X-25 IR :: -50% Gun Kick | +5.3% ADS Time",
+      "EAM Dual Zoom :: -50% Gun Kick | +8.2% ADS Time",
+      "Greaves Ultra Zoom :: -50% Gun Kick | +10.2% ADS Time",
+      "RistRauch 7x :: -50% Gun Kick | +5.7% ADS Time",
+      "VAS Strix 6x Thermal :: +14.3% ADS Time"
+    ],
+    "REAR GRIP": [
+      "Celerity Grip :: -20.4% ADS Time",
+      "Bell-HBI Grip :: -20% Sprint to Fire",
+      "Virgil-XI Grip :: -8% Horiz. Recoil | +5.7% ADS Time",
+      "Aria Assail Grip :: -10.2% ADS Time",
+      "Fissure Grip :: -7.9% Gun Kick | -8% Vert. Recoil"
+    ],
+    "STOCK": [
+      "Greaves Covenant Stock :: +19.1% Move. Speed | +33.3% Crouch Speed | +2.8% Sprint Speed",
+      "Gait-Lux Stock :: +16.7% Flinch | +20.7% ADS Move. | -8.2% ADS Time",
+      "Winch Stock :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil | -17.2% ADS Move. | +10.2% ADS Time",
+      "Skeletal Stock :: -15% Max Hipfire Area | -6.1% ADS Time | -10% Sprint to Fire",
+      "VAS TH-09 Stock :: -10% Gun Kick | -10% Horiz. Recoil | -10% Vert. Recoil | +8.2% ADS Time"
+    ],
+    "UNDERBARREL": [
+      "Lateral Precision Grip :: -0.1% Gun Kick | -18% Horiz. Recoil",
+      "Sentry Pro Handstop :: -5% Horiz. Recoil | -50% Idle Sway",
+      "Enhance-32 Handstop :: -38.9% Flinch",
+      "Quickstep Foregrip :: +6.4% Move. Speed | +8.3% Crouch Speed | +6.9% ADS Move.",
+      "EAM Steady-90 Grip :: -0.1% Gun Kick | -10% Horiz. Recoil | +6.4% Move. Speed | +8.3% Crouch Speed | +2.8% Sprint Speed",
+      "M335-X Frag",
+      "M335-X Cloak",
+      "M335-X Tempest",
+      "M335-X Drill Charge"
+    ]
+  }
+}

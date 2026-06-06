@@ -1,0 +1,1572 @@
+{
+  "title": "CoD Weapon DB — Katalog",
+  "data_version": "S3.5_2026-04-25",
+  "source": "truegamedata",
+  "weapon_count": 191,
+  "base_only_count": 8,
+  "counts_by_class": {
+    "AR": 46,
+    "Battle Rifle": 22,
+    "Crossbow": 1,
+    "LMG": 21,
+    "Marksman": 1,
+    "Marksman Rifle": 13,
+    "Marksman/Sniper": 1,
+    "Melee": 1,
+    "Pistol": 20,
+    "SMG": 44,
+    "Sniper": 20,
+    "Special": 1
+  },
+  "counts_by_game": {
+    "bo6": 47,
+    "bo7": 35,
+    "mw2": 48,
+    "mw2019": 1,
+    "mw2019_mw3": 1,
+    "mw3": 58,
+    "unknown": 1
+  },
+  "meta_categories": [
+    "calling_cards",
+    "camo_challenges",
+    "camos",
+    "endgame_abilities",
+    "meta_loadouts_by_class",
+    "mp_meta",
+    "playstyles",
+    "prestige_attachments",
+    "royale_drumherum",
+    "zombies"
+  ],
+  "weapons": [
+    {
+      "id": "1911",
+      "name": "1911",
+      "class": "Pistol",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "50-gs",
+      "name": ".50 GS",
+      "class": "Pistol",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "556-icarus",
+      "name": "556 Icarus",
+      "class": "LMG",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "9mm-daemon",
+      "name": "9mm Daemon",
+      "class": "Pistol",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "9mm-pm",
+      "name": "9mm PM",
+      "class": "Pistol",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "abr-a1",
+      "name": "ABR A1",
+      "class": "Marksman",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "aek-973",
+      "name": "AEK-973",
+      "class": "AR",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "ak-27",
+      "name": "AK-27",
+      "class": "AR",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "ak-74",
+      "name": "AK-74",
+      "class": "AR",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "ames-85",
+      "name": "AMES 85",
+      "class": "AR",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "amr-mod-4",
+      "name": "AMR Mod 4",
+      "class": "Sniper",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "amr9",
+      "name": "AMR9",
+      "class": "SMG",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "as-val",
+      "name": "AS VAL",
+      "class": "AR",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "bal-27",
+      "name": "BAL-27",
+      "class": "AR",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "bas-b",
+      "name": "BAS-B",
+      "class": "Battle Rifle",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "bas-p",
+      "name": "BAS-P",
+      "class": "SMG",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "basilisk",
+      "name": "Basilisk",
+      "class": "Pistol",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "bp50",
+      "name": "BP50",
+      "class": "AR",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "bruen-mk9",
+      "name": "Bruen MK9",
+      "class": "LMG",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "c9",
+      "name": "C9",
+      "class": "SMG",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "carbon-57",
+      "name": "Carbon 57",
+      "class": "SMG",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "carrack-300",
+      "name": "Carrack .300",
+      "class": "Sniper",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "chimera",
+      "name": "Chimera",
+      "class": "AR",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "coda-9",
+      "name": "Coda 9",
+      "class": "SMG",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": true
+    },
+    {
+      "id": "cr-56-amax",
+      "name": "CR-56 AMAX",
+      "class": "AR",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "cronen-squall",
+      "name": "Cronen Squall",
+      "class": "Battle Rifle",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "crossbow",
+      "name": "Crossbow",
+      "class": "Crossbow",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "cypher-091",
+      "name": "Cypher 091",
+      "class": "AR",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "dg-56",
+      "name": "DG-56",
+      "class": "AR",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "dg-58-lsw",
+      "name": "DG-58 LSW",
+      "class": "LMG",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "dm-10",
+      "name": "DM-10",
+      "class": "Battle Rifle",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "dm56",
+      "name": "DM56",
+      "class": "Battle Rifle",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "dravec-45",
+      "name": "Dravec 45",
+      "class": "SMG",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "dresden-9mm",
+      "name": "Dresden 9mm",
+      "class": "SMG",
+      "game": "unknown",
+      "in_warzone": true,
+      "base_only": true
+    },
+    {
+      "id": "ds20-mirage",
+      "name": "DS20 Mirage",
+      "class": "AR",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "dtir-30-06",
+      "name": "DTIR 30-06",
+      "class": "Battle Rifle",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "ebr-14",
+      "name": "EBR-14",
+      "class": "Marksman Rifle",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "egrt-17",
+      "name": "EGRT-17",
+      "class": "AR",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "essex-model-07",
+      "name": "Essex Model 07",
+      "class": "Marksman Rifle",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "feng-82",
+      "name": "Feng 82",
+      "class": "LMG",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "fennec-45",
+      "name": "Fennec 45",
+      "class": "SMG",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "ffar-1",
+      "name": "FFAR 1",
+      "class": "AR",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "fjx-horus",
+      "name": "FJX Horus",
+      "class": "SMG",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "fjx-imperium",
+      "name": "FJX Imperium",
+      "class": "Sniper",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "fr-5-56",
+      "name": "FR 5.56",
+      "class": "Battle Rifle",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "fr-avancer",
+      "name": "FR Avancer",
+      "class": "AR",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "fss-hurricane",
+      "name": "FSS Hurricane",
+      "class": "SMG",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "ftac-recon",
+      "name": "FTAC Recon",
+      "class": "Battle Rifle",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "ftac-siege",
+      "name": "FTAC Siege",
+      "class": "Pistol",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "goblin-mk2",
+      "name": "Goblin Mk2",
+      "class": "Battle Rifle",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "gpmg-7",
+      "name": "GPMG-7",
+      "class": "LMG",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "gpr-91",
+      "name": "GPR 91",
+      "class": "AR",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "grekhova",
+      "name": "Grekhova",
+      "class": "Pistol",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "gs-magna",
+      "name": "GS Magna",
+      "class": "Pistol",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "gs45",
+      "name": "GS45",
+      "class": "Pistol",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "gulag-rock",
+      "name": "Gulag Rock",
+      "class": "Melee",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": true
+    },
+    {
+      "id": "hawker-hx",
+      "name": "Hawker HX",
+      "class": "Sniper",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "hcr-56",
+      "name": "HCR 56",
+      "class": "LMG",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "hdr",
+      "name": "HDR",
+      "class": "Sniper",
+      "game": "mw2019",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "holger-26",
+      "name": "Holger 26",
+      "class": "LMG",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "holger-556",
+      "name": "Holger 556",
+      "class": "AR",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "hrm-9",
+      "name": "HRM-9",
+      "class": "SMG",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "iso-45",
+      "name": "ISO 45",
+      "class": "SMG",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "iso-9mm",
+      "name": "ISO 9mm",
+      "class": "SMG",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "iso-hemlock",
+      "name": "ISO Hemlock",
+      "class": "AR",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "jackal-pdw",
+      "name": "Jackal PDW",
+      "class": "SMG",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "jager-45",
+      "name": "Jager 45",
+      "class": "Pistol",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": true
+    },
+    {
+      "id": "kar98k",
+      "name": "Kar98k",
+      "class": "Marksman/Sniper",
+      "game": "mw2019_mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "kastov-545",
+      "name": "Kastov 545",
+      "class": "AR",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "kastov-74u",
+      "name": "Kastov-74U",
+      "class": "AR",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "kastov-762",
+      "name": "Kastov 762",
+      "class": "AR",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "kastov-lsw",
+      "name": "Kastov LSW",
+      "class": "LMG",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "katt-amr",
+      "name": "KATT-AMR",
+      "class": "Sniper",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "kilo-141",
+      "name": "Kilo 141",
+      "class": "AR",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "kogot-7",
+      "name": "Kogot-7",
+      "class": "SMG",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "kompakt-92",
+      "name": "Kompakt 92",
+      "class": "SMG",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "krig-c",
+      "name": "Krig C",
+      "class": "AR",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "ksv",
+      "name": "KSV",
+      "class": "SMG",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "kv-inhibitor",
+      "name": "KV Inhibitor",
+      "class": "Sniper",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "kvd-enforcer",
+      "name": "KVD Enforcer",
+      "class": "Battle Rifle",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "la-b-330",
+      "name": "LA-B 330",
+      "class": "Sniper",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "lachmann-556",
+      "name": "Lachmann-556",
+      "class": "AR",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "lachmann-762",
+      "name": "Lachmann-762",
+      "class": "Battle Rifle",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "lachmann-shroud",
+      "name": "Lachmann Shroud",
+      "class": "SMG",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "lachmann-sub",
+      "name": "Lachmann Sub",
+      "class": "SMG",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "ladra",
+      "name": "Ladra",
+      "class": "SMG",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "lc10",
+      "name": "LC10",
+      "class": "SMG",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "lm-s",
+      "name": "LM-S",
+      "class": "Marksman Rifle",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "lockwood-mk2",
+      "name": "Lockwood MK2",
+      "class": "Marksman Rifle",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "longbow",
+      "name": "Longbow",
+      "class": "Sniper",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "lr-7-62",
+      "name": "LR 7.62",
+      "class": "Sniper",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "lw3a1-frostline",
+      "name": "LW3A1 Frostline",
+      "class": "Sniper",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "m13b",
+      "name": "M13B",
+      "class": "AR",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "m13c",
+      "name": "M13C",
+      "class": "AR",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "m15-mod-0",
+      "name": "M15 MOD 0",
+      "class": "AR",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "m16",
+      "name": "M16",
+      "class": "AR",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "m34-novaline",
+      "name": "M34 Novaline",
+      "class": "Battle Rifle",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "m4",
+      "name": "M4",
+      "class": "AR",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "m8a1",
+      "name": "M8A1",
+      "class": "Marksman Rifle",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "maddox-rfb",
+      "name": "Maddox RFB",
+      "class": "AR",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "mcpr-300",
+      "name": "MCPR-300",
+      "class": "Sniper",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "mcw",
+      "name": "MCW",
+      "class": "AR",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "mcw-6-8",
+      "name": "MCW 6.8",
+      "class": "Battle Rifle",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "merrick-556",
+      "name": "Merrick 556",
+      "class": "AR",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": true
+    },
+    {
+      "id": "minibak",
+      "name": "Minibak",
+      "class": "SMG",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "mk-78",
+      "name": "MK.78",
+      "class": "LMG",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "mk35-isr",
+      "name": "MK35 ISR",
+      "class": "AR",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "model-l",
+      "name": "Model L",
+      "class": "AR",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "mors",
+      "name": "MORS",
+      "class": "Sniper",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "mpc-25",
+      "name": "MPC-25",
+      "class": "SMG",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "mtz-556",
+      "name": "MTZ-556",
+      "class": "AR",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "mtz-762",
+      "name": "MTZ-762",
+      "class": "Battle Rifle",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "mtz-interceptor",
+      "name": "MTZ Interceptor",
+      "class": "Marksman Rifle",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "mx9",
+      "name": "MX9",
+      "class": "SMG",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "mxr-17",
+      "name": "MXR-17",
+      "class": "AR",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "nail-gun",
+      "name": "Nail Gun",
+      "class": "Special",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": true
+    },
+    {
+      "id": "p890",
+      "name": "P890",
+      "class": "Pistol",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "pdsw-528",
+      "name": "PDSW 528",
+      "class": "SMG",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "peacekeeper-mk1",
+      "name": "Peacekeeper Mk1",
+      "class": "AR",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "pml-5-56",
+      "name": "PML 5.56",
+      "class": "LMG",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "pp-919",
+      "name": "PP-919",
+      "class": "SMG",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "ppsh-41",
+      "name": "PPSh-41",
+      "class": "SMG",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "pu-21",
+      "name": "PU-21",
+      "class": "LMG",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "pulemyot-762",
+      "name": "Pulemyot 762",
+      "class": "LMG",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "raal-mg",
+      "name": "RAAL MG",
+      "class": "LMG",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "ram-7",
+      "name": "RAM-7",
+      "class": "AR",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "ram-9",
+      "name": "RAM-9",
+      "class": "SMG",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "rapp-h",
+      "name": "RAPP H",
+      "class": "LMG",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "razer-9mm",
+      "name": "Razer 9mm",
+      "class": "SMG",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "renetti",
+      "name": "Renetti",
+      "class": "Pistol",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "rev-46",
+      "name": "REV-46",
+      "class": "SMG",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": true
+    },
+    {
+      "id": "rival-9",
+      "name": "Rival-9",
+      "class": "SMG",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "rk-9",
+      "name": "RK-9",
+      "class": "Pistol",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "rpk",
+      "name": "RPK",
+      "class": "LMG",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "ryden-45k",
+      "name": "Ryden 45K",
+      "class": "SMG",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "sa-b-50",
+      "name": "SA-B 50",
+      "class": "Marksman Rifle",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "sakin-mg38",
+      "name": "Sakin MG38",
+      "class": "LMG",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "saug",
+      "name": "Saug",
+      "class": "SMG",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "shadow-sk",
+      "name": "Shadow SK",
+      "class": "Marksman Rifle",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "sidewinder",
+      "name": "Sidewinder",
+      "class": "Battle Rifle",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "signal-50",
+      "name": "Signal 50",
+      "class": "Sniper",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "sirin-9mm",
+      "name": "Sirin 9mm",
+      "class": "Pistol",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "so-14",
+      "name": "SO-14",
+      "class": "Battle Rifle",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "soa-subverter",
+      "name": "SOA Subverter",
+      "class": "Battle Rifle",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "sokol-545",
+      "name": "Sokol 545",
+      "class": "LMG",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "sp-r-208",
+      "name": "SP-R 208",
+      "class": "Marksman Rifle",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "sp-x-80",
+      "name": "SP-X 80",
+      "class": "Sniper",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "static-hv",
+      "name": "Static-HV",
+      "class": "SMG",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "stb-556",
+      "name": "STB 556",
+      "class": "AR",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "stg44",
+      "name": "STG44",
+      "class": "AR",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "strider-300",
+      "name": "Strider 300",
+      "class": "Sniper",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "striker",
+      "name": "Striker",
+      "class": "SMG",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "striker-9",
+      "name": "Striker 9",
+      "class": "SMG",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "stryder-22",
+      "name": "Stryder .22",
+      "class": "Pistol",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "sturmwolf-45",
+      "name": "Sturmwolf 45",
+      "class": "SMG",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "superi-46",
+      "name": "Superi 46",
+      "class": "SMG",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "sva-545",
+      "name": "SVA 545",
+      "class": "AR",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "svd",
+      "name": "SVD",
+      "class": "Marksman Rifle",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "swat-5-56",
+      "name": "SWAT 5.56",
+      "class": "Battle Rifle",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "swordfish-a1",
+      "name": "Swordfish A1",
+      "class": "Battle Rifle",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "tanto-22",
+      "name": "Tanto .22",
+      "class": "SMG",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "taq-56",
+      "name": "TAQ-56",
+      "class": "AR",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "taq-eradicator",
+      "name": "TAQ Eradicator",
+      "class": "LMG",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "taq-evolvere",
+      "name": "TAQ Evolvere",
+      "class": "LMG",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "taq-m",
+      "name": "TAQ-M",
+      "class": "Marksman Rifle",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "taq-v",
+      "name": "TAQ-V",
+      "class": "Battle Rifle",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "tempus-razorback",
+      "name": "Tempus Razorback",
+      "class": "AR",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "tempus-torrent",
+      "name": "Tempus Torrent",
+      "class": "Marksman Rifle",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "tr-76-geist",
+      "name": "TR-76 Geist",
+      "class": "AR",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "tr2",
+      "name": "TR2",
+      "class": "Battle Rifle",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "tsarkov-7-62",
+      "name": "Tsarkov 7.62",
+      "class": "Battle Rifle",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "tyr",
+      "name": "Tyr",
+      "class": "Pistol",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "vaznev-9k",
+      "name": "Vaznev-9K",
+      "class": "SMG",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "vel-46",
+      "name": "VEL 46",
+      "class": "SMG",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "velox-5-7",
+      "name": "Velox 5.7",
+      "class": "Pistol",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": true
+    },
+    {
+      "id": "victus-xmr",
+      "name": "Victus XMR",
+      "class": "Sniper",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "voyak-kt-3",
+      "name": "Voyak KT-3",
+      "class": "AR",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "vs-recon",
+      "name": "VS Recon",
+      "class": "Sniper",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "vst",
+      "name": "VST",
+      "class": "SMG",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "warden-308",
+      "name": "Warden 308",
+      "class": "Marksman Rifle",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "wsp-9",
+      "name": "WSP-9",
+      "class": "SMG",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "wsp-stinger",
+      "name": "WSP Stinger",
+      "class": "Pistol",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "wsp-swarm",
+      "name": "WSP Swarm",
+      "class": "SMG",
+      "game": "mw3",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "x12",
+      "name": "X12",
+      "class": "Pistol",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "x13-auto",
+      "name": "X13 Auto",
+      "class": "Pistol",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "x9-maverick",
+      "name": "X9 Maverick",
+      "class": "Battle Rifle",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "xm325",
+      "name": "XM325",
+      "class": "LMG",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "xm4",
+      "name": "XM4",
+      "class": "AR",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "xmg",
+      "name": "XMG",
+      "class": "LMG",
+      "game": "bo6",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "xr-3-ion",
+      "name": "XR-3 Ion",
+      "class": "Sniper",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": false
+    },
+    {
+      "id": "xrk-stalker",
+      "name": "XRK Stalker",
+      "class": "Sniper",
+      "game": "mw2",
+      "in_warzone": true,
+      "base_only": false
+    }
+  ]
+}

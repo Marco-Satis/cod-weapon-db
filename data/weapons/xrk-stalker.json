@@ -1,0 +1,55 @@
+{
+  "id": "xrk-stalker",
+  "name": "XRK Stalker",
+  "class": "Sniper",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 Sniper (.50 Cal, 39 RPM, 5-round, Bolt). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE/GUARD/BOLT.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 39,
+    "mag": 5,
+    "reload_s": 4.3,
+    "ads_ms": 600,
+    "velocity_ms": 790,
+    "move_ms": 4.5,
+    "sprint_to_fire_ms": 283,
+    "sprint_ms": 6.1,
+    "zoom_x": 0
+  },
+  "slots": {
+    "AMMUNITION": [
+      ".50 Cal High Grain Rounds :: +14.2% Range",
+      ".50 Cal Low Grain Rounds :: -15.1% Range",
+      ".50 Cal Mono :: -1.4% Range",
+      ".50 Cal Spire Point Rounds :: +5.2% Range",
+      ".50 Cal Frangible :: -5.1% Range",
+      ".50 Cal Armor Piercing",
+      ".50 Cal High Velocity :: -5.1% Range",
+      ".50 Cal Incendiary :: -10% Range",
+      ".50 Cal Explosive :: +42.9% Range"
+    ],
+    "BARREL": [
+      "XRK Stalker Factory Barrel :: -4% Gun Kick",
+      "Fission 60 Barrel :: +22.7% Range",
+      "Handler LKP Short Barrel :: -40.8% Range",
+      "XRK Stoic-4 Suppressed Barrel :: +19.9% Range",
+      "Kilo Short Barrel :: +2% Horiz. Recoil"
+    ],
+    "BOLT": [
+      "Stalker Heavy Bolt :: -12% Fire Rate",
+      "XRK Stalker Light Bolt :: +35% Fire Rate"
+    ],
+    "GUARD": [
+      "Quarter-03 Light Guard :: +10% Gun Kick",
+      "HVS 50 Cal Heavy Guard :: -16% Gun Kick"
+    ],
+    "MAGAZINE": [
+      "7 Round Mag :: -2% Move. Speed",
+      "10 Round Mag :: -5% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

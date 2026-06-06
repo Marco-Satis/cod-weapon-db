@@ -1,0 +1,45 @@
+{
+  "id": "signal-50",
+  "name": "Signal 50",
+  "class": "Sniper",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 Sniper (.50 Cal, 111 RPM semi-auto, 5-round). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 111,
+    "mag": 5,
+    "reload_s": 5,
+    "ads_ms": 680,
+    "velocity_ms": 660,
+    "move_ms": 4.4,
+    "sprint_to_fire_ms": 283,
+    "sprint_ms": 5.9,
+    "zoom_x": 0
+  },
+  "slots": {
+    "AMMUNITION": [
+      ".50 Cal High Grain Rounds :: +15.1% Range",
+      ".50 Cal Low Grain Rounds :: -15% Range",
+      ".50 Cal Mono :: -1.3% Range",
+      ".50 Cal Spire Point Rounds :: +4.5% Range",
+      ".50 Cal Frangible :: -5.1% Range",
+      ".50 Cal Armor Piercing",
+      ".50 Cal High Velocity :: -5.1% Range",
+      ".50 Cal Incendiary :: -10% Range",
+      ".50 Cal Explosive :: +43.1% Range"
+    ],
+    "BARREL": [
+      "29\" TV Kilo-50 :: +16.1% Range",
+      "FSS Jetstream :: +16.1% Range",
+      "23.5\" SA Fifty-H7 :: +9% Bullet Velocity",
+      "21.5\" Fluted Fifty :: -1.9% Range"
+    ],
+    "MAGAZINE": [
+      "7 Round Magazine :: -4% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "lachmann-556",
+  "name": "Lachmann-556",
+  "class": "AR",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 AR (5.56 NATO, ACR-Plattform, 723 RPM). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 723,
+    "mag": 30,
+    "reload_s": 3.5,
+    "ads_ms": 240,
+    "velocity_ms": 720,
+    "move_ms": 4.6,
+    "sprint_to_fire_ms": 210,
+    "sprint_ms": 6.1,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.56 NATO Low Grain Rounds :: -15% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "5.56 NATO High Grain Rounds :: +15% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "5.56 NATO Round Nose :: +50% Target Flinch | -19.9% Range",
+      "5.56 NATO Mono :: -1.6% Range | +8% Bullet Velocity | +2% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      "5.56 Frangible :: -6% Range",
+      "5.56 Hollowpoint",
+      "5.56 Armor Piercing",
+      "5.56 Overpressured +P :: +80% Target Flinch",
+      "5.56 High Velocity :: -6% Range | +20% Bullet Velocity"
+    ],
+    "BARREL": [
+      "15.9\" Lachmann RAPP Barrel :: +19.9% Range | +29% Bullet Velocity | -13% Gun Kick | -13% Horiz. Recoil | -13% Vert. Recoil | -7% Idle Sway | +8% Max Hipfire | -6% Move | -6% Crouch | -6% Sprint | -7% ADS Move | +12% ADS Time",
+      "Lachmann Nova :: +8.1% Range | +12% Bullet Velocity | -5% Gun Kick | -5% Horiz. Recoil | -5% Vert. Recoil | -3% Idle Sway | +3% Max Hipfire | -2% Move | -2% Crouch | -3% Sprint | -3% ADS Move | +5% ADS Time",
+      "LM Aurora 90 Barrel :: +11.9% Range | +7% Bullet Velocity | -5% Idle Sway | +4% Max Hipfire | +4% ADS Time",
+      "10.6\" Lachstrike Barrel :: +13% Bullet Velocity | -11% Gun Kick | -11% Horiz. Recoil | -11% Vert. Recoil | -5% Move | -5% Crouch | -5% Sprint | -6% ADS Move | +5% ADS Time",
+      "Lach-12 Barrel :: -4% Bullet Velocity | +4% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil | +3% Move | +3% Crouch | +2% Sprint | +4% ADS Move | -4% ADS Time"
+    ],
+    "MAGAZINE": [
+      "15 Round Mag :: +4% Move | +3% Crouch | +3% Sprint | +16% ADS Move | -15% ADS Time | -10% Reload | -30% Sprint to Fire",
+      "40 Round Mag :: -4% Move | -5% Crouch | -3% Sprint | -6% ADS Move | +7% ADS Time | +10% Reload",
+      "60 Round Mag :: -13% Move | -14% Crouch | -9% Sprint | -17% ADS Move | +20% ADS Time | +21% Reload | +2% Sprint to Fire"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

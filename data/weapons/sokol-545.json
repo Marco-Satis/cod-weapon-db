@@ -1,0 +1,53 @@
+{
+  "id": "sokol-545",
+  "name": "Sokol 545",
+  "class": "LMG",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO7 LMG (5.45, 392 RPM, 102-round). BO7-branded (SWF/EMT3/MFS). Black-Ops-Layout: OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER universell. Weapon-spez: MUZZLE/BARREL/MAGAZINE/FIRE MODS.",
+  "extraction": "weapon-specific-only-BO-editorbound-split",
+  "base": {
+    "rpm": 392,
+    "mag": 102,
+    "reload_s": 4.99,
+    "ads_ms": 285,
+    "velocity_ms": 860,
+    "move_ms": 4.5,
+    "sprint_to_fire_ms": 235,
+    "sprint_ms": 7,
+    "zoom_x": 0
+  },
+  "slots": {
+    "BARREL": [
+      "20\" SWF Tartarus Barrel :: +14.9% Range",
+      "18.2\" Primer Barrel :: +17% Range",
+      "16.8\" Fixative Mix Barrel :: +7.9% Range",
+      "15.6\" Stolos Short Barrel :: -5.3% ADS Time",
+      "18.2\" Parlous Heavy Barrel :: +15% Bullet Velocity"
+    ],
+    "FIRE MODS": [
+      "MFS 48-Dread Burst Mod :: -10% Bullet Velocity",
+      "5.45 Overpressured :: +20% Bullet Velocity",
+      "Buffer Spring :: -10% Gun Kick",
+      "5.45 FMJ"
+    ],
+    "MAGAZINE": [
+      "Invective Expansion Mag :: +7% ADS Time",
+      "Clepen Fast Mag :: -5.3% ADS Time",
+      "Nevis-K Bulk Magazine :: +10.5% ADS Time",
+      "Ludens Speed Mag :: -8.4% ADS Time",
+      "Samarskiy Overdrive Belt :: -10% Gun Kick"
+    ],
+    "MUZZLE": [
+      "Redwell Shade-X Suppressor :: -12.6% Range",
+      "SWF Tishina-II",
+      "EMT3 Compensator :: -17.5% Gun Kick",
+      "Eclipse 7.62 Brake :: -9.7% Gun Kick",
+      "EMT3 Ported-70 :: -24.9% Max Hipfire Area",
+      "Monolithic Suppressor :: +12.6% Range"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO7-Pool"
+}

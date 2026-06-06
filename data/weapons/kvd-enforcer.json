@@ -1,0 +1,52 @@
+{
+  "id": "kvd-enforcer",
+  "name": "KVD Enforcer",
+  "class": "Battle Rifle",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 Battle Rifle (7.62x54mmR, 231 RPM semi, 10-round). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 231,
+    "mag": 10,
+    "reload_s": 3.1,
+    "ads_ms": 240,
+    "velocity_ms": 800,
+    "move_ms": 4.5,
+    "sprint_to_fire_ms": 294,
+    "sprint_ms": 6,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "7.62X54mmR Frangible :: -4.9% Range",
+      "7.62X54mmR Hollowpoint",
+      "7.62X54mmR Tracer",
+      "7.62X54mmR Armor Piercing",
+      "7.62X54mmR Overpressured+P :: +80% Target Flinch",
+      "7.62X54mmR High Velocity :: -4.9% Range | +20% Bullet Velocity",
+      "7.62X54mmR Incendiary :: -10% Range | -25% Bullet Velocity",
+      "7.62X54mmR Low Grain Rounds :: -15% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "7.62X54mmR High Grain Rounds :: +15% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "7.62X54mmR Round Nose :: +40% Target Flinch | -20.1% Range",
+      "7.62X54mm Mono :: -1.6% Range | +8% Bullet Velocity | +3% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil"
+    ],
+    "BARREL": [
+      "KAS-10 584mm Mod Barrel :: +24% Range | +13% Bullet Velocity | -4% Gun Kick | -6% Horiz. Recoil | -6% Vert. Recoil | -2% Move | -1% Sprint | +11% Sprint to Fire",
+      "Kastovia LPM-12 :: -7.5% Range | -5% Bullet Velocity | +3% Horiz. Recoil | +2% Vert. Recoil | +3% Move | +3% Crouch | -5% ADS Time | -10% Sprint to Fire",
+      "KAS-DWORF Heavy Long Barrel :: -6% Gun Kick | -10% Horiz. Recoil | -11% Vert. Recoil | +17% ADS Time",
+      "KAS-7 Integrated Suppressor :: +20.1% Range | +30% Bullet Velocity | +8% ADS Time | +7% Sprint to Fire",
+      "Kastovia JEK-40 Barrel :: -7.5% Range | -5% Bullet Velocity | +2% Horiz. Recoil | +3% Vert. Recoil | +2% Sprint | -13% ADS Time | -15% Sprint to Fire"
+    ],
+    "CONVERSION KIT": [
+      "Jak Volkh :: -8% Bullet Velocity | -46% Fire Rate | -33% Gun Kick | -40% Horiz. Recoil | -10% Vert. Recoil | -2% Move | -2% Crouch | -1% Sprint | -4% ADS Move | +6% ADS Time | +6% Sprint to Fire"
+    ],
+    "MAGAZINE": [
+      "15 Round Mag :: -5% Move | -5% Crouch | -2% Sprint | -5% ADS Move | +9% ADS Time | +4% Reload | +1% Sprint to Fire",
+      "20 Round Mag :: -7% Move | -7% Crouch | -3% Sprint | -7% ADS Move | +14% ADS Time | +4% Reload | +2% Sprint to Fire"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

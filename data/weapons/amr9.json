@@ -1,0 +1,49 @@
+{
+  "id": "amr9",
+  "name": "AMR9",
+  "class": "SMG",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 SMG. Universelle Slots (MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP) = MW-Pool (ref kar98k.json).",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 833,
+    "mag": 30,
+    "reload_s": 2.5,
+    "ads_ms": 240,
+    "velocity_ms": 540,
+    "move_ms": 4.7,
+    "sprint_to_fire_ms": 136,
+    "sprint_ms": 6.3,
+    "zoom_x": 0.88
+  },
+  "slots": {
+    "AMMUNITION": [
+      "9mm Hardened Rounds :: -27.4% Range | -15% Bullet Velocity | +2% Gun Kick | +4% Horiz | +4% Vert",
+      "9mm Frangible :: -6.7% Range",
+      "9mm Hollowpoint",
+      "9mm Armor Piercing",
+      "9mm Overpressured +P :: +80% Target Flinch",
+      "9mm High Velocity :: +30% Bullet Velocity | +5% Horiz | +5% Vert"
+    ],
+    "BARREL": [
+      "AMR9 Enforcer Long Barrel :: +22.4% Range | +13% Bullet Velocity | -5% Gun Kick | -9% Horiz. Recoil | -9% Vert. Recoil | +15% ADS Time | +6% Sprint to Fire",
+      "Tectonic Herald Light Barrel :: +25% Idle Sway | +25% Max Hipfire Area | +4% Move. Speed | +5% ADS Move.",
+      "Tectonic Micro Integral Suppressor :: -9.9% Range | -10% Bullet Velocity | +Mobility minor | -5% ADS Time | -5% Sprint to Fire",
+      "AMR9 Regal Pro Barrel :: +5% Horiz. Recoil | +5% Vert. Recoil | +Mobility minor | -9% ADS Time | -4% Sprint to Fire",
+      "Nimbus-6 Integrated Suppressor :: +19.5% Range | +30% Bullet Velocity | +8% ADS Time | +7% Sprint to Fire"
+    ],
+    "CONVERSION KIT": [
+      "Jak Ettin Double Barrel Kit :: Damage-Profil modifiziert | -31% Fire Rate | +69% Horiz. Recoil | +42% Vert. Recoil",
+      "Jak Atlas Kit :: Damage-Profil modifiziert | +30% Bullet Velocity | -11% Fire Rate | -19% Gun Kick | -20% Vert. Recoil"
+    ],
+    "MAGAZINE": [
+      "20 Round Mag :: +Mobility minor | -8% ADS Time | -15% Sprint to Fire",
+      "50 Round Mag :: -10% Move | -10% Crouch | -4% Sprint | -10% ADS Move | +19% ADS Time | +60% Reload | +3% Sprint to Fire",
+      "100 Round Drum :: -19% Move | -21% Crouch | -10% Sprint | -24% ADS Move | +31% ADS Time | +64% Reload | +8% Sprint to Fire"
+    ],
+    "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+  }
+}

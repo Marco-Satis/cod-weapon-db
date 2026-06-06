@@ -1,0 +1,50 @@
+{
+  "id": "rpk",
+  "name": "RPK",
+  "class": "LMG",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 LMG (7.62x39, 600 RPM, 75-round). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE/CONVERSION KIT. AMMUNITION-Labels teils inkonsistent (7.62X51/7.92x33) = TGD-Roh.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 600,
+    "mag": 75,
+    "reload_s": 5,
+    "ads_ms": 380,
+    "velocity_ms": 690,
+    "move_ms": 4.3,
+    "sprint_to_fire_ms": 250,
+    "sprint_ms": 5.8,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "7.62X51mm Low Grain Rounds :: -15% Range",
+      "7.62X51mm High Grain Rounds :: +15% Range",
+      "7.62x39mm Round Nose :: +50% Target Flinch",
+      "7.62x39mm Mono :: -1.6% Range",
+      "7.62x39mm Frangible :: -4.9% Range",
+      "7.62x39mm Hollowpoint",
+      "7.62x39mm Armor Piercing",
+      "7.62x39mm Overpressured +P :: +80% Target Flinch",
+      "7.62x39mm High Velocity :: -4.9% Range",
+      "7.92x33mm Incendiary :: -10% Range"
+    ],
+    "BARREL": [
+      "Tac 597 Barrel :: +12% Range",
+      "KAS-10 584mm Barrel :: -5% Bullet Velocity",
+      "KAS-7 406mm Barrel :: -5.9% Range"
+    ],
+    "CONVERSION KIT": [
+      "Jak Cataclysm :: Damage profile modified"
+    ],
+    "MAGAZINE": [
+      "30 Round Mag :: +3% Move. Speed",
+      "40 Round Mag :: +2% Move. Speed",
+      "100 Round Drum :: -5% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

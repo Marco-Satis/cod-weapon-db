@@ -1,0 +1,39 @@
+{
+  "id": "x9-maverick",
+  "name": "X9 Maverick",
+  "class": "Battle Rifle",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO7 Battle Rifle/Marksman (479 RPM, 30-round, 930 m/s). BO7-branded (MFS/Hawker/Chiral/Tourville). Editor reduziert: nur MUZZLE/BARREL weapon-spez; OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER universell; KEINE AMMUNITION/MAGAZINE/FIRE-MODS-Slots in TGD S3.5.",
+  "extraction": "weapon-specific-only-BO-editorbound-reduced",
+  "base": {
+    "rpm": 479,
+    "mag": 30,
+    "reload_s": 3.23,
+    "ads_ms": 235,
+    "velocity_ms": 930,
+    "move_ms": 4.8,
+    "sprint_to_fire_ms": 195,
+    "sprint_ms": 7.3,
+    "zoom_x": 0
+  },
+  "slots": {
+    "BARREL": [
+      "14.6\" MFS Pulse Load+ Barrel :: -24.7% Range",
+      "17.6\" Chiral-02 Barrel :: +8.2% Range",
+      "14.9\" Tourville Sprint Barrel :: +20% Range",
+      "19.5\" Shroud Barrel :: +14.5% Range",
+      "16\" OS-Density Barrel :: +20% Bullet Velocity"
+    ],
+    "MUZZLE": [
+      "Defense-H Suppressor",
+      "Hawker-473 Compensator :: -19.2% Gun Kick",
+      "NovaBurst Brake :: -14.4% Gun Kick",
+      "Hawker Slant Hybrid :: -25% Max Hipfire Area",
+      "Monolithic Suppressor :: +18.2% Range"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO7-Pool; AMMUNITION/MAGAZINE/FIRE MODS bei dieser Waffe nicht vorhanden"
+}

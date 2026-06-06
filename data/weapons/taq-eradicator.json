@@ -1,0 +1,46 @@
+{
+  "id": "taq-eradicator",
+  "name": "TAQ Eradicator",
+  "class": "LMG",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 LMG (7.62x51, 725 RPM, 75-round). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 725,
+    "mag": 75,
+    "reload_s": 3.5,
+    "ads_ms": 400,
+    "velocity_ms": 675,
+    "move_ms": 4.2,
+    "sprint_to_fire_ms": 210,
+    "sprint_ms": 5.7,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "7.62X51mm Frangible :: -5.1% Range",
+      "7.62X51mm Hollowpoint",
+      "7.62X51mm Armor Piercing",
+      "7.62X51mm Overpressured +P :: +80% Target Flinch",
+      "7.62X51mm High Velocity :: -5.1% Range",
+      "7.62X51mm Incendiary :: -10.2% Range",
+      "7.62X51mm High Grain Rounds :: +15% Range",
+      "7.62X51mm Low Grain Rounds :: -16.2% Range",
+      "7.62X51mm Round Nose :: +40% Target Flinch",
+      "7.62X51mm Mono :: -1.3% Range"
+    ],
+    "BARREL": [
+      "Exiler-84 Short Barrel :: -12.2% Range",
+      "Conquer-70 Long Barrel :: +24.9% Range",
+      "Nullifier-7 Light Barrel :: -7.6% Range"
+    ],
+    "MAGAZINE": [
+      "45 Round Mag :: +4% Move. Speed",
+      "50 Round Drum :: -10% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

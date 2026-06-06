@@ -1,0 +1,55 @@
+{
+  "id": "renetti",
+  "name": "Renetti",
+  "class": "Pistol",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 Pistol (9mm, 621 RPM, 15-round, 0.8x). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE/TRIGGER ACTION/CONVERSION KIT. JAK Ferocity = Carbine-Conversion.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 621,
+    "mag": 15,
+    "reload_s": 2.1,
+    "ads_ms": 150,
+    "velocity_ms": 375,
+    "move_ms": 5.2,
+    "sprint_to_fire_ms": 40,
+    "sprint_ms": 6.6,
+    "zoom_x": 0.8
+  },
+  "slots": {
+    "AMMUNITION": [
+      "9mm High Grain Rounds :: +14.6% Range",
+      "9mm Hollowpoint",
+      "9mm Armor Piercing",
+      "9mm Overpressured +P :: +80% Target Flinch",
+      "9mm Frangible :: -5.4% Range",
+      "9mm AET Rounds :: -30% Target Flinch",
+      "9mm Hardened Rounds :: -27.7% Range",
+      "9mm Low Grain Rounds :: -92.3% Range",
+      "9mm High Velocity :: +30% Bullet Velocity"
+    ],
+    "BARREL": [
+      "MLX Short Competition Barrel :: +8% Horiz. Recoil",
+      "MK2 Renetti Long Barrel :: +38.5% Range",
+      "MLX Extended Heavy Barrel :: +9.2% Range"
+    ],
+    "CONVERSION KIT": [
+      "JAK Ferocity Carbine Kit :: Damage profile modified",
+      "JAK Intimidator :: Damage profile modified"
+    ],
+    "MAGAZINE": [
+      "24 Round Mag :: -5% Move. Speed",
+      "30 Round Mag :: -6% Move. Speed",
+      "50 Round Drum :: -8% Move. Speed"
+    ],
+    "TRIGGER ACTION": [
+      "XRK Heavy V4 :: -11% Fire Rate",
+      "Bruen MG89 Trigger :: +2% Fire Rate",
+      "Bruen Express :: +12% Fire Rate"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "rapp-h",
+  "name": "RAPP H",
+  "class": "LMG",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 LMG (7.62x51, 800 RPM, 75-round). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE (kein CONVERSION KIT im Editor).",
+  "extraction": "weapon-specific-only-MW-editorbound",
+  "base": {
+    "rpm": 800,
+    "mag": 75,
+    "reload_s": 7.4,
+    "ads_ms": 420,
+    "velocity_ms": 695,
+    "move_ms": 4.3,
+    "sprint_to_fire_ms": 250,
+    "sprint_ms": 5.8,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "7.62X51mm Low Grain Rounds :: -14.7% Range",
+      "7.62X51mm High Grain Rounds :: +15.3% Range",
+      "7.62X51mm Round Nose :: +40% Target Flinch",
+      "7.62X51mm Mono :: -1.1% Range",
+      "7.62X51mm Frangible :: -4.7% Range",
+      "7.62X51mm Hollowpoint",
+      "7.62X51mm Armor Piercing",
+      "7.62X51mm Overpressured +P :: +80% Target Flinch",
+      "7.62X51mm High Velocity :: -4.7% Range",
+      "7.62X51mm Incendiary :: -9.8% Range"
+    ],
+    "BARREL": [
+      "Romeo FT 16\" Barrel :: +16.3% Range",
+      "Meer-76 449mm Factory :: -4% Bullet Velocity",
+      "Lachmann Nova :: -1.8% Range",
+      "10.6\" Lachstrike Barrel :: -5.8% Range"
+    ],
+    "MAGAZINE": [
+      "10 Round Mag :: -5% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

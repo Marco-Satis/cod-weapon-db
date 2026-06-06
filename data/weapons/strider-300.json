@@ -1,0 +1,101 @@
+{
+  "id": "strider-300",
+  "name": "Strider 300",
+  "class": "Sniper",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "base": {
+    "rpm": 56,
+    "mag": 8,
+    "reload_s": 2.91,
+    "ads_ms": 540,
+    "velocity_ms": 990,
+    "move_ms": 4.7,
+    "sprint_to_fire_ms": 220,
+    "sprint_ms": 7.2
+  },
+  "slots": {
+    "BARREL": [
+      "25\" Bowen Grooved Barrel :: +13.3% Range | -5% Bullet Velocity | +11.1% ADS Time",
+      "24.1\" Saltire Dispatch Barrel :: +25% Bullet Velocity",
+      "21.2\" Carbon Atoll Barrel :: +15.6% Range | +15% Bullet Velocity",
+      "17\" EAM PLYP-4 Barrel :: -3.7% ADS Time | -11.4% Sprint to Fire",
+      "19\" Trigon Heavy Barrel :: +25.6% Range | -15.3% Flinch"
+    ],
+    "FIRE_MODS": [
+      "Quick Bolt :: -15% Bullet Velocity | +19.6% Fire Rate | +20% Gun Kick | +20% Horiz. Recoil | +20% Vert. Recoil",
+      "300 WM Overpressured :: +18% Bullet Velocity",
+      "Recoil Sync Unit :: -10% Gun Kick | -10% Horiz. Recoil | -10% Vert. Recoil",
+      "300 WM FMJ"
+    ],
+    "LASER": [
+      "Convergence Box Laser :: -15% Max Hipfire Area",
+      "1mW Adaptive Tactical Laser",
+      "1mW Instinct Laser Array :: -4.6% ADS Time | -9.1% Sprint to Fire",
+      "3mW Motion Strike Laser",
+      "5mW Lockstep Laser"
+    ],
+    "MAGAZINE": [
+      "Laden Extended Mag :: +3.7% ADS Time | +9.1% Sprint to Fire",
+      "PrismaTech Extended II :: +5.6% ADS Time | +11.5% Reload Time | +13.6% Sprint to Fire",
+      "Carnation Fast Mag :: -2.8% ADS Time | -20.7% Reload Time | -4.5% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Redwell Shade-X Suppressor :: -12.2% Range | -13% Bullet Velocity | -11% Gun Kick | -11% Horiz. Recoil | -11% Vert. Recoil",
+      "Greaves A-762",
+      "RL-7.62 Compensator :: -14.9% Gun Kick | -15% Vert. Recoil",
+      "VS-762 Brake :: -7.9% Gun Kick | -8% Vert. Recoil",
+      "Titan-R 7.62 Compensator :: -25% Max Hipfire Area",
+      "Monolithic Suppressor :: +7.8% Range | +20% Bullet Velocity | +10.2% ADS Time"
+    ],
+    "OPTIC": [
+      "Iron Sight :: -30% Idle Sway | -1.9% ADS Time",
+      "FANG Hoverpoint ELO :: +2.8% ADS Time",
+      "Lethal Tools ELO :: -3.7% ADS Time",
+      "VAS LED :: -3.7% ADS Time",
+      "Greaves Red Dot :: -3.7% ADS Time",
+      "PrismaTech Digital Holo :: -2.8% ADS Time",
+      "EMT3 Holo Mkz :: -2.8% ADS Time",
+      "Solaris Holo-IR",
+      "Kepler T-Range Holo :: -30% Gun Kick | -2.8% ADS Time",
+      "EAM Dyad xL :: -50% Gun Kick",
+      "LTI Target Finder VZ :: -20% ADS Move. | +9.3% ADS Time | +11.4% Sprint to Fire",
+      "Millimeter Scanner :: +10% Gun Kick | +5.6% ADS Time | +11.4% Sprint to Fire",
+      "Redwell 30-5 2x :: -30% Gun Kick",
+      "Greaves AccuSpot 3x",
+      "Kepler Ultra 4x",
+      "PrismaTech Turbo 4x",
+      "VAS Duo Hybrid Sight :: -50% Gun Kick",
+      "Bowen X-25 IR :: -50% Gun Kick | +1.9% ADS Time",
+      "EAM Dual Zoom :: -50% Gun Kick",
+      "Greaves Ultra Zoom :: -50% Gun Kick | +2.8% ADS Time",
+      "Kepler Custom WVT-08 :: -50% Gun Kick | +3.7% ADS Time",
+      "Circuit-Z Rangefinder :: -50% Gun Kick | +9.3% ADS Time",
+      "RistRauch 7x :: -50% Gun Kick",
+      "VAS Strix 6x Thermal :: +5.6% ADS Time"
+    ],
+    "REAR GRIP": [
+      "Hatch Quick Grip :: +20% Flinch | -9.3% ADS Time",
+      "Nighthawk CQB Grip :: -43.2% Sprint to Fire",
+      "Keystone Control Grip :: -0.1% Gun Kick | -8% Horiz. Recoil | -20% Flinch",
+      "Redwell Gorgon Grip :: +10.6% Flinch | -5.6% ADS Time",
+      "Fringing Stable Grip :: -7.9% Gun Kick | -8% Vert. Recoil"
+    ],
+    "STOCK": [
+      "Hawker Vigor Stock :: +17% Move. Speed | +31.8% Crouch Speed | +2.8% Sprint Speed",
+      "Ambulate-X4 Stock :: +25% ADS Move.",
+      "Bowen Industrial Stock :: -24.7% Flinch",
+      "Prudence-R11 Stock :: -15% Max Hipfire Area",
+      "EAM Raconteur Stock :: -15.3% Flinch | +15% ADS Move."
+    ],
+    "UNDERBARREL": [
+      "Alm Motion Stability Guard :: -70% Idle Sway | +10.6% Flinch | +25% ADS Move. | +11.1% ADS Time",
+      "Redwell Alignment Guard :: -0.3% Gun Kick | -35% Horiz. Recoil",
+      "Cornerstone-642 Guard :: -20% Flinch",
+      "Bowen Huntsmen Guard :: +8.5% Move. Speed | +9.1% Crouch Speed | +15% ADS Move.",
+      "Bowen Morphic Guard :: -0.1% Gun Kick | -17% Horiz. Recoil | +8.5% Move. Speed | +9.1% Crouch Speed | +2.8% Sprint Speed"
+    ]
+  }
+}

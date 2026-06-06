@@ -1,0 +1,41 @@
+{
+  "id": "crossbow",
+  "name": "Crossbow",
+  "name_de": "Armbrust",
+  "class": "Crossbow",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 Crossbow (1 Round, 48 RPM). Weapon-unique Slots = ARMS/BOLT/WIRE. BARREL/AMMUNITION/MAGAZINE zeigen generischen MW-6.8-Pool (TGD-Modell, universal).",
+  "extraction": "weapon-specific-only (ARMS/BOLT/WIRE; Rest MW-Pool)",
+  "base": {
+    "rpm": 48,
+    "mag": 1,
+    "reload_s": 3.3,
+    "ads_ms": 350,
+    "velocity_ms": 110,
+    "move_ms": 4.6,
+    "sprint_to_fire_ms": 270,
+    "sprint_ms": 6.1,
+    "zoom_x": 1
+  },
+  "slots": {
+    "ARMS": [
+      "Thunder 200 Lb :: -50% Gun Kick | -50% Horiz. Recoil | -50% Vert. Recoil | -8% Move | -8% Crouch | -8% Sprint | -9% ADS Move | +6% ADS Time",
+      "Carbon Elite v3 :: +100% Gun Kick | +60% Horiz. Recoil | +60% Vert. Recoil | +8% Move | +6% Crouch | +4% Sprint | +12% ADS Move | -9% ADS Time",
+      "SO Momenti :: +38.5% Range | +21% Bullet Velocity | +15% Max Hipfire | +9% ADS Time",
+      "Quill XE 100 Lb :: -10% Range | -11% Bullet Velocity | -7% Idle Sway | -16% Max Hipfire | -15% ADS Time"
+    ],
+    "BOLT": [
+      "Brightblaze 20\" Bolts :: -63.5% Range | -10% Bullet Velocity",
+      "Blastcap 20\" Bolts :: -63.5% Range | -15% Bullet Velocity",
+      "FTAC Caustic 20\" Bolts :: -7% Bullet Velocity"
+    ],
+    "WIRE": [
+      "28-Strand Cable :: +16% Bullet Velocity | +15% Horiz. Recoil | +15% Vert. Recoil",
+      "16-Strand Cable :: -8% Bullet Velocity | -30% Gun Kick | -30% Horiz. Recoil | -30% Vert. Recoil"
+    ],
+    "_universal": "MUZZLE/BARREL/AMMUNITION/MAGAZINE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP/COMB = MW-Pool (ref kar98k.json)"
+  }
+}

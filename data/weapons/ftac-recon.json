@@ -1,0 +1,42 @@
+{
+  "id": "ftac-recon",
+  "name": "FTAC Recon",
+  "class": "Battle Rifle",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 Battle Rifle (.458 SOCOM, 500 RPM semi-auto, 10-round). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 500,
+    "mag": 10,
+    "reload_s": 2.6,
+    "ads_ms": 250,
+    "velocity_ms": 590,
+    "move_ms": 4.7,
+    "sprint_to_fire_ms": 210,
+    "sprint_ms": 6.3,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      ".458 Frangible :: -5.1% Range",
+      ".458 Hollow Point",
+      ".458 Armor Piercing",
+      ".458 Overpressure +P :: +80% Target Flinch",
+      ".458 High velocity :: -5.1% Range"
+    ],
+    "BARREL": [
+      "419mm EXF Barrel :: +20.1% Range",
+      "Bull Rider 16.5\" :: +9.9% Range",
+      "Tempus Trench Pro :: -4% Bullet Velocity",
+      "7.5\" Tempus Firebrand :: -7% Range"
+    ],
+    "MAGAZINE": [
+      "15 Round Mag :: -4% Move. Speed",
+      "5 Round Mag :: +4% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

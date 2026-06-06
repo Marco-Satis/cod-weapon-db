@@ -1,0 +1,62 @@
+{
+  "id": "aek-973",
+  "name": "AEK-973",
+  "class": "AR",
+  "game": "bo6",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO6 Burst-AR (Full-Auto-Mod konvertiert). Universelle Slots (OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER) = BO6-Pool (ref lc10.json).",
+  "extraction": "weapon-specific-only",
+  "all_slots": [
+    "OPTIC",
+    "MUZZLE",
+    "BARREL",
+    "UNDERBARREL",
+    "MAGAZINE",
+    "REAR GRIP",
+    "STOCK",
+    "LASER",
+    "FIRE MODS"
+  ],
+  "base": {
+    "rpm": 342,
+    "mag": 30,
+    "reload_s": 3.0,
+    "ads_ms": 325,
+    "velocity_ms": 860,
+    "move_ms": 4.7,
+    "sprint_to_fire_ms": 215,
+    "sprint_ms": 6.2
+  },
+  "slots": {
+    "BARREL": [
+      "Gain-Twist Barrel :: +35% Bullet Velocity",
+      "Long Barrel :: +35.2% Range",
+      "Reinforced Barrel :: +20.2% Range | +25% Bullet Velocity",
+      "Short Barrel",
+      "CHF Barrel :: Neck-dmg = Head | +51.7% Gun Kick | +20% Horiz. Recoil | +55% Vert. Recoil"
+    ],
+    "FIRE_MODS": [
+      "Rapid Fire :: -10% Bullet Velocity | +11% Fire Rate | +55% Recoil(alle)",
+      "7.62x39mm Overpressured :: +22% Bullet Velocity",
+      "Recoil Springs :: -13% Gun Kick | -13% Horiz. Recoil | -13% Vert. Recoil",
+      "7.62x39mm FMJ",
+      "Full Auto Mod :: Damage-Profil modifiziert | +162% Fire Rate | -15% Gun Kick | -13% Horiz | +46% Vert | -9% Reload"
+    ],
+    "MAGAZINE": [
+      "Extended Mag I :: +19% Reload Time",
+      "Fast Mag I :: -5.8% ADS Time | -5% Reload Time | -7% Sprint to Fire",
+      "Extended Mag II :: +6.2% ADS Time | +27.7% Reload Time | +9.3% Sprint to Fire",
+      "Flip Mag :: -8.9% ADS Time | -24.3% Reload Time | -11.6% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Suppressor",
+      "Compensator :: -26.3% Gun Kick | -30% Vert. Recoil",
+      "Muzzle Brake",
+      "Ported Compensator :: -17.7% Gun Kick | -20% Vert. Recoil",
+      "Monolithic Suppressor :: +10.1% Range | +20% Bullet Velocity | +16.9% ADS Time"
+    ],
+    "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO6-Pool (ref lc10.json)"
+  }
+}

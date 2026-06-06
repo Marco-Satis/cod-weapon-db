@@ -1,0 +1,23 @@
+{
+  "id": "jager-45",
+  "name": "Jager 45",
+  "class": "Pistol",
+  "game": "bo6",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO6 Pistol (.45, 600 RPM, 10-round). TGD S3.5 ohne Attachment-Builder-Daten (nSlots=0 trotz geladener Waffe) -> base-only, wie Dresden/REV-46-Gap. Attachments via codmunity-S4 / TGD-S4 nachtragen.",
+  "extraction": "base-only (ns=0)",
+  "base": {
+    "rpm": 600,
+    "mag": 10,
+    "reload_s": 2.0,
+    "ads_ms": 150,
+    "velocity_ms": 410,
+    "move_ms": 5.3,
+    "sprint_to_fire_ms": 90,
+    "sprint_ms": 7.6
+  },
+  "slots": {},
+  "_universal": "TBD"
+}

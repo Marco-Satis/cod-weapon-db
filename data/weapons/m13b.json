@@ -1,0 +1,45 @@
+{
+  "id": "m13b",
+  "name": "M13B",
+  "class": "AR",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 AR (5.56 NATO, 845 RPM). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 845,
+    "mag": 30,
+    "reload_s": 2.6,
+    "ads_ms": 230,
+    "velocity_ms": 700,
+    "move_ms": 4.7,
+    "sprint_to_fire_ms": 210,
+    "sprint_ms": 6.1,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.56 NATO Low Grain Rounds :: -14.7% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "5.56 NATO High Grain Rounds :: +15.3% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "5.56 NATO Round Nose :: +50% Target Flinch | -21.1% Range",
+      "5.56 NATO Mono :: -1.1% Range | +8% Bullet Velocity | +3% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      "5.56 Frangible :: -4.7% Range",
+      "5.56 Hollowpoint",
+      "5.56 Armor Piercing",
+      "5.56 Overpressured +P :: +80% Target Flinch",
+      "5.56 High Velocity :: -4.7% Range | +20% Bullet Velocity"
+    ],
+    "BARREL": [
+      "14\" Bruen Echelon :: +20.3% Range | +22% Bullet Velocity | -7% Gun Kick | -7% Horiz. Recoil | -7% Vert. Recoil | -7% Idle Sway | +8% Max Hipfire | -3% Move | -3% Crouch | -3% Sprint | -4% ADS Move | +10% ADS Time",
+      "7\" Bruen B-M20 :: -4.7% Range | -7% Bullet Velocity | +4% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil | +8% Idle Sway | -8% Max Hipfire | +3% Move | +3% Crouch | +1% Sprint | +4% ADS Move | -11% ADS Time",
+      "Factory Barrel :: -4.7% Range | +7% Bullet Velocity | -9% Gun Kick | -9% Horiz. Recoil | -9% Vert. Recoil | +8% Idle Sway | -8% Max Hipfire | -4% Move | -4% Crouch | -4% Sprint | -5% ADS Move | -3% ADS Time"
+    ],
+    "MAGAZINE": [
+      "45 Round Mag :: -6% Move | -7% Crouch | -4% Sprint | -8% ADS Move | +10% ADS Time | +18% Reload",
+      "60 Round Mag :: -11% Move | -13% Crouch | -8% Sprint | -15% ADS Move | +20% ADS Time | +21% Reload | +2% Sprint to Fire"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

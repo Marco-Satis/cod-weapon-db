@@ -1,0 +1,50 @@
+{
+  "id": "kv-inhibitor",
+  "name": "KV Inhibitor",
+  "class": "Sniper",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 Sniper/Semi-DMR (.338 Magnum, 130 RPM, 10-round). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 130,
+    "mag": 10,
+    "reload_s": 3.3,
+    "ads_ms": 580,
+    "velocity_ms": 820,
+    "move_ms": 4.6,
+    "sprint_to_fire_ms": 273,
+    "sprint_ms": 6.1
+  },
+  "slots": {
+    "AMMUNITION": [
+      ".338 Magnum Frangible :: -5.8% Range",
+      ".338 Magnum Armor Piercing",
+      ".338 Magnum Hollowpoint",
+      ".338 Magnum Overpressured+P :: +80% Target Flinch",
+      ".338 Magnum Incendiary :: -11% Range | -25% Bullet Velocity",
+      ".338 Magnum High Grain Rounds :: +15.1% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      ".338 Magnum Low Grain Rounds :: -14.9% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      ".338 Magnum Mono :: -1.2% Range | +8% Bullet Velocity | +3% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      ".338 Magnum Spire Point Rounds :: +4.5% Range | +15% Bullet Velocity",
+      ".338 Magnum Round Nose :: +40% Target Flinch | -20% Range"
+    ],
+    "BARREL": [
+      "Kastovia JEK-40 Barrel :: -6% Range | -4% Bullet Velocity | -2% Gun Kick | -1% Horiz. Recoil | -1% Move | -3% ADS Time | -10% Sprint to Fire",
+      "KAS-10 584mm Mod Barrel :: +27.2% Range | +16% Bullet Velocity | -3% Gun Kick | -5% Horiz. Recoil | -5% Vert. Recoil | +3% Idle Sway | +3% Max Hipfire | -2% Move | -1% Sprint | -1% ADS Move | +10% Sprint to Fire",
+      "KAS-7 Integrated Suppressor :: +19.9% Range | +30% Bullet Velocity | +7% ADS Time | +7% Sprint to Fire",
+      "Kastovia LPM-12 :: -10.4% Range | -6% Bullet Velocity | +2% Horiz. Recoil | +1% Vert. Recoil | +2% Move | +2% Crouch | -3% ADS Time | -14% Sprint to Fire",
+      "KAS-DWORF Heavy Long Barrel :: -9% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil | -4% Move | -2% Sprint | +3% ADS Time | +8% Sprint to Fire"
+    ],
+    "CONVERSION KIT": [
+      "Jak Volkh :: -8% Bullet Velocity | -13% Fire Rate | -69% Gun Kick | -82% Horiz. Recoil | -65% Vert. Recoil | -3% Move | -3% Crouch | -4% Sprint | -7% ADS Move | +6% ADS Time | +6% Sprint to Fire"
+    ],
+    "MAGAZINE": [
+      "15 Round Magazine :: +2% Move | +1% Crouch | +1% Sprint | +8% ADS Move | -6% ADS Time | -4% Reload | -12% Sprint to Fire",
+      "20 Round Magazine :: -7% Move | -7% Crouch | -3% Sprint | -7% ADS Move | +6% ADS Time | +2% Sprint to Fire"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

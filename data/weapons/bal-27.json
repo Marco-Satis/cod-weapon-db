@@ -1,0 +1,48 @@
+{
+  "id": "bal-27",
+  "name": "BAL-27",
+  "class": "AR",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 AR. Universelle Slots = MW-Pool (ref kar98k.json). Variante 'BAL-27 (Nach 4 Schüssen)' separat in TGD-Liste.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 698,
+    "mag": 30,
+    "reload_s": 3.0,
+    "ads_ms": 240,
+    "velocity_ms": 740,
+    "move_ms": 4.8,
+    "sprint_to_fire_ms": 210,
+    "sprint_ms": 6.5,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.7x28mm Frangible :: -4.9% Range",
+      "5.7x28mm Armor Piercing",
+      "5.7x28mm Overpressured +P :: +80% Target Flinch",
+      "5.7x28mm High Velocity :: +30% Bullet Velocity | +5% Horiz | +5% Vert",
+      "5.7x28mm Low Grain :: -15% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz | -8% Vert",
+      "5.7x28mm High Grain :: +15% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz | +8% Vert",
+      "5.7x28mm Hollowpoint",
+      "5.7x28mm Tracer"
+    ],
+    "BARREL": [
+      "Prime MNX Barrel :: -11.1% Range | -16% Bullet Velocity | +Mobility | -6% Sprint to Fire",
+      "Noctkill Long Barrel :: -6% Gun Kick | -11% Horiz. Recoil | -11% Vert. Recoil | +18% ADS Time",
+      "Crown-H3 Barrel :: +20.1% Range | +11% Bullet Velocity | +21% Idle Sway | +21% Max Hipfire | +Mobility | +5% Sprint to Fire",
+      "Prowl-IV Barrel :: +16.1% Range | +8% Bullet Velocity | +12% Idle Sway | +12% Max Hipfire | +Mobility | +4% Sprint to Fire",
+      "Lonefire Comp Barrel :: -5% Bullet Velocity | -6% Gun Kick | -16% Horiz. Recoil | -25% Vert. Recoil | +20% ADS Time"
+    ],
+    "CONVERSION KIT": [
+      "Jak Deathmarch :: Damage-Profil modifiziert | +151% Bullet Velocity | +42% Fire Rate | +29% Gun Kick | +23% Horiz | +23% Vert | -38% Idle Sway | -50% Max Hipfire | +14% Sprint to Fire"
+    ],
+    "MAGAZINE": [
+      "60 Round Mag :: +11% ADS Time | +10% Sprint to Fire"
+    ],
+    "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "ram-7",
+  "name": "RAM-7",
+  "class": "AR",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 AR (5.56 NATO, 750 RPM, 25-round). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE (kein CONVERSION KIT im Editor; COMB=universell).",
+  "extraction": "weapon-specific-only-MW-editorbound",
+  "base": {
+    "rpm": 750,
+    "mag": 25,
+    "reload_s": 2.8,
+    "ads_ms": 240,
+    "velocity_ms": 720,
+    "move_ms": 4.7,
+    "sprint_to_fire_ms": 189,
+    "sprint_ms": 6.2,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.56 NATO Low Grain Rounds :: -14.3% Range",
+      "5.56 NATO High Grain Rounds :: +16.3% Range",
+      "5.56 NATO Round Nose :: +50% Target Flinch",
+      "5.56 NATO Mono :: -0.2% Range",
+      "5.56 Frangible :: -4.1% Range",
+      "5.56 Hollowpoint",
+      "5.56 Armor Piercing",
+      "5.56 Overpressured +P :: +80% Target Flinch",
+      "5.56 High Velocity :: -4.1% Range"
+    ],
+    "BARREL": [
+      "FSS Imperator Light Barrel :: +3% Horiz. Recoil",
+      "Boreal-6C Suppressed Barrel :: +21.2% Range",
+      "XTEN FRL-3 Heavy Barrel :: -9% Gun Kick",
+      "XRK Coremark 40 Heavy Barrel :: +13.7% Range",
+      "FSS Fullstop Barrel :: +21.2% Range",
+      "Cronen Headwind Long Barrel :: +22.4% Range",
+      "SO Klondike-45 Long Barrel :: -4.1% Range",
+      "Speedway V5 Short Barrel :: -6.5% Range"
+    ],
+    "MAGAZINE": [
+      "20 Round Mag :: +2% Move. Speed",
+      "40 Round Mag :: -3% Move. Speed",
+      "60 Round Drum :: -7% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

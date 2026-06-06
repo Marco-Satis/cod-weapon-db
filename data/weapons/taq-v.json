@@ -1,0 +1,45 @@
+{
+  "id": "taq-v",
+  "name": "TAQ-V",
+  "class": "Battle Rifle",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 Battle Rifle (7.62x51, 571 RPM, 20-round). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 571,
+    "mag": 20,
+    "reload_s": 2.6,
+    "ads_ms": 290,
+    "velocity_ms": 760,
+    "move_ms": 4.5,
+    "sprint_to_fire_ms": 210,
+    "sprint_ms": 6,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "7.62X51mm Low Grain Rounds :: -15.1% Range",
+      "7.62X51mm High Grain Rounds :: +14.9% Range",
+      "7.62X51mm Round Nose :: +40% Target Flinch",
+      "7.62X51mm Mono :: -1.7% Range",
+      "7.62X51mm Frangible :: -5% Range",
+      "7.62X51mm Hollowpoint",
+      "7.62X51mm Armor Piercing",
+      "7.62X51mm Overpressured +P :: +80% Target Flinch",
+      "7.62X51mm High Velocity :: -5% Range",
+      "7.62X51mm Incendiary :: -10% Range"
+    ],
+    "BARREL": [
+      "Lance-50 12\" Barrel :: -6.1% Range",
+      "18\" Precision-6 Barrel :: +23.8% Range"
+    ],
+    "MAGAZINE": [
+      "30 Round Mag :: -6% Move. Speed",
+      "50 Round Drum :: -11% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

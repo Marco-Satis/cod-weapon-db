@@ -1,0 +1,110 @@
+{
+  "id": "krig-c",
+  "name": "Krig C",
+  "class": "AR",
+  "game": "bo6",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Cross-Game (BO6). Top-Allround-AR S4 (Krig C + LC10 Combo).",
+  "base": {
+    "rpm": 638,
+    "mag": 30,
+    "reload_s": 2.93,
+    "ads_ms": 280,
+    "velocity_ms": 850,
+    "move_ms": 4.8,
+    "sprint_to_fire_ms": 215,
+    "sprint_ms": 6.3
+  },
+  "slots": {
+    "BARREL": [
+      "Gain-Twist Barrel :: +45% Bullet Velocity",
+      "Long Barrel :: +41.4% Range",
+      "Reinforced Barrel :: +21.2% Range | +20% Bullet Velocity",
+      "Short Barrel",
+      "CHF Barrel :: Neck-dmg = Head | +47.6% Gun Kick | +20% Horiz. Recoil | +50% Vert. Recoil"
+    ],
+    "FIRE_MODS": [
+      "Rapid Fire :: -15% Bullet Velocity | +11.9% Fire Rate | +20.9% Gun Kick | +30% Horiz. Recoil | +20% Vert. Recoil",
+      "5.56 NATO Overpressured :: +20% Bullet Velocity",
+      "Recoil Springs :: -13.4% Gun Kick | -18% Horiz. Recoil | -13% Vert. Recoil",
+      "5.56 NATO FMJ"
+    ],
+    "LASER": [
+      "Steady Aim Laser :: -20% Max Hipfire Area",
+      "Fast Motion Laser",
+      "Tactical Laser",
+      "Strelok Laser",
+      "Target Laser"
+    ],
+    "MAGAZINE": [
+      "Extended Mag I :: +10% Reload Time",
+      "Extended Mag II :: +7.1% ADS Time | +14% Reload Time | +9.3% Sprint to Fire",
+      "Flip Mag :: -8.9% ADS Time | -18.2% Reload Time | -9.3% Sprint to Fire",
+      "Fast Mag II :: -8.9% ADS Time | -26% Reload Time | -9.3% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Suppressor",
+      "Compensator :: -26.8% Gun Kick | -30% Vert. Recoil",
+      "Muzzle Brake",
+      "Ported Compensator :: -22.4% Gun Kick | -25% Vert. Recoil",
+      "Monolithic Suppressor :: +10.2% Range | +20% Bullet Velocity | +19.6% ADS Time"
+    ],
+    "OPTIC": [
+      "Remuda Mini Reflex",
+      "Otero Micro Dot",
+      "Kepler Microflex",
+      "Merlin Mini",
+      "PrismaTech Reflex",
+      "Volzhskiy Reflex",
+      "Merlin Reflex",
+      "Redwell Reflex",
+      "Dobrych MF Reflex",
+      "Accu-Spot Reflex",
+      "K&S Red Dot",
+      "Kepler Red Dot",
+      "Otero Red Dot",
+      "OM3 '92 Holo",
+      "Pinpoint Holoscout",
+      "Accu-Spot Ultra Holo :: -30% Gun Kick",
+      "Jason Armory 2x :: -30% Gun Kick | +3.6% ADS Time",
+      "Willis 3x :: -30% Gun Kick | +5.4% ADS Time",
+      "PrismaTech 4x :: -30% Gun Kick | +7.1% ADS Time",
+      "Dobrych 4x :: -30% Gun Kick | +7.1% ADS Time",
+      "Pinpoint Hybrid :: -50% Gun Kick | +7.1% ADS Time",
+      "PrismaPoint Hybrid :: -50% Gun Kick | +7.1% ADS Time",
+      "Hawker Hybrid :: -50% Gun Kick | +7.1% ADS Time",
+      "R&K Multizoom :: -50% Gun Kick | +8.9% ADS Time",
+      "Blandwell 7x Scope :: -50% Gun Kick | +17.9% ADS Time",
+      "Otero Thermal 2x :: -50% Gun Kick | +3.6% ADS Time"
+    ],
+    "REAR GRIP": [
+      "Quickdraw Grip :: -26.8% ADS Time",
+      "Assault Grip :: -41.9% Sprint to Fire",
+      "Commando Grip :: -12.5% ADS Time | -18.6% Sprint to Fire",
+      "Ergonomic Grip :: -16.1% ADS Time",
+      "CQB Grip :: -27.9% Sprint to Fire"
+    ],
+    "STOCK": [
+      "No Stock :: +25% Move. Speed | +43.5% Crouch Speed",
+      "Infiltrator Stock :: +23.3% ADS Move.",
+      "Heavy Stock :: -56% Flinch",
+      "Balanced Stock :: +12.5% Move. Speed | +21.7% Crouch Speed | +13.3% ADS Move.",
+      "Combat Stock :: -32% Flinch | +13.3% ADS Move."
+    ],
+    "UNDERBARREL": [
+      "Vertical Foregrip :: -2.6% Gun Kick | -35% Horiz. Recoil",
+      "Lightweight Foregrip :: -50% Idle Sway",
+      "Marksman Foregrip",
+      "Precision Foregrip :: -1.6% Gun Kick | -20% Horiz. Recoil | -31% Idle Sway",
+      "Ranger Foregrip :: -1.6% Gun Kick | -20% Horiz. Recoil | +6.3% Sprint Speed",
+      "Launcher - Standard",
+      "Launcher - Smoke",
+      "Launcher - High Explosive",
+      "Launcher - Drill Charge",
+      "Crossbow",
+      "G-Grip :: -1.6% Gun Kick | -20% Horiz. Recoil"
+    ]
+  }
+}

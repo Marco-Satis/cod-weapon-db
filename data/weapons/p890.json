@@ -1,0 +1,51 @@
+{
+  "id": "p890",
+  "name": "P890",
+  "class": "Pistol",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 Pistol (.45 Auto, 286 RPM, 8-round). Hat TRIGGER ACTION-Slot. Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 286,
+    "mag": 8,
+    "reload_s": 2.1,
+    "ads_ms": 150,
+    "velocity_ms": 250,
+    "move_ms": 5.2,
+    "sprint_to_fire_ms": 80,
+    "sprint_ms": 6.7,
+    "zoom_x": 0.8
+  },
+  "slots": {
+    "AMMUNITION": [
+      ".45 Auto High Grain Rounds :: +14.9% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      ".45 Auto Low Grain Rounds :: -15.2% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      ".45 Auto Hardened Rounds :: -23.7% Range | -15% Bullet Velocity | +3% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      ".45 Auto AET Rounds :: -30% Target Flinch | -20% Bullet Velocity",
+      ".45 Auto Frangible :: -5.1% Range",
+      ".45 Auto Hollowpoint",
+      ".45 Auto Armor Piercing",
+      ".45 Auto Overpressured +P :: +80% Target Flinch"
+    ],
+    "BARREL": [
+      "Matuzek Cottonmouth Barrel :: +15.7% Range | +19% Bullet Velocity | -7% Gun Kick | -7% Horiz. Recoil | -7% Vert. Recoil | -6% Idle Sway | +6% Max Hipfire | -3% Move | -3% Crouch | -3% Sprint | -4% ADS Move | +13% ADS Time",
+      "XRK TacOps Barrel :: -4% Bullet Velocity | +4% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil | +3% Move | +2% Crouch | +1% Sprint | +3% ADS Move | -4% ADS Time",
+      "Matuzek Venom :: -3.1% Range | -4% Bullet Velocity | +2% Gun Kick | +2% Horiz. Recoil | +2% Vert. Recoil | +4% Idle Sway | -5% Max Hipfire | +1% Move | +1% Crouch | +2% ADS Move | -7% ADS Time",
+      "XTEN Harbinger :: +13% Bullet Velocity | -35% Gun Kick | -20% Horiz. Recoil | -35% Vert. Recoil | -5% Move | -5% Crouch | -5% Sprint | -6% ADS Move | +21% ADS Time"
+    ],
+    "MAGAZINE": [
+      "10 Round Mag :: -3% Move | -3% Crouch | -2% Sprint | -4% ADS Move | +7% ADS Time | +13% Reload",
+      "12 Round Mag :: -6% Move | -6% Crouch | -4% Sprint | -7% ADS Move | +14% ADS Time | +25% Reload"
+    ],
+    "TRIGGER ACTION": [
+      "Bruen MG89 Trigger :: +11% Fire Rate | +15% Max Hipfire",
+      "XRK Heavy v3 :: -9% Fire Rate | -7% ADS Time | -14% Sprint to Fire",
+      "Bruen Express :: +24% Fire Rate | +15% Sprint to Fire",
+      "P890 Double Action :: -20% Sprint to Fire | -23% Swap Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "sidewinder",
+  "name": "Sidewinder",
+  "class": "Battle Rifle",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 Battle Rifle (.450 Huntsman, 375 RPM, 20-round). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE/CONVERSION KIT.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 375,
+    "mag": 20,
+    "reload_s": 2.8,
+    "ads_ms": 265,
+    "velocity_ms": 770,
+    "move_ms": 4.6,
+    "sprint_to_fire_ms": 210,
+    "sprint_ms": 6.2,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "450 Huntsman Frangible :: -4.9% Range",
+      "450 Huntsman Hollowpoint",
+      "450 Huntsman Armor Piercing",
+      "450 Huntsman Overpressured +P :: +80% Target Flinch",
+      "450 Huntsman High Velocity :: -4.9% Range",
+      "450 Huntsman Low Grain Rounds :: -14.9% Range",
+      "450 Huntsman High Grain Rounds :: +15.2% Range",
+      "450 Hunstman Round Nose :: +40% Target Flinch",
+      "450 Huntsman Mono :: -1.4% Range"
+    ],
+    "BARREL": [
+      "Rattleback Deadeye 16\" Barrel :: +7.6% Range",
+      "Orchestra-40 Short Heavy Barrel :: -4.3% Range",
+      "Tempus Predator Precision Barrel :: +12.5% Range",
+      "Rattleback Pro 14.5\" Maw Barrel :: +5% Horiz. Recoil",
+      "76L-P Heavy Barrel :: +25% Idle Sway",
+      "SL Crater Heavy Barrel :: -8.4% Range",
+      "Huntsman Series-R Integrated Suppressor Barrel :: -14.9% Range"
+    ],
+    "CONVERSION KIT": [
+      "Jak Thunder LMG Kit :: Damage profile modified"
+    ],
+    "MAGAZINE": [
+      "15 Round Mag :: +2% Move. Speed",
+      "30 Round Drum :: -7% Move. Speed",
+      "10 Round Mag :: +3% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

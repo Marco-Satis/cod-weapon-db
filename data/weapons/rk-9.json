@@ -1,0 +1,51 @@
+{
+  "id": "rk-9",
+  "name": "RK-9",
+  "class": "Pistol",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO7 Pistol (9mm Parabellum, 570 RPM, 30-round, 0x). BO7-branded Attachments (Bowen/Hawker/Mercurial/Blackstar/Alliance/Silverline). Black-Ops-Layout: OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER universell. Weapon-spez: MUZZLE/BARREL/MAGAZINE/FIRE MODS. Klasse inferiert. Freeze beim 1. Extract -> Reload ?r=8 + Split-Extraktion clean.",
+  "extraction": "weapon-specific-only-BO-editorbound-split",
+  "base": {
+    "rpm": 570,
+    "mag": 30,
+    "reload_s": 2.29,
+    "ads_ms": 165,
+    "velocity_ms": 620,
+    "move_ms": 5.2,
+    "sprint_to_fire_ms": 120,
+    "sprint_ms": 7.6,
+    "zoom_x": 0
+  },
+  "slots": {
+    "BARREL": [
+      "13.6\" Mercurial Barrel :: +15.9% Range",
+      "12.47\" VAS Tethys Barrel :: -5.6% ADS Move.",
+      "9.9\" Bowen Cerium Barrel :: +6.9% Range",
+      "8.7\" EAM Hollow Barrel :: -20% Max Hipfire Area",
+      "11.3\" Blackstar Barrel :: +22% Range"
+    ],
+    "FIRE MODS": [
+      "Enhanced Cycle System :: -9.9% Range",
+      "9mm Parabellum Overpressured :: +20% Bullet Velocity",
+      "Accelerated Recoil System :: -10% Gun Kick",
+      "9mm Parabellum FMJ"
+    ],
+    "MAGAZINE": [
+      "Alliance Extended Mag",
+      "Silverline Flip Mag :: -27.9% Reload Time",
+      "Ascot Drum Mag :: -3.8% Move. Speed",
+      "Compact Void Mag :: -6.1% ADS Time"
+    ],
+    "MUZZLE": [
+      "Bowen .45 Suppressor",
+      "Hawker Series 45 :: -17.6% Gun Kick",
+      "Hawker Stabilizer MKII :: -4.9% Gun Kick",
+      "Hawker Hybrid .45 :: -22.3% Max Hipfire Area",
+      "Monolithic Suppressor :: +6.9% Range"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO7-Pool"
+}

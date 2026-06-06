@@ -1,0 +1,49 @@
+{
+  "id": "dg-58-lsw",
+  "name": "DG-58 LSW",
+  "class": "LMG",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 LMG (5.8x42). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 706,
+    "mag": 60,
+    "reload_s": 3.6,
+    "ads_ms": 320,
+    "velocity_ms": 720,
+    "move_ms": 4.4,
+    "sprint_to_fire_ms": 231,
+    "sprint_ms": 5.9,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.8X42 Frangible :: -5% Range",
+      "5.8X42 Hollowpoint",
+      "5.8X42 Armor Piercing",
+      "5.8X42 Overpressured+P :: +80% Target Flinch",
+      "5.8X42 High Velocity :: -5% Range | +20% Bullet Velocity",
+      "5.8X42 Incendiary :: -10.3% Range | -25% Bullet Velocity",
+      "5.8X42 High Grain Rounds :: +13.8% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "5.8X42 Low Grain Rounds :: -14.9% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "5.8X42 Round Nose :: +40% Target Flinch | -19.9% Range",
+      "5.8X42 Mono :: -1.5% Range | +8% Bullet Velocity | +3% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil"
+    ],
+    "BARREL": [
+      "Culpa OGS Light Barrel :: -5% Range | -10% Bullet Velocity | +3% Horiz. Recoil | +2% Vert. Recoil | +7% Move | +8% Crouch | +8% ADS Move | -5% ADS Time",
+      "DG Emperor-V Heavy Barrel :: -7% Gun Kick | -13% Horiz. Recoil | -13% Vert. Recoil | +16% ADS Time",
+      "Wudi Long Barrel :: +13.8% Range | +18% Bullet Velocity | -4% Gun Kick | -6% Horiz. Recoil | -6% Vert. Recoil | +18% Idle Sway | +18% Max Hipfire | -2% Move | -1% Sprint | -6% ADS Move | +8% Sprint to Fire",
+      "DG-58 LS18 Heavy Barrel :: -10.5% Range | -6% Bullet Velocity | -2% Gun Kick | -5% Horiz. Recoil | -5% Vert. Recoil | +6% ADS Time | -14% Sprint to Fire"
+    ],
+    "CONVERSION KIT": [
+      "JAK Nightshade Rifle Kit :: Damage profile modified | -3% Bullet Velocity | +21% Fire Rate | +40% Gun Kick | +28% Horiz. Recoil | -10% Vert. Recoil | +14% Move | +5% Crouch | +8% Sprint | +11% ADS Move | -39% ADS Time | -11% Reload | -36% Sprint to Fire | -6% Swap Speed"
+    ],
+    "MAGAZINE": [
+      "100 Round Drum :: -7% Move | -9% Crouch | -4% Sprint | -10% ADS Move | +7% ADS Time | +20% Reload | +3% Sprint to Fire"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP/COMB = MW-Pool (ref kar98k.json)"
+}

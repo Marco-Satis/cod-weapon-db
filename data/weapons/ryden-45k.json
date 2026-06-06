@@ -1,0 +1,51 @@
+{
+  "id": "ryden-45k",
+  "name": "Ryden 45K",
+  "class": "SMG",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO7 SMG (.45 Cal, 923 RPM, 30-round). BO7-branded Attachments (Bowen/Hawker/Vienna/Greaves/Basilisk). Black-Ops-Layout: OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER universell. Weapon-spez: MUZZLE/BARREL/MAGAZINE/FIRE MODS.",
+  "extraction": "weapon-specific-only-BO-editorbound-split",
+  "base": {
+    "rpm": 923,
+    "mag": 30,
+    "reload_s": 2.35,
+    "ads_ms": 160,
+    "velocity_ms": 530,
+    "move_ms": 5,
+    "sprint_to_fire_ms": 102,
+    "sprint_ms": 7.4,
+    "zoom_x": 0
+  },
+  "slots": {
+    "BARREL": [
+      "12\" Vienna Barrel :: +14.2% Range",
+      "11\" Rauch 6L-R Barrel :: -2.9% ADS Move.",
+      "10.5\" Greaves Whiptail Barrel :: +8.2% Range",
+      "9\" Basilisk Barrel :: -20% Max Hipfire Area",
+      "10.5\" Slim-Mod Barrel :: +17.4% Range"
+    ],
+    "FIRE MODS": [
+      "Bolt Carrier Group :: -22.4% Range",
+      "45 Cal Overpressured :: +15% Bullet Velocity",
+      "Recoil Sync Unit :: -8.3% Gun Kick",
+      "45 Cal FMJ"
+    ],
+    "MAGAZINE": [
+      "Torch Extended Mag",
+      "Fraternity Flip Mag :: -19.3% Reload Time",
+      "Forward Breach Mag :: -4% Move. Speed",
+      "Breakpoint Fast Mag :: -6.2% ADS Time"
+    ],
+    "MUZZLE": [
+      "Bowen .45 Suppressor",
+      "Hawker Series 45 :: -18.8% Gun Kick",
+      "Hawker Stabilizer MKII :: -7.6% Gun Kick",
+      "Hawker Hybrid .45 :: -33.3% Max Hipfire Area",
+      "Monolithic Suppressor :: +8.2% Range"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO7-Pool"
+}

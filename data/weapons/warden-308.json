@@ -1,0 +1,48 @@
+{
+  "id": "warden-308",
+  "name": "Warden 308",
+  "class": "Marksman Rifle",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO7 Marksman (.308 NATO, 353 RPM semi-auto, 8-round Cylinder). BO7-branded (Outlaw/Watchdog/LTI/MFS). Black-Ops-Layout: OPTIC/STOCK/REAR GRIP/LASER/COMB universell. Weapon-spez: MUZZLE/BARREL/MAGAZINE/FIRE MODS.",
+  "extraction": "weapon-specific-only-BO-editorbound-split",
+  "base": {
+    "rpm": 353,
+    "mag": 8,
+    "reload_s": 2.38,
+    "ads_ms": 270,
+    "velocity_ms": 950,
+    "move_ms": 4.5,
+    "sprint_to_fire_ms": 240,
+    "sprint_ms": 7.1,
+    "zoom_x": 0
+  },
+  "slots": {
+    "BARREL": [
+      "18\" Invictus Barrel :: +19.8% Range",
+      "17.3\" LTI Fluted-X35 Barrel :: +28% Bullet Velocity",
+      "15.47\" LTI Phalanx Barrel :: +8.9% Range",
+      "14.8\" Pro-Lite Barrel :: -7.4% ADS Time",
+      "16.2\" Artemis-01 Barrel :: -17.4% Gun Kick"
+    ],
+    "FIRE MODS": [
+      "MFS Snap Trigger :: -55% Range",
+      "308 NATO Overpressured :: +20% Bullet Velocity",
+      "Buffer Spring :: -14.2% Gun Kick",
+      ".308 NATO FMJ"
+    ],
+    "MAGAZINE": [
+      "Speed Latch Cylinder :: -3.7% ADS Time"
+    ],
+    "MUZZLE": [
+      "Outlaw Silencer",
+      "Watchdog Compensator :: -27.4% Gun Kick",
+      "LTI-LM Brake :: -18.3% Gun Kick",
+      "Lethal Tools Crown Comp :: -25% Max Hipfire Area",
+      "Monolithic Suppressor :: +7.9% Range"
+    ]
+  },
+  "_universal": "OPTIC/STOCK/REAR GRIP/LASER/COMB = BO7-Pool"
+}

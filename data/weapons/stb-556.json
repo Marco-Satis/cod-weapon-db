@@ -1,0 +1,48 @@
+{
+  "id": "stb-556",
+  "name": "STB 556",
+  "class": "AR",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 AR (5.56 NATO, 741 RPM, 30-round). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP/COMB universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 741,
+    "mag": 30,
+    "reload_s": 2.8,
+    "ads_ms": 240,
+    "velocity_ms": 720,
+    "move_ms": 4.6,
+    "sprint_to_fire_ms": 110,
+    "sprint_ms": 6.1,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.56 NATO Low Grain Rounds :: -16.2% Range",
+      "5.56 NATO High Grain Rounds :: +15% Range",
+      "5.56 NATO Round Nose :: +50% Target Flinch",
+      "5.56 NATO Mono :: -1.3% Range",
+      "5.56 Frangible :: -5.1% Range",
+      "5.56 Hollowpoint",
+      "5.56 Armor Piercing",
+      "5.56 Overpressured +P :: +80% Target Flinch",
+      "5.56 High Velocity :: -5.1% Range"
+    ],
+    "BARREL": [
+      "Bruen Turaco 686mm :: +25.1% Range",
+      "FTAC FB20 :: +19.8% Range",
+      "18\" Bruen Guerilla :: +11% Bullet Velocity",
+      "508mm Rear Guard :: +19.8% Range",
+      "16.5\" Bruen S901 Barrel :: -4% Bullet Velocity",
+      "20\" Bruen S-620 :: +29.9% Range"
+    ],
+    "MAGAZINE": [
+      "42 Round Mag :: -5% Move. Speed",
+      "Single Tap Mod :: +19.3% Range"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP/COMB = MW-Pool (ref kar98k.json)"
+}

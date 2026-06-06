@@ -1,0 +1,51 @@
+{
+  "id": "holger-556",
+  "name": "Holger 556",
+  "class": "AR",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 AR (5.56 NATO, 588 RPM). MUZZLE(44)=universal MW-Pool (Guard-skip). FIRE MODS=.45 ACP Phantom (AMMUNITION=5.56) -> excl. Split-Extraktion.",
+  "extraction": "weapon-specific-only (MW: MUZZLE universal; FIRE MODS Phantom excl.)",
+  "base": {
+    "rpm": 588,
+    "mag": 30,
+    "reload_s": 2.8,
+    "ads_ms": 270,
+    "velocity_ms": 810,
+    "move_ms": 4.6,
+    "sprint_to_fire_ms": 200,
+    "sprint_ms": 6.2,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.56 NATO Low Grain Rounds :: -15% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "5.56 NATO High Grain Rounds :: +15% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "5.56 NATO Round Nose :: +50% Target Flinch | -20.1% Range",
+      "5.56 NATO Mono :: -1.6% Range | +8% Bullet Velocity | +3% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      "5.56 Frangible :: -4.9% Range",
+      "5.56 Hollowpoint",
+      "5.56 Armor Piercing",
+      "5.56 Overpressured +P :: +80% Target Flinch",
+      "5.56 High Velocity :: -4.9% Range | +20% Bullet Velocity",
+      "5.56 Incendiary :: -10% Range | -25% Bullet Velocity"
+    ],
+    "BARREL": [
+      "Cross-X Short Barrel :: -12.2% Range | -14% Bullet Velocity | +4% Move | +4% Crouch | +7% ADS Move | -10% Sprint to Fire",
+      "Banner-80 Light Barrel :: +5% Horiz. Recoil | +5% Vert. Recoil | +3% Move | +3% Crouch | +2% Sprint | -9% ADS Time | -5% Sprint to Fire",
+      "Chrios-6 Match :: +20.1% Range | +11% Bullet Velocity | -4% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil | +11% ADS Time | +5% Sprint to Fire",
+      "LM Inflix Short Heavy Barrel :: -9.1% Range | -5% Bullet Velocity | +2% Horiz. Recoil | +2% Vert. Recoil | -10% Idle Sway | -10% Max Hipfire | -12% Sprint to Fire"
+    ],
+    "CONVERSION KIT": [
+      "Jak Signal Burst :: +50% Bullet Velocity | -50% Gun Kick | -40% Horiz. Recoil | -40% Vert. Recoil | -10% Idle Sway | -10% Max Hipfire | +14% ADS Time | +20% Sprint to Fire",
+      "Jak Backsaw Kit :: Damage profile modified | -10% Bullet Velocity | -20% Fire Rate | +20% Gun Kick | +20% Horiz. Recoil | +40% Vert. Recoil | -30% Idle Sway | -30% Max Hipfire | +3% Move | +4% Crouch | +5% ADS Move | -15% ADS Time | +16% Reload | -10% Sprint to Fire"
+    ],
+    "MAGAZINE": [
+      "20 Round Mag :: +4% Move | +3% Crouch | +3% Sprint | +14% ADS Move | -14% ADS Time | -27% Sprint to Fire",
+      "40 Round Mag :: -4% Move | -4% Crouch | -2% Sprint | -4% ADS Move | +6% ADS Time | +16% Reload"
+    ]
+  },
+  "_universal": "MUZZLE(44)/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP/COMB = MW-Pool (ref kar98k.json)"
+}

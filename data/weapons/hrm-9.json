@@ -1,0 +1,44 @@
+{
+  "id": "hrm-9",
+  "name": "HRM-9",
+  "class": "SMG",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 SMG (9mm, 882 RPM). MUZZLE(41)=universal MW-Pool (Guard-skip). FIRE MODS-Slot zeigte stale .45 ACP (Phantom-Slot bei MW-Waffen, AMMUNITION=9mm) -> ausgeschlossen.",
+  "extraction": "weapon-specific-only (MW: MUZZLE universal; FIRE MODS Phantom excl.)",
+  "base": {
+    "rpm": 882,
+    "mag": 30,
+    "reload_s": 2.7,
+    "ads_ms": 208,
+    "velocity_ms": 460,
+    "move_ms": 4.8,
+    "sprint_to_fire_ms": 110,
+    "sprint_ms": 6.4,
+    "zoom_x": 0.88
+  },
+  "slots": {
+    "AMMUNITION": [
+      "9mm High Grain Rounds :: +16.7% Range | +15% Bullet Velocity",
+      "9mm Low Grain Rounds :: -13.7% Range | -12% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil",
+      "9mm Frangible :: -3.3% Range",
+      "9mm Hollowpoint",
+      "9mm Armor Piercing",
+      "9mm Overpressured +P :: +80% Target Flinch",
+      "9mm Hardened Rounds :: -26% Range | -15% Bullet Velocity | +2% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      "9mm High Velocity :: +30% Bullet Velocity | +5% Horiz. Recoil | +5% Vert. Recoil"
+    ],
+    "BARREL": [
+      "Thorn-90 Barrel :: +5% Horiz. Recoil | +6% Vert. Recoil | +7% Idle Sway | -8% Max Hipfire | +2% Sprint | -7% ADS Time | -7% Sprint to Fire",
+      "Princeps Long Barrel :: +26.7% Range | +30% Bullet Velocity | -30% Idle Sway | +30% Max Hipfire | -7% ADS Move | +5% Sprint to Fire",
+      "Taciturn-7 Suppressed Barrel :: -13.7% Range | -15% Bullet Velocity | -5% Gun Kick | -12% Horiz. Recoil | -12% Vert. Recoil"
+    ],
+    "MAGAZINE": [
+      "20 Round Mag :: +2% Move | +2% Crouch | +2% Sprint | +6% ADS Move | -8% ADS Time | -16% Reload | -15% Sprint to Fire",
+      "50 Round Drum :: -5% Move | -5% Crouch | -2% Sprint | -5% ADS Move | +11% ADS Time | +12% Reload"
+    ]
+  },
+  "_universal": "MUZZLE(41)/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP/COMB = MW-Pool (ref kar98k.json)"
+}

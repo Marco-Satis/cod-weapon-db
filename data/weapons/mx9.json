@@ -1,0 +1,39 @@
+{
+  "id": "mx9",
+  "name": "MX9",
+  "class": "SMG",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 SMG (9mm Sub, 741 RPM). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 741,
+    "mag": 30,
+    "reload_s": 2.7,
+    "ads_ms": 200,
+    "velocity_ms": 530,
+    "move_ms": 4.8,
+    "sprint_to_fire_ms": 110,
+    "sprint_ms": 6.4,
+    "zoom_x": 0.88
+  },
+  "slots": {
+    "AMMUNITION": [
+      "9mm Sub FR :: -5.1% Range",
+      "9mm Sub HP",
+      "9mm Sub AP",
+      "9mm Sub OP :: +80% Target Flinch"
+    ],
+    "BARREL": [
+      "508mm Rear Guard :: +27.7% Range | +17% Bullet Velocity | +7% Idle Sway | +11% Max Hipfire | +10% ADS Time",
+      "16.5\" Bruen S901 :: +16.1% Range | +6% Bullet Velocity | +4% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil | +4% Idle Sway | +6% Max Hipfire | +3% Move | +3% Crouch | +1% Sprint | +4% ADS Move | +2% ADS Time",
+      "16.5\" STB Factory :: +9% Bullet Velocity | -7% Gun Kick | -7% Horiz. Recoil | -7% Vert. Recoil | -3% Move | -3% Crouch | -3% Sprint | -4% ADS Move | +4% ADS Time"
+    ],
+    "MAGAZINE": [
+      "Extended Mag :: +12% Reload"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

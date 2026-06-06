@@ -1,0 +1,50 @@
+{
+  "id": "amr-mod-4",
+  "name": "AMR Mod 4",
+  "class": "Sniper",
+  "game": "bo6",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO6 .50-BMG-Sniper. Universelle Slots = BO6-Pool.",
+  "extraction": "weapon-specific-only",
+  "base": {
+    "rpm": 95,
+    "mag": 6,
+    "reload_s": 4.3,
+    "ads_ms": 610,
+    "velocity_ms": 810,
+    "move_ms": 4.5,
+    "sprint_to_fire_ms": 320,
+    "sprint_ms": 6.0
+  },
+  "slots": {
+    "BARREL": [
+      "Gain-Twist Barrel :: +25% Bullet Velocity",
+      "Long Barrel :: +20% Range",
+      "Reinforced Barrel :: +12% Range | +10% Bullet Velocity",
+      "Short Barrel",
+      "CHF Barrel :: Leg-dmg = Chest/Stomach | +49.8% Gun Kick | +20% Horiz. Recoil | +50% Vert. Recoil | +19.2% ADS Time"
+    ],
+    "FIRE_MODS": [
+      "Rapid Fire :: kein Damage-Mod | +4.2% Fire Rate | +15% Recoil(alle)",
+      ".50 BMG Overpressured :: +15% Bullet Velocity",
+      "Recoil Springs :: -13% Gun Kick | -13% Horiz. Recoil | -13% Vert. Recoil",
+      ".50 BMG FMJ"
+    ],
+    "MAGAZINE": [
+      "Extended Mag I :: +7% Reload Time",
+      "Fast Mag I :: -2.4% ADS Time | -26.5% Reload Time | -3.1% Sprint to Fire",
+      "Extended Mag II :: +3.2% ADS Time | +16.3% Reload Time | +6.2% Sprint to Fire",
+      "Fast Mag II :: -4% ADS Time | -27% Reload Time | -6.2% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Suppressor",
+      "Compensator :: -29.7% Gun Kick | -30% Vert. Recoil",
+      "Muzzle Brake",
+      "Ported Compensator :: -29.7% Gun Kick | -30% Vert. Recoil",
+      "Monolithic Suppressor :: +10% Range | +20% Bullet Velocity | +8.8% ADS Time"
+    ],
+    "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO6-Pool (ref lc10.json)"
+  }
+}

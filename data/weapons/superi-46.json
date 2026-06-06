@@ -1,0 +1,45 @@
+{
+  "id": "superi-46",
+  "name": "Superi 46",
+  "class": "SMG",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 SMG (4.6x30mm, 667 RPM, 30-round). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 667,
+    "mag": 30,
+    "reload_s": 1.9,
+    "ads_ms": 200,
+    "velocity_ms": 520,
+    "move_ms": 4.8,
+    "sprint_to_fire_ms": 110,
+    "sprint_ms": 6.4,
+    "zoom_x": 0.88
+  },
+  "slots": {
+    "AMMUNITION": [
+      "4.6mm Frangible :: -4.8% Range",
+      "4.6mm Hollowpoint",
+      "4.6mm Armor Piercing",
+      "4.6mm Overpressured +P :: +80% Target Flinch",
+      "4.6mm High Grain :: +14.9% Range",
+      "4.6mm Low Grain :: -14.9% Range"
+    ],
+    "BARREL": [
+      "Lux 30 Heavy Barrel :: -12% Horiz. Recoil",
+      "Houndguard Heavy Barrel :: +22.3% Range",
+      "Bore 99 Short Barrel :: -8% Range",
+      "Zulu OP3 Light Barrel :: +26% Idle Sway",
+      "ATOLL-Z4 Suppressed Barrel :: -14.9% Range",
+      "Terminal V Suppressed Barrel :: -20.2% Range"
+    ],
+    "MAGAZINE": [
+      "20 Round Mag :: +3% Move. Speed",
+      "40 Round Mag :: -3% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

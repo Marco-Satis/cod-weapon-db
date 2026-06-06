@@ -1,0 +1,37 @@
+{
+  "id": "minibak",
+  "name": "Minibak",
+  "class": "SMG",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 SMG (Bizon-Plattform, 9mm, 652 RPM, 64-round Helical-Mag, niedrige Velocity 300). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 652,
+    "mag": 64,
+    "reload_s": 2.4,
+    "ads_ms": 275,
+    "velocity_ms": 300,
+    "move_ms": 4.9,
+    "sprint_to_fire_ms": 110,
+    "sprint_ms": 6.3,
+    "zoom_x": 0.88
+  },
+  "slots": {
+    "AMMUNITION": [
+      "9mm Frangible :: -5.1% Range",
+      "9mm Hollowpoint",
+      "9mm Armor Piercing",
+      "9mm Overpressured +P :: +80% Target Flinch"
+    ],
+    "BARREL": [
+      "Bak-9 279mm Barrel :: +15.7% Range | +10% Bullet Velocity | -6% Idle Sway | +6% Max Hipfire | +4% ADS Time"
+    ],
+    "MAGAZINE": [
+      "Minibak Grip Mag :: -4% Gun Kick | -4% Horiz. Recoil | -4% Vert. Recoil | +11% ADS Time"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

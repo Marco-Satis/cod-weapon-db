@@ -1,0 +1,48 @@
+{
+  "id": "kastov-545",
+  "name": "Kastov 545",
+  "class": "AR",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 AR (5.45, AK-Plattform, 652 RPM). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 652,
+    "mag": 30,
+    "reload_s": 2.6,
+    "ads_ms": 225,
+    "velocity_ms": 680,
+    "move_ms": 4.7,
+    "sprint_to_fire_ms": 210,
+    "sprint_ms": 6.3,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.45 Low Grain Rounds :: -14.9% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "5.45 High Grain Rounds :: +13.8% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "5.45 Armor Piercing",
+      "5.45 Frangible :: -5% Range",
+      "5.45 Hollowpoint",
+      "5.45 High Velocity :: -5% Range | +20% Bullet Velocity",
+      "5.45 Overpressured +P :: +80% Target Flinch"
+    ],
+    "BARREL": [
+      "KAS-7 406mm :: +9% Bullet Velocity | -7% Gun Kick | -7% Horiz. Recoil | -7% Vert. Recoil | -3% Move | -3% Crouch | -3% Sprint | -4% ADS Move | +4% ADS Time",
+      "Kastovia 406 :: +12% Range | +7% Bullet Velocity | -5% Idle Sway | +4% Max Hipfire | +4% ADS Time",
+      "IG-K30 406mm :: +8.1% Range | +16% Bullet Velocity | -9% Gun Kick | -9% Horiz. Recoil | -9% Vert. Recoil | -3% Idle Sway | +3% Max Hipfire | -4% Move | -4% Crouch | -4% Sprint | -5% ADS Move | +7% ADS Time",
+      "342mm Sakin KL :: -4% Bullet Velocity | +4% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil | +3% Move | +3% Crouch | +1% Sprint | +4% ADS Move | -4% ADS Time"
+    ],
+    "CONVERSION KIT": [
+      "Jak Requiem :: -15% Bullet Velocity | -4% Fire Rate | -50% Gun Kick | -73% Horiz. Recoil | -3% Move | -2% Crouch | -3% Sprint | -5% ADS Move"
+    ],
+    "MAGAZINE": [
+      "20 Round Mag :: +3% Move | +2% Crouch | +2% Sprint | +11% ADS Move | -11% ADS Time | -10% Reload | -21% Sprint to Fire",
+      "45 Round Mag :: -6% Move | -7% Crouch | -4% Sprint | -8% ADS Move | +11% ADS Time | +2% Reload",
+      "60 Round Mag :: -10% Move | -11% Crouch | -7% Sprint | -13% ADS Move | +18% ADS Time | +6% Reload | +1% Sprint to Fire"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

@@ -1,0 +1,8 @@
+# Build-Artefakte sind Deliverables und werden bewusst committed.
+__pycache__/
+*.pyc
+*.json.tmp
+*.tmp
+.DS_Store
+Thumbs.db
+desktop.ini

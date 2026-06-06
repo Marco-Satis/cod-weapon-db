@@ -1,0 +1,66 @@
+{
+  "id": "50-gs",
+  "name": ".50 GS",
+  "class": "Pistol",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Cross-Game Off-Meta. Weapon-spezifische Slots erfasst; universelle Slots (LASER/OPTIC/REAR GRIP) = MW-Standard-Pool (siehe Meta-Files Kar98k/HDR).",
+  "extraction": "weapon-specific-only",
+  "all_slots": [
+    "MUZZLE",
+    "BARREL",
+    "LASER",
+    "OPTIC",
+    "AMMUNITION",
+    "MAGAZINE",
+    "REAR GRIP",
+    "TRIGGER ACTION"
+  ],
+  "base": {
+    "rpm": 167,
+    "mag": 7,
+    "reload_s": 2.2,
+    "ads_ms": 210,
+    "velocity_ms": 470,
+    "move_ms": 5.0,
+    "sprint_to_fire_ms": 80,
+    "sprint_ms": 6.5,
+    "zoom_x": 0.8
+  },
+  "slots": {
+    "AMMUNITION": [
+      "9mm Hardened Rounds :: -23.4% Range | -15% Bullet Velocity",
+      ".50 Pistol Frangible :: -4.9% Range",
+      ".50 Pistol Hollowpoint",
+      ".50 Pistol Armor Piercing",
+      ".50 Pistol Overpressured +P :: +80% Target Flinch",
+      ".500 AET Rounds :: -30% Target Flinch | -20% Bullet Velocity"
+    ],
+    "BARREL": [
+      "SA Brake Barrel :: -10% Gun Kick | -27% Horiz. Recoil | -10% Vert. Recoil | +10% ADS Time",
+      "SA Comp Barrel :: -27% Gun Kick | -10% Horiz. Recoil | -27% Vert. Recoil | +10% ADS Time",
+      "SA Longshot-50 :: +32.3% Range | +16% Bullet Velocity | +3% Recoil (alle) | -12% Idle Sway | +12% Max Hipfire | +Mobility minor | +9% ADS Time",
+      "SA Tyrant Fifty :: +32.3% Range | +27% Bullet Velocity | -5% Recoil (alle) | -12% Idle Sway | +12% Max Hipfire | -Mobility minor | +14% ADS Time"
+    ],
+    "MAGAZINE": [
+      "13 Round Mag :: -7% Move | -8% Crouch | -5% Sprint | -9% ADS Move | +12% ADS Time | +26% Reload",
+      "10 Round Mag :: -3% Move | -4% Crouch | -2% Sprint | -5% ADS Move | +6% ADS Time | +12% Reload"
+    ],
+    "MUZZLE": [
+      "EXF Fifty GS :: +8.3% Range | +14% Bullet Velocity",
+      "Matuzek Crown :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil",
+      "FTAC Fifty Comp :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil",
+      "Potato Masher :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil",
+      "SA Peak-77 :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil",
+      "GW Flash Fifty :: +12.3% Range"
+    ],
+    "TRIGGER ACTION": [
+      "SA Competition Trigger :: +9% Fire Rate | +15% Max Hipfire Area",
+      "SA Fifty Trigger :: -6% Fire Rate | -8% ADS Time | -14% Sprint to Fire",
+      "SA Hare Trigger :: +20% Fire Rate | +15% Sprint to Fire"
+    ],
+    "_universal": "LASER/OPTIC/REAR GRIP = MW-Standard-Pool (siehe cod_db_deltas/kar98k.json + hdr.json)"
+  }
+}

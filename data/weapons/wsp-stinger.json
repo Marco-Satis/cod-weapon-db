@@ -1,0 +1,45 @@
+{
+  "id": "wsp-stinger",
+  "name": "WSP Stinger",
+  "class": "Pistol",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 Machine-Pistol (9mm, 1000 RPM, 20-round, 0.8x). MW-Layout: MUZZLE/LASER/STOCK/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 1000,
+    "mag": 20,
+    "reload_s": 2,
+    "ads_ms": 145,
+    "velocity_ms": 250,
+    "move_ms": 5.7,
+    "sprint_to_fire_ms": 27,
+    "sprint_ms": 7.2,
+    "zoom_x": 0.8
+  },
+  "slots": {
+    "AMMUNITION": [
+      "9mm High Grain Rounds :: +6.4% Range",
+      "9mm Low Grain Rounds :: -21.4% Range",
+      "9mm AET Rounds :: -30% Target Flinch",
+      "9mm Hardened Rounds :: -32.6% Range",
+      "9mm Frangible :: -12.3% Range",
+      "9mm Hollowpoint :: -7.5% Range",
+      "9mm Armor Piercing :: -7.5% Range",
+      "9mm Overpressured +P :: +80% Target Flinch",
+      "9mm High Velocity :: -7.5% Range"
+    ],
+    "BARREL": [
+      "HISS Short Light Barrel :: +23% Range",
+      "Noxious Short Compensated Barrel :: -7.5% Range",
+      "Pestilence-12 Short Compensated Barrel :: -14.4% Range"
+    ],
+    "MAGAZINE": [
+      "32 Round Mag :: -7.5% Range",
+      "25 Round Mag :: -7.5% Range"
+    ]
+  },
+  "_universal": "MUZZLE/LASER/STOCK/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

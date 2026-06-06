@@ -1,0 +1,24 @@
+{
+  "id": "velox-5-7",
+  "name": "Velox 5.7",
+  "class": "Pistol",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO7 Pistol (5.7x28, 549 RPM, 15-round, 0x). BO7-native (Velox-Naming). nSlots=0 in TGD S3.5 (kein Builder-Daten, base-only). Aufsatz-Deltas via codmunity-S4/TGD-S4-Update nachziehen.",
+  "extraction": "base-only",
+  "base": {
+    "rpm": 549,
+    "mag": 15,
+    "reload_s": 2.27,
+    "ads_ms": 160,
+    "velocity_ms": 400,
+    "move_ms": 5.2,
+    "sprint_to_fire_ms": 110,
+    "sprint_ms": 7.5,
+    "zoom_x": 0
+  },
+  "slots": {},
+  "_universal": "keine Slot-Daten in S3.5 (S4-Neuwaffe-Gap)"
+}

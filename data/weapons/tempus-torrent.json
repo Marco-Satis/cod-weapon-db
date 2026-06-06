@@ -1,0 +1,52 @@
+{
+  "id": "tempus-torrent",
+  "name": "Tempus Torrent",
+  "class": "Marksman Rifle",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 Marksman Rifle (7.62x51, 316 RPM semi-auto, 20-round). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE/GUARD (Handguard).",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 316,
+    "mag": 20,
+    "reload_s": 2.7,
+    "ads_ms": 290,
+    "velocity_ms": 830,
+    "move_ms": 4.4,
+    "sprint_to_fire_ms": 218,
+    "sprint_ms": 6,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "7.62X51mm Low Grain Rounds :: -15% Range",
+      "7.62X51mm High Grain Rounds :: +15% Range",
+      "7.62X51mm Round Nose :: +40% Target Flinch",
+      "7.62X51mm Mono :: -1.6% Range",
+      "7.62X51mm Frangible :: -4.9% Range",
+      "7.62X51mm Hollowpoint",
+      "7.62X51mm Armor Piercing",
+      "7.62X51mm Overpressured +P :: +80% Target Flinch",
+      "7.62X51mm High Velocity :: -4.9% Range",
+      "7.62X51mm Incendiary :: -10% Range"
+    ],
+    "BARREL": [
+      "14\" Chroma LRS :: +21.5% Range",
+      "16\" Tour RP :: -4.9% Range",
+      "24\" Outreach 4 :: +20.1% Range",
+      "12.5\" Rugged ZN :: -7.5% Range"
+    ],
+    "GUARD": [
+      "Torrent Tac Guard :: +12% Crouch Speed",
+      "TT-HG 40 :: -12% Gun Kick",
+      "Torrent MOC-IV :: +10% Gun Kick"
+    ],
+    "MAGAZINE": [
+      "30 Round Mag :: -4% Move. Speed",
+      "50 Round Drum :: -13% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

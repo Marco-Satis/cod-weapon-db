@@ -1,0 +1,50 @@
+{
+  "id": "katt-amr",
+  "name": "KATT-AMR",
+  "class": "Sniper",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 Anti-Materiel Sniper (.50 Cal, 33 RPM, 5-round, Bolt). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 33,
+    "mag": 5,
+    "reload_s": 4.8,
+    "ads_ms": 620,
+    "velocity_ms": 650,
+    "move_ms": 4.3,
+    "sprint_to_fire_ms": 351,
+    "sprint_ms": 5.9
+  },
+  "slots": {
+    "AMMUNITION": [
+      ".50 Cal High Grain Rounds :: +15% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      ".50 Cal Low Grain Rounds :: -15% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      ".50 Cal Mono :: -1.3% Range | +8% Bullet Velocity | +3% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      ".50 Cal Spire Point Rounds :: +5.4% Range | +15% Bullet Velocity",
+      ".50 Cal Frangible :: -5.1% Range",
+      ".50 Cal Armor Piercing",
+      ".50 Cal High Velocity :: -5.1% Range | +20% Bullet Velocity",
+      ".50 Cal Incendiary :: -10% Range | -25% Bullet Velocity",
+      ".50 Cal Explosive :: +43.1% Range | -48% Bullet Velocity"
+    ],
+    "BARREL": [
+      "Tempus Aura Heavy Long Barrel :: -8% Gun Kick | -13% Horiz. Recoil | -13% Vert. Recoil | -5% Move | -3% Sprint | +10% Sprint to Fire",
+      "Perdition 24\" Short Barrel :: -9% Range | -5% Bullet Velocity | +2% Horiz. Recoil | +2% Vert. Recoil | +3% Move | +3% Crouch | -3% ADS Time | -12% Sprint to Fire",
+      "Zang-34 Barrel :: +25% Range | +10% Bullet Velocity | +10% Sprint to Fire"
+    ],
+    "BOLT": [
+      "Ephemeral Quickbolt :: +28% Fire Rate",
+      "Requiem-9 Heavy Bolt :: +3% Fire Rate | -14% Idle Sway"
+    ],
+    "CONVERSION KIT": [
+      "JAK Salvo :: -68% Bullet Velocity | -50% Gun Kick | -50% Horiz. Recoil | -50% Vert. Recoil | -15% ADS Time"
+    ],
+    "MAGAZINE": [
+      "7 Round Mag :: -3% Move | -3% Crouch | -1% Sprint | -4% ADS Move | +2% ADS Time | +9% Reload"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

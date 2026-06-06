@@ -1,0 +1,51 @@
+{
+  "id": "egrt-17",
+  "name": "EGRT-17",
+  "class": "AR",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "BO7-native Meta-AR (811 RPM, 34-round). Voll-Extraktion (Quelle wz_attachment_deltas.md), kanonisiert auf weapon-spez; universelle Slots = BO7-Pool. FIRE MODS mit Ricochet/MFS Heated Echo Exotic-Ammo.",
+  "extraction": "weapon-specific-only-BO-fromMD",
+  "base": {
+    "rpm": 811,
+    "mag": 34,
+    "reload_s": 2.69,
+    "ads_ms": 230,
+    "velocity_ms": 915,
+    "move_ms": 4.8,
+    "sprint_to_fire_ms": 179,
+    "sprint_ms": 7.3
+  },
+  "slots": {
+    "BARREL": [
+      "20.7\" Hawker NAP-3 Barrel :: +15.2% Range | +6.5% ADS Time",
+      "19.1\" XR-Compulsion Barrel :: +17.3% Range | -6% Bullet Velocity | -0.4% Gun Kick | -15% Horiz. Recoil | +9.5% Idle Sway | +6.5% ADS Move.",
+      "17.9\" EAM Planar Barrel :: +7.6% Range | +8% Bullet Velocity | +4.3% ADS Time",
+      "14.6\" LTI Verdin Barrel :: -9.6% ADS Time | -14% Sprint to Fire",
+      "16.5\" Bowen Resistor Barrel :: +15% Bullet Velocity | -14.9% Gun Kick | -11.9% Horiz. Recoil | -15% Vert. Recoil | -9.7% ADS Move. | +15.2% ADS Time | +7.8% Sprint to Fire"
+    ],
+    "FIRE MODS": [
+      "Ricochet Ammo :: +10.7% Range | +4% Bullet Velocity | +5% Gun Kick | +5% Horiz. Recoil | +5% Vert. Recoil",
+      "Bolt Carrier Group :: -5.4% Range | -15% Bullet Velocity | +4.2% Fire Rate | +19.8% Gun Kick | +15.1% Horiz. Recoil | +20% Vert. Recoil",
+      "Buffer Spring :: -10% Gun Kick | -10% Horiz. Recoil | -10% Vert. Recoil",
+      "MFS Heated Echo Rounds :: +15% Range | +4% Bullet Velocity | +5% Gun Kick | +5% Horiz. Recoil | +5% Vert. Recoil"
+    ],
+    "MAGAZINE": [
+      "EAM Acute Mag :: -3.2% ADS Move. | +4.3% ADS Time",
+      "Verto Flip Mag :: -32.2% Reload Time",
+      "Fuel Cell-X3 Mag :: -6.2% Move. Speed | -4% Crouch Speed | -4.1% Sprint Speed | -9.7% ADS Move. | +8.7% ADS Time | +12.6% Reload Time | +11.2% Sprint to Fire",
+      "EAM Nova-Slim Mag :: -5.7% ADS Time | -39.4% Reload Time | -5.6% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Redwell Shade-X Suppressor :: -5.4% Range | -6% Bullet Velocity | -10% Gun Kick | -10% Horiz. Recoil | -10% Vert. Recoil",
+      "EAM Ibis Suppressor",
+      "Lacerta Compensator :: -24.2% Gun Kick | -25% Vert. Recoil",
+      "EAM Finset Brake :: -14.5% Gun Kick | -15% Vert. Recoil",
+      "Tiling Muzzle :: -17.1% Max Hipfire Area",
+      "Monolithic Suppressor :: +10.7% Range | +20% Bullet Velocity | +22.6% ADS Time"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO7-Pool (volle Dumps in wz_attachment_deltas.md)"
+}

@@ -1,0 +1,100 @@
+{
+  "id": "mk-78",
+  "name": "MK.78",
+  "class": "LMG",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "base": {
+    "rpm": 652,
+    "mag": 75,
+    "reload_s": 4.37,
+    "ads_ms": 270,
+    "velocity_ms": 930,
+    "move_ms": 4.6,
+    "sprint_to_fire_ms": 230,
+    "sprint_ms": 7.0
+  },
+  "slots": {
+    "BARREL": [
+      "17\" Bowen Moon Barrel :: +15% Range | +5.6% ADS Time",
+      "20\" Mach-78 Barrel :: +17.3% Range | -5% Bullet Velocity | -0.1% Gun Kick | -15% Horiz. Recoil | +9.4% Idle Sway",
+      "18.5\" Titan Hybrid Barrel :: +7.8% Range | +8% Bullet Velocity | +3.7% ADS Time",
+      "15\" Skylance Barrel :: -7.4% ADS Time | -4.3% Sprint to Fire",
+      "25\" EAM Heavy Barrel :: +14.9% Bullet Velocity | -18.8% Gun Kick | -20% Horiz. Recoil | -20.4% Vert. Recoil | -12.5% ADS Move. | +12.1% ADS Time | +8% Sprint to Fire"
+    ],
+    "FIRE_MODS": [
+      "Bolt Carrier Group :: -19.6% Range | -15% Bullet Velocity | +4.6% Fire Rate | +20% Gun Kick | +25% Horiz. Recoil | +20% Vert. Recoil",
+      "7.62 NATO Overpressured :: +20% Bullet Velocity",
+      "Accelerated Recoil System :: -10% Gun Kick | -10% Horiz. Recoil | -10% Vert. Recoil",
+      "7.62 NATO FMJ"
+    ],
+    "LASER": [
+      "Convergence Box Laser :: -15% Max Hipfire Area",
+      "1mW Adaptive Tactical Laser",
+      "1mW Instinct Laser Array :: +10% Move. Speed | -6.9% ADS Time | -7.6% Sprint to Fire",
+      "1mW Motion Strike Laser :: +10% Move. Speed",
+      "5mW Lockstep Laser :: +10% Move. Speed"
+    ],
+    "MAGAZINE": [
+      "MFS Heatshield Belt Fed :: -12.5% Gun Kick | -15% Horiz. Recoil | -14.3% Vert. Recoil | -30% Max Hipfire Area | +12.5% ADS Move.",
+      "Gravepack Extended Belt :: +7.4% ADS Time | +8.7% Sprint to Fire",
+      "Swift Feed Fast Belt :: -5.6% ADS Time | -12% Reload Time | -6.5% Sprint to Fire",
+      "Payload Belt Extension :: +11.1% ADS Time | +8.9% Reload Time | +13% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Greaves A-762",
+      "RL-7.62 Compensator :: -19.8% Gun Kick | -20% Vert. Recoil",
+      "Bowen Modulator 7.62 :: -7.9% Gun Kick | -8% Vert. Recoil",
+      "Titan-R 7.62 Compensator :: -25% Max Hipfire Area",
+      "Monolithic Suppressor :: +7.8% Range | +20% Bullet Velocity | +20.4% ADS Time"
+    ],
+    "OPTIC": [
+      "Lethal Tools ELO",
+      "VAS LED",
+      "Kepler-Pro Red Dot",
+      "LTI Reflex",
+      "KES Slim Reflex",
+      "PrismaTech Digital Holo",
+      "EMT3 Holo Mk.2",
+      "Kepler T-Range Holo :: -30% Gun Kick | +5.6% ADS Time",
+      "Solaris Holo-IR :: -25% Gun Kick",
+      "EAM Dyad xL :: -50% Gun Kick | +5.6% ADS Time",
+      "LTI Target Finder VZ :: -14.8% ADS Move. | +18.5% ADS Time | +10.9% Sprint to Fire",
+      "Millimeter Scanner :: +10% Gun Kick | +11.1% ADS Time | +10.9% Sprint to Fire",
+      "Redwell 30-5 2x :: -31.2% Gun Kick | +3.4% ADS Time",
+      "Greaves Accuspot 3x :: -30% Gun Kick | +5.6% ADS Time",
+      "Kepler Ultra 4x :: -30% Gun Kick | +7.4% ADS Time",
+      "PrismaTech Turbo 4x :: -30% Gun Kick | +7.4% ADS Time",
+      "VAS Duo Hybrid Sight :: -50% Gun Kick | +5.6% ADS Time",
+      "Bowen X-25 IR :: -50% Gun Kick | +4.8% ADS Time",
+      "EAM Dual Zoom :: -50% Gun Kick | +5.6% ADS Time",
+      "Greaves Ultra Zoom :: -50% Gun Kick | +9.3% ADS Time",
+      "Kepler Custom WVT-08 :: -50% Gun Kick | +7.4% ADS Time",
+      "Circuit-Z Rangefinder :: -50% Gun Kick | +18.5% ADS Time"
+    ],
+    "REAR GRIP": [
+      "Trailblaze Grip :: -18.5% ADS Time",
+      "Bowen Thrust Grip :: -23.9% Sprint to Fire",
+      "LTI Precision Grip :: -0.2% Gun Kick | -22% Horiz. Recoil | +5.6% ADS Time",
+      "Hades Looper-X Grip :: -9.3% ADS Time",
+      "Fleet-G2 Grip :: -11.8% Gun Kick | -12% Vert. Recoil"
+    ],
+    "STOCK": [
+      "Charon Light Stock :: +17.4% Move. Speed | +42.1% Crouch Speed | +1.4% Sprint Speed",
+      "Bowen Light Stock :: +14.3% Flinch | +18.5% ADS Move. | -7.4% ADS Time",
+      "Shock Shield Stock :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil | -14.8% ADS Move. | +11.1% ADS Time",
+      "Scatter Skeletal Stock :: -15% Max Hipfire Area | -5.6% ADS Time | -10% Sprint to Fire",
+      "Swiftguard Stock :: -5% Gun Kick | -5% Horiz. Recoil | -5% Vert. Recoil | -28.6% Flinch | +7.4% ADS Time"
+    ],
+    "UNDERBARREL": [
+      "Bowen Sentry Foregrip :: -0.3% Gun Kick | -25% Horiz. Recoil",
+      "Ironhold Angled Grip :: -0.1% Gun Kick | -7.9% Horiz. Recoil | -50.9% Idle Sway",
+      "Enhance-32 Handstop :: -42.9% Flinch",
+      "Quickstep Foregrip :: +6.5% Move. Speed | +10.5% Crouch Speed | +7.4% ADS Move.",
+      "EAM Steady-90 Grip :: -0.1% Gun Kick | -7.9% Horiz. Recoil | +6.5% Move. Speed | +10.5% Crouch Speed | +2.9% Sprint Speed",
+      "Parallel Foregrip :: +13.9% Gun Kick | +14% Vert. Recoil | +15.1% Idle Sway | +18.5% ADS Move. | -13% ADS Time"
+    ]
+  }
+}

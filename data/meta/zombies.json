@@ -1,0 +1,529 @@
+{
+  "category": "zombies",
+  "game": "bo7",
+  "data_version": "S4 (2026-06-05, Launch 2026-06-04)",
+  "source": "wzstats.gg, scufgaming.com, gamerant, codcentral.net, codmunity.gg, pcgamesn, dexerto, techtimes u.a. (je Abschnitt verlinkt)",
+  "method_note": "Recherche via WebSearch + WebFetch. Chrome nicht verfuegbar. Tier-Listen-Seiten teils JS-lastig -> Attachment-Details fehlen oft im statischen HTML ([LÜCKE] vermerkt). Quellen widersprechen sich bei besten Waffen (siehe tier_lists) — normal (unterschiedliche Methodik + Patch-Staende).",
+  "s4_context": [
+    {
+      "element": "Nuked (Survival-Map)",
+      "detail": "Korrumpiertes Nuketown-Wohnviertel, Kampf Yellow/Green House. Gegner: Standard-Zombies + Rad-Hounds. Rewards bei Runde 10/25/50 (Camos, Charm)",
+      "release": "Launch (2026-06-04)"
+    },
+    {
+      "element": "Kowakujō (Round-Based-Map)",
+      "detail": "Feudal-japanisches Schloss nahe aktivem Vulkan. Neue Wonder Weapon, 'hellish' GobbleGum, neue Gegner",
+      "release": "Mid-Season (~Anfang Juli 2026, S4 Reloaded)"
+    },
+    {
+      "element": "Rogue Run (permanent Roguelite)",
+      "detail": "Start mit Common-Pistol + Infinite Ammo, 3 Reward-Pedestals pro Runde, 5 Playlist-Varianten mit eigenen HVT-Bossen",
+      "release": "Launch"
+    },
+    {
+      "element": "Totenreich Directed Mode",
+      "detail": "Gefuehrte Quest, On-Screen-Steps, Runden-Cap 15, neuer Gegner Necropincer",
+      "release": "Launch"
+    },
+    {
+      "element": "Starting Room: Totenreich",
+      "detail": "Alle Ausgaenge aus Eidskallen Landing gesperrt — Survival nur im Startbereich",
+      "release": "Launch"
+    },
+    {
+      "element": "Hellping Hound (GobbleGum)",
+      "detail": "Neue Kampfunterstuetzung fuer Zombies-Runs",
+      "release": "Launch"
+    }
+  ],
+  "s4_balance_changes": [
+    "Speed Cola -> Ammo Surge Augment verbessert",
+    "Ion Core Damage erhoeht",
+    "War Machine Reserve-Munition entfernt",
+    "Jotunn Star (Totenreich-Wonder-Weapon) Bugfixes — nicht neu in S4"
+  ],
+  "tier_lists": {
+    "wzstats": {
+      "source": "wzstats.gg/bo7-zombies/meta (Juni 2026)",
+      "note": "[LÜCKE] Attachment-Builds nicht im statischen HTML.",
+      "by_category": {
+        "Assault Rifle": {
+          "s_tier": "Voyak KT-3",
+          "a_tier": [
+            "AK-27 (#2)",
+            "DS20 Mirage (#3)",
+            "MXR-17 (#4)"
+          ]
+        },
+        "SMG": {
+          "s_tier": "VST",
+          "a_tier": [
+            "Kogot-7 (#2)",
+            "Razor 9mm (#3)",
+            "Ryden 45K (#4)"
+          ]
+        },
+        "Shotgun": {
+          "s_tier": "SG-12",
+          "a_tier": [
+            "M10 Breacher (#2)",
+            "Akita (#3)"
+          ]
+        },
+        "LMG": {
+          "s_tier": "XM325",
+          "a_tier": [
+            "Sokol 545 (#2)",
+            "MK.78 (#3)"
+          ]
+        },
+        "Marksman Rifle": {
+          "s_tier": "M34 Novaline",
+          "a_tier": [
+            "Swordfish A1 (#2)",
+            "M8A1 (#3)"
+          ]
+        },
+        "Sniper": {
+          "s_tier": "Shadow SK",
+          "a_tier": [
+            "XR-3 Ion (#2)"
+          ]
+        },
+        "Pistol": {
+          "s_tier": "1911",
+          "a_tier": [
+            "CODA 9 (#2)"
+          ]
+        },
+        "Melee/Wonder": {
+          "s_tier": "Ballistic Knife",
+          "a_tier": []
+        },
+        "Special": {
+          "s_tier": "NX Ravager (#1)",
+          "a_tier": []
+        }
+      }
+    },
+    "scuf": {
+      "source": "scufgaming.com Zombies Weapons Tier List",
+      "note": "[LÜCKE] base-stats Tier-List ohne PAP/High-Round-Scaling. Kriterien: damage output, recoil control, reload speed, efficiency.",
+      "s_tier": [
+        "Peacekeeper MK1",
+        "DS20 Mirage",
+        "Jager 45",
+        "M15 Mod 0",
+        "XM325",
+        "MXR-17",
+        "Dravec 45"
+      ],
+      "a_tier": [
+        "Coda 9",
+        "Knife",
+        "M8A1",
+        "M10 Breacher",
+        "AK-27",
+        "Echo 12"
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "1911",
+      "weapon": "1911 (akimbo)",
+      "role": "DER High-Round-Pick. PAP -> Mustang & Sally (explosive Pistols), wipet ganze Horden. Braucht PhD Flopper (sonst Selbstkill)",
+      "source": "gamerant, codcentral, codmunity"
+    },
+    {
+      "id": "vst",
+      "weapon": "VST (SMG, akimbo)",
+      "role": "Hoechste Fire-Rate, top Mobilitaet, hohes DPS, aggressiver Style",
+      "source": "gamerant, wzstats"
+    },
+    {
+      "id": "shadow-sk",
+      "weapon": "Shadow SK (Sniper)",
+      "role": "Semi-auto, massiver Weakspot-Damage ohne Full-Auto",
+      "source": "gamerant, wzstats"
+    },
+    {
+      "id": "xr-3-ion",
+      "weapon": "XR-3 Ion (Sniper)",
+      "role": "3-Round-Burst, sehr hoher Damage -> Boss-Fights (z.B. Totenreich). Schwaeche: Mobilitaet",
+      "source": "gamerant"
+    },
+    {
+      "id": "m34-novaline",
+      "weapon": "M34 Novaline (Shotgun)",
+      "role": "Wallbuy auf Totenreich, PAP -> Full-Auto, 'insane damage' fuer Boss/EE-Runs",
+      "source": "gamerant, wzstats"
+    },
+    {
+      "id": "voyak-kt-3",
+      "weapon": "Voyak KT-3 (AR)",
+      "role": "Allround-AR fuer jedes Szenario",
+      "source": "codmunity, wzstats"
+    },
+    {
+      "id": "ak-27",
+      "weapon": "AK-27 (AR)",
+      "role": "Hoechster AR-Damage mit Battle-Scar Conversion",
+      "source": "codmunity, gamerant"
+    },
+    {
+      "id": "warden-308",
+      "weapon": "Warden 308",
+      "role": "Dual-Revolver-Conversion (Alt-Pick)",
+      "source": "gamerant"
+    },
+    {
+      "id": "jager-45",
+      "weapon": "Jager 45 (akimbo)",
+      "name_de": "Jäger 45",
+      "role": "PAP -> Shotgun-Pellet-Waffe (Sekundaer-Alternative zu 1911)",
+      "source": "codcentral"
+    }
+  ],
+  "items_gap": "[LÜCKE] Exakte 5er-Attachment-Listen je Waffe liegen in keiner statisch ladbaren Quelle vollstaendig vor — nur Schluessel-Attachments (Akimbo 1911, Battle-Scar Conversion, Akimbo VST). Vollstaendige Builds = JS-Build-Tools (wzstats/codmunity, Chrome belegt).",
+  "main_loadout": {
+    "name": "Mustang & Sally Carry (Standard-Meta, push past Round 50)",
+    "source": "codcentral.net + pcgamesn",
+    "date_note": "COD Central nennt es 'Season-3-Meta (April 2026)'. Mit S4-Balance (Speed-Cola-Buff) bleibt Mustang-&-Sally-Kern gueltig — kein S4-Nerf der 1911/PhD bekannt.",
+    "slots": [
+      {
+        "slot": "Primaer/Sekundaer",
+        "choice": "1911 akimbo -> PAP Mustang & Sally",
+        "reason": "Horden-Wipe via Explosivschuss"
+      },
+      {
+        "slot": "Ammo Mod",
+        "choice": "Dead Wire (Major: Lightning Strike)",
+        "reason": "Crowd-Control via AoE-Stun"
+      },
+      {
+        "slot": "Field Upgrade",
+        "choice": "Aether Shroud (Major: Group Shroud / After Image)",
+        "reason": "'almost mandatory' ab Runde 40 — Escape/Reset"
+      },
+      {
+        "slot": "Pflicht-Perk",
+        "choice": "PhD Flopper",
+        "reason": "Immunitaet gegen eigene Explosionen (sonst toedlich) + PhD-Slider-Augment"
+      }
+    ]
+  },
+  "pack_a_punch": {
+    "tiers": 4,
+    "tier_4_cursed_mode": "~100.000 Punkte Investment; benoetigt 3x Tier-1-Relics, 2x Tier-2, 1x Tier-3 aktiv",
+    "first_upgrade_effect": "verdoppelt i.d.R. Magazin-Kapazitaet (z.B. M15 Mod 0; Utus Petition -> 60 rounds)",
+    "higher_tiers": "verstaerken Damage, Fire-Rate, Spezial-Effekte. [LÜCKE] keine exakten %-Multiplier in Quelle",
+    "transformations": [
+      {
+        "base": "1911 (akimbo)",
+        "pap_name": "Mustang & Sally"
+      },
+      {
+        "base": "Ray Gun Mark 2",
+        "pap_name": "Porter's Mark 2"
+      },
+      {
+        "base": "KOD 9",
+        "pap_name": "No Cap"
+      },
+      {
+        "base": "M15 Mod Zero",
+        "pap_name": "Nyx Fall"
+      },
+      {
+        "base": "XM325",
+        "pap_name": "Merk Scogsra"
+      },
+      {
+        "base": "Jager 45 (akimbo)",
+        "pap_name": "(Shotgun-Pellet-Conversion)"
+      },
+      {
+        "base": "M34 Novaline",
+        "pap_name": "Full-Auto-Conversion"
+      }
+    ],
+    "source": "techtimes.com (2025-12-02). [LÜCKE] Essence-Kosten Tier 1-3 nicht itemisiert; nur Tier-4-Wert (100k, Cursed Mode)."
+  },
+  "ammo_mods": [
+    {
+      "mod": "Dead Wire",
+      "major": "Lightning Strike (AoE-Stun von oben, > Ball Lightning fuer High-Round-CC) / alt. Ball Lightning",
+      "minor": [
+        "High Voltage",
+        "Haste"
+      ],
+      "use": "Bestes High-Round-CC"
+    },
+    {
+      "mod": "Cryo Freeze",
+      "major": "Big Game (slowt Elites) / Ice Cloud (Slow-Cloud High-Round)",
+      "minor": [
+        "Extension",
+        "Liquid Nitrogen"
+      ],
+      "use": "Slow/Freeze, Elite-Kontrolle"
+    },
+    {
+      "mod": "Brain Rot",
+      "major": "Big Game (Elites -> Allies) / Pheromone (Ally lenkt ab)",
+      "minor": [
+        "Super Serum",
+        "Extension"
+      ],
+      "use": "Toxic-Damage + Ablenkung"
+    },
+    {
+      "mod": "Napalm Burst",
+      "major": "Petroleum (Feuer-Pool am Boden)",
+      "minor": [
+        "Extension",
+        "Incendiary"
+      ],
+      "use": "Flaechen-DoT"
+    },
+    {
+      "mod": "Shatter Blast",
+      "major": "Blast Repair (stellt Armor bei Armor-Break wieder her)",
+      "minor": [
+        "Blast Zone",
+        "Blast Boost"
+      ],
+      "use": "Armor-Sustain"
+    }
+  ],
+  "ammo_mods_recommendation": "High-Round: Dead Wire + Lightning Strike ('best ammo mod for high rounds').",
+  "perks": {
+    "tier_list": {
+      "s_meta": [
+        "Jugger-Nog",
+        "Quick Revive",
+        "Double Tap",
+        "Deadshot Daiquiri",
+        "Stamin-Up",
+        "Vulture Aid",
+        "Speed Cola"
+      ],
+      "a": [
+        "Wisp Tea",
+        "PhD Flopper",
+        "Mule Kick"
+      ],
+      "b": [
+        "Elemental Pop",
+        "Death Perception",
+        "Melee Macchiato"
+      ],
+      "source": "wzstats.gg. [LÜCKE] Funktions-Beschreibungen nicht im statischen HTML."
+    },
+    "best_augments": [
+      {
+        "perk": "Jugger-Nog",
+        "major": "Turtle Shell (absorbiert Ruecken-Damage komplett) / alt. Reactive Armor",
+        "minor": [
+          "Durable Plates",
+          "Hardened Plates"
+        ]
+      },
+      {
+        "perk": "Speed Cola",
+        "major": "Ammo Surge (Speed-Burst beim Reload; in S4 gebufft)",
+        "minor": [
+          "Quick Swap",
+          "Prestidigitation"
+        ]
+      },
+      {
+        "perk": "Stamin-Up",
+        "major": "Dasher (laengerer Tactical Sprint)",
+        "minor": [
+          "Footwork",
+          "Quarterback"
+        ]
+      },
+      {
+        "perk": "Quick Revive",
+        "major": "EMT / Dying Wish",
+        "minor": [
+          "Emergency Medical Kit",
+          "Slow Death"
+        ]
+      }
+    ],
+    "buy_order": "1. Mule Kick zuerst (Augment Kick Back = Rabatt auf alle weiteren Perks) -> 2. Jugger-Nog (Reactive Armor) -> 3. Speed Cola (Classic Formula) -> 4. Stamin-Up -> 5. Quick Revive -> 6. Double Tap -> 7. PhD Flopper (Pflicht bei Mustang & Sally) -> danach Elemental Pop, Vulture Aid, Death Perception, Deadshot Daiquiri, Melee Macchiato"
+  },
+  "field_upgrades": {
+    "tier_list": {
+      "s_meta": [
+        "Aether Shroud (#1)",
+        "Toxic Growth (#2)",
+        "Wild Fire (#3)",
+        "Frenzied Guard (#4)",
+        "Mister Peeks (#5)"
+      ],
+      "a": [
+        "Energy Mine",
+        "Frost Blast",
+        "Healing Aura",
+        "Tesla Storm"
+      ],
+      "b": [
+        "Dark Flare"
+      ]
+    },
+    "best_augments": [
+      {
+        "field_upgrade": "Aether Shroud",
+        "major": "After Image (Distract-Klon) / Group Shroud",
+        "minor": [
+          "Instant Reload",
+          "Extra Charge"
+        ]
+      },
+      {
+        "field_upgrade": "Toxic Growth (neu)",
+        "major": "Urticant (groessere Flaeche, Slow haelt nach Verlassen an)",
+        "minor": [
+          "Ankle Shredder",
+          "Green Thumb"
+        ]
+      },
+      {
+        "field_upgrade": "Healing Aura",
+        "major": "Necromancer (kann tote Allies reviven)",
+        "minor": [
+          "Inner Strength",
+          "Stoic Presence"
+        ]
+      }
+    ]
+  },
+  "gobblegums": [
+    {
+      "gum": "Perkaholic",
+      "effect": "Alle Perks sofort (Legendary)",
+      "use": "Frueh poppen fuer max Wert"
+    },
+    {
+      "gum": "Wonderbar",
+      "effect": "Garantiert Wonder Weapon aus Mystery Box",
+      "use": "Wonder-Weapon-Farm"
+    },
+    {
+      "gum": "Reign Drops",
+      "effect": "Alle Power-Ups",
+      "use": "Reset/Push"
+    },
+    {
+      "gum": "Gift Card",
+      "effect": "30.000 Essence",
+      "use": "Fruehes Setup"
+    },
+    {
+      "gum": "Time Out",
+      "effect": "Killt alle Normal/Special-Gegner + beendet Runde + 3 Min Ruhe",
+      "use": "EE-Steps, Regroup"
+    },
+    {
+      "gum": "Phoenix Up",
+      "effect": "Revived alle Teammates (Perks bleiben)",
+      "use": "Squad-Wipe-Recovery"
+    },
+    {
+      "gum": "Hellping Hound (NEU S4)",
+      "effect": "Zusaetzliche Kampfunterstuetzung",
+      "use": "S4-Neuzugang"
+    },
+    {
+      "gum": "Idle Eyes / Round Off / Near Death Experience",
+      "effect": "Situativ",
+      "use": "Solo/Team"
+    }
+  ],
+  "gobblegums_recommended_pack": [
+    "Wonderbar",
+    "Perkaholic",
+    "Reign Drops",
+    "Gift Card",
+    "Idle Eyes",
+    "Round Off"
+  ],
+  "maps": [
+    {
+      "map": "Paradox Junction",
+      "setting": "Zeitreise auf Nuketown, Story um Astra Malorum (2. BO7-Map)",
+      "wonder_weapon": null,
+      "wonder_weapon_todo": true,
+      "boss": "Main-Quest EE"
+    },
+    {
+      "map": "Totenreich",
+      "setting": "Eidskallen, Norse-Fischerdorf im Dark Aether (S3 Reloaded)",
+      "wonder_weapon": "Jotunn Star",
+      "boss": "Dravakar (Multi-Phase, Roboter-Arena)"
+    },
+    {
+      "map": "Nuked (S4)",
+      "setting": "Korrumpiertes Nuketown-Viertel (Survival)",
+      "wonder_weapon": null,
+      "boss": "Rad-Hounds, Rewards R10/25/50"
+    },
+    {
+      "map": "Kowakujō (S4 Mid-Season)",
+      "setting": "Feudal-Japan-Schloss am Vulkan (Round-Based)",
+      "wonder_weapon": "Neu (supernatural)",
+      "wonder_weapon_todo": true,
+      "boss": "Neue Gegner, 'hellish' GobbleGum"
+    }
+  ],
+  "high_round_strategy": [
+    "Carry-Waffe = Mustang & Sally (PAP 1911 akimbo) + PhD Flopper Pflicht. Ohne PhD killen dich die eigenen Explosivschuesse.",
+    "Ammo Mod Dead Wire + Lightning Strike fuer AoE-Stun-Crowd-Control auf High Rounds.",
+    "Aether Shroud als Panik-Reset ab ~Runde 40 ('almost mandatory').",
+    "Perk-Kaufreihenfolge mit Mule Kick zuerst (Kick-Back-Rabatt) -> maximiert Essence.",
+    "GobbleGums sparen fuer kritische Momente: Perkaholic frueh, Phoenix Up bei Squad-Wipe, Time Out fuer EE-Steps.",
+    "Favoriten-Builds setzen, damit Mystery-Box-Drops gespeicherte Attachments bringen.",
+    "Boss-Fights (z.B. Dravakar / Totenreich): Wechsel auf hohen Burst-Damage — XR-3 Ion / Shadow SK / M34 Novaline (PAP Full-Auto)."
+  ],
+  "open_gaps": [
+    {
+      "gap": "Vollstaendige 5er-Attachment-Builds je Waffe",
+      "reason": "JS-only Build-Tools (wzstats/codmunity), Chrome belegt",
+      "todo": true
+    },
+    {
+      "gap": "Exakte PAP-Damage-Multiplier (%) je Tier",
+      "reason": "Quelle nur qualitativ ('insane multipliers')",
+      "todo": true
+    },
+    {
+      "gap": "Essence-Kosten PAP Tier 1-3",
+      "reason": "nur Tier-4 (~100k Cursed Mode) belegt",
+      "todo": true
+    },
+    {
+      "gap": "Kowakujō Wonder-Weapon-Name",
+      "reason": "Mid-Season-Content, noch nicht released",
+      "todo": true
+    },
+    {
+      "gap": "Paradox-Junction Wonder Weapon (Name)",
+      "reason": "in ladbaren Quellen nicht genannt",
+      "todo": true
+    },
+    {
+      "gap": "Perk-Funktions-Beschreibungen (wzstats)",
+      "reason": "Tier-Seite listet nur Rang",
+      "todo": true
+    },
+    {
+      "gap": "Quellen-Datums-Drift",
+      "reason": "Mehrere Loadout-Guides aus S3 (April 2026); kein S4-Nerf des Mustang-&-Sally-Kerns bekannt"
+    }
+  ]
+}

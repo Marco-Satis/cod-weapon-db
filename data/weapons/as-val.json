@@ -1,0 +1,42 @@
+{
+  "id": "as-val",
+  "name": "AS VAL",
+  "class": "AR",
+  "game": "bo6",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO6 AR (integral suppressed, kein MUZZLE-Slot). Universelle Slots = BO6-Pool.",
+  "extraction": "weapon-specific-only",
+  "base": {
+    "rpm": 896,
+    "mag": 30,
+    "reload_s": 1.87,
+    "ads_ms": 220,
+    "velocity_ms": 890,
+    "move_ms": 4.8,
+    "sprint_to_fire_ms": 180,
+    "sprint_ms": 6.3
+  },
+  "slots": {
+    "BARREL": [
+      "Suppressed Gain-Twist Barrel :: +50% Bullet Velocity",
+      "Suppressed Long Barrel :: +50% Range",
+      "Suppressed Reinforced Barrel :: +29.9% Range | +30% Bullet Velocity",
+      "Suppressed CHF Barrel :: Neck-dmg = Head | +29.2% Gun Kick | +20% Horiz. Recoil | +30% Vert. Recoil"
+    ],
+    "FIRE_MODS": [
+      "Rapid Fire :: -15% Bullet Velocity | +9.8% Fire Rate | +15.3% Gun Kick | +20% Horiz. Recoil | +15% Vert. Recoil",
+      "9x39mm Soviet Overpressured :: +20% Bullet Velocity",
+      "Recoil Springs :: -29% Gun Kick | -20% Horiz. Recoil | -30% Vert. Recoil",
+      "9x39mm Soviet FMJ"
+    ],
+    "MAGAZINE": [
+      "Flip Mag :: +25% Reload Time",
+      "Extended Mag I :: +9.1% ADS Time | +30% Reload Time | +11.1% Sprint to Fire",
+      "Extended Mag II :: +11.4% ADS Time | +53.6% Reload Time | +16.7% Sprint to Fire",
+      "Extended Mag III :: +13.6% ADS Time | +73% Reload Time | +22.2% Sprint to Fire"
+    ],
+    "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO6-Pool (ref lc10.json)"
+  }
+}

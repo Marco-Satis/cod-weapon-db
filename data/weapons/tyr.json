@@ -1,0 +1,50 @@
+{
+  "id": "tyr",
+  "name": "Tyr",
+  "class": "Pistol",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 Pistol/Revolver (12.7x55mm, 260 RPM, 5-round fix). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/TRIGGER ACTION/CONVERSION KIT (kein MAGAZINE, Trommel-fix). JAK Beholder = Rifle-Conversion.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 260,
+    "mag": 5,
+    "reload_s": 4.13,
+    "ads_ms": 210,
+    "velocity_ms": 310,
+    "move_ms": 5.1,
+    "sprint_to_fire_ms": 48,
+    "sprint_ms": 6.6,
+    "zoom_x": 0.8
+  },
+  "slots": {
+    "AMMUNITION": [
+      "12.7x55mm Armor Piercing",
+      "12.7x55mm Frangible :: -6.3% Range",
+      "12.7x55mm Hollowpoint",
+      "12.7x55mm Overpressured +P :: +80% Target Flinch",
+      "12.7x55mm High Grain Rounds :: +14.8% Range",
+      "12.7x55mm Low Grain Rounds :: -15% Range",
+      "12.7x55mm Hardened Rounds :: -27.4% Range",
+      "12.7x55mm AET Rounds :: -30% Target Flinch",
+      "12.7x55mm Snake Shot :: -67.2% Range"
+    ],
+    "BARREL": [
+      "ZIU-16 Heavy Long Barrel :: +27.9% Range",
+      "Hel's Reach Short Barrel :: +3% Horiz. Recoil",
+      "Limitless V2 Heavy Barrel :: -9% Gun Kick",
+      "Huntlock Light Barrel :: -6.3% Range"
+    ],
+    "CONVERSION KIT": [
+      "JAK Beholder Rifle Kit :: +50% Bullet Velocity"
+    ],
+    "TRIGGER ACTION": [
+      "Ullr's Fury :: +25% Fire Rate",
+      "Odin's Judgement :: -20% Fire Rate",
+      "Ali's Regret :: +11% Fire Rate"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

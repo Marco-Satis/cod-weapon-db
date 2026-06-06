@@ -1,0 +1,45 @@
+{
+  "id": "iso-45",
+  "name": "ISO 45",
+  "class": "SMG",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 SMG (.45 Auto, 896 RPM). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 896,
+    "mag": 30,
+    "reload_s": 2.6,
+    "ads_ms": 210,
+    "velocity_ms": 540,
+    "move_ms": 4.7,
+    "sprint_to_fire_ms": 110,
+    "sprint_ms": 6.5,
+    "zoom_x": 0.88
+  },
+  "slots": {
+    "AMMUNITION": [
+      ".45 Auto High Grain Rounds :: +14.9% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      ".45 Auto Low Grain Rounds :: -15.3% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      ".45 Auto Hardened Rounds :: -23.6% Range | -15% Bullet Velocity | +2% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      ".45 Auto Frangible :: -6.2% Range",
+      ".45 Auto Hollowpoint",
+      ".45 Auto Armor Piercing",
+      ".45 Auto Overpressured +P :: +80% Target Flinch"
+    ],
+    "BARREL": [
+      "4\" Frame S-1 :: -8% Range | -6% Bullet Velocity | +12% Idle Sway | -13% Max Hipfire | -12% ADS Time",
+      "7\" Ex Raptor-V2 :: -2.1% Range | -6% Bullet Velocity | +5% Gun Kick | +5% Horiz. Recoil | +5% Vert. Recoil | +3% Idle Sway | -3% Max Hipfire | +4% Move | +4% Crouch | +2% Sprint | +5% ADS Move | -8% ADS Time",
+      "9\" PTX Trainer :: +16% Range | +7% Bullet Velocity | +3% Gun Kick | +3% Horiz. Recoil | +3% Vert. Recoil | -6% Idle Sway | +6% Max Hipfire | +2% Move | +2% Crouch | +1% Sprint | +3% ADS Move | +3% ADS Time",
+      "16\" XLB-S :: +14% Range | +24% Bullet Velocity | -7% Gun Kick | -7% Horiz. Recoil | -7% Vert. Recoil | -9% Idle Sway | +9% Max Hipfire | -3% Move | -3% Crouch | -3% Sprint | -4% ADS Move | +12% ADS Time",
+      "6\" Axeblade :: -8% Range | +18% Bullet Velocity | -14% Gun Kick | -14% Horiz. Recoil | -14% Vert. Recoil | -6% Move | -6% Crouch | -6% Sprint | -8% ADS Move | +8% ADS Time"
+    ],
+    "MAGAZINE": [
+      "12 Round Mag :: Damage profile modified | -23% Fire Rate | +3% Move | +3% Crouch | +2% Sprint | +11% ADS Move | -13% ADS Time | -26% Sprint to Fire",
+      "45 Round Drum :: -6% Move | -7% Crouch | -4% Sprint | -8% ADS Move | +11% ADS Time | +19% Reload"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

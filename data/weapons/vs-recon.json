@@ -1,0 +1,91 @@
+{
+  "id": "vs-recon",
+  "name": "VS Recon",
+  "class": "Sniper",
+  "game": "bo7",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "base_note": "Stats-Panel nach Reload collapsed → Base-Werte nicht gelesen; Slots/Deltas komplett. Base nachtragen (codmunity/wzhub: VS Recon = One-Shot-Bolt-Sniper).",
+  "base": {},
+  "slots": {
+    "BARREL": [
+      "24.9\" Domain Barrel :: +14% Bullet Velocity | -5.1% ADS Time",
+      "23\" 0-Force Barrel :: +27% Bullet Velocity",
+      "21\" Engage-R Barrel :: -11.9% ADS Time",
+      "17\" RistRauch Nimbus Barrel :: -1.7% ADS Time | -7.7% Sprint to Fire",
+      "19.3\" Tack Driver Barrel :: +15% Bullet Velocity | -15% Idle Sway | -20% Flinch"
+    ],
+    "FIRE_MODS": [
+      "Light Bolt :: -15% Bullet Velocity | +27.9% Fire Rate | +20% Gun Kick | +20% Horiz. Recoil | +20% Vert. Recoil",
+      "7.62 NATO Overpressured :: +15% Bullet Velocity",
+      "Accelerated Recoil System :: -10% Gun Kick | -10% Horiz. Recoil | -10% Vert. Recoil",
+      "7.62 NATO FMJ"
+    ],
+    "LASER": [
+      "Convergence Box Laser :: -15% Max Hipfire Area",
+      "1mW Adaptive Tactical Laser",
+      "1mW Instinct Laser Array :: -3.2% ADS Time | -7.7% Sprint to Fire",
+      "1mW Motion Strike Laser",
+      "5mW Lockstep Laser"
+    ],
+    "MAGAZINE": [
+      "Wyvern Extend-Z Mag :: +3.4% ADS Time | +7.7% Sprint to Fire",
+      "VS-R Extended II :: +5.1% ADS Time | +20.2% Reload Time | +11.5% Sprint to Fire",
+      "DashLine Speed Mag :: -3.4% ADS Time | -12.5% Reload Time | -5.8% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Greaves A-762",
+      "RL-7.62 Compensator :: -14.3% Gun Kick | -15.5% Vert. Recoil",
+      "VS-762 Brake :: -8.6% Gun Kick | -8.9% Vert. Recoil",
+      "Titan-R 7.62 Compensator :: -25% Max Hipfire Area",
+      "Monolithic Suppressor :: +7.9% Range | +20% Bullet Velocity | +9.3% ADS Time"
+    ],
+    "OPTIC": [
+      "Iron Sight :: -30% Idle Sway | -2.5% ADS Time",
+      "Lethal Tools ELO :: -3.4% ADS Time",
+      "VAS LED :: -3.4% ADS Time",
+      "Greaves Red Dot :: -3.4% ADS Time",
+      "PrismaTech Digital Holo :: -2.5% ADS Time",
+      "EMT3 Holo Mk.2 :: -2.5% ADS Time",
+      "Kepler T-Range Holo :: -30% Gun Kick | -2.5% ADS Time",
+      "Solaris Holo-IR",
+      "EAM Dyad xL :: -50% Gun Kick",
+      "LTI Target Finder VZ :: -15.8% ADS Move. | +8.5% ADS Time | +9.6% Sprint to Fire",
+      "Millimeter Scanner :: +10% Gun Kick | +5.1% ADS Time | +9.6% Sprint to Fire",
+      "Redwell 30-5 2x :: -31.4% Gun Kick",
+      "Greaves Accuspot 3x",
+      "Kepler Ultra 4x",
+      "PrismaTech Turbo 4x",
+      "VAS Duo Hybrid Sight :: -50% Gun Kick",
+      "Bowen X-25 IR :: -50% Gun Kick | +1.7% ADS Time",
+      "EAM Dual Zoom :: -50% Gun Kick",
+      "Greaves Ultra Zoom :: -50% Gun Kick | +2.5% ADS Time",
+      "Kepler Custom WVT-08 :: -50% Gun Kick | +3.4% ADS Time",
+      "Circuit-Z Rangefinder :: -50% Gun Kick | +8.5% ADS Time",
+      "RistRauch 7x :: -50% Gun Kick",
+      "VAS Strix 6x Thermal :: +5.1% ADS Time"
+    ],
+    "REAR GRIP": [
+      "R-1 Shelf Grip :: +20% Flinch | -7.6% ADS Time",
+      "R-2-Laufen Grip :: -23.1% Sprint to Fire",
+      "VS Poise Grip :: -0.1% Gun Kick | -8% Horiz. Recoil | -20% Flinch",
+      "Kinesis Grip :: +10% Flinch | -3.7% ADS Time",
+      "Skeletal Grip :: -11.9% Gun Kick | -12% Vert. Recoil"
+    ],
+    "STOCK": [
+      "Contra Light Pad :: +15.2% Move. Speed | +33.3% Crouch Speed | +4.2% Sprint Speed",
+      "RistRauch Breach Pad :: +31.6% ADS Move.",
+      "Stabil Heavy Pad :: -25.7% Flinch",
+      "Stronghold Stock Pad :: -15% Max Hipfire Area",
+      "Outpost Raider Pad :: -11.4% Flinch | +15.8% ADS Move."
+    ],
+    "UNDERBARREL": [
+      "MFS R-Stop Handguard :: -51.4% Gun Kick | -50% Horiz. Recoil | -51.1% Vert. Recoil | -35.7% Flinch | -2.5% ADS Time | -7.7% Sprint to Fire",
+      "AxisPro Handguard :: -0.2% Gun Kick | -25% Horiz. Recoil",
+      "Stetig-C Handguard :: -0.1% Gun Kick | -15% Horiz. Recoil | -40% Idle Sway",
+      "Kinetic Lock Handguard :: +8.7% Move. Speed | +9.5% Crouch Speed | +15.8% ADS Move.",
+      "Breacher Handguard :: -0.1% Gun Kick | -15% Horiz. Recoil | +8.7% Move. Speed | +9.5% Crouch Speed | +4.2% Sprint Speed"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "fennec-45",
+  "name": "Fennec 45",
+  "class": "SMG",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 SMG (.45 Auto, 1091 RPM hoechste Feuerrate, 30-round). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 1091,
+    "mag": 30,
+    "reload_s": 3,
+    "ads_ms": 190,
+    "velocity_ms": 300,
+    "move_ms": 4.8,
+    "sprint_to_fire_ms": 99,
+    "sprint_ms": 6.9,
+    "zoom_x": 0.88
+  },
+  "slots": {
+    "AMMUNITION": [
+      ".45 Auto High Grain Rounds :: +15.3% Range",
+      ".45 Auto Low Grain Rounds :: -14.7% Range",
+      ".45 Auto Hardened Rounds :: -23.7% Range",
+      ".45 Auto Frangible :: -4.7% Range",
+      ".45 Auto Hollowpoint",
+      ".45 Auto Armor Piercing",
+      ".45 Auto Overpressured +P :: +80% Target Flinch"
+    ],
+    "BARREL": [
+      "5.5\" Fennec MiniTac :: -3.7% Range",
+      "FTAC 8.5\" Recon :: -4% Bullet Velocity",
+      "Forge Tac Ninja :: +28.9% Range",
+      "Fennec Covert Force :: +28.9% Range",
+      "ZLR 16.5\" Ignition Barrel :: +40.3% Range"
+    ],
+    "MAGAZINE": [
+      "Fennec Double Tap Mod :: -17.9% Range",
+      "Fennec Mag 45 :: -7% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

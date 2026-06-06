@@ -1,0 +1,58 @@
+{
+  "id": "gs45",
+  "name": "GS45",
+  "class": "Pistol",
+  "game": "bo6",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO6 Pistol (.45 ACP, 286 RPM, 10-round). reload roh '2430 s' -> 2.43.",
+  "extraction": "weapon-specific-only",
+  "base": {
+    "rpm": 286,
+    "mag": 10,
+    "reload_s": 2.43,
+    "ads_ms": 170,
+    "velocity_ms": 375,
+    "move_ms": 5.1,
+    "sprint_to_fire_ms": 110,
+    "sprint_ms": 6.4
+  },
+  "slots": {
+    "AMMUNITION": [
+      "9mm Hardened Rounds :: -25.8% Range | -15% Bullet Velocity",
+      ".50 Pistol Frangible :: -5.2% Range",
+      ".50 Pistol Hollowpoint",
+      ".50 Pistol Armor Piercing",
+      ".50 Pistol Overpressured +P :: +80% Target Flinch",
+      ".500 AET Rounds :: -30% Target Flinch | -20% Bullet Velocity"
+    ],
+    "BARREL": [
+      "Gain-Twist Barrel :: +35% Bullet Velocity",
+      "Long Barrel :: +36.7% Range",
+      "Reinforced Barrel :: +26.7% Range | +20% Bullet Velocity",
+      "Short Barrel",
+      "CHF Barrel :: +49% Gun Kick | +20% Horiz. Recoil | +50% Vert. Recoil"
+    ],
+    "FIRE MODS": [
+      "Rapid Fire :: Does not modify damage profile | +7.7% Fire Rate | +14.8% Gun Kick | +10% Horiz. Recoil | +15% Vert. Recoil",
+      ".45 ACP Overpressured :: +20% Bullet Velocity",
+      "Recoil Springs :: -7% Gun Kick | -7% Horiz. Recoil | -7% Vert. Recoil",
+      ".45 ACP FMJ"
+    ],
+    "MAGAZINE": [
+      "Extended Mag I :: +7% Reload",
+      "Fast Mag I :: -8.8% ADS Time | -24.7% Reload | -9.1% Sprint to Fire",
+      "Extended Mag II :: +11.8% ADS Time | +19.3% Reload | +18.2% Sprint to Fire",
+      "Fast Mag II :: -14.7% ADS Time | -25% Reload | -18.2% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Suppressor",
+      "Compensator :: -28.6% Gun Kick | -30% Vert. Recoil",
+      "Muzzle Brake",
+      "Ported Compensator :: -23.9% Gun Kick | -25% Vert. Recoil",
+      "Monolithic Suppressor :: +10% Range | +20% Bullet Velocity | +32.4% ADS Time"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO6-Pool (ref lc10.json)"
+}

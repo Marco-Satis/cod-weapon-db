@@ -1,0 +1,52 @@
+{
+  "id": "m4",
+  "name": "M4",
+  "class": "AR",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 AR (5.56 NATO, M4, 811 RPM). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 811,
+    "mag": 30,
+    "reload_s": 2.6,
+    "ads_ms": 240,
+    "velocity_ms": 820,
+    "move_ms": 4.8,
+    "sprint_to_fire_ms": 210,
+    "sprint_ms": 6.2,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.56 NATO Low Grain Rounds :: -16.3% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "5.56 NATO High Grain Rounds :: +15% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "5.56 NATO Round Nose :: +50% Target Flinch | -21.2% Range",
+      "5.56 NATO Mono :: -1.5% Range | +8% Bullet Velocity | +3% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      "5.56 Frangible :: -4.9% Range",
+      "5.56 Hollowpoint",
+      "5.56 Armor Piercing",
+      "5.56 Overpressured +P :: +80% Target Flinch",
+      "5.56 High Velocity :: -4.9% Range | +20% Bullet Velocity"
+    ],
+    "BARREL": [
+      "Hightower 20\" Barrel :: +20.2% Range | +24% Bullet Velocity | -9% Gun Kick | -9% Horiz. Recoil | -9% Vert. Recoil | -7% Idle Sway | +8% Max Hipfire | -4% Move | -4% Crouch | -4% Sprint | -5% ADS Move | +10% ADS Time",
+      "419mm EXF Barrel :: +20.2% Range | +12% Bullet Velocity | -7% Idle Sway | +8% Max Hipfire | +6% ADS Time",
+      "14\" Carbine Shroud :: +11% Bullet Velocity | -9% Gun Kick | -9% Horiz. Recoil | -9% Vert. Recoil | -4% Move | -4% Crouch | -4% Sprint | -5% ADS Move | +4% ADS Time",
+      "11.5\" T-H4 Barrel :: -4.9% Range | -3% Bullet Velocity | +8% Idle Sway | -8% Max Hipfire | -8% ADS Time",
+      "11.5\" Carbine Shroud :: -4.9% Range | +7% Bullet Velocity | -9% Gun Kick | -9% Horiz. Recoil | -9% Vert. Recoil | +8% Idle Sway | -8% Max Hipfire | -4% Move | -4% Crouch | -4% Sprint | -5% ADS Move | -4% ADS Time",
+      "Tempus Trench Pro :: -4% Bullet Velocity | +5% Gun Kick | +5% Horiz. Recoil | +5% Vert. Recoil | +4% Move | +3% Crouch | +2% Sprint | +5% ADS Move | -5% ADS Time",
+      "7.5\" Tempus Firebrand :: -4.9% Range | -8% Bullet Velocity | +5% Gun Kick | +5% Horiz. Recoil | +5% Vert. Recoil | +8% Idle Sway | -8% Max Hipfire | +4% Move | +3% Crouch | +2% Sprint | +5% ADS Move | -12% ADS Time"
+    ],
+    "CONVERSION KIT": [
+      "Jak Harbinger Kit :: Damage profile modified | -70% Fire Rate | +218% Gun Kick | +67% Horiz. Recoil | +52% Vert. Recoil | -15% Move | -15% Crouch | -10% Sprint | -14% ADS Move | +33% ADS Time | +10% Reload | +10% Sprint to Fire"
+    ],
+    "MAGAZINE": [
+      "45 Round Mag :: -6% Move | -7% Crouch | -4% Sprint | -8% ADS Move | +10% ADS Time | +10% Reload",
+      "60 Round Mag :: -10% Move | -11% Crouch | -7% Sprint | -13% ADS Move | +16% ADS Time | +21% Reload | +1% Sprint to Fire"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

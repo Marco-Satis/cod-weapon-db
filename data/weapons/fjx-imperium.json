@@ -1,0 +1,48 @@
+{
+  "id": "fjx-imperium",
+  "name": "FJX Imperium",
+  "class": "Sniper",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 Sniper (.408, 44 RPM, 5-round, Bolt). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE/BOLT.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 44,
+    "mag": 5,
+    "reload_s": 4.6,
+    "ads_ms": 580,
+    "velocity_ms": 800,
+    "move_ms": 4.6,
+    "sprint_to_fire_ms": 270,
+    "sprint_ms": 6.1,
+    "zoom_x": 0
+  },
+  "slots": {
+    "AMMUNITION": [
+      ".408 Armor Piercing",
+      ".408 Incendiary :: -10% Range",
+      ".408 Frangible :: -5% Range",
+      ".408 Hollowpoint",
+      ".408 High Velocity :: -5% Range",
+      ".408 Overpressured +P :: +80% Target Flinch",
+      ".408 Explosive :: +43% Range"
+    ],
+    "BARREL": [
+      "Fahrenheit 29\" :: +32.1% Range",
+      "LR-Retort 19\" :: +32.1% Range",
+      "Tac-Command 19\" :: -5% Range",
+      "Ceros 22\" :: +3% ADS Time",
+      "Ceros 29\" :: +32.1% Range"
+    ],
+    "BOLT": [
+      "FJX Blast :: +12% Fire Rate",
+      "FJX H-Bolt :: -7% Fire Rate"
+    ],
+    "MAGAZINE": [
+      "7 Round Mag :: -2% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

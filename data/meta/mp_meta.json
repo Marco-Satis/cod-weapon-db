@@ -1,0 +1,580 @@
+{
+  "category": "mp_meta",
+  "game": "bo7",
+  "data_version": "S4 (2026-06-05, Launch 2026-06-04)",
+  "source": "codmunity.gg, wzstats.gg, warzoneloadout.games, leprestore.com, dexerto.com, dotesports.com, gamesradar.com",
+  "naming_discrepancy_note": "Quellen liefern zwei Attachment-Namens-Sets: warzoneloadout.games = BO7-native Namen; leprestore.com = teils MW-/aeltere-Naming + teils andere Top-Waffen. Beide verbatim + getrennt per Build mit Quelle gekennzeichnet. codmunity-Detailseiten JS-only -> nur Sharing-Codes. Im Spiel gegen Codes querchecken.",
+  "tier_list": {
+    "source": "codmunity.gg/tier-list/bo7 (Stand 05.06.2026)",
+    "absolute_meta": [
+      "Voyak KT-3 (AR)",
+      "Peacekeeper Mk1 (AR)",
+      "Swordfish A1 (Marksman)",
+      "Sturmwolf 45 (SMG)",
+      "Hawker HX (Sniper)"
+    ],
+    "A": [
+      "Ryden 45K (SMG)",
+      "MK.78 (LMG)",
+      "EGRT-17 (AR)",
+      "VS Recon (Sniper)",
+      "RK-9 (SMG)",
+      "M8A1 (Marksman)",
+      "DS20 Mirage (AR)",
+      "Carbon 57 (SMG)",
+      "Shadow SK (Sniper)",
+      "Sokol 545 (LMG)",
+      "Razor 9mm (SMG)",
+      "M15 Mod 0 (AR)",
+      "Strider 300 (Sniper)",
+      "Warden 308 (Marksman)",
+      "Dravec 45 (SMG)"
+    ],
+    "B": [
+      "CBRS-3 (SMG)",
+      "Akita (Shotgun)",
+      "X9 Maverick (AR)",
+      "Maddox RFB (AR)",
+      "Kogot-7 (SMG)",
+      "MXR-17 (AR)",
+      "M34 Novaline (Marksman)",
+      "VST (SMG)",
+      "KRS-7.62 (Marksman)",
+      "MK35 ISR (AR)",
+      "REV-46 (SMG)",
+      "AK-27 (AR)",
+      "MPC-25 (SMG)",
+      "XM325 (LMG)"
+    ],
+    "C": [
+      "Echo 12 (Shotgun)",
+      "M10 Breacher (Shotgun)",
+      "1911 Pistol (Pistol)",
+      "SG-12 (Shotgun)"
+    ],
+    "D": [
+      "XR-3 Ion (Sniper)",
+      "CODA 9 (Pistol)",
+      "Jäger 45 (Pistol)",
+      "Velox 5.7 (Pistol)",
+      "Siren (Special)"
+    ],
+    "sniper_discrepancy": "codmunity & warzoneloadout: Hawker HX = #1-Sniper (Absolute Meta). wzstats.gg/bo7/meta: Shadow SK = #1 (Snapshot 'Season 2, updated June 5 2026' = moegliches veraltetes Label). codmunity hier massgeblich."
+  },
+  "items": [
+    {
+      "id": "voyak-kt-3",
+      "class": "AR",
+      "weapon": "Voyak KT-3",
+      "tier": "Absolute Meta",
+      "rank": "#1 AR",
+      "pick_rate": "13.3% (wzstats)",
+      "builds": [
+        {
+          "source": "warzoneloadout.games",
+          "naming": "BO7-native",
+          "slots": [
+            {
+              "slot": "Muzzle",
+              "attachment": "SWF Tishina-11 Muzzle"
+            },
+            {
+              "slot": "Barrel",
+              "attachment": "20\" Danko Barrel"
+            },
+            {
+              "slot": "Optic",
+              "attachment": "FANG HoverPoint ELO Optic"
+            },
+            {
+              "slot": "Underbarrel",
+              "attachment": "Force Stabilizer Handstop"
+            },
+            {
+              "slot": "Magazine",
+              "attachment": "Lineguard Casket Mag"
+            }
+          ]
+        }
+      ],
+      "sharing_codes": [
+        {
+          "source": "codmunity",
+          "code": "A09-34FGB-896MS-51",
+          "slots": 8
+        },
+        {
+          "source": "codmunity",
+          "code": "A09-34FFY-EHQ8B-11",
+          "slots": 5
+        }
+      ]
+    },
+    {
+      "id": "peacekeeper-mk1",
+      "class": "AR",
+      "weapon": "Peacekeeper Mk1",
+      "tier": "Absolute Meta",
+      "rank": "#4 (Alternative Top-Pick AR)",
+      "pick_rate": null,
+      "builds": [
+        {
+          "source": "warzoneloadout.games",
+          "naming": "BO7-native",
+          "slots": [
+            {
+              "slot": "Suppressor",
+              "attachment": "Redwell Shade-X Suppressor"
+            },
+            {
+              "slot": "Barrel",
+              "attachment": "23.5\" Longbow Barrel"
+            },
+            {
+              "slot": "Laser",
+              "attachment": "EMT3 Agile Laser"
+            },
+            {
+              "slot": "Stock",
+              "attachment": "Vagrant-93 Stock"
+            },
+            {
+              "slot": "Foregrip",
+              "attachment": "VAS Convergence Foregrip"
+            }
+          ]
+        },
+        {
+          "source": "leprestore.com",
+          "naming": "abweichend (MW-Style)",
+          "slots": [
+            {
+              "slot": "Muzzle",
+              "attachment": "ZEHMN Compensator"
+            },
+            {
+              "slot": "Barrel",
+              "attachment": "14\" Peacekeeper Performance"
+            },
+            {
+              "slot": "Optic",
+              "attachment": "Slate Reflector"
+            },
+            {
+              "slot": "Underbarrel",
+              "attachment": "FTAC Ripper 56"
+            },
+            {
+              "slot": "Rear Grip",
+              "attachment": "Phantom Grip"
+            }
+          ]
+        }
+      ],
+      "sharing_codes": []
+    },
+    {
+      "id": "sturmwolf-45",
+      "class": "SMG",
+      "weapon": "Sturmwolf 45",
+      "tier": "Absolute Meta",
+      "rank": "#1 SMG",
+      "pick_rate": "5.6%",
+      "builds": [
+        {
+          "source": "warzoneloadout.games",
+          "naming": "BO7-native",
+          "slots": [
+            {
+              "slot": "Suppressor",
+              "attachment": "Redwell Shade-X Suppressor"
+            },
+            {
+              "slot": "Barrel",
+              "attachment": "14.8\" Perigee Barrel"
+            },
+            {
+              "slot": "Laser",
+              "attachment": "EMT3 Agile Laser"
+            },
+            {
+              "slot": "Optic",
+              "attachment": "FANG HoverPoint ELO Optic"
+            },
+            {
+              "slot": "Stock",
+              "attachment": "Mink Stability Stock"
+            }
+          ]
+        }
+      ],
+      "sharing_codes": [
+        {
+          "source": "codmunity",
+          "code": "S07-2WCMF-EPH7L-11",
+          "slots": null
+        }
+      ],
+      "alternatives": [
+        {
+          "weapon": "Ryden 45K",
+          "tier": "A",
+          "note": "schnellste TTK",
+          "source": "warzoneloadout",
+          "slots": [
+            "Redwell Shade-X Suppressor",
+            "12\" Vienna Barrel",
+            "EMT3 Agile Laser",
+            "Lethal Tools ELO",
+            "VAS Interlock Stock"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mk-78",
+      "class": "LMG",
+      "weapon": "MK.78",
+      "tier": "Meta/A-Tier",
+      "rank": null,
+      "pick_rate": null,
+      "warning": "Season-4-NERF (Damage ueber alle Ranges + Bullet-Velocity runter, Quelle Dexerto). Tier-Standing kann fallen. Sokol 545 (A) als Alternative.",
+      "builds": [
+        {
+          "source": "warzoneloadout.games",
+          "naming": "BO7-native",
+          "slots": [
+            {
+              "slot": "Suppressor",
+              "attachment": "Redwell Shade-X Suppressor"
+            },
+            {
+              "slot": "Barrel",
+              "attachment": "15\" Skylance Barrel"
+            },
+            {
+              "slot": "Laser",
+              "attachment": "1mW Instinct Laser"
+            },
+            {
+              "slot": "Optic",
+              "attachment": "Lethal Tools ELO"
+            },
+            {
+              "slot": "Stock",
+              "attachment": "Bowen Light Stock"
+            }
+          ]
+        },
+        {
+          "source": "leprestore.com",
+          "naming": "abweichend",
+          "slots": [
+            {
+              "slot": "Suppressor",
+              "attachment": "VT-7 Spiritfire"
+            },
+            {
+              "slot": "Barrel",
+              "attachment": "MK.78 Factory Long"
+            },
+            {
+              "slot": "Optic",
+              "attachment": "Cronen Mini Pro"
+            },
+            {
+              "slot": "Underbarrel",
+              "attachment": "FTAC Ripper 56"
+            },
+            {
+              "slot": "Grip",
+              "attachment": "Sakin ZX Grip"
+            }
+          ]
+        }
+      ],
+      "sharing_codes": []
+    },
+    {
+      "id": "swordfish-a1",
+      "class": "Marksman",
+      "weapon": "Swordfish A1",
+      "tier": "Absolute Meta",
+      "rank": "#1 Marksman",
+      "pick_rate": "4.8%",
+      "builds": [
+        {
+          "source": "warzoneloadout.games",
+          "naming": "BO7-native",
+          "slots": [
+            {
+              "slot": "Suppressor",
+              "attachment": "Redwell Shade-X Suppressor"
+            },
+            {
+              "slot": "Barrel",
+              "attachment": "13\" EAM Volare Barrel"
+            },
+            {
+              "slot": "Laser",
+              "attachment": "1mW Instinct Laser"
+            },
+            {
+              "slot": "Optic",
+              "attachment": "Lethal Tools ELO"
+            },
+            {
+              "slot": "Fire Mod",
+              "attachment": "MFS Penta Burst Mod"
+            }
+          ]
+        }
+      ],
+      "sharing_codes": [
+        {
+          "source": "codmunity",
+          "code": "M05-66JDL-DBUQ7-1",
+          "slots": null
+        }
+      ],
+      "alternatives": [
+        {
+          "weapon": "M8A1",
+          "tier": "A",
+          "note": "Burst",
+          "source": "leprestore",
+          "slots": [
+            "Purifier Comp",
+            "M8A1 Long-Range",
+            "Forge Tac Delta 4",
+            "Bruen Tilt Grip",
+            "Precision Stock"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hawker-hx",
+      "class": "Sniper",
+      "weapon": "Hawker HX",
+      "tier": "Absolute Meta",
+      "rank": "#1 Sniper",
+      "pick_rate": "3.1% (ADS ~400ms)",
+      "warning": "Tier-Diskrepanz: wzstats nennt Shadow SK als #1. Hawker HX/VS Recon/Strider 300/Shadow SK in S4 alle +13-33% Headshot-Damage gebufft.",
+      "builds": [
+        {
+          "source": "warzoneloadout.games",
+          "naming": "BO7-native",
+          "slots": [
+            {
+              "slot": "Muzzle",
+              "attachment": "SWF Tishina-11 Muzzle"
+            },
+            {
+              "slot": "Barrel",
+              "attachment": "MFS 25\" Voltve Barrel"
+            },
+            {
+              "slot": "Laser",
+              "attachment": "1mW Instinct Laser"
+            },
+            {
+              "slot": "Stock",
+              "attachment": "Hawker Steadfast Stock"
+            },
+            {
+              "slot": "Bolt",
+              "attachment": "Light Bolt"
+            }
+          ]
+        }
+      ],
+      "sharing_codes": [],
+      "alternatives": [
+        {
+          "weapon": "VS Recon",
+          "tier": "A",
+          "note": "schnelles ADS",
+          "source": "leprestore",
+          "slots": [
+            "Suppressor L Type-25",
+            "XRK Heavy",
+            "SP-X 80 Scope",
+            "Heavy Recoil Stock",
+            "Phantom Grip"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "akita",
+      "class": "Shotgun",
+      "weapon": "Akita",
+      "tier": "B",
+      "rank": "#1 Shotgun",
+      "pick_rate": null,
+      "warning": "Shotgun-Klasse insgesamt schwach (Akita nur B, Rest C). SG-12 in S4 hart generft (Base-Damage 40->30, Medium-Range 32->19). M10 Breacher leicht gebufft (Range + ADS).",
+      "builds": [
+        {
+          "source": "warzoneloadout.games",
+          "naming": "BO7-native",
+          "slots": [
+            {
+              "slot": "Bore",
+              "attachment": "Akita Full Bore-12"
+            },
+            {
+              "slot": "Barrel",
+              "attachment": "14\" Retriever Hunt Barrel"
+            },
+            {
+              "slot": "Laser",
+              "attachment": "VAS Precision Shift Laser"
+            },
+            {
+              "slot": "Optic",
+              "attachment": "Lethal Tools ELO"
+            },
+            {
+              "slot": "Stock",
+              "attachment": "MFS GD-7 Shock Stock"
+            }
+          ]
+        }
+      ],
+      "sharing_codes": []
+    },
+    {
+      "id": "1911",
+      "class": "Pistol",
+      "weapon": "1911 Pistol",
+      "tier": "C",
+      "rank": "#1 Pistol",
+      "pick_rate": null,
+      "note": "Pistolen pauschal in S4 gebufft (+20% Damage nach Combat Rating 10, erweiterte Ranges + Mags). Trotzdem niedriges Tier (Secondary-Rolle).",
+      "builds": [
+        {
+          "source": "warzoneloadout.games",
+          "naming": "BO7-native",
+          "slots": [
+            {
+              "slot": "Suppressor",
+              "attachment": "Redwell Shade-X Suppressor"
+            },
+            {
+              "slot": "Barrel",
+              "attachment": "3.7\" Vela Short Barrel"
+            },
+            {
+              "slot": "Magazine",
+              "attachment": "Sirius Extended Mag"
+            },
+            {
+              "slot": "Fire Mod",
+              "attachment": "Recoil Sync Unit Fire Mod"
+            }
+          ]
+        }
+      ],
+      "sharing_codes": [],
+      "alternatives": [
+        {
+          "weapon": "Coda 9",
+          "source": "leprestore",
+          "slots": [
+            "ZEHMN Suppressor",
+            "Compact Short",
+            "Fast Pull Grip"
+          ]
+        },
+        {
+          "weapon": "Jäger 45",
+          "source": "leprestore",
+          "slots": [
+            "Flash Brake 9mm",
+            "Quick Aim Laser",
+            "Ergo Grip"
+          ]
+        }
+      ]
+    }
+  ],
+  "perks": {
+    "source": "wzstats.gg Perks-Tier-List + gamespot/iggm",
+    "meta": [
+      "Ninja (P1)",
+      "Ghost (P1)",
+      "Lightweight (P1)",
+      "Cold-Blooded (P3)",
+      "Scavenger (P2)",
+      "Vigilance (P2)"
+    ],
+    "specialities_meta": [
+      "Enforcer",
+      "Recon",
+      "Scout"
+    ],
+    "A": [
+      "Flak Jacket (P1)",
+      "Tracker (P3)",
+      "Looper (P3)",
+      "Gung Ho (P1)",
+      "Assassin (P2)",
+      "Bankroll (P3)",
+      "Dexterity (P3)",
+      "Fast Hands (P2)",
+      "Strategist (Spec)"
+    ],
+    "recommended_combo": "Lightweight + Fast Hands + Dexterity (Aggro/SMG-Movement) · alternativ Lightweight + Double Time + Fast Hands",
+    "combat_specialty_system": "3 Perks derselben Kategorie aktivieren Bonus — Enforcer (rot, aggressiv), Recon (blau, Intel), Strategist (gruen). Mischen = Hybrid-Specialty."
+  },
+  "wildcards": [
+    {
+      "wildcard": "Gunfighter",
+      "effect": "3 extra Attachment-Slots auf Primary (-> bis zu 8). Meta-Standard. Bei Nutzung: Slots 4:4 auf ADS-Speed / Recoil aufteilen (leprestore)."
+    },
+    {
+      "wildcard": "Perk Greed",
+      "effect": "1 zusaetzlicher Perk-Slot."
+    }
+  ],
+  "equipment": {
+    "source": "gamespot/iggm + codmunity-Icons",
+    "lethal": [
+      "Semtex",
+      "Frag Grenade",
+      "Sticky Grenade"
+    ],
+    "tactical": [
+      "Smoke Grenade",
+      "Stim Shot"
+    ],
+    "melee": "Knife als Secondary verbreitet fuer Movement"
+  },
+  "s4_patch_impact": {
+    "source": "Dexerto 03.06.2026 + dotesports",
+    "AR": "Alle ARs: Suppressor-Verbesserungen. AK-27: weniger Recoil + groesseres Mag. MXR-17: Medium-Range auf 60m erweitert.",
+    "SMG": "Dravec 45: +ROF +Headshot-Mult. MPC-25 & REV-46: +ADS-Speed +Headshot-Mult.",
+    "LMG": "MK.78 generft (Damage ueber alle Ranges + Bullet-Velocity runter).",
+    "Marksman": "Swordfish A1: ungewollter Headshot-Bug gefixt. M34 Novaline: grosser Damage-Boost (Praezisions-Rolle).",
+    "Sniper": "Strider 300 / Hawker HX / VS Recon / Shadow SK: +13-33% Headshot-Damage. Shadow SK zusaetzlich Torso-Buff (Explosive-Bullets-Mod runter).",
+    "Shotgun": "SG-12 Dragon's Breath hart generft (Base 40->30). M10 Breacher gebufft (Range + ADS).",
+    "Pistol": "Alle: +20% Damage nach Combat Rating 10, erweiterte Ranges + Mags.",
+    "Special": "Siren +50% Damage, NX Ravager +26% Damage."
+  },
+  "sources": [
+    "codmunity.gg/tier-list/bo7 (Tier-List + Sharing-Codes, 05.06.2026)",
+    "wzstats.gg/bo7/meta + /best-perks-tier-list",
+    "warzoneloadout.games/bo7 (Attachment-Builds BO7-Naming)",
+    "leprestore.com/guides/cod-guides/bo7-best-attachments",
+    "dexerto.com — All weapon buffs and nerfs Season 4 (03.06.2026)",
+    "dotesports.com — BO7 Season 4 patch notes",
+    "gamesradar.com / gamespot.com / iggm.com / mitchcactus.co"
+  ],
+  "open_gaps": [
+    "Attachment-Naming nicht final verifizierbar — zwei divergierende Namens-Sets (warzoneloadout vs. leprestore). codmunity JS-only. Im Spiel gegen Codes pruefen.",
+    "Sniper-#1 umstritten — Hawker HX (codmunity/warzoneloadout) vs. Shadow SK (wzstats, evtl. 'Season 2'-Label).",
+    "Keine vollstaendigen 8-Slot-Gunfighter-Builds pro Waffe aus einer Quelle — oben 5-Slot-Kern; Sharing-Codes enthalten teils 8-Slot-Varianten.",
+    "gamesradar-Artikel via WebFetch truncated — nicht ausgewertet."
+  ]
+}

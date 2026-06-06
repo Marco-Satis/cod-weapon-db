@@ -1,0 +1,47 @@
+{
+  "id": "rival-9",
+  "name": "Rival-9",
+  "class": "SMG",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 SMG (9mm, 909 RPM, 30-round). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE/CONVERSION KIT.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 909,
+    "mag": 30,
+    "reload_s": 2.7,
+    "ads_ms": 190,
+    "velocity_ms": 470,
+    "move_ms": 4.8,
+    "sprint_to_fire_ms": 110,
+    "sprint_ms": 6.5,
+    "zoom_x": 0.88
+  },
+  "slots": {
+    "AMMUNITION": [
+      "9mm High Grain Rounds :: +13.8% Range",
+      "9mm Low Grain Rounds :: -14.9% Range",
+      "9mm Hardened Rounds :: -27.4% Range",
+      "9mm Frangible :: -5% Range",
+      "9mm Hollowpoint",
+      "9mm Armor Piercing",
+      "9mm Overpressured +P :: +80% Target Flinch",
+      "9mm High Velocity :: +30% Bullet Velocity"
+    ],
+    "BARREL": [
+      "Rival-C Clearshot Barrel :: +12.5% Range",
+      "Rival-38E Fire Starter Barrel :: +5% Horiz. Recoil",
+      "Rival IGS-800 Barrel :: -14.9% Range"
+    ],
+    "CONVERSION KIT": [
+      "JAK Headhunter Carbine Kit :: Damage profile modified"
+    ],
+    "MAGAZINE": [
+      "40 Round Mag :: -3% Move. Speed",
+      "50 Round Drum :: -5% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

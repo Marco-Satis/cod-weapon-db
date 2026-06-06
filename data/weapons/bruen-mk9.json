@@ -1,0 +1,50 @@
+{
+  "id": "bruen-mk9",
+  "name": "Bruen MK9",
+  "class": "LMG",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 LMG. Jak Shadow Titan = LMG→AR-Konvertierung (Mobility-Boost). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 759,
+    "mag": 100,
+    "reload_s": 5.8,
+    "ads_ms": 350,
+    "velocity_ms": 690,
+    "move_ms": 4.3,
+    "sprint_to_fire_ms": 225,
+    "sprint_ms": 5.7,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.56 NATO Low Grain :: -14.9% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz | -8% Vert",
+      "5.56 NATO High Grain :: +15.2% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz | +8% Vert",
+      "5.56 NATO Round Nose :: +50% Target Flinch | -21.2% Range",
+      "5.56 NATO Mono :: -1.4% Range | +8% Bullet Velocity | +3% Gun Kick | +4% Horiz | +4% Vert",
+      "5.56 Frangible :: -4.9% Range",
+      "5.56 Hollowpoint",
+      "5.56 Armor Piercing",
+      "5.56 Overpressured +P :: +80% Target Flinch",
+      "5.56 High Velocity :: -4.9% Range | +20% Bullet Velocity",
+      "5.56 Incendiary :: -10.3% Range | -25% Bullet Velocity"
+    ],
+    "BARREL": [
+      "23\" XRK Horizon V2 :: +11% Bullet Velocity | -9% Recoil(alle) | -Mobility | +3% ADS Time",
+      "FT Ferocity LR Barrel :: +14.9% Range | +10% Bullet Velocity | -6% Idle Sway | +6% Max Hipfire | +22% ADS Time",
+      "23\" EXF Foresight Barrel :: -4% Bullet Velocity | +5% Recoil(alle) | +Mobility | -5% ADS Time",
+      "Bruen 18\" Para :: -3.8% Range | -7% Bullet Velocity | +4% Recoil(alle) | +8% Idle Sway | -8% Max Hipfire | +Mobility | -11% ADS Time"
+    ],
+    "CONVERSION KIT": [
+      "Jak Shadow Titan Kit :: Damage-Profil modifiziert | -10% Bullet Velocity | +11% Fire Rate | -15% Gun Kick | +12% Horiz | -13% Vert | -20% Idle Sway | -20% Max Hipfire | +14% Move | -14% ADS Time | -53% Reload | -50% Swap"
+    ],
+    "MAGAZINE": [
+      "200 Round Belt Mag :: -10% Move | -10% Crouch | -4% Sprint | -9% ADS Move | +13% ADS Time | +6% Reload | +3% Sprint to Fire",
+      "60 Round Mag :: +6% Move | +5% Crouch | +2% Sprint | +5% ADS Move | -14% ADS Time | -53% Reload | -12% Sprint to Fire | -50% Swap"
+    ],
+    "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+  }
+}

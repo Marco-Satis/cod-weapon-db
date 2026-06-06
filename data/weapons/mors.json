@@ -1,0 +1,42 @@
+{
+  "id": "mors",
+  "name": "MORS",
+  "class": "Sniper",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 Railgun-Sniper (Photonic Charge, 1-round, 200 RPM). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 200,
+    "mag": 1,
+    "reload_s": 1.6,
+    "ads_ms": 580,
+    "velocity_ms": 900,
+    "move_ms": 4.4,
+    "sprint_to_fire_ms": 273,
+    "sprint_ms": 5.9
+  },
+  "slots": {
+    "AMMUNITION": [
+      "HVP Anti-Materiel Slug :: Damage profile modified | -20% Bullet Velocity",
+      "HVP Explosive Slug :: Damage profile not modified | +8% Range | -8% Bullet Velocity"
+    ],
+    "BARREL": [
+      "Photonic Charge Barrel :: Damage profile modified | +100% Bullet Velocity | -2% Fire Rate | -9% ADS Time",
+      "Tonne Heavy Barrel :: +10% Bullet Velocity | -4% Move | -3% Sprint | -5% ADS Move | +8% ADS Time | +4% Sprint to Fire",
+      "Crown-50 Barrel :: -10% Bullet Velocity | -12% Idle Sway | -12% Max Hipfire | +6% Move | -5% ADS Time | -12% Sprint to Fire",
+      "Emperor Long Barrel :: +18% Range | +12% ADS Time | +6% Sprint to Fire",
+      "Downfall Light Barrel :: -10% Range | -8% Bullet Velocity | +2% Move | +3% Sprint | +9% ADS Move | -10% ADS Time"
+    ],
+    "BOLT": [
+      "Smooth Slide Heavy Bolt :: +10% Reload",
+      "Quick Bolt :: -10% Reload"
+    ],
+    "CONVERSION KIT": [
+      "JAK Widemouth Barrel :: Damage profile modified | -12% Bullet Velocity | +100% Gun Kick | +100% Vert. Recoil | -11% Idle Sway | -27% Max Hipfire | +7% Move | +11% Crouch | +4% Sprint | +114% ADS Move | -9% ADS Time | -10% Sprint to Fire"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

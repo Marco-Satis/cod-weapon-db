@@ -1,0 +1,51 @@
+{
+  "id": "dm-10",
+  "name": "DM-10",
+  "class": "Battle Rifle",
+  "game": "bo6",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO6 Battle Rifle (7.62 NATO, semi-auto). Slot-Namen = generischer BO6-Pool, %-Deltas DM-10-spezifisch. reload_s roh '3233 s' (Dezimal-Span verloren) -> 3.23.",
+  "extraction": "weapon-specific-only",
+  "base": {
+    "rpm": 300,
+    "mag": 20,
+    "reload_s": 3.23,
+    "ads_ms": 330,
+    "velocity_ms": 920,
+    "move_ms": 4.6,
+    "sprint_to_fire_ms": 215,
+    "sprint_ms": 6.1
+  },
+  "slots": {
+    "BARREL": [
+      "Gain-Twist Barrel :: +50% Bullet Velocity",
+      "Long Barrel :: +30% Range",
+      "Reinforced Barrel :: +13.8% Range | +25% Bullet Velocity",
+      "Short Barrel",
+      "CHF Barrel :: Damage profile modified | +58.6% Gun Kick | +40% Horiz. Recoil | +60% Vert. Recoil"
+    ],
+    "FIRE MODS": [
+      "Rapid Fire :: Does not modify damage profile | +4.3% Fire Rate | +20.4% Gun Kick | +25% Horiz. Recoil | +20% Vert. Recoil",
+      "7.62 NATO Overpressured :: +20% Bullet Velocity",
+      "Recoil Springs :: -12.8% Gun Kick | -11% Horiz. Recoil | -13% Vert. Recoil",
+      "7.62 NATO FMJ"
+    ],
+    "MAGAZINE": [
+      "Extended Mag I :: +14% Reload Time",
+      "Fast Mag I :: -12% Reload Time",
+      "Extended Mag II :: +6.1% ADS Time | +22.7% Reload Time | +9.3% Sprint to Fire",
+      "Flip Mag :: -4.5% ADS Time | -28.9% Reload Time | -4.7% Sprint to Fire",
+      "Fast Mag II :: -10.6% ADS Time | -39.2% Reload Time | -9.3% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Suppressor",
+      "Compensator :: -31.8% Gun Kick | -35% Vert. Recoil",
+      "Muzzle Brake",
+      "Ported Compensator :: -22.9% Gun Kick | -25% Vert. Recoil",
+      "Monolithic Suppressor :: +10.1% Range | +20% Bullet Velocity | +16.7% ADS Time"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO6-Pool (ref lc10.json)"
+}

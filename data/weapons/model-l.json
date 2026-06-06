@@ -1,0 +1,50 @@
+{
+  "id": "model-l",
+  "name": "Model L",
+  "class": "AR",
+  "game": "bo6",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta AR (5.56 NATO, 600 RPM, BOCW-Ursprung; TGD BO6-Attachment-System). reload roh '2833 s' -> 2.83. Universelle Slots = BO6-Pool.",
+  "extraction": "weapon-specific-only",
+  "base": {
+    "rpm": 600,
+    "mag": 30,
+    "reload_s": 2.83,
+    "ads_ms": 270,
+    "velocity_ms": 890,
+    "move_ms": 4.7,
+    "sprint_to_fire_ms": 190,
+    "sprint_ms": 6.2
+  },
+  "slots": {
+    "BARREL": [
+      "Gain-Twist Barrel :: +50% Bullet Velocity",
+      "Long Barrel :: +29.6% Range",
+      "Reinforced Barrel :: +15% Range | +25% Bullet Velocity",
+      "Short Barrel",
+      "CHF Barrel :: Makes neck damage the same as head | +54.8% Gun Kick | +25% Horiz. Recoil | +55% Vert. Recoil"
+    ],
+    "FIRE MODS": [
+      "Rapid Fire :: -18% Bullet Velocity | +11.2% Fire Rate | +15.1% Gun Kick | +20% Horiz. Recoil | +15% Vert. Recoil",
+      "5.56 NATO Overpressured :: +30% Bullet Velocity",
+      "Recoil Springs :: -13% Gun Kick | -13% Horiz. Recoil | -13% Vert. Recoil",
+      "5.56 NATO FMJ"
+    ],
+    "MAGAZINE": [
+      "Extended Mag I :: +12% Reload",
+      "Fast Mag I :: -7.4% ADS Time | -19% Reload | -10.5% Sprint to Fire",
+      "Extended Mag II :: +7.4% ADS Time | +31.8% Reload | +10.5% Sprint to Fire",
+      "Flip Mag :: -11.1% ADS Time | -29.4% Reload | -13.2% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Suppressor",
+      "Compensator :: -34.6% Gun Kick | -35% Vert. Recoil",
+      "Muzzle Brake",
+      "Ported Compensator :: -29.7% Gun Kick | -30% Vert. Recoil",
+      "Monolithic Suppressor :: +10% Range | +20% Bullet Velocity | +20.4% ADS Time"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO6-Pool (ref lc10.json)"
+}

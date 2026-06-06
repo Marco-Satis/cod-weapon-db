@@ -1,0 +1,58 @@
+{
+  "id": "grekhova",
+  "name": "Grekhova",
+  "class": "Pistol",
+  "game": "bo6",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta BO6 Machine-Pistol (9x18 Makarov, 750 RPM full-auto, 20-round). AMMUNITION=generischer Pistol-Pool (.50, weicht vom Kaliber ab). reload roh '2530 s' -> 2.53. Extrahiert trotz Freeze (window.__ext frisch verifiziert).",
+  "extraction": "weapon-specific-only",
+  "base": {
+    "rpm": 750,
+    "mag": 20,
+    "reload_s": 2.53,
+    "ads_ms": 200,
+    "velocity_ms": 290,
+    "move_ms": 5.1,
+    "sprint_to_fire_ms": 110,
+    "sprint_ms": 6.4
+  },
+  "slots": {
+    "AMMUNITION": [
+      "9mm Hardened Rounds :: -25.8% Range | -15% Bullet Velocity",
+      ".50 Pistol Frangible :: -5.2% Range",
+      ".50 Pistol Hollowpoint",
+      ".50 Pistol Armor Piercing",
+      ".50 Pistol Overpressured +P :: +80% Target Flinch",
+      ".500 AET Rounds :: -30% Target Flinch | -20% Bullet Velocity"
+    ],
+    "BARREL": [
+      "Gain-Twist Barrel :: +35% Bullet Velocity",
+      "Long Barrel :: +30% Range",
+      "Reinforced Barrel :: +15.3% Range | +15% Bullet Velocity",
+      "Short Barrel",
+      "CHF Barrel :: +49% Gun Kick | +20% Horiz. Recoil | +50% Vert. Recoil"
+    ],
+    "FIRE MODS": [
+      "Rapid Fire :: Does not modify damage profile | -10% Bullet Velocity | +5.2% Fire Rate | +14.8% Gun Kick | +10% Horiz. Recoil | +15% Vert. Recoil",
+      "9x18mm Makarov Overpressured :: +20% Bullet Velocity",
+      "Recoil Springs :: -13% Gun Kick | -13.1% Horiz. Recoil | -13% Vert. Recoil",
+      "9x18mm Makarov FMJ"
+    ],
+    "MAGAZINE": [
+      "Extended Mag I :: +17.5% ADS Time | +30% Reload | +31.8% Sprint to Fire",
+      "Fast Mag I :: -12.5% ADS Time | -17% Reload | -18.2% Sprint to Fire",
+      "Extended Mag II :: +27.5% ADS Time | +27.7% Reload | +50% Sprint to Fire",
+      "Extended Mag III :: +37.5% ADS Time | +44.7% Reload | +68.2% Sprint to Fire"
+    ],
+    "MUZZLE": [
+      "Suppressor",
+      "Compensator :: -23.9% Gun Kick | -25% Vert. Recoil",
+      "Muzzle Brake",
+      "Ported Compensator :: -19.1% Gun Kick | -20% Vert. Recoil",
+      "Monolithic Suppressor :: +10.3% Range | +20% Bullet Velocity | +27.5% ADS Time"
+    ]
+  },
+  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO6-Pool (ref lc10.json)"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "bas-b",
+  "name": "BAS-B",
+  "class": "Battle Rifle",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 Battle-Rifle. Universelle Slots = MW-Pool (ref kar98k.json).",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 600,
+    "mag": 20,
+    "reload_s": 3.2,
+    "ads_ms": 270,
+    "velocity_ms": 790,
+    "move_ms": 4.6,
+    "sprint_to_fire_ms": 252,
+    "sprint_ms": 6.2,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      ".277 Frangible :: -4.9% Range",
+      ".277 Hollowpoint",
+      ".277 Tracer",
+      ".277 Armor Piercing",
+      ".277 High Velocity :: -4.9% Range | +20% Bullet Velocity",
+      ".277 Incendiary :: -9.9% Range | -25% Bullet Velocity",
+      ".277 Round Nose :: +50% Target Flinch | -21.2% Range",
+      ".277 Mono :: -1.5% Range | +8% Bullet Velocity | +2% Gun Kick | +4% Horiz | +4% Vert",
+      ".277 Overpressured +P :: +80% Target Flinch",
+      ".277 Low Grain :: -16.3% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz | -8% Vert",
+      ".277 High Grain :: +15% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz | +8% Vert"
+    ],
+    "BARREL": [
+      "Bruen Venom Long Barrel :: +20.2% Range | +11% Bullet Velocity | -5% Gun Kick | -8% Horiz | -7% Vert | -Mobility minor | +11% Sprint to Fire",
+      "Short 8\" Bruen SZ-45 Barrel :: -7.4% Range | -4% Bullet Velocity | -4% Gun Kick | -8% Horiz | -7% Vert | +11% ADS Time | -10% Sprint to Fire",
+      "Wyvern's Respite Long Barrel :: +20.2% Range | +11% Bullet Velocity | +15% Idle Sway | +15% Max Hipfire | +Mobility | +5% Sprint to Fire",
+      "Crippling Malice Light Barrel :: -21.2% Range | -20% Bullet Velocity | +Mobility | -9% ADS Time | -10% Sprint to Fire",
+      "Light 9\" Bruen Wyvern Short Barrel :: +3% Horiz | +5% Vert | +3% Sprint Speed | -8% ADS Time | -9% Sprint to Fire"
+    ],
+    "CONVERSION KIT": [
+      "Jak Outlaw-277 Kit :: Damage-Profil modifiziert | +50% Target Flinch | -65% Fire Rate | -10% Idle Sway | -10% Max Hipfire | -9% ADS Time | -10% Sprint to Fire"
+    ],
+    "MAGAZINE": [
+      "30 Round Mag :: -3% Move | -3% Crouch | -1% Sprint | -3% ADS Move | +5% ADS Time | +11% Reload",
+      "45 Round Mag :: -7% Move | -7% Crouch | -3% Sprint | -7% ADS Move | +12% ADS Time | +34% Reload | +2% Sprint to Fire"
+    ],
+    "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+  }
+}

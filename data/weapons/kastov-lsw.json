@@ -1,0 +1,42 @@
+{
+  "id": "kastov-lsw",
+  "name": "Kastov LSW",
+  "class": "LMG",
+  "game": "mw2",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW2 LMG (5.45, AK-LSW, 800 RPM, 100-round). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 800,
+    "mag": 100,
+    "reload_s": 4.2,
+    "ads_ms": 330,
+    "velocity_ms": 690,
+    "move_ms": 4.3,
+    "sprint_to_fire_ms": 224,
+    "sprint_ms": 5.8,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "5.45 Low Grain Rounds :: -15% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "5.45 Hollowpoint",
+      "5.45 High Velocity :: -4.9% Range | +20% Bullet Velocity",
+      "5.45 Frangible :: -4.9% Range",
+      "5.45 High Grain Rounds :: +15% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "5.45 Armor Piercing",
+      "5.45 Overpressured +P :: +80% Target Flinch"
+    ],
+    "BARREL": [
+      "Bombast T54 Short Barrel :: +12% Gun Kick | +12% Horiz. Recoil | +12% Vert. Recoil | -13% Idle Sway | -13% Max Hipfire | +5% Move | +5% Crouch | +5% Sprint | +5% ADS Move | -9% ADS Time | -10% Sprint to Fire",
+      "Elevator D20 Long Barrel :: +20.1% Range | +20% Bullet Velocity | +15% Idle Sway | +15% Max Hipfire | +8% Sprint to Fire",
+      "Mitigator X40 Heavy Barrel :: -20% Gun Kick | -20% Horiz. Recoil | -20% Vert. Recoil | -5% Sprint | -5% ADS Move | +11% ADS Time"
+    ],
+    "MAGAZINE": [
+      "150 Round Mag :: -5% Move | -5% Crouch | -2% Sprint | -5% ADS Move | +7% ADS Time | +19% Reload | +1% Sprint to Fire"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

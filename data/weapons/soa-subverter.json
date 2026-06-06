@@ -1,0 +1,45 @@
+{
+  "id": "soa-subverter",
+  "name": "SOA Subverter",
+  "class": "Battle Rifle",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 Battle Rifle (7.62x51, 698 RPM, 20-round). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE.",
+  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "base": {
+    "rpm": 698,
+    "mag": 20,
+    "reload_s": 3.1,
+    "ads_ms": 290,
+    "velocity_ms": 740,
+    "move_ms": 4.6,
+    "sprint_to_fire_ms": 268,
+    "sprint_ms": 6,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "7.62X51mm Low Grain Rounds :: -15% Range",
+      "7.62X51mm High Grain Rounds :: +15% Range",
+      "7.62X51mm Round Nose :: +40% Target Flinch",
+      "7.62X51mm Mono :: -1.2% Range",
+      "7.62X51mm Frangible :: -5% Range",
+      "7.62X51mm Hollowpoint",
+      "7.62X51mm Armor Piercing",
+      "7.62X51mm Overpressured +P :: +80% Target Flinch",
+      "7.62X51mm High Velocity :: -5% Range",
+      "7.62X51mm Incendiary :: -10% Range"
+    ],
+    "BARREL": [
+      "Fervor 762 Short Barrel :: -8% Bullet Velocity",
+      "Dozer-90 Long Barrel :: +9.8% Range"
+    ],
+    "MAGAZINE": [
+      "7.62x51 30 Round Mag :: -3% Move. Speed",
+      "50 Round Drum :: -7% Move. Speed"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/LASER/STOCK/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+}

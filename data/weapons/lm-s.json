@@ -1,0 +1,45 @@
+{
+  "id": "lm-s",
+  "name": "LM-S",
+  "class": "Marksman Rifle",
+  "game": "mw3",
+  "in_warzone": true,
+  "source": "truegamedata",
+  "data_version": "S3.5_2026-04-25",
+  "note": "Off-Meta MW3 Marksman Rifle (7.62x51, 333 RPM semi, 10-round). Universelle Slots = MW-Pool.",
+  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "base": {
+    "rpm": 333,
+    "mag": 10,
+    "reload_s": 2.6,
+    "ads_ms": 245,
+    "velocity_ms": 830,
+    "move_ms": 4.5,
+    "sprint_to_fire_ms": 189,
+    "sprint_ms": 6,
+    "zoom_x": 1
+  },
+  "slots": {
+    "AMMUNITION": [
+      "7.62X51mm Low Grain Rounds :: -14.3% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz. Recoil | -8% Vert. Recoil",
+      "7.62X51mm High Grain Rounds :: +16% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil",
+      "7.62X51mm Round Nose :: +40% Target Flinch | -19.3% Range",
+      "7.62X51mm Mono :: -0.4% Range | +8% Bullet Velocity | +3% Gun Kick | +4% Horiz. Recoil | +4% Vert. Recoil",
+      "7.62X51mm Frangible :: -4.1% Range",
+      "7.62X51mm Hollowpoint",
+      "7.62X51mm Armor Piercing",
+      "7.62X51mm Overpressured +P :: +80% Target Flinch",
+      "7.62X51mm High Velocity :: -4.1% Range | +20% Bullet Velocity",
+      "7.62X51mm Incendiary :: -9.3% Range | -25% Bullet Velocity"
+    ],
+    "BARREL": [
+      "Meer-76 449mm Factory :: -4.1% Range | -3% Bullet Velocity | +8% Idle Sway | -8% Max Hipfire | -8% ADS Time",
+      "Lachmann Nova :: -6.8% Range | -12% Bullet Velocity | +8% Gun Kick | +8% Horiz. Recoil | +8% Vert. Recoil | +11% Idle Sway | -12% Max Hipfire | +6% Move | +5% Crouch | +3% Sprint | +10% ADS Move | -18% ADS Time"
+    ],
+    "MAGAZINE": [
+      "20 Round Mag :: -11% Move | -12% Crouch | -7% Sprint | -15% ADS Move | +18% ADS Time | +41% Reload | +2% Sprint to Fire",
+      "15 Round Mag :: -6% Move | -6% Crouch | -4% Sprint | -8% ADS Move | +9% ADS Time | +34% Reload"
+    ]
+  },
+  "_universal": "MUZZLE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP = MW-Pool (ref kar98k.json)"
+}
