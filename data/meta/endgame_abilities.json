@@ -316,9 +316,9 @@
   },
   "weapon_trait_system": {
     "correction_note": "KORRIGIERT 2026-06-06 (Marco-Hinweis + bo7endgame.com-Wiki). Frueheres 'affinities'-Modell war falsch. Auf der WAFFE (Exotic-Workbench/Fabricator) sitzen 2 Trait-Slots: (1) Exotic Effect = elementarer 'Munitionsmod', (2) Utility Bonus = die 'Weapon Ability'. NICHT zu verwechseln mit (a) Operator-Skills (skill_tracks/major/minor/exotic_skills/nightmare_skills) und (b) Zombies-Ammo-Mods (eigenes System, siehe zombies_ammo_mods).",
-    "slot_structure": "Slot 1 = Exotic Effect (1, selten 2). Slot 2 = Utility Bonus (1). Named-Exotics zusaetzlich: feste Affinity + Zugang zu affinity-exklusiven Utility Bonusses + 'Big Game'. Custom->Exotic (eigene Loadout-Waffe): rollt Exotic Effect + Standard-Utility-Bonus, ABER KEINE affinity-exklusiven Bonusse.",
-    "slot_count_discrepancy": "[unsicher] bo7endgame.com-Wiki = 2 Trait-Slots (Effect+Utility). dotesports formuliert '2 Bonus-Abilities + 1 Ammo-Mod' (= evtl. 3). In-Game-Gunsmith gibt die finale Zahl. Quelle: dotesports/black-ops-7-endgame-abilities-skill-tracks.",
-    "source": "bo7endgame.com/gear/exotics-and-affinities + /weapons/utility-bonuses (Volltext-Fetch 2026-06-06)"
+    "slot_structure": "Pro Waffe GENAU 2 Slots: 1 Ammo Mod (= Exotic Effect / das Element) + 1 Ability (= Utility Bonus). VERIFIZIERT in-game (Marco 2026-06-06). Named-Exotics: feste Affinity + Zugang zu affinity-exklusiven Ability-Optionen + 'Big Game'. Custom->Exotic (eigene Loadout-Waffe): Ammo Mod frei rollbar + Standard-Ability, ABER KEINE affinity-exklusiven Optionen.",
+    "in_game_labels": "Gunsmith-Slot-Namen: 'Ammo Mod' (= Exotic Effect) und 'Ability' (= Utility Bonus). bo7endgame.com-Wiki-Begriffe (Exotic Effect / Utility Bonus) bezeichnen dieselben 2 Slots.",
+    "source": "bo7endgame.com/gear/exotics-and-affinities + /weapons/utility-bonuses (Volltext-Fetch 2026-06-06); Slot-Zahl in-game von Marco bestaetigt"
   },
   "weapon_exotic_effects": {
     "note": "Slot 1 = elementarer Schadens-/Ammo-Typ ('Munitionsmod' am Workbench). 8 total. Bei Named-Exotics als feste Affinity; bei Custom->Exotic frei rollbar. Gegnertyp-Schwaeche gegen Element = Damage-Bonus.",
