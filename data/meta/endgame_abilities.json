@@ -314,81 +314,233 @@
       "todo": true
     }
   },
-  "affinities": {
-    "system_note": "Affinity = elementarer Ammo-Typ im ersten Trait-Slot (endet auf 'Rounds'). World-drop Exotics haben Affinity fest; Workbench-gebaute nicht. Gegnertypen gegen bestimmte Elemente schwach -> Affinity-Match = sig. Damage-Bonus. Jede Exotic-Waffe: 1 (selten 2) Exotic Effect + 1 Utility Bonus.",
-    "community_favorites": "Chain Lightning (Shock) + Blast Chain (Shrapnel) am staerksten fuers Farmen (WebSearch/ggwtb).",
+  "weapon_trait_system": {
+    "correction_note": "KORRIGIERT 2026-06-06 (Marco-Hinweis + bo7endgame.com-Wiki). Frueheres 'affinities'-Modell war falsch. Auf der WAFFE (Exotic-Workbench/Fabricator) sitzen 2 Trait-Slots: (1) Exotic Effect = elementarer 'Munitionsmod', (2) Utility Bonus = die 'Weapon Ability'. NICHT zu verwechseln mit (a) Operator-Skills (skill_tracks/major/minor/exotic_skills/nightmare_skills) und (b) Zombies-Ammo-Mods (eigenes System, siehe zombies_ammo_mods).",
+    "slot_structure": "Slot 1 = Exotic Effect (1, selten 2). Slot 2 = Utility Bonus (1). Named-Exotics zusaetzlich: feste Affinity + Zugang zu affinity-exklusiven Utility Bonusses + 'Big Game'. Custom->Exotic (eigene Loadout-Waffe): rollt Exotic Effect + Standard-Utility-Bonus, ABER KEINE affinity-exklusiven Bonusse.",
+    "slot_count_discrepancy": "[unsicher] bo7endgame.com-Wiki = 2 Trait-Slots (Effect+Utility). dotesports formuliert '2 Bonus-Abilities + 1 Ammo-Mod' (= evtl. 3). In-Game-Gunsmith gibt die finale Zahl. Quelle: dotesports/black-ops-7-endgame-abilities-skill-tracks.",
+    "source": "bo7endgame.com/gear/exotics-and-affinities + /weapons/utility-bonuses (Volltext-Fetch 2026-06-06)"
+  },
+  "weapon_exotic_effects": {
+    "note": "Slot 1 = elementarer Schadens-/Ammo-Typ ('Munitionsmod' am Workbench). 8 total. Bei Named-Exotics als feste Affinity; bei Custom->Exotic frei rollbar. Gegnertyp-Schwaeche gegen Element = Damage-Bonus.",
     "list": [
       {
-        "affinity": "Frost Rounds",
-        "character": "Chill/Slow",
-        "utility_bonuses": [
-          "Flash Freeze",
-          "Ice Cloud",
-          "Big Game"
-        ]
+        "effect": "Frost",
+        "character": "Chill/Slow"
       },
       {
-        "affinity": "Graviton Rounds",
-        "character": "Pull/Displace",
-        "utility_bonuses": [
-          "Black Hole",
-          "Warp",
-          "Big Game"
-        ]
+        "effect": "Graviton",
+        "character": "Pull/Displace (Black Hole)"
       },
       {
-        "affinity": "Incendiary Rounds",
-        "character": "Fire",
-        "utility_bonuses": [
-          "Firebomb",
-          "Petrol",
-          "Big Game"
-        ]
+        "effect": "Incendiary",
+        "character": "Fire/Burn"
       },
       {
-        "affinity": "Mortar Rounds",
-        "character": "Explosiv",
-        "utility_bonuses": [
-          "Fire Wheel",
-          "Starburst",
-          "Big Game"
-        ]
+        "effect": "Mortar",
+        "character": "Explosiv (zielsuchende Mortar)"
       },
       {
-        "affinity": "Neuro-Disruption Rounds",
-        "character": "Control/Convert",
-        "utility_bonuses": [
-          "Mass Disruption",
-          "Neural Attraction",
-          "Big Game"
-        ]
+        "effect": "Neuro-Disruption",
+        "character": "Control/Convert"
       },
       {
-        "affinity": "Photon Rounds",
-        "character": "Light/Heal",
-        "utility_bonuses": [
-          "Blessing",
-          "Dual Action",
-          "Big Game"
-        ]
+        "effect": "Photon",
+        "character": "Light/Heal"
       },
       {
-        "affinity": "Shock Rounds",
-        "character": "Stun",
-        "utility_bonuses": [
+        "effect": "Shock",
+        "character": "Stun"
+      },
+      {
+        "effect": "Shrapnel",
+        "character": "Fragment"
+      }
+    ]
+  },
+  "weapon_utility_bonuses": {
+    "note": "Slot 2 = 'Weapon Ability'. Standard-Bonusse rollt JEDE Exotic-Waffe (auch Custom). Affinity-exklusive Bonusse + Big Game nur Named-Exotics. Wiki: affinity-exklusive aktuell OUTCLASSED von Standard (Sharpshooter/Explosive Bullets/Grenade Bullets).",
+    "standard": [
+      {
+        "name": "Sharpshooter",
+        "effect": "Oberkoerper-Treffer machen Headshot-Damage"
+      },
+      {
+        "name": "Explosive Bullets",
+        "effect": "Bullets explodieren, AoE-Zusatzschaden"
+      },
+      {
+        "name": "Grenade Bullets",
+        "effect": "Bullets explodieren, AoE-Zusatzschaden"
+      },
+      {
+        "name": "Zero Waste",
+        "effect": "50% Chance Bullets verbrauchen kein Ammo"
+      },
+      {
+        "name": "Recoil Delete",
+        "effect": "Recoil-Kontrolle stark verbessert"
+      },
+      {
+        "name": "Combat Ready",
+        "effect": "ADS- + Sprint-to-Fire-Speed besser"
+      },
+      {
+        "name": "Fast Fire",
+        "effect": "Hoehere Feuerrate"
+      },
+      {
+        "name": "Escalation",
+        "effect": "Feuerrate steigt bei gehaltenem Trigger"
+      },
+      {
+        "name": "Ammo Recharger",
+        "effect": "Ammo fuellt sich auf waehrend stowed"
+      },
+      {
+        "name": "Ammo Drain",
+        "effect": "Kills geben +8 Rounds in die Mag"
+      },
+      {
+        "name": "Free Fire",
+        "effect": "Vereint alle Munition in eine grosse Mag"
+      },
+      {
+        "name": "From the Hip",
+        "effect": "Bessere Hipfire-Spread + Recoil"
+      },
+      {
+        "name": "Hip-Inferno",
+        "effect": "Hipfire-Schuesse machen mehr Schaden"
+      },
+      {
+        "name": "Kill and Run",
+        "effect": "Kills geben temporaeren Movement-Boost"
+      },
+      {
+        "name": "Lifestyle",
+        "effect": "Headshot-Kills regenerieren HP"
+      },
+      {
+        "name": "Lightspeed",
+        "effect": "Alle Movement-Speeds erhoeht"
+      },
+      {
+        "name": "Longburst",
+        "effect": "Mehr Bullets pro Burst"
+      },
+      {
+        "name": "Longshot",
+        "effect": "Erweitert Damage-Range, weniger Recoil"
+      },
+      {
+        "name": "Melee Reload",
+        "effect": "Mag fuellt sofort nach Melee-Hit"
+      },
+      {
+        "name": "Reload Swap",
+        "effect": "Waffe ist beim Swap immer voll geladen"
+      },
+      {
+        "name": "Slasher",
+        "effect": "Schnellere Melee-Attack-Speed"
+      },
+      {
+        "name": "Ultra-light",
+        "effect": "Movement-Speed im ADS unveraendert"
+      }
+    ],
+    "weapon_specific": [
+      {
+        "name": "Akimbo Velox 5.7",
+        "effect": "Dual-Wield (nur Velox 5.7)"
+      }
+    ],
+    "affinity_exclusive": {
+      "note": "NUR Named-Exotics. Laut Wiki outclassed von Standard-Bonussen.",
+      "by_effect": {
+        "Shock": [
           "Chain Lightning",
-          "Lightning Strike",
-          "Big Game"
+          "Lightning Strike"
+        ],
+        "Shrapnel": [
+          "Blast Chain",
+          "Blast Shield"
+        ],
+        "Mortar": [
+          "Fire Wheel",
+          "Star Burst"
+        ],
+        "Frost": [
+          "Flash Freeze",
+          "Ice Cloud"
+        ],
+        "Graviton": [
+          "Black Hole",
+          "Warp"
+        ],
+        "Incendiary": [
+          "Firebomb",
+          "Petrol"
+        ],
+        "Neuro-Disruption": [
+          "Mass Disruption",
+          "Neural Attraction"
+        ],
+        "Photon": [
+          "Blessing",
+          "Dual Action"
         ]
       },
+      "universal": [
+        {
+          "name": "Big Game",
+          "effect": "Ammo-Mod/Effect wirkt auch auf Elite-Gegner"
+        }
+      ]
+    }
+  },
+  "zombies_ammo_mods": {
+    "note": "EIGENES System, NUR Zombies (nicht Endgame). Arsenal-Machine, 500 Salvage, 1 gleichzeitig equipbar, per Augment verbesserbar. Quelle: Game8/565763.",
+    "list": [
       {
-        "affinity": "Shrapnel Rounds",
-        "character": "Fragment",
-        "utility_bonuses": [
-          "Blast Chain (3 Folge-Explosionen)",
-          "Blast Shield",
-          "Big Game"
-        ]
+        "name": "Dead Wire",
+        "unlock": "sofort",
+        "effect": "Electric, Chance Normal/Special zu stunnen"
+      },
+      {
+        "name": "Cryo Freeze",
+        "unlock": 12,
+        "effect": "Frost, Chance zu verlangsamen"
+      },
+      {
+        "name": "Fire Works",
+        "unlock": 18,
+        "effect": "Chance Feuerwerk bei Treffer"
+      },
+      {
+        "name": "Napalm Burst",
+        "unlock": 35,
+        "effect": "Fire, Chance Burn"
+      },
+      {
+        "name": "Shadow Rift",
+        "unlock": 44,
+        "effect": "Shadow, Chance Black Hole"
+      },
+      {
+        "name": "Brain Rot",
+        "unlock": 51,
+        "effect": "Toxic, Chance Gegner->Ally"
+      },
+      {
+        "name": "Light Mend",
+        "unlock": "sofort",
+        "effect": "Light, Heilung fuer verletzte Allies"
+      },
+      {
+        "name": "Shatter Blast",
+        "unlock": "sofort",
+        "effect": "Chance Explosion die Armor zerstoert"
       }
     ]
   },
