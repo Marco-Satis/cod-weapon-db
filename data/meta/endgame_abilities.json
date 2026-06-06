@@ -5,25 +5,6 @@
   "source": "bo7endgame.com Wiki (Volltext), COD Central, dotesports/sportskeeda/noobfeed (WebSearch-Snippets, WebFetch 403/405), ggwtb",
   "source_caveat": "Eigennamen verbatim Englisch. S4-Neuzuegae (Guardian-Track, Death Machine, Psych Grenade, Operator-Prestige) stammen aus dotesports-WebSearch-Snippets, NICHT direkt gefetchtem Volltext -> [LÜCKE 1], Snippet-Paraphrasen, mit Vorsicht. bo7endgame.com-Wiki zeigt Pre-S4-Stand (9 Tracks, 10 Major, 8 Minor).",
   "loadout_rule": "Vor jedem Endgame-Match: Waffen + Field Equipment + 2 Abilities waehlbar — 1 Minor + 1 Major. (dotesports, bo7endgame.com)",
-  "tier_notes_marco": {
-    "source": "Marco In-Game-Erfahrung 2026-06-06 — AUTHORITATIVE ueber Web-Snippets/Tier-Listen. Bei Build-Empfehlungen diese beachten.",
-    "minor_abilities": {
-      "Kinetic Jump": "IMMER mitnehmen — Standard-Fortbewegung + Landing-Stun.",
-      "Supply Link": "eher schlechte Fertigkeit — nicht empfehlen."
-    },
-    "major_abilities": {
-      "Crash Cart": "Solo PFLICHT (Self-Revive + temp Invuln).",
-      "Ballistic Shell": "im TEAM am besten (Energie-Schild blockt Feindfeuer)."
-    },
-    "nightmare_skills": {
-      "Wingman Unit": "eine der schlechtesten Fertigkeiten — nicht empfehlen.",
-      "Nova Strike": "melee-gated -> schwach auf Gun-/Ranged-Builds."
-    },
-    "exotic_skills": {
-      "Mega Punch": "melee-gated -> schwach auf Gun-/Ranged-Builds."
-    },
-    "optics": "Thermal/IR nie. Optic nur wenn Iron-Sight schlecht ODER Range noetig. Bevorzugt FANG HoverPoint ELO (cleanes Sichtfeld)."
-  },
   "skill_tracks": {
     "slots_note": "9 Tracks, je 6 Skills (progressiv per Combat-Rating freigeschaltet). Man waehlt 3 Tracks (bei CR 1, 6, 16); Reroll moeglich. Prestige 3 = 4. Track equipbar. Quellen: destructoid + steamcommunity-Guide 3616441372 + dexerto (Skills verbatim 2026-06-06).",
     "skills_per_track": 6,
