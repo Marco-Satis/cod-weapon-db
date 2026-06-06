@@ -25,14 +25,21 @@ PROJECT_ROOT = SCRIPT_DIR.parent.parent
 STAGING = PROJECT_ROOT / "cod_db_deltas_v2"
 RAW = STAGING / "_raw" / "wz3_base.json"
 
-# class-Korrekturen (verifiziert): coda-9 ist BO7-Pistole, nicht SMG.
-CLASS_FIX = {"coda-9": "Pistol"}
+# class-Korrekturen (Web-verifiziert) + Taxonomie-Vereinheitlichung.
+CLASS_FIX = {
+    "coda-9": "Pistol",            # BO7-Pistole, nicht SMG
+    "rk-9": "SMG",                 # 3-Round-Burst-SMG (callofduty.com /smg/rk-9), nicht Pistol
+    "abr-a1": "AR",               # Steyr AUG 3-Burst-AR, nicht Marksman
+    "kar98k": "Marksman Rifle",    # vereinheitlicht (war 'Marksman/Sniper')
+}
 
-# Note-Korrekturen: alte Substrings mit falschem game-Claim ersetzen.
+# Note-Korrekturen: alte Substrings mit falschem game-/class-Claim ersetzen.
 NOTE_SUBST = {
     "coda-9": ("Off-Meta BO6 SMG", "Off-Meta BO7 Pistol (vollauto)"),
     "jager-45": ("Off-Meta BO6 Pistol", "Off-Meta BO7 Pistol"),
     "merrick-556": ("BO7-native AR (5.56, 732 RPM).", "BO6 AR (5.56, 732 RPM, Season-6-BP)."),
+    "rk-9": ("Off-Meta BO7 Pistol", "Off-Meta BO7 SMG (3-Round-Burst)"),
+    "abr-a1": ("Off-Meta BO6 Marksman (2x)", "Off-Meta BO6 AR (3-Round-Burst AUG, 2x)"),
 }
 # Note-Anhang fuer Legacy-Integration (Origin != TGD-game).
 NOTE_APPEND = {

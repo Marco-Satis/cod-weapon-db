@@ -1,14 +1,14 @@
 {
   "id": "abr-a1",
   "name": "ABR A1",
-  "class": "Marksman",
+  "class": "AR",
   "game": "bo6",
   "weapon_type": "AR",
   "in_warzone": true,
   "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
   "unlock_level": 5,
-  "note": "Off-Meta BO6 Marksman (2x). Universelle Slots (OPTIC/UNDERBARREL/COMB/STOCK/LASER) = BO6-Pool (ref lc10.json).",
+  "note": "Off-Meta BO6 AR (3-Round-Burst AUG, 2x). Universelle Slots (OPTIC/UNDERBARREL/COMB/STOCK/LASER) = BO6-Pool (ref lc10.json).",
   "fire_modes": {
     "fire_mode1": "Full Auto",
     "fire_mode2": "Semi Auto"

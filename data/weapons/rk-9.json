@@ -1,13 +1,13 @@
 {
   "id": "rk-9",
   "name": "RK-9",
-  "class": "Pistol",
+  "class": "SMG",
   "game": "bo7",
   "weapon_type": "SMG",
   "in_warzone": true,
   "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
-  "note": "Off-Meta BO7 Pistol (9mm Parabellum, 570 RPM, 30-round, 0x). BO7-branded Attachments (Bowen/Hawker/Mercurial/Blackstar/Alliance/Silverline). Black-Ops-Layout: OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER universell. Weapon-spez: MUZZLE/BARREL/MAGAZINE/FIRE MODS. Klasse inferiert. Freeze beim 1. Extract -> Reload ?r=8 + Split-Extraktion clean.",
+  "note": "Off-Meta BO7 SMG (3-Round-Burst) (9mm Parabellum, 570 RPM, 30-round, 0x). BO7-branded Attachments (Bowen/Hawker/Mercurial/Blackstar/Alliance/Silverline). Black-Ops-Layout: OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER universell. Weapon-spez: MUZZLE/BARREL/MAGAZINE/FIRE MODS. Klasse inferiert. Freeze beim 1. Extract -> Reload ?r=8 + Split-Extraktion clean.",
   "base": {
     "rpm": 570,
     "mag": 30,

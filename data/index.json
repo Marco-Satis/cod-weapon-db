@@ -5,16 +5,14 @@
   "weapon_count": 191,
   "base_only_count": 7,
   "counts_by_class": {
-    "AR": 46,
+    "AR": 47,
     "Battle Rifle": 22,
     "Crossbow": 1,
     "LMG": 21,
-    "Marksman": 1,
-    "Marksman Rifle": 13,
-    "Marksman/Sniper": 1,
+    "Marksman Rifle": 14,
     "Melee": 1,
-    "Pistol": 21,
-    "SMG": 43,
+    "Pistol": 20,
+    "SMG": 44,
     "Sniper": 20,
     "Special": 1
   },
@@ -80,7 +78,7 @@
     {
       "id": "abr-a1",
       "name": "ABR A1",
-      "class": "Marksman",
+      "class": "AR",
       "game": "bo6",
       "in_warzone": true,
       "base_only": false
@@ -576,7 +574,7 @@
     {
       "id": "kar98k",
       "name": "Kar98k",
-      "class": "Marksman/Sniper",
+      "class": "Marksman Rifle",
       "game": "mw3",
       "in_warzone": true,
       "base_only": false
@@ -1096,7 +1094,7 @@
     {
       "id": "rk-9",
       "name": "RK-9",
-      "class": "Pistol",
+      "class": "SMG",
       "game": "bo7",
       "in_warzone": true,
       "base_only": false
