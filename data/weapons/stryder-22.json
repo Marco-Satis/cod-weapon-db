@@ -3,50 +3,278 @@
   "name": "Stryder .22",
   "class": "Pistol",
   "game": "bo6",
+  "weapon_type": "Pistols",
   "in_warzone": true,
-  "source": "truegamedata",
+  "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
   "note": "Off-Meta BO6 Pistol (.22 WMR, 500 RPM full-auto, 30-round). reload roh '2000 s' -> 2.0. Universelle Slots = BO6-Pool. Weapon-spez: MUZZLE/BARREL/MAGAZINE/FIRE MODS (inkl 3-Round Burst Mod).",
-  "extraction": "weapon-specific-only-BO-editorbound-split",
   "base": {
     "rpm": 500,
     "mag": 30,
-    "reload_s": 2.0,
+    "reload_s": 2000,
     "ads_ms": 140,
-    "velocity_ms": 310,
-    "move_ms": 5.3,
     "sprint_to_fire_ms": 90,
-    "sprint_ms": 6.6,
-    "zoom_x": 0
+    "velocity_ms": 310,
+    "move_speed": 5.3,
+    "crouch_move_speed": 2.5,
+    "ads_move_speed": 3.9,
+    "sprint_speed": 6.6,
+    "swap_speed": 700,
+    "gun_kick": 31.45,
+    "vert_recoil": 43.71,
+    "horiz_recoil": 6.75,
+    "idle_sway": 0.1,
+    "hipfire_max": 6.75,
+    "flinch_resistance": 0.2,
+    "target_flinch": 0.6
   },
+  "damage": [
+    {
+      "head": 72,
+      "neck": 45,
+      "chest": 45,
+      "stomach": 30,
+      "upperleg": 30,
+      "lowerleg": 30,
+      "upperarm": 45,
+      "lowerarm": 45,
+      "dropoff": 0,
+      "base_rpm": 500,
+      "final_rpm": 500,
+      "rpm_mod": 1
+    },
+    {
+      "head": 52,
+      "neck": 33,
+      "chest": 33,
+      "stomach": 22,
+      "upperleg": 22,
+      "lowerleg": 22,
+      "upperarm": 33,
+      "lowerarm": 33,
+      "dropoff": 20.3,
+      "base_rpm": 500,
+      "final_rpm": 500,
+      "rpm_mod": 1
+    }
+  ],
   "slots": {
     "BARREL": [
-      "Gain-Twist Barrel :: +45% Bullet Velocity",
-      "Long Barrel :: +35% Range",
-      "Reinforced Barrel :: +20.2% Range",
-      "Short Barrel",
-      "CHF Barrel :: +44.8% Gun Kick"
+      {
+        "name": "Gain-Twist Barrel",
+        "mods": {
+          "bv_mod": 1.45
+        }
+      },
+      {
+        "name": "Long Barrel",
+        "mods": {
+          "range_mod": 1.34975
+        }
+      },
+      {
+        "name": "Reinforced Barrel",
+        "mods": {
+          "range_mod": 1.20197,
+          "bv_mod": 1.25
+        }
+      },
+      {
+        "name": "Short Barrel"
+      },
+      {
+        "name": "CHF Barrel",
+        "mods": {
+          "gun_kick_mod": 1.448,
+          "vert_recoil_mod": 1.45,
+          "horiz_recoil_mod": 1.2
+        }
+      }
     ],
     "FIRE MODS": [
-      "Rapid Fire :: Does not modify damage profile",
-      ".22 WMR Overpressured :: +20% Bullet Velocity",
-      "Recoil Springs :: -13% Gun Kick",
-      ".22 WMR FMJ",
-      "Stryder .22 3-Round Burst Mod :: +24.2% Fire Rate"
+      {
+        "name": "Rapid Fire",
+        "mods": {
+          "gun_kick_mod": 1.149,
+          "vert_recoil_mod": 1.15,
+          "horiz_recoil_mod": 1.101,
+          "rpm_mod": 1.112
+        }
+      },
+      {
+        "name": ".22 WMR Overpressured",
+        "mods": {
+          "bv_mod": 1.2
+        }
+      },
+      {
+        "name": "Recoil Springs",
+        "mods": {
+          "gun_kick_mod": 0.87,
+          "vert_recoil_mod": 0.87,
+          "horiz_recoil_mod": 0.87
+        }
+      },
+      {
+        "name": ".22 WMR FMJ"
+      },
+      {
+        "name": "Stryder .22 3-Round Burst Mod",
+        "mods": {
+          "gun_kick_mod": 0.628,
+          "reload_mod": 1.265,
+          "rpm_mod": 1.242
+        }
+      }
+    ],
+    "LASER": [
+      {
+        "name": "Steady Aim Laser",
+        "mods": {
+          "hipfire_max_mod": 0.77
+        }
+      },
+      {
+        "name": "Fast Motion Laser"
+      },
+      {
+        "name": "Tactical Laser"
+      },
+      {
+        "name": "Strelok Laser"
+      },
+      {
+        "name": "Target Laser"
+      }
     ],
     "MAGAZINE": [
-      "Extended Mag I :: +15% Reload Time",
-      "Fast Mag I :: -10.7% ADS Time",
-      "Extended Mag II :: +14.3% ADS Time",
-      "Fast Mag II :: -17.9% ADS Time"
+      {
+        "name": "Extended Mag I",
+        "mods": {
+          "reload_mod": 1.15
+        }
+      },
+      {
+        "name": "Fast Mag I",
+        "mods": {
+          "ads_mod": 0.893,
+          "stf_mod": 0.889,
+          "reload_mod": 0.8
+        }
+      },
+      {
+        "name": "Extended Mag II",
+        "mods": {
+          "ads_mod": 1.143,
+          "stf_mod": 1.222,
+          "reload_mod": 1.15
+        }
+      },
+      {
+        "name": "Fast Mag II",
+        "mods": {
+          "ads_mod": 0.821,
+          "stf_mod": 0.778,
+          "reload_mod": 0.8
+        }
+      }
     ],
     "MUZZLE": [
-      "Suppressor",
-      "Compensator :: -29.7% Gun Kick",
-      "Muzzle Brake",
-      "Ported Compensator :: -19.8% Gun Kick",
-      "Monolithic Suppressor :: +10.3% Range"
+      {
+        "name": "Suppressor"
+      },
+      {
+        "name": "Compensator",
+        "mods": {
+          "gun_kick_mod": 0.703,
+          "vert_recoil_mod": 0.7
+        }
+      },
+      {
+        "name": "Muzzle Brake"
+      },
+      {
+        "name": "Ported Compensator",
+        "mods": {
+          "gun_kick_mod": 0.802,
+          "vert_recoil_mod": 0.8
+        }
+      },
+      {
+        "name": "Monolithic Suppressor",
+        "mods": {
+          "ads_mod": 1.393,
+          "range_mod": 1.10345,
+          "bv_mod": 1.2
+        }
+      }
+    ],
+    "OPTIC": [
+      {
+        "name": "Remuda Mini Reflex"
+      },
+      {
+        "name": "Otero Micro Dot"
+      },
+      {
+        "name": "Kepler Microflex"
+      },
+      {
+        "name": "Merlin Mini"
+      },
+      {
+        "name": "Accu-Spot Reflex"
+      },
+      {
+        "name": "Kepler Pistol Scope",
+        "mods": {
+          "ads_mod": 1.357,
+          "idle_sway_mod": 2
+        }
+      }
+    ],
+    "REAR GRIP": [
+      {
+        "name": "Quickdraw Grip",
+        "mods": {
+          "ads_mod": 0.571
+        }
+      },
+      {
+        "name": "Assault Grip",
+        "mods": {
+          "stf_mod": 0.667
+        }
+      },
+      {
+        "name": "Commando Grip",
+        "mods": {
+          "ads_mod": 0.857,
+          "stf_mod": 0.889
+        }
+      },
+      {
+        "name": "Ergonomic Grip",
+        "mods": {
+          "ads_mod": 0.786
+        }
+      },
+      {
+        "name": "CQB Grip",
+        "mods": {
+          "stf_mod": 0.778
+        }
+      }
+    ],
+    "STOCK": [
+      {
+        "name": "Akimbo Stryder .22",
+        "mods": {
+          "hipfire_max_mod": 1.25,
+          "reload_mod": 1.417,
+          "swap_speed_mod": 1.14
+        }
+      }
     ]
-  },
-  "_universal": "OPTIC/REAR GRIP/STOCK/LASER = BO6-Pool (ref lc10.json)"
+  }
 }

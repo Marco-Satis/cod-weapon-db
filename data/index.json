@@ -3,7 +3,7 @@
   "data_version": "S3.5_2026-04-25",
   "source": "truegamedata",
   "weapon_count": 191,
-  "base_only_count": 8,
+  "base_only_count": 7,
   "counts_by_class": {
     "AR": 46,
     "Battle Rifle": 22,
@@ -1086,7 +1086,7 @@
       "class": "SMG",
       "game": "bo7",
       "in_warzone": true,
-      "base_only": true
+      "base_only": false
     },
     {
       "id": "rival-9",

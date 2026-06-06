@@ -3,48 +3,522 @@
   "name": "AK-27",
   "class": "AR",
   "game": "bo7",
+  "weapon_type": "AR",
   "in_warzone": true,
-  "source": "truegamedata",
+  "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
   "note": "BO7-native Meta-AR (7.62 Soviet, 690 RPM, 30-round). Voll-Extraktion (Quelle wz_attachment_deltas.md), kanonisiert auf weapon-spez; universelle Slots = BO7-Pool.",
-  "extraction": "weapon-specific-only-BO-fromMD",
   "base": {
     "rpm": 690,
     "mag": 30,
-    "reload_s": 2.47,
+    "reload_s": 2.465,
     "ads_ms": 240,
-    "velocity_ms": 920,
-    "move_ms": 4.7,
     "sprint_to_fire_ms": 190,
-    "sprint_ms": 7.2
+    "velocity_ms": 920,
+    "move_speed": 4.7,
+    "crouch_move_speed": 2.4,
+    "ads_move_speed": 3,
+    "sprint_speed": 7.2,
+    "gun_kick": 17.59,
+    "vert_recoil": 43.88,
+    "horiz_recoil": 16.41,
+    "idle_sway": 0.42,
+    "hipfire_max": 8.5,
+    "flinch_resistance": 0.18
   },
+  "damage": [
+    {
+      "head": 46,
+      "neck": 39,
+      "chest": 39,
+      "stomach": 37,
+      "upperleg": 37,
+      "lowerleg": 37,
+      "upperarm": 39,
+      "lowerarm": 39,
+      "dropoff": 0,
+      "base_rpm": 690,
+      "final_rpm": 690,
+      "rpm_mod": 1
+    },
+    {
+      "head": 42,
+      "neck": 35,
+      "chest": 35,
+      "stomach": 33,
+      "upperleg": 33,
+      "lowerleg": 33,
+      "upperarm": 35,
+      "lowerarm": 35,
+      "dropoff": 40,
+      "base_rpm": 690,
+      "final_rpm": 690,
+      "rpm_mod": 1
+    },
+    {
+      "head": 36,
+      "neck": 30,
+      "chest": 30,
+      "stomach": 28,
+      "upperleg": 28,
+      "lowerleg": 28,
+      "upperarm": 30,
+      "lowerarm": 30,
+      "dropoff": 65,
+      "base_rpm": 690,
+      "final_rpm": 690,
+      "rpm_mod": 1
+    }
+  ],
   "slots": {
     "BARREL": [
-      "18.2\" Vostok Extended Barrel :: +15.2% Range | +6.2% ADS Time",
-      "17\" Bystro Speed Barrel :: +17.7% Range | -6% Bullet Velocity | -0.5% Gun Kick | -25% Horiz. Recoil | +9.5% Idle Sway | +6.7% ADS Move.",
-      "16.3\" SWF Tumult Barrel :: +7.6% Range | +8% Bullet Velocity | +4.2% ADS Time",
-      "14\" Prism Light Barrel :: -8.3% ADS Time | -13.2% Sprint to Fire",
-      "17.6\" Vandal Heavy Barrel :: +15% Bullet Velocity | -20% Gun Kick | -20% Horiz. Recoil | -20% Vert. Recoil | -10% ADS Move. | +14.6% ADS Time | +7.9% Sprint to Fire"
+      {
+        "name": "18.2\" Vostok Extended Barrel",
+        "mods": {
+          "ads_mod": 1.062,
+          "range_mod": 1.152
+        }
+      },
+      {
+        "name": "17\" Bystro Speed Barrel",
+        "mods": {
+          "gun_kick_mod": 0.995,
+          "horiz_recoil_mod": 0.75,
+          "ads_movement_mod": 1.067,
+          "range_mod": 1.177,
+          "idle_sway_mod": 1.095,
+          "bv_mod": 0.94
+        }
+      },
+      {
+        "name": "16.3\" SWF Tumult Barrel",
+        "mods": {
+          "ads_mod": 1.042,
+          "range_mod": 1.076,
+          "bv_mod": 1.08
+        }
+      },
+      {
+        "name": "14\" Prism Light Barrel",
+        "mods": {
+          "ads_mod": 0.917,
+          "stf_mod": 0.868
+        }
+      },
+      {
+        "name": "17.6\" Vandal Heavy Barrel",
+        "mods": {
+          "ads_mod": 1.146,
+          "gun_kick_mod": 0.8,
+          "vert_recoil_mod": 0.8,
+          "horiz_recoil_mod": 0.8,
+          "ads_movement_mod": 0.9,
+          "stf_mod": 1.079,
+          "bv_mod": 1.15
+        }
+      }
     ],
     "FIRE MODS": [
-      "Enhanced Cycle System :: -12.6% Range | -12% Bullet Velocity | +4.7% Fire Rate | -17.6% Gun Kick | +22.5% Vert. Recoil",
-      "7.62 Soviet Overpressured :: +20% Bullet Velocity",
-      "Buffer Spring :: -8.1% Gun Kick | -12% Horiz. Recoil | -8% Vert. Recoil",
-      "7.62 Soviet FMJ :: +14.4% Range | +14% Bullet Velocity"
+      {
+        "name": "Enhanced Cycle System",
+        "mods": {
+          "gun_kick_mod": 0.824,
+          "vert_recoil_mod": 1.225,
+          "range_mod": 0.874,
+          "bv_mod": 0.88,
+          "rpm_mod": 1.047
+        }
+      },
+      {
+        "name": "7.62 Soviet Overpressured",
+        "mods": {
+          "bv_mod": 1.2
+        }
+      },
+      {
+        "name": "Buffer Spring",
+        "mods": {
+          "gun_kick_mod": 0.919,
+          "vert_recoil_mod": 0.92,
+          "horiz_recoil_mod": 0.88
+        }
+      },
+      {
+        "name": "7.62 Soviet FMJ",
+        "mods": {
+          "range_mod": 1.144,
+          "bv_mod": 1.14
+        }
+      }
+    ],
+    "LASER": [
+      {
+        "name": "Convergence Box Laser",
+        "mods": {
+          "hipfire_max_mod": 0.851
+        }
+      },
+      {
+        "name": "Adaptive Tactical Laser"
+      },
+      {
+        "name": "1mW Pulse Laser",
+        "mods": {
+          "ads_mod": 0.938,
+          "stf_mod": 0.895
+        }
+      },
+      {
+        "name": "1mW Motion Strike Laser"
+      },
+      {
+        "name": "5mW Lockstep Laser"
+      }
     ],
     "MAGAZINE": [
-      "Epitaph Extended Mag :: -3.3% ADS Move. | +4.2% ADS Time",
-      "Riker Flip Mag :: -15.2% Reload Time",
-      "Saber Pack Heavy Drum :: -6.4% Move. Speed | -4.2% Crouch Speed | -4.2% Sprint Speed | -6.7% ADS Move. | +8.3% ADS Time | +30.3% Reload Time | +10.5% Sprint to Fire",
-      "IronDivide Fast Mag :: -4.2% ADS Time | -30% Reload Time | -5.3% Sprint to Fire"
+      {
+        "name": "Epitaph Extended Mag",
+        "mods": {
+          "ads_mod": 1.042,
+          "ads_movement_mod": 0.967
+        }
+      },
+      {
+        "name": "Riker Flip Mag",
+        "mods": {
+          "reload_mod": 0.848
+        }
+      },
+      {
+        "name": "Saber Pack Heavy Drum",
+        "mods": {
+          "ads_mod": 1.083,
+          "ads_movement_mod": 0.933,
+          "stf_mod": 1.105,
+          "crouch_movement_mod": 0.958,
+          "movement_mod": 0.936,
+          "sprint_mod": 0.958,
+          "reload_mod": 1.303
+        }
+      },
+      {
+        "name": "IronDivide Fast Mag",
+        "mods": {
+          "ads_mod": 0.958,
+          "stf_mod": 0.947,
+          "reload_mod": 0.7
+        }
+      }
     ],
     "MUZZLE": [
-      "SWF Tishina-II",
-      "EMT3 Compensator :: -19.5% Gun Kick | -20% Vert. Recoil",
-      "Eclipse 7.62 Brake :: -15.6% Gun Kick | -16% Vert. Recoil",
-      "EMT3 Ported-70 :: -24.9% Max Hipfire Area",
-      "Monolithic Suppressor :: +12.4% Range | +20% Bullet Velocity | +22.9% ADS Time"
+      {
+        "name": "SWF Tishina-II"
+      },
+      {
+        "name": "EMT3 Compensator",
+        "mods": {
+          "gun_kick_mod": 0.805,
+          "vert_recoil_mod": 0.8
+        }
+      },
+      {
+        "name": "Eclipse 7.62 Brake",
+        "mods": {
+          "gun_kick_mod": 0.844,
+          "vert_recoil_mod": 0.84
+        }
+      },
+      {
+        "name": "EMT3 Ported-70",
+        "mods": {
+          "hipfire_max_mod": 0.751
+        }
+      },
+      {
+        "name": "Monolithic Suppressor",
+        "mods": {
+          "ads_mod": 1.229,
+          "range_mod": 1.124,
+          "bv_mod": 1.2
+        }
+      }
+    ],
+    "OPTIC": [
+      {
+        "name": "LTI Mini"
+      },
+      {
+        "name": "VAS MicroFlex"
+      },
+      {
+        "name": "Lethal Tools ELO"
+      },
+      {
+        "name": "EAM Micro Dot"
+      },
+      {
+        "name": "VAS LED"
+      },
+      {
+        "name": "Kepler-Pro Red Dot"
+      },
+      {
+        "name": "LTI Reflex"
+      },
+      {
+        "name": "Greaves Red Dot"
+      },
+      {
+        "name": "KES Slim Reflex"
+      },
+      {
+        "name": "EAM xL Reflex"
+      },
+      {
+        "name": "PrismaTech Digital Holo"
+      },
+      {
+        "name": "EMT3 Holo Mk.2"
+      },
+      {
+        "name": "Kepler T-Range Holo",
+        "mods": {
+          "ads_mod": 1.062,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "Solaris Holo-IR",
+        "mods": {
+          "gun_kick_mod": 0.75
+        }
+      },
+      {
+        "name": "EAM Dyad xL",
+        "mods": {
+          "ads_mod": 1.062,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "LTI Target Finder VZ",
+        "mods": {
+          "ads_mod": 1.208,
+          "ads_movement_mod": 0.9,
+          "stf_mod": 1.132
+        }
+      },
+      {
+        "name": "Millimeter Scanner",
+        "mods": {
+          "ads_mod": 1.125,
+          "gun_kick_mod": 1.1,
+          "stf_mod": 1.132
+        }
+      },
+      {
+        "name": "Redwell 30-5 2x",
+        "mods": {
+          "ads_mod": 1.042,
+          "gun_kick_mod": 0.722
+        }
+      },
+      {
+        "name": "Greaves Accuspot 3x",
+        "mods": {
+          "ads_mod": 1.062,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "Kepler Ultra 4x",
+        "mods": {
+          "ads_mod": 1.083,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "PrismaTech Turbo 4x",
+        "mods": {
+          "ads_mod": 1.083,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "VAS Duo Hybrid Sight",
+        "mods": {
+          "ads_mod": 1.062,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Bowen X-25 IR",
+        "mods": {
+          "ads_mod": 1.054,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "EAM Dual Zoom",
+        "mods": {
+          "ads_mod": 1.083,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Greaves Ultra Zoom",
+        "mods": {
+          "ads_mod": 1.104,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "RistRauch 7x",
+        "mods": {
+          "ads_mod": 1.062,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "VAS Strix 6x Thermal",
+        "mods": {
+          "ads_mod": 1.146
+        }
+      }
+    ],
+    "REAR GRIP": [
+      {
+        "name": "Lithe Thin Grip",
+        "mods": {
+          "ads_mod": 0.729
+        }
+      },
+      {
+        "name": "Dictum Light Grip",
+        "mods": {
+          "stf_mod": 0.526
+        }
+      },
+      {
+        "name": "Kronos Heavy Grip",
+        "mods": {
+          "ads_mod": 1.033,
+          "gun_kick_mod": 0.995,
+          "horiz_recoil_mod": 0.75
+        }
+      },
+      {
+        "name": "Garin Advanced Grip",
+        "mods": {
+          "ads_mod": 0.854
+        }
+      },
+      {
+        "name": "Czar Control Grip",
+        "mods": {
+          "gun_kick_mod": 0.853,
+          "vert_recoil_mod": 0.85
+        }
+      }
+    ],
+    "STOCK": [
+      {
+        "name": "Caliban Light Stock",
+        "mods": {
+          "crouch_movement_mod": 1.375,
+          "movement_mod": 1.191,
+          "sprint_mod": 1.014
+        }
+      },
+      {
+        "name": "Viktor-7R Stock",
+        "mods": {
+          "ads_mod": 0.917,
+          "ads_movement_mod": 1.2,
+          "flinch_resistance_mod": 1.167
+        }
+      },
+      {
+        "name": "Pugil Heavy Stock",
+        "mods": {
+          "ads_mod": 1.104,
+          "gun_kick_mod": 0.849,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.82,
+          "ads_movement_mod": 0.833
+        }
+      },
+      {
+        "name": "Prodigal Skeleton Stock",
+        "mods": {
+          "ads_mod": 0.938,
+          "hipfire_max_mod": 0.851,
+          "stf_mod": 0.9
+        }
+      },
+      {
+        "name": "SWF-62 Variable Stock",
+        "mods": {
+          "ads_mod": 1.083,
+          "gun_kick_mod": 0.899,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.85,
+          "flinch_resistance_mod": 0.778
+        }
+      }
+    ],
+    "UNDERBARREL": [
+      {
+        "name": "Lateral Precision Grip",
+        "mods": {
+          "gun_kick_mod": 0.995,
+          "horiz_recoil_mod": 0.75
+        }
+      },
+      {
+        "name": "Ironhold Angled Grip",
+        "mods": {
+          "gun_kick_mod": 0.999,
+          "horiz_recoil_mod": 0.92,
+          "idle_sway_mod": 0.5
+        }
+      },
+      {
+        "name": "Respire Handstop",
+        "mods": {
+          "flinch_resistance_mod": 0.611
+        }
+      },
+      {
+        "name": "Strider Handstop",
+        "mods": {
+          "ads_movement_mod": 1.1,
+          "crouch_movement_mod": 1.083,
+          "movement_mod": 1.064
+        }
+      },
+      {
+        "name": "Flowguard Foregrip",
+        "mods": {
+          "gun_kick_mod": 0.997,
+          "horiz_recoil_mod": 0.85,
+          "crouch_movement_mod": 1.083,
+          "movement_mod": 1.064,
+          "sprint_mod": 1.028
+        }
+      },
+      {
+        "name": "M335-X Frag"
+      },
+      {
+        "name": "M335-X Cloak"
+      },
+      {
+        "name": "M335-X Tempest"
+      },
+      {
+        "name": "M335-X Drill Charge"
+      }
     ]
-  },
-  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO7-Pool (volle Dumps in wz_attachment_deltas.md)"
+  }
 }

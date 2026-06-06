@@ -4,38 +4,1101 @@
   "name_de": "Armbrust",
   "class": "Crossbow",
   "game": "mw2",
+  "weapon_type": "MR",
   "in_warzone": true,
-  "source": "truegamedata",
+  "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
   "note": "Off-Meta MW2 Crossbow (1 Round, 48 RPM). Weapon-unique Slots = ARMS/BOLT/WIRE. BARREL/AMMUNITION/MAGAZINE zeigen generischen MW-6.8-Pool (TGD-Modell, universal).",
-  "extraction": "weapon-specific-only (ARMS/BOLT/WIRE; Rest MW-Pool)",
+  "fire_modes": {
+    "fire_mode1": "Bolt Action",
+    "fire_mode2": ""
+  },
   "base": {
     "rpm": 48,
     "mag": 1,
     "reload_s": 3.3,
     "ads_ms": 350,
-    "velocity_ms": 110,
-    "move_ms": 4.6,
     "sprint_to_fire_ms": 270,
-    "sprint_ms": 6.1,
+    "velocity_ms": 110,
+    "move_speed": 4.6,
+    "crouch_move_speed": 2.8,
+    "ads_move_speed": 2.5,
+    "sprint_speed": 6.1,
+    "swap_speed": 1533,
+    "gun_kick": 30,
+    "vert_recoil": 58.72,
+    "horiz_recoil": 12.23,
+    "idle_sway": 5,
+    "hipfire_max": 12,
+    "flinch_resistance": 0.3,
+    "target_flinch": 1.2,
+    "tac_spread": 10,
     "zoom_x": 1
   },
+  "damage": [
+    {
+      "head": 375,
+      "neck": 375,
+      "chest": 150,
+      "stomach": 125,
+      "upperleg": 125,
+      "lowerleg": 125,
+      "upperarm": 125,
+      "lowerarm": 125,
+      "dropoff": 0,
+      "base_rpm": 48,
+      "final_rpm": 48,
+      "rpm_mod": 1
+    },
+    {
+      "head": 300,
+      "neck": 300,
+      "chest": 120,
+      "stomach": 100,
+      "upperleg": 100,
+      "lowerleg": 100,
+      "upperarm": 100,
+      "lowerarm": 100,
+      "dropoff": 52,
+      "base_rpm": 48,
+      "final_rpm": 48,
+      "rpm_mod": 1
+    }
+  ],
   "slots": {
     "ARMS": [
-      "Thunder 200 Lb :: -50% Gun Kick | -50% Horiz. Recoil | -50% Vert. Recoil | -8% Move | -8% Crouch | -8% Sprint | -9% ADS Move | +6% ADS Time",
-      "Carbon Elite v3 :: +100% Gun Kick | +60% Horiz. Recoil | +60% Vert. Recoil | +8% Move | +6% Crouch | +4% Sprint | +12% ADS Move | -9% ADS Time",
-      "SO Momenti :: +38.5% Range | +21% Bullet Velocity | +15% Max Hipfire | +9% ADS Time",
-      "Quill XE 100 Lb :: -10% Range | -11% Bullet Velocity | -7% Idle Sway | -16% Max Hipfire | -15% ADS Time"
+      {
+        "name": "Thunder 200 Lb",
+        "mods": {
+          "ads_mod": 1.06,
+          "gun_kick_mod": 0.5,
+          "vert_recoil_mod": 0.5,
+          "horiz_recoil_mod": 0.5,
+          "ads_movement_mod": 0.91,
+          "crouch_movement_mod": 0.92,
+          "movement_mod": 0.92,
+          "sprint_mod": 0.92
+        }
+      },
+      {
+        "name": "Carbon Elite v3",
+        "mods": {
+          "ads_mod": 0.91,
+          "gun_kick_mod": 2,
+          "vert_recoil_mod": 1.6,
+          "horiz_recoil_mod": 1.6,
+          "ads_movement_mod": 1.12,
+          "crouch_movement_mod": 1.06,
+          "movement_mod": 1.08,
+          "sprint_mod": 1.04
+        }
+      },
+      {
+        "name": "SO Momenti",
+        "mods": {
+          "ads_mod": 1.09,
+          "hipfire_max_mod": 1.15,
+          "range_mod": 1.38462,
+          "bv_mod": 1.21
+        }
+      },
+      {
+        "name": "Quill XE 100 Lb",
+        "mods": {
+          "ads_mod": 0.85,
+          "hipfire_max_mod": 0.84,
+          "range_mod": 0.9,
+          "idle_sway_mod": 0.93,
+          "bv_mod": 0.89
+        }
+      }
     ],
     "BOLT": [
-      "Brightblaze 20\" Bolts :: -63.5% Range | -10% Bullet Velocity",
-      "Blastcap 20\" Bolts :: -63.5% Range | -15% Bullet Velocity",
-      "FTAC Caustic 20\" Bolts :: -7% Bullet Velocity"
+      {
+        "name": "Brightblaze 20\" Bolts",
+        "mods": {
+          "range_mod": 0.365385,
+          "bv_mod": 0.9
+        }
+      },
+      {
+        "name": "Blastcap 20\" Bolts",
+        "mods": {
+          "range_mod": 0.365385,
+          "bv_mod": 0.85
+        }
+      },
+      {
+        "name": "FTAC Caustic 20\" Bolts",
+        "mods": {
+          "bv_mod": 0.93
+        }
+      }
+    ],
+    "LASER": [
+      {
+        "name": "1mW Artemis Laser"
+      },
+      {
+        "name": "1mW Quick Fire Laser",
+        "mods": {
+          "ads_mod": 0.96
+        }
+      },
+      {
+        "name": "Accu-Shot 5mW Laser",
+        "mods": {
+          "ads_mod": 0.93
+        }
+      },
+      {
+        "name": "VLK LZR 7mW",
+        "mods": {
+          "ads_mod": 0.95,
+          "stf_mod": 0.94
+        }
+      },
+      {
+        "name": "7mW Canted Laser",
+        "mods": {
+          "ads_mod": 0.97,
+          "stf_mod": 0.94
+        }
+      },
+      {
+        "name": "Schlager ULO-66 Laser",
+        "mods": {
+          "hipfire_max_mod": 0.9,
+          "idle_sway_mod": 0.8
+        }
+      },
+      {
+        "name": "STOVL Tac Laser",
+        "mods": {
+          "hipfire_max_mod": 0.95,
+          "idle_sway_mod": 0.95
+        }
+      },
+      {
+        "name": "Hipshot L20",
+        "mods": {
+          "hipfire_max_mod": 0.92,
+          "idle_sway_mod": 0.92
+        }
+      },
+      {
+        "name": "Point-G3P 04",
+        "mods": {
+          "hipfire_max_mod": 0.92,
+          "idle_sway_mod": 0.92,
+          "stf_mod": 0.95
+        }
+      },
+      {
+        "name": "FJX Ultrabeam XR",
+        "mods": {
+          "stf_mod": 0.92
+        }
+      },
+      {
+        "name": "EXF Solarflare",
+        "mods": {
+          "stf_mod": 0.87
+        }
+      },
+      {
+        "name": "Kimura RYL33 Laser Light",
+        "mods": {
+          "ads_mod": 0.9,
+          "stf_mod": 0.85
+        }
+      }
+    ],
+    "OPTIC": [
+      {
+        "name": "Cronen Intlas MSP-12",
+        "mods": {
+          "ads_mod": 0.99,
+          "hipfire_max_mod": 0.9,
+          "idle_sway_mod": 0.9
+        }
+      },
+      {
+        "name": "Intlas CAS-14",
+        "mods": {
+          "hipfire_max_mod": 0.9,
+          "idle_sway_mod": 0.9
+        }
+      },
+      {
+        "name": "Slate Reflector"
+      },
+      {
+        "name": "XTEN ERX-10 mini"
+      },
+      {
+        "name": "Slimline Pro"
+      },
+      {
+        "name": "SZ Mini"
+      },
+      {
+        "name": "Cronen Mini Dot"
+      },
+      {
+        "name": "Cronen Mini Pro"
+      },
+      {
+        "name": "SZ Sigma-IV Optic"
+      },
+      {
+        "name": "SZ Minitac-40"
+      },
+      {
+        "name": "KR Minitac-40 Riser",
+        "mods": {
+          "ads_mod": 0.97,
+          "gun_kick_mod": 1.1
+        }
+      },
+      {
+        "name": "FSS Spectre Microtherm",
+        "mods": {
+          "ads_mod": 1.06
+        }
+      },
+      {
+        "name": "KR V4 1X Riser",
+        "mods": {
+          "ads_mod": 0.97,
+          "gun_kick_mod": 1.1
+        }
+      },
+      {
+        "name": "Caucasus Reflex Sight"
+      },
+      {
+        "name": "Nydar Model 2023"
+      },
+      {
+        "name": "Mk. 3 Reflector"
+      },
+      {
+        "name": "XRK On-Point Optic"
+      },
+      {
+        "name": "Aim OP-V4"
+      },
+      {
+        "name": "DF105 Reflex Sight"
+      },
+      {
+        "name": "Monocle CT90"
+      },
+      {
+        "name": "Corvus Sol-76"
+      },
+      {
+        "name": "SZ Recharge-DX"
+      },
+      {
+        "name": "SZ Sro-7"
+      },
+      {
+        "name": "Corio RE-X Pro"
+      },
+      {
+        "name": "Chrios Holo"
+      },
+      {
+        "name": "Corio Enforcer Optic"
+      },
+      {
+        "name": "SZ Lonewolf Optic"
+      },
+      {
+        "name": "Kazan-Holo"
+      },
+      {
+        "name": "SZ Battle Optic"
+      },
+      {
+        "name": "Corvus Downrange-00"
+      },
+      {
+        "name": "XTEN Angel-40"
+      },
+      {
+        "name": "SZ Holotherm"
+      },
+      {
+        "name": "Corio ELT-10 2.5",
+        "mods": {
+          "ads_mod": 1.04,
+          "ads_movement_mod": 0.96
+        }
+      },
+      {
+        "name": "KR Mortis Precision 2.5X",
+        "mods": {
+          "ads_mod": 1.04,
+          "ads_movement_mod": 0.96
+        }
+      },
+      {
+        "name": "Corio Eagleseye 2.5X",
+        "mods": {
+          "ads_mod": 1.04,
+          "ads_movement_mod": 0.96
+        }
+      },
+      {
+        "name": "SL Truesight 2.5X",
+        "mods": {
+          "ads_mod": 1.04,
+          "ads_movement_mod": 0.96
+        }
+      },
+      {
+        "name": "KR Marauder 9 Riser",
+        "mods": {
+          "ads_movement_mod": 0.93
+        }
+      },
+      {
+        "name": "TOS Nightfall 2.5X Thermal Optic",
+        "mods": {
+          "ads_mod": 1.04
+        }
+      },
+      {
+        "name": "AOK 4.0X RQ-9 Recon",
+        "mods": {
+          "ads_mod": 1.06,
+          "ads_movement_mod": 0.91
+        }
+      },
+      {
+        "name": "TX4 Havoc",
+        "mods": {
+          "ads_mod": 1.06,
+          "ads_movement_mod": 0.93
+        }
+      },
+      {
+        "name": "VLK 4.0 Optic",
+        "mods": {
+          "ads_mod": 1.06,
+          "ads_movement_mod": 0.93
+        }
+      },
+      {
+        "name": "Schlager 3.4X",
+        "mods": {
+          "ads_mod": 1.06,
+          "ads_movement_mod": 0.93
+        }
+      },
+      {
+        "name": "Forge Tac Delta 4",
+        "mods": {
+          "ads_mod": 1.06,
+          "ads_movement_mod": 0.93
+        }
+      },
+      {
+        "name": "Cronen Zero-P Optic",
+        "mods": {
+          "ads_mod": 1.06,
+          "ads_movement_mod": 0.93
+        }
+      },
+      {
+        "name": "SZ Bullseye Optic",
+        "mods": {
+          "ads_mod": 1.06,
+          "ads_movement_mod": 0.93
+        }
+      },
+      {
+        "name": "Corvus Ghostview",
+        "mods": {
+          "ads_mod": 1.06,
+          "ads_movement_mod": 0.95
+        }
+      },
+      {
+        "name": "SZ Aggressor-IR Optic",
+        "mods": {
+          "ads_mod": 1.06,
+          "ads_movement_mod": 0.91
+        }
+      },
+      {
+        "name": "Schlager Night View",
+        "mods": {
+          "ads_mod": 1.06,
+          "ads_movement_mod": 0.91
+        }
+      },
+      {
+        "name": "VX350 Thermal Optic",
+        "mods": {
+          "ads_mod": 1.06,
+          "ads_movement_mod": 0.91
+        }
+      },
+      {
+        "name": "Teplo-OP3 Scope",
+        "mods": {
+          "ads_mod": 1.06,
+          "ads_movement_mod": 0.91
+        }
+      },
+      {
+        "name": "Heinrichter Hybrid Scope",
+        "mods": {
+          "ads_mod": 1.06,
+          "ads_movement_mod": 0.93
+        }
+      },
+      {
+        "name": "SZ HM5 Precision Hybrid Optic",
+        "mods": {
+          "ads_mod": 1.14,
+          "ads_movement_mod": 0.86
+        }
+      },
+      {
+        "name": "Ares Clear Shot",
+        "mods": {
+          "ads_mod": 1.14,
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "DR582 Hybrid Sight",
+        "mods": {
+          "ads_mod": 1.06,
+          "ads_movement_mod": 0.93
+        }
+      },
+      {
+        "name": "Hybrid Firepoint",
+        "mods": {
+          "ads_mod": 1.06,
+          "ads_movement_mod": 0.93
+        }
+      },
+      {
+        "name": "SZ Vortex-90",
+        "mods": {
+          "ads_mod": 1.06,
+          "ads_movement_mod": 0.93
+        }
+      },
+      {
+        "name": "BPZ40 Hybrid",
+        "mods": {
+          "ads_mod": 1.06,
+          "ads_movement_mod": 0.93
+        }
+      },
+      {
+        "name": "SZ Oscar-9",
+        "mods": {
+          "ads_mod": 1.06,
+          "ads_movement_mod": 0.93
+        }
+      },
+      {
+        "name": "Thermo-Optic X9",
+        "mods": {
+          "ads_mod": 1.06,
+          "ads_movement_mod": 0.91
+        }
+      },
+      {
+        "name": "Teplo Clear Shot",
+        "mods": {
+          "ads_mod": 1.06,
+          "ads_movement_mod": 0.91
+        }
+      },
+      {
+        "name": "FTAC Charlie7",
+        "mods": {
+          "ads_mod": 1.14,
+          "ads_movement_mod": 0.86
+        }
+      },
+      {
+        "name": "HmW-20 Optic",
+        "mods": {
+          "ads_mod": 1.14,
+          "ads_movement_mod": 0.86
+        }
+      },
+      {
+        "name": "Luca Bandera Scope",
+        "mods": {
+          "ads_mod": 1.14,
+          "ads_movement_mod": 0.86
+        }
+      },
+      {
+        "name": "DS Farsight 11",
+        "mods": {
+          "ads_mod": 1.14,
+          "ads_movement_mod": 0.86
+        }
+      },
+      {
+        "name": "Drexsom Prime-90",
+        "mods": {
+          "ads_mod": 1.14,
+          "ads_movement_mod": 0.86
+        }
+      },
+      {
+        "name": "3X RFL-Optic",
+        "mods": {
+          "ads_mod": 1.14,
+          "ads_movement_mod": 0.86
+        }
+      },
+      {
+        "name": "DXS Coriolis v4",
+        "mods": {
+          "ads_mod": 1.14,
+          "ads_movement_mod": 0.86
+        }
+      },
+      {
+        "name": "Lachmann Impact 9",
+        "mods": {
+          "ads_mod": 1.14,
+          "ads_movement_mod": 0.86
+        }
+      },
+      {
+        "name": "SP-X 80 6.6x",
+        "mods": {
+          "ads_mod": 1.14,
+          "ads_movement_mod": 0.86
+        }
+      },
+      {
+        "name": "FTAC Locus SP",
+        "mods": {
+          "ads_mod": 1.14,
+          "ads_movement_mod": 0.86
+        }
+      },
+      {
+        "name": "Luca Field-6",
+        "mods": {
+          "ads_mod": 1.14,
+          "ads_movement_mod": 0.86
+        }
+      },
+      {
+        "name": "Xten Intlas AS-7",
+        "mods": {
+          "ads_mod": 0.99,
+          "ads_movement_mod": 0.86,
+          "hipfire_max_mod": 0.9,
+          "idle_sway_mod": 0.9
+        }
+      },
+      {
+        "name": "Akalina LR-Stalk Optic",
+        "mods": {
+          "ads_mod": 1.14,
+          "ads_movement_mod": 0.86
+        }
+      },
+      {
+        "name": "KR KATT-50 8x Scope",
+        "mods": {
+          "ads_mod": 1.14,
+          "ads_movement_mod": 0.72
+        }
+      },
+      {
+        "name": "6x Short-Zoom Optic",
+        "mods": {
+          "ads_mod": 1.14,
+          "ads_movement_mod": 0.86
+        }
+      },
+      {
+        "name": "KR Intlas LSJ-3",
+        "mods": {
+          "ads_mod": 0.97,
+          "ads_movement_mod": 0.93,
+          "hipfire_max_mod": 0.9,
+          "idle_sway_mod": 0.9
+        }
+      },
+      {
+        "name": "Jak Bullseye"
+      },
+      {
+        "name": "QTG Reflex Sight"
+      },
+      {
+        "name": "Dragon's Eye Optic"
+      },
+      {
+        "name": "TPS Incendio Reflex"
+      },
+      {
+        "name": "Jak Glassless Optic",
+        "mods": {
+          "ads_mod": 1.01
+        }
+      },
+      {
+        "name": "MORS Hexer Optic",
+        "mods": {
+          "ads_mod": 1.14,
+          "ads_movement_mod": 0.86
+        }
+      },
+      {
+        "name": "Holo-Craft Optic",
+        "mods": {
+          "ads_mod": 1.04,
+          "ads_movement_mod": 0.96
+        }
+      },
+      {
+        "name": "Quarters Classic Reflex"
+      },
+      {
+        "name": "Jak NRG-IV Optic"
+      },
+      {
+        "name": "MORS Dot Sight"
+      },
+      {
+        "name": "AW Gen.1 Optic"
+      }
+    ],
+    "STOCK": [
+      {
+        "name": "FT Apex 1.5",
+        "mods": {
+          "ads_mod": 1.03,
+          "gun_kick_mod": 0.92,
+          "vert_recoil_mod": 0.92,
+          "horiz_recoil_mod": 0.92,
+          "hipfire_max_mod": 0.94,
+          "crouch_movement_mod": 0.92
+        }
+      },
+      {
+        "name": "FT Dart CB",
+        "mods": {
+          "ads_movement_mod": 1.11,
+          "sprint_mod": 1.02
+        }
+      },
+      {
+        "name": "FTAC Piercer",
+        "mods": {
+          "ads_movement_mod": 0.93,
+          "sprint_mod": 0.94
+        }
+      },
+      {
+        "name": "SpeedTrak Echo",
+        "mods": {
+          "ads_mod": 0.9,
+          "gun_kick_mod": 1.03,
+          "vert_recoil_mod": 1.04,
+          "horiz_recoil_mod": 1.03,
+          "hipfire_max_mod": 1.05,
+          "crouch_movement_mod": 1.1,
+          "sprint_mod": 1.04
+        }
+      }
+    ],
+    "UNDERBARREL": [
+      {
+        "name": "XRK Edge BW-4 Handstop",
+        "mods": {
+          "ads_mod": 0.9,
+          "stf_mod": 0.92
+        }
+      },
+      {
+        "name": "FTAC MSP-98 Handstop",
+        "mods": {
+          "ads_mod": 0.9,
+          "stf_mod": 0.92
+        }
+      },
+      {
+        "name": "DR-6 Handstop",
+        "mods": {
+          "ads_mod": 0.9,
+          "stf_mod": 0.92
+        }
+      },
+      {
+        "name": "XTEN Phantom-5 Handstop",
+        "mods": {
+          "ads_mod": 0.9,
+          "stf_mod": 0.92
+        }
+      },
+      {
+        "name": "XTEN TX-12 Handstop",
+        "mods": {
+          "ads_mod": 0.9,
+          "stf_mod": 0.92
+        }
+      },
+      {
+        "name": "FTAC SP-10 Angled Grip",
+        "mods": {
+          "hipfire_max_mod": 0.85,
+          "idle_sway_mod": 0.85
+        }
+      },
+      {
+        "name": "FTAC RS-9 Stealth Angled Grip",
+        "mods": {
+          "hipfire_max_mod": 0.85,
+          "idle_sway_mod": 0.85
+        }
+      },
+      {
+        "name": "Bruen Bastion Angled Grip",
+        "mods": {
+          "hipfire_max_mod": 0.85,
+          "idle_sway_mod": 0.85
+        }
+      },
+      {
+        "name": "Chewk Angled Grip",
+        "mods": {
+          "hipfire_max_mod": 0.85,
+          "idle_sway_mod": 0.85
+        }
+      },
+      {
+        "name": "Commando Foregrip",
+        "mods": {
+          "hipfire_max_mod": 0.85,
+          "idle_sway_mod": 0.85
+        }
+      },
+      {
+        "name": "EDGE-47 Grip",
+        "mods": {
+          "hipfire_max_mod": 0.85,
+          "idle_sway_mod": 0.85
+        }
+      },
+      {
+        "name": "Demo Firm Grip",
+        "mods": {
+          "hipfire_max_mod": 0.85,
+          "idle_sway_mod": 0.85
+        }
+      },
+      {
+        "name": "XTEN Gravedigger",
+        "mods": {
+          "hipfire_max_mod": 0.85,
+          "idle_sway_mod": 0.85
+        }
+      },
+      {
+        "name": "FTAC Ripper 56",
+        "mods": {
+          "hipfire_max_mod": 0.85,
+          "idle_sway_mod": 0.85
+        }
+      },
+      {
+        "name": "Demo Cleanshot 40",
+        "mods": {
+          "hipfire_max_mod": 0.85,
+          "idle_sway_mod": 0.85
+        }
+      },
+      {
+        "name": "Demo IMP-44 Grip",
+        "mods": {
+          "hipfire_max_mod": 0.85,
+          "idle_sway_mod": 0.85
+        }
+      },
+      {
+        "name": "FTAC Tiger Grip",
+        "mods": {
+          "hipfire_max_mod": 0.85,
+          "idle_sway_mod": 0.85
+        }
+      },
+      {
+        "name": "FSS Sharkfin 90",
+        "mods": {
+          "hipfire_max_mod": 0.85,
+          "idle_sway_mod": 0.85
+        }
+      },
+      {
+        "name": "Agent Grip",
+        "mods": {
+          "hipfire_max_mod": 0.85,
+          "idle_sway_mod": 0.85
+        }
+      },
+      {
+        "name": "Bruen Sync Shot Grip",
+        "mods": {
+          "hipfire_max_mod": 0.85,
+          "idle_sway_mod": 0.85
+        }
+      },
+      {
+        "name": "XTEN Drop Grip",
+        "mods": {
+          "hipfire_max_mod": 0.85,
+          "idle_sway_mod": 0.85
+        }
+      },
+      {
+        "name": "XTEN Nexus Grip",
+        "mods": {
+          "hipfire_max_mod": 0.85,
+          "idle_sway_mod": 0.85
+        }
+      },
+      {
+        "name": "PHASE-3 Grip",
+        "mods": {
+          "hipfire_max_mod": 0.85,
+          "idle_sway_mod": 0.85
+        }
+      },
+      {
+        "name": "Bruen Heavy Support Grip",
+        "mods": {
+          "hipfire_max_mod": 0.85,
+          "idle_sway_mod": 0.85
+        }
+      },
+      {
+        "name": "Kimura RYN-03 Vertical Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Kimura Seraphic Vertical Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "SL Skeletal Vertical Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Holger Vertical Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Bruen Tactical Vertical Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Bruen Pivot Vertical Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Merc Foregrip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Lockgrip PRECISION-40",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "HEX-40 Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Schlager Tango",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "VX Pineapple",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "OP-X9 Foregrip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Operator Foregrip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "TV Wrecker Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Bruen Tilt Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Cronen Grooveshot Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "EXF Backdraft Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Bruen Warrior Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Bipod V9 Grip"
+      },
+      {
+        "name": "Core BP2"
+      },
+      {
+        "name": "Paracord Grip",
+        "mods": {
+          "hipfire_max_mod": 0.85,
+          "idle_sway_mod": 0.85
+        }
+      },
+      {
+        "name": "GRV-Z Short Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Jak Slash",
+        "mods": {
+          "vert_recoil_mod": 0.92,
+          "hipfire_max_mod": 1.1,
+          "idle_sway_mod": 1.1,
+          "crouch_movement_mod": 1.02,
+          "movement_mod": 1.04,
+          "sprint_mod": 1.03
+        }
+      },
+      {
+        "name": "XRK Bowbreaker Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      }
     ],
     "WIRE": [
-      "28-Strand Cable :: +16% Bullet Velocity | +15% Horiz. Recoil | +15% Vert. Recoil",
-      "16-Strand Cable :: -8% Bullet Velocity | -30% Gun Kick | -30% Horiz. Recoil | -30% Vert. Recoil"
-    ],
-    "_universal": "MUZZLE/BARREL/AMMUNITION/MAGAZINE/OPTIC/UNDERBARREL/STOCK/LASER/REAR GRIP/COMB = MW-Pool (ref kar98k.json)"
+      {
+        "name": "28-Strand Cable",
+        "mods": {
+          "vert_recoil_mod": 1.15,
+          "horiz_recoil_mod": 1.15,
+          "bv_mod": 1.16
+        }
+      },
+      {
+        "name": "16-Strand Cable",
+        "mods": {
+          "gun_kick_mod": 0.7,
+          "vert_recoil_mod": 0.7,
+          "horiz_recoil_mod": 0.7,
+          "bv_mod": 0.92
+        }
+      }
+    ]
   }
 }

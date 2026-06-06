@@ -3,21 +3,87 @@
   "name": "Jager 45",
   "class": "Pistol",
   "game": "bo6",
+  "weapon_type": "Pistols",
   "in_warzone": true,
-  "source": "truegamedata",
+  "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
   "note": "Off-Meta BO6 Pistol (.45, 600 RPM, 10-round). TGD S3.5 ohne Attachment-Builder-Daten (nSlots=0 trotz geladener Waffe) -> base-only, wie Dresden/REV-46-Gap. Attachments via codmunity-S4 / TGD-S4 nachtragen.",
-  "extraction": "base-only (ns=0)",
   "base": {
     "rpm": 600,
     "mag": 10,
-    "reload_s": 2.0,
+    "reload_s": 1.995,
     "ads_ms": 150,
-    "velocity_ms": 410,
-    "move_ms": 5.3,
     "sprint_to_fire_ms": 90,
-    "sprint_ms": 7.6
+    "velocity_ms": 410,
+    "move_speed": 5.3,
+    "crouch_move_speed": 2.7,
+    "ads_move_speed": 3.9,
+    "sprint_speed": 7.6,
+    "gun_kick": 32.5,
+    "vert_recoil": 37.81,
+    "horiz_recoil": 22.39,
+    "idle_sway": 0.1,
+    "hipfire_max": 6.5,
+    "flinch_resistance": 0.2
   },
+  "damage": [
+    {
+      "head": 60,
+      "neck": 45,
+      "chest": 45,
+      "stomach": 30,
+      "upperleg": 30,
+      "lowerleg": 30,
+      "upperarm": 45,
+      "lowerarm": 45,
+      "dropoff": 0,
+      "base_rpm": 600,
+      "final_rpm": 600,
+      "rpm_mod": 1
+    },
+    {
+      "head": 44,
+      "neck": 33,
+      "chest": 33,
+      "stomach": 22,
+      "upperleg": 22,
+      "lowerleg": 22,
+      "upperarm": 33,
+      "lowerarm": 33,
+      "dropoff": 20,
+      "base_rpm": 600,
+      "final_rpm": 600,
+      "rpm_mod": 1
+    }
+  ],
   "slots": {},
-  "_universal": "TBD"
+  "meta_build": [
+    {
+      "label": "Close Range",
+      "source": "codmunity-S4 + game8",
+      "confidence": "bestaetigt",
+      "attachments": [
+        {
+          "slot": "Muzzle",
+          "attachment": "H-45 Precision Comp"
+        },
+        {
+          "slot": "Barrel",
+          "attachment": "8.7\" EAM Voyager Barrel"
+        },
+        {
+          "slot": "Magazine",
+          "attachment": "Goliath-X Extended+"
+        },
+        {
+          "slot": "Rear Grip",
+          "attachment": "VX-Shift Grip"
+        },
+        {
+          "slot": "Fire Mods",
+          "attachment": "Pistol Recoil Spring"
+        }
+      ]
+    }
+  ]
 }

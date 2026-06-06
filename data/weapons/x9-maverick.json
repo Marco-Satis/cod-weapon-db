@@ -3,37 +3,459 @@
   "name": "X9 Maverick",
   "class": "Battle Rifle",
   "game": "bo7",
+  "weapon_type": "AR",
   "in_warzone": true,
-  "source": "truegamedata",
+  "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
   "note": "Off-Meta BO7 Battle Rifle/Marksman (479 RPM, 30-round, 930 m/s). BO7-branded (MFS/Hawker/Chiral/Tourville). Editor reduziert: nur MUZZLE/BARREL weapon-spez; OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER universell; KEINE AMMUNITION/MAGAZINE/FIRE-MODS-Slots in TGD S3.5.",
-  "extraction": "weapon-specific-only-BO-editorbound-reduced",
   "base": {
     "rpm": 479,
     "mag": 30,
     "reload_s": 3.23,
     "ads_ms": 235,
-    "velocity_ms": 930,
-    "move_ms": 4.8,
     "sprint_to_fire_ms": 195,
-    "sprint_ms": 7.3,
-    "zoom_x": 0
+    "velocity_ms": 930,
+    "move_speed": 4.8,
+    "crouch_move_speed": 2.5,
+    "ads_move_speed": 3.1,
+    "sprint_speed": 7.3,
+    "gun_kick": 16.65,
+    "vert_recoil": 45.84,
+    "horiz_recoil": 7.43,
+    "idle_sway": 0.42,
+    "hipfire_max": 8,
+    "flinch_resistance": 0.18
   },
+  "damage": [
+    {
+      "head": 60,
+      "neck": 46,
+      "chest": 46,
+      "stomach": 45,
+      "upperleg": 45,
+      "lowerleg": 45,
+      "upperarm": 46,
+      "lowerarm": 46,
+      "dropoff": 0,
+      "base_rpm": 479,
+      "final_rpm": 479,
+      "rpm_mod": 1
+    },
+    {
+      "head": 50,
+      "neck": 38,
+      "chest": 38,
+      "stomach": 37,
+      "upperleg": 37,
+      "lowerleg": 37,
+      "upperarm": 38,
+      "lowerarm": 38,
+      "dropoff": 49.9,
+      "base_rpm": 479,
+      "final_rpm": 479,
+      "rpm_mod": 1
+    },
+    {
+      "head": 45,
+      "neck": 34,
+      "chest": 34,
+      "stomach": 34,
+      "upperleg": 34,
+      "lowerleg": 34,
+      "upperarm": 34,
+      "lowerarm": 34,
+      "dropoff": 60,
+      "base_rpm": 479,
+      "final_rpm": 479,
+      "rpm_mod": 1
+    }
+  ],
   "slots": {
     "BARREL": [
-      "14.6\" MFS Pulse Load+ Barrel :: -24.7% Range",
-      "17.6\" Chiral-02 Barrel :: +8.2% Range",
-      "14.9\" Tourville Sprint Barrel :: +20% Range",
-      "19.5\" Shroud Barrel :: +14.5% Range",
-      "16\" OS-Density Barrel :: +20% Bullet Velocity"
+      {
+        "name": "14.6\" MFS Pulse Load+ Barrel",
+        "mods": {
+          "ads_mod": 0.918,
+          "ads_movement_mod": 1.129,
+          "range_mod": 0.753,
+          "stf_mod": 0.923,
+          "reload_mod": 0.789
+        }
+      },
+      {
+        "name": "17.6\" Chiral-02 Barrel",
+        "mods": {
+          "ads_mod": 1.043,
+          "range_mod": 1.082,
+          "bv_mod": 1.08
+        }
+      },
+      {
+        "name": "14.9\" Tourville Sprint Barrel",
+        "mods": {
+          "ads_movement_mod": 1.065,
+          "range_mod": 1.2,
+          "idle_sway_mod": 1.095,
+          "bv_mod": 0.94
+        }
+      },
+      {
+        "name": "19.5\" Shroud Barrel",
+        "mods": {
+          "ads_mod": 1.064,
+          "range_mod": 1.145,
+          "reload_mod": 1.123
+        }
+      },
+      {
+        "name": "16\" OS-Density Barrel",
+        "mods": {
+          "ads_mod": 1.149,
+          "gun_kick_mod": 0.8,
+          "vert_recoil_mod": 0.8,
+          "horiz_recoil_mod": 0.799,
+          "ads_movement_mod": 0.903,
+          "stf_mod": 1.077,
+          "bv_mod": 1.2,
+          "reload_mod": 1.184
+        }
+      }
+    ],
+    "LASER": [
+      {
+        "name": "Convergence Box Laser",
+        "mods": {
+          "hipfire_max_mod": 0.85
+        }
+      },
+      {
+        "name": "1mW Adaptive Tactical Laser"
+      },
+      {
+        "name": "1mW Instinct Laser Array",
+        "mods": {
+          "ads_movement_mod": 1.935
+        }
+      },
+      {
+        "name": "1mW Motion Strike Laser"
+      },
+      {
+        "name": "5mW Lockstep Laser",
+        "mods": {
+          "ads_movement_mod": 1.935
+        }
+      }
     ],
     "MUZZLE": [
-      "Defense-H Suppressor",
-      "Hawker-473 Compensator :: -19.2% Gun Kick",
-      "NovaBurst Brake :: -14.4% Gun Kick",
-      "Hawker Slant Hybrid :: -25% Max Hipfire Area",
-      "Monolithic Suppressor :: +18.2% Range"
+      {
+        "name": "Defense-H Suppressor"
+      },
+      {
+        "name": "Hawker-473 Compensator",
+        "mods": {
+          "gun_kick_mod": 0.808,
+          "vert_recoil_mod": 0.8
+        }
+      },
+      {
+        "name": "NovaBurst Brake",
+        "mods": {
+          "gun_kick_mod": 0.856,
+          "vert_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Hawker Slant Hybrid",
+        "mods": {
+          "hipfire_max_mod": 0.75
+        }
+      },
+      {
+        "name": "Monolithic Suppressor",
+        "mods": {
+          "ads_mod": 1.234,
+          "range_mod": 1.182,
+          "bv_mod": 1.25
+        }
+      }
+    ],
+    "OPTIC": [
+      {
+        "name": "LTI Mini"
+      },
+      {
+        "name": "VAS MicroFlex"
+      },
+      {
+        "name": "Lethal Tools ELO"
+      },
+      {
+        "name": "EAM Micro Dot"
+      },
+      {
+        "name": "VAS LED"
+      },
+      {
+        "name": "Kepler-Pro Red Dot"
+      },
+      {
+        "name": "LTI Reflex"
+      },
+      {
+        "name": "Greaves Red Dot"
+      },
+      {
+        "name": "KES Slim Reflex"
+      },
+      {
+        "name": "EAM xL Reflex"
+      },
+      {
+        "name": "PrismaTech Digital Holo"
+      },
+      {
+        "name": "EMT3 Holo Mk.2"
+      },
+      {
+        "name": "Kepler T-Range Holo",
+        "mods": {
+          "ads_mod": 1.064,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "Solaris Holo-IR",
+        "mods": {
+          "gun_kick_mod": 0.75
+        }
+      },
+      {
+        "name": "EAM Dyad xL",
+        "mods": {
+          "ads_mod": 1.064,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "LTI Target Finder VZ",
+        "mods": {
+          "ads_mod": 1.213,
+          "ads_movement_mod": 0.871,
+          "stf_mod": 1.128
+        }
+      },
+      {
+        "name": "Millimeter Scanner",
+        "mods": {
+          "ads_mod": 1.128,
+          "gun_kick_mod": 1.1,
+          "stf_mod": 1.128
+        }
+      },
+      {
+        "name": "Redwell 30-5 2x",
+        "mods": {
+          "ads_mod": 1.041,
+          "gun_kick_mod": 0.688
+        }
+      },
+      {
+        "name": "Greaves Accuspot 3x",
+        "mods": {
+          "ads_mod": 1.064,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "Kepler Ultra 4x",
+        "mods": {
+          "ads_mod": 1.085,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "PrismaTech Turbo 4x",
+        "mods": {
+          "ads_mod": 1.085,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "VAS Duo Hybrid Sight",
+        "mods": {
+          "ads_mod": 1.064,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Bowen X-25 IR",
+        "mods": {
+          "ads_mod": 1.055,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "EAM Dual Zoom",
+        "mods": {
+          "ads_mod": 1.085,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Greaves Ultra Zoom",
+        "mods": {
+          "ads_mod": 1.106,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "RistRauch 7x",
+        "mods": {
+          "ads_mod": 1.064,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "VAS Strix 6x Thermal",
+        "mods": {
+          "ads_mod": 1.149
+        }
+      }
+    ],
+    "REAR GRIP": [
+      {
+        "name": "Pillory Grip",
+        "mods": {
+          "ads_mod": 0.83
+        }
+      },
+      {
+        "name": "Vented-HKR Grip",
+        "mods": {
+          "stf_mod": 0.759
+        }
+      },
+      {
+        "name": "Celestial Grip",
+        "mods": {
+          "ads_mod": 1.064,
+          "gun_kick_mod": 0.997,
+          "horiz_recoil_mod": 0.919
+        }
+      },
+      {
+        "name": "Daedalus Grip",
+        "mods": {
+          "ads_mod": 0.872
+        }
+      },
+      {
+        "name": "Granulated OMI Grip",
+        "mods": {
+          "gun_kick_mod": 0.923,
+          "vert_recoil_mod": 0.92
+        }
+      }
+    ],
+    "STOCK": [
+      {
+        "name": "Ethereal Wave Stock",
+        "mods": {
+          "crouch_movement_mod": 1.36,
+          "movement_mod": 1.208,
+          "sprint_mod": 1.027
+        }
+      },
+      {
+        "name": "Strider Overstep Stock",
+        "mods": {
+          "ads_mod": 0.915,
+          "ads_movement_mod": 1.226,
+          "flinch_resistance_mod": 1.167
+        }
+      },
+      {
+        "name": "Specter-X Guard Stock",
+        "mods": {
+          "ads_mod": 1.106,
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.849,
+          "ads_movement_mod": 0.871
+        }
+      },
+      {
+        "name": "Hawker Skeleton Stock",
+        "mods": {
+          "ads_mod": 0.936,
+          "hipfire_max_mod": 0.85,
+          "stf_mod": 0.897
+        }
+      },
+      {
+        "name": "Hol-90 Full Stock",
+        "mods": {
+          "ads_mod": 1.085,
+          "gun_kick_mod": 0.95,
+          "vert_recoil_mod": 0.95,
+          "horiz_recoil_mod": 0.95,
+          "flinch_resistance_mod": 0.778
+        }
+      }
+    ],
+    "UNDERBARREL": [
+      {
+        "name": "Lateral Precision Grip",
+        "mods": {
+          "gun_kick_mod": 0.993,
+          "horiz_recoil_mod": 0.799
+        }
+      },
+      {
+        "name": "H-Lock Foregrip",
+        "mods": {
+          "gun_kick_mod": 0.998,
+          "horiz_recoil_mod": 0.95,
+          "idle_sway_mod": 0.5
+        }
+      },
+      {
+        "name": "Enhance-32 Handstop",
+        "mods": {
+          "flinch_resistance_mod": 0.611
+        }
+      },
+      {
+        "name": "Quickstep Foregrip",
+        "mods": {
+          "ads_movement_mod": 1.097,
+          "crouch_movement_mod": 1.08,
+          "movement_mod": 1.083
+        }
+      },
+      {
+        "name": "EAM Steady-90 Grip",
+        "mods": {
+          "gun_kick_mod": 0.996,
+          "horiz_recoil_mod": 0.899,
+          "crouch_movement_mod": 1.08,
+          "movement_mod": 1.083,
+          "sprint_mod": 1.027
+        }
+      },
+      {
+        "name": "M335-X Frag"
+      },
+      {
+        "name": "M335-X Cloak"
+      },
+      {
+        "name": "M335-X Tempest"
+      },
+      {
+        "name": "M335-X Drill Charge"
+      }
     ]
-  },
-  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO7-Pool; AMMUNITION/MAGAZINE/FIRE MODS bei dieser Waffe nicht vorhanden"
+  }
 }

@@ -3,48 +3,514 @@
   "name": "DS20 Mirage",
   "class": "AR",
   "game": "bo7",
+  "weapon_type": "AR",
   "in_warzone": true,
-  "source": "truegamedata",
+  "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
   "note": "BO7-native Meta-AR (5.56 NATO, 606 RPM, 30-round). Erste Voll-Extraktion (Quelle wz_attachment_deltas.md). Hier kanonisiert auf weapon-spez (MUZZLE/BARREL/MAGAZINE/FIRE MODS); universelle Slots = BO7-Pool. Volle Universal-Dumps in wz_attachment_deltas.md.",
-  "extraction": "weapon-specific-only-BO-fromMD",
   "base": {
     "rpm": 606,
     "mag": 30,
-    "reload_s": 2.32,
+    "reload_s": 2.323,
     "ads_ms": 230,
-    "velocity_ms": 870,
-    "move_ms": 4.9,
     "sprint_to_fire_ms": 178,
-    "sprint_ms": 7.3
+    "velocity_ms": 870,
+    "move_speed": 4.9,
+    "crouch_move_speed": 2.5,
+    "ads_move_speed": 3.1,
+    "sprint_speed": 7.3,
+    "gun_kick": 11.68,
+    "vert_recoil": 53.64,
+    "horiz_recoil": 3.43,
+    "idle_sway": 0.42,
+    "hipfire_max": 8.15,
+    "flinch_resistance": 0.18
   },
+  "damage": [
+    {
+      "head": 51,
+      "neck": 45,
+      "chest": 45,
+      "stomach": 38,
+      "upperleg": 38,
+      "lowerleg": 38,
+      "upperarm": 45,
+      "lowerarm": 45,
+      "dropoff": 0,
+      "base_rpm": 606,
+      "final_rpm": 606,
+      "rpm_mod": 1
+    },
+    {
+      "head": 40,
+      "neck": 36,
+      "chest": 36,
+      "stomach": 30,
+      "upperleg": 30,
+      "lowerleg": 30,
+      "upperarm": 36,
+      "lowerarm": 36,
+      "dropoff": 36,
+      "base_rpm": 606,
+      "final_rpm": 606,
+      "rpm_mod": 1
+    },
+    {
+      "head": 36,
+      "neck": 32,
+      "chest": 32,
+      "stomach": 27,
+      "upperleg": 27,
+      "lowerleg": 27,
+      "upperarm": 32,
+      "lowerarm": 32,
+      "dropoff": 60,
+      "base_rpm": 606,
+      "final_rpm": 606,
+      "rpm_mod": 1
+    }
+  ],
   "slots": {
     "BARREL": [
-      "20\" Rupture Barrel :: +14.4% Range | +6.5% ADS Time",
-      "18.9\" Westerlies Barrel :: +20% Range | -5% Bullet Velocity | -0.9% Gun Kick | -14.9% Horiz. Recoil | +9.5% Idle Sway | +9.7% ADS Move.",
-      "16\" Redwell JX-2O1 Barrel :: +8.3% Range | +8% Bullet Velocity | +4.3% ADS Time",
-      "14.2\" Winged Barrel :: -8.7% ADS Time | -14% Sprint to Fire",
-      "17.1\" Abdicator Barrel :: +15% Bullet Velocity | -19.9% Gun Kick | -20.1% Horiz. Recoil | -20% Vert. Recoil | -9.7% ADS Move. | +15.2% ADS Time | +7.9% Sprint to Fire"
+      {
+        "name": "20\" Rupture Barrel",
+        "mods": {
+          "ads_mod": 1.065,
+          "range_mod": 1.144
+        }
+      },
+      {
+        "name": "18.9\" Westerlies Barrel",
+        "mods": {
+          "gun_kick_mod": 0.991,
+          "horiz_recoil_mod": 0.851,
+          "ads_movement_mod": 1.097,
+          "range_mod": 1.2,
+          "idle_sway_mod": 1.095,
+          "bv_mod": 0.95
+        }
+      },
+      {
+        "name": "16\" Redwell JX-2O1 Barrel",
+        "mods": {
+          "ads_mod": 1.043,
+          "range_mod": 1.083,
+          "bv_mod": 1.08
+        }
+      },
+      {
+        "name": "14.2 Winged Barrel",
+        "mods": {
+          "ads_mod": 0.913,
+          "stf_mod": 0.86
+        }
+      },
+      {
+        "name": "17.1\" Abdicator Barrel",
+        "mods": {
+          "ads_mod": 1.152,
+          "gun_kick_mod": 0.801,
+          "vert_recoil_mod": 0.8,
+          "horiz_recoil_mod": 0.799,
+          "ads_movement_mod": 0.903,
+          "stf_mod": 1.079,
+          "bv_mod": 1.15
+        }
+      }
     ],
     "FIRE MODS": [
-      "Bolt Carrier Group :: -10.6% Range | -15% Bullet Velocity | +20.4% Gun Kick | +25.1% Horiz. Recoil | +20% Vert. Recoil",
-      "5.56 NATO Overpressured :: +20% Bullet Velocity",
-      "Recoil Sync Unit :: -12% Gun Kick | -12% Horiz. Recoil | -12% Vert. Recoil",
-      "5.56 NATO FMJ :: +13.6% Range | +14% Bullet Velocity"
+      {
+        "name": "Bolt Carrier Group",
+        "mods": {
+          "gun_kick_mod": 1.204,
+          "vert_recoil_mod": 1.2,
+          "horiz_recoil_mod": 1.251,
+          "range_mod": 0.894,
+          "bv_mod": 0.85
+        }
+      },
+      {
+        "name": "5.56 NATO Overpressured",
+        "mods": {
+          "bv_mod": 1.2
+        }
+      },
+      {
+        "name": "Recoil Sync Unit",
+        "mods": {
+          "gun_kick_mod": 0.88,
+          "vert_recoil_mod": 0.88,
+          "horiz_recoil_mod": 0.88
+        }
+      },
+      {
+        "name": "5.56 NATO FMJ",
+        "mods": {
+          "range_mod": 1.136,
+          "bv_mod": 1.14
+        }
+      }
+    ],
+    "LASER": [
+      {
+        "name": "Convergence Box Laser",
+        "mods": {
+          "hipfire_max_mod": 0.85
+        }
+      },
+      {
+        "name": "Zmw Adaptive Tactical Lasc"
+      },
+      {
+        "name": "ImW Instinct Laser Array",
+        "mods": {
+          "ads_mod": 0.935,
+          "stf_mod": 0.888
+        }
+      },
+      {
+        "name": "3mW Motion Strike Laser"
+      },
+      {
+        "name": "Smw Lockstep Laser"
+      }
     ],
     "MAGAZINE": [
-      "Andean Extended Mag :: -3.2% ADS Move. | +4.3% ADS Time | +18.3% Reload Time",
-      "Pinion Flip Mags :: -6.1% Reload Time",
-      "Griffon Reserve Extended :: -6.1% Move. Speed | -4% Crouch Speed | -4.1% Sprint Speed | -6.5% ADS Move. | +8.7% ADS Time | +22% Reload Time | +11.2% Sprint to Fire",
-      "DeltaCruise Fast Mag :: -4.3% ADS Time | -19.5% Reload Time | -5.6% Sprint to Fire"
+      {
+        "name": "Andean Extended Mag",
+        "mods": {
+          "ads_mod": 1.043,
+          "ads_movement_mod": 0.968,
+          "reload_mod": 1.183
+        }
+      },
+      {
+        "name": "Pinion Flip Mags",
+        "mods": {
+          "reload_mod": 0.939
+        }
+      },
+      {
+        "name": "Griffon Reserve Extended",
+        "mods": {
+          "ads_mod": 1.087,
+          "ads_movement_mod": 0.935,
+          "stf_mod": 1.112,
+          "crouch_movement_mod": 0.96,
+          "movement_mod": 0.939,
+          "sprint_mod": 0.959,
+          "reload_mod": 1.22
+        }
+      },
+      {
+        "name": "DeltaCruise Fast Mag",
+        "mods": {
+          "ads_mod": 0.957,
+          "stf_mod": 0.944,
+          "reload_mod": 0.805
+        }
+      }
     ],
     "MUZZLE": [
-      "VAS 5.56 Suppressor",
-      "Redwell 5.56 Compensator :: -18.6% Gun Kick | -20% Vert. Recoil",
-      "RL-5.56 Brake :: -11.1% Gun Kick | -12% Vert. Recoil",
-      "Titan-R 5.56 Compensator :: -25% Max Hipfire Area",
-      "Monolithic Suppressor :: +11.4% Range | +20% Bullet Velocity | +23.9% ADS Time"
+      {
+        "name": "VAS 5.56 Suppressor"
+      },
+      {
+        "name": "Redwell 5.56 Compensator",
+        "mods": {
+          "gun_kick_mod": 0.814,
+          "vert_recoil_mod": 0.8
+        }
+      },
+      {
+        "name": "RL-5.56 Brake",
+        "mods": {
+          "gun_kick_mod": 0.889,
+          "vert_recoil_mod": 0.88
+        }
+      },
+      {
+        "name": "Titan-R 5.56 Compensator",
+        "mods": {
+          "hipfire_max_mod": 0.75
+        }
+      },
+      {
+        "name": "Monolithic Suppressor",
+        "mods": {
+          "ads_mod": 1.239,
+          "range_mod": 1.114,
+          "bv_mod": 1.2
+        }
+      }
+    ],
+    "OPTIC": [
+      {
+        "name": "LTI Mini"
+      },
+      {
+        "name": "VAS MicroFlex"
+      },
+      {
+        "name": "Lethal Tools ELO"
+      },
+      {
+        "name": "EAM Micro Dot"
+      },
+      {
+        "name": "VAS LED"
+      },
+      {
+        "name": "Kepler-Pro Red Dot"
+      },
+      {
+        "name": "LTI Reflex"
+      },
+      {
+        "name": "Greaves Red Dot"
+      },
+      {
+        "name": "KES Slim Reflex"
+      },
+      {
+        "name": "EAM xL Reflex"
+      },
+      {
+        "name": "PrismaTech Digital Holo"
+      },
+      {
+        "name": "EMT3 Holo Mk.z"
+      },
+      {
+        "name": "Kepler T-Range Holo",
+        "mods": {
+          "ads_mod": 1.065,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "Solaris Holo-IR",
+        "mods": {
+          "gun_kick_mod": 0.75
+        }
+      },
+      {
+        "name": "EAM Dyad xL",
+        "mods": {
+          "ads_mod": 1.065,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "LTI Target Finder VZ",
+        "mods": {
+          "ads_mod": 1.217,
+          "ads_movement_mod": 0.903,
+          "stf_mod": 1.14
+        }
+      },
+      {
+        "name": "Millimeter Scanner",
+        "mods": {
+          "ads_mod": 1.13,
+          "gun_kick_mod": 1.1,
+          "stf_mod": 1.14
+        }
+      },
+      {
+        "name": "Redwell 30-5 2x",
+        "mods": {
+          "ads_mod": 1.042,
+          "gun_kick_mod": 0.744
+        }
+      },
+      {
+        "name": "Greaves Accuspot 3x",
+        "mods": {
+          "ads_mod": 1.065,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "Kepler Ultra 4x",
+        "mods": {
+          "ads_mod": 1.087,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "PrismaTech Turbo 4x",
+        "mods": {
+          "ads_mod": 1.087,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "VAS Duo Hybrid Sight",
+        "mods": {
+          "ads_mod": 1.065,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Bowen X-25 IR",
+        "mods": {
+          "ads_mod": 1.057,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "EAM Dual Zoom",
+        "mods": {
+          "ads_mod": 1.087,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Greaves Ultra Zoom",
+        "mods": {
+          "ads_mod": 1.109,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "RistRauch 7x",
+        "mods": {
+          "ads_mod": 1.065,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "VAS Strix 6x Thermal",
+        "mods": {
+          "ads_mod": 1.152
+        }
+      }
+    ],
+    "REAR GRIP": [
+      {
+        "name": "Needletail Grip",
+        "mods": {
+          "ads_mod": 0.717
+        }
+      },
+      {
+        "name": "Ulysses Grip",
+        "mods": {
+          "stf_mod": 0.494
+        }
+      },
+      {
+        "name": "Picket Stability Grip",
+        "mods": {
+          "ads_mod": 1.065,
+          "gun_kick_mod": 0.991,
+          "horiz_recoil_mod": 0.851
+        }
+      },
+      {
+        "name": "Viceroy Grip",
+        "mods": {
+          "ads_mod": 0.848
+        }
+      },
+      {
+        "name": "AI-C Control Grip",
+        "mods": {
+          "gun_kick_mod": 0.86,
+          "vert_recoil_mod": 0.85
+        }
+      }
+    ],
+    "STOCK": [
+      {
+        "name": "Assault Division Stock",
+        "mods": {
+          "crouch_movement_mod": 1.32,
+          "movement_mod": 1.184,
+          "sprint_mod": 1.014
+        }
+      },
+      {
+        "name": "Redwell Carrion Stock",
+        "mods": {
+          "ads_mod": 0.878,
+          "ads_movement_mod": 1.194,
+          "flinch_resistance_mod": 1.167
+        }
+      },
+      {
+        "name": "Weighted Stock",
+        "mods": {
+          "ads_mod": 1.109,
+          "gun_kick_mod": 0.801,
+          "vert_recoil_mod": 0.8,
+          "horiz_recoil_mod": 0.799,
+          "ads_movement_mod": 0.839
+        }
+      },
+      {
+        "name": "Stratagem Tight Stock",
+        "mods": {
+          "ads_mod": 0.9,
+          "hipfire_max_mod": 0.85,
+          "stf_mod": 0.848
+        }
+      },
+      {
+        "name": "Trunk Mix Stock",
+        "mods": {
+          "ads_mod": 1.087,
+          "gun_kick_mod": 0.86,
+          "vert_recoil_mod": 0.86,
+          "horiz_recoil_mod": 0.86,
+          "flinch_resistance_mod": 0.778
+        }
+      }
+    ],
+    "UNDERBARREL": [
+      {
+        "name": "zomm Burst Launcher"
+      },
+      {
+        "name": "Force Stabilizer Handstop",
+        "mods": {
+          "gun_kick_mod": 0.986,
+          "horiz_recoil_mod": 0.749
+        }
+      },
+      {
+        "name": "Ironhold Angled Grip",
+        "mods": {
+          "gun_kick_mod": 0.992,
+          "horiz_recoil_mod": 0.86,
+          "idle_sway_mod": 0.5
+        }
+      },
+      {
+        "name": "Respire Handstop",
+        "mods": {
+          "flinch_resistance_mod": 0.611
+        }
+      },
+      {
+        "name": "Strider Handstop",
+        "mods": {
+          "ads_movement_mod": 1.097,
+          "crouch_movement_mod": 1.08,
+          "movement_mod": 1.061
+        }
+      },
+      {
+        "name": "Sapper Guard Handstop",
+        "mods": {
+          "gun_kick_mod": 0.992,
+          "horiz_recoil_mod": 0.86,
+          "crouch_movement_mod": 1.08,
+          "movement_mod": 1.082,
+          "sprint_mod": 1.082
+        }
+      }
     ]
-  },
-  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO7-Pool (volle Dumps in wz_attachment_deltas.md)"
+  }
 }

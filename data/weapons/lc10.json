@@ -3,101 +3,433 @@
   "name": "LC10",
   "class": "SMG",
   "game": "bo6",
+  "weapon_type": "SMG",
   "in_warzone": true,
-  "source": "truegamedata",
+  "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
   "note": "Cross-Game (BO6). Beste WZ-SMG S4 (laut Meta).",
+  "fire_modes": {
+    "fire_mode1": "Full Auto",
+    "fire_mode2": "Semi Auto"
+  },
   "base": {
     "rpm": 800,
     "mag": 34,
-    "reload_s": 2.63,
+    "reload_s": 2630,
     "ads_ms": 210,
-    "velocity_ms": 550,
-    "move_ms": 5.0,
     "sprint_to_fire_ms": 123,
-    "sprint_ms": 6.4
+    "velocity_ms": 550,
+    "move_speed": 5,
+    "crouch_move_speed": 2.4,
+    "ads_move_speed": 3.6,
+    "sprint_speed": 6.4,
+    "gun_kick": 33.75,
+    "vert_recoil": 33.36,
+    "horiz_recoil": 10.19,
+    "hipfire_max": 7.35,
+    "flinch_resistance": 0.17,
+    "target_flinch": 0.7,
+    "zoom_x": 0.88
   },
+  "damage": [
+    {
+      "head": 41,
+      "neck": 37,
+      "chest": 37,
+      "stomach": 29,
+      "upperleg": 29,
+      "lowerleg": 29,
+      "upperarm": 29,
+      "lowerarm": 29,
+      "dropoff": 0,
+      "base_rpm": 800,
+      "final_rpm": 800,
+      "rpm_mod": 1
+    },
+    {
+      "head": 34,
+      "neck": 31,
+      "chest": 31,
+      "stomach": 24,
+      "upperleg": 24,
+      "lowerleg": 24,
+      "upperarm": 24,
+      "lowerarm": 24,
+      "dropoff": 11,
+      "base_rpm": 800,
+      "final_rpm": 800,
+      "rpm_mod": 1
+    },
+    {
+      "head": 26,
+      "neck": 24,
+      "chest": 24,
+      "stomach": 19,
+      "upperleg": 19,
+      "lowerleg": 19,
+      "upperarm": 19,
+      "lowerarm": 19,
+      "dropoff": 18.3,
+      "base_rpm": 800,
+      "final_rpm": 800,
+      "rpm_mod": 1
+    }
+  ],
   "slots": {
     "BARREL": [
-      "Long Barrel :: +34.8% Range",
-      "Gain-Twist Barrel :: +55% Bullet Velocity",
-      "CHF Barrel :: +44.5% Gun Kick | +20% Horiz. Recoil | +45% Vert. Recoil",
-      "Reinforced Barrel :: +19.6% Range | +35% Bullet Velocity",
-      "Short Barrel"
+      {
+        "name": "Long Barrel",
+        "mods": {
+          "range_mod": 1.34821
+        }
+      },
+      {
+        "name": "Gain-Twist Barrel",
+        "mods": {
+          "bv_mod": 1.55
+        }
+      },
+      {
+        "name": "CHF Barrel",
+        "mods": {
+          "gun_kick_mod": 1.445,
+          "vert_recoil_mod": 1.45,
+          "horiz_recoil_mod": 1.2
+        }
+      },
+      {
+        "name": "Reinforced Barrel",
+        "mods": {
+          "range_mod": 1.19643,
+          "bv_mod": 1.35
+        }
+      },
+      {
+        "name": "Short Barrel"
+      }
     ],
-    "FIRE_MODS": [
-      "9mm Parabellum Overpressured :: +20% Bullet Velocity",
-      "9mm Parabellum FMJ",
-      "Recoil Springs :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil",
-      "Rapid Fire :: -25% Bullet Velocity | +12% Fire Rate | +15.1% Gun Kick | +20% Horiz. Recoil | +15% Vert. Recoil"
+    "FIRE MODS": [
+      {
+        "name": "9mm Parabellum Overpressured",
+        "mods": {
+          "bv_mod": 1.2
+        }
+      },
+      {
+        "name": "9mm Parabellum FMJ"
+      },
+      {
+        "name": "Recoil Springs",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Rapid Fire",
+        "mods": {
+          "gun_kick_mod": 1.151,
+          "vert_recoil_mod": 1.15,
+          "horiz_recoil_mod": 1.2,
+          "bv_mod": 0.75,
+          "rpm_mod": 1.12
+        }
+      }
     ],
     "LASER": [
-      "Strelok Laser",
-      "Tactical Laser",
-      "Steady Aim Laser :: -30.1% Max Hipfire Area",
-      "Fast Motion Laser",
-      "Target Laser"
+      {
+        "name": "Strelok Laser"
+      },
+      {
+        "name": "Tactical Laser"
+      },
+      {
+        "name": "Steady Aim Laser",
+        "mods": {
+          "hipfire_max_mod": 0.699
+        }
+      },
+      {
+        "name": "Fast Motion Laser"
+      },
+      {
+        "name": "Target Laser"
+      }
     ],
     "MAGAZINE": [
-      "Extended Mag I :: +20.2% Reload Time",
-      "Fast Mag I :: -7.7% ADS Time | -22.8% Reload Time | -8.1% Sprint to Fire",
-      "Flip Mag :: -16.3% Reload Time",
-      "Extended Mag II :: +12.8% ADS Time | +30.4% Reload Time | +16.3% Sprint to Fire"
+      {
+        "name": "Extended Mag I",
+        "mods": {
+          "reload_mod": 1.202
+        }
+      },
+      {
+        "name": "Fast Mag I",
+        "mods": {
+          "ads_mod": 0.923,
+          "stf_mod": 0.919,
+          "reload_mod": 0.772
+        }
+      },
+      {
+        "name": "Flip Mag",
+        "mods": {
+          "reload_mod": 0.837
+        }
+      },
+      {
+        "name": "Extended Mag II",
+        "mods": {
+          "ads_mod": 1.128,
+          "stf_mod": 1.163,
+          "reload_mod": 1.304
+        }
+      }
     ],
     "MUZZLE": [
-      "Monolithic Suppressor :: +9.8% Range | +20% Bullet Velocity | +28.2% ADS Time",
-      "Suppressor",
-      "Muzzle Brake",
-      "Compensator :: -38.8% Gun Kick | -40% Vert. Recoil",
-      "Ported Compensator :: -27.2% Gun Kick | -28% Vert. Recoil"
+      {
+        "name": "Monolithic Suppressor",
+        "mods": {
+          "ads_mod": 1.282,
+          "range_mod": 1.09821,
+          "bv_mod": 1.2
+        }
+      },
+      {
+        "name": "Suppressor"
+      },
+      {
+        "name": "Muzzle Brake"
+      },
+      {
+        "name": "Compensator",
+        "mods": {
+          "gun_kick_mod": 0.612,
+          "vert_recoil_mod": 0.6
+        }
+      },
+      {
+        "name": "Ported Compensator",
+        "mods": {
+          "gun_kick_mod": 0.728,
+          "vert_recoil_mod": 0.72
+        }
+      }
     ],
     "OPTIC": [
-      "Remuda Mini Reflex",
-      "Merlin Mini",
-      "PrismaTech Reflex",
-      "Redwell Reflex",
-      "K&S Red Dot",
-      "Kepler Red Dot",
-      "OM3 '92 Holo",
-      "Pinpoint Holoscout",
-      "Jason Armory 2x :: -30% Gun Kick | +5.1% ADS Time",
-      "Otero Micro Dot",
-      "Kepler Microflex",
-      "Volzhskiy Reflex",
-      "Merlin Reflex",
-      "Dobrych MF Reflex",
-      "Accu-Spot Reflex",
-      "Otero Red Dot",
-      "Accu-Spot Ultra Holo :: -30% Gun Kick",
-      "Willis 3x :: -30% Gun Kick | +7.7% ADS Time",
-      "PrismaTech 4x :: -30% Gun Kick | +10.3% ADS Time",
-      "K&S Thermal Holo :: -25% Gun Kick",
-      "Pinpoint Hybrid :: -50% Gun Kick | +10.3% ADS Time",
-      "R&K Multizoom :: -50% Gun Kick | +12.8% ADS Time",
-      "VMF Variable Scope :: -50% Gun Kick | +25.6% ADS Time",
-      "Otero Thermal 2x :: -50% Gun Kick | +5.1% ADS Time"
+      {
+        "name": "Remuda Mini Reflex"
+      },
+      {
+        "name": "Merlin Mini"
+      },
+      {
+        "name": "PrismaTech Reflex"
+      },
+      {
+        "name": "Redwell Reflex"
+      },
+      {
+        "name": "K&S Red Dot"
+      },
+      {
+        "name": "Kepler Red Dot"
+      },
+      {
+        "name": "OM3 '92 Holo"
+      },
+      {
+        "name": "Pinpoint Holoscout"
+      },
+      {
+        "name": "Jason Armory 2x",
+        "mods": {
+          "ads_mod": 1.051,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "Otero Micro Dot"
+      },
+      {
+        "name": "Kepler Microflex"
+      },
+      {
+        "name": "Volzhskiy Reflex"
+      },
+      {
+        "name": "Merlin Reflex"
+      },
+      {
+        "name": "Dobrych MF Reflex"
+      },
+      {
+        "name": "Accu-Spot Reflex"
+      },
+      {
+        "name": "Otero Red Dot"
+      },
+      {
+        "name": "Accu-Spot Ultra Holo",
+        "mods": {
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "Willis 3x",
+        "mods": {
+          "ads_mod": 1.077,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "PrismaTech 4x",
+        "mods": {
+          "ads_mod": 1.103,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "K&S Thermal Holo",
+        "mods": {
+          "gun_kick_mod": 0.75
+        }
+      },
+      {
+        "name": "Pinpoint Hybrid",
+        "mods": {
+          "ads_mod": 1.103,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "R&K Multizoom",
+        "mods": {
+          "ads_mod": 1.128,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "VMF Variable Scope",
+        "mods": {
+          "ads_mod": 1.256,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Otero Thermal 2x",
+        "mods": {
+          "ads_mod": 1.051,
+          "gun_kick_mod": 0.5
+        }
+      }
     ],
     "REAR GRIP": [
-      "Quickdraw Grip :: -35.9% ADS Time",
-      "Assault Grip :: -39% Sprint to Fire",
-      "Commando Grip :: -15.4% ADS Time | -16.3% Sprint to Fire",
-      "CQB Grip :: -30.9% Sprint to Fire",
-      "Ergonomic Grip :: -20.5% ADS Time"
+      {
+        "name": "Quickdraw Grip",
+        "mods": {
+          "ads_mod": 0.641
+        }
+      },
+      {
+        "name": "Assault Grip",
+        "mods": {
+          "stf_mod": 0.61
+        }
+      },
+      {
+        "name": "Commando Grip",
+        "mods": {
+          "ads_mod": 0.846,
+          "stf_mod": 0.837
+        }
+      },
+      {
+        "name": "CQB Grip",
+        "mods": {
+          "stf_mod": 0.691
+        }
+      },
+      {
+        "name": "Ergonomic Grip",
+        "mods": {
+          "ads_mod": 0.795
+        }
+      }
     ],
     "STOCK": [
-      "Heavy Stock :: -52.9% Flinch",
-      "No Stock :: +18% Move. Speed | +33.3% Crouch Speed",
-      "Balanced Stock :: +10% Move. Speed | +16.7% Crouch Speed | +11.1% ADS Move.",
-      "Infiltrator Stock :: +19.4% ADS Move.",
-      "Combat Stock :: -35.3% Flinch | +11.1% ADS Move."
+      {
+        "name": "Heavy Stock",
+        "mods": {
+          "flinch_resistance_mod": 0.471
+        }
+      },
+      {
+        "name": "No Stock",
+        "mods": {
+          "crouch_movement_mod": 1.333,
+          "movement_mod": 1.18
+        }
+      },
+      {
+        "name": "Balanced Stock",
+        "mods": {
+          "ads_movement_mod": 1.111,
+          "crouch_movement_mod": 1.167,
+          "movement_mod": 1.1
+        }
+      },
+      {
+        "name": "Infiltrator Stock",
+        "mods": {
+          "ads_movement_mod": 1.194
+        }
+      },
+      {
+        "name": "Combat Stock",
+        "mods": {
+          "ads_movement_mod": 1.111,
+          "flinch_resistance_mod": 0.647
+        }
+      }
     ],
     "UNDERBARREL": [
-      "Lightweight Foregrip",
-      "Vertical Foregrip :: -0.7% Gun Kick | -40% Horiz. Recoil",
-      "Marksman Foregrip",
-      "Precision Foregrip :: -0.5% Gun Kick | -25% Horiz. Recoil",
-      "Ranger Foregrip :: -0.5% Gun Kick | -25% Horiz. Recoil | +6.2% Sprint Speed",
-      "G-Grip :: -0.4% Gun Kick | -20% Horiz. Recoil"
+      {
+        "name": "Lightweight Foregrip"
+      },
+      {
+        "name": "Vertical Foregrip",
+        "mods": {
+          "gun_kick_mod": 0.993,
+          "horiz_recoil_mod": 0.6
+        }
+      },
+      {
+        "name": "Marksman Foregrip"
+      },
+      {
+        "name": "Precision Foregrip",
+        "mods": {
+          "gun_kick_mod": 0.995,
+          "horiz_recoil_mod": 0.75
+        }
+      },
+      {
+        "name": "Ranger Foregrip",
+        "mods": {
+          "gun_kick_mod": 0.995,
+          "horiz_recoil_mod": 0.75,
+          "sprint_mod": 1.062
+        }
+      },
+      {
+        "name": "G-Grip",
+        "mods": {
+          "gun_kick_mod": 0.996,
+          "horiz_recoil_mod": 0.8
+        }
+      }
     ]
   }
 }

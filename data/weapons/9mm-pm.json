@@ -3,51 +3,269 @@
   "name": "9mm PM",
   "class": "Pistol",
   "game": "bo6",
+  "weapon_type": "Pistols",
   "in_warzone": true,
-  "source": "truegamedata",
+  "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
   "note": "Off-Meta BO6 (Makarov). Universelle Slots (MUZZLE/OPTIC/REAR GRIP/STOCK/LASER) = BO6-Standard-Pool (ref lc10.json).",
-  "extraction": "weapon-specific-only",
-  "all_slots": [
-    "OPTIC",
-    "MUZZLE",
-    "BARREL",
-    "MAGAZINE",
-    "REAR GRIP",
-    "STOCK",
-    "LASER",
-    "FIRE MODS"
-  ],
   "base": {
     "rpm": 375,
     "mag": 10,
-    "reload_s": 2.83,
+    "reload_s": 2833,
     "ads_ms": 150,
-    "velocity_ms": 340,
-    "move_ms": 5.2,
     "sprint_to_fire_ms": 100,
-    "sprint_ms": 6.5
+    "velocity_ms": 340,
+    "move_speed": 5.2,
+    "crouch_move_speed": 2.4,
+    "ads_move_speed": 3.8,
+    "sprint_speed": 6.5,
+    "swap_speed": 700,
+    "gun_kick": 43,
+    "vert_recoil": 41.25,
+    "horiz_recoil": 24.42,
+    "idle_sway": 0.1,
+    "hipfire_max": 8.75,
+    "flinch_resistance": 0.2,
+    "target_flinch": 0.6
   },
+  "damage": [
+    {
+      "head": 62,
+      "neck": 50,
+      "chest": 50,
+      "stomach": 37,
+      "upperleg": 37,
+      "lowerleg": 37,
+      "upperarm": 50,
+      "lowerarm": 50,
+      "dropoff": 0,
+      "base_rpm": 375,
+      "final_rpm": 375,
+      "rpm_mod": 1
+    },
+    {
+      "head": 55,
+      "neck": 44,
+      "chest": 44,
+      "stomach": 33,
+      "upperleg": 33,
+      "lowerleg": 33,
+      "upperarm": 44,
+      "lowerarm": 44,
+      "dropoff": 25.4,
+      "base_rpm": 375,
+      "final_rpm": 375,
+      "rpm_mod": 1
+    }
+  ],
   "slots": {
     "BARREL": [
-      "Gain-Twist Barrel :: +45% Bullet Velocity",
-      "Long Barrel :: +29.9% Range",
-      "Reinforced Barrel :: +18.1% Range | +25% Bullet Velocity",
-      "Short Barrel",
-      "CHF Barrel :: +49% Gun Kick | +20% Horiz. Recoil | +50% Vert. Recoil"
+      {
+        "name": "Gain-Twist Barrel",
+        "mods": {
+          "bv_mod": 1.45
+        }
+      },
+      {
+        "name": "Long Barrel",
+        "mods": {
+          "range_mod": 1.29921
+        }
+      },
+      {
+        "name": "Reinforced Barrel",
+        "mods": {
+          "range_mod": 1.1811,
+          "bv_mod": 1.25
+        }
+      },
+      {
+        "name": "Short Barrel"
+      },
+      {
+        "name": "CHF Barrel",
+        "mods": {
+          "gun_kick_mod": 1.49,
+          "vert_recoil_mod": 1.5,
+          "horiz_recoil_mod": 1.2
+        }
+      }
     ],
-    "FIRE_MODS": [
-      "Rapid Fire :: kein Damage-Mod | +11.2% Fire Rate | +14.8% Gun Kick | +10% Horiz. Recoil | +15% Vert. Recoil",
-      "9x18mm Makarov Overpressured :: +20% Bullet Velocity",
-      "Recoil Springs :: -10% Gun Kick | -10% Horiz. Recoil | -10% Vert. Recoil",
-      "9x18mm Makarov FMJ"
+    "FIRE MODS": [
+      {
+        "name": "Rapid Fire",
+        "mods": {
+          "gun_kick_mod": 1.148,
+          "vert_recoil_mod": 1.15,
+          "horiz_recoil_mod": 1.1,
+          "rpm_mod": 1.112
+        }
+      },
+      {
+        "name": "9x18mm Makarov Overpressured",
+        "mods": {
+          "bv_mod": 1.2
+        }
+      },
+      {
+        "name": "Recoil Springs",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "9x18mm Makarov FMJ"
+      }
+    ],
+    "LASER": [
+      {
+        "name": "Steady Aim Laser",
+        "mods": {
+          "hipfire_max_mod": 0.75
+        }
+      },
+      {
+        "name": "Fast Motion Laser"
+      },
+      {
+        "name": "Tactical Laser"
+      },
+      {
+        "name": "Strelok Laser"
+      },
+      {
+        "name": "Target Laser"
+      }
     ],
     "MAGAZINE": [
-      "Extended Mag I :: +8% Reload Time",
-      "Fast Mag I :: -16.7% ADS Time | -24.5% Reload Time | -20% Sprint to Fire",
-      "Extended Mag II :: +13.3% ADS Time | +12.5% Reload Time | +20% Sprint to Fire",
-      "Fast Mag II :: -16.7% ADS Time | -25% Reload Time | -20% Sprint to Fire"
+      {
+        "name": "Extended Mag I",
+        "mods": {
+          "reload_mod": 1.08
+        }
+      },
+      {
+        "name": "Fast Mag I",
+        "mods": {
+          "ads_mod": 0.833,
+          "stf_mod": 0.8,
+          "reload_mod": 0.755
+        }
+      },
+      {
+        "name": "Extended Mag II",
+        "mods": {
+          "ads_mod": 1.133,
+          "stf_mod": 1.2,
+          "reload_mod": 1.125
+        }
+      },
+      {
+        "name": "Fast Mag II",
+        "mods": {
+          "ads_mod": 0.833,
+          "stf_mod": 0.8,
+          "reload_mod": 0.75
+        }
+      }
     ],
-    "_universal": "MUZZLE/OPTIC/REAR GRIP/STOCK/LASER = BO6-Standard-Pool (ref lc10.json)"
+    "MUZZLE": [
+      {
+        "name": "Suppressor"
+      },
+      {
+        "name": "Compensator",
+        "mods": {
+          "gun_kick_mod": 0.667,
+          "vert_recoil_mod": 0.65
+        }
+      },
+      {
+        "name": "Muzzle Brake"
+      },
+      {
+        "name": "Ported Compensator",
+        "mods": {
+          "gun_kick_mod": 0.761,
+          "vert_recoil_mod": 0.75
+        }
+      },
+      {
+        "name": "Monolithic Suppressor",
+        "mods": {
+          "ads_mod": 1.367,
+          "range_mod": 1.09843,
+          "bv_mod": 1.2
+        }
+      }
+    ],
+    "OPTIC": [
+      {
+        "name": "Remuda Mini Reflex"
+      },
+      {
+        "name": "Otero Micro Dot"
+      },
+      {
+        "name": "Kepler Microflex"
+      },
+      {
+        "name": "Merlin Mini"
+      },
+      {
+        "name": "Accu-Spot Reflex"
+      },
+      {
+        "name": "Kepler Pistol Scope",
+        "mods": {
+          "ads_mod": 1.333,
+          "idle_sway_mod": 2
+        }
+      }
+    ],
+    "REAR GRIP": [
+      {
+        "name": "Quickdraw Grip",
+        "mods": {
+          "ads_mod": 0.533
+        }
+      },
+      {
+        "name": "Assault Grip",
+        "mods": {
+          "stf_mod": 0.7
+        }
+      },
+      {
+        "name": "Commando Grip",
+        "mods": {
+          "ads_mod": 0.8,
+          "stf_mod": 0.9
+        }
+      },
+      {
+        "name": "Ergonomic Grip",
+        "mods": {
+          "ads_mod": 0.733
+        }
+      },
+      {
+        "name": "CQB Grip",
+        "mods": {
+          "stf_mod": 0.8
+        }
+      }
+    ],
+    "STOCK": [
+      {
+        "name": "Akimbo 9mm PM",
+        "mods": {
+          "hipfire_max_mod": 1.25,
+          "reload_mod": 1.312
+        }
+      }
+    ]
   }
 }

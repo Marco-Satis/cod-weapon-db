@@ -3,51 +3,535 @@
   "name": "SWAT 5.56",
   "class": "Battle Rifle",
   "game": "bo6",
+  "weapon_type": "MR",
   "in_warzone": true,
-  "source": "truegamedata",
+  "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
   "note": "Off-Meta BO6 Battle Rifle (5.56 NATO, 377 RPM Burst, 30-round). reload roh '3030 s' -> 3.03. Universelle Slots = BO6-Pool. Weapon-spez: MUZZLE/BARREL/MAGAZINE/FIRE MODS (inkl Grau Conversion).",
-  "extraction": "weapon-specific-only-BO-editorbound-split",
   "base": {
     "rpm": 377,
     "mag": 30,
-    "reload_s": 3.03,
+    "reload_s": 3030,
     "ads_ms": 315,
-    "velocity_ms": 910,
-    "move_ms": 4.5,
     "sprint_to_fire_ms": 205,
-    "sprint_ms": 6.1,
-    "zoom_x": 0
+    "velocity_ms": 910,
+    "move_speed": 4.5,
+    "crouch_move_speed": 2.1,
+    "ads_move_speed": 3,
+    "sprint_speed": 6.1,
+    "swap_speed": 1250,
+    "gun_kick": 24.44,
+    "vert_recoil": 87.28,
+    "horiz_recoil": 19.17,
+    "idle_sway": 0.7,
+    "hipfire_max": 9,
+    "flinch_resistance": 0.25,
+    "target_flinch": 1.2
   },
+  "damage": [
+    {
+      "head": 62,
+      "neck": 52,
+      "chest": 52,
+      "stomach": 46,
+      "upperleg": 46,
+      "lowerleg": 46,
+      "upperarm": 52,
+      "lowerarm": 52,
+      "dropoff": 0,
+      "base_rpm": 354,
+      "final_rpm": 354,
+      "rpm_mod": 1
+    },
+    {
+      "head": 56,
+      "neck": 47,
+      "chest": 47,
+      "stomach": 42,
+      "upperleg": 42,
+      "lowerleg": 42,
+      "upperarm": 47,
+      "lowerarm": 47,
+      "dropoff": 45.7,
+      "base_rpm": 354,
+      "final_rpm": 354,
+      "rpm_mod": 1
+    }
+  ],
   "slots": {
     "BARREL": [
-      "Gain-Twist Barrel :: +35% Bullet Velocity",
-      "Long Barrel :: +30% Range",
-      "CHF Barrel :: Damage profile modified",
-      "Reinforced Barrel :: +13.8% Range",
-      "Short Barrel"
+      {
+        "name": "Gain-Twist Barrel",
+        "mods": {
+          "bv_mod": 1.35
+        }
+      },
+      {
+        "name": "Long Barrel",
+        "mods": {
+          "range_mod": 1.29978
+        }
+      },
+      {
+        "name": "CHF Barrel",
+        "mods": {
+          "gun_kick_mod": 1.421,
+          "vert_recoil_mod": 1.55,
+          "horiz_recoil_mod": 1.2
+        }
+      },
+      {
+        "name": "Reinforced Barrel",
+        "mods": {
+          "range_mod": 1.13786,
+          "bv_mod": 1.25
+        }
+      },
+      {
+        "name": "Short Barrel"
+      }
     ],
     "FIRE MODS": [
-      "Rapid Fire :: -10% Bullet Velocity",
-      "5.56 NATO Overpressured :: +15% Bullet Velocity",
-      "Recoil Springs :: -7% Gun Kick",
-      "5.56 NATO FMJ",
-      "SWAT 5.56 Grau Conversion :: +12% Bullet Velocity"
+      {
+        "name": "Rapid Fire",
+        "mods": {
+          "gun_kick_mod": 1.45,
+          "vert_recoil_mod": 1.45,
+          "horiz_recoil_mod": 1.45,
+          "bv_mod": 0.9,
+          "rpm_mod": 1.141
+        }
+      },
+      {
+        "name": "5.56 NATO Overpressured",
+        "mods": {
+          "bv_mod": 1.15
+        }
+      },
+      {
+        "name": "Recoil Springs",
+        "mods": {
+          "gun_kick_mod": 0.93,
+          "vert_recoil_mod": 0.93,
+          "horiz_recoil_mod": 0.93
+        }
+      },
+      {
+        "name": "5.56 NATO FMJ"
+      },
+      {
+        "name": "SWAT 5.56 Grau Conversion",
+        "mods": {
+          "ads_mod": 0.698,
+          "gun_kick_mod": 2.209,
+          "vert_recoil_mod": 0.578,
+          "horiz_recoil_mod": 0.444,
+          "ads_movement_mod": 1.067,
+          "hipfire_max_mod": 0.85,
+          "bv_mod": 1.12,
+          "crouch_movement_mod": 1.048,
+          "movement_mod": 1.044,
+          "sprint_mod": 1.016,
+          "reload_mod": 0.86,
+          "rpm_mod": 1.94
+        }
+      }
+    ],
+    "LASER": [
+      {
+        "name": "Steady Aim Laser",
+        "mods": {
+          "hipfire_max_mod": 0.5
+        }
+      },
+      {
+        "name": "Fast Motion Laser"
+      },
+      {
+        "name": "Tactical Laser"
+      },
+      {
+        "name": "Strelok Laser"
+      },
+      {
+        "name": "Target Laser"
+      }
     ],
     "MAGAZINE": [
-      "Extended Mag I :: +13% Reload Time",
-      "Fast Mag I :: -4.8% ADS Time",
-      "Flip Mag :: -7.9% ADS Time",
-      "Extended Mag II :: +6.3% ADS Time",
-      "Full-Auto Extended Mag :: +4.8% ADS Time"
+      {
+        "name": "Extended Mag I",
+        "mods": {
+          "reload_mod": 1.13
+        }
+      },
+      {
+        "name": "Fast Mag I",
+        "mods": {
+          "ads_mod": 0.952,
+          "stf_mod": 0.951,
+          "reload_mod": 0.86
+        }
+      },
+      {
+        "name": "Flip Mag",
+        "mods": {
+          "ads_mod": 0.921,
+          "stf_mod": 0.902,
+          "reload_mod": 0.726
+        }
+      },
+      {
+        "name": "Extended Mag II",
+        "mods": {
+          "ads_mod": 1.063,
+          "stf_mod": 1.098,
+          "reload_mod": 1.231
+        }
+      },
+      {
+        "name": "Full-Auto Extended Mag",
+        "mods": {
+          "ads_mod": 1.048,
+          "stf_mod": 1.073,
+          "reload_mod": 1.17
+        }
+      }
     ],
     "MUZZLE": [
-      "Suppressor",
-      "Compensator :: -14.3% Gun Kick",
-      "Muzzle Brake",
-      "Ported Compensator :: -11.6% Gun Kick",
-      "Monolithic Suppressor :: +10.1% Range"
+      {
+        "name": "Suppressor"
+      },
+      {
+        "name": "Compensator",
+        "mods": {
+          "gun_kick_mod": 0.857,
+          "vert_recoil_mod": 0.75
+        }
+      },
+      {
+        "name": "Muzzle Brake"
+      },
+      {
+        "name": "Ported Compensator",
+        "mods": {
+          "gun_kick_mod": 0.884,
+          "vert_recoil_mod": 0.8
+        }
+      },
+      {
+        "name": "Monolithic Suppressor",
+        "mods": {
+          "ads_mod": 1.175,
+          "range_mod": 1.10066,
+          "bv_mod": 1.2
+        }
+      }
+    ],
+    "OPTIC": [
+      {
+        "name": "Kepler Microflex"
+      },
+      {
+        "name": "PrismaTech Reflex"
+      },
+      {
+        "name": "Volzhskiy Reflex"
+      },
+      {
+        "name": "Redwell Reflex"
+      },
+      {
+        "name": "K&S Red Dot"
+      },
+      {
+        "name": "Kepler Red Dot"
+      },
+      {
+        "name": "Otero Red Dot"
+      },
+      {
+        "name": "OM3 '92 Holo"
+      },
+      {
+        "name": "Pinpoint Holoscout"
+      },
+      {
+        "name": "Accu-Spot Ultra Holo",
+        "mods": {
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "Jason Armory 2x",
+        "mods": {
+          "ads_mod": 1.032,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "Willis 3x",
+        "mods": {
+          "ads_mod": 1.048,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "PrismaTech 4x",
+        "mods": {
+          "ads_mod": 1.063,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "Dobrych 4x",
+        "mods": {
+          "ads_mod": 1.063,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "K&S Thermal Holo",
+        "mods": {
+          "gun_kick_mod": 0.75
+        }
+      },
+      {
+        "name": "Pinpoint Hybrid",
+        "mods": {
+          "ads_mod": 1.063,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "PrismaPoint Hybrid",
+        "mods": {
+          "ads_mod": 1.063,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "R&K Multizoom",
+        "mods": {
+          "ads_mod": 1.079,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Remuda Dual Zoom",
+        "mods": {
+          "ads_mod": 1.159,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "VMF Variable Scope",
+        "mods": {
+          "ads_mod": 1.159,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Redwell Custom Zoom",
+        "mods": {
+          "ads_mod": 1.159,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Otero Thermal 2x",
+        "mods": {
+          "ads_mod": 1.032,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Thermal 6x",
+        "mods": {
+          "ads_mod": 1.095,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Remuda Range Finder",
+        "mods": {
+          "ads_mod": 1.159,
+          "gun_kick_mod": 0.5
+        }
+      }
+    ],
+    "REAR GRIP": [
+      {
+        "name": "Quickdraw Grip",
+        "mods": {
+          "ads_mod": 0.73
+        }
+      },
+      {
+        "name": "Assault Grip",
+        "mods": {
+          "stf_mod": 0.659
+        }
+      },
+      {
+        "name": "Commando Grip",
+        "mods": {
+          "ads_mod": 0.867,
+          "stf_mod": 0.863
+        }
+      },
+      {
+        "name": "CQB Grip",
+        "mods": {
+          "stf_mod": 0.766
+        }
+      },
+      {
+        "name": "Ergonomic Grip",
+        "mods": {
+          "ads_mod": 0.835
+        }
+      }
+    ],
+    "STOCK": [
+      {
+        "name": "Light Stock",
+        "mods": {
+          "crouch_movement_mod": 1.429,
+          "movement_mod": 1.267
+        }
+      },
+      {
+        "name": "Heavy Stock",
+        "mods": {
+          "flinch_resistance_mod": 0.56
+        }
+      },
+      {
+        "name": "Balanced Stock",
+        "mods": {
+          "ads_movement_mod": 1.133,
+          "crouch_movement_mod": 1.19,
+          "movement_mod": 1.133
+        }
+      },
+      {
+        "name": "Infiltrator Stock",
+        "mods": {
+          "ads_movement_mod": 1.233
+        }
+      },
+      {
+        "name": "Combat Stock",
+        "mods": {
+          "ads_movement_mod": 1.133,
+          "flinch_resistance_mod": 0.8
+        }
+      }
+    ],
+    "UNDERBARREL": [
+      {
+        "name": "Vertical Foregrip",
+        "mods": {
+          "gun_kick_mod": 0.862,
+          "horiz_recoil_mod": 0.6
+        }
+      },
+      {
+        "name": "Lightweight Foregrip",
+        "mods": {
+          "idle_sway_mod": 0.6
+        }
+      },
+      {
+        "name": "Marksman Foregrip"
+      },
+      {
+        "name": "Precision Foregrip",
+        "mods": {
+          "gun_kick_mod": 0.926,
+          "horiz_recoil_mod": 0.8,
+          "idle_sway_mod": 0.8
+        }
+      },
+      {
+        "name": "Launcher - Standard"
+      },
+      {
+        "name": "Launcher - Smoke"
+      },
+      {
+        "name": "Ranger Foregrip",
+        "mods": {
+          "gun_kick_mod": 0.926,
+          "horiz_recoil_mod": 0.8,
+          "sprint_mod": 1.098
+        }
+      },
+      {
+        "name": "Launcher - High Explosive"
+      },
+      {
+        "name": "Launcher - Drill Charge"
+      },
+      {
+        "name": "Crossbow"
+      }
     ]
   },
-  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO6-Pool (ref lc10.json)"
+  "blocking": [
+    {
+      "id": 669,
+      "gun": "SWAT 5.56",
+      "attachment": "SWAT 5.56 Grau Conversion",
+      "slot": "Fire Mods",
+      "blocks": "Barrel",
+      "reason": "Fire Mods",
+      "tooltip": "Unlock by removing the SWAT 5.56 Grau Conversion"
+    },
+    {
+      "id": 670,
+      "gun": "SWAT 5.56",
+      "attachment": "Gain-Twist Barrel",
+      "slot": "Fire Mods",
+      "blocks": "SWAT 5.56 Grau Conversion",
+      "reason": "Fire Mods",
+      "tooltip": "Unlock by removing Gain-Twist Barrel"
+    },
+    {
+      "id": 671,
+      "gun": "SWAT 5.56",
+      "attachment": "Long Barrel",
+      "slot": "Fire Mods",
+      "blocks": "SWAT 5.56 Grau Conversion",
+      "reason": "Fire Mods",
+      "tooltip": "Unlock by removing Long Barrel"
+    },
+    {
+      "id": 672,
+      "gun": "SWAT 5.56",
+      "attachment": "CHF Barrel",
+      "slot": "Fire Mods",
+      "blocks": "SWAT 5.56 Grau Conversion",
+      "reason": "Fire Mods",
+      "tooltip": "Unlock by removing CHF Barrel"
+    },
+    {
+      "id": 673,
+      "gun": "SWAT 5.56",
+      "attachment": "Reinforced Barrel",
+      "slot": "Fire Mods",
+      "blocks": "SWAT 5.56 Grau Conversion",
+      "reason": "Fire Mods",
+      "tooltip": "Unlock by removing Reinforced Barrel"
+    },
+    {
+      "id": 674,
+      "gun": "SWAT 5.56",
+      "attachment": "Short Barrel",
+      "slot": "Fire Mods",
+      "blocks": "SWAT 5.56 Grau Conversion",
+      "reason": "Fire Mods",
+      "tooltip": "Unlock by removing Short Barrel"
+    }
+  ]
 }

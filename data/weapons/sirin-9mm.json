@@ -3,33 +3,134 @@
   "name": "Sirin 9mm",
   "class": "Pistol",
   "game": "bo6",
+  "weapon_type": "Pistols",
   "in_warzone": true,
-  "source": "truegamedata",
+  "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
   "note": "Off-Meta BO6 Spezial-Pistole (9mm, 500 RPM, 32-round, 0.88x). Stark reduzierter Aufsatz-Pool (Editor nur 5 Slots: OPTIC/MUZZLE/BARREL/UNDERBARREL/MAGAZINE; kein FIRE MODS/AMMUNITION/STOCK/REAR GRIP). Weapon-spez: MUZZLE/BARREL/MAGAZINE (minimal).",
-  "extraction": "weapon-specific-only-BO-editorbound-split-minimal",
   "base": {
     "rpm": 500,
     "mag": 32,
     "reload_s": 2.76,
     "ads_ms": 185,
-    "velocity_ms": 480,
-    "move_ms": 5.1,
     "sprint_to_fire_ms": 110,
-    "sprint_ms": 6.7,
+    "velocity_ms": 480,
+    "move_speed": 5.1,
+    "crouch_move_speed": 2.3,
+    "ads_move_speed": 3.6,
+    "sprint_speed": 6.7,
+    "swap_speed": 975,
+    "gun_kick": 47.32,
+    "vert_recoil": 69.69,
+    "horiz_recoil": 7.12,
+    "idle_sway": 3.25,
+    "hipfire_max": 7.25,
+    "target_flinch": 0.8,
     "zoom_x": 0.88
   },
+  "damage": [
+    {
+      "head": 63,
+      "neck": 49,
+      "chest": 49,
+      "stomach": 44,
+      "upperleg": 44,
+      "lowerleg": 44,
+      "upperarm": 49,
+      "lowerarm": 49,
+      "dropoff": 0,
+      "base_rpm": 500,
+      "final_rpm": 500,
+      "rpm_mod": 1
+    },
+    {
+      "head": 55,
+      "neck": 43,
+      "chest": 43,
+      "stomach": 38,
+      "upperleg": 38,
+      "lowerleg": 38,
+      "upperarm": 43,
+      "lowerarm": 43,
+      "dropoff": 10.9,
+      "base_rpm": 500,
+      "final_rpm": 500,
+      "rpm_mod": 1
+    },
+    {
+      "head": 45,
+      "neck": 35,
+      "chest": 35,
+      "stomach": 31,
+      "upperleg": 31,
+      "lowerleg": 31,
+      "upperarm": 35,
+      "lowerarm": 35,
+      "dropoff": 17.8,
+      "base_rpm": 500,
+      "final_rpm": 500,
+      "rpm_mod": 1
+    }
+  ],
   "slots": {
     "BARREL": [
-      "Long Barrel :: +22.3% Range"
+      {
+        "name": "Long Barrel",
+        "mods": {
+          "range_mod": 1.22271
+        }
+      }
     ],
     "MAGAZINE": [
-      "Extended Mag :: +9% Reload Time",
-      "Fast Mag I :: -19% Reload Time"
+      {
+        "name": "Extended Mag",
+        "mods": {
+          "stf_mod": 0.92,
+          "reload_mod": 1.09
+        }
+      },
+      {
+        "name": "Fast Mag !",
+        "mods": {
+          "stf_mod": 0.92,
+          "reload_mod": 0.81
+        }
+      }
     ],
     "MUZZLE": [
-      "Suppressor"
+      {
+        "name": "Suppressor"
+      }
+    ],
+    "OPTIC": [
+      {
+        "name": "Iron Sight"
+      },
+      {
+        "name": "Carry Handle Sight"
+      }
+    ],
+    "UNDERBARREL": [
+      {
+        "name": "Vertical Foregrip",
+        "mods": {
+          "ads_mod": 0.62,
+          "gun_kick_mod": 0.7,
+          "vert_recoil_mod": 0.7,
+          "horiz_recoil_mod": 0.8,
+          "stf_mod": 1.04,
+          "crouch_movement_mod": 1.31,
+          "movement_mod": 1.17
+        }
+      },
+      {
+        "name": "Lightweight Foregrip",
+        "mods": {
+          "ads_mod": 1.05,
+          "ads_movement_mod": 1.18,
+          "stf_mod": 0.6
+        }
+      }
     ]
-  },
-  "_universal": "OPTIC/UNDERBARREL = BO6-Pool (ref lc10.json); weitere Slots fehlen bei dieser Waffe"
+  }
 }

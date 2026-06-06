@@ -3,64 +3,464 @@
   "name": ".50 GS",
   "class": "Pistol",
   "game": "mw3",
+  "weapon_type": "Pistols",
   "in_warzone": true,
-  "source": "truegamedata",
+  "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
   "note": "Cross-Game Off-Meta. Weapon-spezifische Slots erfasst; universelle Slots (LASER/OPTIC/REAR GRIP) = MW-Standard-Pool (siehe Meta-Files Kar98k/HDR).",
-  "extraction": "weapon-specific-only",
-  "all_slots": [
-    "MUZZLE",
-    "BARREL",
-    "LASER",
-    "OPTIC",
-    "AMMUNITION",
-    "MAGAZINE",
-    "REAR GRIP",
-    "TRIGGER ACTION"
-  ],
+  "fire_modes": {
+    "fire_mode1": "Semi Auto",
+    "fire_mode2": ""
+  },
   "base": {
     "rpm": 167,
     "mag": 7,
     "reload_s": 2.2,
     "ads_ms": 210,
-    "velocity_ms": 470,
-    "move_ms": 5.0,
     "sprint_to_fire_ms": 80,
-    "sprint_ms": 6.5,
+    "velocity_ms": 470,
+    "move_speed": 5,
+    "crouch_move_speed": 2.8,
+    "ads_move_speed": 3.2,
+    "sprint_speed": 6.5,
+    "swap_speed": 1100,
+    "gun_kick": 37.4,
+    "vert_recoil": 135.33,
+    "horiz_recoil": 23,
+    "idle_sway": 2.1,
+    "hipfire_max": 13,
+    "flinch_resistance": 0.2,
+    "target_flinch": 0.8,
+    "tac_spread": 10,
     "zoom_x": 0.8
   },
+  "damage": [
+    {
+      "head": 126,
+      "neck": 126,
+      "chest": 101,
+      "stomach": 85,
+      "upperleg": 78,
+      "lowerleg": 78,
+      "upperarm": 101,
+      "lowerarm": 85,
+      "dropoff": 0,
+      "base_rpm": 167,
+      "final_rpm": 167,
+      "rpm_mod": 1
+    },
+    {
+      "head": 82,
+      "neck": 82,
+      "chest": 66,
+      "stomach": 56,
+      "upperleg": 51,
+      "lowerleg": 51,
+      "upperarm": 66,
+      "lowerarm": 56,
+      "dropoff": 25.1,
+      "base_rpm": 167,
+      "final_rpm": 167,
+      "rpm_mod": 1
+    },
+    {
+      "head": 74,
+      "neck": 74,
+      "chest": 59,
+      "stomach": 50,
+      "upperleg": 46,
+      "lowerleg": 46,
+      "upperarm": 59,
+      "lowerarm": 50,
+      "dropoff": 35.1,
+      "base_rpm": 167,
+      "final_rpm": 167,
+      "rpm_mod": 1
+    }
+  ],
   "slots": {
     "AMMUNITION": [
-      "9mm Hardened Rounds :: -23.4% Range | -15% Bullet Velocity",
-      ".50 Pistol Frangible :: -4.9% Range",
-      ".50 Pistol Hollowpoint",
-      ".50 Pistol Armor Piercing",
-      ".50 Pistol Overpressured +P :: +80% Target Flinch",
-      ".500 AET Rounds :: -30% Target Flinch | -20% Bullet Velocity"
+      {
+        "name": "9mm Hardened Rounds",
+        "mods": {
+          "range_mod": 0.765714,
+          "bv_mod": 0.85
+        }
+      },
+      {
+        "name": ".50 Pistol Frangible",
+        "mods": {
+          "range_mod": 0.951429
+        }
+      },
+      {
+        "name": ".50 Pistol Hollowpoint"
+      },
+      {
+        "name": ".50 Pistol Armor Piercing"
+      },
+      {
+        "name": ".50 Pistol Overpressured +P",
+        "mods": {
+          "target_flinch_mod": 1.8
+        }
+      },
+      {
+        "name": ".500 AET Rounds",
+        "mods": {
+          "bv_mod": 0.8,
+          "target_flinch_mod": 0.7
+        }
+      }
     ],
     "BARREL": [
-      "SA Brake Barrel :: -10% Gun Kick | -27% Horiz. Recoil | -10% Vert. Recoil | +10% ADS Time",
-      "SA Comp Barrel :: -27% Gun Kick | -10% Horiz. Recoil | -27% Vert. Recoil | +10% ADS Time",
-      "SA Longshot-50 :: +32.3% Range | +16% Bullet Velocity | +3% Recoil (alle) | -12% Idle Sway | +12% Max Hipfire | +Mobility minor | +9% ADS Time",
-      "SA Tyrant Fifty :: +32.3% Range | +27% Bullet Velocity | -5% Recoil (alle) | -12% Idle Sway | +12% Max Hipfire | -Mobility minor | +14% ADS Time"
+      {
+        "name": "SA Brake Barrel",
+        "mods": {
+          "ads_mod": 1.1,
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.73
+        }
+      },
+      {
+        "name": "SA Comp Barrel",
+        "mods": {
+          "ads_mod": 1.1,
+          "gun_kick_mod": 0.73,
+          "vert_recoil_mod": 0.73,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "SA Longshot-50",
+        "mods": {
+          "ads_mod": 1.09,
+          "gun_kick_mod": 1.03,
+          "vert_recoil_mod": 1.03,
+          "horiz_recoil_mod": 1.03,
+          "ads_movement_mod": 1.03,
+          "hipfire_max_mod": 1.12,
+          "range_mod": 1.32286,
+          "idle_sway_mod": 0.88,
+          "bv_mod": 1.16,
+          "crouch_movement_mod": 1.02,
+          "movement_mod": 1.02,
+          "sprint_mod": 1.01
+        }
+      },
+      {
+        "name": "SA Tyrant Fifty",
+        "mods": {
+          "ads_mod": 1.14,
+          "gun_kick_mod": 0.95,
+          "vert_recoil_mod": 0.95,
+          "horiz_recoil_mod": 0.95,
+          "ads_movement_mod": 0.97,
+          "hipfire_max_mod": 1.12,
+          "range_mod": 1.32286,
+          "idle_sway_mod": 0.88,
+          "bv_mod": 1.27,
+          "crouch_movement_mod": 0.98,
+          "movement_mod": 0.98,
+          "sprint_mod": 0.98
+        }
+      }
+    ],
+    "LASER": [
+      {
+        "name": "KR HX-15 Laser Light",
+        "mods": {
+          "ads_mod": 0.9,
+          "stf_mod": 0.85
+        }
+      },
+      {
+        "name": "CS15 Scarlet Mounted Laser",
+        "mods": {
+          "hipfire_max_mod": 1.3,
+          "idle_sway_mod": 0.1,
+          "stf_mod": 0.87
+        }
+      },
+      {
+        "name": "Verdant Hook Box Laser",
+        "mods": {
+          "hipfire_max_mod": 0.9,
+          "idle_sway_mod": 0.9,
+          "stf_mod": 0.91
+        }
+      },
+      {
+        "name": "Series 710 Pistol Laser"
+      },
+      {
+        "name": "FJX Diod-70",
+        "mods": {
+          "ads_mod": 0.95,
+          "stf_mod": 0.94
+        }
+      },
+      {
+        "name": "XTEN Sidearm-L400",
+        "mods": {
+          "hipfire_max_mod": 0.9,
+          "idle_sway_mod": 0.8
+        }
+      },
+      {
+        "name": "1mW Pistol Laser",
+        "mods": {
+          "hipfire_max_mod": 0.92,
+          "idle_sway_mod": 0.92,
+          "stf_mod": 0.95
+        }
+      },
+      {
+        "name": "DZM-1000 L",
+        "mods": {
+          "stf_mod": 0.91
+        }
+      },
+      {
+        "name": "FTAC Vortex 200",
+        "mods": {
+          "stf_mod": 0.86
+        }
+      },
+      {
+        "name": "Pro Sapphire Mounted Laser",
+        "mods": {
+          "stf_mod": 0.87
+        }
+      }
     ],
     "MAGAZINE": [
-      "13 Round Mag :: -7% Move | -8% Crouch | -5% Sprint | -9% ADS Move | +12% ADS Time | +26% Reload",
-      "10 Round Mag :: -3% Move | -4% Crouch | -2% Sprint | -5% ADS Move | +6% ADS Time | +12% Reload"
+      {
+        "name": "13 Round Mag",
+        "mods": {
+          "ads_mod": 1.12,
+          "ads_movement_mod": 0.91,
+          "crouch_movement_mod": 0.92,
+          "movement_mod": 0.93,
+          "sprint_mod": 0.95,
+          "reload_mod": 1.26
+        }
+      },
+      {
+        "name": "10 Round Mag",
+        "mods": {
+          "ads_mod": 1.06,
+          "ads_movement_mod": 0.95,
+          "crouch_movement_mod": 0.96,
+          "movement_mod": 0.97,
+          "sprint_mod": 0.98,
+          "reload_mod": 1.12
+        }
+      }
     ],
     "MUZZLE": [
-      "EXF Fifty GS :: +8.3% Range | +14% Bullet Velocity",
-      "Matuzek Crown :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil",
-      "FTAC Fifty Comp :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil",
-      "Potato Masher :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil",
-      "SA Peak-77 :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil",
-      "GW Flash Fifty :: +12.3% Range"
+      {
+        "name": "EXF Fifty GS",
+        "mods": {
+          "range_mod": 1.08286,
+          "bv_mod": 1.14
+        }
+      },
+      {
+        "name": "Matuzek Crown",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "FTAC Fifty Comp",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Potato Masher",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "SA Peak-77",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "GW Flash Fifty",
+        "mods": {
+          "range_mod": 1.12286
+        }
+      }
+    ],
+    "OPTIC": [
+      {
+        "name": "Cronen Intlas MSP-12",
+        "mods": {
+          "ads_mod": 0.98,
+          "hipfire_max_mod": 0.9,
+          "idle_sway_mod": 0.9
+        }
+      },
+      {
+        "name": "Slate Reflector"
+      },
+      {
+        "name": "Slimline Pro"
+      },
+      {
+        "name": "SZ Mini"
+      },
+      {
+        "name": "Cronen Mini Dot"
+      },
+      {
+        "name": "Cronen Mini Pro"
+      },
+      {
+        "name": "SZ Sigma-IV Optic"
+      },
+      {
+        "name": "SZ Minitac-40"
+      },
+      {
+        "name": "XRK On-Point Optic"
+      },
+      {
+        "name": "Aim OP-V4"
+      },
+      {
+        "name": "DF105 Reflex Sight"
+      },
+      {
+        "name": "Monocle CT90"
+      },
+      {
+        "name": "Corvus Sol-76"
+      },
+      {
+        "name": "SZ Recharge-DX"
+      },
+      {
+        "name": "SZ Sro-7"
+      },
+      {
+        "name": "Corio RE-X Pro"
+      },
+      {
+        "name": "Corio Enforcer Optic"
+      },
+      {
+        "name": "SZ Lonewolf Optic"
+      },
+      {
+        "name": "Kazan-Holo"
+      },
+      {
+        "name": "SZ Battle Optic"
+      },
+      {
+        "name": "Corvus Downrange-00"
+      },
+      {
+        "name": "SZ Holotherm"
+      },
+      {
+        "name": "XTEN Angel-40"
+      },
+      {
+        "name": "Dragon's Eye Optic"
+      }
+    ],
+    "REAR GRIP": [
+      {
+        "name": "EXF Shoreline Grip",
+        "mods": {
+          "ads_movement_mod": 0.95
+        }
+      },
+      {
+        "name": "EXF Resistance Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.93,
+          "horiz_recoil_mod": 0.93
+        }
+      },
+      {
+        "name": "GS .50 Wood Grain",
+        "mods": {
+          "ads_mod": 0.97,
+          "gun_kick_mod": 1.06,
+          "vert_recoil_mod": 1.06,
+          "horiz_recoil_mod": 1.06,
+          "stf_mod": 0.85
+        }
+      },
+      {
+        "name": "Akimbo .50 GS",
+        "mods": {
+          "gun_kick_mod": 0.5,
+          "vert_recoil_mod": 0.5,
+          "horiz_recoil_mod": 0.5,
+          "reload_mod": 1.29
+        }
+      }
     ],
     "TRIGGER ACTION": [
-      "SA Competition Trigger :: +9% Fire Rate | +15% Max Hipfire Area",
-      "SA Fifty Trigger :: -6% Fire Rate | -8% ADS Time | -14% Sprint to Fire",
-      "SA Hare Trigger :: +20% Fire Rate | +15% Sprint to Fire"
-    ],
-    "_universal": "LASER/OPTIC/REAR GRIP = MW-Standard-Pool (siehe cod_db_deltas/kar98k.json + hdr.json)"
-  }
+      {
+        "name": "SA Competition Trigger",
+        "mods": {
+          "hipfire_max_mod": 1.15,
+          "rpm_mod": 1.09
+        }
+      },
+      {
+        "name": "SA Fifty Trigger",
+        "mods": {
+          "ads_mod": 0.92,
+          "stf_mod": 0.86,
+          "rpm_mod": 0.94
+        }
+      },
+      {
+        "name": "SA Hare Trigger",
+        "mods": {
+          "stf_mod": 1.15,
+          "rpm_mod": 1.2
+        }
+      }
+    ]
+  },
+  "blocking": [
+    {
+      "id": 46,
+      "gun": ".50 GS",
+      "attachment": "SA Brake Barrel",
+      "slot": "Barrel",
+      "blocks": "Muzzle",
+      "tooltip": "Unlock by removing the SA Brake Barrel and the SA Comp Barrel"
+    },
+    {
+      "id": 47,
+      "gun": ".50 GS",
+      "attachment": "SA Comp Barrel",
+      "slot": "Barrel",
+      "blocks": "Muzzle",
+      "tooltip": "Unlock by removing the SA Brake Barrel and the SA Comp Barrel"
+    }
+  ]
 }

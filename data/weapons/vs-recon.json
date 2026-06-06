@@ -3,89 +3,461 @@
   "name": "VS Recon",
   "class": "Sniper",
   "game": "bo7",
+  "weapon_type": "SR",
   "in_warzone": true,
-  "source": "truegamedata",
+  "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
-  "base_note": "Stats-Panel nach Reload collapsed → Base-Werte nicht gelesen; Slots/Deltas komplett. Base nachtragen (codmunity/wzhub: VS Recon = One-Shot-Bolt-Sniper).",
-  "base": {},
+  "base": {
+    "rpm": 43,
+    "mag": 6,
+    "reload_s": 3.12,
+    "ads_ms": 590,
+    "sprint_to_fire_ms": 260,
+    "velocity_ms": 745,
+    "move_speed": 4.6,
+    "crouch_move_speed": 2.1,
+    "ads_move_speed": 1.9,
+    "sprint_speed": 7.1,
+    "gun_kick": 35.35,
+    "vert_recoil": 75.72,
+    "horiz_recoil": 38.4,
+    "idle_sway": 1,
+    "hipfire_max": 18,
+    "flinch_resistance": 0.7
+  },
+  "damage": [
+    {
+      "head": 360,
+      "neck": 207,
+      "chest": 207,
+      "stomach": 207,
+      "upperleg": 180,
+      "lowerleg": 180,
+      "upperarm": 207,
+      "lowerarm": 207,
+      "dropoff": 0,
+      "base_rpm": 43,
+      "final_rpm": 43,
+      "rpm_mod": 1
+    },
+    {
+      "head": "",
+      "neck": "",
+      "chest": "",
+      "stomach": "",
+      "upperleg": "",
+      "lowerleg": "",
+      "upperarm": "",
+      "lowerarm": "",
+      "dropoff": 89,
+      "base_rpm": 43,
+      "final_rpm": 43,
+      "rpm_mod": 1
+    }
+  ],
   "slots": {
     "BARREL": [
-      "24.9\" Domain Barrel :: +14% Bullet Velocity | -5.1% ADS Time",
-      "23\" 0-Force Barrel :: +27% Bullet Velocity",
-      "21\" Engage-R Barrel :: -11.9% ADS Time",
-      "17\" RistRauch Nimbus Barrel :: -1.7% ADS Time | -7.7% Sprint to Fire",
-      "19.3\" Tack Driver Barrel :: +15% Bullet Velocity | -15% Idle Sway | -20% Flinch"
+      {
+        "name": "24.9\" Domain Barrel",
+        "mods": {
+          "ads_mod": 0.949,
+          "bv_mod": 1.14
+        }
+      },
+      {
+        "name": "23\" 0-Force Barrel",
+        "mods": {
+          "bv_mod": 1.27
+        }
+      },
+      {
+        "name": "21\" Engage-R Barrel",
+        "mods": {
+          "ads_mod": 0.881
+        }
+      },
+      {
+        "name": "17\" RistRauch Nimbus Barrel",
+        "mods": {
+          "ads_mod": 0.983,
+          "stf_mod": 0.923
+        }
+      },
+      {
+        "name": "19.3\" Tack Driver Barrel",
+        "mods": {
+          "idle_sway_mod": 0.85,
+          "bv_mod": 1.15,
+          "flinch_resistance_mod": 0.8
+        }
+      }
     ],
-    "FIRE_MODS": [
-      "Light Bolt :: -15% Bullet Velocity | +27.9% Fire Rate | +20% Gun Kick | +20% Horiz. Recoil | +20% Vert. Recoil",
-      "7.62 NATO Overpressured :: +15% Bullet Velocity",
-      "Accelerated Recoil System :: -10% Gun Kick | -10% Horiz. Recoil | -10% Vert. Recoil",
-      "7.62 NATO FMJ"
+    "FIRE MODS": [
+      {
+        "name": "Light Bolt",
+        "mods": {
+          "gun_kick_mod": 1.2,
+          "vert_recoil_mod": 1.2,
+          "horiz_recoil_mod": 1.2,
+          "bv_mod": 0.85,
+          "rpm_mod": 1.279
+        }
+      },
+      {
+        "name": "7.62 NATO Overpressured",
+        "mods": {
+          "bv_mod": 1.15
+        }
+      },
+      {
+        "name": "Accelerated Recoil System",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "7.62 NATO FMJ"
+      }
     ],
     "LASER": [
-      "Convergence Box Laser :: -15% Max Hipfire Area",
-      "1mW Adaptive Tactical Laser",
-      "1mW Instinct Laser Array :: -3.2% ADS Time | -7.7% Sprint to Fire",
-      "1mW Motion Strike Laser",
-      "5mW Lockstep Laser"
+      {
+        "name": "Convergence Box Laser",
+        "mods": {
+          "hipfire_max_mod": 0.85
+        }
+      },
+      {
+        "name": "Adaptive Tactical Laser"
+      },
+      {
+        "name": "1mW Instinct Laser Array",
+        "mods": {
+          "ads_mod": 0.968,
+          "stf_mod": 0.923
+        }
+      },
+      {
+        "name": "1mW Motion Strike Laser"
+      },
+      {
+        "name": "5mW Lockstep Laser"
+      }
     ],
     "MAGAZINE": [
-      "Wyvern Extend-Z Mag :: +3.4% ADS Time | +7.7% Sprint to Fire",
-      "VS-R Extended II :: +5.1% ADS Time | +20.2% Reload Time | +11.5% Sprint to Fire",
-      "DashLine Speed Mag :: -3.4% ADS Time | -12.5% Reload Time | -5.8% Sprint to Fire"
+      {
+        "name": "Wyvern Extend-Z Mag",
+        "mods": {
+          "ads_mod": 1.034,
+          "stf_mod": 1.077
+        }
+      },
+      {
+        "name": "VS-R Extended II",
+        "mods": {
+          "ads_mod": 1.051,
+          "stf_mod": 1.115,
+          "reload_mod": 1.202
+        }
+      },
+      {
+        "name": "DashLine Speed Mag",
+        "mods": {
+          "ads_mod": 0.966,
+          "stf_mod": 0.942,
+          "reload_mod": 0.875
+        }
+      }
     ],
     "MUZZLE": [
-      "Greaves A-762",
-      "RL-7.62 Compensator :: -14.3% Gun Kick | -15.5% Vert. Recoil",
-      "VS-762 Brake :: -8.6% Gun Kick | -8.9% Vert. Recoil",
-      "Titan-R 7.62 Compensator :: -25% Max Hipfire Area",
-      "Monolithic Suppressor :: +7.9% Range | +20% Bullet Velocity | +9.3% ADS Time"
+      {
+        "name": "Greaves A-762"
+      },
+      {
+        "name": "RL-7.62 Compensator",
+        "mods": {
+          "gun_kick_mod": 0.857,
+          "vert_recoil_mod": 0.845
+        }
+      },
+      {
+        "name": "VS-762 Brake",
+        "mods": {
+          "gun_kick_mod": 0.914,
+          "vert_recoil_mod": 0.911
+        }
+      },
+      {
+        "name": "Titan-R 7.62 Compensator",
+        "mods": {
+          "hipfire_max_mod": 0.75
+        }
+      },
+      {
+        "name": "Monolithic Suppressor",
+        "mods": {
+          "ads_mod": 1.093,
+          "range_mod": 1.079,
+          "bv_mod": 1.2
+        }
+      }
     ],
     "OPTIC": [
-      "Iron Sight :: -30% Idle Sway | -2.5% ADS Time",
-      "Lethal Tools ELO :: -3.4% ADS Time",
-      "VAS LED :: -3.4% ADS Time",
-      "Greaves Red Dot :: -3.4% ADS Time",
-      "PrismaTech Digital Holo :: -2.5% ADS Time",
-      "EMT3 Holo Mk.2 :: -2.5% ADS Time",
-      "Kepler T-Range Holo :: -30% Gun Kick | -2.5% ADS Time",
-      "Solaris Holo-IR",
-      "EAM Dyad xL :: -50% Gun Kick",
-      "LTI Target Finder VZ :: -15.8% ADS Move. | +8.5% ADS Time | +9.6% Sprint to Fire",
-      "Millimeter Scanner :: +10% Gun Kick | +5.1% ADS Time | +9.6% Sprint to Fire",
-      "Redwell 30-5 2x :: -31.4% Gun Kick",
-      "Greaves Accuspot 3x",
-      "Kepler Ultra 4x",
-      "PrismaTech Turbo 4x",
-      "VAS Duo Hybrid Sight :: -50% Gun Kick",
-      "Bowen X-25 IR :: -50% Gun Kick | +1.7% ADS Time",
-      "EAM Dual Zoom :: -50% Gun Kick",
-      "Greaves Ultra Zoom :: -50% Gun Kick | +2.5% ADS Time",
-      "Kepler Custom WVT-08 :: -50% Gun Kick | +3.4% ADS Time",
-      "Circuit-Z Rangefinder :: -50% Gun Kick | +8.5% ADS Time",
-      "RistRauch 7x :: -50% Gun Kick",
-      "VAS Strix 6x Thermal :: +5.1% ADS Time"
+      {
+        "name": "Iron Sight",
+        "mods": {
+          "ads_mod": 0.975,
+          "idle_sway_mod": 0.7
+        }
+      },
+      {
+        "name": "Lethal Tools ELO",
+        "mods": {
+          "ads_mod": 0.966
+        }
+      },
+      {
+        "name": "VAS LED",
+        "mods": {
+          "ads_mod": 0.966
+        }
+      },
+      {
+        "name": "Greaves Red Dot",
+        "mods": {
+          "ads_mod": 0.966
+        }
+      },
+      {
+        "name": "PrismaTech Digital Holo",
+        "mods": {
+          "ads_mod": 0.975
+        }
+      },
+      {
+        "name": "EMT3 Holo Mk.2",
+        "mods": {
+          "ads_mod": 0.975
+        }
+      },
+      {
+        "name": "Kepler T-Range Holo",
+        "mods": {
+          "ads_mod": 0.975,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "Solaris Holo-IR"
+      },
+      {
+        "name": "EAM Dyad xL",
+        "mods": {
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "LTI Target Finder VZ",
+        "mods": {
+          "ads_mod": 1.085,
+          "ads_movement_mod": 0.842,
+          "stf_mod": 1.096
+        }
+      },
+      {
+        "name": "Millimeter Scanner",
+        "mods": {
+          "ads_mod": 1.051,
+          "gun_kick_mod": 1.1,
+          "stf_mod": 1.096
+        }
+      },
+      {
+        "name": "Redwell 30-5 2x",
+        "mods": {
+          "gun_kick_mod": 0.686
+        }
+      },
+      {
+        "name": "Greaves Accuspot 3x"
+      },
+      {
+        "name": "Kepler Ultra 4x"
+      },
+      {
+        "name": "PrismaTech Turbo 4x"
+      },
+      {
+        "name": "VAS Duo Hybrid Sight",
+        "mods": {
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Bowen X-25 IR",
+        "mods": {
+          "ads_mod": 1.017,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "EAM Dual Zoom",
+        "mods": {
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Greaves Ultra Zoom",
+        "mods": {
+          "ads_mod": 1.025,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Kepler Custom WVT-08",
+        "mods": {
+          "ads_mod": 1.034,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Circuit-Z Rangefinder",
+        "mods": {
+          "ads_mod": 1.085,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "RistRauch 7x",
+        "mods": {
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "VAS Strix 6x Thermal",
+        "mods": {
+          "ads_mod": 1.051
+        }
+      }
     ],
     "REAR GRIP": [
-      "R-1 Shelf Grip :: +20% Flinch | -7.6% ADS Time",
-      "R-2-Laufen Grip :: -23.1% Sprint to Fire",
-      "VS Poise Grip :: -0.1% Gun Kick | -8% Horiz. Recoil | -20% Flinch",
-      "Kinesis Grip :: +10% Flinch | -3.7% ADS Time",
-      "Skeletal Grip :: -11.9% Gun Kick | -12% Vert. Recoil"
+      {
+        "name": "R-1 Shelf Grip",
+        "mods": {
+          "ads_mod": 0.924,
+          "flinch_resistance_mod": 1.2
+        }
+      },
+      {
+        "name": "R-2-Laufen Grip",
+        "mods": {
+          "stf_mod": 0.769
+        }
+      },
+      {
+        "name": "VS Poise Grip",
+        "mods": {
+          "gun_kick_mod": 0.999,
+          "horiz_recoil_mod": 0.92,
+          "flinch_resistance_mod": 0.8
+        }
+      },
+      {
+        "name": "Kinesis Grip",
+        "mods": {
+          "ads_mod": 0.963,
+          "flinch_resistance_mod": 1.1
+        }
+      },
+      {
+        "name": "Skeletal Grip",
+        "mods": {
+          "gun_kick_mod": 0.881,
+          "vert_recoil_mod": 0.88
+        }
+      }
     ],
     "STOCK": [
-      "Contra Light Pad :: +15.2% Move. Speed | +33.3% Crouch Speed | +4.2% Sprint Speed",
-      "RistRauch Breach Pad :: +31.6% ADS Move.",
-      "Stabil Heavy Pad :: -25.7% Flinch",
-      "Stronghold Stock Pad :: -15% Max Hipfire Area",
-      "Outpost Raider Pad :: -11.4% Flinch | +15.8% ADS Move."
+      {
+        "name": "Contra Light Pad",
+        "mods": {
+          "crouch_movement_mod": 1.333,
+          "movement_mod": 1.152,
+          "sprint_mod": 1.042
+        }
+      },
+      {
+        "name": "RistRauch Breach Pad",
+        "mods": {
+          "ads_movement_mod": 1.316
+        }
+      },
+      {
+        "name": "Stabil Heavy Pad",
+        "mods": {
+          "flinch_resistance_mod": 0.743
+        }
+      },
+      {
+        "name": "Stronghold Stock Pad",
+        "mods": {
+          "hipfire_max_mod": 0.85
+        }
+      },
+      {
+        "name": "Outpost Raider Pad",
+        "mods": {
+          "ads_movement_mod": 1.158,
+          "flinch_resistance_mod": 0.886
+        }
+      }
     ],
     "UNDERBARREL": [
-      "MFS R-Stop Handguard :: -51.4% Gun Kick | -50% Horiz. Recoil | -51.1% Vert. Recoil | -35.7% Flinch | -2.5% ADS Time | -7.7% Sprint to Fire",
-      "AxisPro Handguard :: -0.2% Gun Kick | -25% Horiz. Recoil",
-      "Stetig-C Handguard :: -0.1% Gun Kick | -15% Horiz. Recoil | -40% Idle Sway",
-      "Kinetic Lock Handguard :: +8.7% Move. Speed | +9.5% Crouch Speed | +15.8% ADS Move.",
-      "Breacher Handguard :: -0.1% Gun Kick | -15% Horiz. Recoil | +8.7% Move. Speed | +9.5% Crouch Speed | +4.2% Sprint Speed"
+      {
+        "name": "MFS R-Stop Handguard",
+        "mods": {
+          "ads_mod": 0.975,
+          "gun_kick_mod": 0.486,
+          "vert_recoil_mod": 0.489,
+          "horiz_recoil_mod": 0.5,
+          "stf_mod": 0.923,
+          "flinch_resistance_mod": 0.643
+        }
+      },
+      {
+        "name": "AxisPro Handguard",
+        "mods": {
+          "gun_kick_mod": 0.998,
+          "horiz_recoil_mod": 0.75
+        }
+      },
+      {
+        "name": "Stetig-C Handguard",
+        "mods": {
+          "gun_kick_mod": 0.999,
+          "horiz_recoil_mod": 0.85,
+          "idle_sway_mod": 0.6
+        }
+      },
+      {
+        "name": "Kinetic Lock Handguard",
+        "mods": {
+          "ads_movement_mod": 1.158,
+          "crouch_movement_mod": 1.095,
+          "movement_mod": 1.087
+        }
+      },
+      {
+        "name": "Breacher Handguard",
+        "mods": {
+          "gun_kick_mod": 0.999,
+          "horiz_recoil_mod": 0.85,
+          "crouch_movement_mod": 1.095,
+          "movement_mod": 1.087,
+          "sprint_mod": 1.042
+        }
+      }
     ]
   }
 }

@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Marco-Satis/cod-weapon-db/schema/weapon.v2.schema.json",
+  "title": "CoD Weapon (v2, full-stat from TGD API)",
+  "type": "object",
+  "required": ["id", "name", "class", "game", "in_warzone", "source", "data_version", "base", "slots"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+    "name": {"type": "string", "minLength": 1},
+    "name_de": {"type": "string"},
+    "class": {"type": "string", "minLength": 1},
+    "weapon_type": {"type": "string", "enum": ["AR", "SMG", "BR", "LMG", "MR", "SR", "Pistols", "SG", "Melee", "Special", "Launcher"]},
+    "game": {"type": "string", "enum": ["mw2", "mw3", "mw2019", "mw2019_mw3", "bo6", "bo7", "warzone", "unknown"]},
+    "in_warzone": {"type": "boolean"},
+    "source": {"type": "string"},
+    "data_version": {"type": "string"},
+    "unlock_level": {"type": ["number", "string"]},
+    "note": {"type": "string"},
+    "not_buildable": {"type": "boolean"},
+    "fire_modes": {"type": ["object", "array", "string"]},
+    "base": {
+      "type": "object",
+      "description": "Numerische Base-Stats (Feld-Set variiert je Waffe). Rohwerte aus TGD.",
+      "additionalProperties": {"type": ["number", "string"]}
+    },
+    "damage": {
+      "type": "array",
+      "description": "Schadenstabelle pro Range-Stufe (Körperzonen + dropoff + rpm).",
+      "items": {"type": "object", "additionalProperties": {"type": ["number", "string"]}}
+    },
+    "slots": {
+      "type": "object",
+      "description": "Slot -> Liste Attachments mit strukturierten Stat-Multiplikatoren.",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["name"],
+          "additionalProperties": false,
+          "properties": {
+            "name": {"type": "string", "minLength": 1},
+            "mods": {
+              "type": "object",
+              "additionalProperties": {"type": ["number", "string"]}
+            }
+          }
+        }
+      }
+    },
+    "blocking": {"type": "array"},
+    "meta_build": {
+      "type": "array",
+      "description": "Empfohlene Meta-Builds aus Sekundaerquellen (nur Namen, keine Stat-Mods) fuer Waffen ohne TGD-Builder-Daten. Klar getrennt von 'slots' (= voller Attachment-Pool mit Multiplikatoren).",
+      "items": {
+        "type": "object",
+        "required": ["attachments"],
+        "additionalProperties": false,
+        "properties": {
+          "label": {"type": "string"},
+          "source": {"type": "string"},
+          "confidence": {"type": "string", "enum": ["bestaetigt", "wahrscheinlich", "unsicher"]},
+          "attachments": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["slot", "attachment"],
+              "additionalProperties": false,
+              "properties": {
+                "slot": {"type": "string"},
+                "attachment": {"type": "string"}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

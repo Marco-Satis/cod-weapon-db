@@ -3,49 +3,480 @@
   "name": "RK-9",
   "class": "Pistol",
   "game": "bo7",
+  "weapon_type": "SMG",
   "in_warzone": true,
-  "source": "truegamedata",
+  "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
   "note": "Off-Meta BO7 Pistol (9mm Parabellum, 570 RPM, 30-round, 0x). BO7-branded Attachments (Bowen/Hawker/Mercurial/Blackstar/Alliance/Silverline). Black-Ops-Layout: OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER universell. Weapon-spez: MUZZLE/BARREL/MAGAZINE/FIRE MODS. Klasse inferiert. Freeze beim 1. Extract -> Reload ?r=8 + Split-Extraktion clean.",
-  "extraction": "weapon-specific-only-BO-editorbound-split",
   "base": {
     "rpm": 570,
     "mag": 30,
-    "reload_s": 2.29,
+    "reload_s": 2.293,
     "ads_ms": 165,
-    "velocity_ms": 620,
-    "move_ms": 5.2,
     "sprint_to_fire_ms": 120,
-    "sprint_ms": 7.6,
-    "zoom_x": 0
+    "velocity_ms": 620,
+    "move_speed": 5.2,
+    "crouch_move_speed": 2.7,
+    "ads_move_speed": 3.6,
+    "sprint_speed": 7.6,
+    "gun_kick": 52.65,
+    "vert_recoil": 49.82,
+    "horiz_recoil": 25.53,
+    "idle_sway": 0.39,
+    "hipfire_max": 7.25,
+    "flinch_resistance": 0.12
   },
+  "damage": [
+    {
+      "head": 56,
+      "neck": 47,
+      "chest": 47,
+      "stomach": 47,
+      "upperleg": 47,
+      "lowerleg": 47,
+      "upperarm": 47,
+      "lowerarm": 47,
+      "dropoff": 0,
+      "base_rpm": 570,
+      "final_rpm": 570,
+      "rpm_mod": 1
+    },
+    {
+      "head": 48,
+      "neck": 40,
+      "chest": 40,
+      "stomach": 40,
+      "upperleg": 40,
+      "lowerleg": 40,
+      "upperarm": 40,
+      "lowerarm": 40,
+      "dropoff": 16.5,
+      "base_rpm": 570,
+      "final_rpm": 570,
+      "rpm_mod": 1
+    },
+    {
+      "head": 38,
+      "neck": 32,
+      "chest": 32,
+      "stomach": 32,
+      "upperleg": 32,
+      "lowerleg": 32,
+      "upperarm": 32,
+      "lowerarm": 32,
+      "dropoff": 25,
+      "base_rpm": 570,
+      "final_rpm": 570,
+      "rpm_mod": 1
+    }
+  ],
   "slots": {
     "BARREL": [
-      "13.6\" Mercurial Barrel :: +15.9% Range",
-      "12.47\" VAS Tethys Barrel :: -5.6% ADS Move.",
-      "9.9\" Bowen Cerium Barrel :: +6.9% Range",
-      "8.7\" EAM Hollow Barrel :: -20% Max Hipfire Area",
-      "11.3\" Blackstar Barrel :: +22% Range"
+      {
+        "name": "13.6\" Mercurial Barrel",
+        "mods": {
+          "ads_mod": 1.091,
+          "range_mod": 1.159
+        }
+      },
+      {
+        "name": "12.47\" VAS Tethys Barrel",
+        "mods": {
+          "ads_mod": 0.903,
+          "ads_movement_mod": 0.944
+        }
+      },
+      {
+        "name": "9.9\" Bowen Cerium Barrel",
+        "mods": {
+          "ads_mod": 1.061,
+          "range_mod": 1.069,
+          "bv_mod": 1.08
+        }
+      },
+      {
+        "name": "8.7\" EAM Hollow Barrel",
+        "mods": {
+          "ads_mod": 0.788,
+          "hipfire_max_mod": 0.8,
+          "stf_mod": 0.625,
+          "movement_mod": 1.058,
+          "sprint_mod": 1.026
+        }
+      },
+      {
+        "name": "11.3\" Blackstar Barrel",
+        "mods": {
+          "ads_movement_mod": 0.944,
+          "range_mod": 1.22,
+          "stf_mod": 1.042,
+          "bv_mod": 1.12,
+          "movement_mod": 0.962,
+          "sprint_mod": 0.961
+        }
+      }
     ],
     "FIRE MODS": [
-      "Enhanced Cycle System :: -9.9% Range",
-      "9mm Parabellum Overpressured :: +20% Bullet Velocity",
-      "Accelerated Recoil System :: -10% Gun Kick",
-      "9mm Parabellum FMJ"
+      {
+        "name": "Enhanced Cycle System",
+        "mods": {
+          "gun_kick_mod": 1.1,
+          "vert_recoil_mod": 1.1,
+          "horiz_recoil_mod": 1.12,
+          "range_mod": 0.901,
+          "bv_mod": 0.9,
+          "rpm_mod": 1.039
+        }
+      },
+      {
+        "name": "9mm Parabellum Overpressured",
+        "mods": {
+          "bv_mod": 1.2
+        }
+      },
+      {
+        "name": "Accelerated Recoil System",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "9mm Parabellum FMJ"
+      }
+    ],
+    "LASER": [
+      {
+        "name": "EAM ScatterLine Laser",
+        "mods": {
+          "hipfire_max_mod": 0.85
+        }
+      },
+      {
+        "name": "Redwell Tactical Laser"
+      },
+      {
+        "name": "LTI SwiftPoint Laser",
+        "mods": {
+          "ads_mod": 0.909,
+          "stf_mod": 0.833
+        }
+      },
+      {
+        "name": "EMT3 Agile Laser"
+      },
+      {
+        "name": "VAS Precision Shift Laser"
+      }
     ],
     "MAGAZINE": [
-      "Alliance Extended Mag",
-      "Silverline Flip Mag :: -27.9% Reload Time",
-      "Ascot Drum Mag :: -3.8% Move. Speed",
-      "Compact Void Mag :: -6.1% ADS Time"
+      {
+        "name": "Alliance Extended Mag"
+      },
+      {
+        "name": "Silverline Flip Mag",
+        "mods": {
+          "reload_mod": 0.721
+        }
+      },
+      {
+        "name": "Ascot Drum Mag",
+        "mods": {
+          "ads_mod": 1.121,
+          "ads_movement_mod": 0.944,
+          "stf_mod": 1.167,
+          "movement_mod": 0.962,
+          "sprint_mod": 0.987,
+          "reload_mod": 1.116
+        }
+      },
+      {
+        "name": "Compact Void Mag",
+        "mods": {
+          "ads_mod": 0.939,
+          "stf_mod": 0.917,
+          "reload_mod": 0.581
+        }
+      }
     ],
     "MUZZLE": [
-      "Bowen .45 Suppressor",
-      "Hawker Series 45 :: -17.6% Gun Kick",
-      "Hawker Stabilizer MKII :: -4.9% Gun Kick",
-      "Hawker Hybrid .45 :: -22.3% Max Hipfire Area",
-      "Monolithic Suppressor :: +6.9% Range"
+      {
+        "name": "Bowen .45 Suppressor"
+      },
+      {
+        "name": "Hawker Series 45",
+        "mods": {
+          "gun_kick_mod": 0.824,
+          "vert_recoil_mod": 0.82
+        }
+      },
+      {
+        "name": "Hawker Stabilizer MKII",
+        "mods": {
+          "gun_kick_mod": 0.951,
+          "vert_recoil_mod": 0.95
+        }
+      },
+      {
+        "name": "Hawker Hybrid .45",
+        "mods": {
+          "hipfire_max_mod": 0.777
+        }
+      },
+      {
+        "name": "Monolithic Suppressor",
+        "mods": {
+          "ads_mod": 1.333,
+          "range_mod": 1.069,
+          "bv_mod": 1.2
+        }
+      }
+    ],
+    "OPTIC": [
+      {
+        "name": "LTI Mini"
+      },
+      {
+        "name": "VAS MicroFlex"
+      },
+      {
+        "name": "Lethal Tools ELO"
+      },
+      {
+        "name": "EAM Micro Dot"
+      },
+      {
+        "name": "VAS LED"
+      },
+      {
+        "name": "LTI Reflex"
+      },
+      {
+        "name": "Greaves Red Dot"
+      },
+      {
+        "name": "KES Slim Reflex"
+      },
+      {
+        "name": "EAM xL Reflex"
+      },
+      {
+        "name": "PrismaTech Digital Holo"
+      },
+      {
+        "name": "EMT3 Holo Mk.2"
+      },
+      {
+        "name": "Kepler T-Range Holo",
+        "mods": {
+          "ads_mod": 1.091,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "Solaris Holo-IR",
+        "mods": {
+          "gun_kick_mod": 0.75
+        }
+      },
+      {
+        "name": "EAM Dyad xL",
+        "mods": {
+          "ads_mod": 1.091,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "LTI Target Finder VZ",
+        "mods": {
+          "ads_mod": 1.303,
+          "ads_movement_mod": 0.889,
+          "stf_mod": 1.208
+        }
+      },
+      {
+        "name": "Millimeter Scanner",
+        "mods": {
+          "ads_mod": 1.182,
+          "gun_kick_mod": 1.1,
+          "stf_mod": 1.208
+        }
+      },
+      {
+        "name": "Redwell 30-5 2x",
+        "mods": {
+          "ads_mod": 1.051,
+          "gun_kick_mod": 0.69
+        }
+      },
+      {
+        "name": "Greaves Accuspot 3x",
+        "mods": {
+          "ads_mod": 1.091,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "Kepler Ultra 4x",
+        "mods": {
+          "ads_mod": 1.121,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "PrismaTech Turbo 4x",
+        "mods": {
+          "ads_mod": 1.121,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "VAS Duo Hybrid Sight",
+        "mods": {
+          "ads_mod": 1.091,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Bowen X-25 IR",
+        "mods": {
+          "ads_mod": 1.079,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "EAM Dual Zoom",
+        "mods": {
+          "ads_mod": 1.152,
+          "gun_kick_mod": 0.5
+        }
+      }
+    ],
+    "REAR GRIP": [
+      {
+        "name": "Lotus Draw Grip",
+        "mods": {
+          "ads_mod": 0.606
+        }
+      },
+      {
+        "name": "606-T Skeleton Grip",
+        "mods": {
+          "stf_mod": 0.65
+        }
+      },
+      {
+        "name": "Vega Precision Grip",
+        "mods": {
+          "ads_mod": 1.091,
+          "gun_kick_mod": 0.998,
+          "horiz_recoil_mod": 0.88
+        }
+      },
+      {
+        "name": "Raft Ready Grip",
+        "mods": {
+          "ads_mod": 0.788
+        }
+      },
+      {
+        "name": "Nanopulse Grip",
+        "mods": {
+          "gun_kick_mod": 0.883,
+          "vert_recoil_mod": 0.88
+        }
+      }
+    ],
+    "STOCK": [
+      {
+        "name": "Nightfall Rapid Stock",
+        "mods": {
+          "crouch_movement_mod": 1.296,
+          "movement_mod": 1.173,
+          "sprint_mod": 1.039
+        }
+      },
+      {
+        "name": "Lontra Step Stock",
+        "mods": {
+          "ads_mod": 0.836,
+          "ads_movement_mod": 1.222,
+          "flinch_resistance_mod": 1.083
+        }
+      },
+      {
+        "name": "VAS Conduit Stock",
+        "mods": {
+          "ads_mod": 1.182,
+          "gun_kick_mod": 0.88,
+          "vert_recoil_mod": 0.88,
+          "horiz_recoil_mod": 0.88,
+          "ads_movement_mod": 0.889
+        }
+      },
+      {
+        "name": "Vectra Tactical Stock",
+        "mods": {
+          "ads_mod": 0.897,
+          "hipfire_max_mod": 0.85,
+          "stf_mod": 0.883
+        }
+      },
+      {
+        "name": "VQ-45 Harpy Stock",
+        "mods": {
+          "ads_mod": 1.121,
+          "gun_kick_mod": 0.95,
+          "vert_recoil_mod": 0.95,
+          "horiz_recoil_mod": 0.95,
+          "flinch_resistance_mod": 0.75
+        }
+      }
+    ],
+    "UNDERBARREL": [
+      {
+        "name": "MFS Ironlung Handstop",
+        "mods": {
+          "gun_kick_mod": 0.793,
+          "vert_recoil_mod": 0.805,
+          "horiz_recoil_mod": 0.786,
+          "rpm_mod": 1.275
+        }
+      },
+      {
+        "name": "Lateral Precision Grip",
+        "mods": {
+          "gun_kick_mod": 0.996,
+          "horiz_recoil_mod": 0.8
+        }
+      },
+      {
+        "name": "Zero Shift Handstop",
+        "mods": {
+          "gun_kick_mod": 0.996,
+          "horiz_recoil_mod": 0.8,
+          "idle_sway_mod": 0.487
+        }
+      },
+      {
+        "name": "Quickstep Foregrip",
+        "mods": {
+          "ads_movement_mod": 1.111,
+          "crouch_movement_mod": 1.074,
+          "movement_mod": 1.077
+        }
+      },
+      {
+        "name": "Envoy Foregrip",
+        "mods": {
+          "gun_kick_mod": 0.998,
+          "horiz_recoil_mod": 0.9,
+          "crouch_movement_mod": 1.074,
+          "movement_mod": 1.077,
+          "sprint_mod": 1.026
+        }
+      }
     ]
-  },
-  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO7-Pool"
+  }
 }
