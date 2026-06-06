@@ -6,51 +6,117 @@
   "source_caveat": "Eigennamen verbatim Englisch. S4-Neuzuegae (Guardian-Track, Death Machine, Psych Grenade, Operator-Prestige) stammen aus dotesports-WebSearch-Snippets, NICHT direkt gefetchtem Volltext -> [LÜCKE 1], Snippet-Paraphrasen, mit Vorsicht. bo7endgame.com-Wiki zeigt Pre-S4-Stand (9 Tracks, 10 Major, 8 Minor).",
   "loadout_rule": "Vor jedem Endgame-Match: Waffen + Field Equipment + 2 Abilities waehlbar — 1 Minor + 1 Major. (dotesports, bo7endgame.com)",
   "skill_tracks": {
-    "slots_note": "Standard 3 Skill Tracks gleichzeitig (Rerolling moeglich). Mit Prestige 3 ein vierter equipbar.",
+    "slots_note": "9 Tracks, je 6 Skills (progressiv per Combat-Rating freigeschaltet). Man waehlt 3 Tracks (bei CR 1, 6, 16); Reroll moeglich. Prestige 3 = 4. Track equipbar. Quellen: destructoid + steamcommunity-Guide 3616441372 + dexerto (Skills verbatim 2026-06-06).",
+    "skills_per_track": 6,
+    "guardian_correction": "FRUEHER falsch als 10. Track gefuehrt (dotesports-Snippet). steamcommunity-Guide: 'Guardian' = Gegner-Archetyp, KEIN Skill-Track. Authoritative 9-Track-Liste enthaelt kein Guardian. -> entfernt.",
     "base": [
       {
         "track": "Gunner",
-        "focus": "Master your weapons, reload faster, aim sharper and electrify enemies."
+        "focus": "Waffen-Mastery: Reload, Swap, Aim, electrify.",
+        "skills": [
+          "Reload Speed",
+          "Fast Replate",
+          "Fast Weapon Swap",
+          "Ammo Auto-Refill",
+          "Aiming Expert (Accuracy + Fire-Speed in Bewegung)",
+          "Shocking Reload (Reload = Elektro-Discharge, Dmg+Stun)"
+        ]
       },
       {
         "track": "Surgeon",
-        "focus": "Stay alive and keep others fighting, heal fast, revive quicker, and fight back from the brink."
+        "focus": "Heal/Revive/Last-Stand.",
+        "skills": [
+          "Healthy Recovery",
+          "Last Stand Fighter",
+          "Agile Handling (Fire while sprinting)",
+          "Heal Faster",
+          "Fast Revive (+Move +Full-HP)",
+          "Off the Floor (Kill in Last-Stand = Self-Revive)"
+        ]
       },
       {
         "track": "Daredevil",
-        "focus": "Fly, slide and dive into chaos, your movement is a weapon and the ground hits back."
+        "focus": "Mobility-als-Waffe.",
+        "skills": [
+          "Dive Bomber (Dive = Concussive Blast)",
+          "Wingsuit Glider",
+          "Thick Skin (-Melee-Dmg)",
+          "Super Slider",
+          "Reload and Run (Speed nach Reload)",
+          "Slide Explosions (Slide/Dive = Explosion)"
+        ]
       },
       {
         "track": "Tactician",
-        "focus": "Master of the battlefield, boost your gear, outsmart your enemy, and control the flow of combat."
+        "focus": "Equipment-Optimierung.",
+        "skills": [
+          "Equipment Hound (+Equip-Ammo)",
+          "Quick Deploy",
+          "Hit and Run (Speed nach Equip-Kill)",
+          "Recharger (schnellere Ability/Equip-Recharge)",
+          "Quick Rounds Back",
+          "Pinata (Kill-Chance spawnt Live-Equipment)"
+        ]
       },
       {
         "track": "Berserker",
-        "focus": "Charge into battle, deal devastating damage, and regenerate through sheer aggression."
+        "focus": "Aggro-Damage + Regen-durch-Kills.",
+        "skills": [
+          "Fast Weapon Fire (+Feuerrate) [DMG]",
+          "Kills Regen Armor",
+          "Crit Chain Speed Boost",
+          "Endurance Sprinter (Reload im Sprint)",
+          "Fall Damage Reduction",
+          "Fall Explosions"
+        ]
       },
       {
         "track": "Bulldozer",
-        "focus": "Tank hits, shake off damage, and power through enemies with raw force and armor."
+        "focus": "Tank; 2 konditionale Dmg-Nodes.",
+        "skills": [
+          "Armor Regen",
+          "Point Blank (+Dmg Nahdistanz) [DMG]",
+          "Adrenaline Rush (+Dmg bei low HP) [DMG]",
+          "Revival Protection",
+          "Explosive Resistance",
+          "Tackle"
+        ]
       },
       {
         "track": "Phantom",
-        "focus": "Strike unseen and vanish fast, slip past danger, land critical blows from the shadows."
+        "focus": "Stealth + Positional-Crit.",
+        "skills": [
+          "Elusive Target (-Gegner-Accuracy)",
+          "Fast Melee (+66%)",
+          "Trap Avoidance",
+          "Silent Movement",
+          "Ambush (+50% Dmg von hinten, +100% Crit-Dmg von hinten auf Full-HP) [DMG]",
+          "Decoy (Echo-Unit bei Schaden)"
+        ]
       },
       {
         "track": "Eagle Eye",
-        "focus": "Sharpen focus for deadly precision, amplify critical hits, and make every shot count."
+        "focus": "DER Damage-Track: Crit-Amp.",
+        "skills": [
+          "Increased Crit Damage (+25% Crit-Dmg) [DMG]",
+          "Big Hit (+100% Crit-Dmg auf Full-HP-Gegner) [DMG]",
+          "Last Shots Plus (+100% Dmg bei <10% Mag) [DMG]",
+          "Rampage (rapid Kills = temp +Waffen-Dmg) [DMG]",
+          "Aim Faster (-15% ADS)",
+          "Armor Breaker (bricht Armor + AoE + Stun)"
+        ]
       },
       {
         "track": "Warband",
-        "focus": "Summon powerful allies and turn the tide of battle by amplifying their impact on the battle ground."
-      }
-    ],
-    "s4_addition": [
-      {
-        "track": "Guardian",
-        "focus": "Fokus auf Damage-Resistance + Supplies. Tank-Tree: mehr Schaden absorbieren, Teil reflektieren; ein Skill revived automatisch einen Teammate der nahe faellt.",
-        "source": "dotesports-Snippet",
-        "todo": true
+        "focus": "Summon-Allies + Dmg-Multiplikator.",
+        "skills": [
+          "Plague (Kills explodieren + konvertieren Gegner)",
+          "Bloodrunner (bis +30% Dmg aus rapid Multi-Kills, 8s) [DMG]",
+          "Smuggler",
+          "Healthhounds",
+          "Wirehand (Kills spawnen Angriffs-Drohnen)",
+          "Steelhand"
+        ]
       }
     ]
   },
