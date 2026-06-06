@@ -277,7 +277,8 @@
   },
   "nightmare_skills": {
     "acquire": "Nach Eliminierung eines Guild Strike Boss -> Glitch Fracture clearen -> zufaelliger Nightmare Skill. Nur 1 gleichzeitig equipbar (Prestige 2 -> +1 Slot).",
-    "count_note": "6 total laut Wiki. [LÜCKE 2: dotesports-Snippet sagt '5 neu' — Diskrepanz, wahrscheinlich 6 total].",
+    "count_note": "6 bestaetigt. Marco 2026-06-06: Skill-Pfade gesamt = 24 = 9 Skill-Tracks + 9 Exotic-Skills + 6 Nightmare-Skills -> Nightmare = fix 6 (loest fruehere dotesports-'5'-Diskrepanz).",
+    "skill_paths_total": "24 gesamt: 9 Tracks (je 6 Skills) + 9 Exotic-Skills (je 3 Tiers) + 6 Nightmare-Skills (je 3 Tiers). Verifiziert Marco 2026-06-06.",
     "list": [
       {
         "skill": "Nova Strike",
