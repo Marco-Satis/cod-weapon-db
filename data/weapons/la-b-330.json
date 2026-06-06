@@ -2,7 +2,7 @@
   "id": "la-b-330",
   "name": "LA-B 330",
   "class": "Sniper",
-  "game": "mw3",
+  "game": "mw2",
   "weapon_type": "SR",
   "in_warzone": true,
   "source": "truegamedata-api",

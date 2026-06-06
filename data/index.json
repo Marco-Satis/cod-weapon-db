@@ -13,19 +13,16 @@
     "Marksman Rifle": 13,
     "Marksman/Sniper": 1,
     "Melee": 1,
-    "Pistol": 20,
-    "SMG": 44,
+    "Pistol": 21,
+    "SMG": 43,
     "Sniper": 20,
     "Special": 1
   },
   "counts_by_game": {
-    "bo6": 47,
-    "bo7": 35,
-    "mw2": 48,
-    "mw2019": 1,
-    "mw2019_mw3": 1,
-    "mw3": 58,
-    "unknown": 1
+    "bo6": 48,
+    "bo7": 36,
+    "mw2": 62,
+    "mw3": 45
   },
   "meta_categories": [
     "calling_cards",
@@ -52,7 +49,7 @@
       "id": "50-gs",
       "name": ".50 GS",
       "class": "Pistol",
-      "game": "mw3",
+      "game": "mw2",
       "in_warzone": true,
       "base_only": false
     },
@@ -60,7 +57,7 @@
       "id": "556-icarus",
       "name": "556 Icarus",
       "class": "LMG",
-      "game": "mw3",
+      "game": "mw2",
       "in_warzone": true,
       "base_only": false
     },
@@ -68,7 +65,7 @@
       "id": "9mm-daemon",
       "name": "9mm Daemon",
       "class": "Pistol",
-      "game": "mw3",
+      "game": "mw2",
       "in_warzone": true,
       "base_only": false
     },
@@ -164,7 +161,7 @@
       "id": "bas-p",
       "name": "BAS-P",
       "class": "SMG",
-      "game": "mw3",
+      "game": "mw2",
       "in_warzone": true,
       "base_only": false
     },
@@ -212,7 +209,7 @@
       "id": "carrack-300",
       "name": "Carrack .300",
       "class": "Sniper",
-      "game": "mw3",
+      "game": "mw2",
       "in_warzone": true,
       "base_only": false
     },
@@ -220,15 +217,15 @@
       "id": "chimera",
       "name": "Chimera",
       "class": "AR",
-      "game": "mw3",
+      "game": "mw2",
       "in_warzone": true,
       "base_only": false
     },
     {
       "id": "coda-9",
       "name": "Coda 9",
-      "class": "SMG",
-      "game": "bo6",
+      "class": "Pistol",
+      "game": "bo7",
       "in_warzone": true,
       "base_only": true
     },
@@ -244,7 +241,7 @@
       "id": "cronen-squall",
       "name": "Cronen Squall",
       "class": "Battle Rifle",
-      "game": "mw3",
+      "game": "mw2",
       "in_warzone": true,
       "base_only": false
     },
@@ -308,7 +305,7 @@
       "id": "dresden-9mm",
       "name": "Dresden 9mm",
       "class": "SMG",
-      "game": "unknown",
+      "game": "bo6",
       "in_warzone": true,
       "base_only": true
     },
@@ -332,7 +329,7 @@
       "id": "ebr-14",
       "name": "EBR-14",
       "class": "Marksman Rifle",
-      "game": "mw3",
+      "game": "mw2",
       "in_warzone": true,
       "base_only": false
     },
@@ -388,7 +385,7 @@
       "id": "fjx-imperium",
       "name": "FJX Imperium",
       "class": "Sniper",
-      "game": "mw3",
+      "game": "mw2",
       "in_warzone": true,
       "base_only": false
     },
@@ -396,7 +393,7 @@
       "id": "fr-5-56",
       "name": "FR 5.56",
       "class": "Battle Rifle",
-      "game": "mw2",
+      "game": "mw3",
       "in_warzone": true,
       "base_only": false
     },
@@ -404,7 +401,7 @@
       "id": "fr-avancer",
       "name": "FR Avancer",
       "class": "AR",
-      "game": "mw3",
+      "game": "mw2",
       "in_warzone": true,
       "base_only": false
     },
@@ -468,7 +465,7 @@
       "id": "gs-magna",
       "name": "GS Magna",
       "class": "Pistol",
-      "game": "mw3",
+      "game": "mw2",
       "in_warzone": true,
       "base_only": false
     },
@@ -500,7 +497,7 @@
       "id": "hcr-56",
       "name": "HCR 56",
       "class": "LMG",
-      "game": "mw3",
+      "game": "mw2",
       "in_warzone": true,
       "base_only": false
     },
@@ -508,7 +505,7 @@
       "id": "hdr",
       "name": "HDR",
       "class": "Sniper",
-      "game": "mw2019",
+      "game": "bo6",
       "in_warzone": true,
       "base_only": false
     },
@@ -516,7 +513,7 @@
       "id": "holger-26",
       "name": "Holger 26",
       "class": "LMG",
-      "game": "mw2",
+      "game": "mw3",
       "in_warzone": true,
       "base_only": false
     },
@@ -524,7 +521,7 @@
       "id": "holger-556",
       "name": "Holger 556",
       "class": "AR",
-      "game": "mw2",
+      "game": "mw3",
       "in_warzone": true,
       "base_only": false
     },
@@ -572,7 +569,7 @@
       "id": "jager-45",
       "name": "Jager 45",
       "class": "Pistol",
-      "game": "bo6",
+      "game": "bo7",
       "in_warzone": true,
       "base_only": true
     },
@@ -580,7 +577,7 @@
       "id": "kar98k",
       "name": "Kar98k",
       "class": "Marksman/Sniper",
-      "game": "mw2019_mw3",
+      "game": "mw3",
       "in_warzone": true,
       "base_only": false
     },
@@ -612,7 +609,7 @@
       "id": "kastov-lsw",
       "name": "Kastov LSW",
       "class": "LMG",
-      "game": "mw2",
+      "game": "mw3",
       "in_warzone": true,
       "base_only": false
     },
@@ -620,7 +617,7 @@
       "id": "katt-amr",
       "name": "KATT-AMR",
       "class": "Sniper",
-      "game": "mw2",
+      "game": "mw3",
       "in_warzone": true,
       "base_only": false
     },
@@ -684,7 +681,7 @@
       "id": "la-b-330",
       "name": "LA-B 330",
       "class": "Sniper",
-      "game": "mw3",
+      "game": "mw2",
       "in_warzone": true,
       "base_only": false
     },
@@ -740,7 +737,7 @@
       "id": "lm-s",
       "name": "LM-S",
       "class": "Marksman Rifle",
-      "game": "mw3",
+      "game": "mw2",
       "in_warzone": true,
       "base_only": false
     },
@@ -748,7 +745,7 @@
       "id": "lockwood-mk2",
       "name": "Lockwood MK2",
       "class": "Marksman Rifle",
-      "game": "mw3",
+      "game": "mw2",
       "in_warzone": true,
       "base_only": false
     },
@@ -780,7 +777,7 @@
       "id": "m13b",
       "name": "M13B",
       "class": "AR",
-      "game": "mw3",
+      "game": "mw2",
       "in_warzone": true,
       "base_only": false
     },
@@ -788,7 +785,7 @@
       "id": "m13c",
       "name": "M13C",
       "class": "AR",
-      "game": "mw3",
+      "game": "mw2",
       "in_warzone": true,
       "base_only": false
     },
@@ -868,7 +865,7 @@
       "id": "merrick-556",
       "name": "Merrick 556",
       "class": "AR",
-      "game": "bo7",
+      "game": "bo6",
       "in_warzone": true,
       "base_only": true
     },
@@ -948,7 +945,7 @@
       "id": "mx9",
       "name": "MX9",
       "class": "SMG",
-      "game": "mw3",
+      "game": "mw2",
       "in_warzone": true,
       "base_only": false
     },
@@ -1028,7 +1025,7 @@
       "id": "pulemyot-762",
       "name": "Pulemyot 762",
       "class": "LMG",
-      "game": "mw2",
+      "game": "mw3",
       "in_warzone": true,
       "base_only": false
     },
@@ -1060,7 +1057,7 @@
       "id": "rapp-h",
       "name": "RAPP H",
       "class": "LMG",
-      "game": "mw3",
+      "game": "mw2",
       "in_warzone": true,
       "base_only": false
     },
@@ -1076,7 +1073,7 @@
       "id": "renetti",
       "name": "Renetti",
       "class": "Pistol",
-      "game": "mw2",
+      "game": "mw3",
       "in_warzone": true,
       "base_only": false
     },
@@ -1236,7 +1233,7 @@
       "id": "stg44",
       "name": "STG44",
       "class": "AR",
-      "game": "mw2",
+      "game": "mw3",
       "in_warzone": true,
       "base_only": false
     },
@@ -1348,7 +1345,7 @@
       "id": "taq-evolvere",
       "name": "TAQ Evolvere",
       "class": "LMG",
-      "game": "mw3",
+      "game": "mw2",
       "in_warzone": true,
       "base_only": false
     },
@@ -1364,7 +1361,7 @@
       "id": "taq-v",
       "name": "TAQ-V",
       "class": "Battle Rifle",
-      "game": "mw3",
+      "game": "mw2",
       "in_warzone": true,
       "base_only": false
     },
@@ -1372,7 +1369,7 @@
       "id": "tempus-razorback",
       "name": "Tempus Razorback",
       "class": "AR",
-      "game": "mw3",
+      "game": "mw2",
       "in_warzone": true,
       "base_only": false
     },
@@ -1380,7 +1377,7 @@
       "id": "tempus-torrent",
       "name": "Tempus Torrent",
       "class": "Marksman Rifle",
-      "game": "mw3",
+      "game": "mw2",
       "in_warzone": true,
       "base_only": false
     },
@@ -1388,7 +1385,7 @@
       "id": "tr-76-geist",
       "name": "TR-76 Geist",
       "class": "AR",
-      "game": "mw3",
+      "game": "mw2",
       "in_warzone": true,
       "base_only": false
     },
@@ -1412,7 +1409,7 @@
       "id": "tyr",
       "name": "Tyr",
       "class": "Pistol",
-      "game": "mw2",
+      "game": "mw3",
       "in_warzone": true,
       "base_only": false
     },
@@ -1564,7 +1561,7 @@
       "id": "xrk-stalker",
       "name": "XRK Stalker",
       "class": "Sniper",
-      "game": "mw2",
+      "game": "mw3",
       "in_warzone": true,
       "base_only": false
     }

@@ -2,7 +2,7 @@
   "id": "mx9",
   "name": "MX9",
   "class": "SMG",
-  "game": "mw3",
+  "game": "mw2",
   "weapon_type": "SMG",
   "in_warzone": true,
   "source": "truegamedata-api",

@@ -2,7 +2,7 @@
   "id": "hcr-56",
   "name": "HCR 56",
   "class": "LMG",
-  "game": "mw3",
+  "game": "mw2",
   "weapon_type": "LMG",
   "in_warzone": true,
   "source": "truegamedata-api",

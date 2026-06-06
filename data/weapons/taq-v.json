@@ -2,7 +2,7 @@
   "id": "taq-v",
   "name": "TAQ-V",
   "class": "Battle Rifle",
-  "game": "mw3",
+  "game": "mw2",
   "weapon_type": "BR",
   "in_warzone": true,
   "source": "truegamedata-api",

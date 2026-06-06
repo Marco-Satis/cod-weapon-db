@@ -2,7 +2,7 @@
   "id": "katt-amr",
   "name": "KATT-AMR",
   "class": "Sniper",
-  "game": "mw2",
+  "game": "mw3",
   "weapon_type": "SR",
   "in_warzone": true,
   "source": "truegamedata-api",

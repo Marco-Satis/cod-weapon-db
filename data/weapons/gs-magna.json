@@ -2,7 +2,7 @@
   "id": "gs-magna",
   "name": "GS Magna",
   "class": "Pistol",
-  "game": "mw3",
+  "game": "mw2",
   "weapon_type": "Pistols",
   "in_warzone": true,
   "source": "truegamedata-api",

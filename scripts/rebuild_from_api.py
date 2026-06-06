@@ -139,7 +139,9 @@ def main() -> int:
         if old.get("name_de"):
             new["name_de"] = old["name_de"]
         new["class"] = old.get("class")
-        new["game"] = old.get("game")
+        # game aus TGD (authoritative); old nur Fallback. Kuratierte Tags hatten
+        # 40 Mismatches gegen die Quelle (Web-verifiziert: TGD korrekt).
+        new["game"] = rec.get("game") or old.get("game")
         new["weapon_type"] = rec.get("weapon_type")
         new["in_warzone"] = old.get("in_warzone", True)
         new["source"] = "truegamedata-api"

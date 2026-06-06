@@ -2,7 +2,7 @@
   "id": "dresden-9mm",
   "name": "Dresden 9mm",
   "class": "SMG",
-  "game": "unknown",
+  "game": "bo6",
   "weapon_type": "SMG",
   "in_warzone": true,
   "source": "truegamedata-api",

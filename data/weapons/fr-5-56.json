@@ -2,7 +2,7 @@
   "id": "fr-5-56",
   "name": "FR 5.56",
   "class": "Battle Rifle",
-  "game": "mw2",
+  "game": "mw3",
   "weapon_type": "AR",
   "in_warzone": true,
   "source": "truegamedata-api",

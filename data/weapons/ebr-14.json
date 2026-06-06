@@ -2,7 +2,7 @@
   "id": "ebr-14",
   "name": "EBR-14",
   "class": "Marksman Rifle",
-  "game": "mw3",
+  "game": "mw2",
   "weapon_type": "MR",
   "in_warzone": true,
   "source": "truegamedata-api",

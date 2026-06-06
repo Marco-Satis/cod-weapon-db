@@ -2,7 +2,7 @@
   "id": "m13b",
   "name": "M13B",
   "class": "AR",
-  "game": "mw3",
+  "game": "mw2",
   "weapon_type": "AR",
   "in_warzone": true,
   "source": "truegamedata-api",

@@ -2,7 +2,7 @@
   "id": "xrk-stalker",
   "name": "XRK Stalker",
   "class": "Sniper",
-  "game": "mw2",
+  "game": "mw3",
   "weapon_type": "SR",
   "in_warzone": true,
   "source": "truegamedata-api",

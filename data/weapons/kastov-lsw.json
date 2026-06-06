@@ -2,7 +2,7 @@
   "id": "kastov-lsw",
   "name": "Kastov LSW",
   "class": "LMG",
-  "game": "mw2",
+  "game": "mw3",
   "weapon_type": "LMG",
   "in_warzone": true,
   "source": "truegamedata-api",

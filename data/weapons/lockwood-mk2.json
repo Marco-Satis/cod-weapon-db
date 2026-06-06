@@ -2,7 +2,7 @@
   "id": "lockwood-mk2",
   "name": "Lockwood MK2",
   "class": "Marksman Rifle",
-  "game": "mw3",
+  "game": "mw2",
   "weapon_type": "MR",
   "in_warzone": true,
   "source": "truegamedata-api",

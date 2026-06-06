@@ -2,7 +2,7 @@
   "id": "renetti",
   "name": "Renetti",
   "class": "Pistol",
-  "game": "mw2",
+  "game": "mw3",
   "weapon_type": "Pistols",
   "in_warzone": true,
   "source": "truegamedata-api",

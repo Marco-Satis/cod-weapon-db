@@ -2,7 +2,7 @@
   "id": "kar98k",
   "name": "Kar98k",
   "class": "Marksman/Sniper",
-  "game": "mw2019_mw3",
+  "game": "mw3",
   "weapon_type": "MR",
   "in_warzone": true,
   "source": "truegamedata-api",

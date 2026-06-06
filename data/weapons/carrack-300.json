@@ -2,7 +2,7 @@
   "id": "carrack-300",
   "name": "Carrack .300",
   "class": "Sniper",
-  "game": "mw3",
+  "game": "mw2",
   "weapon_type": "SR",
   "in_warzone": true,
   "source": "truegamedata-api",

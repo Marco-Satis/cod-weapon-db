@@ -2,7 +2,7 @@
   "id": "tr-76-geist",
   "name": "TR-76 Geist",
   "class": "AR",
-  "game": "mw3",
+  "game": "mw2",
   "weapon_type": "AR",
   "in_warzone": true,
   "source": "truegamedata-api",
