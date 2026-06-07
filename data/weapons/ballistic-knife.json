@@ -1,0 +1,18 @@
+{
+  "id": "ballistic-knife",
+  "name": "Ballistic Knife",
+  "class": "Melee",
+  "game": "bo7",
+  "weapon_type": "Melee",
+  "in_warzone": true,
+  "source": "callofduty.com + Fandom + Game8/Dexerto/gamesatlas (Roster-Recherche, non-TGD)",
+  "data_version": "S4_2026-06-07",
+  "note": "Projektil-Blade (retrievable). Max Weapon-Level 30.",
+  "base": {
+    "sprint_to_fire_ms": 225,
+    "range_m": 1.5
+  },
+  "slots": {},
+  "subclass": "Knife (Projektil)",
+  "unlock": "Season 1 - Weekly Challenge Week 1 (6 Challenges)"
+}

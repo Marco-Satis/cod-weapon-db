@@ -3,21 +3,43 @@
   "name": "Gulag Rock",
   "class": "Melee",
   "game": "bo6",
+  "weapon_type": "Pistols",
   "in_warzone": true,
-  "source": "truegamedata",
+  "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
-  "note": "Meme-/Wurfwaffe (Gulag-Stein, 1 Round, 25 m/s, 1ms ADS). TGD zeigt generische Platzhalter-Slots (MUZZLE/BARREL/AMMUNITION/MAGAZINE/FIRE MODS) ohne sinnvollen Nutzen — bewusst NICHT extrahiert (kein Build-Wert). base-only.",
-  "extraction": "base-only (Meme-Waffe, Slots irrelevant)",
+  "note": "Meme-/Wurfwaffe (Gulag-Stein, 1 Round, 25 m/s, 1ms ADS). TGD zeigt generische Platzhalter-Slots (MUZZLE/BARREL/AMMUNITION/MAGAZINE/FIRE MODS) ohne sinnvollen Nutzen — bewusst NICHT extrahiert (kein Build-Wert). base-only. | Gulag-Wurfmechanik, keine Waffe",
+  "not_buildable": true,
   "base": {
     "rpm": 46,
     "mag": 1,
     "reload_s": 1.3,
     "ads_ms": 1,
-    "velocity_ms": 25,
-    "move_ms": 4.7,
     "sprint_to_fire_ms": 110,
-    "sprint_ms": 6.7
+    "velocity_ms": 25,
+    "move_speed": 4.7,
+    "crouch_move_speed": 2.5,
+    "ads_move_speed": 4.7,
+    "sprint_speed": 6.7,
+    "gun_kick": 1,
+    "vert_recoil": 1,
+    "horiz_recoil": 1,
+    "flinch_resistance": 0.85
   },
-  "slots": {},
-  "_universal": "Platzhalter-Pool, irrelevant"
+  "damage": [
+    {
+      "head": 1,
+      "neck": 1,
+      "chest": 1,
+      "stomach": 1,
+      "upperleg": 1,
+      "lowerleg": 1,
+      "upperarm": 1,
+      "lowerarm": 1,
+      "dropoff": 0,
+      "base_rpm": 46,
+      "final_rpm": 46,
+      "rpm_mod": 1
+    }
+  ],
+  "slots": {}
 }

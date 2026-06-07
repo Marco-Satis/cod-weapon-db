@@ -2,61 +2,574 @@
   "id": "9mm-daemon",
   "name": "9mm Daemon",
   "class": "Pistol",
-  "game": "mw3",
+  "game": "mw2",
+  "weapon_type": "Pistols",
   "in_warzone": true,
-  "source": "truegamedata",
+  "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
   "note": "Off-Meta MW3. Universelle Slots (MUZZLE/OPTIC/LASER/REAR GRIP) = MW-Standard-Pool (ref kar98k.json).",
-  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
-  "all_slots": [
-    "MUZZLE",
-    "LASER",
-    "OPTIC",
-    "AMMUNITION",
-    "MAGAZINE",
-    "REAR GRIP",
-    "TRIGGER ACTION",
-    "BARREL"
-  ],
+  "fire_modes": {
+    "fire_mode1": "Semi Auto",
+    "fire_mode2": ""
+  },
   "base": {
     "rpm": 462,
     "mag": 15,
     "reload_s": 2.4,
     "ads_ms": 200,
-    "velocity_ms": 375,
-    "move_ms": 5.3,
     "sprint_to_fire_ms": 80,
-    "sprint_ms": 6.8,
+    "velocity_ms": 375,
+    "move_speed": 5.3,
+    "crouch_move_speed": 3,
+    "ads_move_speed": 3.7,
+    "sprint_speed": 6.8,
+    "swap_speed": 1667,
+    "gun_kick": 30,
+    "vert_recoil": 26.19,
+    "horiz_recoil": 11.04,
+    "idle_sway": 1.4,
+    "hipfire_max": 4,
+    "flinch_resistance": 0.2,
+    "target_flinch": 0.8,
+    "tac_spread": 10,
     "zoom_x": 0.8
   },
+  "damage": [
+    {
+      "head": 52,
+      "neck": 37,
+      "chest": 37,
+      "stomach": 35,
+      "upperleg": 33,
+      "lowerleg": 33,
+      "upperarm": 35,
+      "lowerarm": 35,
+      "dropoff": 0,
+      "base_rpm": 462,
+      "final_rpm": 462,
+      "rpm_mod": 1
+    },
+    {
+      "head": 47,
+      "neck": 33,
+      "chest": 33,
+      "stomach": 31,
+      "upperleg": 30,
+      "lowerleg": 30,
+      "upperarm": 31,
+      "lowerarm": 31,
+      "dropoff": 9.4,
+      "base_rpm": 462,
+      "final_rpm": 462,
+      "rpm_mod": 1
+    },
+    {
+      "head": 40,
+      "neck": 29,
+      "chest": 29,
+      "stomach": 27,
+      "upperleg": 26,
+      "lowerleg": 26,
+      "upperarm": 27,
+      "lowerarm": 27,
+      "dropoff": 20.5,
+      "base_rpm": 462,
+      "final_rpm": 462,
+      "rpm_mod": 1
+    }
+  ],
   "slots": {
     "AMMUNITION": [
-      "9mm High Grain Rounds :: +14.8% Range | +15% Bullet Velocity | +5% Gun Kick | +8% Horiz | +8% Vert",
-      "9mm Low Grain Rounds :: -15.2% Range | -15% Bullet Velocity | -5% Gun Kick | -8% Horiz | -8% Vert",
-      "9mm AET Rounds :: -30% Target Flinch | -20% Bullet Velocity",
-      "9mm Hardened Rounds :: -29% Range | -15% Bullet Velocity | +3% Gun Kick | +4% Horiz | +4% Vert",
-      "9mm Frangible :: -5.2% Range",
-      "9mm Hollowpoint",
-      "9mm Armor Piercing",
-      "9mm Overpressured +P :: +80% Target Flinch",
-      "9mm High Velocity :: +30% Bullet Velocity | +5% Horiz | +5% Vert"
+      {
+        "name": "9mm High Grain Rounds",
+        "mods": {
+          "gun_kick_mod": 1.05,
+          "vert_recoil_mod": 1.08,
+          "horiz_recoil_mod": 1.08,
+          "range_mod": 1.14839,
+          "bv_mod": 1.15
+        }
+      },
+      {
+        "name": "9mm Low Grain Rounds",
+        "mods": {
+          "gun_kick_mod": 0.95,
+          "vert_recoil_mod": 0.92,
+          "horiz_recoil_mod": 0.92,
+          "range_mod": 0.848387,
+          "bv_mod": 0.85
+        }
+      },
+      {
+        "name": "9mm AET Rounds",
+        "mods": {
+          "bv_mod": 0.8,
+          "target_flinch_mod": 0.7
+        }
+      },
+      {
+        "name": "9mm Hardened Rounds",
+        "mods": {
+          "gun_kick_mod": 1.03,
+          "vert_recoil_mod": 1.04,
+          "horiz_recoil_mod": 1.04,
+          "range_mod": 0.709677,
+          "bv_mod": 0.85
+        }
+      },
+      {
+        "name": "9mm Frangible",
+        "mods": {
+          "range_mod": 0.948387
+        }
+      },
+      {
+        "name": "9mm Hollowpoint"
+      },
+      {
+        "name": "9mm Armor Piercing"
+      },
+      {
+        "name": "9mm Overpressured +P",
+        "mods": {
+          "target_flinch_mod": 1.8
+        }
+      },
+      {
+        "name": "9mm High Velocity",
+        "mods": {
+          "vert_recoil_mod": 1.05,
+          "horiz_recoil_mod": 1.05,
+          "bv_mod": 1.3
+        }
+      }
     ],
     "BARREL": [
-      "EXF Opal-9 :: -6% Bullet Velocity | +7% Recoil(alle) | +Mobility minor | +6% ADS Move | -6% ADS Time",
-      "EXF Trope-H :: +15% Bullet Velocity | -13% Recoil(alle) | -Mobility minor | +6% ADS Time",
-      "FT Competition :: +23.9% Range | +22% Bullet Velocity | -30% Gun Kick | -15% Horiz | -31% Vert | -9% Idle Sway | +9% Max Hipfire | +22% ADS Time",
-      "XTEN Windfall :: -6.5% Range | -4% Bullet Velocity | +9% Idle Sway | -10% Max Hipfire | -9% ADS Time",
-      "SA Longfire :: +31.9% Range | +19% Bullet Velocity | -12% Idle Sway | +12% Max Hipfire | +12% ADS Time"
+      {
+        "name": "EXF Opal-9",
+        "mods": {
+          "ads_mod": 0.94,
+          "gun_kick_mod": 1.07,
+          "vert_recoil_mod": 1.07,
+          "horiz_recoil_mod": 1.07,
+          "ads_movement_mod": 1.06,
+          "bv_mod": 0.94,
+          "crouch_movement_mod": 1.04,
+          "movement_mod": 1.04,
+          "sprint_mod": 1.02
+        }
+      },
+      {
+        "name": "EXF Trope-H",
+        "mods": {
+          "ads_mod": 1.06,
+          "gun_kick_mod": 0.87,
+          "vert_recoil_mod": 0.87,
+          "horiz_recoil_mod": 0.87,
+          "ads_movement_mod": 0.93,
+          "bv_mod": 1.15,
+          "crouch_movement_mod": 0.95,
+          "movement_mod": 0.95,
+          "sprint_mod": 0.95
+        }
+      },
+      {
+        "name": "FT Competition",
+        "mods": {
+          "ads_mod": 1.22,
+          "gun_kick_mod": 0.7,
+          "vert_recoil_mod": 0.69,
+          "horiz_recoil_mod": 0.85,
+          "ads_movement_mod": 0.97,
+          "hipfire_max_mod": 1.09,
+          "range_mod": 1.23871,
+          "idle_sway_mod": 0.91,
+          "bv_mod": 1.22,
+          "crouch_movement_mod": 0.98,
+          "movement_mod": 0.98,
+          "sprint_mod": 0.98
+        }
+      },
+      {
+        "name": "XTEN Windfall",
+        "mods": {
+          "ads_mod": 0.91,
+          "hipfire_max_mod": 0.9,
+          "range_mod": 0.935484,
+          "idle_sway_mod": 1.09,
+          "bv_mod": 0.96
+        }
+      },
+      {
+        "name": "SA Longfire",
+        "mods": {
+          "ads_mod": 1.12,
+          "hipfire_max_mod": 1.12,
+          "range_mod": 1.31935,
+          "idle_sway_mod": 0.88,
+          "bv_mod": 1.19
+        }
+      }
+    ],
+    "LASER": [
+      {
+        "name": "KR HX-15 Laser Light",
+        "mods": {
+          "ads_mod": 0.9,
+          "stf_mod": 0.85
+        }
+      },
+      {
+        "name": "CS15 Scarlet Mounted Laser",
+        "mods": {
+          "hipfire_max_mod": 1.3,
+          "idle_sway_mod": 0.1,
+          "stf_mod": 0.87
+        }
+      },
+      {
+        "name": "Verdant Hook Box Laser",
+        "mods": {
+          "hipfire_max_mod": 0.9,
+          "idle_sway_mod": 0.9,
+          "stf_mod": 0.91
+        }
+      },
+      {
+        "name": "Series 710 Pistol Laser"
+      },
+      {
+        "name": "FJX Diod-70",
+        "mods": {
+          "ads_mod": 0.95,
+          "stf_mod": 0.94
+        }
+      },
+      {
+        "name": "XTEN Sidearm-L400",
+        "mods": {
+          "hipfire_max_mod": 0.9,
+          "idle_sway_mod": 0.8
+        }
+      },
+      {
+        "name": "1mW Pistol Laser",
+        "mods": {
+          "hipfire_max_mod": 0.92,
+          "idle_sway_mod": 0.92,
+          "stf_mod": 0.95
+        }
+      },
+      {
+        "name": "DZM-1000 L",
+        "mods": {
+          "stf_mod": 0.91
+        }
+      },
+      {
+        "name": "FTAC Vortex 200",
+        "mods": {
+          "stf_mod": 0.86
+        }
+      },
+      {
+        "name": "Pro Sapphire Mounted Laser",
+        "mods": {
+          "stf_mod": 0.87
+        }
+      }
     ],
     "MAGAZINE": [
-      "20 Round Mag :: -3% Move | -3% Crouch | -2% Sprint | -4% ADS Move | +5% ADS Time | +6% Reload",
-      "26 Round Mag :: -5% Move | -6% Crouch | -4% Sprint | -8% ADS Move | +10% ADS Time | +17% Reload"
+      {
+        "name": "20 Round Mag",
+        "mods": {
+          "ads_mod": 1.05,
+          "ads_movement_mod": 0.96,
+          "crouch_movement_mod": 0.97,
+          "movement_mod": 0.97,
+          "sprint_mod": 0.98,
+          "reload_mod": 1.06
+        }
+      },
+      {
+        "name": "26 Round Mag",
+        "mods": {
+          "ads_mod": 1.1,
+          "ads_movement_mod": 0.92,
+          "crouch_movement_mod": 0.94,
+          "movement_mod": 0.95,
+          "sprint_mod": 0.96,
+          "reload_mod": 1.17
+        }
+      }
+    ],
+    "MUZZLE": [
+      {
+        "name": "HMRES Mod Suppressor S",
+        "mods": {
+          "range_mod": 1.06452,
+          "bv_mod": 1.14
+        }
+      },
+      {
+        "name": "Sonic Suppressor S",
+        "mods": {
+          "range_mod": 1.06452,
+          "bv_mod": 1.14
+        }
+      },
+      {
+        "name": "Colossus Suppressor S",
+        "mods": {
+          "range_mod": 1.06452,
+          "bv_mod": 1.14
+        }
+      },
+      {
+        "name": "CN30 Suppressor",
+        "mods": {
+          "range_mod": 1.06452,
+          "bv_mod": 1.14
+        }
+      },
+      {
+        "name": "Forge DX90-F",
+        "mods": {
+          "range_mod": 1.06452,
+          "bv_mod": 1.14
+        }
+      },
+      {
+        "name": "FT Steel Fire",
+        "mods": {
+          "range_mod": 1.06452,
+          "bv_mod": 1.14
+        }
+      },
+      {
+        "name": "Forge DX30-S",
+        "mods": {
+          "range_mod": 1.06452,
+          "bv_mod": 1.14
+        }
+      },
+      {
+        "name": "VP27 Mini Brake S",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "DZS Open Comp",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Slab-10 Comp",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "XRK Ventor-900",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Comp 905F Pistol",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Bruen Tri-Port",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Corvus Series-D",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "XRK QZ-105",
+        "mods": {
+          "range_mod": 1.11935
+        }
+      },
+      {
+        "name": "SA GF90 Flash Hider",
+        "mods": {
+          "range_mod": 1.11935
+        }
+      },
+      {
+        "name": "Hole Punch Breacher",
+        "mods": {
+          "gun_kick_mod": 0.94,
+          "vert_recoil_mod": 0.94,
+          "horiz_recoil_mod": 0.94
+        }
+      },
+      {
+        "name": "ZEHMN35 Compensated Flash Hider",
+        "mods": {
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.92
+        }
+      },
+      {
+        "name": "STER45 Skyfury Compensator",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Monolithic Suppressor",
+        "mods": {
+          "range_mod": 1.06452,
+          "bv_mod": 1.14
+        }
+      },
+      {
+        "name": "ELR Blackfire Compensator",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      }
+    ],
+    "OPTIC": [
+      {
+        "name": "Cronen Intlas MSP-12",
+        "mods": {
+          "ads_mod": 0.97,
+          "hipfire_max_mod": 0.9,
+          "idle_sway_mod": 0.9
+        }
+      },
+      {
+        "name": "Slate Reflector"
+      },
+      {
+        "name": "Slimline Pro"
+      },
+      {
+        "name": "SZ Mini"
+      },
+      {
+        "name": "Cronen Mini Dot"
+      },
+      {
+        "name": "Cronen Mini Pro"
+      },
+      {
+        "name": "SZ Sigma-IV Optic"
+      },
+      {
+        "name": "SZ Minitac-40"
+      },
+      {
+        "name": "FSS Spectre Microtherm",
+        "mods": {
+          "ads_mod": 1.1
+        }
+      }
+    ],
+    "REAR GRIP": [
+      {
+        "name": "Razorleaf Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.93,
+          "horiz_recoil_mod": 0.93
+        }
+      },
+      {
+        "name": "Magwell Grip",
+        "mods": {
+          "crouch_movement_mod": 0.97,
+          "movement_mod": 0.95
+        }
+      },
+      {
+        "name": "Daemon Hand",
+        "mods": {
+          "ads_mod": 0.97,
+          "gun_kick_mod": 1.06,
+          "vert_recoil_mod": 1.06,
+          "horiz_recoil_mod": 1.06,
+          "stf_mod": 0.85
+        }
+      },
+      {
+        "name": "SGT Grip",
+        "mods": {
+          "ads_mod": 0.91,
+          "gun_kick_mod": 1.1,
+          "vert_recoil_mod": 1.1,
+          "horiz_recoil_mod": 1.1,
+          "stf_mod": 0.8
+        }
+      },
+      {
+        "name": "Akimbo 9mm Daemon",
+        "mods": {
+          "gun_kick_mod": 0.6,
+          "vert_recoil_mod": 1.3,
+          "horiz_recoil_mod": 1.3,
+          "hipfire_max_mod": 1.25,
+          "range_mod": 1.44194,
+          "idle_sway_mod": 1.25,
+          "reload_mod": 1.18,
+          "swap_speed_mod": 0.66
+        }
+      }
     ],
     "TRIGGER ACTION": [
-      "Precision Trigger :: -13% Fire Rate | -8% ADS Time | -14% Sprint to Fire",
-      "DEX8 Trigger :: +8% Fire Rate | +15% Max Hipfire Area",
-      "Rapid 30 Trigger :: +18% Fire Rate | +15% Sprint to Fire"
-    ],
-    "_universal": "MUZZLE/OPTIC/LASER/REAR GRIP = MW-Standard-Pool (ref kar98k.json)"
+      {
+        "name": "Precision Trigger",
+        "mods": {
+          "ads_mod": 0.92,
+          "stf_mod": 0.86,
+          "rpm_mod": 0.87
+        }
+      },
+      {
+        "name": "DEX8 Trigger",
+        "mods": {
+          "hipfire_max_mod": 1.15,
+          "rpm_mod": 1.08
+        }
+      },
+      {
+        "name": "Rapid 30 Trigger",
+        "mods": {
+          "stf_mod": 1.15,
+          "rpm_mod": 1.18
+        }
+      }
+    ]
   }
 }

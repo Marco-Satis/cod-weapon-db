@@ -1,0 +1,17 @@
+{
+  "id": "grimhawk",
+  "name": "Grimhawk",
+  "class": "Special",
+  "game": "bo7",
+  "weapon_type": "Special",
+  "in_warzone": true,
+  "source": "callofduty.com + Fandom + Game8/Dexerto/gamesatlas (Roster-Recherche, non-TGD)",
+  "data_version": "S4_2026-06-07",
+  "note": "Vollautomatisch; Low-Velocity-Projektile mit leichtem Homing auf feuernde Gegner. Special (NICHT Melee - 1 GameRant-Artikel falsch). Keine weiteren numerischen TGD-Stats.",
+  "base": {
+    "mag": 60
+  },
+  "slots": {},
+  "subclass": "Homing-Rounds Rifle (Auto)",
+  "unlock": "Season 4 - Weekly Challenge Week 1 (6 Challenges aus MP/Zombies/Endgame/Warzone)"
+}

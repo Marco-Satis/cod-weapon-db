@@ -2,54 +2,653 @@
   "id": "renetti",
   "name": "Renetti",
   "class": "Pistol",
-  "game": "mw2",
+  "game": "mw3",
+  "weapon_type": "Pistols",
   "in_warzone": true,
-  "source": "truegamedata",
+  "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
   "note": "Off-Meta MW2 Pistol (9mm, 621 RPM, 15-round, 0.8x). MW-Layout: MUZZLE/OPTIC/LASER/STOCK/REAR GRIP universell (MW-Pool). Weapon-spez: BARREL/AMMUNITION/MAGAZINE/TRIGGER ACTION/CONVERSION KIT. JAK Ferocity = Carbine-Conversion.",
-  "extraction": "weapon-specific-only-MW-editorbound-split",
+  "fire_modes": {
+    "fire_mode1": "3 Rnd Burst",
+    "fire_mode2": ""
+  },
   "base": {
     "rpm": 621,
     "mag": 15,
     "reload_s": 2.1,
     "ads_ms": 150,
-    "velocity_ms": 375,
-    "move_ms": 5.2,
     "sprint_to_fire_ms": 40,
-    "sprint_ms": 6.6,
+    "velocity_ms": 375,
+    "move_speed": 5.2,
+    "crouch_move_speed": 3,
+    "ads_move_speed": 3.8,
+    "sprint_speed": 6.6,
+    "swap_speed": 1100,
+    "gun_kick": 33.75,
+    "vert_recoil": 28.38,
+    "horiz_recoil": 14.78,
+    "idle_sway": 2,
+    "hipfire_max": 4,
+    "flinch_resistance": 0.2,
+    "target_flinch": 1,
+    "tac_spread": 10,
     "zoom_x": 0.8
   },
+  "damage": [
+    {
+      "head": 46,
+      "neck": 35,
+      "chest": 35,
+      "stomach": 33,
+      "upperleg": 33,
+      "lowerleg": 33,
+      "upperarm": 33,
+      "lowerarm": 33,
+      "dropoff": 0,
+      "base_rpm": 400,
+      "final_rpm": 400,
+      "rpm_mod": 1
+    },
+    {
+      "head": 35,
+      "neck": 27,
+      "chest": 27,
+      "stomach": 25,
+      "upperleg": 25,
+      "lowerleg": 25,
+      "upperarm": 25,
+      "lowerarm": 25,
+      "dropoff": 13,
+      "base_rpm": 400,
+      "final_rpm": 400,
+      "rpm_mod": 1
+    }
+  ],
   "slots": {
     "AMMUNITION": [
-      "9mm High Grain Rounds :: +14.6% Range",
-      "9mm Hollowpoint",
-      "9mm Armor Piercing",
-      "9mm Overpressured +P :: +80% Target Flinch",
-      "9mm Frangible :: -5.4% Range",
-      "9mm AET Rounds :: -30% Target Flinch",
-      "9mm Hardened Rounds :: -27.7% Range",
-      "9mm Low Grain Rounds :: -92.3% Range",
-      "9mm High Velocity :: +30% Bullet Velocity"
+      {
+        "name": "9mm High Grain Rounds",
+        "mods": {
+          "gun_kick_mod": 1.05,
+          "vert_recoil_mod": 1.08,
+          "horiz_recoil_mod": 1.08,
+          "range_mod": 1.14615,
+          "bv_mod": 1.15
+        }
+      },
+      {
+        "name": "9mm Hollowpoint"
+      },
+      {
+        "name": "9mm Armor Piercing"
+      },
+      {
+        "name": "9mm Overpressured +P",
+        "mods": {
+          "target_flinch_mod": 1.8
+        }
+      },
+      {
+        "name": "9mm Frangible",
+        "mods": {
+          "range_mod": 0.946154
+        }
+      },
+      {
+        "name": "9mm AET Rounds",
+        "mods": {
+          "bv_mod": 0.8,
+          "target_flinch_mod": 0.7
+        }
+      },
+      {
+        "name": "9mm Hardened Rounds",
+        "mods": {
+          "gun_kick_mod": 1.03,
+          "vert_recoil_mod": 1.04,
+          "horiz_recoil_mod": 1.04,
+          "range_mod": 0.723077,
+          "bv_mod": 0.85
+        }
+      },
+      {
+        "name": "9mm Low Grain Rounds",
+        "mods": {
+          "gun_kick_mod": 0.95,
+          "vert_recoil_mod": 0.92,
+          "horiz_recoil_mod": 0.92,
+          "range_mod": 0.0769231,
+          "bv_mod": 0.85
+        }
+      },
+      {
+        "name": "9mm High Velocity",
+        "mods": {
+          "vert_recoil_mod": 1.05,
+          "horiz_recoil_mod": 1.05,
+          "bv_mod": 1.3
+        }
+      }
     ],
     "BARREL": [
-      "MLX Short Competition Barrel :: +8% Horiz. Recoil",
-      "MK2 Renetti Long Barrel :: +38.5% Range",
-      "MLX Extended Heavy Barrel :: +9.2% Range"
+      {
+        "name": "MLX Short Competition Barrel",
+        "mods": {
+          "ads_mod": 0.93,
+          "vert_recoil_mod": 1.1,
+          "horiz_recoil_mod": 1.08,
+          "ads_movement_mod": 1.05,
+          "hipfire_max_mod": 0.8,
+          "idle_sway_mod": 0.8,
+          "stf_mod": 0.9,
+          "crouch_movement_mod": 1.04,
+          "movement_mod": 1.04,
+          "sprint_mod": 1.02
+        }
+      },
+      {
+        "name": "MK2 Renetti Long Barrel",
+        "mods": {
+          "ads_movement_mod": 0.99,
+          "hipfire_max_mod": 1.06,
+          "range_mod": 1.38462,
+          "idle_sway_mod": 1.06,
+          "stf_mod": 1.08,
+          "bv_mod": 1.24
+        }
+      },
+      {
+        "name": "MLX Extended Heavy Barrel",
+        "mods": {
+          "gun_kick_mod": 0.94,
+          "vert_recoil_mod": 0.91,
+          "horiz_recoil_mod": 0.91,
+          "ads_movement_mod": 0.97,
+          "hipfire_max_mod": 1.12,
+          "range_mod": 1.09231,
+          "idle_sway_mod": 1.12,
+          "stf_mod": 1.08,
+          "bv_mod": 1.12,
+          "movement_mod": 0.97,
+          "sprint_mod": 0.98
+        }
+      }
     ],
     "CONVERSION KIT": [
-      "JAK Ferocity Carbine Kit :: Damage profile modified",
-      "JAK Intimidator :: Damage profile modified"
+      {
+        "name": "JAK Ferocity Carbine Kit",
+        "mods": {
+          "ads_mod": 1.33,
+          "gun_kick_mod": 0.67,
+          "vert_recoil_mod": 1.33,
+          "horiz_recoil_mod": 0.98,
+          "ads_movement_mod": 0.97,
+          "stf_mod": 2.5,
+          "bv_mod": 1.3,
+          "movement_mod": 0.98,
+          "sprint_mod": 0.98,
+          "reload_mod": 1.28,
+          "rpm_mod": 1.38,
+          "swap_speed_mod": 1.21
+        }
+      },
+      {
+        "name": "JAK Intimidator",
+        "mods": {
+          "gun_kick_mod": 0.95,
+          "vert_recoil_mod": 0.93,
+          "horiz_recoil_mod": 0.75,
+          "ads_movement_mod": 1.2,
+          "bv_mod": 1.3,
+          "rpm_mod": 0.54,
+          "target_flinch_mod": 0.8
+        }
+      }
+    ],
+    "LASER": [
+      {
+        "name": "KR HX-15 Laser Light",
+        "mods": {
+          "ads_mod": 0.9,
+          "stf_mod": 0.85
+        }
+      },
+      {
+        "name": "FJX Diod-70",
+        "mods": {
+          "ads_mod": 0.95,
+          "stf_mod": 0.92
+        }
+      },
+      {
+        "name": "XTEN Sidearm-L400",
+        "mods": {
+          "hipfire_max_mod": 0.9,
+          "idle_sway_mod": 0.8
+        }
+      },
+      {
+        "name": "DZM-1000 L",
+        "mods": {
+          "stf_mod": 0.9
+        }
+      },
+      {
+        "name": "Series 710 Pistol Laser"
+      },
+      {
+        "name": "Pro Sapphire Mounted Laser",
+        "mods": {
+          "stf_mod": 0.87
+        }
+      },
+      {
+        "name": "Verdant Hook Box Laser",
+        "mods": {
+          "hipfire_max_mod": 0.9,
+          "idle_sway_mod": 0.9,
+          "stf_mod": 0.9
+        }
+      },
+      {
+        "name": "CS15 Scarlet Mounted Laser",
+        "mods": {
+          "hipfire_max_mod": 1.3,
+          "idle_sway_mod": 0.1,
+          "stf_mod": 0.87
+        }
+      },
+      {
+        "name": "FTAC Vortex 200",
+        "mods": {
+          "stf_mod": 0.85
+        }
+      }
     ],
     "MAGAZINE": [
-      "24 Round Mag :: -5% Move. Speed",
-      "30 Round Mag :: -6% Move. Speed",
-      "50 Round Drum :: -8% Move. Speed"
+      {
+        "name": "24 Round Mag",
+        "mods": {
+          "ads_mod": 1.15,
+          "ads_movement_mod": 0.95,
+          "crouch_movement_mod": 0.95,
+          "movement_mod": 0.95,
+          "sprint_mod": 0.98
+        }
+      },
+      {
+        "name": "30 Round Mag",
+        "mods": {
+          "ads_mod": 1.19,
+          "ads_movement_mod": 0.94,
+          "crouch_movement_mod": 0.94,
+          "movement_mod": 0.94,
+          "sprint_mod": 0.97,
+          "reload_mod": 1.17
+        }
+      },
+      {
+        "name": "50 Round Drum",
+        "mods": {
+          "ads_mod": 1.24,
+          "ads_movement_mod": 0.92,
+          "stf_mod": 1.03,
+          "crouch_movement_mod": 0.92,
+          "movement_mod": 0.92,
+          "sprint_mod": 0.97,
+          "reload_mod": 1.45
+        }
+      }
+    ],
+    "MUZZLE": [
+      {
+        "name": "HMRES Mod Suppressor S",
+        "mods": {
+          "range_mod": 1.07692,
+          "bv_mod": 1.14
+        }
+      },
+      {
+        "name": "XRK Ventor-900",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Slab-10 Comp",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "DZS Open Comp",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "ZEHMN35 Compensated Flash Hider",
+        "mods": {
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.92
+        }
+      },
+      {
+        "name": "Comp 905F Pistol",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Corvus Series-D",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Bruen Tri-Port",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Hole Punch Breacher",
+        "mods": {
+          "gun_kick_mod": 0.94,
+          "vert_recoil_mod": 0.94,
+          "horiz_recoil_mod": 0.94
+        }
+      },
+      {
+        "name": "XRK QZ-105",
+        "mods": {
+          "range_mod": 1.07692
+        }
+      },
+      {
+        "name": "VP27 Mini Brake S",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "STER45 Skyfury Compensator",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Colossus Suppressor S",
+        "mods": {
+          "range_mod": 1.07692,
+          "bv_mod": 1.14
+        }
+      },
+      {
+        "name": "Sonic Suppressor S",
+        "mods": {
+          "range_mod": 1.07692,
+          "bv_mod": 1.14
+        }
+      },
+      {
+        "name": "Monolithic Suppressor",
+        "mods": {
+          "range_mod": 1.07692,
+          "bv_mod": 1.14
+        }
+      },
+      {
+        "name": "ELR Blackfire Compensator",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "CN30 Suppressor",
+        "mods": {
+          "range_mod": 1.07692,
+          "bv_mod": 1.14
+        }
+      },
+      {
+        "name": "FT Steel Fire",
+        "mods": {
+          "range_mod": 1.07692,
+          "bv_mod": 1.14
+        }
+      },
+      {
+        "name": "Forge DX90-F",
+        "mods": {
+          "range_mod": 1.07692,
+          "bv_mod": 1.14
+        }
+      },
+      {
+        "name": "Forge DX30-S",
+        "mods": {
+          "range_mod": 1.07692,
+          "bv_mod": 1.14
+        }
+      },
+      {
+        "name": "SA GF90 Flash Hider",
+        "mods": {
+          "range_mod": 1.07692
+        }
+      }
+    ],
+    "OPTIC": [
+      {
+        "name": "Slate Reflector"
+      },
+      {
+        "name": "Cronen Mini Pro"
+      },
+      {
+        "name": "Cronen Mini Dot"
+      },
+      {
+        "name": "SZ Sigma-IV Optic"
+      },
+      {
+        "name": "SZ Minitac-40"
+      },
+      {
+        "name": "SZ Mini"
+      },
+      {
+        "name": "Slimline Pro"
+      }
+    ],
+    "REAR GRIP": [
+      {
+        "name": "Akimbo Renetti",
+        "mods": {
+          "hipfire_max_mod": 1.1,
+          "idle_sway_mod": 1.1,
+          "reload_mod": 1.31,
+          "swap_speed_mod": 0.82
+        }
+      },
+      {
+        "name": "Bruen Onslaught Assault Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.93,
+          "horiz_recoil_mod": 0.93
+        }
+      },
+      {
+        "name": "Renetti Wood Grain Grip",
+        "mods": {
+          "gun_kick_mod": 1.06,
+          "vert_recoil_mod": 1.06,
+          "horiz_recoil_mod": 1.06,
+          "stf_mod": 0.9
+        }
+      },
+      {
+        "name": "EXF Eclipsor Grip",
+        "mods": {
+          "ads_movement_mod": 1.05,
+          "stf_mod": 0.85,
+          "crouch_movement_mod": 1.04,
+          "movement_mod": 1.04
+        }
+      }
+    ],
+    "STOCK": [
+      {
+        "name": "FTAC Satus Folding Stock",
+        "mods": {
+          "gun_kick_mod": 0.79,
+          "vert_recoil_mod": 0.46,
+          "horiz_recoil_mod": 0.46,
+          "hipfire_max_mod": 1.1,
+          "stf_mod": 1.05
+        }
+      }
     ],
     "TRIGGER ACTION": [
-      "XRK Heavy V4 :: -11% Fire Rate",
-      "Bruen MG89 Trigger :: +2% Fire Rate",
-      "Bruen Express :: +12% Fire Rate"
+      {
+        "name": "XRK Heavy V4",
+        "mods": {
+          "ads_mod": 0.93,
+          "stf_mod": 0.85,
+          "rpm_mod": 0.89
+        }
+      },
+      {
+        "name": "Bruen MG89 Trigger",
+        "mods": {
+          "hipfire_max_mod": 1.15,
+          "rpm_mod": 1.02
+        }
+      },
+      {
+        "name": "Bruen Express",
+        "mods": {
+          "stf_mod": 1.15,
+          "rpm_mod": 1.12
+        }
+      }
     ]
   },
-  "_universal": "MUZZLE/OPTIC/LASER/STOCK/REAR GRIP = MW-Pool (ref kar98k.json)"
+  "blocking": [
+    {
+      "id": 118,
+      "gun": "Renetti",
+      "blocks": "Underbarrel",
+      "reason": "Conversion Kit",
+      "tooltip": "Unlock by attaching Jak Ferocity Carbine Kit"
+    },
+    {
+      "id": 119,
+      "gun": "Renetti",
+      "attachment": "JAK Ferocity Carbine Kit",
+      "slot": "Conversion Kit",
+      "blocks": "Trigger Action",
+      "reason": "Conversion Kit",
+      "tooltip": "Unlock by removing Jak Ferocity Carbine Kit"
+    },
+    {
+      "id": 120,
+      "gun": "Renetti",
+      "attachment": "JAK Ferocity Carbine Kit",
+      "slot": "Stock",
+      "blocks": "FTAC Satus Folding Stock",
+      "reason": "Conversion Kit",
+      "tooltip": "Unlock by removing Jak Ferocity Carbine Kit"
+    },
+    {
+      "id": 121,
+      "gun": "Renetti",
+      "attachment": "JAK Ferocity Carbine Kit",
+      "slot": "Conversion Kit",
+      "unlocks": "XRK Torment Brace Stock",
+      "reason": "Conversion Kit",
+      "tooltip": "Unlock by attaching Jak Ferocity Carbine Kit"
+    },
+    {
+      "id": 122,
+      "gun": "Renetti",
+      "attachment": "JAK Ferocity Carbine Kit",
+      "slot": "Conversion Kit",
+      "unlocks": "Ravage-8",
+      "reason": "Conversion Kit",
+      "tooltip": "Unlock by attaching Jak Ferocity Carbine Kit"
+    },
+    {
+      "id": 123,
+      "gun": "Renetti",
+      "attachment": "JAK Ferocity Carbine Kit",
+      "slot": "Conversion Kit",
+      "blocks": "Barrel",
+      "reason": "Conversion Kit",
+      "tooltip": "Unlock by removing Jak Ferocity Carbine Kit"
+    },
+    {
+      "id": 132,
+      "gun": "Renetti",
+      "attachment": "JAK Ferocity Carbine Kit",
+      "slot": "Conversion Kit",
+      "unlocks": "Underbarrel",
+      "reason": "Needs Conversion Kit",
+      "tooltip": "Unlock by attaching the JAK Ferocity Carbine Kit"
+    },
+    {
+      "id": 135,
+      "gun": "Renetti",
+      "slot": "Stock",
+      "blocks": "XRK Torment Brace Stock",
+      "reason": "Needs Conversion Kit",
+      "tooltip": "Unlock by attaching Jak Ferocity Carbine Kit"
+    },
+    {
+      "id": 136,
+      "gun": "Renetti",
+      "slot": "Stock",
+      "blocks": "Ravage-8",
+      "reason": "Needs Conversion Kit",
+      "tooltip": "Unlock by attaching Jak Ferocity Carbine Kit"
+    },
+    {
+      "id": 212,
+      "gun": "Renetti",
+      "attachment": "JAK Intimidator",
+      "slot": "Conversion Kit",
+      "blocks": "Underbarrel",
+      "reason": "Conversion Kit",
+      "tooltip": "Unlock by attaching the JAK Ferocity Carbine Kit"
+    },
+    {
+      "id": 213,
+      "gun": "Renetti",
+      "attachment": "JAK Intimidator",
+      "slot": "Conversion Kit",
+      "blocks": "Trigger Action",
+      "reason": "Conversion Kit",
+      "tooltip": "Unlock by removing JAK Intimidator"
+    }
+  ]
 }

@@ -3,46 +3,513 @@
   "name": "Warden 308",
   "class": "Marksman Rifle",
   "game": "bo7",
+  "weapon_type": "MR",
   "in_warzone": true,
-  "source": "truegamedata",
+  "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
   "note": "Off-Meta BO7 Marksman (.308 NATO, 353 RPM semi-auto, 8-round Cylinder). BO7-branded (Outlaw/Watchdog/LTI/MFS). Black-Ops-Layout: OPTIC/STOCK/REAR GRIP/LASER/COMB universell. Weapon-spez: MUZZLE/BARREL/MAGAZINE/FIRE MODS.",
-  "extraction": "weapon-specific-only-BO-editorbound-split",
   "base": {
     "rpm": 353,
     "mag": 8,
-    "reload_s": 2.38,
+    "reload_s": 2.378,
     "ads_ms": 270,
-    "velocity_ms": 950,
-    "move_ms": 4.5,
     "sprint_to_fire_ms": 240,
-    "sprint_ms": 7.1,
-    "zoom_x": 0
+    "velocity_ms": 950,
+    "move_speed": 4.5,
+    "crouch_move_speed": 2.3,
+    "ads_move_speed": 2.8,
+    "sprint_speed": 7.1,
+    "gun_kick": 10.2,
+    "vert_recoil": 57.6,
+    "horiz_recoil": 10.53,
+    "idle_sway": 0.52,
+    "hipfire_max": 8.75,
+    "flinch_resistance": 0.55
   },
+  "damage": [
+    {
+      "head": 104,
+      "neck": 80,
+      "chest": 80,
+      "stomach": 64,
+      "upperleg": 64,
+      "lowerleg": 64,
+      "upperarm": 80,
+      "lowerarm": 80,
+      "dropoff": 0,
+      "base_rpm": 353,
+      "final_rpm": 353,
+      "rpm_mod": 1
+    },
+    {
+      "head": 81,
+      "neck": 63,
+      "chest": 63,
+      "stomach": 50,
+      "upperleg": 50,
+      "lowerleg": 50,
+      "upperarm": 63,
+      "lowerarm": 63,
+      "dropoff": 20.3,
+      "base_rpm": 353,
+      "final_rpm": 353,
+      "rpm_mod": 1
+    },
+    {
+      "head": 65,
+      "neck": 50,
+      "chest": 50,
+      "stomach": 40,
+      "upperleg": 40,
+      "lowerleg": 40,
+      "upperarm": 50,
+      "lowerarm": 50,
+      "dropoff": 50.8,
+      "base_rpm": 353,
+      "final_rpm": 353,
+      "rpm_mod": 1
+    }
+  ],
   "slots": {
     "BARREL": [
-      "18\" Invictus Barrel :: +19.8% Range",
-      "17.3\" LTI Fluted-X35 Barrel :: +28% Bullet Velocity",
-      "15.47\" LTI Phalanx Barrel :: +8.9% Range",
-      "14.8\" Pro-Lite Barrel :: -7.4% ADS Time",
-      "16.2\" Artemis-01 Barrel :: -17.4% Gun Kick"
+      {
+        "name": "18\" Invictus Barrel",
+        "mods": {
+          "ads_mod": 1.056,
+          "range_mod": 1.198
+        }
+      },
+      {
+        "name": "17.3\" LTI Fluted-X35 Barrel",
+        "mods": {
+          "gun_kick_mod": 0.954,
+          "vert_recoil_mod": 0.95,
+          "ads_movement_mod": 0.964,
+          "bv_mod": 1.28
+        }
+      },
+      {
+        "name": "15.47\" LTI Phalanx Barrel",
+        "mods": {
+          "ads_mod": 1.037,
+          "range_mod": 1.089,
+          "bv_mod": 1.08
+        }
+      },
+      {
+        "name": "14.8\" Pro-Lite Barrel",
+        "mods": {
+          "ads_mod": 0.926,
+          "stf_mod": 0.896
+        }
+      },
+      {
+        "name": "16.2\" Artemis-01 Barrel",
+        "mods": {
+          "ads_mod": 1.104,
+          "gun_kick_mod": 0.826,
+          "vert_recoil_mod": 0.82,
+          "horiz_recoil_mod": 0.9,
+          "ads_movement_mod": 0.929,
+          "idle_sway_mod": 0.846,
+          "stf_mod": 1.079,
+          "flinch_resistance_mod": 0.8
+        }
+      }
+    ],
+    "COMB": [
+      {
+        "name": "LTI Ogre Riser",
+        "mods": {
+          "gun_kick_mod": 0.987,
+          "horiz_recoil_mod": 0.801
+        }
+      },
+      {
+        "name": "Static-907x Riser",
+        "mods": {
+          "gun_kick_mod": 0.992,
+          "horiz_recoil_mod": 0.88,
+          "idle_sway_mod": 0.596
+        }
+      },
+      {
+        "name": "LTI Lockdown Riser",
+        "mods": {
+          "flinch_resistance_mod": 0.745
+        }
+      },
+      {
+        "name": "LTI Trail-40 Riser",
+        "mods": {
+          "ads_movement_mod": 1.143,
+          "crouch_movement_mod": 1.087,
+          "movement_mod": 1.089
+        }
+      },
+      {
+        "name": "Baron Riser",
+        "mods": {
+          "gun_kick_mod": 0.993,
+          "horiz_recoil_mod": 0.9,
+          "crouch_movement_mod": 1.087,
+          "movement_mod": 1.089,
+          "sprint_mod": 1.028
+        }
+      }
     ],
     "FIRE MODS": [
-      "MFS Snap Trigger :: -55% Range",
-      "308 NATO Overpressured :: +20% Bullet Velocity",
-      "Buffer Spring :: -14.2% Gun Kick",
-      ".308 NATO FMJ"
+      {
+        "name": "MFS Snap Trigger",
+        "mods": {
+          "gun_kick_mod": 1.15,
+          "vert_recoil_mod": 1.154,
+          "horiz_recoil_mod": 1.15,
+          "range_mod": 0.45,
+          "rpm_mod": 1.13
+        }
+      },
+      {
+        "name": "308 NATO Overpressured",
+        "mods": {
+          "bv_mod": 1.2
+        }
+      },
+      {
+        "name": "Buffer Spring",
+        "mods": {
+          "gun_kick_mod": 0.858,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.951
+        }
+      },
+      {
+        "name": ".308 NATO FMJ"
+      }
+    ],
+    "LASER": [
+      {
+        "name": "Convergence Box Laser",
+        "mods": {
+          "hipfire_max_mod": 0.85
+        }
+      },
+      {
+        "name": "Adaptive Tactical Laser"
+      },
+      {
+        "name": "1mW Instinct Laser Array",
+        "mods": {
+          "ads_mod": 0.948,
+          "stf_mod": 0.917
+        }
+      },
+      {
+        "name": "1mW Motion Strike Laser"
+      },
+      {
+        "name": "5mW Lockstep Laser"
+      }
     ],
     "MAGAZINE": [
-      "Speed Latch Cylinder :: -3.7% ADS Time"
+      {
+        "name": "Speed Latch Cylinder",
+        "mods": {
+          "ads_mod": 0.963,
+          "stf_mod": 0.958,
+          "reload_mod": 0.951
+        }
+      }
     ],
     "MUZZLE": [
-      "Outlaw Silencer",
-      "Watchdog Compensator :: -27.4% Gun Kick",
-      "LTI-LM Brake :: -18.3% Gun Kick",
-      "Lethal Tools Crown Comp :: -25% Max Hipfire Area",
-      "Monolithic Suppressor :: +7.9% Range"
+      {
+        "name": "Outlaw Silencer"
+      },
+      {
+        "name": "Watchdog Compensator",
+        "mods": {
+          "gun_kick_mod": 0.726,
+          "vert_recoil_mod": 0.7
+        }
+      },
+      {
+        "name": "LTI-LM Brake",
+        "mods": {
+          "gun_kick_mod": 0.817,
+          "vert_recoil_mod": 0.8
+        }
+      },
+      {
+        "name": "Lethal Tools Crown Comp",
+        "mods": {
+          "hipfire_max_mod": 0.75
+        }
+      },
+      {
+        "name": "Monolithic Suppressor",
+        "mods": {
+          "ads_mod": 1.204,
+          "range_mod": 1.079,
+          "bv_mod": 1.2
+        }
+      }
+    ],
+    "OPTIC": [
+      {
+        "name": "Lethal Tools ELO"
+      },
+      {
+        "name": "VAS LED"
+      },
+      {
+        "name": "Kepler-Pro Red Dot"
+      },
+      {
+        "name": "Greaves Red Dot"
+      },
+      {
+        "name": "PrismaTech Digital Holo"
+      },
+      {
+        "name": "EMT3 Holo Mk.2"
+      },
+      {
+        "name": "Kepler T-Range Holo",
+        "mods": {
+          "ads_mod": 1.056,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "Solaris Holo-IR",
+        "mods": {
+          "gun_kick_mod": 0.75
+        }
+      },
+      {
+        "name": "EAM Dyad xL",
+        "mods": {
+          "ads_mod": 1.056,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "LTI Target Finder VZ",
+        "mods": {
+          "ads_mod": 1.185,
+          "ads_movement_mod": 0.893,
+          "stf_mod": 1.104
+        }
+      },
+      {
+        "name": "Millimeter Scanner",
+        "mods": {
+          "ads_mod": 1.111,
+          "gun_kick_mod": 1.1,
+          "stf_mod": 1.104
+        }
+      },
+      {
+        "name": "Redwell 30-5 2x",
+        "mods": {
+          "ads_mod": 1.034,
+          "gun_kick_mod": 0.647
+        }
+      },
+      {
+        "name": "Greaves Accuspot 3x",
+        "mods": {
+          "ads_mod": 1.056,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "Kepler Ultra 4x",
+        "mods": {
+          "ads_mod": 1.074,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "PrismaTech Turbo 4x",
+        "mods": {
+          "ads_mod": 1.074,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "VAS Duo Hybrid Sight",
+        "mods": {
+          "ads_mod": 1.056,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Bowen X-25 IR",
+        "mods": {
+          "ads_mod": 1.048,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "EAM Dual Zoom",
+        "mods": {
+          "ads_mod": 1.093,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Greaves Ultra Zoom",
+        "mods": {
+          "ads_mod": 1.093,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Kepler Custom WVT-08",
+        "mods": {
+          "ads_mod": 1.093,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Circuit-Z Rangefinder",
+        "mods": {
+          "ads_mod": 1.185,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "RistRauch 7x",
+        "mods": {
+          "ads_mod": 1.056,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "VAS Strix 6x Thermal",
+        "mods": {
+          "ads_mod": 1.111
+        }
+      }
+    ],
+    "REAR GRIP": [
+      {
+        "name": "LTI Tyrannis Grip",
+        "mods": {
+          "ads_mod": 0.685
+        }
+      },
+      {
+        "name": "Scarab Grip",
+        "mods": {
+          "stf_mod": 0.721
+        }
+      },
+      {
+        "name": "Leviathan Grip",
+        "mods": {
+          "ads_mod": 1.056,
+          "gun_kick_mod": 0.994,
+          "horiz_recoil_mod": 0.92
+        }
+      },
+      {
+        "name": "Thunder Grip",
+        "mods": {
+          "ads_mod": 0.807
+        }
+      },
+      {
+        "name": "Partition Grip",
+        "mods": {
+          "gun_kick_mod": 0.889,
+          "vert_recoil_mod": 0.88
+        }
+      }
+    ],
+    "STOCK": [
+      {
+        "name": "LTI Ogre Riser",
+        "mods": {
+          "gun_kick_mod": 0.987,
+          "horiz_recoil_mod": 0.801
+        }
+      },
+      {
+        "name": "Static-907x Riser",
+        "mods": {
+          "gun_kick_mod": 0.992,
+          "horiz_recoil_mod": 0.88,
+          "idle_sway_mod": 0.596
+        }
+      },
+      {
+        "name": "LTI Lockdown Riser",
+        "mods": {
+          "flinch_resistance_mod": 0.745
+        }
+      },
+      {
+        "name": "LTI Trail-40 Riser",
+        "mods": {
+          "ads_movement_mod": 1.143,
+          "crouch_movement_mod": 1.087,
+          "movement_mod": 1.089
+        }
+      },
+      {
+        "name": "Baron Riser",
+        "mods": {
+          "gun_kick_mod": 0.993,
+          "horiz_recoil_mod": 0.9,
+          "crouch_movement_mod": 1.087,
+          "movement_mod": 1.089,
+          "sprint_mod": 1.028
+        }
+      },
+      {
+        "name": "Warden Folding Stock",
+        "mods": {
+          "crouch_movement_mod": 1.391,
+          "movement_mod": 1.222,
+          "sprint_mod": 1.028
+        }
+      },
+      {
+        "name": "LTI Skeleton Stock",
+        "mods": {
+          "ads_mod": 0.926,
+          "ads_movement_mod": 1.25,
+          "flinch_resistance_mod": 1.145
+        }
+      },
+      {
+        "name": "Propulsion Stock",
+        "mods": {
+          "ads_mod": 1.111,
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85,
+          "ads_movement_mod": 0.857
+        }
+      },
+      {
+        "name": "Trench Tactical Stock",
+        "mods": {
+          "hipfire_max_mod": 0.85
+        }
+      },
+      {
+        "name": "FTAC Hybrid Stock",
+        "mods": {
+          "ads_mod": 1.074,
+          "gun_kick_mod": 0.95,
+          "vert_recoil_mod": 0.95,
+          "horiz_recoil_mod": 0.951,
+          "flinch_resistance_mod": 0.509
+        }
+      }
     ]
-  },
-  "_universal": "OPTIC/STOCK/REAR GRIP/LASER/COMB = BO7-Pool"
+  }
 }

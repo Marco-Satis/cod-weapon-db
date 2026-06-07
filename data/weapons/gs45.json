@@ -3,56 +3,272 @@
   "name": "GS45",
   "class": "Pistol",
   "game": "bo6",
+  "weapon_type": "Pistols",
   "in_warzone": true,
-  "source": "truegamedata",
+  "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
   "note": "Off-Meta BO6 Pistol (.45 ACP, 286 RPM, 10-round). reload roh '2430 s' -> 2.43.",
-  "extraction": "weapon-specific-only",
   "base": {
     "rpm": 286,
     "mag": 10,
-    "reload_s": 2.43,
+    "reload_s": 2430,
     "ads_ms": 170,
-    "velocity_ms": 375,
-    "move_ms": 5.1,
     "sprint_to_fire_ms": 110,
-    "sprint_ms": 6.4
+    "velocity_ms": 375,
+    "move_speed": 5.1,
+    "crouch_move_speed": 2.4,
+    "ads_move_speed": 3.8,
+    "sprint_speed": 6.4,
+    "swap_speed": 700,
+    "gun_kick": 45,
+    "vert_recoil": 63.42,
+    "horiz_recoil": 39.51,
+    "idle_sway": 0.1,
+    "hipfire_max": 7.25,
+    "flinch_resistance": 0.2,
+    "target_flinch": 0.6
   },
+  "damage": [
+    {
+      "head": 75,
+      "neck": 50,
+      "chest": 50,
+      "stomach": 50,
+      "upperleg": 50,
+      "lowerleg": 50,
+      "upperarm": 50,
+      "lowerarm": 50,
+      "dropoff": 0,
+      "base_rpm": 286,
+      "final_rpm": 286,
+      "rpm_mod": 1
+    },
+    {
+      "head": 66,
+      "neck": 44,
+      "chest": 44,
+      "stomach": 44,
+      "upperleg": 44,
+      "lowerleg": 44,
+      "upperarm": 44,
+      "lowerarm": 44,
+      "dropoff": 30.4,
+      "base_rpm": 286,
+      "final_rpm": 286,
+      "rpm_mod": 1
+    }
+  ],
   "slots": {
-    "AMMUNITION": [
-      "9mm Hardened Rounds :: -25.8% Range | -15% Bullet Velocity",
-      ".50 Pistol Frangible :: -5.2% Range",
-      ".50 Pistol Hollowpoint",
-      ".50 Pistol Armor Piercing",
-      ".50 Pistol Overpressured +P :: +80% Target Flinch",
-      ".500 AET Rounds :: -30% Target Flinch | -20% Bullet Velocity"
-    ],
     "BARREL": [
-      "Gain-Twist Barrel :: +35% Bullet Velocity",
-      "Long Barrel :: +36.7% Range",
-      "Reinforced Barrel :: +26.7% Range | +20% Bullet Velocity",
-      "Short Barrel",
-      "CHF Barrel :: +49% Gun Kick | +20% Horiz. Recoil | +50% Vert. Recoil"
+      {
+        "name": "Gain-Twist Barrel",
+        "mods": {
+          "bv_mod": 1.35
+        }
+      },
+      {
+        "name": "Long Barrel",
+        "mods": {
+          "range_mod": 1.36667
+        }
+      },
+      {
+        "name": "Reinforced Barrel",
+        "mods": {
+          "range_mod": 1.26667,
+          "bv_mod": 1.2
+        }
+      },
+      {
+        "name": "Short Barrel"
+      },
+      {
+        "name": "CHF Barrel",
+        "mods": {
+          "gun_kick_mod": 1.49,
+          "vert_recoil_mod": 1.5,
+          "horiz_recoil_mod": 1.2
+        }
+      }
     ],
     "FIRE MODS": [
-      "Rapid Fire :: Does not modify damage profile | +7.7% Fire Rate | +14.8% Gun Kick | +10% Horiz. Recoil | +15% Vert. Recoil",
-      ".45 ACP Overpressured :: +20% Bullet Velocity",
-      "Recoil Springs :: -7% Gun Kick | -7% Horiz. Recoil | -7% Vert. Recoil",
-      ".45 ACP FMJ"
+      {
+        "name": "Rapid Fire",
+        "mods": {
+          "gun_kick_mod": 1.148,
+          "vert_recoil_mod": 1.15,
+          "horiz_recoil_mod": 1.1,
+          "rpm_mod": 1.077
+        }
+      },
+      {
+        "name": ".45 ACP Overpressured",
+        "mods": {
+          "bv_mod": 1.2
+        }
+      },
+      {
+        "name": "Recoil Springs",
+        "mods": {
+          "gun_kick_mod": 0.93,
+          "vert_recoil_mod": 0.93,
+          "horiz_recoil_mod": 0.93
+        }
+      },
+      {
+        "name": ".45 ACP FMJ"
+      }
+    ],
+    "LASER": [
+      {
+        "name": "Steady Aim Laser",
+        "mods": {
+          "hipfire_max_mod": 0.8
+        }
+      },
+      {
+        "name": "Fast Motion Laser"
+      },
+      {
+        "name": "Tactical Laser"
+      },
+      {
+        "name": "Strelok Laser"
+      },
+      {
+        "name": "Target Laser"
+      }
     ],
     "MAGAZINE": [
-      "Extended Mag I :: +7% Reload",
-      "Fast Mag I :: -8.8% ADS Time | -24.7% Reload | -9.1% Sprint to Fire",
-      "Extended Mag II :: +11.8% ADS Time | +19.3% Reload | +18.2% Sprint to Fire",
-      "Fast Mag II :: -14.7% ADS Time | -25% Reload | -18.2% Sprint to Fire"
+      {
+        "name": "Extended Mag I",
+        "mods": {
+          "reload_mod": 1.07
+        }
+      },
+      {
+        "name": "Fast Mag I",
+        "mods": {
+          "ads_mod": 0.912,
+          "stf_mod": 0.909,
+          "reload_mod": 0.753
+        }
+      },
+      {
+        "name": "Extended Mag II",
+        "mods": {
+          "ads_mod": 1.118,
+          "stf_mod": 1.182,
+          "reload_mod": 1.193
+        }
+      },
+      {
+        "name": "Fast Mag II",
+        "mods": {
+          "ads_mod": 0.853,
+          "stf_mod": 0.818,
+          "reload_mod": 0.75
+        }
+      }
     ],
     "MUZZLE": [
-      "Suppressor",
-      "Compensator :: -28.6% Gun Kick | -30% Vert. Recoil",
-      "Muzzle Brake",
-      "Ported Compensator :: -23.9% Gun Kick | -25% Vert. Recoil",
-      "Monolithic Suppressor :: +10% Range | +20% Bullet Velocity | +32.4% ADS Time"
+      {
+        "name": "Suppressor"
+      },
+      {
+        "name": "Compensator",
+        "mods": {
+          "gun_kick_mod": 0.714,
+          "vert_recoil_mod": 0.7
+        }
+      },
+      {
+        "name": "Muzzle Brake"
+      },
+      {
+        "name": "Ported Compensator",
+        "mods": {
+          "gun_kick_mod": 0.761,
+          "vert_recoil_mod": 0.75
+        }
+      },
+      {
+        "name": "Monolithic Suppressor",
+        "mods": {
+          "ads_mod": 1.324,
+          "range_mod": 1.1,
+          "bv_mod": 1.2
+        }
+      }
+    ],
+    "OPTIC": [
+      {
+        "name": "Remuda Mini Reflex"
+      },
+      {
+        "name": "Otero Micro Dot"
+      },
+      {
+        "name": "Kepler Microflex"
+      },
+      {
+        "name": "Merlin Mini"
+      },
+      {
+        "name": "Accu-Spot Reflex"
+      },
+      {
+        "name": "Kepler Pistol Scope",
+        "mods": {
+          "ads_mod": 1.294,
+          "idle_sway_mod": 2
+        }
+      }
+    ],
+    "REAR GRIP": [
+      {
+        "name": "Quickdraw Grip",
+        "mods": {
+          "ads_mod": 0.559
+        }
+      },
+      {
+        "name": "Assault Grip",
+        "mods": {
+          "stf_mod": 0.682
+        }
+      },
+      {
+        "name": "Commando Grip",
+        "mods": {
+          "ads_mod": 0.794,
+          "stf_mod": 0.864
+        }
+      },
+      {
+        "name": "Ergonomic Grip",
+        "mods": {
+          "ads_mod": 0.735
+        }
+      },
+      {
+        "name": "CQB Grip",
+        "mods": {
+          "stf_mod": 0.773
+        }
+      }
+    ],
+    "STOCK": [
+      {
+        "name": "Akimbo GS45",
+        "mods": {
+          "gun_kick_mod": 0.952,
+          "vert_recoil_mod": 0.95,
+          "hipfire_max_mod": 1.25,
+          "reload_mod": 1.165,
+          "swap_speed_mod": 1.14
+        }
+      }
     ]
-  },
-  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO6-Pool (ref lc10.json)"
+  }
 }

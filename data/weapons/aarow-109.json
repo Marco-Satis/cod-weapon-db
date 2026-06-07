@@ -1,0 +1,15 @@
+{
+  "id": "aarow-109",
+  "name": "AAROW 109",
+  "class": "Launcher",
+  "game": "bo7",
+  "weapon_type": "Launcher",
+  "in_warzone": true,
+  "source": "callofduty.com + Fandom + Game8/Dexerto/gamesatlas (Roster-Recherche, non-TGD)",
+  "data_version": "S4_2026-06-07",
+  "note": "Hybrid: Lock-on fuer Fahrzeuge + Scorestreaks; auch Free-Fire moeglich; Zombies-Upgrade BAALIST AARTILLERY. Keine numerischen TGD-Stats.",
+  "base": {},
+  "slots": {},
+  "subclass": "Hybrid Launcher (Rocket)",
+  "unlock": "Launch (Standard, default)"
+}

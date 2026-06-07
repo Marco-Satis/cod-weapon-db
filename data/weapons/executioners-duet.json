@@ -1,0 +1,15 @@
+{
+  "id": "executioners-duet",
+  "name": "Executioner's Duet",
+  "class": "Melee",
+  "game": "bo7",
+  "weapon_type": "Melee",
+  "in_warzone": true,
+  "source": "callofduty.com + Fandom + Game8/Dexerto/gamesatlas (Roster-Recherche, non-TGD)",
+  "data_version": "S4_2026-06-07",
+  "note": "Hoher Schaden, kurze Reichweite, sehr schnelle Angriffsgeschwindigkeit. [Konfidenz wahrscheinlich - S4-Mid-Season-Unlock zum Recherche-Zeitpunkt nicht final offenbart.]",
+  "base": {},
+  "slots": {},
+  "subclass": "Axe",
+  "unlock": "Season 4 - Mid-Season Event (Event-Details offen)"
+}

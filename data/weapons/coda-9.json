@@ -1,24 +1,103 @@
 {
   "id": "coda-9",
   "name": "Coda 9",
-  "class": "SMG",
-  "game": "bo6",
+  "class": "Pistol",
+  "game": "bo7",
+  "weapon_type": "Pistols",
   "in_warzone": true,
-  "source": "truegamedata",
+  "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
-  "note": "Off-Meta BO6 SMG (9mm, 938 RPM, 20-round). nSlots=0 in TGD S3.5 (kein Builder-Daten, base-only wie REV-46/Dresden). Aufsatz-Deltas via codmunity-S4/TGD-S4-Update nachziehen.",
-  "extraction": "base-only",
+  "note": "Off-Meta BO7 Pistol (vollauto) (9mm, 938 RPM, 20-round). nSlots=0 in TGD S3.5 (kein Builder-Daten, base-only wie REV-46/Dresden). Aufsatz-Deltas via codmunity-S4/TGD-S4-Update nachziehen.",
   "base": {
     "rpm": 938,
     "mag": 20,
-    "reload_s": 2.38,
+    "reload_s": 2.375,
     "ads_ms": 180,
-    "velocity_ms": 280,
-    "move_ms": 5.1,
     "sprint_to_fire_ms": 120,
-    "sprint_ms": 7.5,
-    "zoom_x": 0
+    "velocity_ms": 280,
+    "move_speed": 5.1,
+    "crouch_move_speed": 2.6,
+    "ads_move_speed": 3.8,
+    "sprint_speed": 7.5,
+    "gun_kick": 24.53,
+    "vert_recoil": 34.32,
+    "horiz_recoil": 15.29,
+    "idle_sway": 0.1,
+    "hipfire_max": 7,
+    "flinch_resistance": 0.2
   },
+  "damage": [
+    {
+      "head": 30,
+      "neck": 28,
+      "chest": 28,
+      "stomach": 25,
+      "upperleg": 25,
+      "lowerleg": 25,
+      "upperarm": 28,
+      "lowerarm": 28,
+      "dropoff": 0,
+      "base_rpm": 938,
+      "final_rpm": 938,
+      "rpm_mod": 1
+    },
+    {
+      "head": 25,
+      "neck": 23,
+      "chest": 23,
+      "stomach": 20,
+      "upperleg": 20,
+      "lowerleg": 20,
+      "upperarm": 23,
+      "lowerarm": 23,
+      "dropoff": 8.3,
+      "base_rpm": 938,
+      "final_rpm": 938,
+      "rpm_mod": 1
+    },
+    {
+      "head": 22,
+      "neck": 20,
+      "chest": 20,
+      "stomach": 18,
+      "upperleg": 18,
+      "lowerleg": 18,
+      "upperarm": 20,
+      "lowerarm": 20,
+      "dropoff": 18,
+      "base_rpm": 938,
+      "final_rpm": 938,
+      "rpm_mod": 1
+    }
+  ],
   "slots": {},
-  "_universal": "keine Slot-Daten in S3.5 (S4-Neuwaffe-Gap)"
+  "meta_build": [
+    {
+      "label": "Close Range",
+      "source": "codmunity-S4 + warzoneloadout.games",
+      "confidence": "bestaetigt",
+      "attachments": [
+        {
+          "slot": "Muzzle",
+          "attachment": "H-9mm Precision Comp"
+        },
+        {
+          "slot": "Barrel",
+          "attachment": "6.3\" Greaves Halberd Barrel"
+        },
+        {
+          "slot": "Magazine",
+          "attachment": "Hellgate Stick Mag"
+        },
+        {
+          "slot": "Rear Grip",
+          "attachment": "ST3-Gloria Grip"
+        },
+        {
+          "slot": "Fire Mods",
+          "attachment": "Recoil Sync Unit"
+        }
+      ]
+    }
+  ]
 }

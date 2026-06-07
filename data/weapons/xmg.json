@@ -3,50 +3,452 @@
   "name": "XMG",
   "class": "LMG",
   "game": "bo6",
+  "weapon_type": "LMG",
   "in_warzone": true,
-  "source": "truegamedata",
+  "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
   "note": "Off-Meta BO6 LMG (7.62 NATO, 697 RPM, 100-round, Belt-Fed-Option). reload roh '7960 s' -> 7.96. Universelle Slots = BO6-Pool. Weapon-spez: MUZZLE/BARREL/MAGAZINE/FIRE MODS.",
-  "extraction": "weapon-specific-only-BO-editorbound-split",
   "base": {
     "rpm": 697,
     "mag": 100,
-    "reload_s": 7.96,
+    "reload_s": 7960,
     "ads_ms": 380,
-    "velocity_ms": 810,
-    "move_ms": 4.4,
     "sprint_to_fire_ms": 249,
-    "sprint_ms": 5.8,
-    "zoom_x": 0
+    "velocity_ms": 810,
+    "move_speed": 4.4,
+    "crouch_move_speed": 1.6,
+    "ads_move_speed": 2.5,
+    "sprint_speed": 5.8,
+    "swap_speed": 1780,
+    "gun_kick": 16.02,
+    "vert_recoil": 49.29,
+    "horiz_recoil": 4.26,
+    "idle_sway": 0.53,
+    "hipfire_max": 10,
+    "flinch_resistance": 0.09,
+    "target_flinch": 0.85
   },
+  "damage": [
+    {
+      "head": 35,
+      "neck": 31,
+      "chest": 31,
+      "stomach": 31,
+      "upperleg": 31,
+      "lowerleg": 31,
+      "upperarm": 31,
+      "lowerarm": 31,
+      "dropoff": 0,
+      "base_rpm": 697,
+      "final_rpm": 697,
+      "rpm_mod": 1
+    },
+    {
+      "head": 32,
+      "neck": 29,
+      "chest": 29,
+      "stomach": 29,
+      "upperleg": 29,
+      "lowerleg": 29,
+      "upperarm": 29,
+      "lowerarm": 29,
+      "dropoff": 86.3,
+      "base_rpm": 697,
+      "final_rpm": 697,
+      "rpm_mod": 1
+    }
+  ],
   "slots": {
     "BARREL": [
-      "Gain-Twist Barrel :: +35% Bullet Velocity",
-      "Long Barrel :: +39.9% Range",
-      "Reinforced Barrel :: +24.9% Range",
-      "CHF Barrel :: Makes neck damage the same as head",
-      "Short Barrel"
+      {
+        "name": "Gain-Twist Barrel",
+        "mods": {
+          "bv_mod": 1.35
+        }
+      },
+      {
+        "name": "Long Barrel",
+        "mods": {
+          "range_mod": 1.39931
+        }
+      },
+      {
+        "name": "Reinforced Barrel",
+        "mods": {
+          "range_mod": 1.24884,
+          "bv_mod": 1.2
+        }
+      },
+      {
+        "name": "CHF Barrel",
+        "mods": {
+          "gun_kick_mod": 1.497,
+          "vert_recoil_mod": 1.5,
+          "horiz_recoil_mod": 1.249
+        }
+      },
+      {
+        "name": "Short Barrel"
+      }
     ],
     "FIRE MODS": [
-      "Rapid Fire :: -12% Bullet Velocity",
-      "7.62 NATO Overpressured :: +23% Bullet Velocity",
-      "Recoil Springs :: -11% Gun Kick",
-      "7.62 NATO FMJ"
+      {
+        "name": "Rapid Fire",
+        "mods": {
+          "gun_kick_mod": 1.151,
+          "vert_recoil_mod": 1.15,
+          "horiz_recoil_mod": 1.202,
+          "bv_mod": 0.88,
+          "rpm_mod": 1.118
+        }
+      },
+      {
+        "name": "7.62 NATO Overpressured",
+        "mods": {
+          "bv_mod": 1.23
+        }
+      },
+      {
+        "name": "Recoil Springs",
+        "mods": {
+          "gun_kick_mod": 0.89,
+          "vert_recoil_mod": 0.89,
+          "horiz_recoil_mod": 0.892
+        }
+      },
+      {
+        "name": "7.62 NATO FMJ"
+      }
+    ],
+    "LASER": [
+      {
+        "name": "Steady Aim Laser",
+        "mods": {
+          "hipfire_max_mod": 0.7
+        }
+      },
+      {
+        "name": "Fast Motion Laser"
+      },
+      {
+        "name": "Tactical Laser"
+      },
+      {
+        "name": "Strelok Laser"
+      },
+      {
+        "name": "Target Laser"
+      }
     ],
     "MAGAZINE": [
-      "Extended Mag I :: +4% Reload Time",
-      "Fast Mag I :: -3.9% ADS Time",
-      "Extended Mag II :: +9.2% ADS Time",
-      "Fast Mag II :: -6.6% ADS Time",
-      "Belt-Fed"
+      {
+        "name": "Extended Mag I",
+        "mods": {
+          "reload_mod": 1.04
+        }
+      },
+      {
+        "name": "Fast Mag I",
+        "mods": {
+          "ads_mod": 0.961,
+          "stf_mod": 0.96,
+          "reload_mod": 0.817
+        }
+      },
+      {
+        "name": "Extended Mag II",
+        "mods": {
+          "ads_mod": 1.092,
+          "stf_mod": 1.12,
+          "reload_mod": 1.08
+        }
+      },
+      {
+        "name": "Fast Mag II",
+        "mods": {
+          "ads_mod": 0.934,
+          "stf_mod": 0.92,
+          "reload_mod": 0.82
+        }
+      },
+      {
+        "name": "Belt-Fed"
+      }
     ],
     "MUZZLE": [
-      "Suppressor",
-      "Compensator :: -34.3% Gun Kick",
-      "Muzzle Brake",
-      "Ported Compensator :: -24.5% Gun Kick",
-      "Monolithic Suppressor :: +10% Range"
+      {
+        "name": "Suppressor"
+      },
+      {
+        "name": "Compensator",
+        "mods": {
+          "gun_kick_mod": 0.657,
+          "vert_recoil_mod": 0.65
+        }
+      },
+      {
+        "name": "Muzzle Brake"
+      },
+      {
+        "name": "Ported Compensator",
+        "mods": {
+          "gun_kick_mod": 0.755,
+          "vert_recoil_mod": 0.75
+        }
+      },
+      {
+        "name": "Monolithic Suppressor",
+        "mods": {
+          "ads_mod": 1.145,
+          "range_mod": 1.09954,
+          "bv_mod": 1.2
+        }
+      }
+    ],
+    "OPTIC": [
+      {
+        "name": "Kepler Microflex"
+      },
+      {
+        "name": "PrismaTech Reflex"
+      },
+      {
+        "name": "Volzhskiy Reflex"
+      },
+      {
+        "name": "Merlin Reflex"
+      },
+      {
+        "name": "Dobrych MF Reflex"
+      },
+      {
+        "name": "K&S Red Dot"
+      },
+      {
+        "name": "Kepler Red Dot"
+      },
+      {
+        "name": "Otero Red Dot"
+      },
+      {
+        "name": "OM3 '92 Holo"
+      },
+      {
+        "name": "Pinpoint Holoscout"
+      },
+      {
+        "name": "Accu-Spot Ultra Holo",
+        "mods": {
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "Jason Armory 2x",
+        "mods": {
+          "ads_mod": 1.026,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "Willis 3x",
+        "mods": {
+          "ads_mod": 1.039,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "PrismaTech 4x",
+        "mods": {
+          "ads_mod": 1.053,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "Dobrych 4x",
+        "mods": {
+          "ads_mod": 1.053,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "K&S Thermal Holo",
+        "mods": {
+          "gun_kick_mod": 0.75
+        }
+      },
+      {
+        "name": "Pinpoint Hybrid",
+        "mods": {
+          "ads_mod": 1.053,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "PrismaPoint Hybrid",
+        "mods": {
+          "ads_mod": 1.053,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "R&K Multizoom",
+        "mods": {
+          "ads_mod": 1.066,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Remuda Range Finder",
+        "mods": {
+          "ads_mod": 1.132,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "VMF Variable Scope",
+        "mods": {
+          "ads_mod": 1.132,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Redwell Custom Zoom",
+        "mods": {
+          "ads_mod": 1.132,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Otero Thermal 2x",
+        "mods": {
+          "ads_mod": 1.026,
+          "gun_kick_mod": 0.5
+        }
+      }
+    ],
+    "REAR GRIP": [
+      {
+        "name": "Quickdraw Grip",
+        "mods": {
+          "ads_mod": 0.763
+        }
+      },
+      {
+        "name": "Assault Grip",
+        "mods": {
+          "stf_mod": 0.675
+        }
+      },
+      {
+        "name": "Commando Grip",
+        "mods": {
+          "ads_mod": 0.876,
+          "stf_mod": 0.835
+        }
+      },
+      {
+        "name": "Ergonomic Grip",
+        "mods": {
+          "ads_mod": 0.85
+        }
+      },
+      {
+        "name": "CQB Grip",
+        "mods": {
+          "stf_mod": 0.755
+        }
+      }
+    ],
+    "STOCK": [
+      {
+        "name": "Light Stock",
+        "mods": {
+          "crouch_movement_mod": 1.562,
+          "movement_mod": 1.205
+        }
+      },
+      {
+        "name": "Infiltrator Stock",
+        "mods": {
+          "ads_movement_mod": 1.16
+        }
+      },
+      {
+        "name": "Heavy Stock",
+        "mods": {
+          "flinch_resistance_mod": 0.444
+        }
+      },
+      {
+        "name": "Combat Stock",
+        "mods": {
+          "ads_movement_mod": 1.08,
+          "flinch_resistance_mod": 0.667
+        }
+      },
+      {
+        "name": "Balanced Stock",
+        "mods": {
+          "ads_movement_mod": 1.08,
+          "crouch_movement_mod": 1.25,
+          "movement_mod": 1.091
+        }
+      },
+      {
+        "name": "Buffer Weight Stock",
+        "mods": {
+          "ads_mod": 1.184,
+          "gun_kick_mod": 0.879,
+          "vert_recoil_mod": 0.88,
+          "horiz_recoil_mod": 0.8,
+          "ads_movement_mod": 0.84,
+          "stf_mod": 1.12
+        }
+      }
+    ],
+    "UNDERBARREL": [
+      {
+        "name": "Vertical Foregrip",
+        "mods": {
+          "gun_kick_mod": 0.995,
+          "horiz_recoil_mod": 0.601
+        }
+      },
+      {
+        "name": "Lightweight Foregrip",
+        "mods": {
+          "idle_sway_mod": 0.491
+        }
+      },
+      {
+        "name": "Marksman Foregrip"
+      },
+      {
+        "name": "Precision Foregrip",
+        "mods": {
+          "gun_kick_mod": 0.998,
+          "horiz_recoil_mod": 0.8,
+          "idle_sway_mod": 0.698
+        }
+      },
+      {
+        "name": "Ranger Foregrip",
+        "mods": {
+          "gun_kick_mod": 0.998,
+          "horiz_recoil_mod": 0.8,
+          "sprint_mod": 1.086
+        }
+      },
+      {
+        "name": "Crossbar",
+        "mods": {
+          "ads_mod": 0.868,
+          "gun_kick_mod": 1.099,
+          "vert_recoil_mod": 1.1,
+          "ads_movement_mod": 1.16,
+          "idle_sway_mod": 1.151
+        }
+      }
     ]
-  },
-  "_universal": "OPTIC/UNDERBARREL/REAR GRIP/STOCK/LASER = BO6-Pool (ref lc10.json)"
+  }
 }

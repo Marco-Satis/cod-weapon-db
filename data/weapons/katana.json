@@ -1,0 +1,17 @@
+{
+  "id": "katana",
+  "name": "Katana",
+  "class": "Melee",
+  "game": "bo7",
+  "weapon_type": "Melee",
+  "in_warzone": true,
+  "source": "callofduty.com + Fandom + Game8/Dexerto/gamesatlas (Roster-Recherche, non-TGD)",
+  "data_version": "S4_2026-06-07",
+  "note": "Moderater Schaden + Geschwindigkeit; Charged Attack 55 Grad Trefferwinkel. Max Weapon-Level 30.",
+  "base": {
+    "range_m": 2
+  },
+  "slots": {},
+  "subclass": "Sword",
+  "unlock": "Season 3 - C.O.D.E. Navigator Event (7 Challenges, 8.-21. Mai 2026)"
+}

@@ -6,51 +6,117 @@
   "source_caveat": "Eigennamen verbatim Englisch. S4-Neuzuegae (Guardian-Track, Death Machine, Psych Grenade, Operator-Prestige) stammen aus dotesports-WebSearch-Snippets, NICHT direkt gefetchtem Volltext -> [LÜCKE 1], Snippet-Paraphrasen, mit Vorsicht. bo7endgame.com-Wiki zeigt Pre-S4-Stand (9 Tracks, 10 Major, 8 Minor).",
   "loadout_rule": "Vor jedem Endgame-Match: Waffen + Field Equipment + 2 Abilities waehlbar — 1 Minor + 1 Major. (dotesports, bo7endgame.com)",
   "skill_tracks": {
-    "slots_note": "Standard 3 Skill Tracks gleichzeitig (Rerolling moeglich). Mit Prestige 3 ein vierter equipbar.",
+    "slots_note": "9 Tracks, je 6 Skills (progressiv per Combat-Rating freigeschaltet). Man waehlt 3 Tracks (bei CR 1, 6, 16); Reroll moeglich. Prestige 3 = 4. Track equipbar. Quellen: destructoid + steamcommunity-Guide 3616441372 + dexerto (Skills verbatim 2026-06-06).",
+    "skills_per_track": 6,
+    "guardian_correction": "FRUEHER falsch als 10. Track gefuehrt (dotesports-Snippet). steamcommunity-Guide: 'Guardian' = Gegner-Archetyp, KEIN Skill-Track. Authoritative 9-Track-Liste enthaelt kein Guardian. -> entfernt.",
     "base": [
       {
         "track": "Gunner",
-        "focus": "Master your weapons, reload faster, aim sharper and electrify enemies."
+        "focus": "Waffen-Mastery: Reload, Swap, Aim, electrify.",
+        "skills": [
+          "Reload Speed",
+          "Fast Replate",
+          "Fast Weapon Swap",
+          "Ammo Auto-Refill",
+          "Aiming Expert (Accuracy + Fire-Speed in Bewegung)",
+          "Shocking Reload (Reload = Elektro-Discharge, Dmg+Stun)"
+        ]
       },
       {
         "track": "Surgeon",
-        "focus": "Stay alive and keep others fighting, heal fast, revive quicker, and fight back from the brink."
+        "focus": "Heal/Revive/Last-Stand.",
+        "skills": [
+          "Healthy Recovery",
+          "Last Stand Fighter",
+          "Agile Handling (Fire while sprinting)",
+          "Heal Faster",
+          "Fast Revive (+Move +Full-HP)",
+          "Off the Floor (Kill in Last-Stand = Self-Revive)"
+        ]
       },
       {
         "track": "Daredevil",
-        "focus": "Fly, slide and dive into chaos, your movement is a weapon and the ground hits back."
+        "focus": "Mobility-als-Waffe.",
+        "skills": [
+          "Dive Bomber (Dive = Concussive Blast)",
+          "Wingsuit Glider",
+          "Thick Skin (-Melee-Dmg)",
+          "Super Slider",
+          "Reload and Run (Speed nach Reload)",
+          "Slide Explosions (Slide/Dive = Explosion)"
+        ]
       },
       {
         "track": "Tactician",
-        "focus": "Master of the battlefield, boost your gear, outsmart your enemy, and control the flow of combat."
+        "focus": "Equipment-Optimierung.",
+        "skills": [
+          "Equipment Hound (+Equip-Ammo)",
+          "Quick Deploy",
+          "Hit and Run (Speed nach Equip-Kill)",
+          "Recharger (schnellere Ability/Equip-Recharge)",
+          "Quick Rounds Back",
+          "Pinata (Kill-Chance spawnt Live-Equipment)"
+        ]
       },
       {
         "track": "Berserker",
-        "focus": "Charge into battle, deal devastating damage, and regenerate through sheer aggression."
+        "focus": "Aggro-Damage + Regen-durch-Kills.",
+        "skills": [
+          "Fast Weapon Fire (+Feuerrate) [DMG]",
+          "Kills Regen Armor",
+          "Crit Chain Speed Boost",
+          "Endurance Sprinter (Reload im Sprint)",
+          "Fall Damage Reduction",
+          "Fall Explosions"
+        ]
       },
       {
         "track": "Bulldozer",
-        "focus": "Tank hits, shake off damage, and power through enemies with raw force and armor."
+        "focus": "Tank; 2 konditionale Dmg-Nodes.",
+        "skills": [
+          "Armor Regen",
+          "Point Blank (+Dmg Nahdistanz) [DMG]",
+          "Adrenaline Rush (+Dmg bei low HP) [DMG]",
+          "Revival Protection",
+          "Explosive Resistance",
+          "Tackle"
+        ]
       },
       {
         "track": "Phantom",
-        "focus": "Strike unseen and vanish fast, slip past danger, land critical blows from the shadows."
+        "focus": "Stealth + Positional-Crit.",
+        "skills": [
+          "Elusive Target (-Gegner-Accuracy)",
+          "Fast Melee (+66%)",
+          "Trap Avoidance",
+          "Silent Movement",
+          "Ambush (+50% Dmg von hinten, +100% Crit-Dmg von hinten auf Full-HP) [DMG]",
+          "Decoy (Echo-Unit bei Schaden)"
+        ]
       },
       {
         "track": "Eagle Eye",
-        "focus": "Sharpen focus for deadly precision, amplify critical hits, and make every shot count."
+        "focus": "DER Damage-Track: Crit-Amp.",
+        "skills": [
+          "Increased Crit Damage (+25% Crit-Dmg) [DMG]",
+          "Big Hit (+100% Crit-Dmg auf Full-HP-Gegner) [DMG]",
+          "Last Shots Plus (+100% Dmg bei <10% Mag) [DMG]",
+          "Rampage (rapid Kills = temp +Waffen-Dmg) [DMG]",
+          "Aim Faster (-15% ADS)",
+          "Armor Breaker (bricht Armor + AoE + Stun)"
+        ]
       },
       {
         "track": "Warband",
-        "focus": "Summon powerful allies and turn the tide of battle by amplifying their impact on the battle ground."
-      }
-    ],
-    "s4_addition": [
-      {
-        "track": "Guardian",
-        "focus": "Fokus auf Damage-Resistance + Supplies. Tank-Tree: mehr Schaden absorbieren, Teil reflektieren; ein Skill revived automatisch einen Teammate der nahe faellt.",
-        "source": "dotesports-Snippet",
-        "todo": true
+        "focus": "Summon-Allies + Dmg-Multiplikator.",
+        "skills": [
+          "Plague (Kills explodieren + konvertieren Gegner)",
+          "Bloodrunner (bis +30% Dmg aus rapid Multi-Kills, 8s) [DMG]",
+          "Smuggler",
+          "Healthhounds",
+          "Wirehand (Kills spawnen Angriffs-Drohnen)",
+          "Steelhand"
+        ]
       }
     ]
   },
@@ -211,7 +277,8 @@
   },
   "nightmare_skills": {
     "acquire": "Nach Eliminierung eines Guild Strike Boss -> Glitch Fracture clearen -> zufaelliger Nightmare Skill. Nur 1 gleichzeitig equipbar (Prestige 2 -> +1 Slot).",
-    "count_note": "6 total laut Wiki. [LÜCKE 2: dotesports-Snippet sagt '5 neu' — Diskrepanz, wahrscheinlich 6 total].",
+    "count_note": "6 bestaetigt. Marco 2026-06-06: Skill-Pfade gesamt = 24 = 9 Skill-Tracks + 9 Exotic-Skills + 6 Nightmare-Skills -> Nightmare = fix 6 (loest fruehere dotesports-'5'-Diskrepanz).",
+    "skill_paths_total": "24 gesamt: 9 Tracks (je 6 Skills) + 9 Exotic-Skills (je 3 Tiers) + 6 Nightmare-Skills (je 3 Tiers). Verifiziert Marco 2026-06-06.",
     "list": [
       {
         "skill": "Nova Strike",
@@ -314,81 +381,233 @@
       "todo": true
     }
   },
-  "affinities": {
-    "system_note": "Affinity = elementarer Ammo-Typ im ersten Trait-Slot (endet auf 'Rounds'). World-drop Exotics haben Affinity fest; Workbench-gebaute nicht. Gegnertypen gegen bestimmte Elemente schwach -> Affinity-Match = sig. Damage-Bonus. Jede Exotic-Waffe: 1 (selten 2) Exotic Effect + 1 Utility Bonus.",
-    "community_favorites": "Chain Lightning (Shock) + Blast Chain (Shrapnel) am staerksten fuers Farmen (WebSearch/ggwtb).",
+  "weapon_trait_system": {
+    "correction_note": "KORRIGIERT 2026-06-06 (Marco-Hinweis + bo7endgame.com-Wiki). Frueheres 'affinities'-Modell war falsch. Auf der WAFFE (Exotic-Workbench/Fabricator) sitzen 2 Trait-Slots: (1) Exotic Effect = elementarer 'Munitionsmod', (2) Utility Bonus = die 'Weapon Ability'. NICHT zu verwechseln mit (a) Operator-Skills (skill_tracks/major/minor/exotic_skills/nightmare_skills) und (b) Zombies-Ammo-Mods (eigenes System, siehe zombies_ammo_mods).",
+    "slot_structure": "Pro Waffe GENAU 2 Slots: 1 Ammo Mod (= Exotic Effect / das Element) + 1 Ability (= Utility Bonus). VERIFIZIERT in-game (Marco 2026-06-06). Named-Exotics: feste Affinity + Zugang zu affinity-exklusiven Ability-Optionen + 'Big Game'. Custom->Exotic (eigene Loadout-Waffe): Ammo Mod frei rollbar + Standard-Ability, ABER KEINE affinity-exklusiven Optionen.",
+    "in_game_labels": "Gunsmith-Slot-Namen: 'Ammo Mod' (= Exotic Effect) und 'Ability' (= Utility Bonus). bo7endgame.com-Wiki-Begriffe (Exotic Effect / Utility Bonus) bezeichnen dieselben 2 Slots.",
+    "source": "bo7endgame.com/gear/exotics-and-affinities + /weapons/utility-bonuses (Volltext-Fetch 2026-06-06); Slot-Zahl in-game von Marco bestaetigt"
+  },
+  "weapon_exotic_effects": {
+    "note": "Slot 1 = elementarer Schadens-/Ammo-Typ ('Munitionsmod' am Workbench). 8 total. Bei Named-Exotics als feste Affinity; bei Custom->Exotic frei rollbar. Gegnertyp-Schwaeche gegen Element = Damage-Bonus.",
     "list": [
       {
-        "affinity": "Frost Rounds",
-        "character": "Chill/Slow",
-        "utility_bonuses": [
-          "Flash Freeze",
-          "Ice Cloud",
-          "Big Game"
-        ]
+        "effect": "Frost",
+        "character": "Chill/Slow"
       },
       {
-        "affinity": "Graviton Rounds",
-        "character": "Pull/Displace",
-        "utility_bonuses": [
-          "Black Hole",
-          "Warp",
-          "Big Game"
-        ]
+        "effect": "Graviton",
+        "character": "Pull/Displace (Black Hole)"
       },
       {
-        "affinity": "Incendiary Rounds",
-        "character": "Fire",
-        "utility_bonuses": [
-          "Firebomb",
-          "Petrol",
-          "Big Game"
-        ]
+        "effect": "Incendiary",
+        "character": "Fire/Burn"
       },
       {
-        "affinity": "Mortar Rounds",
-        "character": "Explosiv",
-        "utility_bonuses": [
-          "Fire Wheel",
-          "Starburst",
-          "Big Game"
-        ]
+        "effect": "Mortar",
+        "character": "Explosiv (zielsuchende Mortar)"
       },
       {
-        "affinity": "Neuro-Disruption Rounds",
-        "character": "Control/Convert",
-        "utility_bonuses": [
-          "Mass Disruption",
-          "Neural Attraction",
-          "Big Game"
-        ]
+        "effect": "Neuro-Disruption",
+        "character": "Control/Convert"
       },
       {
-        "affinity": "Photon Rounds",
-        "character": "Light/Heal",
-        "utility_bonuses": [
-          "Blessing",
-          "Dual Action",
-          "Big Game"
-        ]
+        "effect": "Photon",
+        "character": "Light/Heal"
       },
       {
-        "affinity": "Shock Rounds",
-        "character": "Stun",
-        "utility_bonuses": [
+        "effect": "Shock",
+        "character": "Stun"
+      },
+      {
+        "effect": "Shrapnel",
+        "character": "Fragment"
+      }
+    ]
+  },
+  "weapon_utility_bonuses": {
+    "note": "Slot 2 = 'Weapon Ability'. Standard-Bonusse rollt JEDE Exotic-Waffe (auch Custom). Affinity-exklusive Bonusse + Big Game nur Named-Exotics. Wiki: affinity-exklusive aktuell OUTCLASSED von Standard (Sharpshooter/Explosive Bullets/Grenade Bullets).",
+    "standard": [
+      {
+        "name": "Sharpshooter",
+        "effect": "Oberkoerper-Treffer machen Headshot-Damage"
+      },
+      {
+        "name": "Explosive Bullets",
+        "effect": "Bullets explodieren, AoE-Zusatzschaden"
+      },
+      {
+        "name": "Grenade Bullets",
+        "effect": "Bullets explodieren, AoE-Zusatzschaden"
+      },
+      {
+        "name": "Zero Waste",
+        "effect": "50% Chance Bullets verbrauchen kein Ammo"
+      },
+      {
+        "name": "Recoil Delete",
+        "effect": "Recoil-Kontrolle stark verbessert"
+      },
+      {
+        "name": "Combat Ready",
+        "effect": "ADS- + Sprint-to-Fire-Speed besser"
+      },
+      {
+        "name": "Fast Fire",
+        "effect": "Hoehere Feuerrate"
+      },
+      {
+        "name": "Escalation",
+        "effect": "Feuerrate steigt bei gehaltenem Trigger"
+      },
+      {
+        "name": "Ammo Recharger",
+        "effect": "Ammo fuellt sich auf waehrend stowed"
+      },
+      {
+        "name": "Ammo Drain",
+        "effect": "Kills geben +8 Rounds in die Mag"
+      },
+      {
+        "name": "Free Fire",
+        "effect": "Vereint alle Munition in eine grosse Mag"
+      },
+      {
+        "name": "From the Hip",
+        "effect": "Bessere Hipfire-Spread + Recoil"
+      },
+      {
+        "name": "Hip-Inferno",
+        "effect": "Hipfire-Schuesse machen mehr Schaden"
+      },
+      {
+        "name": "Kill and Run",
+        "effect": "Kills geben temporaeren Movement-Boost"
+      },
+      {
+        "name": "Lifestyle",
+        "effect": "Headshot-Kills regenerieren HP"
+      },
+      {
+        "name": "Lightspeed",
+        "effect": "Alle Movement-Speeds erhoeht"
+      },
+      {
+        "name": "Longburst",
+        "effect": "Mehr Bullets pro Burst"
+      },
+      {
+        "name": "Longshot",
+        "effect": "Erweitert Damage-Range, weniger Recoil"
+      },
+      {
+        "name": "Melee Reload",
+        "effect": "Mag fuellt sofort nach Melee-Hit"
+      },
+      {
+        "name": "Reload Swap",
+        "effect": "Waffe ist beim Swap immer voll geladen"
+      },
+      {
+        "name": "Slasher",
+        "effect": "Schnellere Melee-Attack-Speed"
+      },
+      {
+        "name": "Ultra-light",
+        "effect": "Movement-Speed im ADS unveraendert"
+      }
+    ],
+    "weapon_specific": [
+      {
+        "name": "Akimbo Velox 5.7",
+        "effect": "Dual-Wield (nur Velox 5.7)"
+      }
+    ],
+    "affinity_exclusive": {
+      "note": "NUR Named-Exotics. Laut Wiki outclassed von Standard-Bonussen.",
+      "by_effect": {
+        "Shock": [
           "Chain Lightning",
-          "Lightning Strike",
-          "Big Game"
+          "Lightning Strike"
+        ],
+        "Shrapnel": [
+          "Blast Chain",
+          "Blast Shield"
+        ],
+        "Mortar": [
+          "Fire Wheel",
+          "Star Burst"
+        ],
+        "Frost": [
+          "Flash Freeze",
+          "Ice Cloud"
+        ],
+        "Graviton": [
+          "Black Hole",
+          "Warp"
+        ],
+        "Incendiary": [
+          "Firebomb",
+          "Petrol"
+        ],
+        "Neuro-Disruption": [
+          "Mass Disruption",
+          "Neural Attraction"
+        ],
+        "Photon": [
+          "Blessing",
+          "Dual Action"
         ]
       },
+      "universal": [
+        {
+          "name": "Big Game",
+          "effect": "Ammo-Mod/Effect wirkt auch auf Elite-Gegner"
+        }
+      ]
+    }
+  },
+  "zombies_ammo_mods": {
+    "note": "EIGENES System, NUR Zombies (nicht Endgame). Arsenal-Machine, 500 Salvage, 1 gleichzeitig equipbar, per Augment verbesserbar. Quelle: Game8/565763.",
+    "list": [
       {
-        "affinity": "Shrapnel Rounds",
-        "character": "Fragment",
-        "utility_bonuses": [
-          "Blast Chain (3 Folge-Explosionen)",
-          "Blast Shield",
-          "Big Game"
-        ]
+        "name": "Dead Wire",
+        "unlock": "sofort",
+        "effect": "Electric, Chance Normal/Special zu stunnen"
+      },
+      {
+        "name": "Cryo Freeze",
+        "unlock": 12,
+        "effect": "Frost, Chance zu verlangsamen"
+      },
+      {
+        "name": "Fire Works",
+        "unlock": 18,
+        "effect": "Chance Feuerwerk bei Treffer"
+      },
+      {
+        "name": "Napalm Burst",
+        "unlock": 35,
+        "effect": "Fire, Chance Burn"
+      },
+      {
+        "name": "Shadow Rift",
+        "unlock": 44,
+        "effect": "Shadow, Chance Black Hole"
+      },
+      {
+        "name": "Brain Rot",
+        "unlock": 51,
+        "effect": "Toxic, Chance Gegner->Ally"
+      },
+      {
+        "name": "Light Mend",
+        "unlock": "sofort",
+        "effect": "Light, Heilung fuer verletzte Allies"
+      },
+      {
+        "name": "Shatter Blast",
+        "unlock": "sofort",
+        "effect": "Chance Explosion die Armor zerstoert"
       }
     ]
   },

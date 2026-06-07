@@ -3,57 +3,286 @@
   "name": "1911",
   "class": "Pistol",
   "game": "bo7",
+  "weapon_type": "Pistols",
   "in_warzone": true,
-  "source": "truegamedata",
+  "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
   "note": "Off-Meta. .45 Cal. Basis fuer Endgame-Exotic 'Reboot'. Universelle Slots (OPTIC/REAR GRIP/STOCK/LASER) = BO7-Standard-Pool.",
-  "extraction": "weapon-specific-only",
-  "all_slots": [
-    "MUZZLE",
-    "OPTIC",
-    "BARREL",
-    "MAGAZINE",
-    "REAR GRIP",
-    "STOCK",
-    "LASER",
-    "FIRE MODS"
-  ],
   "base": {
     "rpm": 400,
     "mag": 7,
-    "reload_s": 2.34,
+    "reload_s": 2.337,
     "ads_ms": 150,
-    "velocity_ms": 450,
-    "move_ms": 5.1,
     "sprint_to_fire_ms": 120,
-    "sprint_ms": 7.5
+    "velocity_ms": 450,
+    "move_speed": 5.1,
+    "crouch_move_speed": 2.6,
+    "ads_move_speed": 3.8,
+    "sprint_speed": 7.5,
+    "gun_kick": 36.63,
+    "vert_recoil": 52.66,
+    "horiz_recoil": 32.66,
+    "idle_sway": 0.1,
+    "hipfire_max": 7,
+    "flinch_resistance": 0.2
   },
+  "damage": [
+    {
+      "head": 80,
+      "neck": 60,
+      "chest": 60,
+      "stomach": 40,
+      "upperleg": 40,
+      "lowerleg": 40,
+      "upperarm": 60,
+      "lowerarm": 60,
+      "dropoff": 0,
+      "base_rpm": 400,
+      "final_rpm": 400,
+      "rpm_mod": 1
+    },
+    {
+      "head": 60,
+      "neck": 45,
+      "chest": 45,
+      "stomach": 30,
+      "upperleg": 30,
+      "lowerleg": 30,
+      "upperarm": 45,
+      "lowerarm": 45,
+      "dropoff": 32.5,
+      "base_rpm": 400,
+      "final_rpm": 400,
+      "rpm_mod": 1
+    }
+  ],
   "slots": {
     "BARREL": [
-      "6.4\" Long Slide Barrel :: +35% Range",
-      "5.1\" Tessellate Barrel :: +40% Bullet Velocity",
-      "4.5\" Torx Reinforced Barrel :: +20% Range | +25% Bullet Velocity",
-      "3.7\" Vela Short Barrel :: -13.3% ADS Time | -20.8% Sprint to Fire",
-      "4.5\" LTI Lout Barrel :: +46.2% Gun Kick | +20% Horiz. Recoil | +50% Vert. Recoil"
+      {
+        "name": "6.4\" Long Slide Barrel",
+        "mods": {
+          "range_mod": 1.35
+        }
+      },
+      {
+        "name": "5.1\" Tessellate Barrel",
+        "mods": {
+          "bv_mod": 1.4
+        }
+      },
+      {
+        "name": "4.5\" Torx Reinforced Barrel",
+        "mods": {
+          "range_mod": 1.2,
+          "bv_mod": 1.25
+        }
+      },
+      {
+        "name": "3.7\" Vela Short Barrel",
+        "mods": {
+          "ads_mod": 0.867,
+          "stf_mod": 0.792
+        }
+      },
+      {
+        "name": "4.5\" LtI Lout Barrel",
+        "mods": {
+          "gun_kick_mod": 1.462,
+          "vert_recoil_mod": 1.5,
+          "horiz_recoil_mod": 1.2
+        }
+      }
     ],
-    "FIRE_MODS": [
-      "Sear Fast Trigger :: +11% Fire Rate | +19.3% Gun Kick | +15% Horiz. Recoil | +20% Vert. Recoil",
-      "45 Cal Overpressured :: +15% Range | +15% Bullet Velocity",
-      "Recoil Sync Unit :: -10% Gun Kick | -10% Horiz. Recoil | -10% Vert. Recoil",
-      "45 Cal FMJ"
+    "FIRE MODS": [
+      {
+        "name": "Sear Fast Trigger",
+        "mods": {
+          "gun_kick_mod": 1.193,
+          "vert_recoil_mod": 1.2,
+          "horiz_recoil_mod": 1.15,
+          "rpm_mod": 1.11
+        }
+      },
+      {
+        "name": "45 Cal Overpressured",
+        "mods": {
+          "range_mod": 1.15,
+          "bv_mod": 1.15
+        }
+      },
+      {
+        "name": "Recoil Sync Unit",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "45 Cal FMJ"
+      }
+    ],
+    "LASER": [
+      {
+        "name": "Vector Sync Laser",
+        "mods": {
+          "hipfire_max_mod": 0.85
+        }
+      },
+      {
+        "name": "Tactical Laser"
+      },
+      {
+        "name": "Rapid Sight Motion Laser",
+        "mods": {
+          "ads_mod": 0.9,
+          "stf_mod": 0.833
+        }
+      },
+      {
+        "name": "Airglide Target Laser"
+      },
+      {
+        "name": "Jager Rapid Zero-X Laser"
+      }
     ],
     "MAGAZINE": [
-      "Sirius Extended Mag",
-      "Rigel Extended II :: +20% ADS Time | +8.1% Reload Time | +16.7% Sprint to Fire",
-      "Clepen Fast Mag :: -6.7% ADS Time | -4.1% Reload Time | -8.3% Sprint to Fire"
+      {
+        "name": "Sirius Extended Mag"
+      },
+      {
+        "name": "Rigel Extended II",
+        "mods": {
+          "ads_mod": 1.2,
+          "stf_mod": 1.167,
+          "reload_mod": 1.081
+        }
+      },
+      {
+        "name": "Clepen Fast Mag",
+        "mods": {
+          "ads_mod": 0.933,
+          "stf_mod": 0.917,
+          "reload_mod": 0.959
+        }
+      }
     ],
     "MUZZLE": [
-      "Full-Auto Muzzle :: -85% Range | +18% Fire Rate | +20% Max Hipfire Area",
-      "Redwell Shade-X Suppressor :: -10% Range | -13% Bullet Velocity | -11% Gun Kick | -11% Horiz. Recoil | -11% Vert. Recoil",
-      "P-45 Strike Comp",
-      "Caster-X1 Compensator :: -12.8% Gun Kick | -15% Vert. Recoil",
-      "Monolithic Suppressor :: +10% Range | +20% Bullet Velocity | +36.7% ADS Time"
+      {
+        "name": "Full-Auto Muzzle",
+        "mods": {
+          "hipfire_max_mod": 1.2,
+          "range_mod": 0.15,
+          "rpm_mod": 1.18
+        }
+      },
+      {
+        "name": "Redwell Shade-X Suppressor",
+        "mods": {
+          "gun_kick_mod": 0.89,
+          "vert_recoil_mod": 0.89,
+          "horiz_recoil_mod": 0.89,
+          "range_mod": 0.9,
+          "bv_mod": 0.87
+        }
+      },
+      {
+        "name": "P-45 Strike Comp"
+      },
+      {
+        "name": "Caster-X1 Compensator",
+        "mods": {
+          "gun_kick_mod": 0.872,
+          "vert_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Monolithic Suppressor",
+        "mods": {
+          "ads_mod": 1.367,
+          "range_mod": 1.1,
+          "bv_mod": 1.2
+        }
+      }
     ],
-    "_universal": "OPTIC/REAR GRIP/STOCK/LASER = BO7-Standard-Pool (siehe Meta-Pistol DS20/Voyak-Optik-Set)"
+    "OPTIC": [
+      {
+        "name": "FANG Hoverpoint ELO",
+        "mods": {
+          "ads_mod": 1.08
+        }
+      },
+      {
+        "name": "LTI Mini"
+      },
+      {
+        "name": "VAS MicroFlex"
+      },
+      {
+        "name": "EAM Micro Dot"
+      },
+      {
+        "name": "Bowen Pixel Reflex"
+      },
+      {
+        "name": "Kepler Prism-IX Mini"
+      },
+      {
+        "name": "VAS LED"
+      },
+      {
+        "name": "Bowen Scout Scope",
+        "mods": {
+          "ads_mod": 1.333,
+          "gun_kick_mod": 0.593,
+          "idle_sway_mod": 2
+        }
+      }
+    ],
+    "REAR GRIP": [
+      {
+        "name": "Eaves Quick Grip",
+        "mods": {
+          "ads_mod": 0.533
+        }
+      },
+      {
+        "name": "Molt Regen Grip",
+        "mods": {
+          "stf_mod": 0.75
+        }
+      },
+      {
+        "name": "Keystone Control Grip",
+        "mods": {
+          "gun_kick_mod": 0.989,
+          "horiz_recoil_mod": 0.92
+        }
+      },
+      {
+        "name": "Interlock Advanced Grip",
+        "mods": {
+          "ads_mod": 0.733
+        }
+      },
+      {
+        "name": "F4-Able Grip",
+        "mods": {
+          "gun_kick_mod": 0.914,
+          "vert_recoil_mod": 0.9
+        }
+      }
+    ],
+    "STOCK": [
+      {
+        "name": "Akimbo 1911",
+        "mods": {
+          "hipfire_max_mod": 1.3,
+          "range_mod": 0.6,
+          "stf_mod": 1.042,
+          "reload_mod": 1.15
+        }
+      }
+    ]
   }
 }

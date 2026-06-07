@@ -1,0 +1,15 @@
+{
+  "id": "siren",
+  "name": "Siren",
+  "class": "Special",
+  "game": "bo7",
+  "weapon_type": "Special",
+  "in_warzone": true,
+  "source": "callofduty.com + Fandom + Game8/Dexerto/gamesatlas (Roster-Recherche, non-TGD)",
+  "data_version": "S4_2026-06-07",
+  "note": "Charge-basiert; durchdringendes Energie-Projektil (pass-through); Charge erhoeht Projektilgeschwindigkeit; Prestige MFS Deflection Core (Ricochet + mehr Mag). Keine numerischen TGD-Stats.",
+  "base": {},
+  "slots": {},
+  "subclass": "Energy Weapon",
+  "unlock": "Season 3 Reloaded - RoboCop Event Pass (Free Track, 460k XP)"
+}

@@ -2,42 +2,470 @@
   "id": "gs-magna",
   "name": "GS Magna",
   "class": "Pistol",
-  "game": "mw3",
+  "game": "mw2",
+  "weapon_type": "Pistols",
   "in_warzone": true,
-  "source": "truegamedata",
+  "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
   "note": "Off-Meta MW3 Pistol (.50, 488 RPM, 7-round). Universelle Slots = MW-Pool.",
-  "extraction": "weapon-specific-only (MW: ohne MUZZLE)",
+  "fire_modes": {
+    "fire_mode1": "Full Auto",
+    "fire_mode2": ""
+  },
   "base": {
     "rpm": 488,
     "mag": 7,
     "reload_s": 2.2,
     "ads_ms": 210,
-    "velocity_ms": 470,
-    "move_ms": 5.0,
     "sprint_to_fire_ms": 80,
-    "sprint_ms": 6.5,
+    "velocity_ms": 470,
+    "move_speed": 5,
+    "crouch_move_speed": 3,
+    "ads_move_speed": 3.4,
+    "sprint_speed": 6.5,
+    "swap_speed": 1100,
+    "gun_kick": 59,
+    "vert_recoil": 58.19,
+    "horiz_recoil": 45.47,
+    "idle_sway": 3,
+    "hipfire_max": 10,
+    "flinch_resistance": 0.2,
+    "target_flinch": 0.8,
+    "tac_spread": 10,
     "zoom_x": 0.8
   },
+  "damage": [
+    {
+      "head": 63,
+      "neck": 63,
+      "chest": 42,
+      "stomach": 40,
+      "upperleg": 35,
+      "lowerleg": 35,
+      "upperarm": 35,
+      "lowerarm": 35,
+      "dropoff": 0,
+      "base_rpm": 488,
+      "final_rpm": 488,
+      "rpm_mod": 1
+    },
+    {
+      "head": 56,
+      "neck": 56,
+      "chest": 38,
+      "stomach": 36,
+      "upperleg": 31,
+      "lowerleg": 31,
+      "upperarm": 31,
+      "lowerarm": 31,
+      "dropoff": 14,
+      "base_rpm": 488,
+      "final_rpm": 488,
+      "rpm_mod": 1
+    },
+    {
+      "head": 51,
+      "neck": 51,
+      "chest": 35,
+      "stomach": 33,
+      "upperleg": 28,
+      "lowerleg": 28,
+      "upperarm": 28,
+      "lowerarm": 28,
+      "dropoff": 22.9,
+      "base_rpm": 488,
+      "final_rpm": 488,
+      "rpm_mod": 1
+    }
+  ],
   "slots": {
     "AMMUNITION": [
-      "9mm Hardened Rounds :: -25.8% Range | -15% Bullet Velocity",
-      ".50 Pistol Frangible :: -5.2% Range",
-      ".50 Pistol Hollowpoint",
-      ".50 Pistol Armor Piercing",
-      ".50 Pistol Overpressured +P :: +80% Target Flinch",
-      ".500 AET Rounds :: -30% Target Flinch | -20% Bullet Velocity"
+      {
+        "name": "9mm Hardened Rounds",
+        "mods": {
+          "range_mod": 0.742358,
+          "bv_mod": 0.85
+        }
+      },
+      {
+        "name": ".50 Pistol Frangible",
+        "mods": {
+          "range_mod": 0.947598
+        }
+      },
+      {
+        "name": ".50 Pistol Hollowpoint"
+      },
+      {
+        "name": ".50 Pistol Armor Piercing"
+      },
+      {
+        "name": ".50 Pistol Overpressured +P",
+        "mods": {
+          "target_flinch_mod": 1.8
+        }
+      },
+      {
+        "name": ".500 AET Rounds",
+        "mods": {
+          "bv_mod": 0.8,
+          "target_flinch_mod": 0.7
+        }
+      }
     ],
     "BARREL": [
-      "SA Brake Barrel :: -10% Gun Kick | -27% Horiz. Recoil | -10% Vert. Recoil | +10% ADS Time",
-      "SA Comp Barrel :: -27% Gun Kick | -10% Horiz. Recoil | -27% Vert. Recoil | +10% ADS Time",
-      "SA Longshot-50 :: +31.9% Range | +16% Bullet Velocity | +3% Gun Kick | +3% Horiz. Recoil | +3% Vert. Recoil | -12% Idle Sway | +12% Max Hipfire | +2% Move | +2% Crouch | +1% Sprint | +3% ADS Move | +9% ADS Time",
-      "SA Tyrant Fifty :: +31.9% Range | +27% Bullet Velocity | -5% Gun Kick | -5% Horiz. Recoil | -5% Vert. Recoil | -12% Idle Sway | +12% Max Hipfire | -2% Move | -2% Crouch | -2% Sprint | -3% ADS Move | +14% ADS Time"
+      {
+        "name": "SA Brake Barrel",
+        "mods": {
+          "ads_mod": 1.1,
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.73
+        }
+      },
+      {
+        "name": "SA Comp Barrel",
+        "mods": {
+          "ads_mod": 1.1,
+          "gun_kick_mod": 0.73,
+          "vert_recoil_mod": 0.73,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "SA Longshot-50",
+        "mods": {
+          "ads_mod": 1.09,
+          "gun_kick_mod": 1.03,
+          "vert_recoil_mod": 1.03,
+          "horiz_recoil_mod": 1.03,
+          "ads_movement_mod": 1.03,
+          "hipfire_max_mod": 1.12,
+          "range_mod": 1.31878,
+          "idle_sway_mod": 0.88,
+          "bv_mod": 1.16,
+          "crouch_movement_mod": 1.02,
+          "movement_mod": 1.02,
+          "sprint_mod": 1.01
+        }
+      },
+      {
+        "name": "SA Tyrant Fifty",
+        "mods": {
+          "ads_mod": 1.14,
+          "gun_kick_mod": 0.95,
+          "vert_recoil_mod": 0.95,
+          "horiz_recoil_mod": 0.95,
+          "ads_movement_mod": 0.97,
+          "hipfire_max_mod": 1.12,
+          "range_mod": 1.31878,
+          "idle_sway_mod": 0.88,
+          "bv_mod": 1.27,
+          "crouch_movement_mod": 0.98,
+          "movement_mod": 0.98,
+          "sprint_mod": 0.98
+        }
+      }
     ],
     "MAGAZINE": [
-      "13 Round Mag :: -7% Move | -7% Crouch | -5% Sprint | -9% ADS Move | +12% ADS Time | +26% Reload",
-      "10 Round Mag :: -3% Move | -4% Crouch | -2% Sprint | -5% ADS Move | +6% ADS Time | +12% Reload"
+      {
+        "name": "13 Round Mag",
+        "mods": {
+          "ads_mod": 1.12,
+          "ads_movement_mod": 0.91,
+          "crouch_movement_mod": 0.93,
+          "movement_mod": 0.93,
+          "sprint_mod": 0.95,
+          "reload_mod": 1.26
+        }
+      },
+      {
+        "name": "10 Round Mag",
+        "mods": {
+          "ads_mod": 1.06,
+          "ads_movement_mod": 0.95,
+          "crouch_movement_mod": 0.96,
+          "movement_mod": 0.97,
+          "sprint_mod": 0.98,
+          "reload_mod": 1.12
+        }
+      }
+    ],
+    "MUZZLE": [
+      {
+        "name": "EXF Fifty GS",
+        "mods": {
+          "range_mod": 1.0786,
+          "bv_mod": 1.14
+        }
+      },
+      {
+        "name": "Matuzek Crown",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "FTAC Fifty Comp",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Potato Masher",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "SA Peak-77",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "GW Flash Fifty",
+        "mods": {
+          "range_mod": 1.1179
+        }
+      }
+    ],
+    "OPTIC": [
+      {
+        "name": "Cronen Intlas MSP-12",
+        "mods": {
+          "ads_mod": 0.98,
+          "hipfire_max_mod": 0.9,
+          "idle_sway_mod": 0.9
+        }
+      },
+      {
+        "name": "Slate Reflector"
+      },
+      {
+        "name": "Slimline Pro"
+      },
+      {
+        "name": "SZ Mini"
+      },
+      {
+        "name": "Cronen Mini Dot"
+      },
+      {
+        "name": "Cronen Mini Pro"
+      },
+      {
+        "name": "SZ Sigma-IV Optic"
+      },
+      {
+        "name": "SZ Minitac-40"
+      },
+      {
+        "name": "XRK On-Point Optic"
+      },
+      {
+        "name": "Aim OP-V4"
+      },
+      {
+        "name": "DF105 Reflex Sight"
+      },
+      {
+        "name": "Monocle CT90"
+      },
+      {
+        "name": "Corvus Sol-76"
+      },
+      {
+        "name": "SZ Recharge-DX"
+      },
+      {
+        "name": "SZ Sro-7"
+      },
+      {
+        "name": "Corio RE-X Pro"
+      },
+      {
+        "name": "Corio Enforcer Optic"
+      },
+      {
+        "name": "SZ Lonewolf Optic"
+      },
+      {
+        "name": "Kazan-Holo"
+      },
+      {
+        "name": "SZ Battle Optic"
+      },
+      {
+        "name": "Corvus Downrange-00"
+      },
+      {
+        "name": "SZ Holotherm"
+      },
+      {
+        "name": "XTEN Angel-40"
+      },
+      {
+        "name": "Dragon's Eye Optic"
+      }
+    ],
+    "REAR GRIP": [
+      {
+        "name": "EXF Shoreline Grip",
+        "mods": {
+          "ads_movement_mod": 0.95
+        }
+      },
+      {
+        "name": "EXF Resistance Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.93,
+          "horiz_recoil_mod": 0.93
+        }
+      },
+      {
+        "name": "GS .50 Wood Grain",
+        "mods": {
+          "ads_mod": 0.97,
+          "gun_kick_mod": 1.06,
+          "vert_recoil_mod": 1.06,
+          "horiz_recoil_mod": 1.06,
+          "stf_mod": 0.85
+        }
+      },
+      {
+        "name": "GS Magna Akimbo",
+        "mods": {
+          "gun_kick_mod": 0.5,
+          "range_mod": 0.799127,
+          "reload_mod": 1.29
+        }
+      }
+    ],
+    "UNDERBARREL": [
+      {
+        "name": "OP-X9 Foregrip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Operator Foregrip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "TV Wrecker Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Bruen Tilt Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Cronen Grooveshot Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "EXF Backdraft Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Bruen Warrior Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Kimura RYN-03 Vertical Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Kimura Seraphic Vertical Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "SL Skeletal Vertical Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Holger Vertical Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Bruen Tactical Vertical Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Bruen Pivot Vertical Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      }
     ]
   },
-  "_universal": "MUZZLE/OPTIC/UNDERBARREL/REAR GRIP = MW-Pool (ref kar98k.json)"
+  "blocking": [
+    {
+      "id": 156,
+      "gun": "GS Magna",
+      "attachment": "GS Magna Akimbo",
+      "slot": "Rear Grip",
+      "blocks": "Underbarrel",
+      "tooltip": "Unlock by removing the GS Magna Akimbo"
+    }
+  ]
 }

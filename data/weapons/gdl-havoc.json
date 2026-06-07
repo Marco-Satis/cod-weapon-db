@@ -1,0 +1,15 @@
+{
+  "id": "gdl-havoc",
+  "name": "GDL Havoc",
+  "class": "Special",
+  "game": "bo7",
+  "weapon_type": "Special",
+  "in_warzone": true,
+  "source": "callofduty.com + Fandom + Game8/Dexerto/gamesatlas (Roster-Recherche, non-TGD)",
+  "data_version": "S4_2026-06-07",
+  "note": "Pump-action; Granaten haften an Oberflaechen + remote-detonierbar; kein ADS; Schadenstyp Explosion. Keine numerischen TGD-Stats.",
+  "base": {},
+  "slots": {},
+  "subclass": "Grenade Launcher (Remote Detonation)",
+  "unlock": "Season 2 - Armory Unlock (250k XP)"
+}

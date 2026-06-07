@@ -3,106 +3,521 @@
   "name": "MXR-17",
   "class": "AR",
   "game": "bo7",
+  "weapon_type": "AR",
   "in_warzone": true,
-  "source": "truegamedata",
+  "source": "truegamedata-api",
   "data_version": "S3.5_2026-04-25",
   "base": {
     "rpm": 500,
     "mag": 30,
-    "reload_s": 2.27,
+    "reload_s": 2.266,
     "ads_ms": 245,
-    "velocity_ms": 900,
-    "move_ms": 4.7,
     "sprint_to_fire_ms": 200,
-    "sprint_ms": 7.2
+    "velocity_ms": 900,
+    "move_speed": 4.7,
+    "crouch_move_speed": 2.4,
+    "ads_move_speed": 2.9,
+    "sprint_speed": 7.2,
+    "gun_kick": 21.52,
+    "vert_recoil": 60.86,
+    "horiz_recoil": 29.16,
+    "idle_sway": 0.42,
+    "hipfire_max": 7.75,
+    "flinch_resistance": 0.18
   },
+  "damage": [
+    {
+      "head": 60,
+      "neck": 51,
+      "chest": 51,
+      "stomach": 48,
+      "upperleg": 48,
+      "lowerleg": 48,
+      "upperarm": 51,
+      "lowerarm": 51,
+      "dropoff": 0,
+      "base_rpm": 500,
+      "final_rpm": 500,
+      "rpm_mod": 1
+    },
+    {
+      "head": 52,
+      "neck": 44,
+      "chest": 44,
+      "stomach": 42,
+      "upperleg": 42,
+      "lowerleg": 42,
+      "upperarm": 44,
+      "lowerarm": 44,
+      "dropoff": 40,
+      "base_rpm": 500,
+      "final_rpm": 500,
+      "rpm_mod": 1
+    },
+    {
+      "head": 47,
+      "neck": 40,
+      "chest": 40,
+      "stomach": 38,
+      "upperleg": 38,
+      "lowerleg": 38,
+      "upperarm": 40,
+      "lowerarm": 40,
+      "dropoff": 55,
+      "base_rpm": 500,
+      "final_rpm": 500,
+      "rpm_mod": 1
+    }
+  ],
   "slots": {
     "BARREL": [
-      "20\" Imperial Barrel :: +14.8% Range | +5.7% ADS Time",
-      "18\" Rapid Sterling Barrel :: +20% Range | -4% Bullet Velocity | -0.1% Gun Kick | -20% Horiz. Recoil | +9.5% Idle Sway | +6.9% ADS Move.",
-      "18\" Rift-M7 Barrel :: +7.4% Range | +8% Bullet Velocity | +4.1% ADS Time",
-      "15\" Wraith Barrel :: -9.4% ADS Time | -5% Sprint to Fire",
-      "17\" Greaves Scourge Barrel :: +18% Bullet Velocity | -15% Gun Kick | -12% Horiz. Recoil | -15% Vert. Recoil | -10.3% ADS Move. | +14.3% ADS Time | +8% Sprint to Fire"
+      {
+        "name": "20\" Imperial Barrel",
+        "mods": {
+          "ads_mod": 1.057,
+          "range_mod": 1.148
+        }
+      },
+      {
+        "name": "18\" Rapid Sterling Barrel",
+        "mods": {
+          "gun_kick_mod": 0.999,
+          "horiz_recoil_mod": 0.8,
+          "ads_movement_mod": 1.069,
+          "range_mod": 1.2,
+          "idle_sway_mod": 1.095,
+          "bv_mod": 0.96
+        }
+      },
+      {
+        "name": "18\" Rift-M7 Barrel",
+        "mods": {
+          "ads_mod": 1.041,
+          "range_mod": 1.074,
+          "bv_mod": 1.08
+        }
+      },
+      {
+        "name": "15\" Wraith Barrel",
+        "mods": {
+          "ads_mod": 0.906,
+          "stf_mod": 0.95
+        }
+      },
+      {
+        "name": "17\" Greaves Scourge Barrel",
+        "mods": {
+          "ads_mod": 1.143,
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.88,
+          "ads_movement_mod": 0.897,
+          "stf_mod": 1.08,
+          "bv_mod": 1.18
+        }
+      }
     ],
-    "FIRE_MODS": [
-      "Bolt Carrier Group :: -9.5% Range | -15% Bullet Velocity | +4.4% Fire Rate | +20.1% Gun Kick | +25% Horiz. Recoil | +20% Vert. Recoil",
-      "7.62 NATO Overpressured :: +20% Bullet Velocity",
-      "Recoil Sync Unit :: -10% Gun Kick | -10% Horiz. Recoil | -10% Vert. Recoil",
-      "7.62 NATO FMJ :: +14.8% Range | +14% Bullet Velocity"
+    "FIRE MODS": [
+      {
+        "name": "Bolt Carrier Group",
+        "mods": {
+          "gun_kick_mod": 1.201,
+          "vert_recoil_mod": 1.2,
+          "horiz_recoil_mod": 1.25,
+          "range_mod": 0.905,
+          "bv_mod": 0.85,
+          "rpm_mod": 1.044
+        }
+      },
+      {
+        "name": "7.62 NATO Overpressured",
+        "mods": {
+          "bv_mod": 1.2
+        }
+      },
+      {
+        "name": "Recoil Sync Unit",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "7.62 NATO FMJ",
+        "mods": {
+          "range_mod": 1.148,
+          "bv_mod": 1.14
+        }
+      }
     ],
     "LASER": [
-      "Convergence Box Laser :: -15% Max Hipfire Area",
-      "1mW Adaptive Tactical Laser",
-      "1mW Instinct Laser Array :: -7.2% ADS Time | -7.5% Sprint to Fire",
-      "1mW Motion Strike Laser",
-      "5mW Lockstep Laser"
+      {
+        "name": "Convergence Box Laser",
+        "mods": {
+          "hipfire_max_mod": 0.85
+        }
+      },
+      {
+        "name": "1mW Adaptive Tactical Laser"
+      },
+      {
+        "name": "1mW Instinct Laser Array",
+        "mods": {
+          "ads_mod": 0.928,
+          "stf_mod": 0.925
+        }
+      },
+      {
+        "name": "1mW Motion Strike Laser"
+      },
+      {
+        "name": "5mW Lockstep Laser"
+      }
     ],
     "MAGAZINE": [
-      "MFS Semi-Auto Fast Mag :: +5.2% Fire Rate | +23.8% Gun Kick | -1.4% Horiz. Recoil | +1.3% Vert. Recoil | +3.4% ADS Move. | -11.8% ADS Time | -26.3% Reload Time | -9.5% Sprint to Fire",
-      "Vault Extended Mag",
-      "TwinPack Flip Mags :: +3.4% ADS Move. | -4.1% ADS Time | -13.7% Reload Time",
-      "Rhodes Drum Mag :: -6.4% Move. Speed | -4.2% Crouch Speed | -2.8% Sprint Speed | -6.9% ADS Move. | +4.1% ADS Time | +25.8% Reload Time"
+      {
+        "name": "MFS Semi-Auto Fast Mag",
+        "mods": {
+          "ads_mod": 0.882,
+          "gun_kick_mod": 1.238,
+          "vert_recoil_mod": 1.013,
+          "horiz_recoil_mod": 0.986,
+          "ads_movement_mod": 1.034,
+          "stf_mod": 0.905,
+          "reload_mod": 0.737,
+          "rpm_mod": 1.052
+        }
+      },
+      {
+        "name": "Vault Extended Mag"
+      },
+      {
+        "name": "TwinPack Flip Mags",
+        "mods": {
+          "ads_mod": 0.959,
+          "ads_movement_mod": 1.034,
+          "reload_mod": 0.863
+        }
+      },
+      {
+        "name": "Rhodes Drum Mag",
+        "mods": {
+          "ads_mod": 1.041,
+          "ads_movement_mod": 0.931,
+          "crouch_movement_mod": 0.958,
+          "movement_mod": 0.936,
+          "sprint_mod": 0.972,
+          "reload_mod": 1.258
+        }
+      }
     ],
     "MUZZLE": [
-      "Greaves Ti-762",
-      "Redwell-90 Compensator :: -14.8% Gun Kick | -15% Vert. Recoil",
-      "Redwell 7.62 Brake :: -4.9% Gun Kick | -5% Vert. Recoil",
-      "Titan-R 7.62 Compensator :: -25% Max Hipfire Area",
-      "Monolithic Suppressor :: +7.4% Range | +15% Bullet Velocity | +22.4% ADS Time"
+      {
+        "name": "Greaves Ti-762"
+      },
+      {
+        "name": "Redwell-90 Compensator",
+        "mods": {
+          "gun_kick_mod": 0.852,
+          "vert_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Redwell 7.62 Brake",
+        "mods": {
+          "gun_kick_mod": 0.951,
+          "vert_recoil_mod": 0.95
+        }
+      },
+      {
+        "name": "Titan-R 7.62 Compensator",
+        "mods": {
+          "hipfire_max_mod": 0.75
+        }
+      },
+      {
+        "name": "Monolithic Suppressor",
+        "mods": {
+          "ads_mod": 1.224,
+          "range_mod": 1.074,
+          "bv_mod": 1.15
+        }
+      }
     ],
     "OPTIC": [
-      "LTI Mini",
-      "VAS MicroFlex",
-      "Lethal Tools ELO",
-      "EAM Micro Dot",
-      "VAS LED",
-      "Kepler-Pro Red Dot",
-      "LTI Reflex",
-      "Greaves Red Dot",
-      "KES Slim Reflex",
-      "EAM xL Reflex",
-      "PrismaTech Digital Holo",
-      "EMT3 Holo Mk.2",
-      "Kepler T-Range Holo :: -30% Gun Kick | +5.7% ADS Time",
-      "Solaris Holo-IR :: -25% Gun Kick",
-      "EAM Dyad xL :: -50% Gun Kick | +5.7% ADS Time",
-      "LTI Target Finder VZ :: -13.8% ADS Move. | +20.4% ADS Time | +12.5% Sprint to Fire",
-      "Millimeter Scanner :: +10% Gun Kick | +12.2% ADS Time | +12.5% Sprint to Fire",
-      "Redwell 30-5 2x :: -28.6% Gun Kick | +4% ADS Time",
-      "Greaves Accuspot 3x :: -30% Gun Kick | +5.7% ADS Time",
-      "Kepler Ultra 4x :: -30% Gun Kick | +8.2% ADS Time",
-      "PrismaTech Turbo 4x :: -30% Gun Kick | +8.2% ADS Time",
-      "VAS Duo Hybrid Sight :: -50% Gun Kick | +5.7% ADS Time",
-      "Bowen X-25 IR :: -50% Gun Kick | +5.3% ADS Time",
-      "EAM Dual Zoom :: -50% Gun Kick | +8.2% ADS Time",
-      "Greaves Ultra Zoom :: -50% Gun Kick | +10.2% ADS Time",
-      "RistRauch 7x :: -50% Gun Kick | +5.7% ADS Time",
-      "VAS Strix 6x Thermal :: +14.3% ADS Time"
+      {
+        "name": "LTI Mini"
+      },
+      {
+        "name": "VAS MicroFlex"
+      },
+      {
+        "name": "Lethal Tools ELO"
+      },
+      {
+        "name": "EAM Micro Dot"
+      },
+      {
+        "name": "VAS LED"
+      },
+      {
+        "name": "Kepler-Pro Red Dot"
+      },
+      {
+        "name": "LTI Reflex"
+      },
+      {
+        "name": "Greaves Red Dot"
+      },
+      {
+        "name": "KES Slim Reflex"
+      },
+      {
+        "name": "EAM xL Reflex"
+      },
+      {
+        "name": "PrismaTech Digital Holo"
+      },
+      {
+        "name": "EMT3 Holo Mk.2"
+      },
+      {
+        "name": "Kepler T-Range Holo",
+        "mods": {
+          "ads_mod": 1.057,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "Solaris Holo-IR",
+        "mods": {
+          "gun_kick_mod": 0.75
+        }
+      },
+      {
+        "name": "EAM Dyad xL",
+        "mods": {
+          "ads_mod": 1.057,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "LTI Target Finder VZ",
+        "mods": {
+          "ads_mod": 1.204,
+          "ads_movement_mod": 0.862,
+          "stf_mod": 1.125
+        }
+      },
+      {
+        "name": "Millimeter Scanner",
+        "mods": {
+          "ads_mod": 1.122,
+          "gun_kick_mod": 1.1,
+          "stf_mod": 1.125
+        }
+      },
+      {
+        "name": "Redwell 30-5 2x",
+        "mods": {
+          "ads_mod": 1.04,
+          "gun_kick_mod": 0.714
+        }
+      },
+      {
+        "name": "Greaves Accuspot 3x",
+        "mods": {
+          "ads_mod": 1.057,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "Kepler Ultra 4x",
+        "mods": {
+          "ads_mod": 1.082,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "PrismaTech Turbo 4x",
+        "mods": {
+          "ads_mod": 1.082,
+          "gun_kick_mod": 0.7
+        }
+      },
+      {
+        "name": "VAS Duo Hybrid Sight",
+        "mods": {
+          "ads_mod": 1.057,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Bowen X-25 IR",
+        "mods": {
+          "ads_mod": 1.053,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "EAM Dual Zoom",
+        "mods": {
+          "ads_mod": 1.082,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "Greaves Ultra Zoom",
+        "mods": {
+          "ads_mod": 1.102,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "RistRauch 7x",
+        "mods": {
+          "ads_mod": 1.057,
+          "gun_kick_mod": 0.5
+        }
+      },
+      {
+        "name": "VAS Strix 6x Thermal",
+        "mods": {
+          "ads_mod": 1.143
+        }
+      }
     ],
     "REAR GRIP": [
-      "Celerity Grip :: -20.4% ADS Time",
-      "Bell-HBI Grip :: -20% Sprint to Fire",
-      "Virgil-XI Grip :: -8% Horiz. Recoil | +5.7% ADS Time",
-      "Aria Assail Grip :: -10.2% ADS Time",
-      "Fissure Grip :: -7.9% Gun Kick | -8% Vert. Recoil"
+      {
+        "name": "Celerity Grip",
+        "mods": {
+          "ads_mod": 0.796
+        }
+      },
+      {
+        "name": "Bell-HBI Grip",
+        "mods": {
+          "stf_mod": 0.8
+        }
+      },
+      {
+        "name": "Virgil-XI Grip",
+        "mods": {
+          "ads_mod": 1.057,
+          "horiz_recoil_mod": 0.92
+        }
+      },
+      {
+        "name": "Aria Assail Grip",
+        "mods": {
+          "ads_mod": 0.898
+        }
+      },
+      {
+        "name": "Fissure Grip",
+        "mods": {
+          "gun_kick_mod": 0.921,
+          "vert_recoil_mod": 0.92
+        }
+      }
     ],
     "STOCK": [
-      "Greaves Covenant Stock :: +19.1% Move. Speed | +33.3% Crouch Speed | +2.8% Sprint Speed",
-      "Gait-Lux Stock :: +16.7% Flinch | +20.7% ADS Move. | -8.2% ADS Time",
-      "Winch Stock :: -15% Gun Kick | -15% Horiz. Recoil | -15% Vert. Recoil | -17.2% ADS Move. | +10.2% ADS Time",
-      "Skeletal Stock :: -15% Max Hipfire Area | -6.1% ADS Time | -10% Sprint to Fire",
-      "VAS TH-09 Stock :: -10% Gun Kick | -10% Horiz. Recoil | -10% Vert. Recoil | +8.2% ADS Time"
+      {
+        "name": "Greaves Covenant Stock",
+        "mods": {
+          "crouch_movement_mod": 1.333,
+          "movement_mod": 1.191,
+          "sprint_mod": 1.028
+        }
+      },
+      {
+        "name": "Gait-Lux Stock",
+        "mods": {
+          "ads_mod": 0.918,
+          "ads_movement_mod": 1.207,
+          "flinch_resistance_mod": 1.167
+        }
+      },
+      {
+        "name": "Winch Stock",
+        "mods": {
+          "ads_mod": 1.102,
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "horiz_recoil_mod": 0.85,
+          "ads_movement_mod": 0.828
+        }
+      },
+      {
+        "name": "Skeletal Stock",
+        "mods": {
+          "ads_mod": 0.939,
+          "hipfire_max_mod": 0.85,
+          "stf_mod": 0.9
+        }
+      },
+      {
+        "name": "VAS TH-09 Stock",
+        "mods": {
+          "ads_mod": 1.082,
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "horiz_recoil_mod": 0.9
+        }
+      }
     ],
     "UNDERBARREL": [
-      "Lateral Precision Grip :: -0.1% Gun Kick | -18% Horiz. Recoil",
-      "Sentry Pro Handstop :: -5% Horiz. Recoil | -50% Idle Sway",
-      "Enhance-32 Handstop :: -38.9% Flinch",
-      "Quickstep Foregrip :: +6.4% Move. Speed | +8.3% Crouch Speed | +6.9% ADS Move.",
-      "EAM Steady-90 Grip :: -0.1% Gun Kick | -10% Horiz. Recoil | +6.4% Move. Speed | +8.3% Crouch Speed | +2.8% Sprint Speed",
-      "M335-X Frag",
-      "M335-X Cloak",
-      "M335-X Tempest",
-      "M335-X Drill Charge"
+      {
+        "name": "Lateral Precision Grip",
+        "mods": {
+          "gun_kick_mod": 0.999,
+          "horiz_recoil_mod": 0.82
+        }
+      },
+      {
+        "name": "Sentry Pro Handstop",
+        "mods": {
+          "horiz_recoil_mod": 0.95,
+          "idle_sway_mod": 0.5
+        }
+      },
+      {
+        "name": "Enhance-32 Handstop",
+        "mods": {
+          "flinch_resistance_mod": 0.611
+        }
+      },
+      {
+        "name": "Quickstep Foregrip",
+        "mods": {
+          "ads_movement_mod": 1.069,
+          "crouch_movement_mod": 1.083,
+          "movement_mod": 1.064
+        }
+      },
+      {
+        "name": "EAM Steady-90 Grip",
+        "mods": {
+          "gun_kick_mod": 0.999,
+          "horiz_recoil_mod": 0.9,
+          "crouch_movement_mod": 1.083,
+          "movement_mod": 1.064,
+          "sprint_mod": 1.028
+        }
+      },
+      {
+        "name": "M335-X Frag"
+      },
+      {
+        "name": "M335-X Cloak"
+      },
+      {
+        "name": "M335-X Tempest"
+      },
+      {
+        "name": "M335-X Drill Charge"
+      }
     ]
   }
 }

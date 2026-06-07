@@ -1,126 +1,2238 @@
 {
   "category": "calling_cards",
   "game": "bo7",
-  "data_version": "S4 (2026-06-05)",
-  "source": "dotesports/gamerant/windowscentral/overgear + Call of Duty Fandom Wiki (Season 4, 2026)",
-  "scope_note": "Calling Cards = Kosmetik (kein Build-Impact). Diese Datei dokumentiert System + Kategorien + S4-Highlights + Voll-Listen-Quellen — keine 1:1-Enumeration aller hunderte Karten.",
+  "data_version": "S4 (2026-06-06)",
+  "source": "detonated/PCGamesN/Windows Central/Dexerto/Game8/GameRant/Sportskeeda/Activision/overgear/grindout + CoD Fandom Wiki (eine von mehreren Quellen, nicht exklusiv)",
+  "scope_note": "Fokus auf bedingungs-gated Cards (Dark Ops, Zombies-EE, Ranked, Mastery, Events) mit Freischalt-Bedingung. Battle-Pass/Store = reine Kosmetik -> Sammelkategorie. Stand 2 Tage nach S4-Launch: S4-Dark-Ops noch nicht community-dokumentiert.",
+  "nomenclature_note": "Jede Dark-Ops-Card traegt den Namen ihrer Challenge (Challenge 'Nuked Out' -> Card 'Nuked Out').",
+  "counts": {
+    "dark_ops": 92,
+    "zombies_milestone": 4,
+    "ranked": 22,
+    "mastery": 8,
+    "events": 2
+  },
   "unlock_system": [
     {
+      "source": "Dark Ops",
+      "detail": "versteckte Challenges, Card = Challenge-Name; oft die prestigetraechtigsten"
+    },
+    {
       "source": "Multiplayer-Challenges",
-      "detail": "inkl. Ranked Play"
+      "detail": "inkl. Ranked Play + 100-Percenter"
     },
     {
       "source": "Zombies-Challenges",
-      "detail": "Round-Meilensteine, Easter-Eggs, Directed Mode"
+      "detail": "Round-Meilensteine, Map-Easter-Eggs, Directed Mode"
     },
     {
       "source": "Warzone-Challenges",
-      "detail": "inkl. Warzone-2.0-Carry-overs"
+      "detail": "Contracts, Eliminations, Royale Orders"
     },
     {
-      "source": "Battle Pass",
-      "detail": "Free + Premium Tiers (S4 headliner: Leon Rook)"
+      "source": "Ranked Play",
+      "detail": "saisonal exklusiv (Silver-Iridescent + Top 250), laufen mit Saisonende aus"
     },
     {
-      "source": "Store",
-      "detail": "Kauf-Bundles"
+      "source": "Mastery/Prestige",
+      "detail": "100-Percenter + Prestige-Mastery + Camo-Challenge-Cards"
     },
     {
-      "source": "Weekly Challenges",
-      "detail": "rotierend ueber die Season"
+      "source": "Events",
+      "detail": "Limited-Time (Operation Wall Breaker etc.)"
     },
     {
-      "source": "Dark Ops",
-      "detail": "versteckte Challenges, Requirements ungelistet -> schwer gezielt zu machen; oft die prestigetraechtigsten Cards"
+      "source": "Battle Pass / BlackCell / Store",
+      "detail": "reine Kosmetik, nicht bedingungs-gated"
     }
   ],
-  "categories": [
+  "dark_ops": {
+    "campaign_endgame": [
+      {
+        "id": "undaunted",
+        "card": "Undaunted",
+        "condition": "Ueberlebe die Fear-Horde in Mission: Suppression",
+        "confidence": "bestaetigt",
+        "mode": "Campaign/Endgame"
+      },
+      {
+        "id": "exotic-arsenal",
+        "card": "Exotic Arsenal",
+        "condition": "Kills mit 6 verschiedenen Exotic Weapons in Endgame",
+        "confidence": "bestaetigt",
+        "mode": "Campaign/Endgame"
+      },
+      {
+        "id": "green-thumb",
+        "card": "Green Thumb",
+        "condition": "Besiege The Nightmare in Mission: Distortion ohne Schaden",
+        "confidence": "bestaetigt",
+        "mode": "Campaign/Endgame"
+      },
+      {
+        "id": "absolute-loss",
+        "card": "Absolute Loss",
+        "condition": "Besiege Menendez nur mit Machetes in Mission: Exposure",
+        "confidence": "bestaetigt",
+        "mode": "Campaign/Endgame"
+      },
+      {
+        "id": "overpowered",
+        "card": "Overpowered",
+        "condition": "1.000.000 Power in Endgame (kumulativ)",
+        "confidence": "bestaetigt",
+        "mode": "Campaign/Endgame"
+      },
+      {
+        "id": "monkeying-around",
+        "card": "Monkeying Around",
+        "condition": "Parkour- UND Dive-Strecke in Endgame absolvieren",
+        "confidence": "bestaetigt",
+        "mode": "Campaign/Endgame"
+      },
+      {
+        "id": "dream-team",
+        "card": "Dream Team",
+        "condition": "25x aus Zone IV entkommen in Endgame",
+        "confidence": "bestaetigt",
+        "mode": "Campaign/Endgame"
+      },
+      {
+        "id": "pest-control",
+        "card": "Pest Control",
+        "condition": "Endgame Final Boss besiegen",
+        "confidence": "bestaetigt",
+        "mode": "Campaign/Endgame"
+      },
+      {
+        "id": "predator-becomes-prey",
+        "card": "Predator Becomes Prey",
+        "condition": "Hunter Activity aktivieren und besiegen",
+        "confidence": "wahrscheinlich",
+        "mode": "Campaign/Endgame"
+      },
+      {
+        "id": "mountain-climber",
+        "card": "Mountain Climber",
+        "condition": "Auf dem Toxic Tyrant reiten",
+        "confidence": "wahrscheinlich",
+        "mode": "Campaign/Endgame",
+        "season": "S1"
+      },
+      {
+        "id": "giant-feeling",
+        "card": "Giant Feeling",
+        "condition": "Exfil via Colossus of Avalon",
+        "confidence": "wahrscheinlich",
+        "mode": "Campaign/Endgame",
+        "season": "S1"
+      },
+      {
+        "id": "titan-hunter",
+        "card": "Titan Hunter",
+        "condition": "3 einzigartige World Events absolvieren",
+        "confidence": "wahrscheinlich",
+        "mode": "Campaign/Endgame",
+        "season": "S1"
+      },
+      {
+        "id": "stationary-stalwart",
+        "card": "Stationary Stalwart",
+        "condition": "Anfangszonen in Root Crasher ohne Down erobern",
+        "confidence": "bestaetigt",
+        "mode": "Campaign/Endgame",
+        "season": "S2"
+      },
+      {
+        "id": "off-meta",
+        "card": "Off-Meta",
+        "condition": "Root Crasher ohne Crash Cart oder Ballistic Shield",
+        "confidence": "bestaetigt",
+        "mode": "Campaign/Endgame",
+        "season": "S2"
+      },
+      {
+        "id": "run-it-back",
+        "card": "Run It Back",
+        "condition": "3 Operator-Skins aus Root Crasher freischalten",
+        "confidence": "bestaetigt",
+        "mode": "Campaign/Endgame",
+        "season": "S2"
+      },
+      {
+        "id": "elusive",
+        "card": "Elusive",
+        "condition": "Link Forger Glitch Boss ohne gestunnt zu werden eliminieren",
+        "confidence": "bestaetigt",
+        "mode": "Campaign/Endgame",
+        "season": "S3"
+      },
+      {
+        "id": "single-threaded",
+        "card": "Single-Threaded",
+        "condition": "Link Forger Glitch solo absolvieren",
+        "confidence": "bestaetigt",
+        "mode": "Campaign/Endgame",
+        "season": "S3"
+      },
+      {
+        "id": "go-fetch",
+        "card": "Go Fetch",
+        "condition": "D.A.W.G.-Schild mit zurueckgeworfener D.A.W.G.-Ausruestung zerstoeren",
+        "confidence": "bestaetigt",
+        "mode": "Campaign/Endgame",
+        "season": "S3"
+      }
+    ],
+    "multiplayer": [
+      {
+        "id": "frenzy-killer",
+        "card": "Frenzy Killer",
+        "condition": "Frenzy Kill Medal (5 Rapid Kills)",
+        "confidence": "bestaetigt",
+        "mode": "MP"
+      },
+      {
+        "id": "mega-killer",
+        "card": "Mega Killer",
+        "condition": "Mega Kill Medal (6 Rapid Kills)",
+        "confidence": "bestaetigt",
+        "mode": "MP"
+      },
+      {
+        "id": "ultra-killer",
+        "card": "Ultra Killer",
+        "condition": "Ultra Kill Medal (7 Rapid Kills)",
+        "confidence": "bestaetigt",
+        "mode": "MP"
+      },
+      {
+        "id": "chain-killer",
+        "card": "Chain Killer",
+        "condition": "Kill Chain Medal (>7 Rapid Kills)",
+        "confidence": "bestaetigt",
+        "mode": "MP"
+      },
+      {
+        "id": "relentless-killer",
+        "card": "Relentless Killer",
+        "condition": "Relentless Medal (20 Kills ohne Tod)",
+        "confidence": "bestaetigt",
+        "mode": "MP"
+      },
+      {
+        "id": "brutal-killer",
+        "card": "Brutal Killer",
+        "condition": "Brutal Medal (25 Kills ohne Tod)",
+        "confidence": "bestaetigt",
+        "mode": "MP"
+      },
+      {
+        "id": "nuclear-killer",
+        "card": "Nuclear Killer",
+        "condition": "Nuclear Medal (30 Kills ohne Tod, nur Waffen/Equipment/Field Upgrades)",
+        "confidence": "bestaetigt",
+        "mode": "MP"
+      },
+      {
+        "id": "nuked-out",
+        "card": "Nuked Out",
+        "condition": "Nuclear Medal in Free For All ohne Scorestreaks",
+        "confidence": "bestaetigt",
+        "mode": "MP"
+      },
+      {
+        "id": "very-nuclear",
+        "card": "Very Nuclear",
+        "condition": "Nuclear Medal mit 25 verschiedenen Waffen",
+        "confidence": "bestaetigt",
+        "mode": "MP"
+      },
+      {
+        "id": "same-day-delivery",
+        "card": "Same Day Delivery",
+        "condition": "2+ Kills mit einer einzelnen Body-Shield-Explosion",
+        "confidence": "bestaetigt",
+        "mode": "MP"
+      },
+      {
+        "id": "trip-cap",
+        "card": "Trip Cap",
+        "condition": "Alle 3 Domination-Ziele 3 Minuten am Stueck halten",
+        "confidence": "bestaetigt",
+        "mode": "MP"
+      },
+      {
+        "id": "castled",
+        "card": "Castled",
+        "condition": "10 Kills ohne eine Objective-Zone zu verlassen",
+        "confidence": "bestaetigt",
+        "mode": "MP"
+      },
+      {
+        "id": "gift-horse",
+        "card": "Gift Horse",
+        "condition": "Kill mit aus feindlichem Care Package gestohlenem Scorestreak",
+        "confidence": "bestaetigt",
+        "mode": "MP"
+      },
+      {
+        "id": "extreme-precision",
+        "card": "Extreme Precision",
+        "condition": "5 Sniper-Headshots ohne Nachladen/Tod",
+        "confidence": "bestaetigt",
+        "mode": "MP"
+      },
+      {
+        "id": "reverse-card",
+        "card": "Reverse Card",
+        "condition": "Kill durch Beschuss von gegnerischem Equipment/Field Upgrade",
+        "confidence": "bestaetigt",
+        "mode": "MP"
+      },
+      {
+        "id": "circus-act",
+        "card": "Circus Act",
+        "condition": "Bankshot Medal (Combat-Axe-Kill nach Wandprall)",
+        "confidence": "bestaetigt",
+        "mode": "MP"
+      },
+      {
+        "id": "pushing-the-limits",
+        "card": "Pushing the Limits",
+        "condition": "40 Overclock-Upgrades in Gunsmith freischalten",
+        "confidence": "bestaetigt",
+        "mode": "MP"
+      },
+      {
+        "id": "100k",
+        "card": "100k",
+        "condition": "100.000 Eliminations in Multiplayer",
+        "confidence": "bestaetigt",
+        "mode": "MP"
+      },
+      {
+        "id": "touch-grass",
+        "card": "Touch Grass",
+        "condition": "Weapon Prestige Master Max Level mit 30 Waffen",
+        "confidence": "bestaetigt",
+        "mode": "MP"
+      }
+    ],
+    "zombies": [
+      {
+        "id": "box-addict",
+        "card": "Box Addict",
+        "condition": "30 verschiedene Mystery-Box-Waffen in einem Match",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Alle"
+      },
+      {
+        "id": "lucidity",
+        "card": "Lucidity",
+        "condition": "Tank Dempsey Side Quest auf Ashes of the Damned",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Ashes"
+      },
+      {
+        "id": "armed-to-the-teeth",
+        "card": "Armed to the Teeth",
+        "condition": "3x PaP-LvIII-Legendary mit Ammo-Mods + 8 Perks gleichzeitig",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Alle"
+      },
+      {
+        "id": "invincible",
+        "card": "Invincible",
+        "condition": "Runde 50 ohne einmal Down",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Alle"
+      },
+      {
+        "id": "another-round",
+        "card": "Another Round",
+        "condition": "Runde 100 erreichen",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Alle"
+      },
+      {
+        "id": "countdown",
+        "card": "Countdown",
+        "condition": "Elite-Zombie per Jump-Pad in den Tod befoerdern",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Alle"
+      },
+      {
+        "id": "new-main",
+        "card": "New Main",
+        "condition": "1.000 Zombie-Kills mit jedem Dedicated-Crew-Operator",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Alle"
+      },
+      {
+        "id": "harbinger-of-doom",
+        "card": "Harbinger of Doom",
+        "condition": "100 Zombie-Kills mit einem einzelnen Scorestreak",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Alle"
+      },
+      {
+        "id": "social-distancing",
+        "card": "Social Distancing",
+        "condition": "Runde 20 ohne Schaden",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Alle"
+      },
+      {
+        "id": "action-hero",
+        "card": "Action Hero",
+        "condition": "100 Zombies ohne Nachladen toeten",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Alle"
+      },
+      {
+        "id": "ingenuity",
+        "card": "Ingenuity",
+        "condition": "Runde 50 in Cursed Mode mit Dragon Wings & Lawyer's Pen Relics",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Ashes"
+      },
+      {
+        "id": "showboat",
+        "card": "Showboat",
+        "condition": "Ashes Main Quest bei Runde 100+ abschliessen",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Ashes"
+      },
+      {
+        "id": "boss-rush",
+        "card": "Boss Rush",
+        "condition": "Ashes Endboss in <=5 Minuten besiegen",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Ashes"
+      },
+      {
+        "id": "anathema",
+        "card": "Anathema",
+        "condition": "1.000.000 Zombies eliminieren (kumulativ)",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Alle"
+      },
+      {
+        "id": "the-one",
+        "card": "The One",
+        "condition": "Runde 999 erreichen",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Alle"
+      },
+      {
+        "id": "martial-artist",
+        "card": "Martial Artist",
+        "condition": "Runde 50 nur mit Melee & Combat Axes",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Alle"
+      },
+      {
+        "id": "the-usual-please",
+        "card": "The Usual, Please",
+        "condition": "Juggernog 20x in einem Match trinken",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Alle"
+      },
+      {
+        "id": "hard-mode",
+        "card": "Hard Mode",
+        "condition": "Ashes EE in Cursed Mode mit 3 Wicked Relics",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Ashes"
+      },
+      {
+        "id": "serious-monkey-business",
+        "card": "Serious Monkey Business",
+        "condition": "Papaback in Hardcore Dead Ops Arcade besiegen",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Dead Ops"
+      },
+      {
+        "id": "flushed-for-cash",
+        "card": "Flushed For Cash",
+        "condition": "25 Mio Silverback Cash verdienen (kumulativ)",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Alle"
+      },
+      {
+        "id": "ready-for-publishing",
+        "card": "Ready For Publishing",
+        "condition": "Alle Augments fuer alle Items erforschen",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Alle"
+      },
+      {
+        "id": "reliquary",
+        "card": "Reliquary",
+        "condition": "Alle Relics in Ashes of the Damned sammeln",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Ashes"
+      },
+      {
+        "id": "mythic-cynic",
+        "card": "Mythic Cynic",
+        "condition": "Runde 50 mit allen Ashes-Relics aktiv",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Ashes"
+      },
+      {
+        "id": "blitzed",
+        "card": "Blitzed",
+        "condition": "Ashes EE mit Samantha's Drawing & Teddy Bear Relics in <=1 Std",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Ashes"
+      },
+      {
+        "id": "echoes",
+        "card": "Echoes",
+        "condition": "Echoes of the Damned Side Quest abschliessen",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Astra Malorum"
+      },
+      {
+        "id": "astronomical",
+        "card": "Astronomical",
+        "condition": "Astra Malorum Main Quest mit Spider Fang + Civil Protector Head + Golden Spork Relics",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Astra Malorum"
+      },
+      {
+        "id": "neutronomic",
+        "card": "Neutronomic",
+        "condition": "Paradox Junction Main Quest bei Runde 100",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Paradox Junction"
+      },
+      {
+        "id": "chronomancer",
+        "card": "Chronomancer",
+        "condition": "Paradox Junction Main Quest ohne Time-Travel-Fee",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Paradox Junction"
+      },
+      {
+        "id": "relativity",
+        "card": "Relativity",
+        "condition": "Paradox Junction Main Quest in unter 1 Stunde",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Paradox Junction"
+      },
+      {
+        "id": "the-bomba",
+        "card": "The Bomba",
+        "condition": "Paradox Junction Main Quest mit allen Mantis Relics",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Paradox Junction"
+      },
+      {
+        "id": "domineering",
+        "card": "Domineering",
+        "condition": "Echoes of the Damned (Richtofen-Side-Quest auf Totenreich)",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Totenreich"
+      },
+      {
+        "id": "deicide",
+        "card": "Deicide",
+        "condition": "Totenreich Main Quest bei Runde 100",
+        "confidence": "bestaetigt",
+        "mode": "Zombies",
+        "season": "Totenreich"
+      },
+      {
+        "id": "aether-ruler",
+        "card": "Aether Ruler",
+        "condition": "Totenreich Main Quest mit allen Hard Relics aktiv",
+        "confidence": "wahrscheinlich",
+        "mode": "Zombies",
+        "season": "Totenreich"
+      },
+      {
+        "id": "shaman",
+        "card": "Shaman",
+        "condition": "100 Alchemist Medals (>=5 Zombies mit >=2 Elementen rapid)",
+        "confidence": "wahrscheinlich",
+        "mode": "Zombies",
+        "season": "Totenreich"
+      }
+    ],
+    "warzone": [
+      {
+        "id": "blind-lead",
+        "card": "Blind Lead",
+        "condition": "Elimination mit Hipfire einer Sniper Rifle",
+        "confidence": "bestaetigt",
+        "mode": "Warzone"
+      },
+      {
+        "id": "holstered",
+        "card": "Holstered",
+        "condition": "5 Pistol-Eliminations in einem Match",
+        "confidence": "bestaetigt",
+        "mode": "Warzone"
+      },
+      {
+        "id": "boom-boom",
+        "card": "Boom Boom",
+        "condition": "5 Launcher-Eliminations in einem Match",
+        "confidence": "bestaetigt",
+        "mode": "Warzone"
+      },
+      {
+        "id": "chop-chop",
+        "card": "Chop Chop",
+        "condition": "1 Elimination beim Helicopter-Reiten",
+        "confidence": "bestaetigt",
+        "mode": "Warzone"
+      },
+      {
+        "id": "repeat-exploder",
+        "card": "Repeat Exploder",
+        "condition": "3 Eliminations durch feindliche Grenade-Sticks in einem Match",
+        "confidence": "bestaetigt",
+        "mode": "Warzone"
+      },
+      {
+        "id": "make-it-stick",
+        "card": "Make It Stick",
+        "condition": "Most Wanted Contract Target per Grenade Stick eliminieren",
+        "confidence": "bestaetigt",
+        "mode": "Warzone"
+      },
+      {
+        "id": "last-cap-standing",
+        "card": "Last Cap Standing",
+        "condition": "5 Recon Contracts in einem Match",
+        "confidence": "bestaetigt",
+        "mode": "Warzone"
+      },
+      {
+        "id": "next",
+        "card": "Next",
+        "condition": "5 Bounty Contracts in einem Match",
+        "confidence": "bestaetigt",
+        "mode": "Warzone"
+      },
+      {
+        "id": "humbled",
+        "card": "Humbled",
+        "condition": "3 Big Game Bounty Contracts in einem Match",
+        "confidence": "bestaetigt",
+        "mode": "Warzone"
+      },
+      {
+        "id": "gotta-run",
+        "card": "Gotta Run",
+        "condition": "5 Supply Run Contracts in einem Match",
+        "confidence": "bestaetigt",
+        "mode": "Warzone"
+      },
+      {
+        "id": "all-mine",
+        "card": "All Mine",
+        "condition": "5 Scavenger Contracts in einem Match",
+        "confidence": "bestaetigt",
+        "mode": "Warzone"
+      },
+      {
+        "id": "ascendance",
+        "card": "Ascendance",
+        "condition": "1 Match gewinnen ohne zu sterben",
+        "confidence": "bestaetigt",
+        "mode": "Warzone"
+      },
+      {
+        "id": "flawless-feed",
+        "card": "Flawless Feed",
+        "condition": "4 Eliminations ohne Nachladen in einem Match",
+        "confidence": "bestaetigt",
+        "mode": "Warzone"
+      },
+      {
+        "id": "one-round-crowns",
+        "card": "One Round Crowns",
+        "condition": "100 Headshots (kumulativ)",
+        "confidence": "bestaetigt",
+        "mode": "Warzone"
+      },
+      {
+        "id": "backlog",
+        "card": "Backlog",
+        "condition": "7 Contracts in einem Match",
+        "confidence": "bestaetigt",
+        "mode": "Warzone"
+      },
+      {
+        "id": "sliced",
+        "card": "Sliced",
+        "condition": "5 Melee-Eliminations in einem Match",
+        "confidence": "bestaetigt",
+        "mode": "Warzone"
+      },
+      {
+        "id": "the-cleaner",
+        "card": "The Cleaner",
+        "condition": "50 Squads wipen (kumulativ)",
+        "confidence": "bestaetigt",
+        "mode": "Warzone"
+      },
+      {
+        "id": "deleted",
+        "card": "Deleted",
+        "condition": "20 Eliminations in einem Match",
+        "confidence": "bestaetigt",
+        "mode": "Warzone"
+      },
+      {
+        "id": "ground-war",
+        "card": "Ground War",
+        "condition": "100 Eliminations mit Ground-Loot-Waffen (kumulativ)",
+        "confidence": "bestaetigt",
+        "mode": "Warzone"
+      },
+      {
+        "id": "efficient-execution",
+        "card": "Efficient Execution",
+        "condition": "5 One-Shot-Sniper-Eliminations in einem Match",
+        "confidence": "bestaetigt",
+        "mode": "Warzone"
+      },
+      {
+        "id": "royalty",
+        "card": "Royalty",
+        "condition": "Alle 9 Black Ops Royale Operator Orders abschliessen",
+        "confidence": "bestaetigt",
+        "mode": "Warzone",
+        "season": "S2"
+      }
+    ],
+    "season4_status": "2 Tage nach S4-Launch noch keine neuen S4-Dark-Ops community-dokumentiert. Kowakujo (S4 Reloaded ~Juli 2026) bringt voraussichtlich weitere. ~1 Woche nach Launch detonated.com/windowscentral neu pruefen."
+  },
+  "zombies_milestone": [
     {
-      "name": "Mastery/Camo-gekoppelt",
-      "description": "Viele Cards spiegeln Camo-/Mastery-Fortschritt (Gold/Diamond/etc.)."
+      "id": "totenreich-completion",
+      "card": "Totenreich Completion",
+      "condition": "Totenreich Main Quest abschliessen",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Totenreich"
     },
     {
-      "name": "Event-Cards",
-      "description": "Limited-Time-Events (z.B. Nuked Survival, Operation Wallbreaker S4-Boss -> 'Decay'/'Visitors' Camos + Cards)."
+      "id": "totenreich-early-completion",
+      "card": "Totenreich Early Completion",
+      "condition": "Totenreich Main Quest vor Season-4-Start (vor Directed Mode)",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Totenreich"
     },
     {
-      "name": "Ranked-Reward-Cards",
-      "description": "Seasonal, oft animiert, Skill-gated."
+      "id": "totenreich-mastery",
+      "card": "Totenreich Mastery",
+      "condition": "Alle Totenreich Map-Challenges abschliessen",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Totenreich"
     },
     {
-      "name": "Dark-Ops-Cards",
-      "description": "Versteckte Achievements, ungelistete Bedingungen."
+      "id": "totenreich-intel-collection",
+      "card": "Totenreich Intel Collection",
+      "condition": "Alle Intel-Stuecke auf Totenreich sammeln",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Totenreich"
+    }
+  ],
+  "ranked": {
+    "season2": [
+      {
+        "id": "ranked-season 02-silver",
+        "card": "Ranked Season 02 — Silver",
+        "condition": "Silver Rank in S2 erreichen",
+        "confidence": "wahrscheinlich",
+        "mode": "Ranked",
+        "season": "Season 02"
+      },
+      {
+        "id": "ranked-season 02-gold",
+        "card": "Ranked Season 02 — Gold",
+        "condition": "Gold Rank in S2 erreichen",
+        "confidence": "bestaetigt",
+        "mode": "Ranked",
+        "season": "Season 02"
+      },
+      {
+        "id": "ranked-season 02-platinum",
+        "card": "Ranked Season 02 — Platinum",
+        "condition": "Platinum Rank in S2 erreichen",
+        "confidence": "wahrscheinlich",
+        "mode": "Ranked",
+        "season": "Season 02"
+      },
+      {
+        "id": "ranked-season 02-diamond",
+        "card": "Ranked Season 02 — Diamond",
+        "condition": "Diamond Rank in S2 erreichen",
+        "confidence": "wahrscheinlich",
+        "mode": "Ranked",
+        "season": "Season 02"
+      },
+      {
+        "id": "ranked-season 02-crimson",
+        "card": "Ranked Season 02 — Crimson",
+        "condition": "Crimson Rank in S2 erreichen",
+        "confidence": "wahrscheinlich",
+        "mode": "Ranked",
+        "season": "Season 02"
+      },
+      {
+        "id": "ranked-season 02-iridescent",
+        "card": "Ranked Season 02 — Iridescent",
+        "condition": "Iridescent Rank in S2 erreichen",
+        "confidence": "wahrscheinlich",
+        "mode": "Ranked",
+        "season": "Season 02"
+      },
+      {
+        "id": "ranked-season 02-top-250-champion",
+        "card": "Ranked Season 02 — Top 250 Champion",
+        "condition": "Top-250-Abschlussrang in S2",
+        "confidence": "wahrscheinlich",
+        "mode": "Ranked",
+        "season": "Season 02"
+      }
+    ],
+    "season3": [
+      {
+        "id": "ranked-season 03-silver",
+        "card": "Ranked Season 03 — Silver",
+        "condition": "Silver Rank in S3 erreichen",
+        "confidence": "bestaetigt",
+        "mode": "Ranked",
+        "season": "Season 03"
+      },
+      {
+        "id": "ranked-season 03-gold",
+        "card": "Ranked Season 03 — Gold",
+        "condition": "Gold Rank in S3 erreichen",
+        "confidence": "bestaetigt",
+        "mode": "Ranked",
+        "season": "Season 03"
+      },
+      {
+        "id": "ranked-season 03-platinum",
+        "card": "Ranked Season 03 — Platinum",
+        "condition": "Platinum Rank in S3 erreichen",
+        "confidence": "bestaetigt",
+        "mode": "Ranked",
+        "season": "Season 03"
+      },
+      {
+        "id": "ranked-season 03-diamond",
+        "card": "Ranked Season 03 — Diamond",
+        "condition": "Diamond Rank in S3 erreichen",
+        "confidence": "wahrscheinlich",
+        "mode": "Ranked",
+        "season": "Season 03"
+      },
+      {
+        "id": "ranked-season 03-crimson",
+        "card": "Ranked Season 03 — Crimson",
+        "condition": "Crimson Rank in S3 erreichen",
+        "confidence": "wahrscheinlich",
+        "mode": "Ranked",
+        "season": "Season 03"
+      },
+      {
+        "id": "ranked-season 03-iridescent",
+        "card": "Ranked Season 03 — Iridescent",
+        "condition": "Iridescent Rank in S3 erreichen",
+        "confidence": "wahrscheinlich",
+        "mode": "Ranked",
+        "season": "Season 03"
+      },
+      {
+        "id": "ranked-season 03-top-250-champion",
+        "card": "Ranked Season 03 — Top 250 Champion",
+        "condition": "Top-250-Abschlussrang in S3",
+        "confidence": "wahrscheinlich",
+        "mode": "Ranked",
+        "season": "Season 03"
+      }
+    ],
+    "season4": [
+      {
+        "id": "ranked-season 04-silver",
+        "card": "Ranked Season 04 — Silver",
+        "condition": "Silver Rank in S4 erreichen",
+        "confidence": "bestaetigt",
+        "mode": "Ranked",
+        "season": "Season 04"
+      },
+      {
+        "id": "ranked-season 04-gold",
+        "card": "Ranked Season 04 — Gold",
+        "condition": "Gold Rank in S4 erreichen",
+        "confidence": "bestaetigt",
+        "mode": "Ranked",
+        "season": "Season 04"
+      },
+      {
+        "id": "ranked-season 04-platinum",
+        "card": "Ranked Season 04 — Platinum",
+        "condition": "Platinum Rank in S4 erreichen",
+        "confidence": "bestaetigt",
+        "mode": "Ranked",
+        "season": "Season 04"
+      },
+      {
+        "id": "ranked-season 04-diamond",
+        "card": "Ranked Season 04 — Diamond",
+        "condition": "Diamond Rank in S4 erreichen",
+        "confidence": "bestaetigt",
+        "mode": "Ranked",
+        "season": "Season 04"
+      },
+      {
+        "id": "ranked-season 04-crimson",
+        "card": "Ranked Season 04 — Crimson",
+        "condition": "Crimson Rank in S4 erreichen",
+        "confidence": "bestaetigt",
+        "mode": "Ranked",
+        "season": "Season 04"
+      },
+      {
+        "id": "ranked-season 04-iridescent",
+        "card": "Ranked Season 04 — Iridescent",
+        "condition": "Iridescent Rank in S4 erreichen (Animated)",
+        "confidence": "bestaetigt",
+        "mode": "Ranked",
+        "season": "Season 04"
+      },
+      {
+        "id": "ranked-season 04-top-250",
+        "card": "Ranked Season 04 — Top 250",
+        "condition": "Season-4-Abschlussrang Top 250 (Animated)",
+        "confidence": "bestaetigt",
+        "mode": "Ranked",
+        "season": "Season 04"
+      },
+      {
+        "id": "ranked-season 04-top-250-champion",
+        "card": "Ranked Season 04 — Top 250 Champion",
+        "condition": "Season-4-Abschlussrang #1 Gesamt (Animated)",
+        "confidence": "bestaetigt",
+        "mode": "Ranked",
+        "season": "Season 04"
+      }
+    ],
+    "note": "SR-Schwellen offiziell nicht publiziert; 10.000 SR = Iridescent-Eintritt, ab dort Leaderboard-Platz fuer Top 250. Season 1 hatte kein vollstaendiges Ranked-System."
+  },
+  "mastery": {
+    "percenter": [
+      {
+        "id": "100-percenter-multiplayer",
+        "card": "100 Percenter (Multiplayer)",
+        "condition": "Alle MP Challenge-Karten freischalten (Dark Ops ausgenommen)",
+        "confidence": "bestaetigt",
+        "season": "MP"
+      },
+      {
+        "id": "100-percenter-zombies",
+        "card": "100 Percenter (Zombies)",
+        "condition": "Alle Zombies Challenge-Karten freischalten (Dark Ops ausgenommen)",
+        "confidence": "bestaetigt",
+        "season": "Zombies"
+      },
+      {
+        "id": "100-percenter-campaign",
+        "card": "100 Percenter (Campaign)",
+        "condition": "Alle Campaign Challenge-Karten freischalten (Dark Ops ausgenommen)",
+        "confidence": "bestaetigt",
+        "season": "Campaign"
+      },
+      {
+        "id": "100-percenter-warzone",
+        "card": "100 Percenter (Warzone)",
+        "condition": "Alle Warzone Challenge-Karten freischalten (Dark Ops ausgenommen)",
+        "confidence": "bestaetigt",
+        "season": "Warzone"
+      },
+      {
+        "id": "400-percenter",
+        "card": "400 Percenter",
+        "condition": "Alle 4 Modus-100-Percenter-Cards erhalten",
+        "confidence": "wahrscheinlich",
+        "season": "Cross-Mode"
+      }
+    ],
+    "prestige": [
+      {
+        "id": "prestige-1-mastery-card",
+        "card": "Prestige 1 Mastery Card",
+        "condition": "Alle Prestige-1-Mastery-Challenges abschliessen",
+        "confidence": "wahrscheinlich",
+        "mode": "MP/Zombies"
+      },
+      {
+        "id": "prestige-2-10-mastery-cards-x9",
+        "card": "Prestige 2-10 Mastery Cards (x9)",
+        "condition": "Jeweilige Prestige-Mastery-Challenges (pro Prestige unique Karte)",
+        "confidence": "wahrscheinlich",
+        "mode": "MP/Zombies"
+      },
+      {
+        "id": "prestige-master-mastery-card",
+        "card": "Prestige Master Mastery Card",
+        "condition": "Prestige Master Level + dessen Challenges",
+        "confidence": "wahrscheinlich",
+        "mode": "MP/Zombies"
+      }
+    ],
+    "camo_challenge_category": {
+      "description": "Separate Cards gekoppelt an Mastery-Camo-Stufen (z.B. 'Camo Challenge - Shattered Gold AR'). ~100+ ueber Waffenklasse x Camo-Tier.",
+      "confidence": "wahrscheinlich",
+      "note": "Kategorie bestaetigt, Einzelnamen nur in-game einsehbar."
+    }
+  },
+  "events": [
+    {
+      "id": "terms-of-disservice-animated",
+      "card": "Terms of Disservice (Animated)",
+      "condition": "Operation Wall Breaker: alle 9 Steps + Command Killer Glitch Boss auf Nightmare",
+      "confidence": "bestaetigt",
+      "mode": "Event",
+      "season": "S4"
     },
     {
-      "name": "Battle-Pass-Cards",
-      "description": "Tier-Belohnungen."
+      "id": "illicit-cargo-event-card-s",
+      "card": "Illicit Cargo Event Card(s)",
+      "condition": "Illicit Cargo Camo Event Challenge-Completion (Name nicht namentlich publiziert)",
+      "confidence": "unsicher",
+      "mode": "Event",
+      "season": "S4"
     }
   ],
   "items": [
     {
-      "id": "totenreich-directed-mode-completion",
-      "card": "Totenreich Directed Mode Completion",
-      "condition": "Totenreich im Directed Mode abschliessen (+ 'Dead Man's Drip' Weaver-Skin + 5.000 XP)",
-      "mode": "Zombies"
+      "id": "undaunted",
+      "card": "Undaunted",
+      "condition": "Ueberlebe die Fear-Horde in Mission: Suppression",
+      "confidence": "bestaetigt",
+      "mode": "Campaign/Endgame",
+      "group": "dark_ops_campaign_endgame"
     },
     {
-      "id": "cold-reel",
-      "card": "Cold Reel",
-      "condition": "Totenreich Runde 25 erreichen (+ 2.500 XP)",
-      "mode": "Zombies"
+      "id": "exotic-arsenal",
+      "card": "Exotic Arsenal",
+      "condition": "Kills mit 6 verschiedenen Exotic Weapons in Endgame",
+      "confidence": "bestaetigt",
+      "mode": "Campaign/Endgame",
+      "group": "dark_ops_campaign_endgame"
     },
     {
-      "id": "aether-fisher",
-      "card": "Aether Fisher",
-      "condition": "Totenreich Runde 50 erreichen (+ 5.000 XP)",
-      "mode": "Zombies"
+      "id": "green-thumb",
+      "card": "Green Thumb",
+      "condition": "Besiege The Nightmare in Mission: Distortion ohne Schaden",
+      "confidence": "bestaetigt",
+      "mode": "Campaign/Endgame",
+      "group": "dark_ops_campaign_endgame"
     },
     {
-      "id": "ranked-s04-top-250",
-      "card": "Ranked Season 04 — Top 250 (animiert)",
-      "condition": "S4 in Top 250 abschliessen (+ animierte Waffen-Camo)",
-      "mode": "Ranked"
+      "id": "absolute-loss",
+      "card": "Absolute Loss",
+      "condition": "Besiege Menendez nur mit Machetes in Mission: Exposure",
+      "confidence": "bestaetigt",
+      "mode": "Campaign/Endgame",
+      "group": "dark_ops_campaign_endgame"
     },
     {
-      "id": "ranked-s04-top-250-champion",
-      "card": "Ranked Season 04 — Top 250 Champion (animiert)",
-      "condition": "S4 als Top 250 #1 Overall abschliessen",
-      "mode": "Ranked"
+      "id": "overpowered",
+      "card": "Overpowered",
+      "condition": "1.000.000 Power in Endgame (kumulativ)",
+      "confidence": "bestaetigt",
+      "mode": "Campaign/Endgame",
+      "group": "dark_ops_campaign_endgame"
+    },
+    {
+      "id": "monkeying-around",
+      "card": "Monkeying Around",
+      "condition": "Parkour- UND Dive-Strecke in Endgame absolvieren",
+      "confidence": "bestaetigt",
+      "mode": "Campaign/Endgame",
+      "group": "dark_ops_campaign_endgame"
+    },
+    {
+      "id": "dream-team",
+      "card": "Dream Team",
+      "condition": "25x aus Zone IV entkommen in Endgame",
+      "confidence": "bestaetigt",
+      "mode": "Campaign/Endgame",
+      "group": "dark_ops_campaign_endgame"
+    },
+    {
+      "id": "pest-control",
+      "card": "Pest Control",
+      "condition": "Endgame Final Boss besiegen",
+      "confidence": "bestaetigt",
+      "mode": "Campaign/Endgame",
+      "group": "dark_ops_campaign_endgame"
+    },
+    {
+      "id": "predator-becomes-prey",
+      "card": "Predator Becomes Prey",
+      "condition": "Hunter Activity aktivieren und besiegen",
+      "confidence": "wahrscheinlich",
+      "mode": "Campaign/Endgame",
+      "group": "dark_ops_campaign_endgame"
+    },
+    {
+      "id": "mountain-climber",
+      "card": "Mountain Climber",
+      "condition": "Auf dem Toxic Tyrant reiten",
+      "confidence": "wahrscheinlich",
+      "mode": "Campaign/Endgame",
+      "season": "S1",
+      "group": "dark_ops_campaign_endgame"
+    },
+    {
+      "id": "giant-feeling",
+      "card": "Giant Feeling",
+      "condition": "Exfil via Colossus of Avalon",
+      "confidence": "wahrscheinlich",
+      "mode": "Campaign/Endgame",
+      "season": "S1",
+      "group": "dark_ops_campaign_endgame"
+    },
+    {
+      "id": "titan-hunter",
+      "card": "Titan Hunter",
+      "condition": "3 einzigartige World Events absolvieren",
+      "confidence": "wahrscheinlich",
+      "mode": "Campaign/Endgame",
+      "season": "S1",
+      "group": "dark_ops_campaign_endgame"
+    },
+    {
+      "id": "stationary-stalwart",
+      "card": "Stationary Stalwart",
+      "condition": "Anfangszonen in Root Crasher ohne Down erobern",
+      "confidence": "bestaetigt",
+      "mode": "Campaign/Endgame",
+      "season": "S2",
+      "group": "dark_ops_campaign_endgame"
+    },
+    {
+      "id": "off-meta",
+      "card": "Off-Meta",
+      "condition": "Root Crasher ohne Crash Cart oder Ballistic Shield",
+      "confidence": "bestaetigt",
+      "mode": "Campaign/Endgame",
+      "season": "S2",
+      "group": "dark_ops_campaign_endgame"
+    },
+    {
+      "id": "run-it-back",
+      "card": "Run It Back",
+      "condition": "3 Operator-Skins aus Root Crasher freischalten",
+      "confidence": "bestaetigt",
+      "mode": "Campaign/Endgame",
+      "season": "S2",
+      "group": "dark_ops_campaign_endgame"
+    },
+    {
+      "id": "elusive",
+      "card": "Elusive",
+      "condition": "Link Forger Glitch Boss ohne gestunnt zu werden eliminieren",
+      "confidence": "bestaetigt",
+      "mode": "Campaign/Endgame",
+      "season": "S3",
+      "group": "dark_ops_campaign_endgame"
+    },
+    {
+      "id": "single-threaded",
+      "card": "Single-Threaded",
+      "condition": "Link Forger Glitch solo absolvieren",
+      "confidence": "bestaetigt",
+      "mode": "Campaign/Endgame",
+      "season": "S3",
+      "group": "dark_ops_campaign_endgame"
+    },
+    {
+      "id": "go-fetch",
+      "card": "Go Fetch",
+      "condition": "D.A.W.G.-Schild mit zurueckgeworfener D.A.W.G.-Ausruestung zerstoeren",
+      "confidence": "bestaetigt",
+      "mode": "Campaign/Endgame",
+      "season": "S3",
+      "group": "dark_ops_campaign_endgame"
+    },
+    {
+      "id": "frenzy-killer",
+      "card": "Frenzy Killer",
+      "condition": "Frenzy Kill Medal (5 Rapid Kills)",
+      "confidence": "bestaetigt",
+      "mode": "MP",
+      "group": "dark_ops_mp"
+    },
+    {
+      "id": "mega-killer",
+      "card": "Mega Killer",
+      "condition": "Mega Kill Medal (6 Rapid Kills)",
+      "confidence": "bestaetigt",
+      "mode": "MP",
+      "group": "dark_ops_mp"
+    },
+    {
+      "id": "ultra-killer",
+      "card": "Ultra Killer",
+      "condition": "Ultra Kill Medal (7 Rapid Kills)",
+      "confidence": "bestaetigt",
+      "mode": "MP",
+      "group": "dark_ops_mp"
+    },
+    {
+      "id": "chain-killer",
+      "card": "Chain Killer",
+      "condition": "Kill Chain Medal (>7 Rapid Kills)",
+      "confidence": "bestaetigt",
+      "mode": "MP",
+      "group": "dark_ops_mp"
+    },
+    {
+      "id": "relentless-killer",
+      "card": "Relentless Killer",
+      "condition": "Relentless Medal (20 Kills ohne Tod)",
+      "confidence": "bestaetigt",
+      "mode": "MP",
+      "group": "dark_ops_mp"
+    },
+    {
+      "id": "brutal-killer",
+      "card": "Brutal Killer",
+      "condition": "Brutal Medal (25 Kills ohne Tod)",
+      "confidence": "bestaetigt",
+      "mode": "MP",
+      "group": "dark_ops_mp"
+    },
+    {
+      "id": "nuclear-killer",
+      "card": "Nuclear Killer",
+      "condition": "Nuclear Medal (30 Kills ohne Tod, nur Waffen/Equipment/Field Upgrades)",
+      "confidence": "bestaetigt",
+      "mode": "MP",
+      "group": "dark_ops_mp"
+    },
+    {
+      "id": "nuked-out",
+      "card": "Nuked Out",
+      "condition": "Nuclear Medal in Free For All ohne Scorestreaks",
+      "confidence": "bestaetigt",
+      "mode": "MP",
+      "group": "dark_ops_mp"
+    },
+    {
+      "id": "very-nuclear",
+      "card": "Very Nuclear",
+      "condition": "Nuclear Medal mit 25 verschiedenen Waffen",
+      "confidence": "bestaetigt",
+      "mode": "MP",
+      "group": "dark_ops_mp"
+    },
+    {
+      "id": "same-day-delivery",
+      "card": "Same Day Delivery",
+      "condition": "2+ Kills mit einer einzelnen Body-Shield-Explosion",
+      "confidence": "bestaetigt",
+      "mode": "MP",
+      "group": "dark_ops_mp"
+    },
+    {
+      "id": "trip-cap",
+      "card": "Trip Cap",
+      "condition": "Alle 3 Domination-Ziele 3 Minuten am Stueck halten",
+      "confidence": "bestaetigt",
+      "mode": "MP",
+      "group": "dark_ops_mp"
+    },
+    {
+      "id": "castled",
+      "card": "Castled",
+      "condition": "10 Kills ohne eine Objective-Zone zu verlassen",
+      "confidence": "bestaetigt",
+      "mode": "MP",
+      "group": "dark_ops_mp"
+    },
+    {
+      "id": "gift-horse",
+      "card": "Gift Horse",
+      "condition": "Kill mit aus feindlichem Care Package gestohlenem Scorestreak",
+      "confidence": "bestaetigt",
+      "mode": "MP",
+      "group": "dark_ops_mp"
+    },
+    {
+      "id": "extreme-precision",
+      "card": "Extreme Precision",
+      "condition": "5 Sniper-Headshots ohne Nachladen/Tod",
+      "confidence": "bestaetigt",
+      "mode": "MP",
+      "group": "dark_ops_mp"
+    },
+    {
+      "id": "reverse-card",
+      "card": "Reverse Card",
+      "condition": "Kill durch Beschuss von gegnerischem Equipment/Field Upgrade",
+      "confidence": "bestaetigt",
+      "mode": "MP",
+      "group": "dark_ops_mp"
+    },
+    {
+      "id": "circus-act",
+      "card": "Circus Act",
+      "condition": "Bankshot Medal (Combat-Axe-Kill nach Wandprall)",
+      "confidence": "bestaetigt",
+      "mode": "MP",
+      "group": "dark_ops_mp"
+    },
+    {
+      "id": "pushing-the-limits",
+      "card": "Pushing the Limits",
+      "condition": "40 Overclock-Upgrades in Gunsmith freischalten",
+      "confidence": "bestaetigt",
+      "mode": "MP",
+      "group": "dark_ops_mp"
+    },
+    {
+      "id": "100k",
+      "card": "100k",
+      "condition": "100.000 Eliminations in Multiplayer",
+      "confidence": "bestaetigt",
+      "mode": "MP",
+      "group": "dark_ops_mp"
+    },
+    {
+      "id": "touch-grass",
+      "card": "Touch Grass",
+      "condition": "Weapon Prestige Master Max Level mit 30 Waffen",
+      "confidence": "bestaetigt",
+      "mode": "MP",
+      "group": "dark_ops_mp"
+    },
+    {
+      "id": "box-addict",
+      "card": "Box Addict",
+      "condition": "30 verschiedene Mystery-Box-Waffen in einem Match",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Alle",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "lucidity",
+      "card": "Lucidity",
+      "condition": "Tank Dempsey Side Quest auf Ashes of the Damned",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Ashes",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "armed-to-the-teeth",
+      "card": "Armed to the Teeth",
+      "condition": "3x PaP-LvIII-Legendary mit Ammo-Mods + 8 Perks gleichzeitig",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Alle",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "invincible",
+      "card": "Invincible",
+      "condition": "Runde 50 ohne einmal Down",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Alle",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "another-round",
+      "card": "Another Round",
+      "condition": "Runde 100 erreichen",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Alle",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "countdown",
+      "card": "Countdown",
+      "condition": "Elite-Zombie per Jump-Pad in den Tod befoerdern",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Alle",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "new-main",
+      "card": "New Main",
+      "condition": "1.000 Zombie-Kills mit jedem Dedicated-Crew-Operator",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Alle",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "harbinger-of-doom",
+      "card": "Harbinger of Doom",
+      "condition": "100 Zombie-Kills mit einem einzelnen Scorestreak",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Alle",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "social-distancing",
+      "card": "Social Distancing",
+      "condition": "Runde 20 ohne Schaden",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Alle",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "action-hero",
+      "card": "Action Hero",
+      "condition": "100 Zombies ohne Nachladen toeten",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Alle",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "ingenuity",
+      "card": "Ingenuity",
+      "condition": "Runde 50 in Cursed Mode mit Dragon Wings & Lawyer's Pen Relics",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Ashes",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "showboat",
+      "card": "Showboat",
+      "condition": "Ashes Main Quest bei Runde 100+ abschliessen",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Ashes",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "boss-rush",
+      "card": "Boss Rush",
+      "condition": "Ashes Endboss in <=5 Minuten besiegen",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Ashes",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "anathema",
+      "card": "Anathema",
+      "condition": "1.000.000 Zombies eliminieren (kumulativ)",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Alle",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "the-one",
+      "card": "The One",
+      "condition": "Runde 999 erreichen",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Alle",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "martial-artist",
+      "card": "Martial Artist",
+      "condition": "Runde 50 nur mit Melee & Combat Axes",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Alle",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "the-usual-please",
+      "card": "The Usual, Please",
+      "condition": "Juggernog 20x in einem Match trinken",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Alle",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "hard-mode",
+      "card": "Hard Mode",
+      "condition": "Ashes EE in Cursed Mode mit 3 Wicked Relics",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Ashes",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "serious-monkey-business",
+      "card": "Serious Monkey Business",
+      "condition": "Papaback in Hardcore Dead Ops Arcade besiegen",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Dead Ops",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "flushed-for-cash",
+      "card": "Flushed For Cash",
+      "condition": "25 Mio Silverback Cash verdienen (kumulativ)",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Alle",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "ready-for-publishing",
+      "card": "Ready For Publishing",
+      "condition": "Alle Augments fuer alle Items erforschen",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Alle",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "reliquary",
+      "card": "Reliquary",
+      "condition": "Alle Relics in Ashes of the Damned sammeln",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Ashes",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "mythic-cynic",
+      "card": "Mythic Cynic",
+      "condition": "Runde 50 mit allen Ashes-Relics aktiv",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Ashes",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "blitzed",
+      "card": "Blitzed",
+      "condition": "Ashes EE mit Samantha's Drawing & Teddy Bear Relics in <=1 Std",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Ashes",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "echoes",
+      "card": "Echoes",
+      "condition": "Echoes of the Damned Side Quest abschliessen",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Astra Malorum",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "astronomical",
+      "card": "Astronomical",
+      "condition": "Astra Malorum Main Quest mit Spider Fang + Civil Protector Head + Golden Spork Relics",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Astra Malorum",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "neutronomic",
+      "card": "Neutronomic",
+      "condition": "Paradox Junction Main Quest bei Runde 100",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Paradox Junction",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "chronomancer",
+      "card": "Chronomancer",
+      "condition": "Paradox Junction Main Quest ohne Time-Travel-Fee",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Paradox Junction",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "relativity",
+      "card": "Relativity",
+      "condition": "Paradox Junction Main Quest in unter 1 Stunde",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Paradox Junction",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "the-bomba",
+      "card": "The Bomba",
+      "condition": "Paradox Junction Main Quest mit allen Mantis Relics",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Paradox Junction",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "domineering",
+      "card": "Domineering",
+      "condition": "Echoes of the Damned (Richtofen-Side-Quest auf Totenreich)",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Totenreich",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "deicide",
+      "card": "Deicide",
+      "condition": "Totenreich Main Quest bei Runde 100",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Totenreich",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "aether-ruler",
+      "card": "Aether Ruler",
+      "condition": "Totenreich Main Quest mit allen Hard Relics aktiv",
+      "confidence": "wahrscheinlich",
+      "mode": "Zombies",
+      "season": "Totenreich",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "shaman",
+      "card": "Shaman",
+      "condition": "100 Alchemist Medals (>=5 Zombies mit >=2 Elementen rapid)",
+      "confidence": "wahrscheinlich",
+      "mode": "Zombies",
+      "season": "Totenreich",
+      "group": "dark_ops_zombies"
+    },
+    {
+      "id": "blind-lead",
+      "card": "Blind Lead",
+      "condition": "Elimination mit Hipfire einer Sniper Rifle",
+      "confidence": "bestaetigt",
+      "mode": "Warzone",
+      "group": "dark_ops_warzone"
+    },
+    {
+      "id": "holstered",
+      "card": "Holstered",
+      "condition": "5 Pistol-Eliminations in einem Match",
+      "confidence": "bestaetigt",
+      "mode": "Warzone",
+      "group": "dark_ops_warzone"
+    },
+    {
+      "id": "boom-boom",
+      "card": "Boom Boom",
+      "condition": "5 Launcher-Eliminations in einem Match",
+      "confidence": "bestaetigt",
+      "mode": "Warzone",
+      "group": "dark_ops_warzone"
+    },
+    {
+      "id": "chop-chop",
+      "card": "Chop Chop",
+      "condition": "1 Elimination beim Helicopter-Reiten",
+      "confidence": "bestaetigt",
+      "mode": "Warzone",
+      "group": "dark_ops_warzone"
+    },
+    {
+      "id": "repeat-exploder",
+      "card": "Repeat Exploder",
+      "condition": "3 Eliminations durch feindliche Grenade-Sticks in einem Match",
+      "confidence": "bestaetigt",
+      "mode": "Warzone",
+      "group": "dark_ops_warzone"
+    },
+    {
+      "id": "make-it-stick",
+      "card": "Make It Stick",
+      "condition": "Most Wanted Contract Target per Grenade Stick eliminieren",
+      "confidence": "bestaetigt",
+      "mode": "Warzone",
+      "group": "dark_ops_warzone"
+    },
+    {
+      "id": "last-cap-standing",
+      "card": "Last Cap Standing",
+      "condition": "5 Recon Contracts in einem Match",
+      "confidence": "bestaetigt",
+      "mode": "Warzone",
+      "group": "dark_ops_warzone"
+    },
+    {
+      "id": "next",
+      "card": "Next",
+      "condition": "5 Bounty Contracts in einem Match",
+      "confidence": "bestaetigt",
+      "mode": "Warzone",
+      "group": "dark_ops_warzone"
+    },
+    {
+      "id": "humbled",
+      "card": "Humbled",
+      "condition": "3 Big Game Bounty Contracts in einem Match",
+      "confidence": "bestaetigt",
+      "mode": "Warzone",
+      "group": "dark_ops_warzone"
+    },
+    {
+      "id": "gotta-run",
+      "card": "Gotta Run",
+      "condition": "5 Supply Run Contracts in einem Match",
+      "confidence": "bestaetigt",
+      "mode": "Warzone",
+      "group": "dark_ops_warzone"
+    },
+    {
+      "id": "all-mine",
+      "card": "All Mine",
+      "condition": "5 Scavenger Contracts in einem Match",
+      "confidence": "bestaetigt",
+      "mode": "Warzone",
+      "group": "dark_ops_warzone"
+    },
+    {
+      "id": "ascendance",
+      "card": "Ascendance",
+      "condition": "1 Match gewinnen ohne zu sterben",
+      "confidence": "bestaetigt",
+      "mode": "Warzone",
+      "group": "dark_ops_warzone"
+    },
+    {
+      "id": "flawless-feed",
+      "card": "Flawless Feed",
+      "condition": "4 Eliminations ohne Nachladen in einem Match",
+      "confidence": "bestaetigt",
+      "mode": "Warzone",
+      "group": "dark_ops_warzone"
+    },
+    {
+      "id": "one-round-crowns",
+      "card": "One Round Crowns",
+      "condition": "100 Headshots (kumulativ)",
+      "confidence": "bestaetigt",
+      "mode": "Warzone",
+      "group": "dark_ops_warzone"
+    },
+    {
+      "id": "backlog",
+      "card": "Backlog",
+      "condition": "7 Contracts in einem Match",
+      "confidence": "bestaetigt",
+      "mode": "Warzone",
+      "group": "dark_ops_warzone"
+    },
+    {
+      "id": "sliced",
+      "card": "Sliced",
+      "condition": "5 Melee-Eliminations in einem Match",
+      "confidence": "bestaetigt",
+      "mode": "Warzone",
+      "group": "dark_ops_warzone"
+    },
+    {
+      "id": "the-cleaner",
+      "card": "The Cleaner",
+      "condition": "50 Squads wipen (kumulativ)",
+      "confidence": "bestaetigt",
+      "mode": "Warzone",
+      "group": "dark_ops_warzone"
+    },
+    {
+      "id": "deleted",
+      "card": "Deleted",
+      "condition": "20 Eliminations in einem Match",
+      "confidence": "bestaetigt",
+      "mode": "Warzone",
+      "group": "dark_ops_warzone"
+    },
+    {
+      "id": "ground-war",
+      "card": "Ground War",
+      "condition": "100 Eliminations mit Ground-Loot-Waffen (kumulativ)",
+      "confidence": "bestaetigt",
+      "mode": "Warzone",
+      "group": "dark_ops_warzone"
+    },
+    {
+      "id": "efficient-execution",
+      "card": "Efficient Execution",
+      "condition": "5 One-Shot-Sniper-Eliminations in einem Match",
+      "confidence": "bestaetigt",
+      "mode": "Warzone",
+      "group": "dark_ops_warzone"
+    },
+    {
+      "id": "royalty",
+      "card": "Royalty",
+      "condition": "Alle 9 Black Ops Royale Operator Orders abschliessen",
+      "confidence": "bestaetigt",
+      "mode": "Warzone",
+      "season": "S2",
+      "group": "dark_ops_warzone"
+    },
+    {
+      "id": "totenreich-completion",
+      "card": "Totenreich Completion",
+      "condition": "Totenreich Main Quest abschliessen",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Totenreich",
+      "group": "zombies_milestone"
+    },
+    {
+      "id": "totenreich-early-completion",
+      "card": "Totenreich Early Completion",
+      "condition": "Totenreich Main Quest vor Season-4-Start (vor Directed Mode)",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Totenreich",
+      "group": "zombies_milestone"
+    },
+    {
+      "id": "totenreich-mastery",
+      "card": "Totenreich Mastery",
+      "condition": "Alle Totenreich Map-Challenges abschliessen",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Totenreich",
+      "group": "zombies_milestone"
+    },
+    {
+      "id": "totenreich-intel-collection",
+      "card": "Totenreich Intel Collection",
+      "condition": "Alle Intel-Stuecke auf Totenreich sammeln",
+      "confidence": "bestaetigt",
+      "mode": "Zombies",
+      "season": "Totenreich",
+      "group": "zombies_milestone"
+    },
+    {
+      "id": "ranked-season 02-silver",
+      "card": "Ranked Season 02 — Silver",
+      "condition": "Silver Rank in S2 erreichen",
+      "confidence": "wahrscheinlich",
+      "mode": "Ranked",
+      "season": "Season 02",
+      "group": "ranked_s2"
+    },
+    {
+      "id": "ranked-season 02-gold",
+      "card": "Ranked Season 02 — Gold",
+      "condition": "Gold Rank in S2 erreichen",
+      "confidence": "bestaetigt",
+      "mode": "Ranked",
+      "season": "Season 02",
+      "group": "ranked_s2"
+    },
+    {
+      "id": "ranked-season 02-platinum",
+      "card": "Ranked Season 02 — Platinum",
+      "condition": "Platinum Rank in S2 erreichen",
+      "confidence": "wahrscheinlich",
+      "mode": "Ranked",
+      "season": "Season 02",
+      "group": "ranked_s2"
+    },
+    {
+      "id": "ranked-season 02-diamond",
+      "card": "Ranked Season 02 — Diamond",
+      "condition": "Diamond Rank in S2 erreichen",
+      "confidence": "wahrscheinlich",
+      "mode": "Ranked",
+      "season": "Season 02",
+      "group": "ranked_s2"
+    },
+    {
+      "id": "ranked-season 02-crimson",
+      "card": "Ranked Season 02 — Crimson",
+      "condition": "Crimson Rank in S2 erreichen",
+      "confidence": "wahrscheinlich",
+      "mode": "Ranked",
+      "season": "Season 02",
+      "group": "ranked_s2"
+    },
+    {
+      "id": "ranked-season 02-iridescent",
+      "card": "Ranked Season 02 — Iridescent",
+      "condition": "Iridescent Rank in S2 erreichen",
+      "confidence": "wahrscheinlich",
+      "mode": "Ranked",
+      "season": "Season 02",
+      "group": "ranked_s2"
+    },
+    {
+      "id": "ranked-season 02-top-250-champion",
+      "card": "Ranked Season 02 — Top 250 Champion",
+      "condition": "Top-250-Abschlussrang in S2",
+      "confidence": "wahrscheinlich",
+      "mode": "Ranked",
+      "season": "Season 02",
+      "group": "ranked_s2"
+    },
+    {
+      "id": "ranked-season 03-silver",
+      "card": "Ranked Season 03 — Silver",
+      "condition": "Silver Rank in S3 erreichen",
+      "confidence": "bestaetigt",
+      "mode": "Ranked",
+      "season": "Season 03",
+      "group": "ranked_s3"
+    },
+    {
+      "id": "ranked-season 03-gold",
+      "card": "Ranked Season 03 — Gold",
+      "condition": "Gold Rank in S3 erreichen",
+      "confidence": "bestaetigt",
+      "mode": "Ranked",
+      "season": "Season 03",
+      "group": "ranked_s3"
+    },
+    {
+      "id": "ranked-season 03-platinum",
+      "card": "Ranked Season 03 — Platinum",
+      "condition": "Platinum Rank in S3 erreichen",
+      "confidence": "bestaetigt",
+      "mode": "Ranked",
+      "season": "Season 03",
+      "group": "ranked_s3"
+    },
+    {
+      "id": "ranked-season 03-diamond",
+      "card": "Ranked Season 03 — Diamond",
+      "condition": "Diamond Rank in S3 erreichen",
+      "confidence": "wahrscheinlich",
+      "mode": "Ranked",
+      "season": "Season 03",
+      "group": "ranked_s3"
+    },
+    {
+      "id": "ranked-season 03-crimson",
+      "card": "Ranked Season 03 — Crimson",
+      "condition": "Crimson Rank in S3 erreichen",
+      "confidence": "wahrscheinlich",
+      "mode": "Ranked",
+      "season": "Season 03",
+      "group": "ranked_s3"
+    },
+    {
+      "id": "ranked-season 03-iridescent",
+      "card": "Ranked Season 03 — Iridescent",
+      "condition": "Iridescent Rank in S3 erreichen",
+      "confidence": "wahrscheinlich",
+      "mode": "Ranked",
+      "season": "Season 03",
+      "group": "ranked_s3"
+    },
+    {
+      "id": "ranked-season 03-top-250-champion",
+      "card": "Ranked Season 03 — Top 250 Champion",
+      "condition": "Top-250-Abschlussrang in S3",
+      "confidence": "wahrscheinlich",
+      "mode": "Ranked",
+      "season": "Season 03",
+      "group": "ranked_s3"
+    },
+    {
+      "id": "ranked-season 04-silver",
+      "card": "Ranked Season 04 — Silver",
+      "condition": "Silver Rank in S4 erreichen",
+      "confidence": "bestaetigt",
+      "mode": "Ranked",
+      "season": "Season 04",
+      "group": "ranked_s4"
+    },
+    {
+      "id": "ranked-season 04-gold",
+      "card": "Ranked Season 04 — Gold",
+      "condition": "Gold Rank in S4 erreichen",
+      "confidence": "bestaetigt",
+      "mode": "Ranked",
+      "season": "Season 04",
+      "group": "ranked_s4"
+    },
+    {
+      "id": "ranked-season 04-platinum",
+      "card": "Ranked Season 04 — Platinum",
+      "condition": "Platinum Rank in S4 erreichen",
+      "confidence": "bestaetigt",
+      "mode": "Ranked",
+      "season": "Season 04",
+      "group": "ranked_s4"
+    },
+    {
+      "id": "ranked-season 04-diamond",
+      "card": "Ranked Season 04 — Diamond",
+      "condition": "Diamond Rank in S4 erreichen",
+      "confidence": "bestaetigt",
+      "mode": "Ranked",
+      "season": "Season 04",
+      "group": "ranked_s4"
+    },
+    {
+      "id": "ranked-season 04-crimson",
+      "card": "Ranked Season 04 — Crimson",
+      "condition": "Crimson Rank in S4 erreichen",
+      "confidence": "bestaetigt",
+      "mode": "Ranked",
+      "season": "Season 04",
+      "group": "ranked_s4"
+    },
+    {
+      "id": "ranked-season 04-iridescent",
+      "card": "Ranked Season 04 — Iridescent",
+      "condition": "Iridescent Rank in S4 erreichen (Animated)",
+      "confidence": "bestaetigt",
+      "mode": "Ranked",
+      "season": "Season 04",
+      "group": "ranked_s4"
+    },
+    {
+      "id": "ranked-season 04-top-250",
+      "card": "Ranked Season 04 — Top 250",
+      "condition": "Season-4-Abschlussrang Top 250 (Animated)",
+      "confidence": "bestaetigt",
+      "mode": "Ranked",
+      "season": "Season 04",
+      "group": "ranked_s4"
+    },
+    {
+      "id": "ranked-season 04-top-250-champion",
+      "card": "Ranked Season 04 — Top 250 Champion",
+      "condition": "Season-4-Abschlussrang #1 Gesamt (Animated)",
+      "confidence": "bestaetigt",
+      "mode": "Ranked",
+      "season": "Season 04",
+      "group": "ranked_s4"
+    },
+    {
+      "id": "100-percenter-multiplayer",
+      "card": "100 Percenter (Multiplayer)",
+      "condition": "Alle MP Challenge-Karten freischalten (Dark Ops ausgenommen)",
+      "confidence": "bestaetigt",
+      "season": "MP",
+      "group": "mastery_percenter"
+    },
+    {
+      "id": "100-percenter-zombies",
+      "card": "100 Percenter (Zombies)",
+      "condition": "Alle Zombies Challenge-Karten freischalten (Dark Ops ausgenommen)",
+      "confidence": "bestaetigt",
+      "season": "Zombies",
+      "group": "mastery_percenter"
+    },
+    {
+      "id": "100-percenter-campaign",
+      "card": "100 Percenter (Campaign)",
+      "condition": "Alle Campaign Challenge-Karten freischalten (Dark Ops ausgenommen)",
+      "confidence": "bestaetigt",
+      "season": "Campaign",
+      "group": "mastery_percenter"
+    },
+    {
+      "id": "100-percenter-warzone",
+      "card": "100 Percenter (Warzone)",
+      "condition": "Alle Warzone Challenge-Karten freischalten (Dark Ops ausgenommen)",
+      "confidence": "bestaetigt",
+      "season": "Warzone",
+      "group": "mastery_percenter"
+    },
+    {
+      "id": "400-percenter",
+      "card": "400 Percenter",
+      "condition": "Alle 4 Modus-100-Percenter-Cards erhalten",
+      "confidence": "wahrscheinlich",
+      "season": "Cross-Mode",
+      "group": "mastery_percenter"
+    },
+    {
+      "id": "prestige-1-mastery-card",
+      "card": "Prestige 1 Mastery Card",
+      "condition": "Alle Prestige-1-Mastery-Challenges abschliessen",
+      "confidence": "wahrscheinlich",
+      "mode": "MP/Zombies",
+      "group": "mastery_prestige"
+    },
+    {
+      "id": "prestige-2-10-mastery-cards-x9",
+      "card": "Prestige 2-10 Mastery Cards (x9)",
+      "condition": "Jeweilige Prestige-Mastery-Challenges (pro Prestige unique Karte)",
+      "confidence": "wahrscheinlich",
+      "mode": "MP/Zombies",
+      "group": "mastery_prestige"
+    },
+    {
+      "id": "prestige-master-mastery-card",
+      "card": "Prestige Master Mastery Card",
+      "condition": "Prestige Master Level + dessen Challenges",
+      "confidence": "wahrscheinlich",
+      "mode": "MP/Zombies",
+      "group": "mastery_prestige"
+    },
+    {
+      "id": "terms-of-disservice-animated",
+      "card": "Terms of Disservice (Animated)",
+      "condition": "Operation Wall Breaker: alle 9 Steps + Command Killer Glitch Boss auf Nightmare",
+      "confidence": "bestaetigt",
+      "mode": "Event",
+      "season": "S4",
+      "group": "events"
+    },
+    {
+      "id": "illicit-cargo-event-card-s",
+      "card": "Illicit Cargo Event Card(s)",
+      "condition": "Illicit Cargo Camo Event Challenge-Completion (Name nicht namentlich publiziert)",
+      "confidence": "unsicher",
+      "mode": "Event",
+      "season": "S4",
+      "group": "events"
     }
   ],
-  "zombies_round_milestones": "R10 -> GobbleGum, R25 -> 'Cold Reel', R50 -> 'Aether Fisher'. BlackCell (S4) buendelt zusaetzliche Camos/Cosmetics inkl. Cards via BlackCell-BP-Upgrade.",
+  "bulk_categories": [
+    {
+      "category": "Battle Pass Cards",
+      "estimate": "~8-12 pro Season",
+      "headliner": "Animated Cards an Token-Tiers (30/50/90+)",
+      "source": "boostmatch"
+    },
+    {
+      "category": "BlackCell Premium Cards",
+      "estimate": "~2-4 pro Season",
+      "headliner": "exklusive Animated Cards im BlackCell-Track",
+      "source": "GameRant"
+    },
+    {
+      "category": "Store Bundle Cards",
+      "estimate": ">50 ueber alle Seasons",
+      "headliner": "'Never Broken' (Endowment Legacy Bundle), Operator-Bundle-Cards",
+      "source": "Game8"
+    },
+    {
+      "category": "Default Cards",
+      "estimate": "6",
+      "headliner": "Fractured Mind, Systemic, New World, Enforcement, Undercover, Conspiracy",
+      "source": "Game8"
+    }
+  ],
+  "gaps": [
+    {
+      "item": "Season 4 Dark Ops",
+      "status": "2 Tage nach Launch nicht community-dokumentiert; Kowakujo (~Juli 2026) folgt",
+      "todo": true
+    },
+    {
+      "item": "Totenreich Aether Ruler + Shaman",
+      "status": "Existenz bestaetigt, Vollbedingung nicht primaer-belegt",
+      "todo": true
+    },
+    {
+      "item": "Ranked S1/S2 Tier-Namen (ausser S2 Gold)",
+      "status": "strukturell wahrscheinlich, nicht alle namentlich belegt",
+      "todo": true
+    },
+    {
+      "item": "Prestige-Mastery Card-Namen P1-P10",
+      "status": "Existenz belegt, Einzelnamen nur in-game",
+      "todo": true
+    },
+    {
+      "item": "Camo-Challenge-Cards (~100+)",
+      "status": "Kategorie bestaetigt, Vollliste nur in-game",
+      "todo": true
+    },
+    {
+      "item": "Battle-Pass/Store 1:1-Enumeration",
+      "status": "bewusst nicht eingezogen (reine Kosmetik)",
+      "todo": false
+    }
+  ],
   "full_list_sources": [
     {
-      "name": "Fandom Wiki",
-      "url": "callofduty.fandom.com/wiki/Calling_Cards/Call_of_Duty:_Black_Ops_7",
-      "detail": "vollstaendige Card-Liste, community-gepflegt"
+      "name": "detonated.com (Dark Ops, umfangreichste Einzelquelle)",
+      "url": "https://detonated.com/all-black-ops-7-dark-ops-challenges-multiplayer-zombies-campaign/"
     },
     {
-      "name": "GameFAQs",
-      "url": "gamefaqs.gamespot.com/pc/539641-call-of-duty-black-ops-7/faqs/82246",
-      "detail": "BO7 Calling-Cards-Guide"
+      "name": "PCGamesN Dark Ops",
+      "url": "https://www.pcgamesn.com/call-of-duty-black-ops-7/dark-ops-challenges"
     },
     {
-      "name": "Windows Central",
-      "url": null,
-      "detail": "alle Dark-Ops-Challenges + Rewards (4 Modi: MP/Zombies/Campaign/Warzone)"
+      "name": "Windows Central Dark Ops",
+      "url": "https://www.windowscentral.com/gaming/here-are-all-of-the-call-of-duty-black-ops-7-dark-ops-challenges-and-the-rewards-you-can-get"
     },
     {
-      "name": "overgear",
-      "url": null,
-      "detail": "How-to-Get-Guide"
-    }
-  ],
-  "open": [
-    {
-      "item": "Vollstaendige 1:1-Card-Enumeration (hunderte)",
-      "status": "bei Bedarf aus Fandom-Wiki ziehbar; aktuell bewusst nicht eingezogen (Kosmetik, low-Build-Relevanz)",
-      "todo": true
+      "name": "Dexerto Ranked Rewards",
+      "url": "https://www.dexerto.com/wikis/black-ops-7-guides-walkthrough-tips/black-ops-7-ranked-play-rewards/"
     },
     {
-      "item": "Dark-Ops-Detail-Liste",
-      "status": "WebFetch der windowscentral-Quelle truncated -> via Chrome get_page_text nachziehbar falls gewuenscht",
-      "todo": true
+      "name": "GameRant S4 Ranked",
+      "url": "https://gamerant.com/call-of-duty-cod-black-ops-7-bo7-warzone-season-4-ranked-play-rewards-camos-how-to-get/"
+    },
+    {
+      "name": "Game8 All Calling Cards",
+      "url": "https://game8.co/games/Call-of-Duty-Black-Ops-7/archives/565483"
+    },
+    {
+      "name": "CoD Fandom Wiki Calling Cards (eine Beispielquelle)",
+      "url": "https://callofduty.fandom.com/wiki/Calling_Cards/Call_of_Duty:_Black_Ops_7"
     }
   ]
 }

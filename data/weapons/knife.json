@@ -1,0 +1,16 @@
+{
+  "id": "knife",
+  "name": "Knife",
+  "class": "Melee",
+  "game": "bo7",
+  "weapon_type": "Melee",
+  "in_warzone": true,
+  "source": "callofduty.com + Fandom + Game8/Dexerto/gamesatlas (Roster-Recherche, non-TGD)",
+  "data_version": "S4_2026-06-07",
+  "unlock_level": 1,
+  "note": "Hoher Schaden, kurze Reichweite, schnelle Angriffsgeschwindigkeit. Max Weapon-Level 30.",
+  "base": {},
+  "slots": {},
+  "subclass": "Knife",
+  "unlock": "Launch (Standard, Level 1)"
+}
