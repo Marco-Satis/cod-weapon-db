@@ -2,23 +2,24 @@
   "title": "CoD Weapon DB — Katalog",
   "data_version": "S3.5_2026-04-25",
   "source": "truegamedata",
-  "weapon_count": 191,
-  "base_only_count": 7,
+  "weapon_count": 203,
+  "base_only_count": 19,
   "counts_by_class": {
     "AR": 47,
     "Battle Rifle": 22,
     "Crossbow": 1,
     "LMG": 21,
+    "Launcher": 2,
     "Marksman Rifle": 14,
-    "Melee": 1,
+    "Melee": 7,
     "Pistol": 20,
     "SMG": 44,
     "Sniper": 20,
-    "Special": 1
+    "Special": 5
   },
   "counts_by_game": {
     "bo6": 48,
-    "bo7": 36,
+    "bo7": 48,
     "mw2": 62,
     "mw3": 45
   },
@@ -74,6 +75,14 @@
       "game": "bo6",
       "in_warzone": true,
       "base_only": false
+    },
+    {
+      "id": "aarow-109",
+      "name": "AAROW 109",
+      "class": "Launcher",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": true
     },
     {
       "id": "abr-a1",
@@ -132,6 +141,14 @@
       "base_only": false
     },
     {
+      "id": "arc-m1",
+      "name": "A.R.C. M1",
+      "class": "Launcher",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": true
+    },
+    {
       "id": "as-val",
       "name": "AS VAL",
       "class": "AR",
@@ -146,6 +163,14 @@
       "game": "mw3",
       "in_warzone": true,
       "base_only": false
+    },
+    {
+      "id": "ballistic-knife",
+      "name": "Ballistic Knife",
+      "class": "Melee",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": true
     },
     {
       "id": "bas-b",
@@ -348,6 +373,14 @@
       "base_only": false
     },
     {
+      "id": "executioners-duet",
+      "name": "Executioner's Duet",
+      "class": "Melee",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": true
+    },
+    {
       "id": "feng-82",
       "name": "Feng 82",
       "class": "LMG",
@@ -386,6 +419,14 @@
       "game": "mw2",
       "in_warzone": true,
       "base_only": false
+    },
+    {
+      "id": "flatline-mk2",
+      "name": "Flatline MK.II",
+      "class": "Melee",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": true
     },
     {
       "id": "fr-5-56",
@@ -428,6 +469,14 @@
       "base_only": false
     },
     {
+      "id": "gdl-havoc",
+      "name": "GDL Havoc",
+      "class": "Special",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": true
+    },
+    {
       "id": "goblin-mk2",
       "name": "Goblin Mk2",
       "class": "Battle Rifle",
@@ -460,6 +509,14 @@
       "base_only": false
     },
     {
+      "id": "grimhawk",
+      "name": "Grimhawk",
+      "class": "Special",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": true
+    },
+    {
       "id": "gs-magna",
       "name": "GS Magna",
       "class": "Pistol",
@@ -480,6 +537,14 @@
       "name": "Gulag Rock",
       "class": "Melee",
       "game": "bo6",
+      "in_warzone": true,
+      "base_only": true
+    },
+    {
+      "id": "h311-saw",
+      "name": "H311-SAW",
+      "class": "Melee",
+      "game": "bo7",
       "in_warzone": true,
       "base_only": true
     },
@@ -612,6 +677,14 @@
       "base_only": false
     },
     {
+      "id": "katana",
+      "name": "Katana",
+      "class": "Melee",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": true
+    },
+    {
       "id": "katt-amr",
       "name": "KATT-AMR",
       "class": "Sniper",
@@ -626,6 +699,14 @@
       "game": "bo6",
       "in_warzone": true,
       "base_only": false
+    },
+    {
+      "id": "knife",
+      "name": "Knife",
+      "class": "Melee",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": true
     },
     {
       "id": "kogot-7",
@@ -964,6 +1045,14 @@
       "base_only": true
     },
     {
+      "id": "nx-ravager",
+      "name": "NX Ravager",
+      "class": "Special",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": true
+    },
+    {
       "id": "p890",
       "name": "P890",
       "class": "Pistol",
@@ -1162,6 +1251,14 @@
       "game": "mw2",
       "in_warzone": true,
       "base_only": false
+    },
+    {
+      "id": "siren",
+      "name": "Siren",
+      "class": "Special",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": true
     },
     {
       "id": "sirin-9mm",

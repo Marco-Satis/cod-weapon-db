@@ -1,0 +1,16 @@
+{
+  "id": "flatline-mk2",
+  "name": "Flatline MK.II",
+  "class": "Melee",
+  "game": "bo7",
+  "weapon_type": "Melee",
+  "in_warzone": true,
+  "source": "callofduty.com + Fandom + Game8/Dexerto/gamesatlas (Roster-Recherche, non-TGD)",
+  "data_version": "S4_2026-06-07",
+  "unlock_level": 49,
+  "note": "Hoher Schaden, moderate Angriffsgeschwindigkeit. Max Weapon-Level 30.",
+  "base": {},
+  "slots": {},
+  "subclass": "Blunt/Bat",
+  "unlock": "Launch (Level 49)"
+}

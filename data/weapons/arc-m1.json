@@ -1,0 +1,18 @@
+{
+  "id": "arc-m1",
+  "name": "A.R.C. M1",
+  "class": "Launcher",
+  "game": "bo7",
+  "weapon_type": "Launcher",
+  "in_warzone": true,
+  "source": "callofduty.com + Fandom + Game8/Dexerto/gamesatlas (Roster-Recherche, non-TGD)",
+  "data_version": "S4_2026-06-07",
+  "unlock_level": 25,
+  "note": "Halten = Energiestrahl aufladen; durchdringt Gegner; hoher Schaden gegen Fahrzeuge + Scorestreaks; kein Lock-on. (= Named-Exotic 'Criticality'/Mortar in Endgame.)",
+  "base": {
+    "mag": 3
+  },
+  "slots": {},
+  "subclass": "Energy Charge Launcher",
+  "unlock": "Launch (Level 25)"
+}

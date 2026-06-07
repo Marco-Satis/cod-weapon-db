@@ -1,0 +1,15 @@
+{
+  "id": "h311-saw",
+  "name": "H311-SAW",
+  "class": "Melee",
+  "game": "bo7",
+  "weapon_type": "Melee",
+  "in_warzone": true,
+  "source": "callofduty.com + Fandom + Game8/Dexerto/gamesatlas (Roster-Recherche, non-TGD)",
+  "data_version": "S4_2026-06-07",
+  "note": "Hoher Schaden, laengere Reichweite als Knife/Flatline, langsamer. Max Weapon-Level 30. [Unlock-Weg: Game8 nennt Armory 250k XP, andere Quelle Battle-Pass Page 10 - evtl. beides.]",
+  "base": {},
+  "slots": {},
+  "subclass": "Saw/Blade",
+  "unlock": "Season 2 - Battle Pass Page 10 / Armory 250k XP"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "nx-ravager",
+  "name": "NX Ravager",
+  "class": "Special",
+  "game": "bo7",
+  "weapon_type": "Special",
+  "in_warzone": true,
+  "source": "callofduty.com + Fandom + Game8/Dexerto/gamesatlas (Roster-Recherche, non-TGD)",
+  "data_version": "S4_2026-06-07",
+  "note": "Hochschaden-Bolzen; Fire-Mod explosive Bolzen (Detonation nach Impact); Prestige Tribolt (3 Bolzen). Keine numerischen TGD-Stats.",
+  "base": {},
+  "slots": {},
+  "subclass": "Crossbow / Bolt Launcher",
+  "unlock": "Season 1 - Rally Point Event (Community + Personal Missions)"
+}

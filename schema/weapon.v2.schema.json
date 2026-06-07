@@ -16,6 +16,8 @@
     "source": {"type": "string"},
     "data_version": {"type": "string"},
     "unlock_level": {"type": ["number", "string"]},
+    "subclass": {"type": "string", "description": "Feinere Unterklasse (z.B. Knife/Bat/Sword bei Melee, Grenade-Launcher/Energy bei Special/Launcher)."},
+    "unlock": {"type": "string", "description": "Freischalt-Weg in Worten (Season/Event/BattlePass/Challenge), wenn nicht als numerisches unlock_level erfassbar."},
     "note": {"type": "string"},
     "not_buildable": {"type": "boolean"},
     "fire_modes": {"type": ["object", "array", "string"]},
