@@ -72,7 +72,7 @@
   "slots": {
     "BARREL": [
       {
-        "name": "8.6: MFS Stratus-X Barrel",
+        "name": "8.6\" MFS Stratus-X Barrel",
         "mods": {
           "gun_kick_mod": 0.707,
           "vert_recoil_mod": 0.696,

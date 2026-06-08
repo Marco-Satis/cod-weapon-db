@@ -275,7 +275,7 @@
         }
       },
       {
-        "name": "Hawker Stabilizer MKII",
+        "name": "Hawker Stabilizer MK.II",
         "mods": {
           "gun_kick_mod": 0.943,
           "vert_recoil_mod": 0.94
@@ -422,7 +422,7 @@
         }
       },
       {
-        "name": "EMT3 Holo Mk.z"
+        "name": "EMT3 Holo Mk.2"
       },
       {
         "name": "LTI Target Finder VZ",

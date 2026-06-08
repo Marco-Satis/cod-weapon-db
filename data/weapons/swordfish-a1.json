@@ -157,7 +157,7 @@
         "name": "1mW Adaptive Tactical Laser"
       },
       {
-        "name": "ImW Instinct Laser Array",
+        "name": "1mW Instinct Laser Array",
         "mods": {
           "ads_mod": 0.956,
           "stf_mod": 0.933
@@ -167,7 +167,7 @@
         "name": "3mW Motion Strike Laser"
       },
       {
-        "name": "Smw Lockstep Laser"
+        "name": "5mW Lockstep Laser"
       }
     ],
     "MAGAZINE": [
@@ -267,7 +267,7 @@
         "name": "PrismaTech Digital Holo"
       },
       {
-        "name": "EMT3 Holo Mkz"
+        "name": "EMT3 Holo Mk.2"
       },
       {
         "name": "Solaris Holo-IR",

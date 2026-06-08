@@ -133,7 +133,7 @@
         "name": "1mW Adaptive Tactical Laser"
       },
       {
-        "name": "ImW Instinct Laser Array",
+        "name": "1mW Instinct Laser Array",
         "mods": {
           "ads_mod": 0.954,
           "stf_mod": 0.909
@@ -143,7 +143,7 @@
         "name": "3mW Motion Strike Laser"
       },
       {
-        "name": "Smw Lockstep Laser"
+        "name": "5mW Lockstep Laser"
       }
     ],
     "MAGAZINE": [
@@ -253,7 +253,7 @@
         }
       },
       {
-        "name": "EMT3 Holo Mkz",
+        "name": "EMT3 Holo Mk.2",
         "mods": {
           "ads_mod": 0.972
         }

@@ -248,7 +248,7 @@
         }
       },
       {
-        "name": "Hawker Stabilizer MKII",
+        "name": "Hawker Stabilizer MK.II",
         "mods": {
           "gun_kick_mod": 0.854,
           "vert_recoil_mod": 0.85
@@ -307,7 +307,7 @@
         "name": "PrismaTech Digital Holo"
       },
       {
-        "name": "EMT3 Holo Mk.z"
+        "name": "EMT3 Holo Mk.2"
       },
       {
         "name": "Solaris Holo-IR",

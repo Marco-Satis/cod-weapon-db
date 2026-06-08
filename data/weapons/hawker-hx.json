@@ -86,7 +86,7 @@
         }
       },
       {
-        "name": "20.5\" Hawker Spring Barre",
+        "name": "20.5\" Hawker Spring Barrel",
         "mods": {
           "ads_mod": 0.961,
           "stf_mod": 0.891
@@ -105,7 +105,7 @@
         }
       },
       {
-        "name": "3338 LM Overpressured",
+        "name": ".338 LM Overpressured",
         "mods": {
           "bv_mod": 1.18
         }
@@ -119,7 +119,7 @@
         }
       },
       {
-        "name": "338 LM FMJ"
+        "name": ".338 LM FMJ"
       }
     ],
     "LASER": [
@@ -130,7 +130,7 @@
         }
       },
       {
-        "name": "2mW Adaptive Tactical Lasc"
+        "name": "2mW Adaptive Tactical Laser"
       },
       {
         "name": "1mW Instinct Laser Array",
@@ -143,7 +143,7 @@
         "name": "3mW Motion Strike Laser"
       },
       {
-        "name": "Smw Lockstep Laser"
+        "name": "5mW Lockstep Laser"
       }
     ],
     "MAGAZINE": [
@@ -253,7 +253,7 @@
         }
       },
       {
-        "name": "EMT3 Holo Mk.z",
+        "name": "EMT3 Holo Mk.2",
         "mods": {
           "ads_mod": 0.971
         }
