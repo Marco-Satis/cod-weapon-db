@@ -102,18 +102,6 @@
           "ads_mod": 0.926,
           "stf_mod": 0.957
         }
-      },
-      {
-        "name": "25\" EAM Heavy Barrel",
-        "mods": {
-          "ads_mod": 1.121,
-          "gun_kick_mod": 0.812,
-          "vert_recoil_mod": 0.796,
-          "horiz_recoil_mod": 0.8,
-          "ads_movement_mod": 0.875,
-          "stf_mod": 1.08,
-          "bv_mod": 1.149
-        }
       }
     ],
     "FIRE MODS": [
