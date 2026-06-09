@@ -530,40 +530,93 @@
       }
     ],
     "affinity_exclusive": {
-      "note": "NUR Named-Exotics. Laut Wiki outclassed von Standard-Bonussen.",
+      "note": "NUR Named-Exotics mit passender Affinity. KORRIGIERT 2026-06-08 via Marco-In-Game-Screenshot (frueheres web-by_effect war teils falsch, z.B. Shock 'Lightning Strike', Frost 'Flash Freeze', Mortar 'Star Burst' = nicht im Spiel). Affinity-Exotics proccen den Munitions-Effekt oefter + erhalten Zusatz-Effekte. Plus 'Big Game' (Effekt wirkt auch auf Elites).",
       "by_effect": {
-        "Shock": [
-          "Chain Lightning",
-          "Lightning Strike"
-        ],
-        "Shrapnel": [
-          "Blast Chain",
-          "Blast Shield"
-        ],
-        "Mortar": [
-          "Fire Wheel",
-          "Star Burst"
-        ],
-        "Frost": [
-          "Flash Freeze",
-          "Ice Cloud"
-        ],
-        "Graviton": [
-          "Black Hole",
-          "Warp"
-        ],
-        "Incendiary": [
-          "Firebomb",
-          "Petrol"
-        ],
-        "Neuro-Disruption": [
-          "Mass Disruption",
-          "Neural Attraction"
-        ],
-        "Photon": [
-          "Blessing",
-          "Dual Action"
-        ]
+        "Graviton": {
+          "bases": [
+            "M15 Mod 0 (Torrent)",
+            "Hawker HX (Continuum)"
+          ],
+          "extra": [
+            "extra Black Holes",
+            "Kasimir bei Ausloesung",
+            "Big Game"
+          ]
+        },
+        "Shock": {
+          "bases": [
+            "Dravec 45 (Backdrive)",
+            "Sokol 545 (Hypersurge)",
+            "1911 (Reboot)"
+          ],
+          "extra": [
+            "Schock verteilen beim Treffen",
+            "Chain Lightning (Blitzschlag, wie Zombies)",
+            "Big Game"
+          ]
+        },
+        "Shrapnel": {
+          "bases": [
+            "AK-27 (Killswitch)",
+            "Razor 9mm (Barrage)",
+            "Swordfish A1 (Pulsebreach)"
+          ],
+          "extra": [
+            "mehr Explosionsketten (Blast Chain)",
+            "Big Game"
+          ]
+        },
+        "Photon": {
+          "bases": [
+            "Velox 5.7 (Malspike)",
+            "MPC-25 (Swarmforge)"
+          ],
+          "extra": [
+            "extra Heilung durch Glyphe",
+            "mehr Glyphen pro Aktivierung (3)",
+            "Big Game"
+          ]
+        },
+        "Incendiary": {
+          "bases": [
+            "M10 Breacher (Overcharge)",
+            "EGRT-17 (Collateral)"
+          ],
+          "extra": [
+            "Feuer verteilen",
+            "Big Game"
+          ]
+        },
+        "Frost": {
+          "bases": [
+            "M8A1 (Flashburst)",
+            "Echo 12 (Zeotrope)"
+          ],
+          "extra": [
+            "Ice Cloud (Eiswolke)",
+            "Big Game"
+          ]
+        },
+        "Mortar": {
+          "bases": [
+            "XM325 (Redline)",
+            "A.R.C. M1 (Criticality)"
+          ],
+          "extra": [
+            "Fire Wheel (Flammenrad)",
+            "Big Game"
+          ]
+        },
+        "Neuro-Disruption": {
+          "bases": [
+            "VS Recon (Ghostmind)",
+            "Warden 308 (Neurowall)"
+          ],
+          "extra": [
+            "Gift verteilen",
+            "Big Game"
+          ]
+        }
       },
       "universal": [
         {
@@ -571,6 +624,92 @@
           "effect": "Ammo-Mod/Effect wirkt auch auf Elite-Gegner"
         }
       ]
+    }
+  },
+  "ability_availability_by_class": {
+    "source": "Marco In-Game-Screenshots 2026-06-08 — AUTHORITATIVE. Ueberschreibt die Web-Recherche (war an mehreren Stellen falsch: behauptete DMR habe KEIN Explosive Bullets, AR-Sharpshooter nur AK-27 — beides falsch).",
+    "note": "Verfuegbare Utility Bonuses (Abilities) pro Waffen-Klasse im Endgame. Custom->Exotic einer Klasse kann aus dieser Liste rollen (+ Standard); weapon-spezifische in Klammern nur auf der genannten Waffe (meist via Exotic-Akquisition).",
+    "by_class": {
+      "AR": [
+        "Free Fire",
+        "Reload Swap",
+        "Melee Reload",
+        "Sharpshooter",
+        "Recoil Delete",
+        "Ammo Recharger"
+      ],
+      "SMG": [
+        "From the Hip",
+        "Lightspeed",
+        "Longshot",
+        "Reload Swap",
+        "Melee Reload"
+      ],
+      "Shotgun": [
+        "From the Hip",
+        "Longshot",
+        "Zero Waste",
+        "Combat Ready",
+        "Melee Reload",
+        "Kill and Run",
+        "Escalation (nur Akita)"
+      ],
+      "LMG": [
+        "Free Fire",
+        "Sharpshooter",
+        "Combat Ready",
+        "Reload Swap",
+        "Recoil Delete",
+        "Ammo Recharger",
+        "Escalation (nur XM325)"
+      ],
+      "DMR/Marksman": [
+        "Explosive Bullets",
+        "Combat Ready",
+        "Free Fire",
+        "Recoil Delete",
+        "Lifestyle (nur Warden 308 Exotic)"
+      ],
+      "Sniper": [
+        "Sharpshooter",
+        "Explosive Bullets",
+        "Combat Ready",
+        "Zero Waste"
+      ],
+      "Pistol": [
+        "From the Hip",
+        "Recoil Delete",
+        "Lightspeed",
+        "Akimbo (nur Velox 5.7 Exotic)",
+        "6-Round-Burst (nur Velox 5.7 Exotic)"
+      ],
+      "Launcher/Special": [
+        "Reload Swap",
+        "Ultra-light",
+        "Zero Waste",
+        "Kill and Run"
+      ],
+      "Melee": [
+        "Slasher",
+        "Kill and Run"
+      ]
+    },
+    "key_corrections": "DMR/Marksman HAT Explosive Bullets (Sprengstoffe) -> M34 Novaline IST viable damit (frueher faelschlich als useless). AR + LMG + Sniper haben Sharpshooter (Scharfschuetze) als Klassen-Ability. MELEE bekommt Abilities (Slasher/Kill-and-Run) + laut Marco auch Ammo Mods (Effekt-Affinity).",
+    "de_en_map": {
+      "Free Fire": "Free Fire",
+      "Reload-Tausch": "Reload Swap",
+      "Nahkampf-Nachladen": "Melee Reload",
+      "Scharfschuetze": "Sharpshooter",
+      "Rueckstoss reduzieren": "Recoil Delete",
+      "Munitionsauflader": "Ammo Recharger",
+      "Hueftfeuer": "From the Hip",
+      "Leichtgewicht": "Lightspeed",
+      "Reichweite": "Longshot",
+      "Zielen und Sprinten zum Feuern": "Combat Ready",
+      "Geschwindigkeitsboost nach Kill": "Kill and Run",
+      "Eskalation": "Escalation",
+      "Sprengstoffe": "Explosive Bullets",
+      "Zielen waehrend der Bewegung": "Ultra-light"
     }
   },
   "zombies_ammo_mods": {
