@@ -1,0 +1,15 @@
+{
+  "id": "infraradiance",
+  "name": "Infraradiance",
+  "class": "Shotgun",
+  "game": "bo7",
+  "weapon_type": "SG",
+  "in_warzone": true,
+  "source": "callofduty.com + GameRant/Dexerto/Game8/GameSpot (S4-Recherche, non-TGD)",
+  "data_version": "S4_2026-06-08",
+  "note": "S4-Reloaded Exotic-Semi-Auto-Shotgun, aggressiv, Affinity Photon Rounds. Nicht in TGD.",
+  "base": {},
+  "slots": {},
+  "subclass": "Semi-Auto Shotgun (Exotic, Photon)",
+  "unlock": "Season 4 Reloaded - Loot-Pool / Exotic"
+}

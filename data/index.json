@@ -2,24 +2,25 @@
   "title": "CoD Weapon DB — Katalog",
   "data_version": "S3.5_2026-04-25",
   "source": "truegamedata",
-  "weapon_count": 203,
-  "base_only_count": 19,
+  "weapon_count": 209,
+  "base_only_count": 25,
   "counts_by_class": {
-    "AR": 47,
+    "AR": 49,
     "Battle Rifle": 22,
     "Crossbow": 1,
     "LMG": 21,
     "Launcher": 2,
-    "Marksman Rifle": 14,
+    "Marksman Rifle": 15,
     "Melee": 7,
     "Pistol": 20,
-    "SMG": 44,
+    "SMG": 46,
+    "Shotgun": 1,
     "Sniper": 20,
     "Special": 5
   },
   "counts_by_game": {
     "bo6": 48,
-    "bo7": 48,
+    "bo7": 54,
     "mw2": 62,
     "mw3": 45
   },
@@ -141,6 +142,14 @@
       "base_only": false
     },
     {
+      "id": "an-94",
+      "name": "AN-94",
+      "class": "AR",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": true
+    },
+    {
       "id": "arc-m1",
       "name": "A.R.C. M1",
       "class": "Launcher",
@@ -235,6 +244,14 @@
       "game": "mw2",
       "in_warzone": true,
       "base_only": false
+    },
+    {
+      "id": "cbrs-3",
+      "name": "CBRS-3",
+      "class": "SMG",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": true
     },
     {
       "id": "chimera",
@@ -597,6 +614,14 @@
       "base_only": false
     },
     {
+      "id": "infraradiance",
+      "name": "Infraradiance",
+      "class": "Shotgun",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": true
+    },
+    {
       "id": "iso-45",
       "name": "ISO 45",
       "class": "SMG",
@@ -701,6 +726,14 @@
       "base_only": false
     },
     {
+      "id": "kilonova",
+      "name": "Kilonova",
+      "class": "SMG",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": true
+    },
+    {
       "id": "knife",
       "name": "Knife",
       "class": "Melee",
@@ -731,6 +764,14 @@
       "game": "bo6",
       "in_warzone": true,
       "base_only": false
+    },
+    {
+      "id": "krs-7-62",
+      "name": "KRS-7.62",
+      "class": "Marksman Rifle",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": true
     },
     {
       "id": "ksv",
@@ -1563,6 +1604,14 @@
       "game": "bo7",
       "in_warzone": true,
       "base_only": false
+    },
+    {
+      "id": "vx-compact",
+      "name": "VX Compact",
+      "class": "AR",
+      "game": "bo7",
+      "in_warzone": true,
+      "base_only": true
     },
     {
       "id": "warden-308",

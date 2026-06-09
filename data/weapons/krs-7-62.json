@@ -1,0 +1,15 @@
+{
+  "id": "krs-7-62",
+  "name": "KRS-7.62",
+  "class": "Marksman Rifle",
+  "game": "bo7",
+  "weapon_type": "MR",
+  "in_warzone": true,
+  "source": "callofduty.com + GameRant/Dexerto/Game8/GameSpot (S4-Recherche, non-TGD)",
+  "data_version": "S4_2026-06-08",
+  "note": "Semi-auto Marksman, hoher Schaden + gute Mobility, signifikanter First-Shot-Recoil. 2-Hit-Kill bis ~25m. S4-Neuwaffe, nicht in TGD.",
+  "base": {},
+  "slots": {},
+  "subclass": "Semi-Auto Marksman",
+  "unlock": "Season 4 - Battle Pass Page 3 (HVT)"
+}

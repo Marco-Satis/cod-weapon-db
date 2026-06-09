@@ -1,0 +1,15 @@
+{
+  "id": "an-94",
+  "name": "AN-94",
+  "class": "AR",
+  "game": "bo7",
+  "weapon_type": "AR",
+  "in_warzone": true,
+  "source": "callofduty.com + GameRant/Dexerto/Game8/GameSpot (S4-Recherche, non-TGD)",
+  "data_version": "S4_2026-06-08",
+  "note": "S4-Neuwaffe (AR), Mid-Season-Event-Unlock. Stats nicht in TGD / oeffentlich detailliert.",
+  "base": {},
+  "slots": {},
+  "subclass": "Assault Rifle",
+  "unlock": "Season 4 - Mid-Season Event"
+}

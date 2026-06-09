@@ -1,0 +1,17 @@
+{
+  "id": "cbrs-3",
+  "name": "CBRS-3",
+  "class": "SMG",
+  "game": "bo7",
+  "weapon_type": "SMG",
+  "in_warzone": true,
+  "source": "callofduty.com + GameRant/Dexerto/Game8/GameSpot (S4-Recherche, non-TGD)",
+  "data_version": "S4_2026-06-08",
+  "note": "Full-Auto SMG fuer Dauerfeuer, 60-Round-Mag default, ueberdurchschnittliche Range + Recoil-Kontrolle. Rechamber-Pause nach 20 (MP)/30 (WZ) Schuss -> MFS Carousel Fast Mag empfohlen. S4-Neuwaffe, nicht in TGD S3.5.",
+  "base": {
+    "mag": 60
+  },
+  "slots": {},
+  "subclass": "Full-Auto SMG",
+  "unlock": "Season 4 - Battle Pass Page 6 (HVT)"
+}

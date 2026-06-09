@@ -1,0 +1,15 @@
+{
+  "id": "vx-compact",
+  "name": "VX Compact",
+  "class": "AR",
+  "game": "bo7",
+  "weapon_type": "AR",
+  "in_warzone": true,
+  "source": "callofduty.com + GameRant/Dexerto/Game8/GameSpot (S4-Recherche, non-TGD)",
+  "data_version": "S4_2026-06-08",
+  "note": "S4-Neuwaffe (AR), via Illicit-Cargo-Event (+ BO3-Remaster-Camos). Stats nicht in TGD.",
+  "base": {},
+  "slots": {},
+  "subclass": "Compact AR",
+  "unlock": "Season 4 - Illicit Cargo Camo Event"
+}
