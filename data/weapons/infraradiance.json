@@ -7,9 +7,9 @@
   "in_warzone": true,
   "source": "callofduty.com + GameRant/Dexerto/Game8/GameSpot (S4-Recherche, non-TGD)",
   "data_version": "S4_2026-06-08",
-  "note": "S4-Reloaded Exotic-Semi-Auto-Shotgun, aggressiv, Affinity Photon Rounds. Nicht in TGD.",
+  "note": "S4-Reloaded Named-Exotic-Semi-Auto-Shotgun auf Base SG-12 (Affinity Photon Rounds). Base-Mapping Reddit-confirmed 2026-06-09. Nicht in TGD.",
   "base": {},
   "slots": {},
-  "subclass": "Semi-Auto Shotgun (Exotic, Photon)",
-  "unlock": "Season 4 Reloaded - Loot-Pool / Exotic"
+  "subclass": "Named Exotic Semi-Auto Shotgun (Base SG-12, Photon)",
+  "unlock": "Season 4 Reloaded - Loot-Pool / Exotic-Box"
 }

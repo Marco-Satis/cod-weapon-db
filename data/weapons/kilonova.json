@@ -7,9 +7,9 @@
   "in_warzone": true,
   "source": "callofduty.com + GameRant/Dexerto/Game8/GameSpot (S4-Recherche, non-TGD)",
   "data_version": "S4_2026-06-08",
-  "note": "S4-Reloaded Exotic-SMG, fuer Mobility/CQC, Affinity Graviton Rounds. Base-Weapon-Mapping unklar (evtl. eigene Waffe). Nicht in TGD.",
+  "note": "S4-Reloaded Named-Exotic-SMG auf Base VST (Affinity Graviton Rounds). Exclusive Utility Bonus 'Shotgunificator' (nur via Exotic-Box). Base-Mapping Reddit-confirmed 2026-06-09. Nicht in TGD.",
   "base": {},
   "slots": {},
-  "subclass": "Full-Auto SMG (Exotic, Graviton)",
-  "unlock": "Season 4 Reloaded - Loot-Pool / Exotic"
+  "subclass": "Named Exotic SMG (Base VST, Graviton)",
+  "unlock": "Season 4 Reloaded - Loot-Pool / Exotic-Box"
 }

@@ -1,7 +1,7 @@
 {
   "category": "endgame_abilities",
   "game": "bo7",
-  "data_version": "S4 (2026-06-05, Launch 2026-06-04)",
+  "data_version": "S4 (2026-06-05) + Reddit-Traits-Integration 2026-06-09",
   "source": "bo7endgame.com Wiki (Volltext), COD Central, dotesports/sportskeeda/noobfeed (WebSearch-Snippets, WebFetch 403/405), ggwtb",
   "source_caveat": "Eigennamen verbatim Englisch. S4-Neuzuegae (Guardian-Track, Death Machine, Psych Grenade, Operator-Prestige) stammen aus dotesports-WebSearch-Snippets, NICHT direkt gefetchtem Volltext -> [LÜCKE 1], Snippet-Paraphrasen, mit Vorsicht. bo7endgame.com-Wiki zeigt Pre-S4-Stand (9 Tracks, 10 Major, 8 Minor).",
   "loadout_rule": "Vor jedem Endgame-Match: Waffen + Field Equipment + 2 Abilities waehlbar — 1 Minor + 1 Major. (dotesports, bo7endgame.com)",
@@ -75,7 +75,13 @@
           "Endurance Sprinter (Reload im Sprint)",
           "Fall Damage Reduction",
           "Fall Explosions"
-        ]
+        ],
+        "web_note": {
+          "source": "Web-Multi-Agent-Workflow 2026-06-09 (research/skill_trees_discovery_2026-06-09.md)",
+          "unverified": true,
+          "needs_marco_ingame": true,
+          "finding": "Fall Explosions Elite-Schaden (Steam, single-source): 57.664/62.016/75.672 je Stufe (Mittelwert 62.016). Normal ~3.000. Zahlen unbestaetigt."
+        }
       },
       {
         "track": "Bulldozer",
@@ -87,7 +93,13 @@
           "Revival Protection",
           "Explosive Resistance",
           "Tackle"
-        ]
+        ],
+        "web_note": {
+          "source": "Web-Multi-Agent-Workflow 2026-06-09 (research/skill_trees_discovery_2026-06-09.md)",
+          "unverified": true,
+          "needs_marco_ingame": true,
+          "finding": "Mehrere Quellen erwaehnen separate 'Kills Regen Armor'-Node -> evtl. 7. Node oder Upgrade-Variante von Armor Regen. In-game pruefen (DB hat 6)."
+        }
       },
       {
         "track": "Phantom",
@@ -99,7 +111,13 @@
           "Silent Movement",
           "Ambush (+50% Dmg von hinten, +100% Crit-Dmg von hinten auf Full-HP) [DMG]",
           "Decoy (Echo-Unit bei Schaden)"
-        ]
+        ],
+        "web_note": {
+          "source": "Web-Multi-Agent-Workflow 2026-06-09 (research/skill_trees_discovery_2026-06-09.md)",
+          "unverified": true,
+          "needs_marco_ingame": true,
+          "finding": "Node-SET = DB. Reihenfolge strittig: Web (boostmatch) startet mit Ambush, DB mit Elusive Target. Keine Quelle belegt feste CR-Positionen."
+        }
       },
       {
         "track": "Eagle Eye",
@@ -123,7 +141,13 @@
           "Healthhounds",
           "Wirehand (Kills spawnen Angriffs-Drohnen)",
           "Steelhand"
-        ]
+        ],
+        "web_note": {
+          "source": "Web-Multi-Agent-Workflow 2026-06-09 (research/skill_trees_discovery_2026-06-09.md)",
+          "unverified": true,
+          "needs_marco_ingame": true,
+          "finding": "Node-SET = DB. Reihenfolge strittig: Web tauscht Bloodrunner<->Wirehand vs DB."
+        }
       }
     ]
   },
@@ -230,7 +254,13 @@
         "skill": "Mega Punch",
         "base": "Replaces the weapon gun butt with a deadly punch that knocks back enemies",
         "tier_2": "Hits more enemies per punch",
-        "tier_3": "Chance to trigger a Photon Round that damages enemies and drops a healing capsule"
+        "tier_3": "Chance to trigger a Photon Round that damages enemies and drops a healing capsule",
+        "web_note": {
+          "source": "Web-Multi-Agent-Workflow 2026-06-09 (research/skill_trees_discovery_2026-06-09.md)",
+          "unverified": true,
+          "needs_marco_ingame": true,
+          "finding": "Base-Schaden in 2 Steam-Guides widerspruechlich (16.000 vs 1.500). T3-Proc-Name disputed: 'Photon Round' (Mehrheit, =DB) vs 'Phantom Round' (Minderheit)."
+        }
       },
       {
         "skill": "Conjuration",
@@ -266,7 +296,13 @@
         "skill": "Shattered Shield",
         "base": "Stun and damage nearby enemies when Armor Plates break",
         "tier_2": "Final break grants temporary invulnerability",
-        "tier_3": "Final break triggers Photon Round"
+        "tier_3": "Final break triggers Photon Round",
+        "web_note": {
+          "source": "Web-Multi-Agent-Workflow 2026-06-09 (research/skill_trees_discovery_2026-06-09.md)",
+          "unverified": true,
+          "needs_marco_ingame": true,
+          "finding": "S4-Patch fuegte COOLDOWN auf den T2-Invuln-Effekt hinzu (DB-Tier-Text evtl. veraltet). Uptime via Bulldozer-Armor-Regen maximieren."
+        }
       },
       {
         "skill": "Graviton Reaction",
@@ -278,7 +314,13 @@
         "skill": "Conductive Shot",
         "base": "Fires taser dealing damage over time",
         "tier_2": "Increases number of tasers",
-        "tier_3": "Extends duration, works on all enemy types"
+        "tier_3": "Extends duration, works on all enemy types",
+        "web_note": {
+          "source": "Web-Multi-Agent-Workflow 2026-06-09 (research/skill_trees_discovery_2026-06-09.md)",
+          "unverified": true,
+          "needs_marco_ingame": false,
+          "finding": "T2/T3 in Minderheits-Quellen mit Wingman-Unit-Text kontaminiert; Verify aufgeloest -> DB-Text (T2 +Taser, T3 +Dauer/alle Gegner) ist korrekt. S4-Bugfix (Schaden/Score)."
+        }
       }
     ]
   },
@@ -324,7 +366,12 @@
         "first_upgrade": "Increased Drone fire rate and duration",
         "final_upgrade": "Drone shots trigger a Shrapnel effect"
       }
-    ]
+    ],
+    "web_corroboration": {
+      "source": "Web-Multi-Agent-Workflow 2026-06-09 (research/skill_trees_discovery_2026-06-09.md)",
+      "status": "Alle 6 Nightmare-Skills Base/T2/T3 web-corroborated (qualitativ, 4-8 Quellen). Die zuvor vermuteten Luecken (Hellwing T3, Chaos Rounds/Frost Vortex/Wingman Unit T2+T3) waren in DB bereits vorhanden und matchen den Web-Befund 1:1. Zahlen/Cooldowns weiterhin offen.",
+      "unverified_numbers": "Cooldowns + Trigger-Schwellen (z.B. Phoenix-Burst-HP, Nova-Strike-Cooldown) ohne Quelle -> Marco in-game."
+    }
   },
   "power_system": {
     "weapon_rarity_ladder": [
@@ -527,6 +574,18 @@
       {
         "name": "Akimbo Velox 5.7",
         "effect": "Dual-Wield (nur Velox 5.7)"
+      },
+      {
+        "name": "Grenade Bullets",
+        "effect": "Bullets explodieren (AoE) — exklusiv Named 'Reboot' (jede Reboot-Variante; NICHT 1911-Base, NICHT Upgraded). Nur via Exotic-Box."
+      },
+      {
+        "name": "Shotgunificator",
+        "effect": "exklusiv Kilonova (VST-Base). Nur via Exotic-Box."
+      },
+      {
+        "name": "Ammo Drain",
+        "effect": "exklusiv Pulsebreach (Swordfish A1-Base) laut Reddit. KONFLIKT: in 'standard' gelistet — Marco klaert ob Standard oder exklusiv. Nur via Exotic-Box (Reddit)."
       }
     ],
     "affinity_exclusive": {
@@ -535,12 +594,27 @@
         "Graviton": {
           "bases": [
             "M15 Mod 0 (Torrent)",
-            "Hawker HX (Continuum)"
+            "Hawker HX (Continuum)",
+            "VST (Kilonova)"
           ],
           "extra": [
             "extra Black Holes",
             "Kasimir bei Ausloesung",
             "Big Game"
+          ],
+          "affinity_utility_bonuses": [
+            {
+              "name": "Black Hole",
+              "effect": "Graviton Rounds form a black hole that pulls in enemies before teleporting away nearby survivors"
+            },
+            {
+              "name": "Warp",
+              "effect": "Graviton Rounds warp an enemy that deals damage to nearby enemies"
+            },
+            {
+              "name": "Big Game",
+              "effect": "Graviton Rounds can activate on Elite enemies"
+            }
           ]
         },
         "Shock": {
@@ -553,6 +627,20 @@
             "Schock verteilen beim Treffen",
             "Chain Lightning (Blitzschlag, wie Zombies)",
             "Big Game"
+          ],
+          "affinity_utility_bonuses": [
+            {
+              "name": "Chain Lightning",
+              "effect": "The stunned enemy can spread the stun to others"
+            },
+            {
+              "name": "Lightning Strike",
+              "effect": "A bolt of lightning strikes from above and stuns enemies"
+            },
+            {
+              "name": "Big Game",
+              "effect": "Shock Rounds can stun Elite enemies"
+            }
           ]
         },
         "Shrapnel": {
@@ -564,17 +652,46 @@
           "extra": [
             "mehr Explosionsketten (Blast Chain)",
             "Big Game"
+          ],
+          "affinity_utility_bonuses": [
+            {
+              "name": "Blast Chain",
+              "effect": "On explosion, 3 additional explosions occur rapidly"
+            },
+            {
+              "name": "Blast Shield",
+              "effect": "Affecting multiple enemies with Shrapnel Rounds reduces damage to player"
+            },
+            {
+              "name": "Big Game",
+              "effect": "Shrapnel Rounds can activate on Elite enemies"
+            }
           ]
         },
         "Photon": {
           "bases": [
             "Velox 5.7 (Malspike)",
-            "MPC-25 (Swarmforge)"
+            "MPC-25 (Swarmforge)",
+            "SG-12 (Infraradiance)"
           ],
           "extra": [
             "extra Heilung durch Glyphe",
             "mehr Glyphen pro Aktivierung (3)",
             "Big Game"
+          ],
+          "affinity_utility_bonuses": [
+            {
+              "name": "Blessing",
+              "effect": "Photon Round healing glyph can give temporary bonus health"
+            },
+            {
+              "name": "Dual Action",
+              "effect": "Consuming a healing glyph will temporarily increase health regen"
+            },
+            {
+              "name": "Big Game",
+              "effect": "Light Mend can activate on Elite enemies"
+            }
           ]
         },
         "Incendiary": {
@@ -585,6 +702,20 @@
           "extra": [
             "Feuer verteilen",
             "Big Game"
+          ],
+          "affinity_utility_bonuses": [
+            {
+              "name": "Firebomb",
+              "effect": "When a burned enemy is killed, it explodes"
+            },
+            {
+              "name": "Petrol",
+              "effect": "Incendiary Rounds leave pools of fire on the ground"
+            },
+            {
+              "name": "Big Game",
+              "effect": "Incendiary Rounds can burn Elite enemies"
+            }
           ]
         },
         "Frost": {
@@ -595,6 +726,20 @@
           "extra": [
             "Ice Cloud (Eiswolke)",
             "Big Game"
+          ],
+          "affinity_utility_bonuses": [
+            {
+              "name": "Flash Freeze",
+              "effect": "Frost Rounds can trigger on multiple enemies at once"
+            },
+            {
+              "name": "Ice Cloud",
+              "effect": "Killed frozen enemies may leave a cloud that slows enemies"
+            },
+            {
+              "name": "Big Game",
+              "effect": "Frost Rounds can slow Elite enemies"
+            }
           ]
         },
         "Mortar": {
@@ -605,6 +750,20 @@
           "extra": [
             "Fire Wheel (Flammenrad)",
             "Big Game"
+          ],
+          "affinity_utility_bonuses": [
+            {
+              "name": "Fire Wheel",
+              "effect": "Create two fire wheels that spin around enemies"
+            },
+            {
+              "name": "Starburst",
+              "effect": "Mortar Rounds explode, sending flares through enemies"
+            },
+            {
+              "name": "Big Game",
+              "effect": "Mortar Rounds can activate on Elite enemies"
+            }
           ]
         },
         "Neuro-Disruption": {
@@ -615,6 +774,20 @@
           "extra": [
             "Gift verteilen",
             "Big Game"
+          ],
+          "affinity_utility_bonuses": [
+            {
+              "name": "Mass Disruption",
+              "effect": "Turned enemies have a chance to turn other enemies"
+            },
+            {
+              "name": "Neural Attraction",
+              "effect": "Turned enemy distracts other enemies for a short time"
+            },
+            {
+              "name": "Big Game",
+              "effect": "Neuro-Disruption Rounds can activate on Elite enemies"
+            }
           ]
         }
       },
@@ -623,7 +796,8 @@
           "name": "Big Game",
           "effect": "Ammo-Mod/Effect wirkt auch auf Elite-Gegner"
         }
-      ]
+      ],
+      "source_reddit": "reddit r/bo7endgame 'Exotics & Affinities Explained' (1t4mwzm) — OP in-game bestaetigt, 2026-06-09"
     }
   },
   "ability_availability_by_class": {
@@ -757,7 +931,7 @@
       }
     ]
   },
-  "named_exotics_note": "18 lt. Wiki. [Diskrepanz: WebSearch-Snippet nennt '20 uniquely named' fuer S4; Wiki listet 18 -> S4 evtl. +2 ungelistet, LÜCKE]. Affinity fixiert beim Drop; Utility Bonus 'random on every drop' -> keine feste Per-Waffe-Zuordnung.",
+  "named_exotics_note": "20 Named Exotics (18 S4-Launch + Kilonova/Infraradiance S4-Reloaded). Affinity fixiert beim Drop. Utility Bonus 'random on every drop' — ABER per-Waffe-Verfuegbarkeit ist eingegrenzt (siehe weapon_utility_bonus_availability, Reddit-confirmed). Box-only-Bonusse (Grenade Bullets, Shotgunificator, Akimbo Velox 5.7, Ammo Drain) nur via Exotic-Box.",
   "items": [
     {
       "id": "torrent",
@@ -884,6 +1058,20 @@
       "base_weapon": "1911",
       "base_weapon_id": "1911",
       "affinity": "Shock Rounds"
+    },
+    {
+      "id": "kilonova",
+      "named_exotic": "Kilonova",
+      "base_weapon": "VST",
+      "base_weapon_id": "vst",
+      "affinity": "Graviton Rounds"
+    },
+    {
+      "id": "infraradiance",
+      "named_exotic": "Infraradiance",
+      "base_weapon": "SG-12",
+      "base_weapon_id": "sg-12",
+      "affinity": "Photon Rounds"
     }
   ],
   "s4_boss": {
@@ -983,5 +1171,467 @@
         "reward": "'Visitors' Animated Weapon Camo (Chase-Item)"
       }
     ]
+  },
+  "weapon_utility_bonus_availability": {
+    "source": "reddit r/bo7endgame 'All weapons exotic traits list' (1t9gzyn) — OP in-game per-draw bestaetigt, 2026-06-09",
+    "legend": "available = per Fabricator-Draw auf dieser Waffe rollbar (Reddit rot/gelb/gruen identisch). box_only = nur via Exotic-Box (Named-Exotic-Drop), nicht per Custom-Draw (Reddit lila). Fehlt = nicht verfuegbar.",
+    "reliability": "Community (OP per-draw in-game bestaetigt). Hoehere Verlaesslichkeit als generische Web-Recherche, aber NICHT Marco-eigen-verifiziert. OP-Disclaimer: Uebersetzungsfehler moeglich.",
+    "conflict_with_marco_screenshot": "Granularer (per-Waffe) als ability_availability_by_class (per-Klasse, Marco-Screenshot). Bekannte Divergenz: Marco-Screenshot 'AR+LMG+Sniper haben Sharpshooter' klassen-weit; Reddit: AR nur AK-27, LMG nur Sokol 545. Marco-Screenshot bleibt als per-Klasse-Schicht erhalten (nicht ueberschrieben); Marco loest auf welche Schicht im Zweifel gilt.",
+    "by_weapon": {
+      "AR": {
+        "MK35 ISR": {
+          "available": [
+            "Free Fire",
+            "Recoil Delete",
+            "Ammo Recharger",
+            "Combat Ready"
+          ]
+        },
+        "Voyak KT-3": {
+          "available": [
+            "Free Fire",
+            "Recoil Delete",
+            "Ammo Recharger",
+            "Combat Ready"
+          ]
+        },
+        "EGRT-17": {
+          "available": [
+            "Free Fire",
+            "Recoil Delete",
+            "Ammo Recharger",
+            "Combat Ready"
+          ]
+        },
+        "Maddox RFB": {
+          "available": [
+            "Recoil Delete",
+            "Combat Ready",
+            "Swap Reload"
+          ]
+        },
+        "M15 MOD0": {
+          "available": [
+            "Free Fire",
+            "Ammo Recharger",
+            "Combat Ready",
+            "Swap Reload"
+          ]
+        },
+        "AK-27": {
+          "available": [
+            "Free Fire",
+            "Recoil Delete",
+            "Ammo Recharger",
+            "Sharpshooter"
+          ]
+        },
+        "MXR-17": {
+          "available": [
+            "Recoil Delete",
+            "Ammo Recharger",
+            "Combat Ready",
+            "Swap Reload"
+          ]
+        },
+        "X9 Maverick": {
+          "available": [
+            "Recoil Delete",
+            "Ammo Recharger",
+            "Combat Ready",
+            "Swap Reload"
+          ]
+        },
+        "DS20 Mirage": {
+          "available": [
+            "Free Fire",
+            "Recoil Delete",
+            "Ammo Recharger",
+            "Combat Ready"
+          ]
+        },
+        "Peacekeeper MK1": {
+          "available": [
+            "Free Fire",
+            "Ammo Recharger",
+            "Combat Ready",
+            "Swap Reload"
+          ]
+        }
+      },
+      "SMG": {
+        "CBRS-3": {
+          "available": [
+            "Melee Reload",
+            "Ultra-light",
+            "From the Hip",
+            "Longshot"
+          ]
+        },
+        "VST": {
+          "available": [
+            "Melee Reload",
+            "Ultra-light",
+            "Combat Ready",
+            "From the Hip"
+          ],
+          "box_only": [
+            "Shotgunificator"
+          ]
+        },
+        "REV-46": {
+          "available": [
+            "Ultra-light",
+            "Combat Ready",
+            "From the Hip",
+            "Longshot"
+          ]
+        },
+        "Sturmwolf 45": {
+          "available": [
+            "Ultra-light",
+            "Combat Ready",
+            "From the Hip",
+            "Longshot"
+          ]
+        },
+        "Kogot-7": {
+          "available": [
+            "Melee Reload",
+            "Ultra-light",
+            "Combat Ready"
+          ]
+        },
+        "Ryden 45K": {
+          "available": [
+            "Melee Reload",
+            "Ultra-light",
+            "Combat Ready"
+          ]
+        },
+        "RK-9": {
+          "available": [
+            "Melee Reload",
+            "Ultra-light",
+            "Combat Ready",
+            "From the Hip"
+          ]
+        },
+        "Razor 9mm": {
+          "available": [
+            "Melee Reload",
+            "Ultra-light",
+            "Combat Ready",
+            "From the Hip",
+            "Fast Fire",
+            "Ammo Recharger",
+            "Kill and Run"
+          ]
+        },
+        "Carbon 57": {
+          "available": [
+            "Melee Reload",
+            "Ultra-light",
+            "Combat Ready",
+            "From the Hip"
+          ]
+        },
+        "MPC-25": {
+          "available": [
+            "Melee Reload",
+            "Ultra-light",
+            "Combat Ready",
+            "From the Hip"
+          ]
+        }
+      },
+      "Shotgun": {
+        "SG-12": {
+          "available": [
+            "From the Hip",
+            "Longshot",
+            "Melee Reload",
+            "Combat Ready"
+          ]
+        },
+        "M10 Breacher": {
+          "available": [
+            "From the Hip",
+            "Melee Reload",
+            "Combat Ready"
+          ]
+        },
+        "Echo 12": {
+          "available": [
+            "From the Hip",
+            "Zero Waste",
+            "Kill and Run"
+          ]
+        },
+        "Akita": {
+          "available": [
+            "From the Hip",
+            "Combat Ready",
+            "Escalation",
+            "Lightspeed"
+          ]
+        }
+      },
+      "LMG": {
+        "Sokol 545": {
+          "available": [
+            "Lightweight",
+            "Hip-Inferno",
+            "Escalation",
+            "Sharpshooter",
+            "Free Fire"
+          ]
+        },
+        "MK78": {
+          "available": [
+            "Combat Ready",
+            "Swap Reload",
+            "Recoil Delete",
+            "Hip-Inferno"
+          ]
+        },
+        "XM325": {
+          "available": [
+            "Combat Ready",
+            "Escalation",
+            "Lightspeed"
+          ]
+        }
+      },
+      "Marksman/DMR": {
+        "KRS-7.62": {
+          "available": [
+            "Explosives",
+            "Recoil Delete",
+            "Lifestyle",
+            "Ultra-light"
+          ]
+        },
+        "Swordfish A1": {
+          "available": [
+            "Explosives",
+            "Swap Reload",
+            "Ammo Recharger"
+          ],
+          "box_only": [
+            "Lifestyle",
+            "Longburst",
+            "Ammo Drain"
+          ]
+        },
+        "M8A1": {
+          "available": [
+            "Explosives",
+            "Recoil Delete",
+            "Ammo Recharger",
+            "Free Fire"
+          ]
+        },
+        "Warden 308": {
+          "available": [
+            "Explosives",
+            "Recoil Delete",
+            "Lifestyle",
+            "Ultra-light"
+          ]
+        },
+        "M34 Novaline": {
+          "available": [
+            "Explosives",
+            "Ammo Recharger",
+            "Ultra-light",
+            "Free Fire"
+          ]
+        }
+      },
+      "Sniper": {
+        "Strider 300": {
+          "available": [
+            "Sharpshooter",
+            "Explosives",
+            "Combat Ready",
+            "Zero Waste"
+          ]
+        },
+        "Hawker HX": {
+          "available": [
+            "Sharpshooter",
+            "Explosives",
+            "Combat Ready",
+            "Zero Waste"
+          ]
+        },
+        "VS Recon": {
+          "available": [
+            "Sharpshooter",
+            "Explosives",
+            "Combat Ready",
+            "Zero Waste"
+          ]
+        },
+        "Shadow SK": {
+          "available": [
+            "Sharpshooter",
+            "Explosives",
+            "Combat Ready",
+            "Zero Waste"
+          ]
+        },
+        "XR-3 Ion": {
+          "available": [
+            "Sharpshooter",
+            "Explosives",
+            "Combat Ready",
+            "Zero Waste"
+          ]
+        }
+      },
+      "Pistol": {
+        "1911": {
+          "available": [
+            "From the Hip",
+            "Longshot",
+            "Melee Reload",
+            "Lightspeed"
+          ],
+          "box_only": [
+            "Grenade Bullets"
+          ]
+        },
+        "Jager 45": {
+          "available": [
+            "From the Hip",
+            "Longshot",
+            "Melee Reload",
+            "Lightspeed"
+          ]
+        },
+        "Velox 5.7": {
+          "available": [
+            "From the Hip",
+            "Longshot",
+            "Lightspeed",
+            "Longburst"
+          ],
+          "box_only": [
+            "Akimbo Velox 5.7"
+          ]
+        },
+        "CODA9": {
+          "available": [
+            "From the Hip",
+            "Longshot",
+            "Melee Reload",
+            "Lightspeed"
+          ]
+        }
+      },
+      "Launcher/Special": {
+        "AAROW 109": {
+          "available": [
+            "Swap Reload",
+            "Zero Waste",
+            "Kill and Run",
+            "Ultra-light"
+          ]
+        },
+        "A.R.C. M1": {
+          "available": [
+            "Swap Reload",
+            "Zero Waste",
+            "Fast Fire",
+            "Ultra-light"
+          ]
+        },
+        "GRIMHAWK": {
+          "available": [
+            "Swap Reload",
+            "Kill and Run",
+            "Lightspeed",
+            "Ammo Recharger"
+          ]
+        },
+        "SIREN": {
+          "available": [
+            "Zero Waste",
+            "Kill and Run",
+            "Lightspeed",
+            "Ammo Recharger"
+          ]
+        },
+        "GDL HAVOC": {
+          "available": [
+            "Zero Waste",
+            "Kill and Run",
+            "Lightspeed",
+            "Ammo Recharger"
+          ]
+        },
+        "NX RAVAGER": {
+          "available": [
+            "Combat Ready",
+            "Zero Waste",
+            "Ultra-light",
+            "Ammo Recharger"
+          ]
+        }
+      },
+      "Melee": {
+        "KATANA": {
+          "available": [
+            "Slasher",
+            "Lightspeed",
+            "Kill and Run"
+          ]
+        },
+        "H311-SAW": {
+          "available": [
+            "Slasher",
+            "Lightspeed",
+            "Kill and Run"
+          ]
+        },
+        "Ballistic knife": {
+          "available": [
+            "Slasher",
+            "Lightspeed",
+            "Kill and Run"
+          ]
+        },
+        "Knife": {
+          "available": [
+            "Slasher",
+            "Lightspeed",
+            "Kill and Run"
+          ]
+        },
+        "Flatline MK.II": {
+          "available": [
+            "Slasher",
+            "Lightspeed",
+            "Kill and Run"
+          ]
+        }
+      }
+    }
+  },
+  "reddit_sources": {
+    "thread1_affinities": "reddit r/bo7endgame 'Exotics & Affinities Explained' (1t4mwzm) — OP in-game bestaetigt, 2026-06-09",
+    "thread2_per_weapon": "reddit r/bo7endgame 'All weapons exotic traits list' (1t9gzyn) — OP in-game per-draw bestaetigt, 2026-06-09",
+    "capture": "research/reddit_exotic_traits_affinities_2026-06-09.md",
+    "meta_caveat": "OP Thread1: Affinity-Utility-Bonusse outclassed by standard (Sharpshooter/Explosive Bullets/Grenade Bullets) — Meta/Opinion, gehoert NICHT in objektive DB (nur Referenz)."
+  },
+  "web_research_skill_trees": {
+    "source": "Web-Multi-Agent-Workflow 2026-06-09 (research/skill_trees_discovery_2026-06-09.md)",
+    "method": "52 Agents: pro Skill web-discover + adversarial-verify (refute), 3 Roster-Completeness-Checks.",
+    "roster_result": "9 Tracks / 9 Exotic / 6 Nightmare = komplett. Keine Web-Quelle nennt einen Skill/Node ausserhalb DB (ausser unbestaetigtem Bulldozer-7th).",
+    "reliability": "Effekt-Existenzen breit belegt (4-8 Quellen). ALLE numerischen Werte (%/Schaden/Sek) stammen aus EINER Steam-Quelle (id=3616441372) -> unzuverlaessig. callofduty.com-Patchnotes nicht abrufbar. Faustregel: Effekt=belegt, Zahl=unsicher. NICHT als DB-Fakt behandeln bis Marco-in-game.",
+    "marco_verify_priorities": "Siehe Report Abschnitt 5 (22 Punkte). Top: Shattered-Shield-S4-Cooldown, Mega-Punch-Dmg/T3-Name, Bulldozer-7th-Node, Phantom/Warband-Reihenfolge.",
+    "no_db_facts_overwritten": true
   }
 }

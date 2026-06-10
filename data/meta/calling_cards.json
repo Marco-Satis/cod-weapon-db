@@ -53,63 +53,72 @@
         "card": "Undaunted",
         "condition": "Ueberlebe die Fear-Horde in Mission: Suppression",
         "confidence": "bestaetigt",
-        "mode": "Campaign/Endgame"
+        "mode": "Campaign/Endgame",
+        "season": "Base"
       },
       {
         "id": "exotic-arsenal",
         "card": "Exotic Arsenal",
         "condition": "Kills mit 6 verschiedenen Exotic Weapons in Endgame",
         "confidence": "bestaetigt",
-        "mode": "Campaign/Endgame"
+        "mode": "Campaign/Endgame",
+        "season": "Base"
       },
       {
         "id": "green-thumb",
         "card": "Green Thumb",
         "condition": "Besiege The Nightmare in Mission: Distortion ohne Schaden",
         "confidence": "bestaetigt",
-        "mode": "Campaign/Endgame"
+        "mode": "Campaign/Endgame",
+        "season": "Base"
       },
       {
         "id": "absolute-loss",
         "card": "Absolute Loss",
         "condition": "Besiege Menendez nur mit Machetes in Mission: Exposure",
         "confidence": "bestaetigt",
-        "mode": "Campaign/Endgame"
+        "mode": "Campaign/Endgame",
+        "season": "Base"
       },
       {
         "id": "overpowered",
         "card": "Overpowered",
         "condition": "1.000.000 Power in Endgame (kumulativ)",
         "confidence": "bestaetigt",
-        "mode": "Campaign/Endgame"
+        "mode": "Campaign/Endgame",
+        "season": "Base"
       },
       {
         "id": "monkeying-around",
         "card": "Monkeying Around",
         "condition": "Parkour- UND Dive-Strecke in Endgame absolvieren",
         "confidence": "bestaetigt",
-        "mode": "Campaign/Endgame"
+        "mode": "Campaign/Endgame",
+        "season": "Base"
       },
       {
         "id": "dream-team",
         "card": "Dream Team",
         "condition": "25x aus Zone IV entkommen in Endgame",
         "confidence": "bestaetigt",
-        "mode": "Campaign/Endgame"
+        "mode": "Campaign/Endgame",
+        "season": "Base"
       },
       {
         "id": "pest-control",
         "card": "Pest Control",
         "condition": "Endgame Final Boss besiegen",
         "confidence": "bestaetigt",
-        "mode": "Campaign/Endgame"
+        "mode": "Campaign/Endgame",
+        "season": "Base"
       },
       {
         "id": "predator-becomes-prey",
         "card": "Predator Becomes Prey",
         "condition": "Hunter Activity aktivieren und besiegen",
         "confidence": "wahrscheinlich",
-        "mode": "Campaign/Endgame"
+        "mode": "Campaign/Endgame",
+        "season": "Base"
       },
       {
         "id": "mountain-climber",
@@ -121,11 +130,12 @@
       },
       {
         "id": "giant-feeling",
-        "card": "Giant Feeling",
+        "card": "Giant Felling",
         "condition": "Exfil via Colossus of Avalon",
         "confidence": "wahrscheinlich",
         "mode": "Campaign/Endgame",
-        "season": "S1"
+        "season": "S1",
+        "name_note": "Korrigiert von 'Giant Feeling' (Tippfehler) -> 'Giant Felling', web-confirmed 2026-06-10."
       },
       {
         "id": "titan-hunter",
@@ -165,7 +175,8 @@
         "condition": "Link Forger Glitch Boss ohne gestunnt zu werden eliminieren",
         "confidence": "bestaetigt",
         "mode": "Campaign/Endgame",
-        "season": "S3"
+        "season": "S3",
+        "reward": "Animierte Grim-Reaper-Karte"
       },
       {
         "id": "single-threaded",
@@ -1056,7 +1067,8 @@
       "condition": "Ueberlebe die Fear-Horde in Mission: Suppression",
       "confidence": "bestaetigt",
       "mode": "Campaign/Endgame",
-      "group": "dark_ops_campaign_endgame"
+      "group": "dark_ops_campaign_endgame",
+      "season": "Base"
     },
     {
       "id": "exotic-arsenal",
@@ -1064,7 +1076,8 @@
       "condition": "Kills mit 6 verschiedenen Exotic Weapons in Endgame",
       "confidence": "bestaetigt",
       "mode": "Campaign/Endgame",
-      "group": "dark_ops_campaign_endgame"
+      "group": "dark_ops_campaign_endgame",
+      "season": "Base"
     },
     {
       "id": "green-thumb",
@@ -1072,7 +1085,8 @@
       "condition": "Besiege The Nightmare in Mission: Distortion ohne Schaden",
       "confidence": "bestaetigt",
       "mode": "Campaign/Endgame",
-      "group": "dark_ops_campaign_endgame"
+      "group": "dark_ops_campaign_endgame",
+      "season": "Base"
     },
     {
       "id": "absolute-loss",
@@ -1080,7 +1094,8 @@
       "condition": "Besiege Menendez nur mit Machetes in Mission: Exposure",
       "confidence": "bestaetigt",
       "mode": "Campaign/Endgame",
-      "group": "dark_ops_campaign_endgame"
+      "group": "dark_ops_campaign_endgame",
+      "season": "Base"
     },
     {
       "id": "overpowered",
@@ -1088,7 +1103,8 @@
       "condition": "1.000.000 Power in Endgame (kumulativ)",
       "confidence": "bestaetigt",
       "mode": "Campaign/Endgame",
-      "group": "dark_ops_campaign_endgame"
+      "group": "dark_ops_campaign_endgame",
+      "season": "Base"
     },
     {
       "id": "monkeying-around",
@@ -1096,7 +1112,8 @@
       "condition": "Parkour- UND Dive-Strecke in Endgame absolvieren",
       "confidence": "bestaetigt",
       "mode": "Campaign/Endgame",
-      "group": "dark_ops_campaign_endgame"
+      "group": "dark_ops_campaign_endgame",
+      "season": "Base"
     },
     {
       "id": "dream-team",
@@ -1104,7 +1121,8 @@
       "condition": "25x aus Zone IV entkommen in Endgame",
       "confidence": "bestaetigt",
       "mode": "Campaign/Endgame",
-      "group": "dark_ops_campaign_endgame"
+      "group": "dark_ops_campaign_endgame",
+      "season": "Base"
     },
     {
       "id": "pest-control",
@@ -1112,7 +1130,8 @@
       "condition": "Endgame Final Boss besiegen",
       "confidence": "bestaetigt",
       "mode": "Campaign/Endgame",
-      "group": "dark_ops_campaign_endgame"
+      "group": "dark_ops_campaign_endgame",
+      "season": "Base"
     },
     {
       "id": "predator-becomes-prey",
@@ -1120,7 +1139,8 @@
       "condition": "Hunter Activity aktivieren und besiegen",
       "confidence": "wahrscheinlich",
       "mode": "Campaign/Endgame",
-      "group": "dark_ops_campaign_endgame"
+      "group": "dark_ops_campaign_endgame",
+      "season": "Base"
     },
     {
       "id": "mountain-climber",
@@ -1133,12 +1153,13 @@
     },
     {
       "id": "giant-feeling",
-      "card": "Giant Feeling",
+      "card": "Giant Felling",
       "condition": "Exfil via Colossus of Avalon",
       "confidence": "wahrscheinlich",
       "mode": "Campaign/Endgame",
       "season": "S1",
-      "group": "dark_ops_campaign_endgame"
+      "group": "dark_ops_campaign_endgame",
+      "name_note": "Korrigiert von 'Giant Feeling' (Tippfehler) -> 'Giant Felling', web-confirmed 2026-06-10."
     },
     {
       "id": "titan-hunter",
@@ -1183,7 +1204,8 @@
       "confidence": "bestaetigt",
       "mode": "Campaign/Endgame",
       "season": "S3",
-      "group": "dark_ops_campaign_endgame"
+      "group": "dark_ops_campaign_endgame",
+      "reward": "Animierte Grim-Reaper-Karte"
     },
     {
       "id": "single-threaded",
@@ -2176,7 +2198,7 @@
   "gaps": [
     {
       "item": "Season 4 Dark Ops",
-      "status": "2 Tage nach Launch nicht community-dokumentiert; Kowakujo (~Juli 2026) folgt",
+      "status": "S4 = Operation Wall Breaker + Command Killer Glitch Fracture (neuer Boss). Dark-Ops-Karten existieren (Video-belegt), exakte Namen/Bedingungen TEXT-UNDOKUMENTIERT (nur YouTube Z7NhCx1bAfI). Erwartet ~3 (S3-Muster: Mechanik/Solo/Flawless). Standard-Reward (KEIN Dark Ops) = animierte Karte 'Terms of Disservice'. Verifiziert via web-researcher 2026-06-10 (research/bo7_endgame_dark_ops_calling_cards_2026-06-10.md).",
       "todo": true
     },
     {
@@ -2234,5 +2256,12 @@
       "name": "CoD Fandom Wiki Calling Cards (eine Beispielquelle)",
       "url": "https://callofduty.fandom.com/wiki/Calling_Cards/Call_of_Duty:_Black_Ops_7"
     }
-  ]
+  ],
+  "web_research": {
+    "dark_ops_endgame_2026_06_10": {
+      "source": "web-researcher 2026-06-10 (research/bo7_endgame_dark_ops_calling_cards_2026-06-10.md)",
+      "confirmed": "15 Endgame-Dark-Ops-Karten high-confidence (Namen+Bedingungen). Giant-Feeling-Tippfehler korrigiert.",
+      "open": "S4-Command-Killer-Dark-Ops Namen offen -> Marco-Browser (YouTube Z7NhCx1bAfI) noetig."
+    }
+  }
 }
