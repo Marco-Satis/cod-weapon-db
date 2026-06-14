@@ -10,7 +10,11 @@ Schreibt Staging-Files -> promote_v2 + consolidate.
 from __future__ import annotations
 
 import json
+import logging
 from pathlib import Path
+
+logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
+log = logging.getLogger("build_s4_weapons")
 
 OUT = Path(__file__).resolve().parent.parent.parent / "cod_db_deltas_v2"
 SRC = "callofduty.com + GameRant/Dexerto/Game8/GameSpot (S4-Recherche, non-TGD)"
@@ -48,9 +52,13 @@ def main() -> int:
             "in_warzone": True, "source": SRC, "data_version": DV, "subclass": sub,
             "unlock": unlock, "note": note, "base": base, "slots": {},
         }
-        (OUT / f"{wid}.json").write_text(json.dumps(w, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        # Atomic-Write (.tmp + replace), projektweite Konvention.
+        target = OUT / f"{wid}.json"
+        tmp = target.with_suffix(".json.tmp")
+        tmp.write_text(json.dumps(w, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        tmp.replace(target)
         n += 1
-    print(f"{n} S4-Neuwaffen geschrieben -> {OUT}")
+    log.info("%d S4-Neuwaffen geschrieben -> %s", n, OUT)
     return 0
 
 

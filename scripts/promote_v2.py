@@ -92,7 +92,7 @@ def main() -> int:
         errors = sorted(validator.iter_errors(w), key=lambda e: list(e.path))
         if errors:
             bad += 1
-            for err in errors[:3]:
+            for err in errors:  # alle Fehler loggen (analog build.py), nichts unterdruecken
                 loc = "/".join(str(p) for p in err.path) or "<root>"
                 log.error("%s: %s -> %s", path.name, loc, err.message)
             continue

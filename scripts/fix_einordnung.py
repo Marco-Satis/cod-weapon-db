@@ -94,6 +94,7 @@ def main() -> int:
             tmp.replace(f)
 
     game_n = sum(1 for c in changes if c[1] == "game")
+    # print bewusst (kein logging): Dry-Run-/Aenderungs-Report ist User-facing Konsolen-Output.
     print(f"{'DRY-RUN' if args.dry_run else 'APPLIED'}: {len(changes)} Aenderungen ({game_n} game-Tags).")
     for wid, field, old, new in changes:
         print(f"  {wid:16} {field:6} {old!r} -> {new!r}")

@@ -27,7 +27,10 @@ import logging
 import sys
 from pathlib import Path
 
-from jsonschema import Draft202012Validator
+try:
+    from jsonschema import Draft202012Validator
+except ImportError:
+    sys.exit("jsonschema fehlt — bitte installieren: pip install jsonschema")
 
 # --- Pfade (Repo-relativ, keine Annahmen ueber CWD) --------------------------
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -138,7 +141,12 @@ def build(src: Path, out: Path, schema_path: Path) -> int:
 
         wid = weapon["id"]
         if path.stem != wid:
-            log.warning("%s: Dateiname != id (%r)", path.name, wid)
+            # p-a64f31a445: Dateiname != id ist ein Integritaets-Bruch. Die Ausgabe geht nach {wid}.json -> ein
+            # falsch benanntes Delta kann die id eines korrekt benannten Files via seen_ids praeemptieren und
+            # dieses dann als "Duplikat" skippen (stiller Verlust). Daher Fehler + skip statt blosser Warnung.
+            log.error("%s: Dateiname != id (%r) -> uebersprungen (Delta muss <id>.json heissen)", path.name, wid)
+            bad += 1
+            continue
         if wid in seen_ids:
             log.error("%s: doppelte id %r (zuerst in %s)", path.name, wid, seen_ids[wid].name)
             bad += 1
@@ -157,11 +165,20 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     ap.add_argument("--src", type=Path, default=DEFAULT_SRC, help=f"Quell-Deltas (default: {DEFAULT_SRC})")
     ap.add_argument("--out", type=Path, default=DEFAULT_OUT, help=f"Ziel data/weapons (default: {DEFAULT_OUT})")
     ap.add_argument("--schema", type=Path, default=DEFAULT_SCHEMA, help=f"Schema (default: {DEFAULT_SCHEMA})")
+    ap.add_argument("--force-v1", action="store_true",
+                    help="data/weapons/ wird inzwischen von der v2-Pipeline (promote_v2.py) verwaltet; "
+                         "dieser v1-Build ueberschreibt v2-Daten nur mit diesem Flag.")
     return ap.parse_args(argv)
 
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
+    # Guard (Review 2026-06-12): v2 (promote_v2.py) ist live und schreibt ebenfalls nach
+    # data/weapons/. Ein v1-Lauf auf das Default-Ziel wuerde v2-Daten still ueberschreiben.
+    if args.out == DEFAULT_OUT and not args.force_v1:
+        log.error("Abbruch: data/weapons/ ist v2-verwaltet (promote_v2.py). "
+                  "v1-Build nur mit --force-v1 oder explizitem --out Staging-Ziel.")
+        return 1
     return 0 if build(args.src, args.out, args.schema) == 0 else 1
 
 

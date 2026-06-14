@@ -14,7 +14,11 @@ Qualitative Mechanik + Konfidenz im note-Feld. Keine Slots (keine Attachments ge
 from __future__ import annotations
 
 import json
+import logging
 from pathlib import Path
+
+logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
+log = logging.getLogger("build_melee_special_launcher")
 
 OUT = Path(__file__).resolve().parent.parent.parent / "cod_db_deltas_v2"
 SRC = "callofduty.com + Fandom + Game8/Dexerto/gamesatlas (Roster-Recherche, non-TGD)"
@@ -73,9 +77,13 @@ def main() -> int:
         }
         if ulevel is not None:
             w["unlock_level"] = ulevel
-        (OUT / f"{wid}.json").write_text(json.dumps(w, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        # Atomic-Write (.tmp + replace), projektweite Konvention.
+        target = OUT / f"{wid}.json"
+        tmp = target.with_suffix(".json.tmp")
+        tmp.write_text(json.dumps(w, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        tmp.replace(target)
         n += 1
-    print(f"{n} Melee/Special/Launcher-Roster-Files geschrieben -> {OUT}")
+    log.info("%d Melee/Special/Launcher-Roster-Files geschrieben -> %s", n, OUT)
     return 0
 
 

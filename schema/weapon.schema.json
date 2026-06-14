@@ -1,44 +1,53 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/cod-weapon-db/cod-weapon-db/schema/weapon.schema.json",
-  "title": "CoD Weapon Delta",
-  "description": "Eine Waffe der CoD-Weapon-DB: Identitaet, Provenance, Base-Stats und rohe Attachment-Slot-Deltas. Slot-Strings bleiben roh ('Name :: +X% Stat | -Y% Stat'); der Build-Parser strukturiert spaeter. Abgeleitet aus dem On-Disk-Format der cod_db_deltas/<id>.json (Stand 2026-06-05, 42 Waffen).",
+  "title": "CoD Weapon (v2)",
+  "description": "Eine konsolidierte Waffe im v2-On-Disk-Format (data/weapons/<id>.json), erzeugt von der v2-Pipeline (promote_v2.py / rebuild_from_api.py). Empirisch abgeleitet aus allen 209 Waffen (Stand 2026-06-14). Loest das veraltete v1-Delta-Schema (slots als rohe Strings, base mit 9 Feldern) ab: slots sind jetzt strukturiert ({name, mods}), base ist reich (volle TGD-API-Stats), plus damage-Ranges, weapon_type und optionale fire_modes. Strikt am Top-Level (additionalProperties:false -> ein neues Top-Feld erzwingt bewussten Schema-Review), aber wachstums-tolerant in base und mods (additionalProperties:{number}), wo die TGD-API jederzeit neue numerische Felder liefern kann.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "name", "class", "game", "in_warzone", "source", "data_version", "base", "slots"],
+  "required": ["id", "name", "class", "game", "weapon_type", "in_warzone", "source", "data_version", "base", "slots"],
   "properties": {
     "id": {
       "type": "string",
       "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
-      "description": "Kanonischer Slug: kleinbuchstaben + Bindestrich (ds20-mirage, ak-74, 9mm-daemon)."
+      "description": "Kanonischer Slug: kleinbuchstaben + Bindestrich (vs-recon, ak-74, 9mm-pm)."
     },
     "name": {
       "type": "string",
       "minLength": 1,
-      "description": "Anzeigename wie in der Quelle (DS20 Mirage, AK-74)."
+      "description": "Anzeigename wie in der Quelle (VS Recon, AK-74)."
     },
     "name_de": {
       "type": "string",
-      "description": "Optionaler deutscher Anzeigename (Chimaere, Chiffre 091)."
+      "description": "Optionaler deutscher Anzeigename."
     },
     "class": {
       "type": "string",
-      "enum": ["AR", "SMG", "Sniper", "Marksman", "Marksman Rifle", "Marksman/Sniper", "LMG", "Pistol", "Shotgun", "Launcher", "Battle Rifle", "Melee", "Knife", "Crossbow", "Special"],
-      "description": "Waffenklasse. TGD-Klassifikation 1:1: 'Marksman Rifle' (TGD-Originalname) und 'Marksman'/'Marksman/Sniper' (Cross-Game-Compounds) koexistieren; Sonderklassen (Crossbow, Melee, Special) fuer den Off-Meta-Tail."
+      "enum": ["AR", "SMG", "Sniper", "Marksman Rifle", "LMG", "Pistol", "Shotgun", "Launcher", "Battle Rifle", "Melee", "Knife", "Crossbow", "Special"],
+      "description": "Waffenklasse (kanonische TGD-Taxonomie). 'Marksman Rifle' statt 'Marksman'/'Marksman/Sniper' (2026-06-12 migriert)."
     },
     "game": {
       "type": "string",
       "enum": ["mw2", "mw3", "mw2019", "mw2019_mw3", "bo6", "bo7", "unknown"],
-      "description": "Herkunfts-Titel. mw2019 = Modern Warfare 2019; mw2019_mw3 = ueber beide MW-Titel gefuehrt; mw2/mw3 = MW2(2022)/MW3(2023). 'unknown' = Aera-Tab in der Quelle nicht bestimmbar (Platzhalter, spaeter nachtragen)."
+      "description": "Herkunfts-Titel. mw2/mw3 = MW2(2022)/MW3(2023); mw2019 = Modern Warfare 2019; bo6/bo7 = Black Ops 6/7."
+    },
+    "weapon_type": {
+      "type": "string",
+      "enum": ["AR", "SMG", "BR", "LMG", "MR", "SR", "SG", "Pistols", "Launcher", "Melee", "Special"],
+      "description": "Kurzform-Waffentyp (TGD-Kategorie): AR/SMG/BR(Battle Rifle)/LMG/MR(Marksman Rifle)/SR(Sniper)/SG(Shotgun)/Pistols/Launcher/Melee/Special."
+    },
+    "subclass": {
+      "type": "string",
+      "description": "Optionale Feingranular-Klassifikation (Freitext, z.B. 'Compact AR', 'Named Exotic SMG (Base VST, Graviton)', 'Sword')."
     },
     "in_warzone": {
       "type": "boolean",
-      "description": "In Warzone verfuegbar (Cross-Game-Pool ab MW2)."
+      "description": "In Warzone verfuegbar (Cross-Game-Pool)."
     },
     "source": {
       "type": "string",
       "minLength": 1,
-      "description": "Provenance-Quelle der Stats/Deltas (z.B. 'truegamedata')."
+      "description": "Provenance-Quelle der Stats (z.B. 'truegamedata-api')."
     },
     "data_version": {
       "type": "string",
@@ -47,56 +56,101 @@
     },
     "note": {
       "type": "string",
-      "description": "Freitext-Hinweis (Off-Meta-Status, fehlende S4-Daten, Universal-Pool-Referenz, Veraltet-Markierung)."
+      "description": "Freitext-Hinweis (Off-Meta-Status, fehlende Daten, Exotic-Trait, Veraltet-Markierung)."
     },
-    "base_note": {
+    "unlock": {
       "type": "string",
-      "description": "Hinweis speziell zur base-Sektion (z.B. Base nicht gelesen, spaeter nachtragen)."
+      "description": "Optionale Freischalt-Bedingung (Freitext)."
     },
-    "extraction": {
-      "type": "string",
-      "pattern": "^(weapon-specific-only|base-only)",
-      "description": "Extraktions-Modus. 'weapon-specific-only' = nur waffenspezifische Slots erfasst (universelle Slots als _universal-Referenz, Tail-Optimierung); 'base-only' = keine Builder-Daten in der Quelle (ns=0, Meme-Waffe, Special), nur Base. Optionaler Klammer-Zusatz dokumentiert Abweichungen (z.B. '(MW: ohne MUZZLE)', '(ns=0)')."
+    "unlock_level": {
+      "type": "integer",
+      "description": "Optionales Freischalt-Level (Rang)."
     },
-    "all_slots": {
+    "not_buildable": {
+      "type": "boolean",
+      "description": "Waffe ohne sinnvolle Builder-Daten (z.B. Melee/Special) -> slots leer/minimal."
+    },
+    "blocking": {
       "type": "array",
-      "items": {"type": "string"},
-      "description": "Vollstaendige Slot-Liste der Waffe (auch nicht-extrahierte universelle Slots), zur Doku des _universal-Verweises."
+      "description": "Optionale Liste sich gegenseitig ausschliessender Attachments / Slot-Konflikte."
+    },
+    "meta_build": {
+      "type": "array",
+      "description": "Optionaler empfohlener Meta-Build (Attachment-Auswahl)."
+    },
+    "fire_modes": {
+      "type": "object",
+      "description": "Optionale Feuermodus-Daten (z.B. Burst-/Auto-Kennwerte je Modus)."
     },
     "base": {
       "type": "object",
-      "description": "Base-Stats in fixer Konvention. Darf {} sein, wenn Base noch nicht erfasst wurde (dann base_note setzen).",
-      "additionalProperties": false,
+      "description": "Base-Stats (volle TGD-API). Darf {} sein (Melee/Special ohne Stats, 13 Waffen). Wachstums-tolerant: jeder Wert muss numerisch sein, neue API-Felder erlaubt ohne Schema-Bruch.",
+      "additionalProperties": {"type": "number"},
       "properties": {
         "rpm": {"type": "number", "description": "Schussrate (rounds per minute)."},
         "mag": {"type": "number", "description": "Magazingroesse."},
-        "reload_s": {"type": "number", "description": "Nachladezeit in Sekunden."},
-        "ads_ms": {"type": "number", "description": "Aim-Down-Sight-Zeit in Millisekunden."},
-        "velocity_ms": {"type": "number", "description": "Muendungsgeschwindigkeit in m/s."},
-        "move_ms": {"type": "number", "description": "Bewegungsgeschwindigkeit (m/s)."},
-        "sprint_to_fire_ms": {"type": "number", "description": "Sprint-to-Fire-Zeit in Millisekunden."},
-        "sprint_ms": {"type": "number", "description": "Sprintgeschwindigkeit (m/s)."},
+        "reload_s": {"type": "number", "description": "Nachladezeit (Sekunden)."},
+        "ads_ms": {"type": "number", "description": "Aim-Down-Sight-Zeit (Millisekunden)."},
+        "velocity_ms": {"type": "number", "description": "Muendungsgeschwindigkeit (m/s)."},
+        "sprint_to_fire_ms": {"type": "number", "description": "Sprint-to-Fire-Zeit (Millisekunden)."},
+        "move_speed": {"type": "number", "description": "Bewegungsgeschwindigkeit."},
+        "sprint_speed": {"type": "number", "description": "Sprintgeschwindigkeit."},
+        "gun_kick": {"type": "number", "description": "Gun-Kick (Recoil-Kennwert)."},
+        "vert_recoil": {"type": "number", "description": "Vertikaler Rueckstoss."},
+        "horiz_recoil": {"type": "number", "description": "Horizontaler Rueckstoss."},
         "zoom_x": {"type": "number", "description": "Optischer Zoom-Faktor (Sniper/Marksman)."}
+      }
+    },
+    "damage": {
+      "type": "array",
+      "description": "Schadens-Ranges, je Eintrag = eine Distanz-Stufe (top->down). Koerperzonen-Werte sind Zahl ODER '' (leer = unveraendert ggue. der vorherigen Stufe).",
+      "items": {
+        "type": "object",
+        "properties": {
+          "head": {"type": ["number", "string"]},
+          "neck": {"type": ["number", "string"]},
+          "chest": {"type": ["number", "string"]},
+          "stomach": {"type": ["number", "string"]},
+          "upperleg": {"type": ["number", "string"]},
+          "lowerleg": {"type": ["number", "string"]},
+          "upperarm": {"type": ["number", "string"]},
+          "lowerarm": {"type": ["number", "string"]},
+          "dropoff": {"type": "number", "description": "Distanz-Schwelle dieser Stufe."},
+          "base_rpm": {"type": "number"},
+          "final_rpm": {"type": "number"},
+          "rpm_mod": {"type": "number"}
+        }
       }
     },
     "slots": {
       "type": "object",
-      "description": "Attachment-Slots. Jeder Slot-Key (MUZZLE, BARREL, ...) -> Array roher Delta-Strings. Sonderschluessel _universal = String-Referenz auf den geteilten universellen Attachment-Pool.",
+      "description": "Attachment-Slots: Slot-Key (BARREL, MUZZLE, 'FIRE MODS', 'TRIGGER ACTION', 'CONVERSION KIT', ...) -> Array strukturierter Attachments. Multi-Wort-Slot-Keys nutzen LEERZEICHEN (kanonisch, kein Underscore). _universal = optionale String-Referenz auf den geteilten universellen Pool.",
       "properties": {
         "_universal": {
           "type": "string",
-          "description": "Referenz-String auf den universellen Attachment-Pool (z.B. 'OPTIC/UNDERBARREL/... = BO6-Pool (ref lc10.json)')."
+          "description": "Referenz-String auf den universellen Attachment-Pool."
         }
       },
       "additionalProperties": {
         "type": "array",
-        "items": {"type": "string"},
-        "description": "Rohe Attachment-Delta-Strings im Format 'Name :: +X% Stat | -Y% Stat'."
+        "description": "Attachments dieses Slots.",
+        "items": {
+          "type": "object",
+          "required": ["name"],
+          "properties": {
+            "name": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Attachment-Name."
+            },
+            "mods": {
+              "type": "object",
+              "description": "Stat-Multiplikatoren (<stat>_mod, z.B. ads_mod, gun_kick_mod). Wachstums-tolerant: jeder Wert numerisch.",
+              "additionalProperties": {"type": "number"}
+            }
+          }
+        }
       }
-    },
-    "_universal": {
-      "type": "string",
-      "description": "Referenz-String auf den geteilten universellen Attachment-Pool (z.B. 'OPTIC/UNDERBARREL/... = BO6-Pool (ref lc10.json)'). L1 legt diesen Schluessel uneinheitlich ab: in aelteren Files innerhalb von 'slots' (letzter Slot-Key), in neueren auf Root-Ebene. Beide Platzierungen sind gueltig; der Build-Parser liest beide."
     }
   }
 }

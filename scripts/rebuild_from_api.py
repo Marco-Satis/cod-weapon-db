@@ -61,9 +61,18 @@ def norm(s: str) -> str:
     return re.sub(r"[^a-z0-9]", "", str(s).lower())
 
 
-def load(p: Path):
+def load(p: Path) -> dict | list:
     with p.open(encoding="utf-8") as fh:
         return json.load(fh)
+
+
+def atomic_write(path: Path, data: dict) -> None:
+    """Atomic-Write via .tmp + replace (kein halb-geschriebenes File)."""
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    with tmp.open("w", encoding="utf-8") as fh:
+        json.dump(data, fh, ensure_ascii=False, indent=2)
+        fh.write("\n")
+    tmp.replace(path)
 
 
 def parse_json_field(val):
@@ -108,8 +117,13 @@ def build_slots(rows: list[dict]) -> dict:
 def main() -> int:
     base = load(RAW / "wz3_base.json")
     att_blk = load(RAW / "wz3_attach_blocking.json")
-    attachments = att_blk[0] if isinstance(att_blk, list) else att_blk
-    blocking = att_blk[1] if isinstance(att_blk, list) and len(att_blk) > 1 else []
+    if not isinstance(att_blk, list) or len(att_blk) < 2:
+        log.error("wz3_attach_blocking.json: erwartet [attachments[], blocking[]], "
+                  "bekommen: %s (len=%s)", type(att_blk).__name__,
+                  len(att_blk) if isinstance(att_blk, list) else "n/a")
+        return 1
+    attachments = att_blk[0]
+    blocking = att_blk[1]
 
     base_by_name = {norm(r["gun"]): r for r in base}
     att_by_name: dict[str, list] = defaultdict(list)
@@ -163,9 +177,7 @@ def main() -> int:
         if blk:
             new["blocking"] = blk
 
-        with (OUT / f"{old['id']}.json").open("w", encoding="utf-8") as fh:
-            json.dump(new, fh, ensure_ascii=False, indent=2)
-            fh.write("\n")
+        atomic_write(OUT / f"{old['id']}.json", new)
         ok += 1
 
     log.info("Rebuild: %d Waffen geschrieben -> %s", ok, OUT)

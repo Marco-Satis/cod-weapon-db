@@ -13,8 +13,12 @@ ueberschreibt die JSON deterministisch (Atomic-Write).
 from __future__ import annotations
 
 import json
+import logging
 import re
 from pathlib import Path
+
+logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
+log = logging.getLogger("build_calling_cards")
 
 OUT = Path(__file__).resolve().parent.parent.parent / "cod_db_drumherum_json" / "calling_cards.json"
 
@@ -301,8 +305,8 @@ def main() -> int:
     tmp.write_text(json.dumps(db, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     tmp.replace(OUT)
     total = sum(db["counts"].values())
-    print(f"calling_cards.json geschrieben: {total} bedingungs-gated Cards + 4 Bulk-Kategorien -> {OUT}")
-    print("  counts:", db["counts"])
+    log.info("calling_cards.json geschrieben: %d bedingungs-gated Cards + 4 Bulk-Kategorien -> %s", total, OUT)
+    log.info("  counts: %s", db["counts"])
     return 0
 
 

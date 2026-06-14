@@ -70,16 +70,26 @@ def main(argv: list[str] | None = None) -> int:
     Draft202012Validator.check_schema(schema)
     validator = Draft202012Validator(schema)
 
+    explicit = args.data is not None                    # wurde --data explizit gesetzt (vs Default)?
     data_dirs = args.data or [DEFAULT_DATA]
     total_ok = 0
     total_bad = 0
+    missing: list[Path] = []
     for d in data_dirs:
+        if not d.is_dir():                              # p-40e097f49b: ein explizit angefordertes, fehlendes Verzeichnis
+            missing.append(d)                           # darf nicht still als (0,0) durchrutschen (maskiert Tippfehler in Multi-Dir)
+            (log.error if explicit else log.warning)(
+                "Verzeichnis fehlt%s: %s", " (explizit angefordert)" if explicit else " (uebersprungen)", d)
+            continue
         ok, bad = validate_dir(d, validator)
         log.info("%s: %d gueltig, %d ungueltig", d, ok, bad)
         total_ok += ok
         total_bad += bad
 
     log.info("Validierung gesamt: %d gueltig, %d ungueltig", total_ok, total_bad)
+    if explicit and missing:                            # explizit angeforderte fehlende Dirs -> harter Fehler (CI-sichtbar)
+        log.error("%d explizit angeforderte(s) Verzeichnis(se) fehlen -> Exit 1.", len(missing))
+        return 1
     if total_ok == 0 and total_bad == 0:
         log.error("Keine Daten-Files gefunden -> erst build.py laufen lassen.")
         return 1

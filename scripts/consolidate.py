@@ -28,8 +28,6 @@ DRUMHERUM_SRC = PROJECT_ROOT / "cod_db_drumherum_json"
 INDEX_OUT = REPO_ROOT / "data" / "index.json"
 DB_OUT = REPO_ROOT / "data" / "db.json"
 
-DATA_VERSION = "S3.5_2026-04-25"
-
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 log = logging.getLogger("consolidate")
 
@@ -37,6 +35,11 @@ log = logging.getLogger("consolidate")
 def load(path: Path) -> dict:
     with path.open(encoding="utf-8") as fh:
         return json.load(fh)
+
+
+def is_base_only(w: dict) -> bool:
+    """Waffe ohne weapon-spezifische Slots (nur _universal oder leer)."""
+    return not w.get("slots") or set(w.get("slots", {})) <= {"_universal"}
 
 
 def atomic_write(path: Path, data) -> None:
@@ -49,10 +52,25 @@ def atomic_write(path: Path, data) -> None:
 
 
 def main() -> int:
+    errors: list[str] = []                              # Files die wegen Defekt/Unvollstaendigkeit uebersprungen wurden
     weapons: dict[str, dict] = {}
     for p in sorted(WEAPONS_DIR.glob("*.json")):
-        w = load(p)
+        try:
+            w = load(p)
+        except (OSError, json.JSONDecodeError) as exc:   # p-4a55ef3fca: kaputtes JSON crasht sonst die ganze Konsolidierung
+            log.error("Waffen-File defekt, uebersprungen: %s (%s)", p.name, exc)
+            errors.append(p.name)
+            continue
+        missing = [k for k in ("id", "name", "class", "game") if not w.get(k)]
+        if missing:                                      # p-4a55ef3fca: fehlende Pflicht-Keys -> spaeter KeyError in Counts/Catalog
+            log.error("Waffen-File unvollstaendig (fehlt: %s), uebersprungen: %s", ", ".join(missing), p.name)
+            errors.append(p.name)
+            continue
         weapons[w["id"]] = w
+
+    # data_version aus den tatsaechlichen Waffen-Files ableiten (Review 2026-06-12:
+    # vorher hardcodiert "S3.5_2026-04-25" obwohl S4-Waffen in der DB sind).
+    data_version = max((w.get("data_version", "") for w in weapons.values()), default="unknown")
 
     # --- Aggregat-Counts ----------------------------------------------------
     by_class: dict[str, int] = {}
@@ -61,14 +79,19 @@ def main() -> int:
     for w in weapons.values():
         by_class[w["class"]] = by_class.get(w["class"], 0) + 1
         by_game[w["game"]] = by_game.get(w["game"], 0) + 1
-        if not w.get("slots") or set(w.get("slots", {})) <= {"_universal"}:
+        if is_base_only(w):
             base_only += 1
 
     # --- L3-Drumherum -> data/meta/ + Sammlung ------------------------------
     drumherum: dict[str, dict] = {}
     if DRUMHERUM_SRC.is_dir():
         for p in sorted(DRUMHERUM_SRC.glob("*.json")):
-            d = load(p)
+            try:
+                d = load(p)
+            except (OSError, json.JSONDecodeError) as exc:   # p-127e016814: kaputtes Drumherum-JSON crasht sonst die Konsolidierung
+                log.error("Drumherum-File defekt, uebersprungen: %s (%s)", p.name, exc)
+                errors.append(p.name)
+                continue
             cat = d.get("category", p.stem)
             drumherum[cat] = d
             atomic_write(META_OUT / f"{p.stem}.json", d)
@@ -80,13 +103,13 @@ def main() -> int:
         {
             "id": w["id"], "name": w["name"], "class": w["class"],
             "game": w["game"], "in_warzone": w.get("in_warzone", True),
-            "base_only": (not w.get("slots") or set(w.get("slots", {})) <= {"_universal"}),
+            "base_only": is_base_only(w),
         }
         for w in sorted(weapons.values(), key=lambda x: x["id"])
     ]
     index = {
         "title": "CoD Weapon DB — Katalog",
-        "data_version": DATA_VERSION,
+        "data_version": data_version,
         "source": "truegamedata",
         "weapon_count": len(weapons),
         "base_only_count": base_only,
@@ -100,7 +123,7 @@ def main() -> int:
     # --- db.json (Single-File) ---------------------------------------------
     db = {
         "title": "CoD Weapon DB — Single-File",
-        "data_version": DATA_VERSION,
+        "data_version": data_version,
         "source": "truegamedata",
         "license": "CC-BY-4.0",
         "weapon_count": len(weapons),
@@ -116,6 +139,9 @@ def main() -> int:
     log.info("Klassen: %s", index["counts_by_class"])
     log.info("Games:   %s", index["counts_by_game"])
     log.info("-> %s, %s, data/meta/", INDEX_OUT.name, DB_OUT.name)
+    if errors:                                           # p-1205c46eb6: Exit-Code muss Logik-Fehler spiegeln (CI/Preflight-sichtbar)
+        log.error("%d Datei(en) defekt/unvollstaendig uebersprungen -> Exit 1: %s", len(errors), ", ".join(errors))
+        return 1
     return 0
 
 

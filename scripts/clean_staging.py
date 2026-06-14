@@ -112,6 +112,7 @@ def main() -> int:
     kinds: dict[str, int] = defaultdict(int)
     for _, _, kind, _ in drops:
         kinds[kind] += 1
+    # print bewusst (kein logging): Dry-Run-/Drop-Report ist User-facing Konsolen-Output.
     print(f"{'DRY-RUN' if args.dry_run else 'APPLIED'}: {changed} Waffen geaendert | "
           f"dups={kinds['dup']} garbage={kinds['garbage']} qmark={kinds['qmark']}")
     print("--- Drops (weapon | slot | kind | name) ---")
