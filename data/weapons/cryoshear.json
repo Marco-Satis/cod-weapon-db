@@ -1,0 +1,14 @@
+{
+  "id": "cryoshear",
+  "name": "Cryoshear",
+  "class": "Melee",
+  "game": "bo7",
+  "weapon_type": "Melee",
+  "in_warzone": false,
+  "source": "offizielle callofduty.com Patchnotes 2026-06-24",
+  "data_version": "S4Reloaded_2026-06-24_stub",
+  "note": "Endgame-Exotic-Nahkampfwaffe (S4 Reloaded). Affinity Frost Rounds. Endgame-only (separate Balance). Volle TGD-Stats FEHLEN — Stub bis Datenquelle existiert.",
+  "not_buildable": true,
+  "base": {},
+  "slots": {}
+}

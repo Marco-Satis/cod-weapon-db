@@ -122,6 +122,27 @@
         }
       }
     },
+    "damage_wz": {
+      "type": "array",
+      "description": "Warzone-spezifische Schadens-Ranges (Raven-Balance, getrennt von MP/TGD 'damage'). Gleiche Item-Form wie 'damage'. Optional — nur gesetzt wo das WZ-Profil vom MP-Profil abweicht (ab S4 Reloaded). Koerperzonen-Werte Zahl ODER ''.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "head": {"type": ["number", "string"]},
+          "neck": {"type": ["number", "string"]},
+          "chest": {"type": ["number", "string"]},
+          "stomach": {"type": ["number", "string"]},
+          "upperleg": {"type": ["number", "string"]},
+          "lowerleg": {"type": ["number", "string"]},
+          "upperarm": {"type": ["number", "string"]},
+          "lowerarm": {"type": ["number", "string"]},
+          "dropoff": {"type": "number", "description": "Distanz-Schwelle dieser Stufe."},
+          "base_rpm": {"type": "number"},
+          "final_rpm": {"type": "number"},
+          "rpm_mod": {"type": "number"}
+        }
+      }
+    },
     "slots": {
       "type": "object",
       "description": "Attachment-Slots: Slot-Key (BARREL, MUZZLE, 'FIRE MODS', 'TRIGGER ACTION', 'CONVERSION KIT', ...) -> Array strukturierter Attachments. Multi-Wort-Slot-Keys nutzen LEERZEICHEN (kanonisch, kein Underscore). _universal = optionale String-Referenz auf den geteilten universellen Pool.",

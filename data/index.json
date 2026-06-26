@@ -2,16 +2,16 @@
   "title": "CoD Weapon DB — Katalog",
   "data_version": "S4_2026-06-08",
   "source": "truegamedata",
-  "weapon_count": 209,
-  "base_only_count": 25,
+  "weapon_count": 211,
+  "base_only_count": 27,
   "counts_by_class": {
-    "AR": 49,
+    "AR": 50,
     "Battle Rifle": 22,
     "Crossbow": 1,
     "LMG": 21,
     "Launcher": 2,
     "Marksman Rifle": 15,
-    "Melee": 7,
+    "Melee": 8,
     "Pistol": 20,
     "SMG": 46,
     "Shotgun": 1,
@@ -20,7 +20,7 @@
   },
   "counts_by_game": {
     "bo6": 48,
-    "bo7": 54,
+    "bo7": 56,
     "mw2": 62,
     "mw3": 45
   },
@@ -294,12 +294,28 @@
       "base_only": false
     },
     {
+      "id": "cryoshear",
+      "name": "Cryoshear",
+      "class": "Melee",
+      "game": "bo7",
+      "in_warzone": false,
+      "base_only": true
+    },
+    {
       "id": "cypher-091",
       "name": "Cypher 091",
       "class": "AR",
       "game": "bo6",
       "in_warzone": true,
       "base_only": false
+    },
+    {
+      "id": "defrag",
+      "name": "Defrag",
+      "class": "AR",
+      "game": "bo7",
+      "in_warzone": false,
+      "base_only": true
     },
     {
       "id": "dg-56",

@@ -1,0 +1,14 @@
+{
+  "id": "defrag",
+  "name": "Defrag",
+  "class": "AR",
+  "game": "bo7",
+  "weapon_type": "AR",
+  "in_warzone": false,
+  "source": "offizielle callofduty.com Patchnotes 2026-06-24",
+  "data_version": "S4Reloaded_2026-06-24_stub",
+  "note": "Endgame-Exotic-Waffe (S4 Reloaded). Full-Auto AR mit extremer Accuracy, Affinity Mortar Rounds. Endgame-only (separate Balance, MP/WZ-Nerfs gelten nicht). Volle TGD-Stats FEHLEN — TGD fuehrt Endgame-Exotics nicht; Stub bis Datenquelle existiert.",
+  "not_buildable": true,
+  "base": {},
+  "slots": {}
+}

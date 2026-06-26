@@ -3,15 +3,15 @@
   "data_version": "S4_2026-06-08",
   "source": "truegamedata",
   "license": "CC-BY-4.0",
-  "weapon_count": 209,
+  "weapon_count": 211,
   "counts_by_class": {
-    "AR": 49,
+    "AR": 50,
     "Battle Rifle": 22,
     "Crossbow": 1,
     "LMG": 21,
     "Launcher": 2,
     "Marksman Rifle": 15,
-    "Melee": 7,
+    "Melee": 8,
     "Pistol": 20,
     "SMG": 46,
     "Shotgun": 1,
@@ -20,7 +20,7 @@
   },
   "counts_by_game": {
     "bo6": 48,
-    "bo7": 54,
+    "bo7": 56,
     "mw2": 62,
     "mw3": 45
   },
@@ -22721,6 +22721,20 @@
         ]
       }
     },
+    "cryoshear": {
+      "id": "cryoshear",
+      "name": "Cryoshear",
+      "class": "Melee",
+      "game": "bo7",
+      "weapon_type": "Melee",
+      "in_warzone": false,
+      "source": "offizielle callofduty.com Patchnotes 2026-06-24",
+      "data_version": "S4Reloaded_2026-06-24_stub",
+      "note": "Endgame-Exotic-Nahkampfwaffe (S4 Reloaded). Affinity Frost Rounds. Endgame-only (separate Balance). Volle TGD-Stats FEHLEN — Stub bis Datenquelle existiert.",
+      "not_buildable": true,
+      "base": {},
+      "slots": {}
+    },
     "cypher-091": {
       "id": "cypher-091",
       "name": "Cypher 091",
@@ -23199,6 +23213,20 @@
           }
         ]
       }
+    },
+    "defrag": {
+      "id": "defrag",
+      "name": "Defrag",
+      "class": "AR",
+      "game": "bo7",
+      "weapon_type": "AR",
+      "in_warzone": false,
+      "source": "offizielle callofduty.com Patchnotes 2026-06-24",
+      "data_version": "S4Reloaded_2026-06-24_stub",
+      "note": "Endgame-Exotic-Waffe (S4 Reloaded). Full-Auto AR mit extremer Accuracy, Affinity Mortar Rounds. Endgame-only (separate Balance, MP/WZ-Nerfs gelten nicht). Volle TGD-Stats FEHLEN — TGD fuehrt Endgame-Exotics nicht; Stub bis Datenquelle existiert.",
+      "not_buildable": true,
+      "base": {},
+      "slots": {}
     },
     "dg-56": {
       "id": "dg-56",
@@ -183248,7 +183276,7 @@
     "endgame_abilities": {
       "category": "endgame_abilities",
       "game": "bo7",
-      "data_version": "S4 (2026-06-05) + Reddit-Traits-Integration 2026-06-09",
+      "data_version": "S4 Reloaded (2026-06-24) | S4 (2026-06-05) + Reddit-Traits-Integration 2026-06-09",
       "source": "bo7endgame.com Wiki (Volltext), COD Central, dotesports/sportskeeda/noobfeed (WebSearch-Snippets, WebFetch 403/405), ggwtb",
       "source_caveat": "Eigennamen verbatim Englisch. S4-Neuzuegae (Guardian-Track, Death Machine, Psych Grenade, Operator-Prestige) stammen aus dotesports-WebSearch-Snippets, NICHT direkt gefetchtem Volltext -> [LÜCKE 1], Snippet-Paraphrasen, mit Vorsicht. bo7endgame.com-Wiki zeigt Pre-S4-Stand (9 Tracks, 10 Major, 8 Minor).",
       "loadout_rule": "Vor jedem Endgame-Match: Waffen + Field Equipment + 2 Abilities waehlbar — 1 Minor + 1 Major. (dotesports, bo7endgame.com)",
@@ -183262,7 +183290,7 @@
       "skill_tracks": {
         "slots_note": "9 Tracks, je 6 Skills (progressiv per Combat-Rating freigeschaltet). Man waehlt 3 Tracks (bei CR 1, 6, 16); Reroll moeglich. Prestige 3 = 4. Track equipbar. Quellen: destructoid + steamcommunity-Guide 3616441372 + dexerto (Skills verbatim 2026-06-06).",
         "skills_per_track": 6,
-        "guardian_correction": "FRUEHER falsch als 10. Track gefuehrt (dotesports-Snippet). steamcommunity-Guide: 'Guardian' = Gegner-Archetyp, KEIN Skill-Track. Authoritative 9-Track-Liste enthaelt kein Guardian. -> entfernt.",
+        "guardian_correction": "FRUEHER falsch als 10. Track gefuehrt (dotesports-Snippet). steamcommunity-Guide: 'Guardian' = Gegner-Archetyp, KEIN Skill-Track. Authoritative 9-Track-Liste enthaelt kein Guardian. -> entfernt. || S4-RELOADED-UPDATE (2026-06-24): Guardian wurde mit S4 Reloaded als neuer Mid-Season-Skill-Track EINGEFUEHRT (6 Nodes, offizielle Treyarch-Patchnotes). Die fruehere Entfernung galt fuer pre-Reloaded-Stand; jetzt wieder als Track gefuehrt. Quelle: offizielle callofduty.com Patchnotes 2026-06-24",
         "base": [
           {
             "track": "Gunner",
@@ -183395,6 +183423,20 @@
               "needs_marco_ingame": true,
               "finding": "Node-SET = DB. Reihenfolge strittig: Web tauscht Bloodrunner<->Wirehand vs DB."
             }
+          },
+          {
+            "track": "Guardian",
+            "focus": "Defensiv/Support. S4-Reloaded Mid-Season-Track, jetzt LIVE (10. Track equipbar).",
+            "skills": [
+              "Payback (Reflect-Damage an Angreifer)",
+              "Battle Cache (erhoehte Resupply-Drop-Chance)",
+              "Power Tap (Resupply laedt zusaetzlich Equipment)",
+              "Fortified (Damage-Reduktion pro Armor-Platte)",
+              "Iron Grip (-Hipfire-Spread / -Flinch)",
+              "Rescue Pulse (Proximity-Revive)"
+            ],
+            "s4_reloaded": true,
+            "source": "offizielle callofduty.com Patchnotes 2026-06-24"
           }
         ]
       },
@@ -183568,6 +183610,14 @@
               "needs_marco_ingame": false,
               "finding": "T2/T3 in Minderheits-Quellen mit Wingman-Unit-Text kontaminiert; Verify aufgeloest -> DB-Text (T2 +Taser, T3 +Dauer/alle Gegner) ist korrekt. S4-Bugfix (Schaden/Score)."
             }
+          },
+          {
+            "skill": "Fission",
+            "base": "Elite-Kill -> Chance auf grosse Explosion.",
+            "tier_2": "Erhoeht Schaden und Radius der Explosion.",
+            "tier_3": "Final: spawnt befreundete Toxic Fears.",
+            "s4_reloaded": true,
+            "source": "offizielle callofduty.com Patchnotes 2026-06-24"
           }
         ]
       },
@@ -183612,6 +183662,14 @@
             "base": "Multiple quick kills spawn attacking Drone",
             "first_upgrade": "Increased Drone fire rate and duration",
             "final_upgrade": "Drone shots trigger a Shrapnel effect"
+          },
+          {
+            "skill": "Sleeper Agent",
+            "base": "Trefferchance -> Base-Gegner werden zu Verbuendeten (rushen Feinde + detonieren).",
+            "first_upgrade": "Erhoeht die Anziehung der bekehrten Gegner.",
+            "final_upgrade": "Bekehrte detonieren mit Cluster-Munition.",
+            "s4_reloaded": true,
+            "source": "offizielle callofduty.com Patchnotes 2026-06-24"
           }
         ],
         "web_corroboration": {
@@ -184880,6 +184938,47 @@
         "reliability": "Effekt-Existenzen breit belegt (4-8 Quellen). ALLE numerischen Werte (%/Schaden/Sek) stammen aus EINER Steam-Quelle (id=3616441372) -> unzuverlaessig. callofduty.com-Patchnotes nicht abrufbar. Faustregel: Effekt=belegt, Zahl=unsicher. NICHT als DB-Fakt behandeln bis Marco-in-game.",
         "marco_verify_priorities": "Siehe Report Abschnitt 5 (22 Punkte). Top: Shattered-Shield-S4-Cooldown, Mega-Punch-Dmg/T3-Name, Bulldozer-7th-Node, Phantom/Warband-Reihenfolge.",
         "no_db_facts_overwritten": true
+      },
+      "s4_reloaded_boss": {
+        "name": "Operation King Killer",
+        "act": "Act IV",
+        "release": "S4 Reloaded (2026-06-24)",
+        "summary": "Central Command Node jagen. Step 1: Zone III+ Fahrzeug-Kampf. Finale: Prime Target Glitch spawnt -> Glitch-Boss.",
+        "boss_fight": "Boss-Kampf mit Samuels / Wei Lin / Emma Kagan.",
+        "boss_rewards": [
+          "'Data Freeze'-Operator-Skin",
+          "Reward-Blueprint 'Coolant Leak'"
+        ],
+        "naming_note": "Distinkt von 'Operation Wall Breaker' (Akt 3, S4-Basis). King Killer = Akt-IV-Reloaded.",
+        "source": "offizielle callofduty.com Patchnotes 2026-06-24"
+      },
+      "endgame_exotic_weapons_s4_reloaded": {
+        "note": "Neue Endgame-Exotic-WAFFEN aus S4 Reloaded (Loot-Pool, nicht via Fabricator). Affinity bereits in weapon_exotic_effects gelistet (Mortar/Frost).",
+        "list": [
+          {
+            "name": "Defrag",
+            "weapon_id": "defrag",
+            "type": "AR (full-auto, extreme Accuracy)",
+            "affinity": "Mortar Rounds"
+          },
+          {
+            "name": "Cryoshear",
+            "weapon_id": "cryoshear",
+            "type": "Melee",
+            "affinity": "Frost Rounds"
+          }
+        ],
+        "source": "offizielle callofduty.com Patchnotes 2026-06-24"
+      },
+      "s4_reloaded_bugfixes": {
+        "source": "offizielle callofduty.com Patchnotes 2026-06-24",
+        "list": [
+          "Frost-Vortex / Chaos-Rounds: Self-Trigger gefixt.",
+          "Glitch-Fracture: Exotic-Ammo-Reduktion gefixt.",
+          "Zursa-Pathing-Fix.",
+          "Skill-ohne-Prompt-bei-Exfil gefixt.",
+          "Gear-Drop-Fears-Rate angepasst."
+        ]
       }
     },
     "meta_loadouts_by_class": {
