@@ -1,11 +1,11 @@
 {
   "title": "CoD Weapon DB — Single-File",
-  "data_version": "S4_2026-06-08",
+  "data_version": "S4_2026-06_stub",
   "source": "truegamedata",
   "license": "CC-BY-4.0",
-  "weapon_count": 211,
+  "weapon_count": 213,
   "counts_by_class": {
-    "AR": 50,
+    "AR": 51,
     "Battle Rifle": 22,
     "Crossbow": 1,
     "LMG": 21,
@@ -13,14 +13,14 @@
     "Marksman Rifle": 15,
     "Melee": 8,
     "Pistol": 20,
-    "SMG": 46,
+    "SMG": 47,
     "Shotgun": 1,
     "Sniper": 20,
     "Special": 5
   },
   "counts_by_game": {
     "bo6": 48,
-    "bo7": 56,
+    "bo7": 58,
     "mw2": 62,
     "mw3": 45
   },
@@ -19602,6 +19602,20 @@
           ]
         }
       ]
+    },
+    "collateral": {
+      "id": "collateral",
+      "name": "Collateral",
+      "class": "AR",
+      "game": "bo7",
+      "weapon_type": "AR",
+      "in_warzone": true,
+      "source": "offizielle callofduty.com Warzone Patchnotes 2026-06 (Season 04, Black Ops Royale Exotics)",
+      "data_version": "S4_2026-06_stub",
+      "note": "Named-Exotic-Variante der EGRT-17 (AR). Affinity Incendiary Rounds. Neu in Warzone S4 (Black Ops Royale Loot-Pool). Buildbare Basis-Stats unter egrt-17; Stub bis exotic-spezifische Daten vorliegen.",
+      "not_buildable": true,
+      "base": {},
+      "slots": {}
     },
     "cr-56-amax": {
       "id": "cr-56-amax",
@@ -150078,6 +150092,20 @@
         ]
       }
     },
+    "swarmforge": {
+      "id": "swarmforge",
+      "name": "Swarmforge",
+      "class": "SMG",
+      "game": "bo7",
+      "weapon_type": "SMG",
+      "in_warzone": true,
+      "source": "offizielle callofduty.com Warzone Patchnotes 2026-06 (Season 04, Black Ops Royale Exotics)",
+      "data_version": "S4_2026-06_stub",
+      "note": "Named-Exotic-Variante der MPC-25 (SMG). Affinity Photon Rounds. Neu in Warzone S4 (Black Ops Royale Loot-Pool). Aggressiv-Build. Buildbare Basis-Stats unter mpc-25; Stub bis exotic-spezifische Daten vorliegen.",
+      "not_buildable": true,
+      "base": {},
+      "slots": {}
+    },
     "swat-5-56": {
       "id": "swat-5-56",
       "name": "SWAT 5.56",
@@ -170250,7 +170278,7 @@
       "weapon_type": "SMG",
       "in_warzone": true,
       "source": "truegamedata-api",
-      "data_version": "S3.5_2026-04-25",
+      "data_version": "S4Reloaded_WZ_2026-06-24",
       "base": {
         "rpm": 1091,
         "mag": 30,
@@ -170307,7 +170335,7 @@
           "lowerleg": 18,
           "upperarm": 22,
           "lowerarm": 22,
-          "dropoff": 21,
+          "dropoff": 22,
           "base_rpm": 1091,
           "final_rpm": 1091,
           "rpm_mod": 1

@@ -1,0 +1,14 @@
+{
+  "id": "swarmforge",
+  "name": "Swarmforge",
+  "class": "SMG",
+  "game": "bo7",
+  "weapon_type": "SMG",
+  "in_warzone": true,
+  "source": "offizielle callofduty.com Warzone Patchnotes 2026-06 (Season 04, Black Ops Royale Exotics)",
+  "data_version": "S4_2026-06_stub",
+  "note": "Named-Exotic-Variante der MPC-25 (SMG). Affinity Photon Rounds. Neu in Warzone S4 (Black Ops Royale Loot-Pool). Aggressiv-Build. Buildbare Basis-Stats unter mpc-25; Stub bis exotic-spezifische Daten vorliegen.",
+  "not_buildable": true,
+  "base": {},
+  "slots": {}
+}

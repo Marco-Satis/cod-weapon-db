@@ -1,0 +1,14 @@
+{
+  "id": "collateral",
+  "name": "Collateral",
+  "class": "AR",
+  "game": "bo7",
+  "weapon_type": "AR",
+  "in_warzone": true,
+  "source": "offizielle callofduty.com Warzone Patchnotes 2026-06 (Season 04, Black Ops Royale Exotics)",
+  "data_version": "S4_2026-06_stub",
+  "note": "Named-Exotic-Variante der EGRT-17 (AR). Affinity Incendiary Rounds. Neu in Warzone S4 (Black Ops Royale Loot-Pool). Buildbare Basis-Stats unter egrt-17; Stub bis exotic-spezifische Daten vorliegen.",
+  "not_buildable": true,
+  "base": {},
+  "slots": {}
+}

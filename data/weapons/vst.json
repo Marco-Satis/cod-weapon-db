@@ -6,7 +6,7 @@
   "weapon_type": "SMG",
   "in_warzone": true,
   "source": "truegamedata-api",
-  "data_version": "S3.5_2026-04-25",
+  "data_version": "S4Reloaded_WZ_2026-06-24",
   "base": {
     "rpm": 1091,
     "mag": 30,
@@ -63,7 +63,7 @@
       "lowerleg": 18,
       "upperarm": 22,
       "lowerarm": 22,
-      "dropoff": 21,
+      "dropoff": 22,
       "base_rpm": 1091,
       "final_rpm": 1091,
       "rpm_mod": 1
