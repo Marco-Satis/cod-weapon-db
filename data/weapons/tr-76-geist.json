@@ -355,6 +355,7 @@
     "BARREL": [
       {
         "name": "Bruen Bridle Heavy",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 1.13,
           "ads_movement_mod": 0.93,
@@ -375,6 +376,7 @@
       },
       {
         "name": "Bruen Bridle 60",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 1.05,
           "ads_movement_mod": 0.93,
@@ -395,6 +397,7 @@
       },
       {
         "name": "LOC.2 Short Barrel",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 0,
@@ -415,6 +418,7 @@
       },
       {
         "name": "Freight-40 Barrel",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 1.13,
           "ads_movement_mod": 0.9,
@@ -435,6 +439,7 @@
       },
       {
         "name": "LOC.5 Long Barrel",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 1.05,
           "ads_movement_mod": 0,
@@ -457,6 +462,7 @@
     "COMB": [
       {
         "name": "FSS Hardtop Comb",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0.94,
@@ -477,6 +483,7 @@
       },
       {
         "name": "Schlager Honor Comb",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -497,6 +504,7 @@
       },
       {
         "name": "EXF Trapper Comb",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 1.21,
           "ads_movement_mod": 0.94,
@@ -821,6 +829,7 @@
     "MAGAZINE": [
       {
         "name": "45 Round Mag",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 1.08,
           "ads_movement_mod": 0.92,
@@ -841,6 +850,7 @@
       },
       {
         "name": "Geist Single-Tap Mod",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0.87,
           "ads_movement_mod": 1.13,
@@ -1705,6 +1715,7 @@
     "REAR GRIP": [
       {
         "name": "Tactical Grip Tape",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -1725,6 +1736,7 @@
       },
       {
         "name": "Stip-66 Grip",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1745,6 +1757,7 @@
       },
       {
         "name": "Cronen Resistor Grip",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -1767,6 +1780,7 @@
     "STOCK": [
       {
         "name": "expedite grid pad",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.1,
@@ -1787,6 +1801,7 @@
       },
       {
         "name": "Demo Tac Pad",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0.89,
           "ads_movement_mod": 0,
@@ -1807,6 +1822,7 @@
       },
       {
         "name": "Scout-LD Stock Pad",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.94,
@@ -1826,7 +1842,8 @@
         }
       },
       {
-        "name": "Expeditte Grip Pad"
+        "name": "Expeditte Grip Pad",
+        "unlock_level": 14
       }
     ],
     "UNDERBARREL": [

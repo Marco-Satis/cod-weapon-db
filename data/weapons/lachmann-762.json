@@ -226,6 +226,7 @@
       },
       {
         "name": "7.62x51mm High Velocity",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -295,6 +296,7 @@
       },
       {
         "name": "7.62 High Velocity",
+        "unlock_level": 12,
         "mods": {
           "bv_mod": 1.25
         }
@@ -329,6 +331,7 @@
       },
       {
         "name": "15.9\" Lachmann RAPP",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 1.14,
           "ads_movement_mod": 0.93,
@@ -369,6 +372,7 @@
       },
       {
         "name": "MEER-56 11\" Factory",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 1.06,
@@ -551,6 +555,7 @@
       },
       {
         "name": "Corvus PEQ Beam-5",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -733,6 +738,7 @@
     "MAGAZINE": [
       {
         "name": "15 Round Mag",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 1.08,
@@ -753,6 +759,7 @@
       },
       {
         "name": "50 Round Drum",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 1.19,
           "ads_movement_mod": 0.83,
@@ -773,6 +780,7 @@
       },
       {
         "name": "30 Round Mag",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0.94,
@@ -793,6 +801,7 @@
       },
       {
         "name": "10 Round Mag",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0.86,
           "ads_movement_mod": 1.17,
@@ -1115,6 +1124,7 @@
       },
       {
         "name": "Polarfire-S",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1657,6 +1667,7 @@
     "REAR GRIP": [
       {
         "name": "Lachmann TCG-10",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1677,6 +1688,7 @@
       },
       {
         "name": "S-Grip Zero",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 1.31,
           "ads_movement_mod": 0.92,
@@ -1779,6 +1791,7 @@
       },
       {
         "name": "MEER Recoil-56 Factory Stock",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0,
@@ -1799,6 +1812,7 @@
       },
       {
         "name": "LM-S Factory G79 Stock",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 0.94,
@@ -2021,6 +2035,7 @@
       },
       {
         "name": "FTAC Ripper 56",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

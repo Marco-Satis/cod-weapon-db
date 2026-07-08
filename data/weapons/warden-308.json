@@ -72,12 +72,14 @@
     "BARREL": [
       {
         "name": "18\" Invictus Barrel",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 1.05
         }
       },
       {
         "name": "16.2\" Artemis-01 Barrel",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 1.1,
           "ads_movement_mod": 0.93,
@@ -89,6 +91,7 @@
       },
       {
         "name": "14.8\" Pro-Lite Barrel",
+        "unlock_level": 29,
         "mods": {
           "ads_mod": 0.93,
           "stf_mod": 0.9,
@@ -98,6 +101,7 @@
       },
       {
         "name": "15.4\" LTI Phalanx Barrel",
+        "unlock_level": 37,
         "mods": {
           "ads_mod": 1.03,
           "bv_mod": 1.08
@@ -105,6 +109,7 @@
       },
       {
         "name": "17.3\" LTI Fluted-X35 Barrel",
+        "unlock_level": 4,
         "mods": {
           "ads_movement_mod": 0.96,
           "bv_mod": 1.28,
@@ -114,12 +119,14 @@
       },
       {
         "name": "10\" Spiral Barrel",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "range_mod": 1.1176
         }
       },
       {
         "name": "8\" Admonish Barrel",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "ads_mod": 1.21,
           "gun_kick_mod": 1.45,
@@ -130,6 +137,7 @@
       },
       {
         "name": "6\" Snub Nose Barrel",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "range_mod": 0.7647
         }
@@ -138,6 +146,7 @@
     "COMB": [
       {
         "name": "LTI Ogre Riser",
+        "unlock_level": 19,
         "mods": {
           "gun_kick_mod": 0.99,
           "horiz_recoil_mod": 0.8
@@ -145,12 +154,14 @@
       },
       {
         "name": "Static-907x Riser",
+        "unlock_level": 14,
         "mods": {
           "horiz_recoil_mod": 0.88
         }
       },
       {
         "name": "Baron Riser",
+        "unlock_level": 27,
         "mods": {
           "crouch_movement_mod": 1.09,
           "horiz_recoil_mod": 0.9,
@@ -160,6 +171,7 @@
       },
       {
         "name": "LTI Trail-40 Riser",
+        "unlock_level": 36,
         "mods": {
           "ads_movement_mod": 1.11,
           "crouch_movement_mod": 1.09,
@@ -168,6 +180,7 @@
       },
       {
         "name": "Warden 308 Badlands Pistol Kit",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "ads_mod": 0.67,
           "ads_movement_mod": 1.36,
@@ -185,12 +198,14 @@
         }
       },
       {
-        "name": "LTI Lockdown Riser"
+        "name": "LTI Lockdown Riser",
+        "unlock_level": 3
       }
     ],
     "FIRE MODS": [
       {
         "name": "MFS Snap Trigger",
+        "unlock_level": "Weapon Prestige",
         "mods": {
           "gun_kick_mod": 1.15,
           "horiz_recoil_mod": 1.15,
@@ -201,12 +216,14 @@
       },
       {
         "name": ".308 NATO Overpressured",
+        "unlock_level": 16,
         "mods": {
           "bv_mod": 1.2
         }
       },
       {
         "name": "Buffer Spring",
+        "unlock_level": 12,
         "mods": {
           "gun_kick_mod": 0.86,
           "horiz_recoil_mod": 0.95,
@@ -214,12 +231,14 @@
         }
       },
       {
-        "name": ".308 NATO FMJ"
+        "name": ".308 NATO FMJ",
+        "unlock_level": 38
       }
     ],
     "LASER": [
       {
         "name": "1mW Instinct Laser Array",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0.95,
           "stf_mod": 0.92,
@@ -229,26 +248,31 @@
       },
       {
         "name": "3mW Motion Strike Laser",
+        "unlock_level": 42,
         "mods": {
           "range_mod": 1.12
         }
       },
       {
         "name": "Convergence Box Laser",
+        "unlock_level": 8,
         "mods": {
           "hipfire_max_mod": 0.85
         }
       },
       {
-        "name": "Adaptive Tactical Laser"
+        "name": "Adaptive Tactical Laser",
+        "unlock_level": 18
       },
       {
-        "name": "5mW Lockstep Laser"
+        "name": "5mW Lockstep Laser",
+        "unlock_level": 32
       }
     ],
     "MAGAZINE": [
       {
         "name": "Speed Latch Cylinder",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0.97,
           "mag_size_mod": -2,
@@ -262,6 +286,7 @@
     "MUZZLE": [
       {
         "name": "Watchdog Compensator",
+        "unlock_level": 26,
         "mods": {
           "gun_kick_mod": 0.73,
           "vert_recoil_mod": 0.7
@@ -269,6 +294,7 @@
       },
       {
         "name": "Lethal Tools Crown Comp",
+        "unlock_level": 33,
         "mods": {
           "hipfire_max_mod": 0.75,
           "dive_fire_speed_mod": 0.8,
@@ -277,6 +303,7 @@
       },
       {
         "name": "LTI-LM Brake",
+        "unlock_level": 21,
         "mods": {
           "gun_kick_mod": 0.82,
           "vert_recoil_mod": 0.8,
@@ -286,6 +313,7 @@
       },
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": 41,
         "mods": {
           "ads_mod": 1.19,
           "bv_mod": 1.2,
@@ -295,6 +323,7 @@
       },
       {
         "name": "Redwell Shade-X Suppressor",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "bv_mod": 0.87,
           "gun_kick_mod": 0.89,
@@ -305,6 +334,7 @@
       },
       {
         "name": "LTI Stentorian Brake",
+        "unlock_level": "Season 4 Battle Pass",
         "mods": {
           "gun_kick_mod": 1.6,
           "horiz_recoil_mod": 0.65,
@@ -313,38 +343,48 @@
         }
       },
       {
-        "name": "Outlaw Silencer"
+        "name": "Outlaw Silencer",
+        "unlock_level": 7
       }
     ],
     "OPTIC": [
       {
-        "name": "VAS LED"
+        "name": "VAS LED",
+        "unlock_level": 5
       },
       {
-        "name": "Kepler Ultra 4x"
+        "name": "Kepler Ultra 4x",
+        "unlock_level": 10
       },
       {
-        "name": "EAM Dyad xL"
+        "name": "EAM Dyad xL",
+        "unlock_level": 15
       },
       {
-        "name": "PrismaTech Digital Holo"
+        "name": "PrismaTech Digital Holo",
+        "unlock_level": 20
       },
       {
-        "name": "Bowen X-25 IR"
+        "name": "Bowen X-25 IR",
+        "unlock_level": 25
       },
       {
-        "name": "Millimeter Scanner"
+        "name": "Millimeter Scanner",
+        "unlock_level": 30
       },
       {
-        "name": "Greaves Ultra Zoom"
+        "name": "Greaves Ultra Zoom",
+        "unlock_level": 35
       },
       {
-        "name": "Circuit-Z Rangefinder"
+        "name": "Circuit-Z Rangefinder",
+        "unlock_level": 40
       }
     ],
     "REAR GRIP": [
       {
         "name": "Scarab Grip",
+        "unlock_level": 6,
         "mods": {
           "stf_mod": 0.72,
           "jump_sprint_fire_speed_mod": 0.7
@@ -352,6 +392,7 @@
       },
       {
         "name": "Leviathan Grip",
+        "unlock_level": 28,
         "mods": {
           "ads_mod": 1.05,
           "horiz_recoil_mod": 0.92
@@ -359,6 +400,7 @@
       },
       {
         "name": "Thunder Grip",
+        "unlock_level": 34,
         "mods": {
           "ads_mod": 0.82,
           "dive_fire_speed_mod": 0.8,
@@ -368,6 +410,7 @@
       },
       {
         "name": "LTI Tyrannis Grip",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0.71,
           "jump_ads_mod": 0.75
@@ -375,6 +418,7 @@
       },
       {
         "name": "Partition Grip",
+        "unlock_level": 43,
         "mods": {
           "gun_kick_mod": 0.89,
           "vert_recoil_mod": 0.88,
@@ -385,6 +429,7 @@
     "STOCK": [
       {
         "name": "LTI Skeleton Stock",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 1.23
@@ -392,6 +437,7 @@
       },
       {
         "name": "Warden Folding Stock",
+        "unlock_level": 17,
         "mods": {
           "crouch_movement_mod": 1.39,
           "movement_mod": 1.23,
@@ -400,6 +446,7 @@
       },
       {
         "name": "Propulsion Stock",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 1.1,
           "ads_movement_mod": 0.85,
@@ -411,6 +458,7 @@
       },
       {
         "name": "FTAC Hybrid Stock",
+        "unlock_level": 39,
         "mods": {
           "ads_mod": 1.07,
           "gun_kick_mod": 0.95,
@@ -420,12 +468,14 @@
       },
       {
         "name": "Trench Tactical Stock",
+        "unlock_level": 31,
         "mods": {
           "hipfire_max_mod": 0.85
         }
       },
       {
         "name": "Warden 308 Revolver Akimbo",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "hipfire_max_mod": 1.35,
           "stf_mod": 1.38

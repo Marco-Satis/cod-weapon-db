@@ -274,6 +274,7 @@
     "BARREL": [
       {
         "name": "600mm FR Longbore",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 1.08,
           "ads_movement_mod": 0,
@@ -294,6 +295,7 @@
       },
       {
         "name": "435mm FR435",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0.98,
           "ads_movement_mod": 0.96,
@@ -314,6 +316,7 @@
       },
       {
         "name": "395mm FR Minibore",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0.89,
           "ads_movement_mod": 0,
@@ -336,6 +339,7 @@
     "COMB": [
       {
         "name": "FR Ton-618",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 1.21,
           "ads_movement_mod": 0.95,
@@ -356,6 +360,7 @@
       },
       {
         "name": "FR Anchor",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -376,6 +381,7 @@
       },
       {
         "name": "FR Giga",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0.95,
@@ -700,6 +706,7 @@
     "MAGAZINE": [
       {
         "name": "45 round mag",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 1.09,
           "ads_movement_mod": 0.92,
@@ -720,6 +727,7 @@
       },
       {
         "name": "60 Round Mag",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 1.17,
           "ads_movement_mod": 0.85,
@@ -1624,6 +1632,7 @@
       },
       {
         "name": "RMT Grip",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -1663,15 +1672,18 @@
         }
       },
       {
-        "name": "SA ION"
+        "name": "SA ION",
+        "unlock_level": 5
       },
       {
-        "name": "FR Tack-3"
+        "name": "FR Tack-3",
+        "unlock_level": 13
       }
     ],
     "STOCK": [
       {
         "name": "FR Sprinter",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.07,
@@ -1711,7 +1723,8 @@
         }
       },
       {
-        "name": "WMG-TAC"
+        "name": "WMG-TAC",
+        "unlock_level": 15
       }
     ],
     "UNDERBARREL": [
@@ -2537,6 +2550,7 @@
       },
       {
         "name": "FR Avancer Bipod",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

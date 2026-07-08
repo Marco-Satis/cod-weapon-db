@@ -58,6 +58,7 @@
     "BARREL": [
       {
         "name": "Short Barrel",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -78,6 +79,7 @@
       },
       {
         "name": "Reinforced Barrel",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -98,6 +100,7 @@
       },
       {
         "name": "CHF Barrel",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -118,6 +121,7 @@
       },
       {
         "name": "Gain-Twist Barrel",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -138,6 +142,7 @@
       },
       {
         "name": "Long Barrel",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -160,6 +165,7 @@
     "FIRE MODS": [
       {
         "name": "Recoil Springs",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -180,6 +186,7 @@
       },
       {
         "name": ".22 WMR FMJ",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -200,6 +207,7 @@
       },
       {
         "name": ".22 WMR Overpressured",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -220,6 +228,7 @@
       },
       {
         "name": "Rapid Fire",
+        "unlock_level": 29,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -240,6 +249,7 @@
       },
       {
         "name": "Stryder .22 3-Round Burst Mod",
+        "unlock_level": "Armory Unlock",
         "mods": {
           "gun_kick_mod": 0.63,
           "reload_mod": 1.26,
@@ -250,6 +260,7 @@
     "LASER": [
       {
         "name": "Target Laser",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -270,6 +281,7 @@
       },
       {
         "name": "Tactical Laser",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -290,6 +302,7 @@
       },
       {
         "name": "Steady Aim Laser",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -310,6 +323,7 @@
       },
       {
         "name": "Fast Motion Laser",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -330,6 +344,7 @@
       },
       {
         "name": "Strelok Laser",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -352,6 +367,7 @@
     "MAGAZINE": [
       {
         "name": "Extended Mag II",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 1.14,
           "ads_movement_mod": 0,
@@ -372,6 +388,7 @@
       },
       {
         "name": "Fast Mag I",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0.89,
           "ads_movement_mod": 0,
@@ -392,6 +409,7 @@
       },
       {
         "name": "Fast Mag II",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0.82,
           "ads_movement_mod": 0,
@@ -412,6 +430,7 @@
       },
       {
         "name": "Extended Mag I",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -434,6 +453,7 @@
     "MUZZLE": [
       {
         "name": "Muzzle Brake",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -454,6 +474,7 @@
       },
       {
         "name": "Suppressor ",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -474,6 +495,7 @@
       },
       {
         "name": "Ported Compensator",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -494,6 +516,7 @@
       },
       {
         "name": "Compensator",
+        "unlock_level": 28,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -514,6 +537,7 @@
       },
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": "Armory Unlock",
         "mods": {
           "ads_mod": 1.39,
           "bv_mod": 1.2,
@@ -521,17 +545,20 @@
         }
       },
       {
-        "name": "Suppressor"
+        "name": "Suppressor",
+        "unlock_level": 2
       }
     ],
     "OPTIC": [
       {
-        "name": "Remuda Mini Reflex"
+        "name": "Remuda Mini Reflex",
+        "unlock_level": 5
       }
     ],
     "REAR GRIP": [
       {
         "name": "Assault Grip",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -552,6 +579,7 @@
       },
       {
         "name": "Ergonomic Grip",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0.79,
           "ads_movement_mod": 0,
@@ -572,6 +600,7 @@
       },
       {
         "name": "CQB Grip",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -592,6 +621,7 @@
       },
       {
         "name": "Commando Grip",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0.86,
           "ads_movement_mod": 0,
@@ -612,6 +642,7 @@
       },
       {
         "name": "Quickdraw Grip",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0.57,
           "ads_movement_mod": 0,
@@ -634,6 +665,7 @@
     "STOCK": [
       {
         "name": "Akimbo Stryder .22",
+        "unlock_level": 30,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

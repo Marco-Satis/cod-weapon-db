@@ -72,6 +72,7 @@
     "BARREL": [
       {
         "name": "CHF Barrel",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -92,6 +93,7 @@
       },
       {
         "name": "Gain-Twist Barrel",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -111,18 +113,22 @@
         }
       },
       {
-        "name": "Long Barrel"
+        "name": "Long Barrel",
+        "unlock_level": 4
       },
       {
-        "name": "Reinforced Barrel"
+        "name": "Reinforced Barrel",
+        "unlock_level": 34
       },
       {
-        "name": "Short Barrel"
+        "name": "Short Barrel",
+        "unlock_level": 40
       }
     ],
     "FIRE MODS": [
       {
         "name": "Rapid Fire",
+        "unlock_level": 38,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -143,6 +149,7 @@
       },
       {
         "name": "Recoil Springs",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -163,6 +170,7 @@
       },
       {
         "name": "Binary Trigger",
+        "unlock_level": "Armory Unlock",
         "mods": {
           "gun_kick_mod": 0.9,
           "horiz_recoil_mod": 0.8,
@@ -170,46 +178,58 @@
         }
       },
       {
-        "name": ".22 WMR Overpressured"
+        "name": ".22 WMR Overpressured",
+        "unlock_level": 2
       },
       {
-        "name": ".22 WMR FMJ"
+        "name": ".22 WMR FMJ",
+        "unlock_level": 29
       }
     ],
     "LASER": [
       {
-        "name": "Steady Aim Laser"
+        "name": "Steady Aim Laser",
+        "unlock_level": 14
       },
       {
-        "name": "Target Laser"
+        "name": "Target Laser",
+        "unlock_level": 23
       },
       {
-        "name": "Fast Motion Laser"
+        "name": "Fast Motion Laser",
+        "unlock_level": 30
       },
       {
-        "name": "Strelok Laser"
+        "name": "Strelok Laser",
+        "unlock_level": 36
       },
       {
-        "name": "Tactical Laser"
+        "name": "Tactical Laser",
+        "unlock_level": 41
       }
     ],
     "MAGAZINE": [
       {
-        "name": "Extended Mag I"
+        "name": "Extended Mag I",
+        "unlock_level": 3
       },
       {
-        "name": "Flip Mag"
+        "name": "Flip Mag",
+        "unlock_level": 12
       },
       {
-        "name": "Fast Mag I"
+        "name": "Fast Mag I",
+        "unlock_level": 18
       },
       {
-        "name": "Extended Mag II"
+        "name": "Extended Mag II",
+        "unlock_level": 31
       }
     ],
     "MUZZLE": [
       {
         "name": "Ported Compensator",
+        "unlock_level": 32,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -230,6 +250,7 @@
       },
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": "Armory Unlock",
         "mods": {
           "ads_mod": 1.28,
           "bv_mod": 1.2,
@@ -238,35 +259,43 @@
       },
       {
         "name": "Compensator",
+        "unlock_level": 16,
         "mods": {
           "gun_kick_mod": 0.64,
           "vert_recoil_mod": 0.6
         }
       },
       {
-        "name": "Suppressor"
+        "name": "Suppressor",
+        "unlock_level": 7
       },
       {
-        "name": "Muzzle Brake"
+        "name": "Muzzle Brake",
+        "unlock_level": 22
       }
     ],
     "OPTIC": [
       {
-        "name": "PrismaTech Reflex"
+        "name": "PrismaTech Reflex",
+        "unlock_level": 5
       },
       {
-        "name": "PrismaTech 4x"
+        "name": "PrismaTech 4x",
+        "unlock_level": 15
       },
       {
-        "name": "Otero Red Dot"
+        "name": "Otero Red Dot",
+        "unlock_level": 25
       },
       {
-        "name": "Merlin Mini"
+        "name": "Merlin Mini",
+        "unlock_level": 35
       }
     ],
     "STOCK": [
       {
         "name": "Combat Stock",
+        "unlock_level": 39,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.13,
@@ -286,40 +315,50 @@
         }
       },
       {
-        "name": "Infiltrator Stock"
+        "name": "Infiltrator Stock",
+        "unlock_level": 8
       },
       {
-        "name": "No Stock"
+        "name": "No Stock",
+        "unlock_level": 17
       },
       {
-        "name": "Balanced Stock"
+        "name": "Balanced Stock",
+        "unlock_level": 19
       },
       {
-        "name": "Heavy Stock"
+        "name": "Heavy Stock",
+        "unlock_level": 27
       }
     ],
     "UNDERBARREL": [
       {
         "name": "G-Grip",
+        "unlock_level": "Armory Unlock",
         "mods": {
           "gun_kick_mod": 0.99,
           "horiz_recoil_mod": 0.8
         }
       },
       {
-        "name": "Lightweight Foregrip"
+        "name": "Lightweight Foregrip",
+        "unlock_level": 9
       },
       {
-        "name": "Vertical Foregrip"
+        "name": "Vertical Foregrip",
+        "unlock_level": 10
       },
       {
-        "name": "Precision Foregrip"
+        "name": "Precision Foregrip",
+        "unlock_level": 20
       },
       {
-        "name": "Ranger Foregrip"
+        "name": "Ranger Foregrip",
+        "unlock_level": 28
       },
       {
-        "name": "Marksman Foregrip"
+        "name": "Marksman Foregrip",
+        "unlock_level": 33
       }
     ]
   }

@@ -86,6 +86,7 @@
     "AMMUNITION": [
       {
         "name": ".458 Hollow Point",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -106,6 +107,7 @@
       },
       {
         "name": ".458 Frangible",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -126,6 +128,7 @@
       },
       {
         "name": ".458 Armor Piercing",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -146,6 +149,7 @@
       },
       {
         "name": ".458 High Velocity",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -166,6 +170,7 @@
       },
       {
         "name": ".458 Overpressure +P",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -188,6 +193,7 @@
     "BARREL": [
       {
         "name": "Bull Rider 16.5\"",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 1.08,
           "ads_movement_mod": 0.94,
@@ -228,6 +234,7 @@
       },
       {
         "name": "7.5\" Tempus Firebrand",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0.84,
           "ads_movement_mod": 1.08,
@@ -248,6 +255,7 @@
       },
       {
         "name": "419MM EXF Barrel",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0,
@@ -572,6 +580,7 @@
     "MAGAZINE": [
       {
         "name": "15 Round Mag",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0.95,
@@ -592,6 +601,7 @@
       },
       {
         "name": "5 Round Mag",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.16,
@@ -654,6 +664,7 @@
       },
       {
         "name": "FTAC Dreadnought",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -774,6 +785,7 @@
       },
       {
         "name": "Shred CP90",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -894,6 +906,7 @@
       },
       {
         "name": "Demon Helix T7",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1256,6 +1269,7 @@
       },
       {
         "name": "Support CP90 Grip",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 1.32,
           "ads_movement_mod": 0.92,

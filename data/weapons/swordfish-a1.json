@@ -58,6 +58,7 @@
     "BARREL": [
       {
         "name": "13\" EAM Volare Barrel",
+        "unlock_level": 31,
         "mods": {
           "ads_mod": 0.95,
           "stf_mod": 0.93
@@ -65,6 +66,7 @@
       },
       {
         "name": "15.1\" Spatha Barrel",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 1.03,
           "bv_mod": 1.08,
@@ -73,6 +75,7 @@
       },
       {
         "name": "16.5\" Gar-XL Barrel",
+        "unlock_level": 2,
         "mods": {
           "ads_movement_mod": 0.96,
           "bv_mod": 1.18,
@@ -81,6 +84,7 @@
       },
       {
         "name": "15.9\" Bowen Melville Barrel",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 1.1,
           "ads_movement_mod": 0.93,
@@ -92,18 +96,21 @@
       },
       {
         "name": "17\" Angler Barrel",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 1.05,
           "range_mod": 1.1429
         }
       },
       {
-        "name": "16.5\" Gar-xL Barrel"
+        "name": "16.5\" Gar-xL Barrel",
+        "unlock_level": 2
       }
     ],
     "FIRE MODS": [
       {
         "name": "MFS Penta Burst Mod",
+        "unlock_level": "Weapon Prestige",
         "mods": {
           "ads_mod": 1.06,
           "bv_mod": 0.94,
@@ -118,6 +125,7 @@
       },
       {
         "name": "Bolt Carrier Group",
+        "unlock_level": 27,
         "mods": {
           "bv_mod": 0.85,
           "gun_kick_mod": 1.2,
@@ -129,12 +137,14 @@
       },
       {
         "name": "5.56 NATO Overpressured",
+        "unlock_level": 26,
         "mods": {
           "bv_mod": 1.15
         }
       },
       {
         "name": "Recoil Sync Unit",
+        "unlock_level": 9,
         "mods": {
           "gun_kick_mod": 0.92,
           "horiz_recoil_mod": 0.92,
@@ -142,42 +152,50 @@
         }
       },
       {
-        "name": "5.56 NATO FMJ"
+        "name": "5.56 NATO FMJ",
+        "unlock_level": 3
       }
     ],
     "LASER": [
       {
         "name": "Convergence Box Laser",
+        "unlock_level": 5,
         "mods": {
           "hipfire_max_mod": 0.8
         }
       },
       {
         "name": "1mW Instinct Laser Array",
+        "unlock_level": 36,
         "mods": {
           "ads_mod": 0.96,
           "stf_mod": 0.93
         }
       },
       {
-        "name": "3mW Motion Strike Laser"
+        "name": "3mW Motion Strike Laser",
+        "unlock_level": 15
       },
       {
-        "name": "5mW Lockstep Laser"
+        "name": "5mW Lockstep Laser",
+        "unlock_level": 19
       },
       {
-        "name": "2mW Adaptive Tactical Laser"
+        "name": "2mW Adaptive Tactical Laser",
+        "unlock_level": 28
       }
     ],
     "MAGAZINE": [
       {
         "name": "Dorado Extended Mag",
+        "unlock_level": 6,
         "mods": {
           "mag_size_mod": 12
         }
       },
       {
         "name": "Mini-Pearl Fast Mag",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0.96,
           "mag_size_mod": -4,
@@ -187,6 +205,7 @@
       },
       {
         "name": "VAS Samson Drum",
+        "unlock_level": 35,
         "mods": {
           "ads_mod": 1.08,
           "ads_movement_mod": 0.91,
@@ -205,12 +224,14 @@
         }
       },
       {
-        "name": "R0-G Speed Mag"
+        "name": "R0-G Speed Mag",
+        "unlock_level": 14
       }
     ],
     "MUZZLE": [
       {
         "name": "Redwell Shade-X Suppressor",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "bv_mod": 0.87,
           "gun_kick_mod": 0.89,
@@ -221,6 +242,7 @@
       },
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": 33,
         "mods": {
           "ads_mod": 1.17,
           "bv_mod": 1.15,
@@ -229,12 +251,14 @@
       },
       {
         "name": "Titan-R 5.56 Compensator",
+        "unlock_level": 22,
         "mods": {
           "hipfire_max_mod": 0.8
         }
       },
       {
         "name": "Redwell 5.56 Compensator",
+        "unlock_level": 16,
         "mods": {
           "gun_kick_mod": 0.81,
           "vert_recoil_mod": 0.8
@@ -242,6 +266,7 @@
       },
       {
         "name": "RL-5.56 Brake",
+        "unlock_level": 39,
         "mods": {
           "gun_kick_mod": 0.9,
           "vert_recoil_mod": 0.9
@@ -249,6 +274,7 @@
       },
       {
         "name": "LTI Stentorian Brake",
+        "unlock_level": "Season 4 Battle Pass",
         "mods": {
           "gun_kick_mod": 1.04,
           "horiz_recoil_mod": 0.9,
@@ -257,30 +283,35 @@
         }
       },
       {
-        "name": "VAS 5.56 Suppressor"
+        "name": "VAS 5.56 Suppressor",
+        "unlock_level": 4
       }
     ],
     "REAR GRIP": [
       {
         "name": "Plenary Grip",
+        "unlock_level": 7,
         "mods": {
           "stf_mod": 0.76
         }
       },
       {
         "name": "R1-Splendor Grip",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0.78
         }
       },
       {
         "name": "Hawker VIC-R Grip",
+        "unlock_level": 32,
         "mods": {
           "ads_mod": 0.88
         }
       },
       {
         "name": "Trevally Shock Grip",
+        "unlock_level": 38,
         "mods": {
           "gun_kick_mod": 0.89,
           "vert_recoil_mod": 0.88
@@ -288,6 +319,7 @@
       },
       {
         "name": "Webbed Pistol Grip",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 1.05,
           "horiz_recoil_mod": 0.89
@@ -297,6 +329,7 @@
     "STOCK": [
       {
         "name": "Bosun Light Stock",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 1.26
@@ -304,6 +337,7 @@
       },
       {
         "name": "Amber-J Stock",
+        "unlock_level": 34,
         "mods": {
           "gun_kick_mod": 0.8,
           "horiz_recoil_mod": 0.8,
@@ -312,6 +346,7 @@
       },
       {
         "name": "Adept Skiff Stock",
+        "unlock_level": 10,
         "mods": {
           "crouch_movement_mod": 1.31,
           "movement_mod": 1.2,
@@ -320,12 +355,14 @@
       },
       {
         "name": "Narwhal Heavy Stock",
+        "unlock_level": 17,
         "mods": {
           "hipfire_max_mod": 0.83
         }
       },
       {
         "name": "Q-Stubb Stock",
+        "unlock_level": 29,
         "mods": {
           "ads_mod": 1.07,
           "gun_kick_mod": 0.9,
@@ -337,12 +374,14 @@
     "UNDERBARREL": [
       {
         "name": "Fluxus Underbarrel",
+        "unlock_level": 8,
         "mods": {
           "horiz_recoil_mod": 0.85
         }
       },
       {
         "name": "Dart Grip",
+        "unlock_level": 37,
         "mods": {
           "ads_movement_mod": 1.14,
           "crouch_movement_mod": 1.09,
@@ -351,6 +390,7 @@
       },
       {
         "name": "Modus-R Underbarrel",
+        "unlock_level": 30,
         "mods": {
           "crouch_movement_mod": 1.09,
           "horiz_recoil_mod": 0.92,
@@ -360,15 +400,18 @@
       },
       {
         "name": "Dominium Grip",
+        "unlock_level": 12,
         "mods": {
           "horiz_recoil_mod": 0.8
         }
       },
       {
-        "name": "Fixus Underbarrel"
+        "name": "Fixus Underbarrel",
+        "unlock_level": 8
       },
       {
-        "name": "Aperture-2 Underbarrel"
+        "name": "Aperture-2 Underbarrel",
+        "unlock_level": 20
       }
     ]
   }

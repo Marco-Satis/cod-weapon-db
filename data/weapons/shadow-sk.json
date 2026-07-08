@@ -58,12 +58,14 @@
     "BARREL": [
       {
         "name": "22.4\" Strand Barrel",
+        "unlock_level": 2,
         "mods": {
           "range_mod": 1.1964
         }
       },
       {
         "name": "18.3\" Dimpled-4150 Barrel",
+        "unlock_level": 21,
         "mods": {
           "bv_mod": 1.13,
           "range_mod": 1.0893
@@ -77,6 +79,7 @@
       },
       {
         "name": "17\" Thrust Barrel",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0.96,
           "stf_mod": 0.9,
@@ -86,6 +89,7 @@
       },
       {
         "name": "19.6\" EMT3 Fluted Barrel",
+        "unlock_level": 44,
         "mods": {
           "ads_mod": 1.16,
           "bv_mod": 1.1,
@@ -96,24 +100,28 @@
         }
       },
       {
-        "name": "19.6\" Bell-X1 Barrel"
+        "name": "19.6\" Bell-X1 Barrel",
+        "unlock_level": 28
       }
     ],
     "COMB": [
       {
         "name": "E-Firm Riser",
+        "unlock_level": 31,
         "mods": {
           "horiz_recoil_mod": 0.8
         }
       },
       {
         "name": "Parapet Riser",
+        "unlock_level": 4,
         "mods": {
           "horiz_recoil_mod": 0.8
         }
       },
       {
         "name": "EMT3 Flowline Riser",
+        "unlock_level": 18,
         "mods": {
           "ads_movement_mod": 1.15,
           "crouch_movement_mod": 1.09,
@@ -122,6 +130,7 @@
       },
       {
         "name": "Squadron Riser",
+        "unlock_level": 37,
         "mods": {
           "crouch_movement_mod": 1.09,
           "horiz_recoil_mod": 0.9,
@@ -131,6 +140,7 @@
       },
       {
         "name": "Shadow SK 12-Gauge Masterkey",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "ads_mod": 1.05,
           "gun_kick_mod": 0.75,
@@ -139,18 +149,21 @@
         }
       },
       {
-        "name": "EMT3 Vanquish Riser"
+        "name": "EMT3 Vanquish Riser",
+        "unlock_level": 12
       }
     ],
     "FIRE MODS": [
       {
         "name": ".300 WM Overpressured",
+        "unlock_level": 46,
         "mods": {
           "bv_mod": 1.2
         }
       },
       {
         "name": "LW Trigger",
+        "unlock_level": 0,
         "mods": {
           "gun_kick_mod": 1.25,
           "horiz_recoil_mod": 1.25,
@@ -160,6 +173,7 @@
       },
       {
         "name": "Buffer Spring",
+        "unlock_level": 7,
         "mods": {
           "gun_kick_mod": 0.9,
           "horiz_recoil_mod": 0.9,
@@ -167,12 +181,14 @@
         }
       },
       {
-        "name": ".300 WM FMJ"
+        "name": ".300 WM FMJ",
+        "unlock_level": 33
       }
     ],
     "LASER": [
       {
         "name": "MFS Convergence Box Laser",
+        "unlock_level": "Weapon Prestige",
         "mods": {
           "hipfire_max_mod": 0.84,
           "stf_mod": 0.04,
@@ -181,6 +197,7 @@
       },
       {
         "name": "1mW Instinct Laser Array",
+        "unlock_level": 42,
         "mods": {
           "ads_mod": 0.97,
           "stf_mod": 0.92,
@@ -190,20 +207,24 @@
       },
       {
         "name": "3mW Motion Strike Laser",
+        "unlock_level": 32,
         "mods": {
           "range_mod": 1.1
         }
       },
       {
-        "name": "2mW Adaptive Tactical Laser"
+        "name": "2mW Adaptive Tactical Laser",
+        "unlock_level": 13
       },
       {
-        "name": "5mW Lockstep Laser"
+        "name": "5mW Lockstep Laser",
+        "unlock_level": 22
       }
     ],
     "MAGAZINE": [
       {
         "name": "Riptide Fast Mag",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0.97,
           "reload_mod": 0.81,
@@ -214,6 +235,7 @@
       },
       {
         "name": "Progenitor Extended II",
+        "unlock_level": 39,
         "mods": {
           "ads_mod": 1.05,
           "mag_size_mod": 4,
@@ -225,6 +247,7 @@
       },
       {
         "name": "Rapid Gulf Fast Mag II",
+        "unlock_level": 29,
         "mods": {
           "ads_mod": 0.96,
           "mag_size_mod": -2,
@@ -236,6 +259,7 @@
       },
       {
         "name": "Targil Extended Mag",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 1.04,
           "mag_size_mod": 2,
@@ -248,6 +272,7 @@
     "MUZZLE": [
       {
         "name": "EMT3 Ported-70",
+        "unlock_level": 27,
         "mods": {
           "hipfire_max_mod": 0.85,
           "dive_fire_speed_mod": 0.8,
@@ -256,6 +281,7 @@
       },
       {
         "name": "Eclipse 7.62 Brake",
+        "unlock_level": 34,
         "mods": {
           "gun_kick_mod": 0.92,
           "vert_recoil_mod": 0.92,
@@ -265,6 +291,7 @@
       },
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": 41,
         "mods": {
           "ads_mod": 1.1,
           "bv_mod": 1.2,
@@ -274,6 +301,7 @@
       },
       {
         "name": "EMT3 Compensator",
+        "unlock_level": 6,
         "mods": {
           "gun_kick_mod": 0.85,
           "vert_recoil_mod": 0.85
@@ -281,6 +309,7 @@
       },
       {
         "name": "Redwell Shade-X Suppressor",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "bv_mod": 0.87,
           "gun_kick_mod": 0.89,
@@ -291,6 +320,7 @@
       },
       {
         "name": "LTI Stentorian Brake",
+        "unlock_level": "Season 4 Battle Pass",
         "mods": {
           "gun_kick_mod": 1.1,
           "horiz_recoil_mod": 0.8,
@@ -299,38 +329,48 @@
         }
       },
       {
-        "name": "SWF Tishina-11"
+        "name": "SWF Tishina-11",
+        "unlock_level": 14
       }
     ],
     "OPTIC": [
       {
-        "name": "Greaves Red Dot"
+        "name": "Greaves Red Dot",
+        "unlock_level": 5
       },
       {
-        "name": "Iron Sight"
+        "name": "Iron Sight",
+        "unlock_level": 10
       },
       {
-        "name": "EAM Dual Zoom"
+        "name": "EAM Dual Zoom",
+        "unlock_level": 15
       },
       {
-        "name": "Redwell 30-S 2x"
+        "name": "Redwell 30-S 2x",
+        "unlock_level": 20
       },
       {
-        "name": "Lethal Tools ELO"
+        "name": "Lethal Tools ELO",
+        "unlock_level": 25
       },
       {
-        "name": "PrismaTech Digital Holo"
+        "name": "PrismaTech Digital Holo",
+        "unlock_level": 30
       },
       {
-        "name": "Kepler Custom WVT-08"
+        "name": "Kepler Custom WVT-08",
+        "unlock_level": 35
       },
       {
-        "name": "Solaris Holo-IR"
+        "name": "Solaris Holo-IR",
+        "unlock_level": 40
       }
     ],
     "REAR GRIP": [
       {
         "name": "Custom Flier Grip",
+        "unlock_level": 8,
         "mods": {
           "stf_mod": 0.63,
           "jump_sprint_fire_speed_mod": 0.64
@@ -338,12 +378,14 @@
       },
       {
         "name": "Freehold Control Grip",
+        "unlock_level": 17,
         "mods": {
           "horiz_recoil_mod": 0.92
         }
       },
       {
         "name": "Vital Grace Grip",
+        "unlock_level": 43,
         "mods": {
           "ads_mod": 0.94,
           "dive_fire_speed_mod": 0.8,
@@ -353,6 +395,7 @@
       },
       {
         "name": "E-3 Billet Skeleton Grip",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0.88,
           "jump_ads_mod": 0.89
@@ -360,6 +403,7 @@
       },
       {
         "name": "Stippled Comfort Grip",
+        "unlock_level": 23,
         "mods": {
           "gun_kick_mod": 0.92,
           "vert_recoil_mod": 0.92,
@@ -370,6 +414,7 @@
     "STOCK": [
       {
         "name": "Preservation Stock",
+        "unlock_level": 3,
         "mods": {
           "crouch_movement_mod": 1.29,
           "movement_mod": 1.16,
@@ -378,24 +423,28 @@
       },
       {
         "name": "Flourish Full Stock",
+        "unlock_level": 26,
         "mods": {
           "ads_movement_mod": 1.15
         }
       },
       {
         "name": "T-Flux Stock",
+        "unlock_level": 16,
         "mods": {
           "ads_movement_mod": 1.29
         }
       },
       {
         "name": "Skeletal Stock",
+        "unlock_level": 11,
         "mods": {
           "hipfire_max_mod": 0.85
         }
       },
       {
-        "name": "Friction Stock"
+        "name": "Friction Stock",
+        "unlock_level": 0
       }
     ]
   }

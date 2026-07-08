@@ -206,6 +206,7 @@
       },
       {
         "name": "7.62x51mm Overpressured +P",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -285,7 +286,8 @@
         }
       },
       {
-        "name": "7.62 Overpressured +P"
+        "name": "7.62 Overpressured +P",
+        "unlock_level": 21
       },
       {
         "name": "7.62 Frangible"
@@ -306,6 +308,7 @@
     "BARREL": [
       {
         "name": "22\" Factory Fourteen Barrel",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 1.04,
           "ads_movement_mod": 0,
@@ -346,6 +349,7 @@
       },
       {
         "name": "18\" T300",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0.95,
@@ -388,6 +392,7 @@
     "COMB": [
       {
         "name": "5GN TAC-Comb",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0.98,
           "ads_movement_mod": 0.93,
@@ -408,6 +413,7 @@
       },
       {
         "name": "FSS LS-3 Comb",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -428,6 +434,7 @@
       },
       {
         "name": "FSS Spider Grip",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -448,6 +455,7 @@
       },
       {
         "name": "PD-A40 Sleeve",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0.98,
           "ads_movement_mod": 0,
@@ -772,6 +780,7 @@
     "MAGAZINE": [
       {
         "name": "25 Round Mag",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0.93,
@@ -792,6 +801,7 @@
       },
       {
         "name": "50 Round Drum",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 1.19,
           "ads_movement_mod": 0.8,
@@ -811,7 +821,8 @@
         }
       },
       {
-        "name": "50 Round Mag"
+        "name": "50 Round Mag",
+        "unlock_level": 19
       }
     ],
     "MUZZLE": [
@@ -1017,6 +1028,7 @@
       },
       {
         "name": "Husher-65 Silencer",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1277,6 +1289,7 @@
       },
       {
         "name": "Bore-490",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1679,6 +1692,7 @@
       },
       {
         "name": "FSS Gen. 7 Grip",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1701,6 +1715,7 @@
     "STOCK": [
       {
         "name": "FTac RTP-40 Stock",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 1.26,
@@ -1721,6 +1736,7 @@
       },
       {
         "name": "Model 1957",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -1741,6 +1757,7 @@
       },
       {
         "name": "SO R55 Adaptor",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.16,

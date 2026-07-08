@@ -212,6 +212,7 @@
       },
       {
         "name": "9MM Hardened Rounds",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -249,6 +250,7 @@
     "BARREL": [
       {
         "name": "Noxious Short Compensated",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 1.28,
           "ads_movement_mod": 0,
@@ -289,6 +291,7 @@
       },
       {
         "name": "Pestilence-12 Short Compensated",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 1.21,
           "ads_movement_mod": 0,
@@ -513,6 +516,7 @@
     "MAGAZINE": [
       {
         "name": "32 Round Mag",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 1.1,
           "ads_movement_mod": 0.97,
@@ -533,6 +537,7 @@
       },
       {
         "name": "25 Round Mag",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0.98,
@@ -552,7 +557,8 @@
         }
       },
       {
-        "name": "Stinger 25 Round Mag"
+        "name": "Stinger 25 Round Mag",
+        "unlock_level": 10
       }
     ],
     "MUZZLE": [
@@ -578,6 +584,7 @@
       },
       {
         "name": "Colossus Suppressor",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -698,6 +705,7 @@
       },
       {
         "name": "VP27 Mini Brake",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -778,6 +786,7 @@
       },
       {
         "name": "Colossus Suppressor S",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1277,12 +1286,14 @@
         }
       },
       {
-        "name": "VP27 Mini Brake XS"
+        "name": "VP27 Mini Brake XS",
+        "unlock_level": 13
       }
     ],
     "REAR GRIP": [
       {
         "name": "Marauder Grip",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1303,6 +1314,7 @@
       },
       {
         "name": "WSP TAC-20 Grip",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1323,6 +1335,7 @@
       },
       {
         "name": "Akimbo WSP Stinger",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1343,6 +1356,7 @@
       },
       {
         "name": "WSP Hark Rubber Grip",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.82,
@@ -1365,6 +1379,7 @@
     "STOCK": [
       {
         "name": "WSP Factory",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 1.47,
           "ads_movement_mod": 0.95,
@@ -1385,6 +1400,7 @@
       },
       {
         "name": "WSP Rampart-IV",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 1.57,
           "ads_movement_mod": 0.88,
@@ -1406,7 +1422,8 @@
     ],
     "UNDERBARREL": [
       {
-        "name": "OP-X9 Foregrip"
+        "name": "OP-X9 Foregrip",
+        "unlock_level": 7
       }
     ]
   }

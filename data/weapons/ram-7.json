@@ -272,6 +272,7 @@
     "BARREL": [
       {
         "name": "Boreal-6c Suppressed",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 1.08,
           "ads_movement_mod": 0,
@@ -292,6 +293,7 @@
       },
       {
         "name": "FSS Fullstop",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -312,6 +314,7 @@
       },
       {
         "name": "XTEN FRL-3 Heavy",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 1.15,
           "ads_movement_mod": 0,
@@ -332,6 +335,7 @@
       },
       {
         "name": "Cronen Headwind Long",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.92,
@@ -352,6 +356,7 @@
       },
       {
         "name": "XRK Coremark 40 Heavy",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -372,6 +377,7 @@
       },
       {
         "name": "SO Klondike-45 Long",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 0.95,
           "ads_movement_mod": 1.07,
@@ -392,6 +398,7 @@
       },
       {
         "name": "FSS Imperator Light",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 0,
@@ -412,6 +419,7 @@
       },
       {
         "name": "Speedway V5 Short",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 1.13,
           "ads_movement_mod": 0,
@@ -434,6 +442,7 @@
     "COMB": [
       {
         "name": "FT Polycomb",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0.97,
@@ -454,6 +463,7 @@
       },
       {
         "name": "SAB Comb",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 1.08,
           "ads_movement_mod": 0,
@@ -474,6 +484,7 @@
       },
       {
         "name": "Demo Flak Comb",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -494,6 +505,7 @@
       },
       {
         "name": "Recon Comb",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0.94,
@@ -516,6 +528,7 @@
     "MAGAZINE": [
       {
         "name": "60 Round Drum",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 1.13,
           "ads_movement_mod": 0.93,
@@ -536,6 +549,7 @@
       },
       {
         "name": "20 Round Mag",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 1.08,
@@ -556,6 +570,7 @@
       },
       {
         "name": "40 Round Mag",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0.97,
@@ -577,17 +592,20 @@
     ],
     "MUZZLE": [
       {
-        "name": "Endless 30 Compensator"
+        "name": "Endless 30 Compensator",
+        "unlock_level": 8
       }
     ],
     "OPTIC": [
       {
-        "name": "Dragon's Eye Optic"
+        "name": "Dragon's Eye Optic",
+        "unlock_level": 5
       }
     ],
     "REAR GRIP": [
       {
         "name": "Haste XV Grip Tape",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -608,6 +626,7 @@
       },
       {
         "name": "Retort 90 Grip Tape",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -628,6 +647,7 @@
       },
       {
         "name": "Center Mass Grip Tape",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.8,
@@ -650,6 +670,7 @@
     "STOCK": [
       {
         "name": "Motion-Tac Pad",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -670,6 +691,7 @@
       },
       {
         "name": "ultra-Light Stock Pad",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0.94,
           "ads_movement_mod": 1.07,
@@ -690,6 +712,7 @@
       },
       {
         "name": "HVS 3.4 Pad",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -710,6 +733,7 @@
       },
       {
         "name": "Hunker-5 Stock Pad",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.97,
@@ -731,7 +755,8 @@
     ],
     "UNDERBARREL": [
       {
-        "name": "TTL-GS 40"
+        "name": "TTL-GS 40",
+        "unlock_level": 27
       }
     ]
   }

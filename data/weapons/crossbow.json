@@ -59,6 +59,7 @@
     "ARMS": [
       {
         "name": "Quill XE 100 LB",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 0,
@@ -79,6 +80,7 @@
       },
       {
         "name": "Carbon Elite V3",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 1.12,
@@ -99,6 +101,7 @@
       },
       {
         "name": "Thunder 200 LB",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0.91,
@@ -119,6 +122,7 @@
       },
       {
         "name": "S0 Momenti",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 1.09,
           "ads_movement_mod": 0,
@@ -141,6 +145,7 @@
     "BOLT": [
       {
         "name": "FTAC Caustic 20\" Bolts",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -161,6 +166,7 @@
       },
       {
         "name": "Blastcap 20\" Bolts",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -181,6 +187,7 @@
       },
       {
         "name": "Brightblaze 20\" Bolt",
+        "unlock_level": 11,
         "mods": {
           "bv_mod": 0.9,
           "range_mod": 0
@@ -432,6 +439,7 @@
     "STOCK": [
       {
         "name": "Speedtrack Echo",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 0,
@@ -452,6 +460,7 @@
       },
       {
         "name": "FT Apex 1.5",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0,
@@ -472,6 +481,7 @@
       },
       {
         "name": "FT Dart CB",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.11,
@@ -492,6 +502,7 @@
       },
       {
         "name": "FTAC Piercer",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.93,
@@ -1476,6 +1487,7 @@
     "WIRE": [
       {
         "name": "28-Strand Cable",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1496,6 +1508,7 @@
       },
       {
         "name": "16-Strand Cable",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

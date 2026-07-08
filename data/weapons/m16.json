@@ -297,6 +297,7 @@
       },
       {
         "name": "14\" Carbine Shroud",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -317,6 +318,7 @@
       },
       {
         "name": "11.5\" Carbine Shroud",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 0.95,
@@ -663,6 +665,7 @@
     "MAGAZINE": [
       {
         "name": "15 Round Magazine",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.15,
@@ -1345,6 +1348,7 @@
       },
       {
         "name": "C400 Door Knocker",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1587,6 +1591,7 @@
     "REAR GRIP": [
       {
         "name": "D15 Grip",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,

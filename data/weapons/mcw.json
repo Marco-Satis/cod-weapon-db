@@ -113,6 +113,7 @@
       },
       {
         "name": "5.56 NATO Mono",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -153,6 +154,7 @@
       },
       {
         "name": "5.56 NATO High Grain",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -301,6 +303,7 @@
     "BARREL": [
       {
         "name": "Orchestra-40 Short Heavy",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -321,6 +324,7 @@
       },
       {
         "name": "16.5\" MCW Cyclone Long",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.93,
@@ -341,6 +345,7 @@
       },
       {
         "name": "SL Crater Heavy",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0,
@@ -361,6 +366,7 @@
       },
       {
         "name": "Second Line Mammoth Heavy",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.04,
@@ -381,6 +387,7 @@
       },
       {
         "name": "Kimura Blackiron Heavy Short",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.1,
@@ -401,6 +408,7 @@
       },
       {
         "name": "KR Midnight 13\"",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0.95,
           "ads_movement_mod": 0,
@@ -421,6 +429,7 @@
       },
       {
         "name": "Kimura Silentshot Integral Suppressor",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 1.07,
@@ -443,6 +452,7 @@
     "CONVERSION KIT": [
       {
         "name": "JAK Raven Kit",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 1.08,
@@ -745,6 +755,7 @@
       },
       {
         "name": "CS15 Scarlet Box Laser",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -767,6 +778,7 @@
     "MAGAZINE": [
       {
         "name": "20 Round Mag",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 1.07,
@@ -787,6 +799,7 @@
       },
       {
         "name": "40 Round Mag",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 1.05,
           "ads_movement_mod": 0.97,
@@ -807,6 +820,7 @@
       },
       {
         "name": "60 Round Drum",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 1.12,
           "ads_movement_mod": 0.93,
@@ -1069,6 +1083,7 @@
       },
       {
         "name": "T4LR Saber Compensator",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1189,6 +1204,7 @@
       },
       {
         "name": "Wrathguard Compensator",
+        "unlock_level": 28,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1469,6 +1485,7 @@
       },
       {
         "name": "L4R Flash Hider",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1728,17 +1745,20 @@
         }
       },
       {
-        "name": "Warthguard Compensator"
+        "name": "Warthguard Compensator",
+        "unlock_level": 28
       }
     ],
     "OPTIC": [
       {
-        "name": "KR V4 1X Riser"
+        "name": "KR V4 1X Riser",
+        "unlock_level": 10
       }
     ],
     "REAR GRIP": [
       {
         "name": "RB Rapidstrike Grip",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -1759,6 +1779,7 @@
       },
       {
         "name": "RB Palm Shelf Grip",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 1.3,
           "ads_movement_mod": 0.93,
@@ -1779,6 +1800,7 @@
       },
       {
         "name": "RB Claw-PSL Grip",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1798,12 +1820,14 @@
         }
       },
       {
-        "name": "RB Roadstrike Grip"
+        "name": "RB Roadstrike Grip",
+        "unlock_level": 14
       }
     ],
     "STOCK": [
       {
         "name": "RB Regal Heavy",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0,
@@ -1824,6 +1848,7 @@
       },
       {
         "name": "RB Precision Heavy",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.94,
@@ -1844,6 +1869,7 @@
       },
       {
         "name": "SL Warforged Precision",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1864,6 +1890,7 @@
       },
       {
         "name": "SL Collapsed Stockless MOD",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.12,
@@ -1884,6 +1911,7 @@
       },
       {
         "name": "MCW Ironbark Tactical",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0.94,
           "ads_movement_mod": 0,
@@ -1943,7 +1971,8 @@
         }
       },
       {
-        "name": "A90 Venom"
+        "name": "A90 Venom",
+        "unlock_level": 16
       }
     ],
     "UNDERBARREL": [
@@ -2509,6 +2538,7 @@
       },
       {
         "name": "Bruen Tactical Vertical Grip",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

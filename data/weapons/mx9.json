@@ -92,6 +92,7 @@
       },
       {
         "name": "9mm Sub HP",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -112,6 +113,7 @@
       },
       {
         "name": "9mm Sub OP",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -132,6 +134,7 @@
       },
       {
         "name": "9MM Sub AP",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -234,6 +237,7 @@
       },
       {
         "name": "16.5\" Bruen S901",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 1.04,
@@ -316,6 +320,7 @@
       },
       {
         "name": "FTAC C11 Riser",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0.94,
@@ -640,6 +645,7 @@
     "MAGAZINE": [
       {
         "name": "Extended Mag I",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 1.05,
           "ads_movement_mod": 0.96,
@@ -660,12 +666,14 @@
       },
       {
         "name": "32 Round Mag",
+        "unlock_level": 2,
         "mods": {
           "mag_size_mod": 20
         }
       },
       {
         "name": "Extended Mag",
+        "unlock_level": 0,
         "mods": {
           "mag_size_mod": 20
         }
@@ -814,6 +822,7 @@
       },
       {
         "name": "FTAC Castle Comp",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -894,6 +903,7 @@
       },
       {
         "name": "Forge DX90-F ",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1456,6 +1466,7 @@
     "REAR GRIP": [
       {
         "name": "Bruen Q900 Grip",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,

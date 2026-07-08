@@ -13,7 +13,8 @@
   "slots": {
     "MUZZLE": [
       {
-        "name": "Monolithic Suppressor"
+        "name": "Monolithic Suppressor",
+        "unlock_level": "Armory Unlock"
       }
     ]
   },

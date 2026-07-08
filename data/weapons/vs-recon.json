@@ -43,12 +43,14 @@
     "BARREL": [
       {
         "name": "21\" Engage-R Barrel",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 0.88
         }
       },
       {
         "name": "24.9\" Domain Barrel",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0.95,
           "bv_mod": 1.14
@@ -56,6 +58,7 @@
       },
       {
         "name": "17\" RistRauch Nimbus Barrel",
+        "unlock_level": 38,
         "mods": {
           "ads_mod": 0.98,
           "stf_mod": 0.92,
@@ -65,12 +68,14 @@
       },
       {
         "name": "23\" G-Force Barrel",
+        "unlock_level": 18,
         "mods": {
           "bv_mod": 1.27
         }
       },
       {
         "name": "19.3\" Tack Driver Barrel",
+        "unlock_level": 45,
         "mods": {
           "bv_mod": 1.15,
           "jump_ads_mod": 1.18
@@ -80,6 +85,7 @@
     "FIRE MODS": [
       {
         "name": "Light Bolt",
+        "unlock_level": 33,
         "mods": {
           "bv_mod": 0.85,
           "gun_kick_mod": 1.2,
@@ -90,6 +96,7 @@
       },
       {
         "name": "Accelerated Recoil System",
+        "unlock_level": 19,
         "mods": {
           "gun_kick_mod": 0.9,
           "horiz_recoil_mod": 0.9,
@@ -98,17 +105,20 @@
       },
       {
         "name": "7.62 NATO Overpressured",
+        "unlock_level": 39,
         "mods": {
           "bv_mod": 1.15
         }
       },
       {
-        "name": "7.62 NATO FMJ"
+        "name": "7.62 NATO FMJ",
+        "unlock_level": 9
       }
     ],
     "LASER": [
       {
         "name": "1mW Instinct Laser Array",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0.97,
           "stf_mod": 0.92,
@@ -118,26 +128,31 @@
       },
       {
         "name": "3mW Motion Strike Laser",
+        "unlock_level": 36,
         "mods": {
           "range_mod": 1.1
         }
       },
       {
         "name": "Convergence Box Laser",
+        "unlock_level": 2,
         "mods": {
           "hipfire_max_mod": 0.85
         }
       },
       {
-        "name": "Adaptive Tactical Laser"
+        "name": "Adaptive Tactical Laser",
+        "unlock_level": 29
       },
       {
-        "name": "5mw Lockstep Laser"
+        "name": "5mw Lockstep Laser",
+        "unlock_level": 42
       }
     ],
     "MAGAZINE": [
       {
         "name": "DashLine Speed Mag",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0.97,
           "reload_mod": 0.87,
@@ -148,6 +163,7 @@
       },
       {
         "name": "Wyvern Extend-Z Mag",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 1.03,
           "mag_size_mod": 2,
@@ -158,6 +174,7 @@
       },
       {
         "name": "VS-R Extended II",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 1.05,
           "mag_size_mod": 4,
@@ -171,6 +188,7 @@
     "MUZZLE": [
       {
         "name": "Titan-R 7.62 Compensator",
+        "unlock_level": 37,
         "mods": {
           "hipfire_max_mod": 0.75,
           "dive_fire_speed_mod": 0.8,
@@ -179,6 +197,7 @@
       },
       {
         "name": "RL-7.62 Compensator",
+        "unlock_level": 13,
         "mods": {
           "gun_kick_mod": 0.85,
           "vert_recoil_mod": 0.85
@@ -186,6 +205,7 @@
       },
       {
         "name": "VS-762 Brake",
+        "unlock_level": 22,
         "mods": {
           "gun_kick_mod": 0.92,
           "vert_recoil_mod": 0.92,
@@ -195,6 +215,7 @@
       },
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": 28,
         "mods": {
           "ads_mod": 1.09,
           "bv_mod": 1.2,
@@ -204,6 +225,7 @@
       },
       {
         "name": "Redwell Shade-X Suppressor",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "bv_mod": 0.87,
           "gun_kick_mod": 0.89,
@@ -214,6 +236,7 @@
       },
       {
         "name": "LTI Stentorian Brake",
+        "unlock_level": "Season 4 Battle Pass",
         "mods": {
           "gun_kick_mod": 1.1,
           "horiz_recoil_mod": 0.85,
@@ -222,38 +245,48 @@
         }
       },
       {
-        "name": "Greaves A-762"
+        "name": "Greaves A-762",
+        "unlock_level": 7
       }
     ],
     "OPTIC": [
       {
-        "name": "RistRauch 7x"
+        "name": "RistRauch 7x",
+        "unlock_level": 5
       },
       {
-        "name": "PrismaTech Turbo 4x"
+        "name": "PrismaTech Turbo 4x",
+        "unlock_level": 10
       },
       {
-        "name": "Greaves AccuSpot 3x"
+        "name": "Greaves AccuSpot 3x",
+        "unlock_level": 15
       },
       {
-        "name": "Kepler Ultra 4x"
+        "name": "Kepler Ultra 4x",
+        "unlock_level": 20
       },
       {
-        "name": "Millimeter Scanner"
+        "name": "Millimeter Scanner",
+        "unlock_level": 25
       },
       {
-        "name": "VAS Duo Hybrid Sight"
+        "name": "VAS Duo Hybrid Sight",
+        "unlock_level": 30
       },
       {
-        "name": "Kepler T-Range Holo"
+        "name": "Kepler T-Range Holo",
+        "unlock_level": 35
       },
       {
-        "name": "Bowen X-25 IR"
+        "name": "Bowen X-25 IR",
+        "unlock_level": 40
       }
     ],
     "REAR GRIP": [
       {
         "name": "Skeletal Grip",
+        "unlock_level": 27,
         "mods": {
           "gun_kick_mod": 0.88,
           "vert_recoil_mod": 0.88,
@@ -262,12 +295,14 @@
       },
       {
         "name": "VS Poise Grip",
+        "unlock_level": 17,
         "mods": {
           "horiz_recoil_mod": 0.92
         }
       },
       {
         "name": "R-2-Laufen Grip",
+        "unlock_level": 3,
         "mods": {
           "stf_mod": 0.77,
           "jump_sprint_fire_speed_mod": 0.77
@@ -275,6 +310,7 @@
       },
       {
         "name": "R-1 Shelf Grip",
+        "unlock_level": 34,
         "mods": {
           "ads_mod": 0.92,
           "jump_ads_mod": 0.92
@@ -282,6 +318,7 @@
       },
       {
         "name": "Kinesis Grip",
+        "unlock_level": 44,
         "mods": {
           "ads_mod": 0.96,
           "dive_fire_speed_mod": 0.8,
@@ -290,18 +327,21 @@
         }
       },
       {
-        "name": "R-2-Laúfen Grip"
+        "name": "R-2-Laúfen Grip",
+        "unlock_level": 3
       }
     ],
     "STOCK": [
       {
         "name": "Outpost Raider Pad",
+        "unlock_level": 41,
         "mods": {
           "ads_movement_mod": 1.16
         }
       },
       {
         "name": "Contra Light Pad",
+        "unlock_level": 6,
         "mods": {
           "crouch_movement_mod": 1.3,
           "movement_mod": 1.16,
@@ -310,23 +350,27 @@
       },
       {
         "name": "RistRauch Breach Pad",
+        "unlock_level": 14,
         "mods": {
           "ads_movement_mod": 1.3
         }
       },
       {
         "name": "Stronghold Stock Pad",
+        "unlock_level": 31,
         "mods": {
           "hipfire_max_mod": 0.85
         }
       },
       {
-        "name": "Stabil Heavy Pad"
+        "name": "Stabil Heavy Pad",
+        "unlock_level": 23
       }
     ],
     "UNDERBARREL": [
       {
         "name": "Breacher Hanguard",
+        "unlock_level": 32,
         "mods": {
           "crouch_movement_mod": 1.09,
           "horiz_recoil_mod": 0.85,
@@ -336,12 +380,14 @@
       },
       {
         "name": "Stetig-C Handguard",
+        "unlock_level": 21,
         "mods": {
           "horiz_recoil_mod": 0.85
         }
       },
       {
         "name": "Kinetic Lock Handguard",
+        "unlock_level": 43,
         "mods": {
           "ads_movement_mod": 1.16,
           "crouch_movement_mod": 1.09,
@@ -350,6 +396,7 @@
       },
       {
         "name": "MFS R-Stop Handguard",
+        "unlock_level": "Weapon Prestige",
         "mods": {
           "ads_mod": 0.97,
           "gun_kick_mod": 0.5,
@@ -362,12 +409,14 @@
       },
       {
         "name": "AxisPro Handgaurd",
+        "unlock_level": 8,
         "mods": {
           "horiz_recoil_mod": 0.75
         }
       },
       {
         "name": "AxisPro Handguard",
+        "unlock_level": 8,
         "mods": {
           "horiz_recoil_mod": 0.75
         }

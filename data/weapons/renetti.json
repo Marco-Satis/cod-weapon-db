@@ -178,6 +178,7 @@
       },
       {
         "name": "9mm High Velocity",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -232,12 +233,14 @@
         "name": "9mm Sub OP"
       },
       {
-        "name": "9MM High Velocity"
+        "name": "9MM High Velocity",
+        "unlock_level": 11
       }
     ],
     "BARREL": [
       {
         "name": "MLX Extended Heavy",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.97,
@@ -258,6 +261,7 @@
       },
       {
         "name": "MLX Short Competition",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 1.05,
@@ -278,6 +282,7 @@
       },
       {
         "name": "MK2 Renetti Long",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.99,
@@ -300,6 +305,7 @@
     "CONVERSION KIT": [
       {
         "name": "JAK Ferocity Carbine Kit",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 1.33,
           "ads_movement_mod": 0.97,
@@ -320,6 +326,7 @@
       },
       {
         "name": "JAK Intimidator",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.2,
@@ -339,7 +346,8 @@
         }
       },
       {
-        "name": "JAK Intimidator "
+        "name": "JAK Intimidator ",
+        "unlock_level": 0
       }
     ],
     "LASER": [
@@ -524,12 +532,14 @@
         }
       },
       {
-        "name": "Verdant Hook Mounted"
+        "name": "Verdant Hook Mounted",
+        "unlock_level": 8
       }
     ],
     "MAGAZINE": [
       {
         "name": "30 Round Mag",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 1.19,
           "ads_movement_mod": 0.94,
@@ -550,6 +560,7 @@
       },
       {
         "name": "24 Round Mag",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 1.15,
           "ads_movement_mod": 0.95,
@@ -589,7 +600,8 @@
         }
       },
       {
-        "name": "50 Round Mag"
+        "name": "50 Round Mag",
+        "unlock_level": 20
       }
     ],
     "MUZZLE": [
@@ -615,6 +627,7 @@
       },
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -775,6 +788,7 @@
       },
       {
         "name": "STER45 Skyfury Compensator",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -915,6 +929,7 @@
       },
       {
         "name": "ELR Blackfire Compensator",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1014,23 +1029,28 @@
         }
       },
       {
-        "name": "Monolithic Suppressor XS"
+        "name": "Monolithic Suppressor XS",
+        "unlock_level": 3
       },
       {
-        "name": "ELR Blackfire Compensator XS"
+        "name": "ELR Blackfire Compensator XS",
+        "unlock_level": 13
       },
       {
-        "name": "STER45 Skyfury Compensator XS"
+        "name": "STER45 Skyfury Compensator XS",
+        "unlock_level": 18
       }
     ],
     "OPTIC": [
       {
-        "name": "Slimline Pro"
+        "name": "Slimline Pro",
+        "unlock_level": 4
       }
     ],
     "REAR GRIP": [
       {
         "name": "Bruen Onslaught Assault Grip",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1051,6 +1071,7 @@
       },
       {
         "name": "Akimbo Renetti",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1071,6 +1092,7 @@
       },
       {
         "name": "Renetti Wood Grain Grip",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1091,6 +1113,7 @@
       },
       {
         "name": "EXF Eclipsor Grip",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.05,
@@ -1113,6 +1136,7 @@
     "STOCK": [
       {
         "name": "FTAC Satus Folding",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1132,15 +1156,18 @@
         }
       },
       {
-        "name": "XRK Torment Brace"
+        "name": "XRK Torment Brace",
+        "unlock_level": 0
       },
       {
-        "name": "Ravage-8"
+        "name": "Ravage-8",
+        "unlock_level": 0
       }
     ],
     "TRIGGERACTION": [
       {
         "name": "XRK Heavy V4",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 0,
@@ -1161,6 +1188,7 @@
       },
       {
         "name": "Bruen Express",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1181,6 +1209,7 @@
       },
       {
         "name": "Bruen MG89 Trigger",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

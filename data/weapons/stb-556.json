@@ -192,6 +192,7 @@
       },
       {
         "name": "5.56 High Velocity",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -277,6 +278,7 @@
       },
       {
         "name": "18\" Bruen Guerilla",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 1.04,
           "ads_movement_mod": 0.95,
@@ -297,6 +299,7 @@
       },
       {
         "name": "FTAC FB20",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 1.12,
           "ads_movement_mod": 0.93,
@@ -337,6 +340,7 @@
       },
       {
         "name": "508MM Rear Guard",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0,
@@ -357,6 +361,7 @@
       },
       {
         "name": "20\" Bruen S-620",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 1.11,
           "ads_movement_mod": 0.98,
@@ -379,6 +384,7 @@
     "COMB": [
       {
         "name": "Schlager TTF3 Riser",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -581,6 +587,7 @@
       },
       {
         "name": "VLK LZR 7MW",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0.95,
           "ads_movement_mod": 0,
@@ -743,6 +750,7 @@
     "MAGAZINE": [
       {
         "name": "Single Tap MOD",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.16,
@@ -763,6 +771,7 @@
       },
       {
         "name": "42 Round Mag",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 1.08,
           "ads_movement_mod": 0.93,
@@ -825,6 +834,7 @@
       },
       {
         "name": "Harbinger D20",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1345,6 +1355,7 @@
       },
       {
         "name": "Sakin Tread-40",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1485,6 +1496,7 @@
       },
       {
         "name": "Dark KX30",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1647,6 +1659,7 @@
     "REAR GRIP": [
       {
         "name": "Stip-40 Grip",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1709,6 +1722,7 @@
     "STOCK": [
       {
         "name": "Bruen MX9 Stock",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 0,
@@ -1729,6 +1743,7 @@
       },
       {
         "name": "Bruen HCR 56 Stock",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0,
@@ -1951,6 +1966,7 @@
       },
       {
         "name": "Xten Drop Grip",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -2491,6 +2507,7 @@
       },
       {
         "name": "TL40 Fire Drake",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

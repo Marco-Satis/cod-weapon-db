@@ -201,6 +201,7 @@
       },
       {
         "name": "9MM Frangible",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -263,6 +264,7 @@
     "BARREL": [
       {
         "name": "Pestilence-12 Short Compensated",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 1.24,
           "ads_movement_mod": 0,
@@ -283,6 +285,7 @@
       },
       {
         "name": "WSP Reckless-90 Long",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 1.17,
           "ads_movement_mod": 0.97,
@@ -303,6 +306,7 @@
       },
       {
         "name": "Noxious Short Compensated",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 1.18,
           "ads_movement_mod": 0,
@@ -323,6 +327,7 @@
       },
       {
         "name": "WSP Infiltrator Integrated Suppressor",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -343,6 +348,7 @@
       },
       {
         "name": "WSP ZIP",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -363,6 +369,7 @@
       },
       {
         "name": "WSP Optac Long",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 1.5,
           "ads_movement_mod": 0,
@@ -383,6 +390,7 @@
       },
       {
         "name": "WSP Ruthless-L",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -405,6 +413,7 @@
     "CONVERSION KIT": [
       {
         "name": "WSP Akimbo Brace Stock",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -647,6 +656,7 @@
       },
       {
         "name": "Verdant Hook Cylindrical",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -729,6 +739,7 @@
     "MAGAZINE": [
       {
         "name": "20 Round Mag",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 1.07,
@@ -749,6 +760,7 @@
       },
       {
         "name": "40 Round Mag",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0.98,
@@ -769,6 +781,7 @@
       },
       {
         "name": "100 Round Drum",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 1.26,
           "ads_movement_mod": 0.9,
@@ -789,6 +802,7 @@
       },
       {
         "name": "50 Round Mag",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 1.15,
           "ads_movement_mod": 0.94,
@@ -809,6 +823,7 @@
       },
       {
         "name": "25 Round Mag",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0.94,
           "ads_movement_mod": 1.05,
@@ -1251,6 +1266,7 @@
       },
       {
         "name": "Colossus Suppressor S",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1271,6 +1287,7 @@
       },
       {
         "name": "ELR Blackfire Compensator",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1351,6 +1368,7 @@
       },
       {
         "name": "Colossus Suppressor",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1650,17 +1668,20 @@
         }
       },
       {
-        "name": "ELR Blackfire Compensator S"
+        "name": "ELR Blackfire Compensator S",
+        "unlock_level": 14
       }
     ],
     "OPTIC": [
       {
-        "name": "Cronen Mini Pro"
+        "name": "Cronen Mini Pro",
+        "unlock_level": 8
       }
     ],
     "REAR GRIP": [
       {
         "name": "WSP Hark Rubber Grip",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.8,
@@ -1701,6 +1722,7 @@
       },
       {
         "name": "WSP TAC-20 Grip",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1720,12 +1742,14 @@
         }
       },
       {
-        "name": "WSP Factory Grip"
+        "name": "WSP Factory Grip",
+        "unlock_level": 12
       }
     ],
     "STOCK": [
       {
         "name": "FSS CQC",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -1746,6 +1770,7 @@
       },
       {
         "name": "No Stock",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 0.86,
           "ads_movement_mod": 1.1,
@@ -1766,6 +1791,7 @@
       },
       {
         "name": "WSP Factory",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.08,
@@ -1786,6 +1812,7 @@
       },
       {
         "name": "FSS Fortress Heavy",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 0,
@@ -1806,6 +1833,7 @@
       },
       {
         "name": "FSS Rampage-VII Tactical",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0.89,
           "ads_movement_mod": 0.96,
@@ -2088,6 +2116,7 @@
       },
       {
         "name": "DR-6 Handstop",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 0,
@@ -2208,6 +2237,7 @@
       },
       {
         "name": "WSP Venom Grip",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

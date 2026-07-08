@@ -107,6 +107,7 @@
       },
       {
         "name": "5.45 Low Grain",
+        "unlock_level": 29,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -167,6 +168,7 @@
       },
       {
         "name": "5.45 High Grain",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -232,6 +234,7 @@
     "BARREL": [
       {
         "name": "STV Precision",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 1.13,
           "ads_movement_mod": 0.96,
@@ -252,6 +255,7 @@
       },
       {
         "name": "Warpig Short",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 0,
@@ -272,6 +276,7 @@
       },
       {
         "name": "SVA-5 Short",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.12,
@@ -292,6 +297,7 @@
       },
       {
         "name": "SA Lightweight CQC",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0.95,
           "ads_movement_mod": 0,
@@ -312,6 +318,7 @@
       },
       {
         "name": "NT Quietus Suppressed",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 1.07,
@@ -594,6 +601,7 @@
       },
       {
         "name": "SL Razorhawk Laser Light",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 0,
@@ -636,6 +644,7 @@
     "MAGAZINE": [
       {
         "name": "60 Round Mag",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 1.14,
           "ads_movement_mod": 0.93,
@@ -656,6 +665,7 @@
       },
       {
         "name": "20 Round Mag",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 1.08,
@@ -676,6 +686,7 @@
       },
       {
         "name": "45 Round Mag",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 1.09,
           "ads_movement_mod": 0.96,
@@ -878,6 +889,7 @@
       },
       {
         "name": "HMRES MOD Suppressor",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1018,6 +1030,7 @@
       },
       {
         "name": "EX-01 Match Compensator",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1238,6 +1251,7 @@
       },
       {
         "name": "S-37C DL Breacher Device",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1579,7 +1593,8 @@
     ],
     "OPTIC": [
       {
-        "name": "AOK 4.0x RQ-9 Recon"
+        "name": "AOK 4.0x RQ-9 Recon",
+        "unlock_level": 2
       }
     ],
     "REAR GRIP": [
@@ -1605,6 +1620,7 @@
       },
       {
         "name": "Chorus Gen4 Grip",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 1.35,
           "ads_movement_mod": 0.93,
@@ -1625,6 +1641,7 @@
       },
       {
         "name": "Nought-Z3 Grip",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -1645,6 +1662,7 @@
       },
       {
         "name": "Citadel Grip",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 0,
@@ -1664,12 +1682,14 @@
         }
       },
       {
-        "name": "Demo 650"
+        "name": "Demo 650",
+        "unlock_level": 5
       }
     ],
     "STOCK": [
       {
         "name": "FSS Ravager-45",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0.94,
           "ads_movement_mod": 0,
@@ -1690,6 +1710,7 @@
       },
       {
         "name": "FT TAC-Elite V3",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1710,6 +1731,7 @@
       },
       {
         "name": "Mane V6",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1730,6 +1752,7 @@
       },
       {
         "name": "Skelly Folding",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.06,
@@ -1750,6 +1773,7 @@
       },
       {
         "name": "SVA Factory",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.96,
@@ -1770,6 +1794,7 @@
       },
       {
         "name": "Smooth Fire Sniper",
+        "unlock_level": 28,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.94,
@@ -1790,6 +1815,7 @@
       },
       {
         "name": "No Stock",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 0.86,
           "ads_movement_mod": 1.12,
@@ -1829,7 +1855,8 @@
         }
       },
       {
-        "name": "Makeev R11"
+        "name": "Makeev R11",
+        "unlock_level": 15
       }
     ],
     "UNDERBARREL": [
@@ -2355,6 +2382,7 @@
       },
       {
         "name": "Bruen Pivot Vertical Grip",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -2735,6 +2763,7 @@
       },
       {
         "name": "Burrow 500 Drill Charge",
+        "unlock_level": 30,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

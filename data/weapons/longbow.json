@@ -73,6 +73,7 @@
     "AMMUNITION": [
       {
         "name": "7.62x51MM Low Grain",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -93,6 +94,7 @@
       },
       {
         "name": "7.62x51MM High Grain",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -113,6 +115,7 @@
       },
       {
         "name": "7.62x39MM Mono",
+        "unlock_level": 28,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -133,6 +136,7 @@
       },
       {
         "name": "7.62x39MM Round Nose",
+        "unlock_level": 30,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -253,6 +257,7 @@
       },
       {
         "name": "7.62x39MM Low Grain",
+        "unlock_level": 13,
         "mods": {
           "gun_kick_mod": 0.88,
           "horiz_recoil_mod": 0.85
@@ -263,18 +268,21 @@
       },
       {
         "name": "7.62x39mm High Grain",
+        "unlock_level": 2,
         "mods": {
           "bv_mod": 1.15,
           "range_mod": 1.1509
         }
       },
       {
-        "name": "7.62x38MM High Grain"
+        "name": "7.62x38MM High Grain",
+        "unlock_level": 2
       }
     ],
     "BARREL": [
       {
         "name": "True-TAC Short",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 1.04,
@@ -295,6 +303,7 @@
       },
       {
         "name": "Pro-99 Long",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 1.12,
           "ads_movement_mod": 0,
@@ -315,6 +324,7 @@
       },
       {
         "name": "TAC-Brute Suppressed",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 1.1,
@@ -337,6 +347,7 @@
     "BOLT": [
       {
         "name": "SA-M Quickbolt",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -357,6 +368,7 @@
       },
       {
         "name": "SA-M Longdraw",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -663,6 +675,7 @@
     "MAGAZINE": [
       {
         "name": "40 Round Mag",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0.91,
@@ -683,6 +696,7 @@
       },
       {
         "name": "10 Round Mag",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 1.1,
@@ -845,6 +859,7 @@
       },
       {
         "name": "Shadowstrike Suppressor",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1385,6 +1400,7 @@
       },
       {
         "name": "Casus Brake",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1546,15 +1562,18 @@
     ],
     "OPTIC": [
       {
-        "name": "Hurricane 9 Variable"
+        "name": "Hurricane 9 Variable",
+        "unlock_level": 6
       },
       {
-        "name": "Iron Sights"
+        "name": "Iron Sights",
+        "unlock_level": 31
       }
     ],
     "REAR GRIP": [
       {
         "name": "Chorus Gen4 Grip",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 1.15,
           "ads_movement_mod": 0.9,
@@ -1575,6 +1594,7 @@
       },
       {
         "name": "Demo 650 Grip",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0.94,
           "ads_movement_mod": 1.12,
@@ -1595,6 +1615,7 @@
       },
       {
         "name": "Nought-Z3 Grip",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -1615,6 +1636,7 @@
       },
       {
         "name": "Citadel Grip",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1637,6 +1659,7 @@
     "STOCK": [
       {
         "name": "No Stock",
+        "unlock_level": 29,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 1.1,
@@ -1657,6 +1680,7 @@
       },
       {
         "name": "Skelly Folding",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.08,
@@ -1677,6 +1701,7 @@
       },
       {
         "name": "Smooth Fire Sniper",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1697,6 +1722,7 @@
       },
       {
         "name": "FT TAC-Elite V3",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 1.04,
           "ads_movement_mod": 0,
@@ -1717,6 +1743,7 @@
       },
       {
         "name": "FSS Ravager-45",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1737,6 +1764,7 @@
       },
       {
         "name": "Mane V6",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -1757,6 +1785,7 @@
       },
       {
         "name": "KV Factory",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.92,
@@ -1796,7 +1825,8 @@
         }
       },
       {
-        "name": "Makeev R11"
+        "name": "Makeev R11",
+        "unlock_level": 21
       }
     ],
     "UNDERBARREL": [
@@ -2042,6 +2072,7 @@
       },
       {
         "name": "Chewk Angled Grip",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

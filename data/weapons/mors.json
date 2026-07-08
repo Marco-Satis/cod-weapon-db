@@ -59,6 +59,7 @@
     "AMMUNITION": [
       {
         "name": "HVP Anti-Materiel Slug",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -79,6 +80,7 @@
       },
       {
         "name": "HVP Explosive Slug",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -101,6 +103,7 @@
     "BARREL": [
       {
         "name": "Emperor Long Barrel",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 1.12,
           "ads_movement_mod": 0,
@@ -121,6 +124,7 @@
       },
       {
         "name": "Photonic Charge Barrel",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -141,6 +145,7 @@
       },
       {
         "name": "Crown-50 Barrel",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0.95,
           "ads_movement_mod": 0,
@@ -161,6 +166,7 @@
       },
       {
         "name": "Tonne Heavy Barrel",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 1.08,
           "ads_movement_mod": 0.95,
@@ -181,6 +187,7 @@
       },
       {
         "name": "Downfall Light Barrel",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 1.09,
@@ -203,6 +210,7 @@
     "BOLT": [
       {
         "name": "Smooth Slide Heavy Bolt",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -223,6 +231,7 @@
       },
       {
         "name": "Quick Bolt",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -245,6 +254,7 @@
     "CONVERSION KIT": [
       {
         "name": "JAK Widemouth Barrel",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 2.14,
@@ -528,12 +538,14 @@
     ],
     "OPTIC": [
       {
-        "name": "Mors Dot Sight"
+        "name": "Mors Dot Sight",
+        "unlock_level": 3
       }
     ],
     "REAR GRIP": [
       {
         "name": "LT-TAC Grip",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.1,
@@ -554,6 +566,7 @@
       },
       {
         "name": "OP-980 Grip",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 0,
@@ -574,6 +587,7 @@
       },
       {
         "name": "CNTR-6 Grip",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.9,
@@ -596,6 +610,7 @@
     "STOCK": [
       {
         "name": "Icarus Light Stock",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 0,
@@ -616,6 +631,7 @@
       },
       {
         "name": "Highroad Heavy Stock",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0,
@@ -636,6 +652,7 @@
       },
       {
         "name": "Superlite-90 Stock",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 1.18,
@@ -656,6 +673,7 @@
       },
       {
         "name": "Verve Tac Stock",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.09,

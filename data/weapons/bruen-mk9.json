@@ -261,6 +261,7 @@
     "BARREL": [
       {
         "name": "23\" XRK Horizon V2",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0.95,
@@ -281,6 +282,7 @@
       },
       {
         "name": "23\" EXF Foresight",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0.95,
           "ads_movement_mod": 1.06,
@@ -301,6 +303,7 @@
       },
       {
         "name": "Bruen 18\" PARA",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0.89,
           "ads_movement_mod": 1.05,
@@ -321,6 +324,7 @@
       },
       {
         "name": "FT Ferocity LR",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 1.22,
           "ads_movement_mod": 0,
@@ -365,6 +369,7 @@
     "MAGAZINE": [
       {
         "name": "200 Round Belt Mag",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 1.13,
           "ads_movement_mod": 0.91,
@@ -385,6 +390,7 @@
       },
       {
         "name": "60 Round Mag",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0.86,
           "ads_movement_mod": 1.05,
@@ -407,6 +413,7 @@
     "REAR GRIP": [
       {
         "name": "Bruen Q900 Grip Wrap",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -427,6 +434,7 @@
       },
       {
         "name": "Stippled Grip Cover",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -446,12 +454,14 @@
         }
       },
       {
-        "name": "Stip-40"
+        "name": "Stip-40",
+        "unlock_level": 15
       }
     ],
     "STOCK": [
       {
         "name": "FT Ironbar",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.14,
@@ -472,6 +482,7 @@
       },
       {
         "name": "No Stock",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.15,
@@ -492,6 +503,7 @@
       },
       {
         "name": "Tour-56",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 1.13,
@@ -512,6 +524,7 @@
       },
       {
         "name": "Lane-56",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 1.04,
           "ads_movement_mod": 0,
@@ -532,6 +545,7 @@
       },
       {
         "name": "Ravage L56",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 0,

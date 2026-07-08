@@ -112,6 +112,7 @@
       },
       {
         "name": "9MM Overpressured +P",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -249,6 +250,7 @@
     "BARREL": [
       {
         "name": "12\" Bruen SZ-36",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 1.1,
           "ads_movement_mod": 0.96,
@@ -269,6 +271,7 @@
       },
       {
         "name": "4\" Thunderfire",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0.83,
           "ads_movement_mod": 1.06,
@@ -289,6 +292,7 @@
       },
       {
         "name": "10.5\" Bruen Typhon",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 1.04,
           "ads_movement_mod": 0,
@@ -309,6 +313,7 @@
       },
       {
         "name": "6.5\" Bruen Drake",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 1.03,
@@ -331,6 +336,7 @@
     "MAGAZINE": [
       {
         "name": "50 round drum",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 1.16,
           "ads_movement_mod": 0.89,
@@ -351,6 +357,7 @@
       },
       {
         "name": "20 Round Mag",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 1.08,
@@ -373,6 +380,7 @@
     "REAR GRIP": [
       {
         "name": "Bruen GR-500",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -393,6 +401,7 @@
       },
       {
         "name": "D37 grip",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -413,6 +422,7 @@
       },
       {
         "name": "Bruen Flash Grip",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -435,6 +445,7 @@
     "STOCK": [
       {
         "name": "BR Stockless Mod",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.11,
@@ -455,6 +466,7 @@
       },
       {
         "name": "Bruen Flash V4 Stock",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0.94,
           "ads_movement_mod": 1.06,
@@ -475,6 +487,7 @@
       },
       {
         "name": "Ravage-8",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 0.95,

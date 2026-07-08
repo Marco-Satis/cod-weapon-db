@@ -186,6 +186,7 @@
       },
       {
         "name": "9MM Overpressured +P",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -251,6 +252,7 @@
     "BARREL": [
       {
         "name": "Rival-C Clearshot",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.96,
@@ -271,6 +273,7 @@
       },
       {
         "name": "Rival-38E Fire Starter",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -291,6 +294,7 @@
       },
       {
         "name": "Rival IGS-800",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -313,6 +317,7 @@
     "CONVERSION KIT": [
       {
         "name": "JAK Headhunter Carbine Conversion",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 1.09,
           "ads_movement_mod": 0.96,
@@ -335,6 +340,7 @@
     "LASER": [
       {
         "name": "Pro Sapphire Cylindrical Laser",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -637,6 +643,7 @@
     "MAGAZINE": [
       {
         "name": "40 Round Mag",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0.97,
@@ -657,6 +664,7 @@
       },
       {
         "name": "50 Round Drum",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 1.12,
           "ads_movement_mod": 0.95,
@@ -799,6 +807,7 @@
       },
       {
         "name": "Purifier Muzzle Brake S",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1439,6 +1448,7 @@
       },
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1498,17 +1508,20 @@
         }
       },
       {
-        "name": "Monolithic Suppressor S"
+        "name": "Monolithic Suppressor S",
+        "unlock_level": 7
       }
     ],
     "OPTIC": [
       {
-        "name": "SZ Sigma-IV"
+        "name": "SZ Sigma-IV",
+        "unlock_level": 2
       }
     ],
     "REAR GRIP": [
       {
         "name": "Rival Vice Assault Grip",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1529,6 +1542,7 @@
       },
       {
         "name": "Rival G-5 Series Grip",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 1.18,
           "ads_movement_mod": 0,
@@ -1549,6 +1563,7 @@
       },
       {
         "name": "Rival Clutch Grip",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1571,6 +1586,7 @@
     "STOCK": [
       {
         "name": "Rival-FA Tactical",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.06,
@@ -1591,6 +1607,7 @@
       },
       {
         "name": "EXF Close Quarters Assault",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0,
@@ -1611,6 +1628,7 @@
       },
       {
         "name": "MTZ Marauder",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.97,
@@ -1631,6 +1649,7 @@
       },
       {
         "name": "Bruen Flash V4 Stock",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0.94,
           "ads_movement_mod": 0,
@@ -1651,6 +1670,7 @@
       },
       {
         "name": "MTZ Stockless MOD",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.1,
@@ -1773,6 +1793,7 @@
       },
       {
         "name": "XRK Edge BW-4 Handstop",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 0,

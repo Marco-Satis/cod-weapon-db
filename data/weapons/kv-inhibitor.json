@@ -79,6 +79,7 @@
       },
       {
         "name": ".338 Magnum Low Grain",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -99,6 +100,7 @@
       },
       {
         "name": ".338 Magnum High Grain",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -119,6 +121,7 @@
       },
       {
         "name": ".338 Magnum Spire Point",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -139,6 +142,7 @@
       },
       {
         "name": ".338 Magnum Mono",
+        "unlock_level": 31,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -176,6 +180,7 @@
     "BARREL": [
       {
         "name": "KAS-10 584MM Mod",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.99,
@@ -196,6 +201,7 @@
       },
       {
         "name": "Kastovia JEK-40",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -216,6 +222,7 @@
       },
       {
         "name": "KAS-7 Integrated Suppressor",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0,
@@ -236,6 +243,7 @@
       },
       {
         "name": "KAS-Dworf Heavy Long",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0,
@@ -256,6 +264,7 @@
       },
       {
         "name": "Kastovia LPM-12",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -278,6 +287,7 @@
     "CONVERSION KIT": [
       {
         "name": "JAK Volkh",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0.93,
@@ -460,6 +470,7 @@
       },
       {
         "name": "Corio LAZ-44 V3",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 0,
@@ -562,6 +573,7 @@
     "MAGAZINE": [
       {
         "name": "20 Round Mag",
+        "unlock_level": 30,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0.93,
@@ -601,7 +613,8 @@
         }
       },
       {
-        "name": "5 Round Mag"
+        "name": "5 Round Mag",
+        "unlock_level": 11
       }
     ],
     "MUZZLE": [
@@ -627,6 +640,7 @@
       },
       {
         "name": "Sonic Suppressor L",
+        "unlock_level": 28,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -747,6 +761,7 @@
       },
       {
         "name": "Casus Brake L",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1107,6 +1122,7 @@
       },
       {
         "name": "Colossus Suppressor S",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1127,6 +1143,7 @@
       },
       {
         "name": "Shadowstrike Suppressor",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1166,20 +1183,24 @@
         }
       },
       {
-        "name": "Custom .338 Silencer"
+        "name": "Custom .338 Silencer",
+        "unlock_level": 2
       },
       {
-        "name": "Colossus Suppressor XL"
+        "name": "Colossus Suppressor XL",
+        "unlock_level": 9
       }
     ],
     "OPTIC": [
       {
-        "name": "SZ Ultra 11.5x"
+        "name": "SZ Ultra 11.5x",
+        "unlock_level": 4
       }
     ],
     "REAR GRIP": [
       {
         "name": "Brace LS",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 1.14,
           "ads_movement_mod": 0.9,
@@ -1200,6 +1221,7 @@
       },
       {
         "name": "Broadside Factory Grip",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 1.1,
@@ -1220,6 +1242,7 @@
       },
       {
         "name": "True-TAC Grip",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 1.09,
           "ads_movement_mod": 0,
@@ -1240,6 +1263,7 @@
       },
       {
         "name": "Demo TL20 Recoil Grip",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1260,6 +1284,7 @@
       },
       {
         "name": "FSS Stormender Assault Grip",
+        "unlock_level": 33,
         "mods": {
           "ads_mod": 0.94,
           "ads_movement_mod": 1.1,
@@ -1280,6 +1305,7 @@
       },
       {
         "name": "Ivanov ST-70 Grip",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.8,
@@ -1299,12 +1325,14 @@
         }
       },
       {
-        "name": "Broadside Factory"
+        "name": "Broadside Factory",
+        "unlock_level": 12
       }
     ],
     "STOCK": [
       {
         "name": "KV Heavy Padded",
+        "unlock_level": 29,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1325,6 +1353,7 @@
       },
       {
         "name": "MK Viper Marksman",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1365,6 +1394,7 @@
       },
       {
         "name": "EXO-TAC",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.98,
@@ -1385,6 +1415,7 @@
       },
       {
         "name": "Kastov-RAMA",
+        "unlock_level": 32,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.06,
@@ -1425,6 +1456,7 @@
       },
       {
         "name": "ZLR Bulwark Precision",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 0.95,
@@ -1444,15 +1476,18 @@
         }
       },
       {
-        "name": "Ivanov Wood"
+        "name": "Ivanov Wood",
+        "unlock_level": 6
       },
       {
-        "name": "Heavy Support"
+        "name": "Heavy Support",
+        "unlock_level": 13
       }
     ],
     "UNDERBARREL": [
       {
         "name": "FTAC SP-10 Angled Grip",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

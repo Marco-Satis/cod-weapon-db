@@ -311,6 +311,7 @@
     "BARREL": [
       {
         "name": "LHT-200 Barrel",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.13,
@@ -331,6 +332,7 @@
       },
       {
         "name": "Lore-9 Heavy Barrel",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -351,6 +353,7 @@
       },
       {
         "name": "Normandy-41 Short Barrel",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 0,
@@ -373,6 +376,7 @@
     "COMB": [
       {
         "name": "Reliant-IX Comb",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -393,6 +397,7 @@
       },
       {
         "name": "Canid Heavy Comb",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 1.26,
           "ads_movement_mod": 0.94,
@@ -413,6 +418,7 @@
       },
       {
         "name": "Honor-Tac Comb",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -759,6 +765,7 @@
     "MAGAZINE": [
       {
         "name": "45 Round Mag",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 1.09,
           "ads_movement_mod": 0.96,
@@ -779,6 +786,7 @@
       },
       {
         "name": "20 Round Mag",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 1.08,
@@ -1682,12 +1690,14 @@
     ],
     "OPTIC": [
       {
-        "name": "Holo-Craft Optic"
+        "name": "Holo-Craft Optic",
+        "unlock_level": 4
       }
     ],
     "REAR GRIP": [
       {
         "name": "CCG-TAC Tape",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1708,6 +1718,7 @@
       },
       {
         "name": "Hitbox-90 Grip Tape",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.81,
@@ -1728,6 +1739,7 @@
       },
       {
         "name": "TRST-IV Grip Tape",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1750,6 +1762,7 @@
     "STOCK": [
       {
         "name": "Con30 Padded Stock",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.07,
@@ -1770,6 +1783,7 @@
       },
       {
         "name": "Forbearer Heavy Stock",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 1.05,
           "ads_movement_mod": 0,
@@ -1790,6 +1804,7 @@
       },
       {
         "name": "Moat-40 Stock",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0.98,
           "ads_movement_mod": 1.07,

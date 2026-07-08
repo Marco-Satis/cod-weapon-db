@@ -73,6 +73,7 @@
     "AMMUNITION": [
       {
         "name": "7.92x33mm Mono",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -93,6 +94,7 @@
       },
       {
         "name": "7.92x33mm Frangible",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -113,6 +115,7 @@
       },
       {
         "name": "7.92x33mm Low Grain Rounds",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -133,6 +136,7 @@
       },
       {
         "name": "7.92x33mm Hollowpoint",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -153,6 +157,7 @@
       },
       {
         "name": "7.92x33mm Incendiary",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -173,6 +178,7 @@
       },
       {
         "name": "7.92x33mm Overpressured P+",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -193,6 +199,7 @@
       },
       {
         "name": "7.92x33mm High Grain",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -213,6 +220,7 @@
       },
       {
         "name": "7.62x39MM Round Nose",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -233,6 +241,7 @@
       },
       {
         "name": "7.92x33mm Armor Piercing",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -253,6 +262,7 @@
       },
       {
         "name": "7.92x33mm High Velocity",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -272,15 +282,18 @@
         }
       },
       {
-        "name": "7.92x33mm"
+        "name": "7.92x33mm",
+        "unlock_level": 10
       },
       {
-        "name": "7.92x33mm Round Nose"
+        "name": "7.92x33mm Round Nose",
+        "unlock_level": 10
       }
     ],
     "BARREL": [
       {
         "name": "Bruen Acrux Heavy Barrel",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 1.14,
           "ads_movement_mod": 0,
@@ -301,6 +314,7 @@
       },
       {
         "name": "Heinrichter C70 Long Barrel",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.96,
@@ -321,6 +335,7 @@
       },
       {
         "name": "Stalker D9 Suppressed Barrel",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 0,
@@ -341,6 +356,7 @@
       },
       {
         "name": "Ferngewehr 792 Barrel",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -361,6 +377,7 @@
       },
       {
         "name": "Factory Short Barrel",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0.94,
           "ads_movement_mod": 0,
@@ -685,6 +702,7 @@
     "MAGAZINE": [
       {
         "name": "50 Round Drum",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 1.1,
           "ads_movement_mod": 0.94,
@@ -705,6 +723,7 @@
       },
       {
         "name": "40 Round Mag",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 1.05,
           "ads_movement_mod": 0.97,
@@ -1609,6 +1628,7 @@
     "REAR GRIP": [
       {
         "name": "Demo 650 Grip",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.07,
@@ -1629,6 +1649,7 @@
       },
       {
         "name": "Citadel Grip",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1649,6 +1670,7 @@
       },
       {
         "name": "Nought-Z3 Grip",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -1669,6 +1691,7 @@
       },
       {
         "name": "Chorus Gen4 Grip",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 1.31,
           "ads_movement_mod": 0.93,
@@ -1688,12 +1711,14 @@
         }
       },
       {
-        "name": "Chrous Gen4 Grip"
+        "name": "Chrous Gen4 Grip",
+        "unlock_level": 5
       }
     ],
     "STOCK": [
       {
         "name": "A70 Venom Stock",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 0,
@@ -1714,6 +1739,7 @@
       },
       {
         "name": "No Stock",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.12,
@@ -1734,6 +1760,7 @@
       },
       {
         "name": "Igneous L5 Stock",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0.97,
@@ -1754,6 +1781,7 @@
       },
       {
         "name": "DR79 Combo Stock",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0,

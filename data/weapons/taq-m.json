@@ -58,6 +58,7 @@
     "AMMUNITION": [
       {
         "name": "6.5MM Armor Piercing",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -78,6 +79,7 @@
       },
       {
         "name": "6.5MM Hollow Point",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -98,6 +100,7 @@
       },
       {
         "name": "6.5MM Overpressured +P",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -118,6 +121,7 @@
       },
       {
         "name": "6.5MM High Velocity",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -138,6 +142,7 @@
       },
       {
         "name": "6.5MM Incendiary",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -158,6 +163,7 @@
       },
       {
         "name": "6.5MM Frangible",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -180,6 +186,7 @@
     "BARREL": [
       {
         "name": "15.5\" Theta-X13",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -200,6 +207,7 @@
       },
       {
         "name": "LR1:7 20.5\"",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0,
@@ -524,6 +532,7 @@
     "MAGAZINE": [
       {
         "name": "20 Round Mag",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 1.08,
           "ads_movement_mod": 0.92,
@@ -544,6 +553,7 @@
       },
       {
         "name": "15 Round Mag",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0.95,
@@ -826,6 +836,7 @@
       },
       {
         "name": "ZLR Talon 5",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -946,6 +957,7 @@
       },
       {
         "name": "TZL-90 V3",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1428,6 +1440,7 @@
       },
       {
         "name": "XRK Response Grip",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -1448,6 +1461,7 @@
       },
       {
         "name": "TV Ergo Grip",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 1.28,
           "ads_movement_mod": 0.92,
@@ -1490,6 +1504,7 @@
       },
       {
         "name": "TV XLINE Pro",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0.89,
           "ads_movement_mod": 0,
@@ -1510,6 +1525,7 @@
       },
       {
         "name": "TacVerte Core Stock",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0.98,
@@ -1530,6 +1546,7 @@
       },
       {
         "name": "TV Ballast Stock",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0.96,
           "ads_movement_mod": 1.11,

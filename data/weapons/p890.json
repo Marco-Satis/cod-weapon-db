@@ -160,6 +160,7 @@
       },
       {
         "name": ".45 Auto Frangible",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -180,6 +181,7 @@
       },
       {
         "name": ".45 Auto Armor Piercing",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -242,6 +244,7 @@
     "BARREL": [
       {
         "name": "Matuzek Venom",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 1.02,
@@ -262,6 +265,7 @@
       },
       {
         "name": "XRK Tacops",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0.96,
           "ads_movement_mod": 1.03,
@@ -282,6 +286,7 @@
       },
       {
         "name": "Matuzek Cottonmouth",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 1.13,
           "ads_movement_mod": 0.96,
@@ -302,6 +307,7 @@
       },
       {
         "name": "Xten Harbinger",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 1.21,
           "ads_movement_mod": 0.94,
@@ -384,6 +390,7 @@
       },
       {
         "name": "1MW Pistol Laser",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -464,6 +471,7 @@
       },
       {
         "name": "FTAC Vortex 200",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -526,6 +534,7 @@
     "MAGAZINE": [
       {
         "name": "10 Round Mag",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0.96,
@@ -546,6 +555,7 @@
       },
       {
         "name": "12 Round Mag",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 1.14,
           "ads_movement_mod": 0.93,
@@ -648,6 +658,7 @@
       },
       {
         "name": "Forge DX90-F ",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -688,6 +699,7 @@
       },
       {
         "name": "FT Steel Fire",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -748,6 +760,7 @@
       },
       {
         "name": "XRK Ventor-900",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -808,6 +821,7 @@
       },
       {
         "name": "SA GF90. Flash Hider",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -848,6 +862,7 @@
       },
       {
         "name": "Hole Punch Breacher",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -868,6 +883,7 @@
       },
       {
         "name": "Slab-10 Comp",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -990,6 +1006,7 @@
     "REAR GRIP": [
       {
         "name": "Bruen Anchor Grip",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -1030,6 +1047,7 @@
       },
       {
         "name": "FJX DVF60 Grip",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1050,6 +1068,7 @@
       },
       {
         "name": "Bruen RSH-80 Grip",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -1070,6 +1089,7 @@
       },
       {
         "name": "Akimbo P890",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1092,6 +1112,7 @@
     "TRIGGERACTION": [
       {
         "name": "XRK Heavy V3",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 0,
@@ -1112,6 +1133,7 @@
       },
       {
         "name": "P890 Double Action",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1132,6 +1154,7 @@
       },
       {
         "name": "Bruen Express",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1151,7 +1174,8 @@
         }
       },
       {
-        "name": "Bruen MG80 Trigger"
+        "name": "Bruen MG80 Trigger",
+        "unlock_level": 22
       }
     ]
   }

@@ -86,6 +86,7 @@
     "AMMUNITION": [
       {
         "name": ".45 Auto Overpressured +P",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -126,6 +127,7 @@
       },
       {
         "name": ".45 Auto Hollow Point",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -228,6 +230,7 @@
     "BARREL": [
       {
         "name": "FTAC 8.5\" Recon",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0.96,
           "ads_movement_mod": 1.04,
@@ -248,6 +251,7 @@
       },
       {
         "name": "Forge TAC Ninja",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 1.24,
           "ads_movement_mod": 0.92,
@@ -268,6 +272,7 @@
       },
       {
         "name": "5.5\" Fennec Minitac",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 1.04,
@@ -288,6 +293,7 @@
       },
       {
         "name": "ZLR 16.5\" Ignition Barrel",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 1.21,
           "ads_movement_mod": 0.95,
@@ -308,6 +314,7 @@
       },
       {
         "name": "Fennec Covert Force",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 1.16,
           "ads_movement_mod": 0,
@@ -410,6 +417,7 @@
       },
       {
         "name": "Schlager ULO-66",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -632,6 +640,7 @@
     "MAGAZINE": [
       {
         "name": "Fennec Double Tap MOD",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0.87,
           "ads_movement_mod": 1.11,
@@ -652,6 +661,7 @@
       },
       {
         "name": "Fennec Mag 45",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 1.14,
           "ads_movement_mod": 0.91,
@@ -834,6 +844,7 @@
       },
       {
         "name": "TA HUL-Breach",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -994,6 +1005,7 @@
       },
       {
         "name": "XRK Sandstorm",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1114,6 +1126,7 @@
       },
       {
         "name": "FOX-202 Flash Hider ",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1134,6 +1147,7 @@
       },
       {
         "name": "Shikra Silencer",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1476,6 +1490,7 @@
     "REAR GRIP": [
       {
         "name": "Fennec Stippled Grip",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1496,6 +1511,7 @@
       },
       {
         "name": "Fennec Textured Grip",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -1516,6 +1532,7 @@
       },
       {
         "name": "Fennec Rubber Grip",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -1538,6 +1555,7 @@
     "STOCK": [
       {
         "name": "Fennec Bullfighter",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.92,
@@ -1558,6 +1576,7 @@
       },
       {
         "name": "Agile Assault-7",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 0.94,
           "ads_movement_mod": 1.09,
@@ -1578,6 +1597,7 @@
       },
       {
         "name": "FTAC Locktight",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 0,
@@ -1598,6 +1618,7 @@
       },
       {
         "name": "FTac XCommand Stock",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0,
@@ -1618,6 +1639,7 @@
       },
       {
         "name": "FTAC Stock Cap",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.11,
@@ -1637,7 +1659,8 @@
         }
       },
       {
-        "name": "Fennec F45 Stock"
+        "name": "Fennec F45 Stock",
+        "unlock_level": 9
       }
     ],
     "UNDERBARREL": [
@@ -1943,6 +1966,7 @@
       },
       {
         "name": "FSS Sharkfin 90",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

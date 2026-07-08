@@ -71,6 +71,7 @@
     "BARREL": [
       {
         "name": "14\" LTI Expedition Barrel",
+        "unlock_level": 38,
         "mods": {
           "ads_mod": 1.1,
           "ads_movement_mod": 0.93,
@@ -79,6 +80,7 @@
       },
       {
         "name": "10.5\" Bowen Conquer Barrel",
+        "unlock_level": 31,
         "mods": {
           "ads_mod": 1.06,
           "bv_mod": 1.08,
@@ -87,6 +89,7 @@
       },
       {
         "name": "12.5\" Hawker Broach Barrel",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0.84,
           "ads_movement_mod": 0.95
@@ -94,6 +97,7 @@
       },
       {
         "name": "11\" Ursine Barrel",
+        "unlock_level": 22,
         "mods": {
           "ads_movement_mod": 0.96,
           "bv_mod": 1.12,
@@ -104,6 +108,7 @@
       },
       {
         "name": "9.7\" Enmity Barrel",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0.77,
           "hipfire_max_mod": 0.8,
@@ -116,6 +121,7 @@
     "FIRE MODS": [
       {
         "name": "MFS 5.56M Defense Conversion",
+        "unlock_level": "Weapon Prestige",
         "mods": {
           "ads_mod": 1.19,
           "ads_movement_mod": 0.93,
@@ -132,6 +138,7 @@
       },
       {
         "name": "Bolt Carrier Group",
+        "unlock_level": 23,
         "mods": {
           "bv_mod": 0.9,
           "gun_kick_mod": 1.2,
@@ -143,12 +150,14 @@
       },
       {
         "name": "9mm Parabellum Overpressured",
+        "unlock_level": 32,
         "mods": {
           "bv_mod": 1.2
         }
       },
       {
         "name": "Buffer Springs",
+        "unlock_level": 6,
         "mods": {
           "gun_kick_mod": 0.9,
           "horiz_recoil_mod": 0.9,
@@ -157,6 +166,7 @@
       },
       {
         "name": "9mm Parabellum FMJ",
+        "unlock_level": 17,
         "mods": {
           "bv_mod": 1.08,
           "range_mod": 1.08
@@ -166,6 +176,7 @@
     "LASER": [
       {
         "name": "LTI SwiftPoint Laser",
+        "unlock_level": 29,
         "mods": {
           "ads_mod": 0.9,
           "stf_mod": 0.8
@@ -173,29 +184,35 @@
       },
       {
         "name": "EAM ScatterLine Laser",
+        "unlock_level": 12,
         "mods": {
           "hipfire_max_mod": 0.85
         }
       },
       {
-        "name": "VAS Precision Shift Laser"
+        "name": "VAS Precision Shift Laser",
+        "unlock_level": 2
       },
       {
-        "name": "EMT3 Agile Laser"
+        "name": "EMT3 Agile Laser",
+        "unlock_level": 7
       },
       {
-        "name": "Redwell Tactical Laser"
+        "name": "Redwell Tactical Laser",
+        "unlock_level": 20
       }
     ],
     "MAGAZINE": [
       {
         "name": "Amplify Extended Mag I",
+        "unlock_level": 15,
         "mods": {
           "mag_size_mod": 10
         }
       },
       {
         "name": "Divest Fast Mag",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0.9,
           "reload_mod": 0.82,
@@ -204,6 +221,7 @@
       },
       {
         "name": "Avarice Extended Mag II",
+        "unlock_level": 28,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0.95,
@@ -216,6 +234,7 @@
       },
       {
         "name": "MFS Kodiak Extended Mag",
+        "unlock_level": "Weapon Prestige",
         "mods": {
           "ads_mod": 1.06,
           "mag_size_mod": 10,
@@ -224,6 +243,7 @@
       },
       {
         "name": "MFS Glacial Extended Mag",
+        "unlock_level": "Weapon Prestige",
         "mods": {
           "ads_mod": 1.16,
           "ads_movement_mod": 0.95,
@@ -236,6 +256,7 @@
       },
       {
         "name": "MFS Sol Fast Mag",
+        "unlock_level": "Weapon Prestige",
         "mods": {
           "ads_mod": 0.94,
           "reload_mod": 0.82,
@@ -246,6 +267,7 @@
     "MUZZLE": [
       {
         "name": "Hawker Stabilizer MK.II",
+        "unlock_level": 16,
         "mods": {
           "gun_kick_mod": 0.84,
           "vert_recoil_mod": 0.85
@@ -253,6 +275,7 @@
       },
       {
         "name": "Hawker Series 45",
+        "unlock_level": 26,
         "mods": {
           "gun_kick_mod": 0.76,
           "vert_recoil_mod": 0.75
@@ -260,6 +283,7 @@
       },
       {
         "name": "Hawker Hybrid .45",
+        "unlock_level": 21,
         "mods": {
           "ads_movement_mod": 1.05,
           "hipfire_max_mod": 0.75,
@@ -269,6 +293,7 @@
       },
       {
         "name": "Redwell Shade-X Suppressor",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "bv_mod": 0.95,
           "gun_kick_mod": 0.85,
@@ -279,6 +304,7 @@
       },
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": 34,
         "mods": {
           "ads_mod": 1.35,
           "bv_mod": 1.2,
@@ -287,12 +313,14 @@
       },
       {
         "name": "Bowen .45 Suppressor",
+        "unlock_level": 4,
         "mods": {
           "range_mod": 1.1
         }
       },
       {
         "name": "LTI Stentorian Brake",
+        "unlock_level": "Season 4 Battle Pass",
         "mods": {
           "gun_kick_mod": 1.08,
           "horiz_recoil_mod": 0.82,
@@ -304,18 +332,21 @@
     "REAR GRIP": [
       {
         "name": "Solace Quick Aim Grip",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0.58
         }
       },
       {
         "name": "Pillion Ready Grip",
+        "unlock_level": 25,
         "mods": {
           "stf_mod": 0.58
         }
       },
       {
         "name": "VAS Sustenance Grip",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 1.03,
           "gun_kick_mod": 0.99,
@@ -324,12 +355,14 @@
       },
       {
         "name": "LTI Coalesce Grip",
+        "unlock_level": 33,
         "mods": {
           "ads_mod": 0.77
         }
       },
       {
         "name": "Quiver Control Grip",
+        "unlock_level": 37,
         "mods": {
           "gun_kick_mod": 0.83,
           "vert_recoil_mod": 0.82
@@ -339,6 +372,7 @@
     "STOCK": [
       {
         "name": "Akimbo VST",
+        "unlock_level": 39,
         "mods": {
           "gun_kick_mod": 1.15,
           "hipfire_max_mod": 1.2,
@@ -351,6 +385,7 @@
       },
       {
         "name": "Hawker Cub-55 Pad",
+        "unlock_level": 13,
         "mods": {
           "crouch_movement_mod": 1.27,
           "movement_mod": 1.16,
@@ -359,6 +394,7 @@
       },
       {
         "name": "LTI Stern Aim Pad",
+        "unlock_level": 30,
         "mods": {
           "ads_mod": 0.84,
           "ads_movement_mod": 1.17
@@ -366,6 +402,7 @@
       },
       {
         "name": "VAS Blench Pad",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0.95,
@@ -376,6 +413,7 @@
       },
       {
         "name": "Suffuse Tactical Pad",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0.87,
           "hipfire_max_mod": 0.85,
@@ -384,6 +422,7 @@
       },
       {
         "name": "Clench-01 Grip",
+        "unlock_level": 35,
         "mods": {
           "ads_mod": 1.04,
           "gun_kick_mod": 0.85,
@@ -395,6 +434,7 @@
     "UNDERBARREL": [
       {
         "name": "Vitalize Handstop",
+        "unlock_level": 11,
         "mods": {
           "gun_kick_mod": 0.99,
           "horiz_recoil_mod": 0.8
@@ -402,6 +442,7 @@
       },
       {
         "name": "VAS Convergence Foregrip",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "gun_kick_mod": 0.81,
           "horiz_recoil_mod": 0.84,
@@ -410,6 +451,7 @@
       },
       {
         "name": "EAM Lightpath Foregrip",
+        "unlock_level": 19,
         "mods": {
           "ads_movement_mod": 1.1,
           "crouch_movement_mod": 1.08,
@@ -418,6 +460,7 @@
       },
       {
         "name": "Lateral Precision Grip",
+        "unlock_level": 27,
         "mods": {
           "gun_kick_mod": 0.99,
           "horiz_recoil_mod": 0.65
@@ -425,6 +468,7 @@
       },
       {
         "name": "EAM Steady-90 Grip",
+        "unlock_level": 36,
         "mods": {
           "crouch_movement_mod": 1.08,
           "gun_kick_mod": 0.99,
@@ -434,7 +478,8 @@
         }
       },
       {
-        "name": "Respire Handstop"
+        "name": "Respire Handstop",
+        "unlock_level": 5
       }
     ]
   }

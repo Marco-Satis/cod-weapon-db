@@ -239,6 +239,7 @@
       },
       {
         "name": "9MM Hollowpoint",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -258,7 +259,8 @@
         }
       },
       {
-        "name": "9MM Hollow Point"
+        "name": "9MM Hollow Point",
+        "unlock_level": 13
       },
       {
         "name": "9mm Sub HP"
@@ -306,6 +308,7 @@
     "BARREL": [
       {
         "name": "Lachmann Pulsar",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 1.04,
@@ -326,6 +329,7 @@
       },
       {
         "name": "FTAC M-Sub 12\"",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 1.1,
           "ads_movement_mod": 0.96,
@@ -346,6 +350,7 @@
       },
       {
         "name": "L38 Falcon 226MM",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0.95,
           "ads_movement_mod": 1.06,
@@ -468,6 +473,7 @@
       },
       {
         "name": "FJX Ultrabeam XR",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -670,6 +676,7 @@
     "MAGAZINE": [
       {
         "name": "40 Round Mag",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 1.09,
           "ads_movement_mod": 0.93,
@@ -690,6 +697,7 @@
       },
       {
         "name": "50 Round Drum",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 1.14,
           "ads_movement_mod": 0.9,
@@ -729,10 +737,12 @@
         }
       },
       {
-        "name": "15 Round Mag"
+        "name": "15 Round Mag",
+        "unlock_level": 16
       },
       {
-        "name": "50 Round Mag"
+        "name": "50 Round Mag",
+        "unlock_level": 14
       }
     ],
     "MUZZLE": [
@@ -938,6 +948,7 @@
       },
       {
         "name": "Lockshot KT85",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -978,6 +989,7 @@
       },
       {
         "name": "SA Schalldampfer 99",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1540,6 +1552,7 @@
       },
       {
         "name": "LM Cronus Grip",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -1562,6 +1575,7 @@
     "STOCK": [
       {
         "name": "LM Stockless MOD",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0.86,
           "ads_movement_mod": 1.11,
@@ -2104,6 +2118,7 @@
       },
       {
         "name": "Lockgrip Precision-40",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

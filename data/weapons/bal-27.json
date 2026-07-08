@@ -73,6 +73,7 @@
     "AMMUNITION": [
       {
         "name": "5.7X28MM High Velocity",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -93,6 +94,7 @@
       },
       {
         "name": "5.7X28MM Low Grain Rounds",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -113,6 +115,7 @@
       },
       {
         "name": "5.7x28MM Armor Piercing",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -133,6 +136,7 @@
       },
       {
         "name": "5.7x28MM Frangible",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -153,6 +157,7 @@
       },
       {
         "name": "5.7x28MM Overpressured +P",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -173,6 +178,7 @@
       },
       {
         "name": "5.7x28mm High Grain Rounds",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -193,6 +199,7 @@
       },
       {
         "name": "5.7X28MM Hollowpoint",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -212,30 +219,38 @@
         }
       },
       {
-        "name": "5.7x28MM Hollow Point"
+        "name": "5.7x28MM Hollow Point",
+        "unlock_level": 0
       },
       {
-        "name": "5.7X28MM Mono"
+        "name": "5.7X28MM Mono",
+        "unlock_level": 0
       },
       {
-        "name": "5.7X28MM Round Nose"
+        "name": "5.7X28MM Round Nose",
+        "unlock_level": 0
       },
       {
-        "name": "5.7X28MM Frangible"
+        "name": "5.7X28MM Frangible",
+        "unlock_level": 0
       },
       {
-        "name": "5.7X28MM Armor Piercing"
+        "name": "5.7X28MM Armor Piercing",
+        "unlock_level": 0
       },
       {
-        "name": "5.7X28MM Overpressured P+"
+        "name": "5.7X28MM Overpressured P+",
+        "unlock_level": 0
       },
       {
-        "name": "5.7X28MM Incendiary"
+        "name": "5.7X28MM Incendiary",
+        "unlock_level": 0
       }
     ],
     "BARREL": [
       {
         "name": "Noctkill Long Barrel",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 1.18,
           "ads_movement_mod": 0,
@@ -256,6 +271,7 @@
       },
       {
         "name": "Prime MNX Barrel",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.09,
@@ -276,6 +292,7 @@
       },
       {
         "name": "Prowl-IV Barrel",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.03,
@@ -296,6 +313,7 @@
       },
       {
         "name": "Crown-H3 Barrel",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.05,
@@ -316,6 +334,7 @@
       },
       {
         "name": "Lonefire Comp Barrel",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 1.2,
           "ads_movement_mod": 0,
@@ -358,6 +377,7 @@
       },
       {
         "name": "JAK Deathmarch",
+        "unlock_level": 0,
         "mods": {
           "ads_movement_mod": 0.93,
           "bv_mod": 2.51,
@@ -676,6 +696,7 @@
     "MAGAZINE": [
       {
         "name": "60 round Mag",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 1.11,
           "ads_movement_mod": 0,
@@ -1538,6 +1559,7 @@
       },
       {
         "name": "Scratch 20-L Suppressor",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1579,12 +1601,14 @@
     ],
     "OPTIC": [
       {
-        "name": "AW Gen.1 Optic"
+        "name": "AW Gen.1 Optic",
+        "unlock_level": 3
       }
     ],
     "REAR GRIP": [
       {
         "name": "Hammer Grip",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0.83,
           "ads_movement_mod": 1.07,
@@ -1605,6 +1629,7 @@
       },
       {
         "name": "Tidal TAC Grip",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.9,
@@ -1625,6 +1650,7 @@
       },
       {
         "name": "Channel-M Grip",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 0,
@@ -1645,6 +1671,7 @@
       },
       {
         "name": "Highground Grip",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 1.13,
           "ads_movement_mod": 0.93,
@@ -1667,6 +1694,7 @@
     "STOCK": [
       {
         "name": "Sandbar Heavy Stock",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 1.04,
           "ads_movement_mod": 0.95,
@@ -1687,6 +1715,7 @@
       },
       {
         "name": "Clarent Light Stock",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 1.09,
@@ -1707,6 +1736,7 @@
       },
       {
         "name": "Ardent Tac Stock",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

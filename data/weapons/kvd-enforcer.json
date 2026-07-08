@@ -153,6 +153,7 @@
       },
       {
         "name": "7.62x54MMR Low Grain Rounds",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -173,6 +174,7 @@
       },
       {
         "name": "7.62x54MMR High Grain Rounds",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -213,6 +215,7 @@
       },
       {
         "name": "7.62x54MMR Round Nose",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -233,6 +236,7 @@
       },
       {
         "name": "7.62x54MMR Mono",
+        "unlock_level": 28,
         "mods": {
           "bv_mod": 1.12
         }
@@ -258,6 +262,7 @@
     "BARREL": [
       {
         "name": "Kastovia JEK-40",
+        "unlock_level": 29,
         "mods": {
           "ads_mod": 0.87,
           "ads_movement_mod": 0,
@@ -298,6 +303,7 @@
       },
       {
         "name": "KAS-10 584MM Mod",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -318,6 +324,7 @@
       },
       {
         "name": "KAS-Dworf Heavy Long",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 1.17,
           "ads_movement_mod": 0,
@@ -338,6 +345,7 @@
       },
       {
         "name": "Kastovia LPM-12",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0.95,
           "ads_movement_mod": 0,
@@ -522,6 +530,7 @@
       },
       {
         "name": "Canted Vibro-Dot 7",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -684,6 +693,7 @@
     "MAGAZINE": [
       {
         "name": "15 Round Mag",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 1.09,
           "ads_movement_mod": 0.95,
@@ -704,6 +714,7 @@
       },
       {
         "name": "20 Round Mag",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 1.14,
           "ads_movement_mod": 0.93,
@@ -1306,6 +1317,7 @@
       },
       {
         "name": "ELR Blackfire Compensator",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1326,6 +1338,7 @@
       },
       {
         "name": "S-37C DL Breacher Device",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1505,20 +1518,24 @@
         }
       },
       {
-        "name": "ELR Blackfire Compensator L"
+        "name": "ELR Blackfire Compensator L",
+        "unlock_level": 4
       },
       {
-        "name": "S-37C DL Breacher Device L"
+        "name": "S-37C DL Breacher Device L",
+        "unlock_level": 12
       }
     ],
     "OPTIC": [
       {
-        "name": "Heinrichter Hybrid Scope"
+        "name": "Heinrichter Hybrid Scope",
+        "unlock_level": 3
       }
     ],
     "REAR GRIP": [
       {
         "name": "True-TAC Grip",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1539,6 +1556,7 @@
       },
       {
         "name": "Brace LS",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 1.33,
           "ads_movement_mod": 0.91,
@@ -1559,6 +1577,7 @@
       },
       {
         "name": "Demo TL20 Recoil Grip",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1579,6 +1598,7 @@
       },
       {
         "name": "Broadside Factory Grip",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 1.09,
@@ -1599,6 +1619,7 @@
       },
       {
         "name": "FSS Stormender Assault Grip",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 1.1,
@@ -1619,6 +1640,7 @@
       },
       {
         "name": "Ivanov ST-70 Grip",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.8,
@@ -1641,6 +1663,7 @@
     "STOCK": [
       {
         "name": "Interceptor Factory",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.98,
@@ -1661,6 +1684,7 @@
       },
       {
         "name": "Ivanov Wood Stock",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0.94,
           "ads_movement_mod": 0,
@@ -1681,6 +1705,7 @@
       },
       {
         "name": "EXO-TAC",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -1701,6 +1726,7 @@
       },
       {
         "name": "MK Viper Marksman",
+        "unlock_level": 30,
         "mods": {
           "ads_mod": 0.99,
           "ads_movement_mod": 0,
@@ -1721,6 +1747,7 @@
       },
       {
         "name": "Kastov-RAMA",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 1.03,
@@ -1760,10 +1787,12 @@
         }
       },
       {
-        "name": "Kastov Rama"
+        "name": "Kastov Rama",
+        "unlock_level": 24
       },
       {
-        "name": "Spetsnaz S10"
+        "name": "Spetsnaz S10",
+        "unlock_level": 26
       }
     ],
     "UNDERBARREL": [
@@ -2169,6 +2198,7 @@
       },
       {
         "name": "Kimura Seraphic Vertical Grip",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -2369,6 +2399,7 @@
       },
       {
         "name": "Agent Grip",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

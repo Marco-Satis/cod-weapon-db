@@ -71,6 +71,7 @@
     "BARREL": [
       {
         "name": "18\" Jetstream Barrel",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 0.94
@@ -78,6 +79,7 @@
       },
       {
         "name": "19\" EAM Horizon Barrel",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0.92
@@ -85,6 +87,7 @@
       },
       {
         "name": "14\" Verse Barrel",
+        "unlock_level": 32,
         "mods": {
           "ads_mod": 1.05,
           "bv_mod": 1.08
@@ -92,6 +95,7 @@
       },
       {
         "name": "16.5\" Predator Barrel",
+        "unlock_level": 27,
         "mods": {
           "ads_movement_mod": 0.96,
           "bv_mod": 1.2,
@@ -102,6 +106,7 @@
       },
       {
         "name": "12\" Cloud Barrel",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0.83,
           "hipfire_max_mod": 0.8,
@@ -116,12 +121,14 @@
     "FIRE MODS": [
       {
         "name": ".45 Cal Overpressured",
+        "unlock_level": 24,
         "mods": {
           "bv_mod": 1.15
         }
       },
       {
         "name": "Bolt Carrier Group",
+        "unlock_level": 18,
         "mods": {
           "bv_mod": 0.9,
           "gun_kick_mod": 1.2,
@@ -133,6 +140,7 @@
       },
       {
         "name": "Accelerated Recoil System",
+        "unlock_level": 2,
         "mods": {
           "gun_kick_mod": 0.9,
           "horiz_recoil_mod": 0.9,
@@ -141,6 +149,7 @@
       },
       {
         "name": ".45 Cal FMJ",
+        "unlock_level": 33,
         "mods": {
           "bv_mod": 1.08,
           "range_mod": 1.08
@@ -150,6 +159,7 @@
     "LASER": [
       {
         "name": "LTI SwiftPoint Laser",
+        "unlock_level": 34,
         "mods": {
           "ads_mod": 0.92,
           "stf_mod": 0.91,
@@ -159,6 +169,7 @@
       },
       {
         "name": "MFS Agile Laser Pro",
+        "unlock_level": "Weapon Prestige",
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 1.09,
@@ -176,26 +187,31 @@
       },
       {
         "name": "EAM ScatterLine Laser",
+        "unlock_level": 7,
         "mods": {
           "hipfire_max_mod": 0.85
         }
       },
       {
-        "name": "Redwell Tactical Laser"
+        "name": "Redwell Tactical Laser",
+        "unlock_level": 15
       },
       {
-        "name": "VAS Precision Shift Laser"
+        "name": "VAS Precision Shift Laser",
+        "unlock_level": 20
       }
     ],
     "MAGAZINE": [
       {
         "name": "Gator Extended Mag",
+        "unlock_level": 11,
         "mods": {
           "mag_size_mod": 12
         }
       },
       {
         "name": "FrontGate Fast Loader",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0.93,
           "mag_size_mod": -6,
@@ -207,6 +223,7 @@
       },
       {
         "name": "Lockjaw Extended Mag",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 1.1,
           "ads_movement_mod": 0.94,
@@ -223,6 +240,7 @@
     "MUZZLE": [
       {
         "name": "Hawker Series 45",
+        "unlock_level": 4,
         "mods": {
           "gun_kick_mod": 0.83,
           "vert_recoil_mod": 0.82
@@ -230,6 +248,7 @@
       },
       {
         "name": "Hawker Stabilizer MK.II",
+        "unlock_level": 10,
         "mods": {
           "gun_kick_mod": 0.89,
           "vert_recoil_mod": 0.88,
@@ -239,6 +258,7 @@
       },
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 1.26,
           "bv_mod": 1.2,
@@ -248,6 +268,7 @@
       },
       {
         "name": "Hawker Hybrid .45",
+        "unlock_level": 30,
         "mods": {
           "ads_movement_mod": 1.05,
           "hipfire_max_mod": 0.85,
@@ -259,6 +280,7 @@
       },
       {
         "name": "Redwell Shade-X Suppressor",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "bv_mod": 0.95,
           "gun_kick_mod": 0.89,
@@ -269,12 +291,14 @@
       },
       {
         "name": "Bowen .45 Suppressor",
+        "unlock_level": 16,
         "mods": {
           "range_mod": 1.1
         }
       },
       {
         "name": "LTI Stentorian Brake",
+        "unlock_level": "Season 4 Battle Pass",
         "mods": {
           "gun_kick_mod": 1.1,
           "horiz_recoil_mod": 0.85,
@@ -285,21 +309,26 @@
     ],
     "OPTIC": [
       {
-        "name": "Lethal Tools ELO"
+        "name": "Lethal Tools ELO",
+        "unlock_level": 5
       },
       {
-        "name": "VAS LED"
+        "name": "VAS LED",
+        "unlock_level": 13
       },
       {
-        "name": "Kepler Ultra 4x"
+        "name": "Kepler Ultra 4x",
+        "unlock_level": 21
       },
       {
-        "name": "Millimeter Scanner"
+        "name": "Millimeter Scanner",
+        "unlock_level": 29
       }
     ],
     "REAR GRIP": [
       {
         "name": "Delta Axis Grip",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 1.04,
           "horiz_recoil_mod": 0.82
@@ -307,6 +336,7 @@
       },
       {
         "name": "Helix-Tac Grip",
+        "unlock_level": 17,
         "mods": {
           "stf_mod": 0.76,
           "jump_sprint_fire_speed_mod": 0.77
@@ -314,6 +344,7 @@
       },
       {
         "name": "QuikArm Grip",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0.74,
           "jump_ads_mod": 0.75
@@ -321,6 +352,7 @@
       },
       {
         "name": "Vantix-8 Grip",
+        "unlock_level": 31,
         "mods": {
           "gun_kick_mod": 0.92,
           "vert_recoil_mod": 0.92,
@@ -329,6 +361,7 @@
       },
       {
         "name": "Herald-Z1 Grip",
+        "unlock_level": 36,
         "mods": {
           "ads_mod": 0.87,
           "dive_fire_speed_mod": 0.8,
@@ -340,6 +373,7 @@
     "STOCK": [
       {
         "name": "Serval Q-Step Stock",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.19
@@ -347,6 +381,7 @@
       },
       {
         "name": "Endurance LD-6 Stock",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 1.14,
           "ads_movement_mod": 0.87,
@@ -358,6 +393,7 @@
       },
       {
         "name": "Defiant-45 Skeletal Stock",
+        "unlock_level": 35,
         "mods": {
           "ads_mod": 1.1,
           "gun_kick_mod": 0.92,
@@ -367,6 +403,7 @@
       },
       {
         "name": "EAM Heritage Stock",
+        "unlock_level": 25,
         "mods": {
           "crouch_movement_mod": 1.27,
           "movement_mod": 1.16,
@@ -375,6 +412,7 @@
       },
       {
         "name": "Converge Tactical Stock",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0.9,
           "hipfire_max_mod": 0.85,

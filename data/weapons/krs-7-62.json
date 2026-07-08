@@ -72,6 +72,7 @@
     "BARREL": [
       {
         "name": "15.9\" Bowen Asbury Barrel",
+        "unlock_level": 20,
         "mods": {
           "ads_movement_mod": 0.97,
           "bv_mod": 1.12,
@@ -81,12 +82,14 @@
       },
       {
         "name": "16.5\" VAS Allay Barrel",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 1.04
         }
       },
       {
         "name": "14.7\" KGS Hartha Barrel",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 1.08,
           "ads_movement_mod": 0.93,
@@ -98,6 +101,7 @@
       },
       {
         "name": "13.9\" Flyer-I Barrel",
+        "unlock_level": 28,
         "mods": {
           "ads_mod": 0.94,
           "stf_mod": 0.9
@@ -105,29 +109,34 @@
       },
       {
         "name": "15\" MFS Incursion Barrel",
+        "unlock_level": "Weapon Prestige",
         "mods": {
           "bv_mod": 1.13
         }
       },
       {
-        "name": "14.7\" K&S Hartha Barrel"
+        "name": "14.7\" K&S Hartha Barrel",
+        "unlock_level": 8
       }
     ],
     "COMB": [
       {
         "name": "Percy-V Riser",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0.75
         }
       },
       {
         "name": "Serene Poise Comb",
+        "unlock_level": 9,
         "mods": {
           "stf_mod": 0.73
         }
       },
       {
         "name": "Marshal Control Comb",
+        "unlock_level": 30,
         "mods": {
           "ads_mod": 1.04,
           "gun_kick_mod": 0.99,
@@ -136,12 +145,14 @@
       },
       {
         "name": "VAS Mettle Riser",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0.85
         }
       },
       {
         "name": "Bowen Lumet Comb",
+        "unlock_level": 35,
         "mods": {
           "gun_kick_mod": 0.91,
           "vert_recoil_mod": 0.9
@@ -151,6 +162,7 @@
     "FIRE MODS": [
       {
         "name": "7.62 NATO FMJ",
+        "unlock_level": 6,
         "mods": {
           "bv_mod": 1.1,
           "range_mod": 1.1429
@@ -158,12 +170,14 @@
       },
       {
         "name": "7.62 NATO Overpressured",
+        "unlock_level": 12,
         "mods": {
           "bv_mod": 1.2
         }
       },
       {
         "name": "Accelerated Recoil System",
+        "unlock_level": 23,
         "mods": {
           "gun_kick_mod": 0.9,
           "horiz_recoil_mod": 0.86,
@@ -172,6 +186,7 @@
       },
       {
         "name": "Fast Trigger",
+        "unlock_level": 17,
         "mods": {
           "gun_kick_mod": 1.15,
           "horiz_recoil_mod": 1.15,
@@ -183,6 +198,7 @@
     "LASER": [
       {
         "name": "1mW Instinct Laser Array",
+        "unlock_level": 31,
         "mods": {
           "ads_mod": 0.96,
           "stf_mod": 0.92
@@ -190,23 +206,28 @@
       },
       {
         "name": "Convergence Box Laser",
+        "unlock_level": 14,
         "mods": {
           "hipfire_max_mod": 0.85
         }
       },
       {
-        "name": "3mW Motion Strike Laser"
+        "name": "3mW Motion Strike Laser",
+        "unlock_level": 5
       },
       {
-        "name": "5mW Lockstep Laser"
+        "name": "5mW Lockstep Laser",
+        "unlock_level": 21
       },
       {
-        "name": "2mW Adaptive Tactical Laser"
+        "name": "2mW Adaptive Tactical Laser",
+        "unlock_level": 37
       }
     ],
     "MAGAZINE": [
       {
         "name": "Zevon Light Mag",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0.94,
           "mag_size_mod": -2,
@@ -216,6 +237,7 @@
       },
       {
         "name": "Satiate Extended Mag",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0.92,
@@ -229,12 +251,14 @@
       },
       {
         "name": "VAS Elpis-X Magazine",
+        "unlock_level": 7,
         "mods": {
           "mag_size_mod": 2
         }
       },
       {
         "name": "Verity Quick Mag",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0.93,
           "reload_mod": 0.82,
@@ -245,12 +269,14 @@
     "MUZZLE": [
       {
         "name": "Titan-R 7.62 Compensator",
+        "unlock_level": 22,
         "mods": {
           "hipfire_max_mod": 0.85
         }
       },
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 1.16,
           "bv_mod": 1.12,
@@ -259,6 +285,7 @@
       },
       {
         "name": "RL-7.62 Compensator",
+        "unlock_level": 11,
         "mods": {
           "gun_kick_mod": 0.86,
           "vert_recoil_mod": 0.85
@@ -266,6 +293,7 @@
       },
       {
         "name": "Redwell 7.62 Brake",
+        "unlock_level": 34,
         "mods": {
           "gun_kick_mod": 0.93,
           "vert_recoil_mod": 0.92
@@ -273,6 +301,7 @@
       },
       {
         "name": "Redwell Shade-X Suppressor",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "bv_mod": 0.95,
           "gun_kick_mod": 0.89,
@@ -283,6 +312,7 @@
       },
       {
         "name": "LTI Stentorian Brake",
+        "unlock_level": "Season 4 Battle Pass",
         "mods": {
           "gun_kick_mod": 1.06,
           "horiz_recoil_mod": 0.8,
@@ -291,12 +321,14 @@
         }
       },
       {
-        "name": "Greaves A-762"
+        "name": "Greaves A-762",
+        "unlock_level": 3
       }
     ],
     "STOCK": [
       {
         "name": "Anglia Fleet Stock",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0.94,
           "ads_movement_mod": 1.21
@@ -304,6 +336,7 @@
       },
       {
         "name": "Cheval Gallant Stock",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 1.06,
           "gun_kick_mod": 0.95,
@@ -313,6 +346,7 @@
       },
       {
         "name": "Epona-21 Stock",
+        "unlock_level": 25,
         "mods": {
           "crouch_movement_mod": 1.39,
           "movement_mod": 1.23,
@@ -321,12 +355,14 @@
       },
       {
         "name": "Karst-09 Stock",
+        "unlock_level": 32,
         "mods": {
           "hipfire_max_mod": 0.85
         }
       },
       {
         "name": "Iris Stable Stock",
+        "unlock_level": 36,
         "mods": {
           "ads_mod": 1.09,
           "ads_movement_mod": 0.86,
@@ -339,6 +375,7 @@
     "UNDERBARREL": [
       {
         "name": "Quickstep Foregrip",
+        "unlock_level": 38,
         "mods": {
           "ads_movement_mod": 1.12,
           "crouch_movement_mod": 1.09,
@@ -347,6 +384,7 @@
       },
       {
         "name": "Envoy Foregrip",
+        "unlock_level": 29,
         "mods": {
           "crouch_movement_mod": 1.09,
           "gun_kick_mod": 0.99,
@@ -357,6 +395,7 @@
       },
       {
         "name": "Force Stabilizer Handstop",
+        "unlock_level": 4,
         "mods": {
           "gun_kick_mod": 0.99,
           "horiz_recoil_mod": 0.8
@@ -364,6 +403,7 @@
       },
       {
         "name": "VAS Convergence Foregrip",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "gun_kick_mod": 0.91,
           "horiz_recoil_mod": 0.8,
@@ -372,13 +412,15 @@
       },
       {
         "name": "Ironhold Angled Grip",
+        "unlock_level": 33,
         "mods": {
           "gun_kick_mod": 0.99,
           "horiz_recoil_mod": 0.8
         }
       },
       {
-        "name": "Enhance-32 Handstop"
+        "name": "Enhance-32 Handstop",
+        "unlock_level": 26
       }
     ]
   },

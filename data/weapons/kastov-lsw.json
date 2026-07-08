@@ -218,6 +218,7 @@
     "BARREL": [
       {
         "name": "Elevator D20 Long Barrel",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -238,6 +239,7 @@
       },
       {
         "name": "Mitigator X40 Heavy Barrel",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 1.11,
           "ads_movement_mod": 0.95,
@@ -258,6 +260,7 @@
       },
       {
         "name": "Bombast T54 Short Barrel",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 1.05,
@@ -562,6 +565,7 @@
     "MAGAZINE": [
       {
         "name": "150 Round Mag",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0.95,
@@ -1406,6 +1410,7 @@
     "REAR GRIP": [
       {
         "name": "Weave-L7 Grip",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1426,6 +1431,7 @@
       },
       {
         "name": "Detector V1 Grip",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.94,
@@ -1446,6 +1452,7 @@
       },
       {
         "name": "Demo VIP-09 Grip",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -1466,6 +1473,7 @@
       },
       {
         "name": "State50 Grip",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1488,6 +1496,7 @@
     "STOCK": [
       {
         "name": "Spetsnaz S15 Stock",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 1.21,
           "ads_movement_mod": 0,
@@ -1508,6 +1517,7 @@
       },
       {
         "name": "Broadside Stock",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 1.08,
@@ -1528,6 +1538,7 @@
       },
       {
         "name": "CLVR Heavy Stock",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -1548,6 +1559,7 @@
       },
       {
         "name": "No Stock",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.2,
@@ -2310,6 +2322,7 @@
       },
       {
         "name": "Bracefire-HC Grip",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.39,

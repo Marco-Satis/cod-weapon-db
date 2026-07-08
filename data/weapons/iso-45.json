@@ -228,6 +228,7 @@
     "BARREL": [
       {
         "name": "4\" Frame S-1",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0.88,
           "ads_movement_mod": 0,
@@ -248,6 +249,7 @@
       },
       {
         "name": "9\" PTX Trainer",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 1.03,
@@ -288,6 +290,7 @@
       },
       {
         "name": "7\" Ex Raptor-V2",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 1.05,
@@ -308,6 +311,7 @@
       },
       {
         "name": "16\" XLB-S",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 1.12,
           "ads_movement_mod": 0.96,
@@ -632,6 +636,7 @@
     "MAGAZINE": [
       {
         "name": "45 Round Drum",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 1.11,
           "ads_movement_mod": 0.92,
@@ -652,6 +657,7 @@
       },
       {
         "name": "12 Round Mag",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0.87,
           "ads_movement_mod": 1.11,
@@ -1456,6 +1462,7 @@
     "REAR GRIP": [
       {
         "name": "Stalwart GX",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -1476,6 +1483,7 @@
       },
       {
         "name": "EXP Shear",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -1496,6 +1504,7 @@
       },
       {
         "name": "A30 Stout",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1518,6 +1527,7 @@
     "STOCK": [
       {
         "name": "Mace 650",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 1.01,
           "ads_movement_mod": 0.94,
@@ -1538,6 +1548,7 @@
       },
       {
         "name": "SK-3 Cheetah",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 1.05,
@@ -1558,6 +1569,7 @@
       },
       {
         "name": "Demo Fade Tac",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.11,
@@ -1578,6 +1590,7 @@
       },
       {
         "name": "Torrent Span-9",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 1.04,
           "ads_movement_mod": 0,

@@ -72,6 +72,7 @@
     "BARREL": [
       {
         "name": "18.2\" Primer Barrel",
+        "unlock_level": 2,
         "mods": {
           "bv_mod": 0.9,
           "horiz_recoil_mod": 0.9
@@ -79,12 +80,14 @@
       },
       {
         "name": "20\" SWF Tartarus Barrel",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 1.05
         }
       },
       {
         "name": "16.8\" Fixative Mix Barrel",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 1.04,
           "bv_mod": 1.08
@@ -92,6 +95,7 @@
       },
       {
         "name": "15.6\" Stolos Short Barrel",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 0.95,
           "stf_mod": 0.94
@@ -99,6 +103,7 @@
       },
       {
         "name": "18.2\" Parlous Heavy Barrel",
+        "unlock_level": 36,
         "mods": {
           "ads_mod": 1.12,
           "ads_movement_mod": 0.88,
@@ -113,6 +118,7 @@
     "FIRE MODS": [
       {
         "name": "MFS 48-Dread Burst Mod",
+        "unlock_level": "Weapon Prestige",
         "mods": {
           "ads_movement_mod": 1.08,
           "bv_mod": 0.9,
@@ -126,12 +132,14 @@
       },
       {
         "name": "5.45 Overpressured",
+        "unlock_level": 4,
         "mods": {
           "bv_mod": 1.2
         }
       },
       {
         "name": "Buffer Spring",
+        "unlock_level": 31,
         "mods": {
           "gun_kick_mod": 0.9,
           "horiz_recoil_mod": 0.9,
@@ -140,6 +148,7 @@
       },
       {
         "name": "5.45 FMJ",
+        "unlock_level": 33,
         "mods": {
           "bv_mod": 1.15,
           "range_mod": 1.15
@@ -149,30 +158,36 @@
     "LASER": [
       {
         "name": "Convergence Box Laser",
+        "unlock_level": 11,
         "mods": {
           "hipfire_max_mod": 0.85
         }
       },
       {
         "name": "1mW Instinct Laser Array",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 0.94,
           "stf_mod": 0.94
         }
       },
       {
-        "name": "2mw Adaptive Tactical Laser"
+        "name": "2mw Adaptive Tactical Laser",
+        "unlock_level": 6
       },
       {
-        "name": "5mw Lockstep Laser"
+        "name": "5mw Lockstep Laser",
+        "unlock_level": 20
       },
       {
-        "name": "3mW Motion Strike Laser"
+        "name": "3mW Motion Strike Laser",
+        "unlock_level": 37
       }
     ],
     "MAGAZINE": [
       {
         "name": "Clepen Fast Mag",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0.95,
           "mag_size_mod": -42,
@@ -182,6 +197,7 @@
       },
       {
         "name": "Invective Expansion Mag",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 1.07,
           "mag_size_mod": 48,
@@ -190,6 +206,7 @@
       },
       {
         "name": "Samarskiy Overdrive Belt",
+        "unlock_level": 34,
         "mods": {
           "gun_kick_mod": 0.9,
           "horiz_recoil_mod": 0.9,
@@ -199,6 +216,7 @@
       },
       {
         "name": "Nevis-K Bulk Magazine",
+        "unlock_level": 28,
         "mods": {
           "ads_mod": 1.11,
           "mag_size_mod": 78,
@@ -207,6 +225,7 @@
       },
       {
         "name": "Ludens Speed Mag",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0.92,
           "mag_size_mod": -60,
@@ -218,6 +237,7 @@
     "MUZZLE": [
       {
         "name": "EMT3 Compensator",
+        "unlock_level": 18,
         "mods": {
           "gun_kick_mod": 0.82,
           "vert_recoil_mod": 0.82
@@ -225,12 +245,14 @@
       },
       {
         "name": "EMT3 Ported-70",
+        "unlock_level": 26,
         "mods": {
           "hipfire_max_mod": 0.75
         }
       },
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": 38,
         "mods": {
           "ads_mod": 1.19,
           "bv_mod": 1.2,
@@ -239,6 +261,7 @@
       },
       {
         "name": "Eclipse 7.62 Brake",
+        "unlock_level": 10,
         "mods": {
           "gun_kick_mod": 0.9,
           "vert_recoil_mod": 0.9
@@ -246,6 +269,7 @@
       },
       {
         "name": "Redwell Shade-X Suppressor",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "gun_kick_mod": 0.89,
           "horiz_recoil_mod": 0.89,
@@ -255,12 +279,14 @@
       },
       {
         "name": "SWF Tishina-11",
+        "unlock_level": 3,
         "mods": {
           "range_mod": 1.08
         }
       },
       {
         "name": "LTI Stentorian Brake",
+        "unlock_level": "Season 4 Battle Pass",
         "mods": {
           "gun_kick_mod": 1.06,
           "horiz_recoil_mod": 0.8,
@@ -272,12 +298,14 @@
     "REAR GRIP": [
       {
         "name": "Pythian-VI Grip",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0.74
         }
       },
       {
         "name": "SWF Garrote Grip",
+        "unlock_level": 29,
         "mods": {
           "gun_kick_mod": 0.88,
           "vert_recoil_mod": 0.88
@@ -285,18 +313,21 @@
       },
       {
         "name": "Rennen Grip",
+        "unlock_level": 17,
         "mods": {
           "stf_mod": 0.74
         }
       },
       {
         "name": "Hoover Precision Grip",
+        "unlock_level": 22,
         "mods": {
           "horiz_recoil_mod": 0.88
         }
       },
       {
         "name": "Eldritch Ergo Grip",
+        "unlock_level": 39,
         "mods": {
           "ads_mod": 0.84
         }
@@ -305,6 +336,7 @@
     "STOCK": [
       {
         "name": "Voda Flounce Stock",
+        "unlock_level": 16,
         "mods": {
           "crouch_movement_mod": 1.4,
           "movement_mod": 1.22,
@@ -313,6 +345,7 @@
       },
       {
         "name": "Callow Mix Stock",
+        "unlock_level": 40,
         "mods": {
           "ads_mod": 1.07,
           "gun_kick_mod": 0.95,
@@ -322,6 +355,7 @@
       },
       {
         "name": "Echidna Aim Stock",
+        "unlock_level": 30,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 1.26
@@ -329,6 +363,7 @@
       },
       {
         "name": "Taction Control Stock",
+        "unlock_level": 7,
         "mods": {
           "gun_kick_mod": 0.79,
           "horiz_recoil_mod": 0.79,
@@ -337,6 +372,7 @@
       },
       {
         "name": "Milton Tactical Stock",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0.95,
           "hipfire_max_mod": 0.85,
@@ -347,12 +383,14 @@
     "UNDERBARREL": [
       {
         "name": "LTI Missive Grip",
+        "unlock_level": 15,
         "mods": {
           "horiz_recoil_mod": 0.82
         }
       },
       {
         "name": "Envoy Foregrip",
+        "unlock_level": 35,
         "mods": {
           "crouch_movement_mod": 1.11,
           "horiz_recoil_mod": 0.85,
@@ -362,6 +400,7 @@
       },
       {
         "name": "Parallel Foregrip",
+        "unlock_level": 32,
         "mods": {
           "ads_mod": 0.87,
           "ads_movement_mod": 1.2
@@ -369,12 +408,14 @@
       },
       {
         "name": "H-Lock Foregrip",
+        "unlock_level": 9,
         "mods": {
           "horiz_recoil_mod": 0.9
         }
       },
       {
         "name": "Strider Handstop",
+        "unlock_level": 24,
         "mods": {
           "ads_movement_mod": 1.11,
           "crouch_movement_mod": 1.11,
@@ -383,6 +424,7 @@
       },
       {
         "name": "VAS Convergence Foregrip",
+        "unlock_level": "Season 3 Battle Pass",
         "mods": {
           "gun_kick_mod": 0.85,
           "horiz_recoil_mod": 0.87,
@@ -390,7 +432,8 @@
         }
       },
       {
-        "name": "Enhance-32 Handstop"
+        "name": "Enhance-32 Handstop",
+        "unlock_level": 5
       }
     ]
   }

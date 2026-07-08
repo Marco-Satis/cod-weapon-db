@@ -93,22 +93,26 @@
       },
       {
         "name": "7.92 High Grain Rounds",
+        "unlock_level": 0,
         "mods": {
           "bv_mod": 1.15,
           "range_mod": 1.1491
         }
       },
       {
-        "name": "7.92x57 Armor Piercing"
+        "name": "7.92x57 Armor Piercing",
+        "unlock_level": 11
       },
       {
         "name": "7.92x57mm High Velocity",
+        "unlock_level": 0,
         "mods": {
           "bv_mod": 1.25
         }
       },
       {
         "name": "7.92x57mm Spire Point",
+        "unlock_level": 0,
         "mods": {
           "bv_mod": 1.15,
           "range_mod": 1.0518
@@ -116,21 +120,25 @@
       },
       {
         "name": "7.92x57mm High Grain Rounds",
+        "unlock_level": 0,
         "mods": {
           "bv_mod": 1.15,
           "range_mod": 1.1491
         }
       },
       {
-        "name": "7.92x57mm Mono"
+        "name": "7.92x57mm Mono",
+        "unlock_level": 0
       },
       {
-        "name": "7.92x57mm Armor Piercing"
+        "name": "7.92x57mm Armor Piercing",
+        "unlock_level": 11
       }
     ],
     "BARREL": [
       {
         "name": "Bryson Carbine-S",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 1.11,
@@ -151,6 +159,7 @@
       },
       {
         "name": "Bayonet",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 1.05,
           "ads_movement_mod": 0,
@@ -171,6 +180,7 @@
       },
       {
         "name": "Prazisionsgewehr 762 Long",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 1.05,
           "ads_movement_mod": 0,
@@ -191,6 +201,7 @@
       },
       {
         "name": "Canvas Barrel Wrap",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 1.09,
           "ads_movement_mod": 0.91,
@@ -935,6 +946,7 @@
       },
       {
         "name": "Silentium 792",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1334,17 +1346,20 @@
         }
       },
       {
-        "name": "Bayonet"
+        "name": "Bayonet",
+        "unlock_level": 0
       }
     ],
     "OPTIC": [
       {
-        "name": "Range Caller V3.4"
+        "name": "Range Caller V3.4",
+        "unlock_level": 3
       }
     ],
     "SLING": [
       {
         "name": "Tactical Sling",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.05,
@@ -1365,6 +1380,7 @@
       },
       {
         "name": "Recon Sling",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.91,
@@ -1385,6 +1401,7 @@
       },
       {
         "name": "Target Sling",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 0,
@@ -1407,6 +1424,7 @@
     "STOCK": [
       {
         "name": "No Stock",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0.87,
           "ads_movement_mod": 1.15,
@@ -1427,6 +1445,7 @@
       },
       {
         "name": "Prazisionsschaft Stock",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 1.09,
           "ads_movement_mod": 0.95,
@@ -1447,6 +1466,7 @@
       },
       {
         "name": "Repeller Tac Stock",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0.96,
           "ads_movement_mod": 1.09,

@@ -212,6 +212,7 @@
       },
       {
         "name": "5.56 Hollow Point",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -254,6 +255,7 @@
     "BARREL": [
       {
         "name": "14\" Bruen Echelon",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 1.1,
           "ads_movement_mod": 0.96,
@@ -274,6 +276,7 @@
       },
       {
         "name": "7\" Bruen B-M20",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0.89,
           "ads_movement_mod": 1.04,
@@ -618,6 +621,7 @@
     "MAGAZINE": [
       {
         "name": "60 Round Mag",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 1.2,
           "ads_movement_mod": 0.85,
@@ -638,6 +642,7 @@
       },
       {
         "name": "45 Round Mag",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 1.1,
           "ads_movement_mod": 0.92,
@@ -900,6 +905,7 @@
       },
       {
         "name": "Zulu-60",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1060,6 +1066,7 @@
       },
       {
         "name": "FJX Fulcrum Pro",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1280,6 +1287,7 @@
       },
       {
         "name": "JCZ-390 Muzzle Device",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1320,6 +1328,7 @@
       },
       {
         "name": "Cronen MAW-86",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1664,6 +1673,7 @@
       },
       {
         "name": "Bruen R90 Factory",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 1.07,
@@ -1746,6 +1756,7 @@
       },
       {
         "name": "Edge-47 Grip",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

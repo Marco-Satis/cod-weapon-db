@@ -92,6 +92,7 @@
       },
       {
         "name": "9MM High Velocity",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -234,6 +235,7 @@
     "BARREL": [
       {
         "name": "EXF OPAL-9",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0.94,
           "ads_movement_mod": 1.06,
@@ -254,6 +256,7 @@
       },
       {
         "name": "EXF Trope-H",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0.93,
@@ -274,6 +277,7 @@
       },
       {
         "name": "XTEN Windfall",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -294,6 +298,7 @@
       },
       {
         "name": "FT Competition",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 1.22,
           "ads_movement_mod": 0.97,
@@ -314,6 +319,7 @@
       },
       {
         "name": "SA Longfire",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 1.12,
           "ads_movement_mod": 0,
@@ -538,6 +544,7 @@
     "MAGAZINE": [
       {
         "name": "20 Round Mag",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 1.05,
           "ads_movement_mod": 0.96,
@@ -558,6 +565,7 @@
       },
       {
         "name": "26 Round Mag",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 1.1,
           "ads_movement_mod": 0.92,
@@ -1002,6 +1010,7 @@
     "REAR GRIP": [
       {
         "name": "Daemon Hand",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -1022,6 +1031,7 @@
       },
       {
         "name": "Magwell Grip",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1062,6 +1072,7 @@
       },
       {
         "name": "Razorleaf Grip",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

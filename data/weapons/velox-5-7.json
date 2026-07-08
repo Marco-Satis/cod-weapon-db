@@ -58,6 +58,7 @@
     "BARREL": [
       {
         "name": "4” MFS Celeste Barrel",
+        "unlock_level": "Weapon Prestige",
         "mods": {
           "ads_movement_mod": 1.17,
           "crouch_movement_mod": 1.05,
@@ -69,18 +70,21 @@
       },
       {
         "name": "7.8\" Redwell T-Arrow Barrel",
+        "unlock_level": 13,
         "mods": {
           "range_mod": 1.2222
         }
       },
       {
         "name": "7.1\" Anodized-88 Barrel",
+        "unlock_level": 19,
         "mods": {
           "bv_mod": 1.4
         }
       },
       {
         "name": "5.2\" LX-3M Barrel",
+        "unlock_level": 24,
         "mods": {
           "bv_mod": 1.2,
           "range_mod": 1.1111
@@ -88,6 +92,7 @@
       },
       {
         "name": "5.2\" Anvil Barrel",
+        "unlock_level": 8,
         "mods": {
           "gun_kick_mod": 1.3,
           "horiz_recoil_mod": 1.2,
@@ -96,6 +101,7 @@
       },
       {
         "name": "4\" MFS Celeste Barrel",
+        "unlock_level": "Weapon Prestige",
         "mods": {
           "ads_movement_mod": 1.17,
           "crouch_movement_mod": 1.05,
@@ -104,12 +110,14 @@
         }
       },
       {
-        "name": "Velox 5.7 Carbine Chassis"
+        "name": "Velox 5.7 Carbine Chassis",
+        "unlock_level": "Weekly Challenge Reward"
       }
     ],
     "FIRE MODS": [
       {
         "name": "Accelerated Recoil System",
+        "unlock_level": 6,
         "mods": {
           "gun_kick_mod": 0.9,
           "horiz_recoil_mod": 0.9,
@@ -118,6 +126,7 @@
       },
       {
         "name": "Enhanced Cycle System",
+        "unlock_level": 11,
         "mods": {
           "bv_mod": 0.92,
           "gun_kick_mod": 1.2,
@@ -129,17 +138,20 @@
       },
       {
         "name": "5.7x28mm Overpressured",
+        "unlock_level": 14,
         "mods": {
           "bv_mod": 1.2
         }
       },
       {
-        "name": "5.7x28mm FMJ"
+        "name": "5.7x28mm FMJ",
+        "unlock_level": 28
       }
     ],
     "LASER": [
       {
         "name": "Rapid Sight Motion Laser",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0.91,
           "stf_mod": 0.82,
@@ -149,38 +161,45 @@
       },
       {
         "name": "AirGlide Target Laser",
+        "unlock_level": 30,
         "mods": {
           "range_mod": 1.1
         }
       },
       {
         "name": "Vector Sync Laser",
+        "unlock_level": 15,
         "mods": {
           "hipfire_max_mod": 0.85
         }
       },
       {
-        "name": "XS-1 Tactical Laser"
+        "name": "XS-1 Tactical Laser",
+        "unlock_level": 3
       },
       {
-        "name": "Jäger Rapid Zero-X Laser"
+        "name": "Jäger Rapid Zero-X Laser",
+        "unlock_level": 27
       }
     ],
     "MAGAZINE": [
       {
         "name": "Serpens Fast Mag",
+        "unlock_level": 4,
         "mods": {
           "reload_mod": 0.85
         }
       },
       {
         "name": "Corvus Extended Mag",
+        "unlock_level": 10,
         "mods": {
           "mag_size_mod": 3
         }
       },
       {
         "name": "Draco Reserve Extended II",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 1.13,
           "mag_size_mod": 9,
@@ -194,6 +213,7 @@
     "MUZZLE": [
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": 29,
         "mods": {
           "ads_mod": 1.34,
           "bv_mod": 1.2,
@@ -203,6 +223,7 @@
       },
       {
         "name": "G-57 Viper Compensator",
+        "unlock_level": 12,
         "mods": {
           "gun_kick_mod": 0.86,
           "vert_recoil_mod": 0.85
@@ -210,6 +231,7 @@
       },
       {
         "name": "Greaves Multi-Port Compensator",
+        "unlock_level": 25,
         "mods": {
           "hipfire_max_mod": 0.75,
           "dive_fire_speed_mod": 0.8,
@@ -218,6 +240,7 @@
       },
       {
         "name": "Greaves 5.7 Narrow Brake",
+        "unlock_level": 20,
         "mods": {
           "gun_kick_mod": 0.92,
           "vert_recoil_mod": 0.92,
@@ -227,6 +250,7 @@
       },
       {
         "name": "Redwell Shade-X Suppressor",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "bv_mod": 0.87,
           "gun_kick_mod": 0.89,
@@ -237,6 +261,7 @@
       },
       {
         "name": "LTI Stentorian Brake",
+        "unlock_level": "Season 4 Battle Pass",
         "mods": {
           "gun_kick_mod": 1.09,
           "horiz_recoil_mod": 0.71,
@@ -245,20 +270,24 @@
         }
       },
       {
-        "name": "Greaves Covert-5"
+        "name": "Greaves Covert-5",
+        "unlock_level": 7
       }
     ],
     "OPTIC": [
       {
-        "name": "VAS LED"
+        "name": "VAS LED",
+        "unlock_level": 5
       },
       {
-        "name": "VAS MicroFlex"
+        "name": "VAS MicroFlex",
+        "unlock_level": 16
       }
     ],
     "REAR GRIP": [
       {
         "name": "Quick Spine Grip",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0.56,
           "jump_ads_mod": 0.59
@@ -266,6 +295,7 @@
       },
       {
         "name": "Perennial Grip",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0.75,
           "dive_fire_speed_mod": 0.8,
@@ -275,12 +305,14 @@
       },
       {
         "name": "Hunter Stability Grip",
+        "unlock_level": 18,
         "mods": {
           "horiz_recoil_mod": 0.92
         }
       },
       {
         "name": "NT-Speed Grip",
+        "unlock_level": 2,
         "mods": {
           "stf_mod": 0.73,
           "jump_sprint_fire_speed_mod": 0.73
@@ -288,6 +320,7 @@
       },
       {
         "name": "RDW-12 Fast Grip",
+        "unlock_level": 26,
         "mods": {
           "gun_kick_mod": 0.9,
           "vert_recoil_mod": 0.9,
@@ -298,6 +331,7 @@
     "STOCK": [
       {
         "name": "Akimbo Velox 5.7",
+        "unlock_level": 22,
         "mods": {
           "hipfire_max_mod": 1.25,
           "reload_mod": 1.24

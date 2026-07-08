@@ -257,6 +257,7 @@
     "BARREL": [
       {
         "name": "18\" Tack-2L",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 1.08,
           "ads_movement_mod": 1.02,
@@ -277,6 +278,7 @@
       },
       {
         "name": "17\" IO-XL",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 1.19,
           "ads_movement_mod": 0.88,
@@ -297,6 +299,7 @@
       },
       {
         "name": "16\" Tankr-V",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0.92,
@@ -317,6 +320,7 @@
       },
       {
         "name": "13\" Frenzy IX",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0.88,
           "ads_movement_mod": 0,
@@ -339,6 +343,7 @@
     "COMB": [
       {
         "name": "sl-x trim",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -359,6 +364,7 @@
       },
       {
         "name": "H1 Precision",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 1.27,
           "ads_movement_mod": 0.94,
@@ -379,6 +385,7 @@
       },
       {
         "name": "LTX Eclipse",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0.94,
@@ -703,6 +710,7 @@
     "MAGAZINE": [
       {
         "name": "45 Round Mag",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 1.11,
           "ads_movement_mod": 0.91,
@@ -723,6 +731,7 @@
       },
       {
         "name": "60 Round Mag",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 1.2,
           "ads_movement_mod": 0.84,
@@ -1607,6 +1616,7 @@
     "REAR GRIP": [
       {
         "name": "Casus X",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -1627,6 +1637,7 @@
       },
       {
         "name": "FLT-22",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -1647,6 +1658,7 @@
       },
       {
         "name": "ERG-X1",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1669,6 +1681,7 @@
     "STOCK": [
       {
         "name": "OPR Threat",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 0.95,
@@ -1689,6 +1702,7 @@
       },
       {
         "name": "TR Preamble",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.13,
@@ -1709,6 +1723,7 @@
       },
       {
         "name": "TA Ergo",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 0.97,
@@ -2071,6 +2086,7 @@
       },
       {
         "name": "DM Proto-Grip",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 1.22,
           "ads_movement_mod": 0,

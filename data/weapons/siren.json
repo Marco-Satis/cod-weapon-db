@@ -44,6 +44,7 @@
     "MAGAZINE": [
       {
         "name": "MFS Deflection Core",
+        "unlock_level": "Weapon Prestige",
         "mods": {
           "bv_mod": 1.5,
           "mag_size_mod": 3,
@@ -54,6 +55,7 @@
     "REAR GRIP": [
       {
         "name": "Soma-81 Grip",
+        "unlock_level": 20,
         "mods": {
           "ads_movement_mod": 1.1,
           "crouch_movement_mod": 1.05,
@@ -63,6 +65,7 @@
       },
       {
         "name": "Lancet Tear Grip",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0.85,
           "stf_mod": 0.83

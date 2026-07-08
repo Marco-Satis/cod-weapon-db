@@ -274,6 +274,7 @@
     "BARREL": [
       {
         "name": "Fervor 762 Short",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0.95,
           "ads_movement_mod": 1.08,
@@ -294,6 +295,7 @@
       },
       {
         "name": "Dozer-90 Long",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 1.08,
           "ads_movement_mod": 0.94,
@@ -618,6 +620,7 @@
     "MAGAZINE": [
       {
         "name": "50 Round Drum",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 1.11,
           "ads_movement_mod": 0.93,
@@ -638,6 +641,7 @@
       },
       {
         "name": "7.62x51 30 Round Mag",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 1.04,
           "ads_movement_mod": 0.98,
@@ -1524,12 +1528,14 @@
     ],
     "OPTIC": [
       {
-        "name": "Quarters Classic Reflex"
+        "name": "Quarters Classic Reflex",
+        "unlock_level": 8
       }
     ],
     "REAR GRIP": [
       {
         "name": "Range Grip",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.92,
@@ -1550,6 +1556,7 @@
       },
       {
         "name": "TAC Handler Grip",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1570,6 +1577,7 @@
       },
       {
         "name": "PCS-90 Assault grip",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 1.11,
           "ads_movement_mod": 0,
@@ -1592,6 +1600,7 @@
     "STOCK": [
       {
         "name": "HRT-L0 Precision",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -1612,6 +1621,7 @@
       },
       {
         "name": "Telescoping Stock",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0.89,
           "ads_movement_mod": 0,
@@ -1632,6 +1642,7 @@
       },
       {
         "name": "STT-88 Precision",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1652,6 +1663,7 @@
       },
       {
         "name": "Motion-V2 Heavy",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 1.11,
           "ads_movement_mod": 0,

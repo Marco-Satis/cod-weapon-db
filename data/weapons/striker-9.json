@@ -249,6 +249,7 @@
     "BARREL": [
       {
         "name": "Striker Elite Long",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.96,
@@ -269,6 +270,7 @@
       },
       {
         "name": "Striker Stubby",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 1.08,
@@ -289,6 +291,7 @@
       },
       {
         "name": "Striker Recon Long",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.98,
@@ -311,6 +314,7 @@
     "LASER": [
       {
         "name": "Kimura RYL33 Laser Light",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 0,
@@ -610,12 +614,14 @@
         }
       },
       {
-        "name": "CS15 Scarlet Mounted Laser"
+        "name": "CS15 Scarlet Mounted Laser",
+        "unlock_level": 9
       }
     ],
     "MAGAZINE": [
       {
         "name": "40 Round Mag",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0.97,
@@ -636,6 +642,7 @@
       },
       {
         "name": "25 Round Mag",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0.94,
           "ads_movement_mod": 1.05,
@@ -656,6 +663,7 @@
       },
       {
         "name": "50 Round Drum",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 1.11,
           "ads_movement_mod": 0.95,
@@ -698,6 +706,7 @@
       },
       {
         "name": "Colossus Suppressor",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -778,6 +787,7 @@
       },
       {
         "name": "Colossus Suppressor S",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1238,6 +1248,7 @@
       },
       {
         "name": "T4LR Saber Compensator",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1298,6 +1309,7 @@
       },
       {
         "name": "S-37C DL Breacher Device",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1497,17 +1509,20 @@
         }
       },
       {
-        "name": "T4LR Saber Compensator S"
+        "name": "T4LR Saber Compensator S",
+        "unlock_level": 11
       }
     ],
     "OPTIC": [
       {
-        "name": "Cronen Mini Dot"
+        "name": "Cronen Mini Dot",
+        "unlock_level": 2
       }
     ],
     "REAR GRIP": [
       {
         "name": "TACGRIP",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1528,6 +1543,7 @@
       },
       {
         "name": "FTAC G-5 Exo",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.8,
@@ -1548,6 +1564,7 @@
       },
       {
         "name": "Sakin ZX Grip",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1570,6 +1587,7 @@
     "STOCK": [
       {
         "name": "Lachmann Recon Series",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.97,
@@ -1590,6 +1608,7 @@
       },
       {
         "name": "RB Crotalus Assault",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0.96,
           "ads_movement_mod": 0,
@@ -1610,6 +1629,7 @@
       },
       {
         "name": "Lachmann MK2 Light",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1630,6 +1650,7 @@
       },
       {
         "name": "No Stock",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.1,
@@ -1650,6 +1671,7 @@
       },
       {
         "name": "Striker Factory Stock",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.06,
@@ -1670,6 +1692,7 @@
       },
       {
         "name": "Lachmann BR400 Heavy Brace",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1709,7 +1732,8 @@
         }
       },
       {
-        "name": "Striker Factory"
+        "name": "Striker Factory",
+        "unlock_level": 22
       }
     ],
     "UNDERBARREL": [
@@ -2195,6 +2219,7 @@
       },
       {
         "name": "Bruen Sync Shot Grip",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -2634,7 +2659,8 @@
         }
       },
       {
-        "name": "FSS Priority Tactical"
+        "name": "FSS Priority Tactical",
+        "unlock_level": 8
       }
     ]
   }

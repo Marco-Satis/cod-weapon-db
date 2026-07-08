@@ -146,6 +146,7 @@
       },
       {
         "name": "5.7X28MM Hollowpoint",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -168,6 +169,7 @@
     "BARREL": [
       {
         "name": "FSS Cannonade 16\"",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0,
@@ -188,6 +190,7 @@
       },
       {
         "name": "FSS-X7 Barrel",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 1.08,
           "ads_movement_mod": 0.98,
@@ -672,6 +675,7 @@
       },
       {
         "name": "XTEN Razor Comp",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -772,6 +776,7 @@
       },
       {
         "name": "XTEN Black Kite",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -932,6 +937,7 @@
       },
       {
         "name": "XRK Knockout Breach",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1354,6 +1360,7 @@
       },
       {
         "name": "Phantom Grip",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -1376,6 +1383,7 @@
     "STOCK": [
       {
         "name": "Demo Quicksilver Stock",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 1.07,
@@ -1456,6 +1464,7 @@
       },
       {
         "name": "Demo Quicksilver Collapsed",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.11,

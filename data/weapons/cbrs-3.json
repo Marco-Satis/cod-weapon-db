@@ -72,6 +72,7 @@
     "BARREL": [
       {
         "name": "11\" Gaunt Barrel",
+        "unlock_level": 31,
         "mods": {
           "ads_mod": 0.84,
           "hipfire_max_mod": 0.8,
@@ -82,6 +83,7 @@
       },
       {
         "name": "13\" Taryos Barrel",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0.84,
           "ads_movement_mod": 0.95
@@ -89,6 +91,7 @@
       },
       {
         "name": "15\" Redwell Parlay Barrel",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 1.09,
           "ads_movement_mod": 0.93
@@ -96,6 +99,7 @@
       },
       {
         "name": "13.7\" LTI Subdue Barrel",
+        "unlock_level": 25,
         "mods": {
           "ads_movement_mod": 0.96,
           "bv_mod": 1.12,
@@ -105,24 +109,28 @@
       },
       {
         "name": "14\" Rake Barrel",
+        "unlock_level": 36,
         "mods": {
           "ads_mod": 1.06,
           "bv_mod": 1.08
         }
       },
       {
-        "name": "13\" Tarvos Barrel"
+        "name": "13\" Tarvos Barrel",
+        "unlock_level": 16
       }
     ],
     "FIRE MODS": [
       {
         "name": "9mm Parabellum Overpressu",
+        "unlock_level": 19,
         "mods": {
           "bv_mod": 1.2
         }
       },
       {
         "name": "9mm Parabellum FMJ",
+        "unlock_level": 9,
         "mods": {
           "bv_mod": 1.08,
           "range_mod": 1.08
@@ -130,6 +138,7 @@
       },
       {
         "name": "Bolt Carrier Group",
+        "unlock_level": 22,
         "mods": {
           "bv_mod": 0.9,
           "gun_kick_mod": 1.15,
@@ -140,6 +149,7 @@
       },
       {
         "name": "Accelerated Recoil System",
+        "unlock_level": 15,
         "mods": {
           "gun_kick_mod": 0.9,
           "horiz_recoil_mod": 0.9,
@@ -147,12 +157,14 @@
         }
       },
       {
-        "name": "9mm Parabellum Overpressured"
+        "name": "9mm Parabellum Overpressured",
+        "unlock_level": 19
       }
     ],
     "LASER": [
       {
         "name": "LTI SwiftPoint Laser",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0.91,
           "stf_mod": 0.83
@@ -160,23 +172,28 @@
       },
       {
         "name": "EAM ScatterLine Laser",
+        "unlock_level": 17,
         "mods": {
           "hipfire_max_mod": 0.85
         }
       },
       {
-        "name": "VAS Precision Shift Laser"
+        "name": "VAS Precision Shift Laser",
+        "unlock_level": 3
       },
       {
-        "name": "EMT3 Agile Laser"
+        "name": "EMT3 Agile Laser",
+        "unlock_level": 24
       },
       {
-        "name": "Redwell Tactical Laser"
+        "name": "Redwell Tactical Laser",
+        "unlock_level": 29
       }
     ],
     "MAGAZINE": [
       {
         "name": "MFS Carrousel Fast Mag",
+        "unlock_level": "Weapon Prestige",
         "mods": {
           "ads_mod": 0.87,
           "reload_mod": 0.72,
@@ -185,6 +202,7 @@
       },
       {
         "name": "Redwell Sprocket Mag",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 1.13,
           "mag_size_mod": 15,
@@ -193,18 +211,21 @@
         }
       },
       {
-        "name": "MFS Carousel Fast Mag"
+        "name": "MFS Carousel Fast Mag",
+        "unlock_level": "Weapon Prestige"
       }
     ],
     "MUZZLE": [
       {
         "name": "Bowen 9mm Suppressor",
+        "unlock_level": 10,
         "mods": {
           "range_mod": 1.1
         }
       },
       {
         "name": "Redwell Shade-X Suppressor",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "bv_mod": 0.95,
           "gun_kick_mod": 0.89,
@@ -215,6 +236,7 @@
       },
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": 35,
         "mods": {
           "ads_mod": 1.34,
           "bv_mod": 1.2,
@@ -223,6 +245,7 @@
       },
       {
         "name": "Hawker Series 45",
+        "unlock_level": 26,
         "mods": {
           "gun_kick_mod": 0.86,
           "vert_recoil_mod": 0.85
@@ -230,6 +253,7 @@
       },
       {
         "name": "Hawker Stabilizer MK.II",
+        "unlock_level": 2,
         "mods": {
           "gun_kick_mod": 0.93,
           "vert_recoil_mod": 0.92
@@ -237,6 +261,7 @@
       },
       {
         "name": "LTI Stentorian Brake",
+        "unlock_level": "Season 4 Battle Pass",
         "mods": {
           "gun_kick_mod": 1.06,
           "horiz_recoil_mod": 0.79,
@@ -246,6 +271,7 @@
       },
       {
         "name": "Hawker Hybrid .45",
+        "unlock_level": 30,
         "mods": {
           "ads_movement_mod": 1.05,
           "hipfire_max_mod": 0.75,
@@ -257,6 +283,7 @@
     "REAR GRIP": [
       {
         "name": "Squall Control Grip",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 1.03,
           "gun_kick_mod": 0.99,
@@ -265,18 +292,21 @@
       },
       {
         "name": "Rounder Grip",
+        "unlock_level": 13,
         "mods": {
           "stf_mod": 0.65
         }
       },
       {
         "name": "Alabaster Grip",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0.66
         }
       },
       {
         "name": "Intrepid Grip",
+        "unlock_level": 28,
         "mods": {
           "gun_kick_mod": 0.91,
           "vert_recoil_mod": 0.9
@@ -284,6 +314,7 @@
       },
       {
         "name": "Ante Grip",
+        "unlock_level": 34,
         "mods": {
           "ads_mod": 0.78
         }
@@ -292,6 +323,7 @@
     "STOCK": [
       {
         "name": "Slipway Stock",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0.89,
           "ads_movement_mod": 1.17
@@ -299,6 +331,7 @@
       },
       {
         "name": "Corinth Control Stock",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0.95,
@@ -309,6 +342,7 @@
       },
       {
         "name": "Redwell Styx Stock",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0.87,
           "hipfire_max_mod": 0.85,
@@ -317,6 +351,7 @@
       },
       {
         "name": "Casino Light Stock",
+        "unlock_level": 23,
         "mods": {
           "crouch_movement_mod": 1.28,
           "movement_mod": 1.17,
@@ -325,6 +360,7 @@
       },
       {
         "name": "Diptych Hybrid Stock",
+        "unlock_level": 32,
         "mods": {
           "ads_mod": 1.04,
           "gun_kick_mod": 0.88,
@@ -336,6 +372,7 @@
     "UNDERBARREL": [
       {
         "name": "Quickstep Foregrip",
+        "unlock_level": 27,
         "mods": {
           "ads_movement_mod": 1.1,
           "crouch_movement_mod": 1.08,
@@ -344,6 +381,7 @@
       },
       {
         "name": "VAS Convergence Foregrip",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "gun_kick_mod": 0.86,
           "horiz_recoil_mod": 0.83,
@@ -352,6 +390,7 @@
       },
       {
         "name": "Vitalize Handstop",
+        "unlock_level": 4,
         "mods": {
           "gun_kick_mod": 0.99,
           "horiz_recoil_mod": 0.8
@@ -359,6 +398,7 @@
       },
       {
         "name": "Lateral Precision Grip",
+        "unlock_level": 21,
         "mods": {
           "gun_kick_mod": 0.98,
           "horiz_recoil_mod": 0.7
@@ -366,6 +406,7 @@
       },
       {
         "name": "Sapper Guard Handstop",
+        "unlock_level": 33,
         "mods": {
           "crouch_movement_mod": 1.08,
           "gun_kick_mod": 0.99,
@@ -375,7 +416,8 @@
         }
       },
       {
-        "name": "Respire Handstop"
+        "name": "Respire Handstop",
+        "unlock_level": 6
       }
     ]
   },

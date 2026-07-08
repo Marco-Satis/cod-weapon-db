@@ -73,6 +73,7 @@
     "BARREL": [
       {
         "name": "Reinforced Barrel",
+        "unlock_level": 32,
         "mods": {
           "bv_mod": 1.2,
           "range_mod": 1.2013
@@ -80,18 +81,21 @@
       },
       {
         "name": "Gain-Twist Barrel",
+        "unlock_level": 5,
         "mods": {
           "bv_mod": 1.45
         }
       },
       {
         "name": "Long Barrel",
+        "unlock_level": 14,
         "mods": {
           "range_mod": 1.4508
         }
       },
       {
         "name": "CHF Barrel",
+        "unlock_level": 24,
         "mods": {
           "gun_kick_mod": 1.3,
           "horiz_recoil_mod": 1.1,
@@ -99,30 +103,35 @@
         }
       },
       {
-        "name": "Short Barrel"
+        "name": "Short Barrel",
+        "unlock_level": 40
       }
     ],
     "COMB": [
       {
         "name": "Combat Riser",
+        "unlock_level": 13,
         "mods": {
           "stf_mod": 0.47
         }
       },
       {
         "name": "Quickdraw Riser",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0.69
         }
       },
       {
         "name": "CQB Riser",
+        "unlock_level": 33,
         "mods": {
           "stf_mod": 0.65
         }
       },
       {
         "name": "Commando Riser",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0.86,
           "stf_mod": 0.76
@@ -130,6 +139,7 @@
       },
       {
         "name": "Ergonomic Riser",
+        "unlock_level": 41,
         "mods": {
           "ads_mod": 0.82
         }
@@ -138,6 +148,7 @@
     "FIRE MODS": [
       {
         "name": "Rapid Fire",
+        "unlock_level": 39,
         "mods": {
           "gun_kick_mod": 0.88,
           "horiz_recoil_mod": 0.88,
@@ -147,6 +158,7 @@
       },
       {
         "name": "Recoil Springs",
+        "unlock_level": 30,
         "mods": {
           "gun_kick_mod": 0.85,
           "horiz_recoil_mod": 0.85,
@@ -155,37 +167,45 @@
       },
       {
         "name": "5.56 NATO Overpressured",
+        "unlock_level": 17,
         "mods": {
           "bv_mod": 1.2
         }
       },
       {
-        "name": "5.56 NATO FMJ"
+        "name": "5.56 NATO FMJ",
+        "unlock_level": 7
       }
     ],
     "LASER": [
       {
         "name": "Steady Aim Laser",
+        "unlock_level": 27,
         "mods": {
           "hipfire_max_mod": 0.8
         }
       },
       {
-        "name": "Strelok Laser"
+        "name": "Strelok Laser",
+        "unlock_level": 12
       },
       {
-        "name": "Tactical Laser"
+        "name": "Tactical Laser",
+        "unlock_level": 18
       },
       {
-        "name": "Fast Motion Laser"
+        "name": "Fast Motion Laser",
+        "unlock_level": 29
       },
       {
-        "name": "Target Laser"
+        "name": "Target Laser",
+        "unlock_level": 36
       }
     ],
     "MAGAZINE": [
       {
         "name": "Extended Mag I",
+        "unlock_level": 16,
         "mods": {
           "mag_size_mod": 15,
           "reload_mod": 0.96
@@ -193,12 +213,14 @@
       },
       {
         "name": "Flip Mag",
+        "unlock_level": 8,
         "mods": {
           "reload_mod": 0.88
         }
       },
       {
         "name": "Extended Mag II",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 1.08,
           "mag_size_mod": 30,
@@ -208,6 +230,7 @@
       },
       {
         "name": "Fast Mag I",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0.9,
           "mag_size_mod": -6,
@@ -218,10 +241,12 @@
     ],
     "MUZZLE": [
       {
-        "name": "Muzzle Brake"
+        "name": "Muzzle Brake",
+        "unlock_level": 23
       },
       {
         "name": "Ported Compensator",
+        "unlock_level": 34,
         "mods": {
           "gun_kick_mod": 0.75,
           "vert_recoil_mod": 0.75
@@ -229,6 +254,7 @@
       },
       {
         "name": "Compensator",
+        "unlock_level": 11,
         "mods": {
           "gun_kick_mod": 0.65,
           "vert_recoil_mod": 0.65
@@ -236,18 +262,21 @@
       },
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": "Armory Unlock",
         "mods": {
           "bv_mod": 1.2,
           "range_mod": 1.1
         }
       },
       {
-        "name": "Suppressor"
+        "name": "Suppressor",
+        "unlock_level": 2
       }
     ],
     "STOCK": [
       {
         "name": "Light Pad",
+        "unlock_level": 15,
         "mods": {
           "crouch_movement_mod": 1.4,
           "movement_mod": 1.22
@@ -255,12 +284,14 @@
       },
       {
         "name": "Combat Pad",
+        "unlock_level": 42,
         "mods": {
           "ads_movement_mod": 1.12
         }
       },
       {
         "name": "Balanced Pad",
+        "unlock_level": 31,
         "mods": {
           "ads_movement_mod": 1.1,
           "crouch_movement_mod": 1.2,
@@ -269,23 +300,27 @@
       },
       {
         "name": "Infiltrator Pad",
+        "unlock_level": 38,
         "mods": {
           "ads_movement_mod": 1.2
         }
       },
       {
-        "name": "Heavy Pad"
+        "name": "Heavy Pad",
+        "unlock_level": 6
       }
     ],
     "UNDERBARREL": [
       {
         "name": "Precision Foregrip",
+        "unlock_level": 28,
         "mods": {
           "horiz_recoil_mod": 0.8
         }
       },
       {
         "name": "Ranger Foregrip",
+        "unlock_level": 35,
         "mods": {
           "horiz_recoil_mod": 0.8,
           "sprint_mod": 1.07
@@ -293,36 +328,45 @@
       },
       {
         "name": "Vertical Foregrip",
+        "unlock_level": 3,
         "mods": {
           "horiz_recoil_mod": 0.6
         }
       },
       {
         "name": "G-Grip",
+        "unlock_level": "Armory Unlock",
         "mods": {
           "horiz_recoil_mod": 0.8
         }
       },
       {
-        "name": "Launcher - High Explosive"
+        "name": "Launcher - High Explosive",
+        "unlock_level": 9
       },
       {
-        "name": "Lightweight Foregrip"
+        "name": "Lightweight Foregrip",
+        "unlock_level": 10
       },
       {
-        "name": "Marksman Foregrip"
+        "name": "Marksman Foregrip",
+        "unlock_level": 21
       },
       {
-        "name": "Launcher - Standard"
+        "name": "Launcher - Standard",
+        "unlock_level": 25
       },
       {
-        "name": "Launcher - Smoke"
+        "name": "Launcher - Smoke",
+        "unlock_level": 37
       },
       {
-        "name": "Launcher - Drill Charge"
+        "name": "Launcher - Drill Charge",
+        "unlock_level": 43
       },
       {
-        "name": "Crossbow"
+        "name": "Crossbow",
+        "unlock_level": "Armory Unlock"
       }
     ]
   }

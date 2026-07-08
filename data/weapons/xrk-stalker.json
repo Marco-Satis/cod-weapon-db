@@ -278,6 +278,7 @@
     "BARREL": [
       {
         "name": "Handler LKP Short",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0.86,
           "ads_movement_mod": 0,
@@ -298,6 +299,7 @@
       },
       {
         "name": "Fission 60",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0.93,
@@ -318,6 +320,7 @@
       },
       {
         "name": "XRK Stalker Factory",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 1.05,
           "ads_movement_mod": 0,
@@ -338,6 +341,7 @@
       },
       {
         "name": "XRK Stoic-4 Suppressed",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0,
@@ -377,12 +381,14 @@
         }
       },
       {
-        "name": "KLX-09 Short"
+        "name": "KLX-09 Short",
+        "unlock_level": 17
       }
     ],
     "BOLT": [
       {
         "name": "Stalker Heavy Bolt",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -403,6 +409,7 @@
       },
       {
         "name": "XRK Stalker Light Bolt",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -425,6 +432,7 @@
     "GUARD": [
       {
         "name": "Quarter-03 Light Guard",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -445,6 +453,7 @@
       },
       {
         "name": "HVS 50 Cal Heavy Guard",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 1.05,
           "ads_movement_mod": 0,
@@ -729,6 +738,7 @@
     "MAGAZINE": [
       {
         "name": "7 Round Mag",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 0.97,
@@ -749,6 +759,7 @@
       },
       {
         "name": "10 Round Mag",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 1.04,
           "ads_movement_mod": 0.95,
@@ -991,6 +1002,7 @@
       },
       {
         "name": "Mammoth 50 Suppressor",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 1.1,
           "ads_movement_mod": 0.89,
@@ -1111,6 +1123,7 @@
       },
       {
         "name": "MV50 Muzzle Brake",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1232,12 +1245,14 @@
     ],
     "OPTIC": [
       {
-        "name": "XRK Stalker"
+        "name": "XRK Stalker",
+        "unlock_level": 11
       }
     ],
     "REAR GRIP": [
       {
         "name": "FT Match Grip",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.11,
@@ -1258,6 +1273,7 @@
       },
       {
         "name": "Bruen Lynx Grip",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.78,
@@ -1278,6 +1294,7 @@
       },
       {
         "name": "XRK Stalker Factory Grip",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0.98,
           "ads_movement_mod": 0,
@@ -1297,7 +1314,8 @@
         }
       },
       {
-        "name": "Bruen Lync Grip"
+        "name": "Bruen Lync Grip",
+        "unlock_level": 3
       }
     ],
     "STOCK": [
@@ -1323,6 +1341,7 @@
       },
       {
         "name": "TAC 840C",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.12,
@@ -1343,6 +1362,7 @@
       },
       {
         "name": "Helix LV Light Stock",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0.96,
           "ads_movement_mod": 0,
@@ -1363,6 +1383,7 @@
       },
       {
         "name": "XRK Monument Heavy",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.96,
@@ -1383,6 +1404,7 @@
       },
       {
         "name": "URAL-M",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.88,
@@ -1465,6 +1487,7 @@
       },
       {
         "name": "Hardstance Bipod",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.87,

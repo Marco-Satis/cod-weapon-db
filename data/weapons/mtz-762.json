@@ -73,6 +73,7 @@
     "AMMUNITION": [
       {
         "name": "7.62x51MM Low Grain",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -299,6 +300,7 @@
     "BARREL": [
       {
         "name": "MTZ Rowan XL-356",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0.95,
           "ads_movement_mod": 0,
@@ -319,6 +321,7 @@
       },
       {
         "name": "MTZ Clinch Pro",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 1.16,
           "ads_movement_mod": 0,
@@ -339,6 +342,7 @@
       },
       {
         "name": "MTZ-Precision Blackthorn",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.9,
@@ -361,6 +365,7 @@
     "CONVERSION KIT": [
       {
         "name": "JAK Heretic Carbine Kit",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.09,
@@ -483,6 +488,7 @@
       },
       {
         "name": "Corio LAZ-44 V3",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 0,
@@ -704,16 +710,19 @@
         }
       },
       {
-        "name": "20 round mag"
+        "name": "20 round mag",
+        "unlock_level": 22
       },
       {
         "name": "40-Round Mag"
       },
       {
-        "name": "10 Round Mag"
+        "name": "10 Round Mag",
+        "unlock_level": 5
       },
       {
-        "name": "30 Round Mag"
+        "name": "30 Round Mag",
+        "unlock_level": 22
       }
     ],
     "MUZZLE": [
@@ -1359,6 +1368,7 @@
       },
       {
         "name": "T4LR Saber Compensator",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1479,6 +1489,7 @@
       },
       {
         "name": "STER45 Skyfury Compensator",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1499,6 +1510,7 @@
       },
       {
         "name": "HMRES MOD Suppressor",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1578,26 +1590,32 @@
         }
       },
       {
-        "name": "HMRES MOD Suppressor L"
+        "name": "HMRES MOD Suppressor L",
+        "unlock_level": 10
       },
       {
-        "name": "Purifier Muzzle Brake L"
+        "name": "Purifier Muzzle Brake L",
+        "unlock_level": 17
       },
       {
-        "name": "STER45 Skyfury Compensator L"
+        "name": "STER45 Skyfury Compensator L",
+        "unlock_level": 20
       },
       {
-        "name": "T4LR Saber Compensator L"
+        "name": "T4LR Saber Compensator L",
+        "unlock_level": 23
       }
     ],
     "OPTIC": [
       {
-        "name": "TOS Nightfall 2.5x Thermal"
+        "name": "TOS Nightfall 2.5x Thermal",
+        "unlock_level": 7
       }
     ],
     "REAR GRIP": [
       {
         "name": "XRK Sniper Palmrest Grip",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.81,
@@ -1618,6 +1636,7 @@
       },
       {
         "name": "MTZ Aggressor Grip",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.08,
@@ -1638,6 +1657,7 @@
       },
       {
         "name": "MTZ Factory Rear Grip",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1660,6 +1680,7 @@
     "STOCK": [
       {
         "name": "MTZ Marauder",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0.81,
           "ads_movement_mod": 0,
@@ -1680,6 +1701,7 @@
       },
       {
         "name": "Bruen Archangel MK2",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0,
@@ -1700,6 +1722,7 @@
       },
       {
         "name": "Bruen Push",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.13,
@@ -1720,6 +1743,7 @@
       },
       {
         "name": "EXF Close Quarters Assault",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0,
@@ -1740,6 +1764,7 @@
       },
       {
         "name": "MTZ Litestrike Telescopic",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.08,
@@ -1760,6 +1785,7 @@
       },
       {
         "name": "MCW Blackjack",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.92,
@@ -2762,6 +2788,7 @@
       },
       {
         "name": "Phase-3 Grip",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

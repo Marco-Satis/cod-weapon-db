@@ -274,6 +274,7 @@
       },
       {
         "name": "KSTV-17",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 1.1,
           "ads_movement_mod": 0,
@@ -1644,6 +1645,7 @@
       },
       {
         "name": "KSTV-RPK Factory",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0.94,

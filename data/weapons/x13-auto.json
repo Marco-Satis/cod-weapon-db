@@ -262,6 +262,7 @@
     "BARREL": [
       {
         "name": "Impact Point",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 1.15,
           "ads_movement_mod": 0.95,
@@ -302,6 +303,7 @@
       },
       {
         "name": "XRK LUC-9",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0.95,
           "ads_movement_mod": 1.04,
@@ -464,6 +466,7 @@
       },
       {
         "name": "DZM-1000 L",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -526,6 +529,7 @@
     "MAGAZINE": [
       {
         "name": "33 Round Mag",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 1.22,
           "ads_movement_mod": 0.89,
@@ -566,6 +570,7 @@
       },
       {
         "name": "50 Round Drum",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 1.44,
           "ads_movement_mod": 0.79,
@@ -628,6 +633,7 @@
       },
       {
         "name": "Corvus Series-D",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -668,6 +674,7 @@
       },
       {
         "name": "CN30 Suppressor",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -708,6 +715,7 @@
       },
       {
         "name": "DZS Open Comp",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1010,6 +1018,7 @@
     "REAR GRIP": [
       {
         "name": "Akimbo X13",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1050,6 +1059,7 @@
       },
       {
         "name": "Cronen LIMA-6",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -1092,6 +1102,7 @@
     "STOCK": [
       {
         "name": "X13 Coachwhip Stock",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1112,6 +1123,7 @@
       },
       {
         "name": "XRK Bar",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1132,6 +1144,7 @@
       },
       {
         "name": "XRK Dynamic Precision",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1254,6 +1267,7 @@
       },
       {
         "name": "Agent Grip",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

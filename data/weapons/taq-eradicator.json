@@ -152,6 +152,7 @@
       },
       {
         "name": "7.62x51mm High Velocity",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -274,6 +275,7 @@
     "BARREL": [
       {
         "name": "Nullifier-7 Light",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -294,6 +296,7 @@
       },
       {
         "name": "Conquer-70 Long",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.89,
@@ -314,6 +317,7 @@
       },
       {
         "name": "Exiler-84 Short",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.09,
@@ -335,33 +339,40 @@
     ],
     "LASER": [
       {
-        "name": "SZ 1mw PEQ"
+        "name": "SZ 1mw PEQ",
+        "unlock_level": 12
       }
     ],
     "MAGAZINE": [
       {
-        "name": "45 Round Mag"
+        "name": "45 Round Mag",
+        "unlock_level": 11
       }
     ],
     "MUZZLE": [
       {
-        "name": "T51R Billeted Brake L"
+        "name": "T51R Billeted Brake L",
+        "unlock_level": 10
       },
       {
-        "name": "Monolithic Suppressor L"
+        "name": "Monolithic Suppressor L",
+        "unlock_level": 20
       }
     ],
     "OPTIC": [
       {
-        "name": "SZ Lonewolf Optic"
+        "name": "SZ Lonewolf Optic",
+        "unlock_level": 4
       },
       {
-        "name": "Corio ELT-10 2.5"
+        "name": "Corio ELT-10 2.5",
+        "unlock_level": 15
       }
     ],
     "REAR GRIP": [
       {
         "name": "FSS Combat Grip",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -382,6 +393,7 @@
       },
       {
         "name": "Demo Cleanshot Grip",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -402,6 +414,7 @@
       },
       {
         "name": "Marksman Palm Grip",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.86,
@@ -422,6 +435,7 @@
       },
       {
         "name": "XRK Response Grip",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 1.11,
           "ads_movement_mod": 1.05,
@@ -444,6 +458,7 @@
     "STOCK": [
       {
         "name": "TV Xline Pro",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 0,
@@ -463,18 +478,22 @@
         }
       },
       {
-        "name": "Tactique Brute"
+        "name": "Tactique Brute",
+        "unlock_level": 3
       },
       {
-        "name": "TACVERTE Core"
+        "name": "TACVERTE Core",
+        "unlock_level": 13
       },
       {
-        "name": "TV Ballast"
+        "name": "TV Ballast",
+        "unlock_level": 19
       }
     ],
     "UNDERBARREL": [
       {
-        "name": "VX Pineapple"
+        "name": "VX Pineapple",
+        "unlock_level": 7
       }
     ]
   }

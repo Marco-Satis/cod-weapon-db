@@ -289,6 +289,7 @@
     "BARREL": [
       {
         "name": "18\" Precision-6",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0,
@@ -309,6 +310,7 @@
       },
       {
         "name": "Lance-50 12\"",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -331,6 +333,7 @@
     "LASER": [
       {
         "name": "FTAC Grimline Laser",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -633,6 +636,7 @@
     "MAGAZINE": [
       {
         "name": "50 Round Drum",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 1.15,
           "ads_movement_mod": 0.86,
@@ -653,6 +657,7 @@
       },
       {
         "name": "30 Round Mag",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0.93,
@@ -755,6 +760,7 @@
       },
       {
         "name": "Echoline GS-X",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -955,6 +961,7 @@
       },
       {
         "name": "Tempus GH50",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1195,6 +1202,7 @@
       },
       {
         "name": "GL Clear Breach",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1557,6 +1565,7 @@
       },
       {
         "name": "Demo Cleanshot Grip",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -1599,6 +1608,7 @@
       },
       {
         "name": "Tactique Brute Stock",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 0.98,
@@ -2081,6 +2091,7 @@
       },
       {
         "name": "Merc Foregrip",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -2541,6 +2552,7 @@
       },
       {
         "name": "Bipod V9 Grip",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

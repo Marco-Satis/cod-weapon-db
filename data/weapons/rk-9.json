@@ -72,6 +72,7 @@
     "BARREL": [
       {
         "name": "8.7\" EAM Hollow Barrel",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0.82,
           "hipfire_max_mod": 0.8,
@@ -84,6 +85,7 @@
       },
       {
         "name": "11.3\" Blackstar Barrel",
+        "unlock_level": 37,
         "mods": {
           "ads_movement_mod": 0.96,
           "bv_mod": 1.12,
@@ -94,12 +96,14 @@
       },
       {
         "name": "13.6\" Mercurial Barrel",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 1.08
         }
       },
       {
         "name": "9.9\" Bowen Cerlum Barrel",
+        "unlock_level": 30,
         "mods": {
           "ads_mod": 1.05,
           "bv_mod": 1.08
@@ -107,24 +111,28 @@
       },
       {
         "name": "12.4\" VAS Tethys Barrel",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 0.94
         }
       },
       {
-        "name": "9.9\" Bowen Cerium Barrel"
+        "name": "9.9\" Bowen Cerium Barrel",
+        "unlock_level": 30
       }
     ],
     "FIRE MODS": [
       {
         "name": "9mm Parabellum Overpressured",
+        "unlock_level": 2,
         "mods": {
           "bv_mod": 1.2
         }
       },
       {
         "name": "Enhanced Cycle System",
+        "unlock_level": 39,
         "mods": {
           "bv_mod": 0.9,
           "gun_kick_mod": 1.1,
@@ -136,6 +144,7 @@
       },
       {
         "name": "Accelerated Recoil System",
+        "unlock_level": 18,
         "mods": {
           "gun_kick_mod": 0.9,
           "horiz_recoil_mod": 0.9,
@@ -144,6 +153,7 @@
       },
       {
         "name": "9mm Parabellum FMJ",
+        "unlock_level": 26,
         "mods": {
           "bv_mod": 1.08,
           "range_mod": 1.08
@@ -153,12 +163,14 @@
     "LASER": [
       {
         "name": "EMT3 Agile Laser",
+        "unlock_level": 31,
         "mods": {
           "range_mod": 1.17
         }
       },
       {
         "name": "LTI SwiftPoint Laser",
+        "unlock_level": 42,
         "mods": {
           "ads_mod": 0.92,
           "stf_mod": 0.83,
@@ -168,20 +180,24 @@
       },
       {
         "name": "EAM ScatterLine Laser",
+        "unlock_level": 4,
         "mods": {
           "hipfire_max_mod": 0.85
         }
       },
       {
-        "name": "Redwell Tactical Laser"
+        "name": "Redwell Tactical Laser",
+        "unlock_level": 15
       },
       {
-        "name": "VAS Precision Shift Laser"
+        "name": "VAS Precision Shift Laser",
+        "unlock_level": 23
       }
     ],
     "MAGAZINE": [
       {
         "name": "Silverline Flip Mag",
+        "unlock_level": 13,
         "mods": {
           "mag_size_mod": 5,
           "reload_mod": 0.72
@@ -189,6 +205,7 @@
       },
       {
         "name": "Compact Void Mag",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 0.95,
           "reload_mod": 0.58,
@@ -199,6 +216,7 @@
       },
       {
         "name": "Ascot Drum Mag",
+        "unlock_level": 34,
         "mods": {
           "ads_mod": 1.1,
           "ads_movement_mod": 0.94,
@@ -213,6 +231,7 @@
       },
       {
         "name": "Alliance Extended Mag",
+        "unlock_level": 6,
         "mods": {
           "mag_size_mod": 12
         }
@@ -221,6 +240,7 @@
     "MUZZLE": [
       {
         "name": "Hawker Stabilizer MK.II",
+        "unlock_level": 12,
         "mods": {
           "gun_kick_mod": 0.95,
           "vert_recoil_mod": 0.95,
@@ -230,6 +250,7 @@
       },
       {
         "name": "Hawker Hybrid .45",
+        "unlock_level": 35,
         "mods": {
           "ads_movement_mod": 1.05,
           "hipfire_max_mod": 0.75,
@@ -241,6 +262,7 @@
       },
       {
         "name": "Hawker Series 45",
+        "unlock_level": 20,
         "mods": {
           "gun_kick_mod": 0.82,
           "vert_recoil_mod": 0.82
@@ -248,6 +270,7 @@
       },
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": 28,
         "mods": {
           "ads_mod": 1.28,
           "bv_mod": 1.2,
@@ -256,6 +279,7 @@
       },
       {
         "name": "Redwell Shade-X Suppressor",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "bv_mod": 0.95,
           "gun_kick_mod": 0.89,
@@ -266,6 +290,7 @@
       },
       {
         "name": "LTI Stentorian Brake",
+        "unlock_level": "Season 4 Battle Pass",
         "mods": {
           "gun_kick_mod": 1.1,
           "horiz_recoil_mod": 0.75,
@@ -275,6 +300,7 @@
       },
       {
         "name": "Bowen .45 Suppressor",
+        "unlock_level": 7,
         "mods": {
           "range_mod": 1.1
         }
@@ -282,21 +308,26 @@
     ],
     "OPTIC": [
       {
-        "name": "VAS MicroFlex"
+        "name": "VAS MicroFlex",
+        "unlock_level": 5
       },
       {
-        "name": "Greaves Red Dot"
+        "name": "Greaves Red Dot",
+        "unlock_level": 14
       },
       {
-        "name": "EAM Dyad xL"
+        "name": "EAM Dyad xL",
+        "unlock_level": 24
       },
       {
-        "name": "Solaris Holo-IR"
+        "name": "Solaris Holo-IR",
+        "unlock_level": 33
       }
     ],
     "REAR GRIP": [
       {
         "name": "Lotus Draw Grip",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0.67,
           "jump_ads_mod": 0.65
@@ -304,6 +335,7 @@
       },
       {
         "name": "Vega Precision Grip",
+        "unlock_level": 36,
         "mods": {
           "ads_mod": 1.08,
           "horiz_recoil_mod": 0.88
@@ -311,6 +343,7 @@
       },
       {
         "name": "Raft Ready Grip",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 0.82,
           "dive_fire_speed_mod": 0.8,
@@ -320,6 +353,7 @@
       },
       {
         "name": "Nanopulse Grip",
+        "unlock_level": 41,
         "mods": {
           "gun_kick_mod": 0.88,
           "vert_recoil_mod": 0.88,
@@ -328,6 +362,7 @@
       },
       {
         "name": "606-T Skeleton Grip",
+        "unlock_level": 19,
         "mods": {
           "stf_mod": 0.65,
           "jump_sprint_fire_speed_mod": 0.65
@@ -337,6 +372,7 @@
     "STOCK": [
       {
         "name": "Lontra Step Stock",
+        "unlock_level": 32,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.23
@@ -344,6 +380,7 @@
       },
       {
         "name": "VQ-45 Harpy Stock",
+        "unlock_level": 40,
         "mods": {
           "ads_mod": 1.1,
           "gun_kick_mod": 0.95,
@@ -353,6 +390,7 @@
       },
       {
         "name": "Nightfall Rapid Stock",
+        "unlock_level": 9,
         "mods": {
           "crouch_movement_mod": 1.29,
           "movement_mod": 1.17,
@@ -361,6 +399,7 @@
       },
       {
         "name": "VAS Conduit Stock",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 1.15,
           "ads_movement_mod": 0.88,
@@ -372,6 +411,7 @@
       },
       {
         "name": "Vectra Tactical Stock",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0.9,
           "hipfire_max_mod": 0.85,
@@ -382,6 +422,7 @@
     "UNDERBARREL": [
       {
         "name": "MFS Ironlung Handstop",
+        "unlock_level": "Weapon Prestige",
         "mods": {
           "gun_kick_mod": 0.8,
           "horiz_recoil_mod": 0.8,
@@ -391,6 +432,7 @@
       },
       {
         "name": "Quickstep Foregrip",
+        "unlock_level": 8,
         "mods": {
           "ads_movement_mod": 1.11,
           "crouch_movement_mod": 1.07,
@@ -399,18 +441,21 @@
       },
       {
         "name": "Zero Shift Handstop",
+        "unlock_level": 34,
         "mods": {
           "horiz_recoil_mod": 0.8
         }
       },
       {
         "name": "Lateral Precision Grip",
+        "unlock_level": 17,
         "mods": {
           "horiz_recoil_mod": 0.8
         }
       },
       {
         "name": "Envoy Foregrip",
+        "unlock_level": 29,
         "mods": {
           "crouch_movement_mod": 1.07,
           "horiz_recoil_mod": 0.9,
@@ -420,6 +465,7 @@
       },
       {
         "name": "VAS Convergence Foregrip",
+        "unlock_level": "Season 3 Battle Pass",
         "mods": {
           "gun_kick_mod": 0.85,
           "horiz_recoil_mod": 0.62,

@@ -86,6 +86,7 @@
     "AMMUNITION": [
       {
         "name": "12.7x55MM High Grain Rounds",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -106,6 +107,7 @@
       },
       {
         "name": "12.7x55MM Armor Piercing",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -126,6 +128,7 @@
       },
       {
         "name": "12.7x55MM Frangible",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -146,6 +149,7 @@
       },
       {
         "name": "12.7X55MM Snake Shot",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -166,6 +170,7 @@
       },
       {
         "name": "12.7x55MM Hollowpoint",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -186,6 +191,7 @@
       },
       {
         "name": "12.7x55MM Overpressured +P",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -206,6 +212,7 @@
       },
       {
         "name": "12.7x55MM Low Grain Rounds",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -228,6 +235,7 @@
     "BARREL": [
       {
         "name": "Hel's Reach Short",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 0,
@@ -248,6 +256,7 @@
       },
       {
         "name": "Limitless V2 Heavy",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 1.09,
           "ads_movement_mod": 0,
@@ -268,6 +277,7 @@
       },
       {
         "name": "ZIU-16 Heavy Long",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 1.09,
           "ads_movement_mod": 0,
@@ -288,6 +298,7 @@
       },
       {
         "name": "Huntlock Light",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0.95,
           "ads_movement_mod": 1.06,
@@ -310,6 +321,7 @@
     "CONVERSION KIT": [
       {
         "name": "JAK Beholder Rifle Kit",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 1.33,
           "ads_movement_mod": 0.94,
@@ -331,25 +343,30 @@
     ],
     "LASER": [
       {
-        "name": "KR HX-15 Laser Light"
+        "name": "KR HX-15 Laser Light",
+        "unlock_level": 2
       },
       {
-        "name": "CS15 Scarlet Mounted Laser"
+        "name": "CS15 Scarlet Mounted Laser",
+        "unlock_level": 22
       }
     ],
     "MUZZLE": [
       {
-        "name": "Lockshot KT85"
+        "name": "Lockshot KT85",
+        "unlock_level": 3
       }
     ],
     "OPTIC": [
       {
-        "name": "Caucasus Reflex Sight"
+        "name": "Caucasus Reflex Sight",
+        "unlock_level": 6
       }
     ],
     "REAR GRIP": [
       {
         "name": "EIR'S Respite",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -370,6 +387,7 @@
       },
       {
         "name": "Sigurd's Fist",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.79,
@@ -390,6 +408,7 @@
       },
       {
         "name": "Loki's Veil",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 1.07,
@@ -410,6 +429,7 @@
       },
       {
         "name": "Akimbo TYR",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -432,6 +452,7 @@
     "STOCK": [
       {
         "name": "ZLR Strelk",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -452,6 +473,7 @@
       },
       {
         "name": "Ivanov Support Brace",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 1.05,
           "ads_movement_mod": 0.94,
@@ -474,6 +496,7 @@
     "TRIGGERACTION": [
       {
         "name": "ULLR'S Fury",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -494,6 +517,7 @@
       },
       {
         "name": "Ali's Regret",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -513,12 +537,14 @@
         }
       },
       {
-        "name": "Odin's Judgment"
+        "name": "Odin's Judgment",
+        "unlock_level": 8
       }
     ],
     "UNDERBARREL": [
       {
-        "name": "Xten TX-12 Handstop"
+        "name": "Xten TX-12 Handstop",
+        "unlock_level": 14
       }
     ]
   }

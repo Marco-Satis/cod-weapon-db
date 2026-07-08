@@ -71,12 +71,14 @@
     "BARREL": [
       {
         "name": "17\" Bowen Moon Barrel",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 1.05
         }
       },
       {
         "name": "20\" Titan Hybrid Barrel",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 1.03,
           "bv_mod": 1.08
@@ -84,6 +86,7 @@
       },
       {
         "name": "22\" Impulse HB-762 Barrel",
+        "unlock_level": 36,
         "mods": {
           "ads_mod": 1.12,
           "ads_movement_mod": 0.88,
@@ -96,6 +99,7 @@
       },
       {
         "name": "15\" Skylance Barrel",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0.93,
           "stf_mod": 0.96,
@@ -111,6 +115,7 @@
       },
       {
         "name": "20\" Mach-78 Barrel",
+        "unlock_level": 3,
         "mods": {
           "bv_mod": 0.95,
           "horiz_recoil_mod": 0.85
@@ -118,6 +123,7 @@
       },
       {
         "name": "22'' Impulse HB-762 Barrel",
+        "unlock_level": 36,
         "mods": {
           "ads_mod": 1.12,
           "ads_movement_mod": 0.88,
@@ -142,6 +148,7 @@
       },
       {
         "name": "18.5\" Titan Hybrid Barrel",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 1.04,
           "bv_mod": 1.08
@@ -149,6 +156,7 @@
       },
       {
         "name": "14\" Kore Barrel",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "ads_mod": 1.08,
           "range_mod": 1.1429,
@@ -159,6 +167,7 @@
     "FIRE MODS": [
       {
         "name": "Accelerated Recoil System",
+        "unlock_level": 34,
         "mods": {
           "gun_kick_mod": 0.9,
           "horiz_recoil_mod": 0.9,
@@ -167,6 +176,7 @@
       },
       {
         "name": "Bolt Carrier Group",
+        "unlock_level": 18,
         "mods": {
           "bv_mod": 0.85,
           "gun_kick_mod": 1.2,
@@ -178,12 +188,14 @@
       },
       {
         "name": "7.62 NATO Overpressured",
+        "unlock_level": 4,
         "mods": {
           "bv_mod": 1.2
         }
       },
       {
         "name": "7.62 NATO FMJ",
+        "unlock_level": 43,
         "mods": {
           "bv_mod": 1.15,
           "range_mod": 1.15
@@ -193,6 +205,7 @@
     "LASER": [
       {
         "name": "1mW Instinct Laser Array",
+        "unlock_level": 41,
         "mods": {
           "ads_mod": 0.93,
           "stf_mod": 0.92,
@@ -202,26 +215,31 @@
       },
       {
         "name": "3mW Motion Strike Laser",
+        "unlock_level": 49,
         "mods": {
           "range_mod": 1.12
         }
       },
       {
         "name": "Convergence Box Laser",
+        "unlock_level": 14,
         "mods": {
           "hipfire_max_mod": 0.85
         }
       },
       {
-        "name": "2mW Adaptive Tactical Laser"
+        "name": "2mW Adaptive Tactical Laser",
+        "unlock_level": 7
       },
       {
-        "name": "5mw Lockstep Laser"
+        "name": "5mw Lockstep Laser",
+        "unlock_level": 33
       }
     ],
     "MAGAZINE": [
       {
         "name": "Gravepack Extended Belt",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 1.07,
           "mag_size_mod": 25,
@@ -232,6 +250,7 @@
       },
       {
         "name": "Payload Belt Extension",
+        "unlock_level": 42,
         "mods": {
           "ads_mod": 1.1,
           "mag_size_mod": 75,
@@ -243,6 +262,7 @@
       },
       {
         "name": "Swift Feed Fast Belt",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0.95,
           "mag_size_mod": -10,
@@ -254,6 +274,7 @@
       },
       {
         "name": "MFS Heatshield Belt Fed",
+        "unlock_level": "Weapon Prestige",
         "mods": {
           "ads_movement_mod": 1.1,
           "gun_kick_mod": 0.85,
@@ -268,6 +289,7 @@
     "MUZZLE": [
       {
         "name": "Bowen Modulator 7.62",
+        "unlock_level": 16,
         "mods": {
           "gun_kick_mod": 0.92,
           "vert_recoil_mod": 0.92,
@@ -277,6 +299,7 @@
       },
       {
         "name": "RL-7.62 Compensator",
+        "unlock_level": 29,
         "mods": {
           "gun_kick_mod": 0.8,
           "vert_recoil_mod": 0.8
@@ -284,6 +307,7 @@
       },
       {
         "name": "Titan-R 7.62 Compensator",
+        "unlock_level": 37,
         "mods": {
           "hipfire_max_mod": 0.75,
           "dive_fire_speed_mod": 0.8,
@@ -292,6 +316,7 @@
       },
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": 35,
         "mods": {
           "ads_mod": 1.19,
           "bv_mod": 1.2,
@@ -301,6 +326,7 @@
       },
       {
         "name": "Redwell Shade-X Suppressor",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "gun_kick_mod": 0.89,
           "horiz_recoil_mod": 0.89,
@@ -310,12 +336,14 @@
       },
       {
         "name": "Greaves A-762",
+        "unlock_level": 6,
         "mods": {
           "range_mod": 1.08
         }
       },
       {
         "name": "LTI Stentorian Brake",
+        "unlock_level": "Season 4 Battle Pass",
         "mods": {
           "gun_kick_mod": 1.09,
           "horiz_recoil_mod": 0.77,
@@ -326,42 +354,54 @@
     ],
     "OPTIC": [
       {
-        "name": "VAS LED"
+        "name": "VAS LED",
+        "unlock_level": 5
       },
       {
-        "name": "LTI Reflex"
+        "name": "LTI Reflex",
+        "unlock_level": 9
       },
       {
-        "name": "EMT3 Holo Mk.2"
+        "name": "EMT3 Holo Mk.2",
+        "unlock_level": 13
       },
       {
-        "name": "Kepler T-Range Holo"
+        "name": "Kepler T-Range Holo",
+        "unlock_level": 17
       },
       {
-        "name": "Greaves AccuSpot 3x"
+        "name": "Greaves AccuSpot 3x",
+        "unlock_level": 22
       },
       {
-        "name": "PrismaTech Turbo 4x"
+        "name": "PrismaTech Turbo 4x",
+        "unlock_level": 26
       },
       {
-        "name": "Greaves Ultra Zoom"
+        "name": "Greaves Ultra Zoom",
+        "unlock_level": 31
       },
       {
-        "name": "VAS Duo Hybrid Sight"
+        "name": "VAS Duo Hybrid Sight",
+        "unlock_level": 35
       },
       {
-        "name": "LTI Target Finder v.2"
+        "name": "LTI Target Finder v.2",
+        "unlock_level": 40
       },
       {
-        "name": "Circuit-Z Rangefinder"
+        "name": "Circuit-Z Rangefinder",
+        "unlock_level": 44
       },
       {
-        "name": "Bowen X-25 IR"
+        "name": "Bowen X-25 IR",
+        "unlock_level": 48
       }
     ],
     "REAR GRIP": [
       {
         "name": "Trailblaze Grip",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0.83,
           "jump_ads_mod": 0.89
@@ -369,6 +409,7 @@
       },
       {
         "name": "Fleet-G2 Grip",
+        "unlock_level": 39,
         "mods": {
           "gun_kick_mod": 0.88,
           "vert_recoil_mod": 0.88,
@@ -377,6 +418,7 @@
       },
       {
         "name": "Bowen Thrust Grip",
+        "unlock_level": 23,
         "mods": {
           "stf_mod": 0.78,
           "jump_sprint_fire_speed_mod": 0.78
@@ -384,6 +426,7 @@
       },
       {
         "name": "Hades Looper-X Grip",
+        "unlock_level": 50,
         "mods": {
           "ads_mod": 0.91,
           "dive_fire_speed_mod": 0.8,
@@ -393,6 +436,7 @@
       },
       {
         "name": "LTI Precision Grip",
+        "unlock_level": 32,
         "mods": {
           "ads_mod": 1.06,
           "horiz_recoil_mod": 0.78
@@ -402,6 +446,7 @@
     "STOCK": [
       {
         "name": "Shock Shield Stock",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 1.1,
           "ads_movement_mod": 0.82,
@@ -413,6 +458,7 @@
       },
       {
         "name": "Charon Light Stock",
+        "unlock_level": 20,
         "mods": {
           "crouch_movement_mod": 1.41,
           "movement_mod": 1.19,
@@ -421,6 +467,7 @@
       },
       {
         "name": "Bowen Light Stock",
+        "unlock_level": 38,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 1.21
@@ -428,6 +475,7 @@
       },
       {
         "name": "SwiftGuard Stock",
+        "unlock_level": 47,
         "mods": {
           "ads_mod": 1.07,
           "gun_kick_mod": 0.95,
@@ -437,6 +485,7 @@
       },
       {
         "name": "Scatter Skeletal Stock",
+        "unlock_level": 28,
         "mods": {
           "ads_mod": 0.95,
           "hipfire_max_mod": 0.85,
@@ -445,6 +494,7 @@
       },
       {
         "name": "MK.78 Lightframe PDW Conversion",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "ads_mod": 0.96,
           "ads_movement_mod": 1.17,
@@ -463,12 +513,14 @@
     "UNDERBARREL": [
       {
         "name": "Ironhold Angled Grip",
+        "unlock_level": 19,
         "mods": {
           "horiz_recoil_mod": 0.92
         }
       },
       {
         "name": "Parallel Foregrip",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0.87,
           "ads_movement_mod": 1.21,
@@ -479,6 +531,7 @@
       },
       {
         "name": "EAM Steady-90 Grip",
+        "unlock_level": 46,
         "mods": {
           "crouch_movement_mod": 1.11,
           "horiz_recoil_mod": 0.92,
@@ -488,6 +541,7 @@
       },
       {
         "name": "Quickstep Foregrip",
+        "unlock_level": 30,
         "mods": {
           "ads_movement_mod": 1.11,
           "crouch_movement_mod": 1.11,
@@ -496,12 +550,14 @@
       },
       {
         "name": "Bowen Sentry Foregrip",
+        "unlock_level": 24,
         "mods": {
           "horiz_recoil_mod": 0.75
         }
       },
       {
         "name": "VAS Convergence Foregrip",
+        "unlock_level": "Season 3 Battle Pass",
         "mods": {
           "gun_kick_mod": 0.85,
           "horiz_recoil_mod": 0.74,
@@ -509,7 +565,8 @@
         }
       },
       {
-        "name": "Enhance-32 Handstop"
+        "name": "Enhance-32 Handstop",
+        "unlock_level": 2
       }
     ]
   }

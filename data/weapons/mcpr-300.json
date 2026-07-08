@@ -72,6 +72,7 @@
     "AMMUNITION": [
       {
         "name": ".300 Mag Overpressured +P",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -92,6 +93,7 @@
       },
       {
         "name": ".300 Mag Incendiary",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -112,6 +114,7 @@
       },
       {
         "name": ".300 Mag Armor Piercing",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -132,6 +135,7 @@
       },
       {
         "name": ".300 Mag High Velocity",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -152,6 +156,7 @@
       },
       {
         "name": ".300 MAG Explosive",
+        "unlock_level": 29,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -172,6 +177,7 @@
       },
       {
         "name": ".300 Mag Frangible",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -192,6 +198,7 @@
       },
       {
         "name": ".300 Mag Hollow Point",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -214,6 +221,7 @@
     "BARREL": [
       {
         "name": "19\" Silentfire",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0.99,
           "ads_movement_mod": 0.94,
@@ -234,6 +242,7 @@
       },
       {
         "name": "17.5\" ORCA",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0.94,
           "ads_movement_mod": 0,
@@ -254,6 +263,7 @@
       },
       {
         "name": "22\" OMX-456",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0.96,
@@ -276,6 +286,7 @@
     "BOLT": [
       {
         "name": "Cronen Smooth Bolt",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -296,6 +307,7 @@
       },
       {
         "name": "Cronen B85 Bolt",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -518,6 +530,7 @@
       },
       {
         "name": "Corio LAZ-44 V3",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 0,
@@ -600,6 +613,7 @@
     "MAGAZINE": [
       {
         "name": "15 Round Mag",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 1.05,
           "ads_movement_mod": 0.86,
@@ -620,6 +634,7 @@
       },
       {
         "name": "5 Round Mag",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0.86,
           "ads_movement_mod": 1.25,
@@ -702,6 +717,7 @@
       },
       {
         "name": "Cronen DM338",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -802,6 +818,7 @@
       },
       {
         "name": "AP-390 Flash Hider",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -982,6 +999,7 @@
       },
       {
         "name": "FTAC Reaper",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1224,6 +1242,7 @@
     "REAR GRIP": [
       {
         "name": "Cronen Zero Grip",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.94,
@@ -1244,6 +1263,7 @@
       },
       {
         "name": "Cronen RFX-300",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1264,6 +1284,7 @@
       },
       {
         "name": "Cronen Cheetah Grip",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -1286,6 +1307,7 @@
     "STOCK": [
       {
         "name": "Cronen LW-88",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.2,
@@ -1306,6 +1328,7 @@
       },
       {
         "name": "Cronen Lion",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.93,
@@ -1326,6 +1349,7 @@
       },
       {
         "name": "FSS Merc Stock",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -1388,6 +1412,7 @@
       },
       {
         "name": "Cornerstone Bipod",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

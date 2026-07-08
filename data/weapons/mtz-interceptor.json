@@ -87,6 +87,7 @@
     "AMMUNITION": [
       {
         "name": "7.62x51MM High Grain",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -289,6 +290,7 @@
     "BARREL": [
       {
         "name": "MTZ Blackthorn",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.9,
@@ -309,6 +311,7 @@
       },
       {
         "name": "MTZ Longshot Pro",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.97,
@@ -351,6 +354,7 @@
       },
       {
         "name": "FSS OLE-V Laser",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0.95,
           "ads_movement_mod": 0,
@@ -633,6 +637,7 @@
     "MAGAZINE": [
       {
         "name": "20 Round Mag",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0.95,
@@ -835,6 +840,7 @@
       },
       {
         "name": "Colossus Suppressor L",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1155,6 +1161,7 @@
       },
       {
         "name": "STER45 Skyfury Compensator",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1215,6 +1222,7 @@
       },
       {
         "name": "T4LR Saber Compensator",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1234,18 +1242,22 @@
         }
       },
       {
-        "name": "STER45 Skyfury Compensator L"
+        "name": "STER45 Skyfury Compensator L",
+        "unlock_level": 7
       },
       {
-        "name": "T4LR Saber Compensator L"
+        "name": "T4LR Saber Compensator L",
+        "unlock_level": 13
       },
       {
-        "name": "Purifier Muzzle Brake L"
+        "name": "Purifier Muzzle Brake L",
+        "unlock_level": 18
       }
     ],
     "OPTIC": [
       {
-        "name": "XTEN ERX-10 Mini"
+        "name": "XTEN ERX-10 Mini",
+        "unlock_level": 6
       }
     ],
     "REAR GRIP": [
@@ -1271,6 +1283,7 @@
       },
       {
         "name": "Bruen TR-24 Assault Grip",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1291,6 +1304,7 @@
       },
       {
         "name": "MTZ Aggressor Grip",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.08,
@@ -1310,12 +1324,14 @@
         }
       },
       {
-        "name": "MTZ Factory"
+        "name": "MTZ Factory",
+        "unlock_level": 12
       }
     ],
     "STOCK": [
       {
         "name": "MCW Blackjack",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0,
@@ -1336,6 +1352,7 @@
       },
       {
         "name": "Bruen Archangel MK2",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -1356,6 +1373,7 @@
       },
       {
         "name": "FTAC Heavy Hunter",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.08,
@@ -2158,6 +2176,7 @@
       },
       {
         "name": "FTAC Ripper 56",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

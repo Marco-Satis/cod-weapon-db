@@ -112,6 +112,7 @@
       },
       {
         "name": "6.8 Composite",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 0.98,
           "ads_movement_mod": 0,
@@ -172,26 +173,32 @@
       },
       {
         "name": "6.8 High Velocity",
+        "unlock_level": 4,
         "mods": {
           "bv_mod": 1.25
         }
       },
       {
-        "name": "6.8 Frangible"
+        "name": "6.8 Frangible",
+        "unlock_level": 19
       },
       {
-        "name": "6.8 Armor Piercing"
+        "name": "6.8 Armor Piercing",
+        "unlock_level": 14
       },
       {
-        "name": "6.8 Overpressured +P"
+        "name": "6.8 Overpressured +P",
+        "unlock_level": 16
       },
       {
-        "name": "6.8 HollowPoint"
+        "name": "6.8 HollowPoint",
+        "unlock_level": 21
       }
     ],
     "BARREL": [
       {
         "name": "SB6.8 16\"",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 1.02,
@@ -212,6 +219,7 @@
       },
       {
         "name": "LR6.8 22\"",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0.98,
@@ -232,6 +240,7 @@
       },
       {
         "name": "HR6.8 Barrel",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 1.12,
           "ads_movement_mod": 0.95,
@@ -254,6 +263,7 @@
     "COMB": [
       {
         "name": "SAB Comb",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0.98,
           "ads_movement_mod": 0.95,
@@ -274,6 +284,7 @@
       },
       {
         "name": "Demo Flak Comb",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -293,7 +304,8 @@
         }
       },
       {
-        "name": "SAC Comb"
+        "name": "SAC Comb",
+        "unlock_level": 24
       }
     ],
     "LASER": [
@@ -601,6 +613,7 @@
     "MAGAZINE": [
       {
         "name": "50 round drum",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 1.17,
           "ads_movement_mod": 0.85,
@@ -621,6 +634,7 @@
       },
       {
         "name": "30 Round Mag",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0.94,
@@ -923,6 +937,7 @@
       },
       {
         "name": "Cronen SP-DR",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1485,6 +1500,7 @@
     "REAR GRIP": [
       {
         "name": "XTEN Grip",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -1505,6 +1521,7 @@
       },
       {
         "name": "D15 Grip",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -1525,6 +1542,7 @@
       },
       {
         "name": "Phantom Grip",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -1567,6 +1585,7 @@
     "STOCK": [
       {
         "name": "B13 Pad",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 1.08,
@@ -1587,6 +1606,7 @@
       },
       {
         "name": "B66 Pad",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 1.01,
           "ads_movement_mod": 0.95,
@@ -1607,6 +1627,7 @@
       },
       {
         "name": "FJX Z-PAD 9",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 1.03,
@@ -2549,6 +2570,7 @@
       },
       {
         "name": "SPW 40MW Drill",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

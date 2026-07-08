@@ -213,6 +213,7 @@
       },
       {
         "name": "7.62x54MMR Incendiary",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -258,6 +259,7 @@
     "BARREL": [
       {
         "name": "Reckoning-8 Heavy",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -278,6 +280,7 @@
       },
       {
         "name": "Supremacy-14 Short",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.03,
@@ -298,6 +301,7 @@
       },
       {
         "name": "ST Pyro Heavy",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -318,6 +322,7 @@
       },
       {
         "name": "Invoker Light",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -337,12 +342,14 @@
         }
       },
       {
-        "name": "JAK Annihilator Long Barrel"
+        "name": "JAK Annihilator Long Barrel",
+        "unlock_level": "Conversion Kit"
       }
     ],
     "CONVERSION KIT": [
       {
         "name": "JAK Annihilator Bullpup Kit",
+        "unlock_level": "Max Level",
         "mods": {
           "ads_mod": 0.83,
           "ads_movement_mod": 1.31,
@@ -585,6 +592,7 @@
       },
       {
         "name": "DXS Flash 90",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -647,6 +655,7 @@
     "MAGAZINE": [
       {
         "name": "150 Round Belt",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 1.04,
           "ads_movement_mod": 0.9,
@@ -667,6 +676,7 @@
       },
       {
         "name": "75 Round Belt",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 1.1,
@@ -687,6 +697,7 @@
       },
       {
         "name": "200 Round Belt",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0.84,
@@ -729,6 +740,7 @@
       },
       {
         "name": "Colossus Suppressor L",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -749,6 +761,7 @@
       },
       {
         "name": "Sonic Suppressor L",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1469,6 +1482,7 @@
       },
       {
         "name": "Wrathguard Compensator",
+        "unlock_level": 28,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1548,17 +1562,20 @@
         }
       },
       {
-        "name": "Wrathguard Compensator L"
+        "name": "Wrathguard Compensator L",
+        "unlock_level": 28
       }
     ],
     "OPTIC": [
       {
-        "name": "Caucasus Reflex Sight"
+        "name": "Caucasus Reflex Sight",
+        "unlock_level": 5
       }
     ],
     "REAR GRIP": [
       {
         "name": "Ivanov ST-70 Grip",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.78,
@@ -1579,6 +1596,7 @@
       },
       {
         "name": "Brace LS",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 1.19,
           "ads_movement_mod": 0,
@@ -1599,6 +1617,7 @@
       },
       {
         "name": "True-TAC Grip",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1619,6 +1638,7 @@
       },
       {
         "name": "Demo TL20 Recoil Grip",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1658,12 +1678,14 @@
         }
       },
       {
-        "name": "Nought-Z3"
+        "name": "Nought-Z3",
+        "unlock_level": 16
       }
     ],
     "STOCK": [
       {
         "name": "Ivanov Bluff Heavy",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1684,6 +1706,7 @@
       },
       {
         "name": "FT TAC-Elite",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1704,6 +1727,7 @@
       },
       {
         "name": "Ivanov HSS Ergonomic",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.08,
@@ -1724,6 +1748,7 @@
       },
       {
         "name": "STOVL Conqueror-V",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.17,
@@ -1744,6 +1769,7 @@
       },
       {
         "name": "Ivanov Wood Stock",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1766,13 +1792,16 @@
         "name": "Ivanov Wood"
       },
       {
-        "name": "Rubber Recoil Pad"
+        "name": "Rubber Recoil Pad",
+        "unlock_level": 0
       },
       {
-        "name": "Command D-15 Recoil Reduction Pad"
+        "name": "Command D-15 Recoil Reduction Pad",
+        "unlock_level": "Conversion Kit"
       },
       {
-        "name": "Harbord Ergonomic Recoil Pad"
+        "name": "Harbord Ergonomic Recoil Pad",
+        "unlock_level": 0
       }
     ],
     "UNDERBARREL": [
@@ -2218,6 +2247,7 @@
       },
       {
         "name": "DI-Grip 4.5",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -2258,6 +2288,7 @@
       },
       {
         "name": "Hound-9G Grip",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -2278,6 +2309,7 @@
       },
       {
         "name": "Pulemyot Bipod",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -2437,7 +2469,8 @@
         }
       },
       {
-        "name": "B052 Grip"
+        "name": "B052 Grip",
+        "unlock_level": 26
       }
     ]
   }

@@ -58,6 +58,7 @@
     "AMMUNITION": [
       {
         "name": ".408 Hollow Point",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -78,6 +79,7 @@
       },
       {
         "name": ".408 High Velocity",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -98,6 +100,7 @@
       },
       {
         "name": ".408 Explosive",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -118,6 +121,7 @@
       },
       {
         "name": ".408 Armor Piercing",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -138,6 +142,7 @@
       },
       {
         "name": ".408 Incendiary",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -158,6 +163,7 @@
       },
       {
         "name": ".408 Overpressured +P",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -178,6 +184,7 @@
       },
       {
         "name": ".408 Frangible",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -200,6 +207,7 @@
     "BARREL": [
       {
         "name": "CEROS 29\"",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0,
@@ -220,6 +228,7 @@
       },
       {
         "name": "LR-Retort 19\"",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.07,
@@ -240,6 +249,7 @@
       },
       {
         "name": "Fahrenheit 29\"",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 1.04,
           "ads_movement_mod": 0,
@@ -260,6 +270,7 @@
       },
       {
         "name": "CEROS 22\"",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0,
@@ -280,6 +291,7 @@
       },
       {
         "name": "TAC-Command 19\"",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 0.94,
           "ads_movement_mod": 0.96,
@@ -302,6 +314,7 @@
     "BOLT": [
       {
         "name": "FJX Blast",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -322,6 +335,7 @@
       },
       {
         "name": "FJX H-Bolt",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -343,10 +357,12 @@
     ],
     "CARRY HANDLE": [
       {
-        "name": "Keystone Handle"
+        "name": "Keystone Handle",
+        "unlock_level": 6
       },
       {
-        "name": "Field-Wrapped Handle"
+        "name": "Field-Wrapped Handle",
+        "unlock_level": 19
       }
     ],
     "LASER": [
@@ -614,6 +630,7 @@
     "MAGAZINE": [
       {
         "name": "7 Round Mag",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 0.96,
@@ -1218,6 +1235,7 @@
     "REAR GRIP": [
       {
         "name": "CP60 Grip",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 1.14,
           "ads_movement_mod": 0.9,
@@ -1238,6 +1256,7 @@
       },
       {
         "name": "Skull-40",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 0,
@@ -1260,6 +1279,7 @@
     "STOCK": [
       {
         "name": "FJX LUX-7",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.18,
@@ -1280,6 +1300,7 @@
       },
       {
         "name": "RIB400",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 0.92,
@@ -1300,6 +1321,7 @@
       },
       {
         "name": "FJX Kilo-TAC",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0.88,
           "ads_movement_mod": 0,

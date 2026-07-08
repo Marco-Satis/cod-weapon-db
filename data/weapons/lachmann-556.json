@@ -132,6 +132,7 @@
       },
       {
         "name": "5.56 Frangible",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -317,6 +318,7 @@
       },
       {
         "name": "LACH-12",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0.96,
           "ads_movement_mod": 1.04,
@@ -337,6 +339,7 @@
       },
       {
         "name": "LM Aurora 90",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 1.04,
           "ads_movement_mod": 0,
@@ -661,6 +664,7 @@
     "MAGAZINE": [
       {
         "name": "15 Round Mag",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.16,
@@ -681,6 +685,7 @@
       },
       {
         "name": "40 Round Mag",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0.94,
@@ -701,6 +706,7 @@
       },
       {
         "name": "60 Round Mag",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 1.2,
           "ads_movement_mod": 0.83,
@@ -823,6 +829,7 @@
       },
       {
         "name": "Broadhead-3DP",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1283,6 +1290,7 @@
       },
       {
         "name": "Komodo Heavy",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1707,6 +1715,7 @@
       },
       {
         "name": "Lachmann S9 Factory",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 1.11,
@@ -1727,6 +1736,7 @@
       },
       {
         "name": "RAPP-762 Factory",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.94,

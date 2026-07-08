@@ -242,6 +242,7 @@
     "BARREL": [
       {
         "name": "114mm Darkstar",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0.78,
           "ads_movement_mod": 1.07,
@@ -262,6 +263,7 @@
       },
       {
         "name": "170mm Grapple VI",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0.97,
@@ -284,6 +286,7 @@
     "CONVERSION KIT": [
       {
         "name": "JAK Decimator",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.2,
@@ -303,7 +306,8 @@
         }
       },
       {
-        "name": "JAK Decimator "
+        "name": "JAK Decimator ",
+        "unlock_level": 0
       }
     ],
     "LASER": [

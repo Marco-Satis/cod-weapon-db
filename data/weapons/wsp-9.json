@@ -133,6 +133,7 @@
       },
       {
         "name": "9MM Hollowpoint",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -235,6 +236,7 @@
     "BARREL": [
       {
         "name": "Hiss Short Light",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 0,
@@ -255,6 +257,7 @@
       },
       {
         "name": "WSP ZIP",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -275,6 +278,7 @@
       },
       {
         "name": "WSP Reckless-90 Long",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -295,6 +299,7 @@
       },
       {
         "name": "Pestilence-12 Short Compensated",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 1.2,
           "ads_movement_mod": 0,
@@ -335,6 +340,7 @@
       },
       {
         "name": "WSP Optac Long",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.97,
@@ -357,6 +363,7 @@
     "CONVERSION KIT": [
       {
         "name": "Broodmother .45 Kit",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 1.1,
           "ads_movement_mod": 0,
@@ -639,6 +646,7 @@
       },
       {
         "name": "EXF Solarflare",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -681,6 +689,7 @@
     "MAGAZINE": [
       {
         "name": "32 Round Mag",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 1.05,
           "ads_movement_mod": 0.97,
@@ -701,6 +710,7 @@
       },
       {
         "name": "40 Round Mag",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 1.08,
           "ads_movement_mod": 0.96,
@@ -721,6 +731,7 @@
       },
       {
         "name": "50 Round Mag",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 1.14,
           "ads_movement_mod": 0.93,
@@ -743,6 +754,7 @@
     "MUZZLE": [
       {
         "name": "Colossus Suppressor",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -763,6 +775,7 @@
       },
       {
         "name": "Colossus Suppressor S",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -943,6 +956,7 @@
       },
       {
         "name": "T51R Billeted Brake S",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1343,6 +1357,7 @@
       },
       {
         "name": "Wrathguard Compensator",
+        "unlock_level": 28,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1463,6 +1478,7 @@
       },
       {
         "name": "Sonic Suppressor L",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1523,6 +1539,7 @@
       },
       {
         "name": "HMRES MOD Suppressor",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1562,18 +1579,22 @@
         }
       },
       {
-        "name": "HMRES Mod Suppressor S"
+        "name": "HMRES Mod Suppressor S",
+        "unlock_level": 13
       },
       {
-        "name": "Sonic Suppressor S"
+        "name": "Sonic Suppressor S",
+        "unlock_level": 24
       },
       {
-        "name": "Wrathguard Compensator S"
+        "name": "Wrathguard Compensator S",
+        "unlock_level": 28
       }
     ],
     "REAR GRIP": [
       {
         "name": "Marauder Grip",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1594,6 +1615,7 @@
       },
       {
         "name": "WSP Hark Rubber Grip",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.8,
@@ -1614,6 +1636,7 @@
       },
       {
         "name": "WSP TAC-20 Grip",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1636,6 +1659,7 @@
     "STOCK": [
       {
         "name": "No Stock",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.1,
@@ -1656,6 +1680,7 @@
       },
       {
         "name": "Duster Heavy",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -1676,6 +1701,7 @@
       },
       {
         "name": "WSP Classics Factory",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 1.05,
           "ads_movement_mod": 0,
@@ -1696,6 +1722,7 @@
       },
       {
         "name": "Lachmann Havoc",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -1716,6 +1743,7 @@
       },
       {
         "name": "WSP Factory",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0.95,
           "ads_movement_mod": 0,
@@ -2657,7 +2685,8 @@
         }
       },
       {
-        "name": "WSP Liberator Integrated Foregrip"
+        "name": "WSP Liberator Integrated Foregrip",
+        "unlock_level": 4
       }
     ]
   }

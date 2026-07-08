@@ -72,12 +72,14 @@
     "BARREL": [
       {
         "name": "20\" Danko Barrel",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 1.07
         }
       },
       {
         "name": "14\" Hawker Fervor Barrel",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0.93,
           "stf_mod": 0.88
@@ -85,6 +87,7 @@
       },
       {
         "name": "15\" Bowen Dualist Barrel",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 1.04,
           "bv_mod": 1.08
@@ -92,6 +95,7 @@
       },
       {
         "name": "17.6\" LTI Grav-4 Barrel",
+        "unlock_level": 34,
         "mods": {
           "ads_mod": 1.15,
           "ads_movement_mod": 0.91,
@@ -104,6 +108,7 @@
       },
       {
         "name": "19.2\" Greaves-C5 Barrel",
+        "unlock_level": 7,
         "mods": {
           "ads_movement_mod": 1.1,
           "bv_mod": 0.96,
@@ -114,6 +119,7 @@
     "FIRE MODS": [
       {
         "name": "Buffer Spring",
+        "unlock_level": 41,
         "mods": {
           "gun_kick_mod": 0.9,
           "horiz_recoil_mod": 0.9,
@@ -122,6 +128,7 @@
       },
       {
         "name": "Bolt Carrier Group",
+        "unlock_level": 30,
         "mods": {
           "bv_mod": 0.85,
           "gun_kick_mod": 1.15,
@@ -133,12 +140,14 @@
       },
       {
         "name": "7.62 Soviet Overpressured",
+        "unlock_level": 19,
         "mods": {
           "bv_mod": 1.22
         }
       },
       {
         "name": "7.62 Soviet FMJ",
+        "unlock_level": 6,
         "mods": {
           "bv_mod": 1.2,
           "range_mod": 1.18
@@ -148,33 +157,39 @@
     "LASER": [
       {
         "name": "MFS Anti-Dispersion Module",
+        "unlock_level": "Weapon Prestige",
         "mods": {
           "hipfire_max_mod": 0.43
         }
       },
       {
         "name": "Convergence Box Laser",
+        "unlock_level": 29,
         "mods": {
           "hipfire_max_mod": 0.8
         }
       },
       {
         "name": "1mW Instinct Laser Array",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0.93,
           "stf_mod": 0.88
         }
       },
       {
-        "name": "2mW Adaptive Tactical Laser"
+        "name": "2mW Adaptive Tactical Laser",
+        "unlock_level": 22
       },
       {
-        "name": "3mW Motion Strike Laser"
+        "name": "3mW Motion Strike Laser",
+        "unlock_level": 37
       }
     ],
     "MAGAZINE": [
       {
         "name": "Lineguard Casket Mag",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 1.04,
           "ads_movement_mod": 0.96,
@@ -196,6 +211,7 @@
       },
       {
         "name": "Slipjoint Flip Mag",
+        "unlock_level": 12,
         "mods": {
           "mag_size_mod": 10,
           "reload_mod": 0.76
@@ -203,6 +219,7 @@
       },
       {
         "name": "Lancing Feather Mag",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0.94,
           "reload_mod": 0.66,
@@ -210,12 +227,14 @@
         }
       },
       {
-        "name": "SK-Garrison Drum"
+        "name": "SK-Garrison Drum",
+        "unlock_level": 40
       }
     ],
     "MUZZLE": [
       {
         "name": "EMT3 Ported-70",
+        "unlock_level": 13,
         "mods": {
           "ads_movement_mod": 1.05,
           "hipfire_max_mod": 0.8,
@@ -225,6 +244,7 @@
       },
       {
         "name": "Eclipse 7.62 Brake",
+        "unlock_level": 42,
         "mods": {
           "gun_kick_mod": 0.8,
           "vert_recoil_mod": 0.8
@@ -232,6 +252,7 @@
       },
       {
         "name": "Redwell Shade-X Suppressor",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "gun_kick_mod": 0.89,
           "horiz_recoil_mod": 0.89,
@@ -241,6 +262,7 @@
       },
       {
         "name": "EMT3 Compensator",
+        "unlock_level": 20,
         "mods": {
           "gun_kick_mod": 0.7,
           "vert_recoil_mod": 0.7
@@ -248,6 +270,7 @@
       },
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": 28,
         "mods": {
           "ads_mod": 1.23,
           "bv_mod": 1.1,
@@ -256,12 +279,14 @@
       },
       {
         "name": "SWF Tishina-11",
+        "unlock_level": 5,
         "mods": {
           "range_mod": 1.1
         }
       },
       {
         "name": "LTI Stentorian Brake",
+        "unlock_level": "Season 4 Battle Pass",
         "mods": {
           "gun_kick_mod": 1.07,
           "horiz_recoil_mod": 0.8,
@@ -273,24 +298,28 @@
     "REAR GRIP": [
       {
         "name": "Crisis-Q Grip",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0.74
         }
       },
       {
         "name": "Pleated Grip",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0.87
         }
       },
       {
         "name": "Initiator Grip",
+        "unlock_level": 4,
         "mods": {
           "stf_mod": 0.59
         }
       },
       {
         "name": "Path Net Grip",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 1.03,
           "horiz_recoil_mod": 0.8
@@ -298,18 +327,21 @@
       },
       {
         "name": "Targill Luster Grip",
+        "unlock_level": 35,
         "mods": {
           "gun_kick_mod": 0.75,
           "vert_recoil_mod": 0.75
         }
       },
       {
-        "name": "Targil Luster Grip"
+        "name": "Targil Luster Grip",
+        "unlock_level": 35
       }
     ],
     "STOCK": [
       {
         "name": "Bowen Tread Pad",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.2
@@ -317,6 +349,7 @@
       },
       {
         "name": "Ridgeway Pad",
+        "unlock_level": 18,
         "mods": {
           "crouch_movement_mod": 1.36,
           "movement_mod": 1.22,
@@ -325,6 +358,7 @@
       },
       {
         "name": "V-Last Control Pad",
+        "unlock_level": 33,
         "mods": {
           "ads_mod": 1.08,
           "ads_movement_mod": 0.87,
@@ -335,6 +369,7 @@
       },
       {
         "name": "Contorso Pad",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 1.09,
           "gun_kick_mod": 0.85,
@@ -344,6 +379,7 @@
       },
       {
         "name": "EMT3 Noco Pad",
+        "unlock_level": 39,
         "mods": {
           "ads_mod": 0.82,
           "hipfire_max_mod": 0.85,
@@ -354,18 +390,21 @@
     "UNDERBARREL": [
       {
         "name": "Ironhold Angled Grip",
+        "unlock_level": 25,
         "mods": {
           "horiz_recoil_mod": 0.82
         }
       },
       {
         "name": "Force Stabilizer Handstop",
+        "unlock_level": 10,
         "mods": {
           "horiz_recoil_mod": 0.7
         }
       },
       {
         "name": "Strider Handstop",
+        "unlock_level": 31,
         "mods": {
           "ads_movement_mod": 1.12,
           "crouch_movement_mod": 1.08,
@@ -374,6 +413,7 @@
       },
       {
         "name": "Sapper Guard Handstop",
+        "unlock_level": 36,
         "mods": {
           "crouch_movement_mod": 1.08,
           "horiz_recoil_mod": 0.82,
@@ -383,6 +423,7 @@
       },
       {
         "name": "VAS Convergence Foregrip",
+        "unlock_level": "Season 3 Battle Pass",
         "mods": {
           "gun_kick_mod": 0.9,
           "horiz_recoil_mod": 0.66,
@@ -390,19 +431,24 @@
         }
       },
       {
-        "name": "M335-X Tempest"
+        "name": "M335-X Tempest",
+        "unlock_level": 9
       },
       {
-        "name": "M335-X Frag"
+        "name": "M335-X Frag",
+        "unlock_level": 14
       },
       {
-        "name": "Respire Handstop"
+        "name": "Respire Handstop",
+        "unlock_level": 23
       },
       {
-        "name": "M335-X Drill Charge"
+        "name": "M335-X Drill Charge",
+        "unlock_level": 32
       },
       {
-        "name": "M335-X Cloak"
+        "name": "M335-X Cloak",
+        "unlock_level": 38
       }
     ]
   }

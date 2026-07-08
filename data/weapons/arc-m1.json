@@ -28,7 +28,8 @@
   "slots": {
     "UNDERBARREL": [
       {
-        "name": "A.R.C. M1 Assault Frame"
+        "name": "A.R.C. M1 Assault Frame",
+        "unlock_level": "Weekly Challenge Reward"
       }
     ]
   },

@@ -72,6 +72,7 @@
     "AMMUNITION": [
       {
         "name": "9MM Frangible",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -92,6 +93,7 @@
       },
       {
         "name": "9MM Hollowpoint",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -112,6 +114,7 @@
       },
       {
         "name": "9MM Armor Piercing",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -132,6 +135,7 @@
       },
       {
         "name": "9MM Overpressured +P",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -154,6 +158,7 @@
     "BARREL": [
       {
         "name": "BAK-9 279MM ",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 1.04,
           "ads_movement_mod": 0,
@@ -478,6 +483,7 @@
     "MAGAZINE": [
       {
         "name": "Minibak Grip Mag",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 1.11,
           "ads_movement_mod": 0,
@@ -560,6 +566,7 @@
       },
       {
         "name": "EXF Huntress-90",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1364,6 +1371,7 @@
       },
       {
         "name": "Markeev R7 ",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 0,

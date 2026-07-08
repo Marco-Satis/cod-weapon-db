@@ -72,6 +72,7 @@
     "BARREL": [
       {
         "name": "MFS Circultal Barrel",
+        "unlock_level": "Weapon Prestige",
         "mods": {
           "bv_mod": 1.25,
           "hipfire_max_mod": 0.33,
@@ -79,12 +80,14 @@
         }
       },
       {
-        "name": "MFS Circuital Barrel"
+        "name": "MFS Circuital Barrel",
+        "unlock_level": "Weapon Prestige"
       }
     ],
     "MAGAZINE": [
       {
         "name": "P.T. Expanse Mag",
+        "unlock_level": 20,
         "mods": {
           "mag_size_mod": 10,
           "reload_mod": 1.09
@@ -94,6 +97,7 @@
     "OPTIC": [
       {
         "name": "PrismaTech Affirm 2x",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 1.01,
           "horiz_recoil_mod": 0.7

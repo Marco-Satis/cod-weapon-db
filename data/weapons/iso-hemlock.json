@@ -272,6 +272,7 @@
       },
       {
         "name": "5.56 Incendiary",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -392,6 +393,7 @@
       },
       {
         "name": ".300 Blackout",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -414,6 +416,7 @@
     "BARREL": [
       {
         "name": "Series 4-MR",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0.99,
           "ads_movement_mod": 0.95,
@@ -434,6 +437,7 @@
       },
       {
         "name": "RCQ-7",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0.88,
           "ads_movement_mod": 1.03,
@@ -454,6 +458,7 @@
       },
       {
         "name": "Cipher-121",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -474,6 +479,7 @@
       },
       {
         "name": "LR-30/56",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 1.09,
           "ads_movement_mod": 0,
@@ -494,6 +500,7 @@
       },
       {
         "name": "Fielder-T50",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 1.13,
           "ads_movement_mod": 0.95,
@@ -818,6 +825,7 @@
     "MAGAZINE": [
       {
         "name": "45 Round Mag",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 1.09,
           "ads_movement_mod": 0.92,
@@ -838,6 +846,7 @@
       },
       {
         "name": "20 Round Mag",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 1.08,
@@ -1040,6 +1049,7 @@
       },
       {
         "name": "SilentFire XG6",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1500,6 +1510,7 @@
       },
       {
         "name": "Cronen OP44",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1722,6 +1733,7 @@
     "REAR GRIP": [
       {
         "name": "Support CP90 Grip",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 1.31,
           "ads_movement_mod": 0.92,
@@ -1742,6 +1754,7 @@
       },
       {
         "name": "XTen Grip",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -1762,6 +1775,7 @@
       },
       {
         "name": "Phantom Grip",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -1782,6 +1796,7 @@
       },
       {
         "name": "Sakin ZX Grip",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1804,6 +1819,7 @@
     "STOCK": [
       {
         "name": "RES-2",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.11,
@@ -1824,6 +1840,7 @@
       },
       {
         "name": "ISO Stockless Mod",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.12,
@@ -1844,6 +1861,7 @@
       },
       {
         "name": "Mace 600",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 0.95,
@@ -1864,6 +1882,7 @@
       },
       {
         "name": "Raid 90",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0.88,
           "ads_movement_mod": 0,
@@ -1884,6 +1903,7 @@
       },
       {
         "name": "R-COM S4",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 1.09,
@@ -2686,6 +2706,7 @@
       },
       {
         "name": "Core BP2",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -2886,6 +2907,7 @@
       },
       {
         "name": "HEX-40 Grip",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

@@ -59,6 +59,7 @@
     "AMMUNITION": [
       {
         "name": ".277 Armor Piercing",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -79,6 +80,7 @@
       },
       {
         "name": ".277 Tracer",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -99,6 +101,7 @@
       },
       {
         "name": ".277 High Velocity",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -119,6 +122,7 @@
       },
       {
         "name": ".277 Incendiary",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -139,6 +143,7 @@
       },
       {
         "name": ".277 Frangible",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -159,6 +164,7 @@
       },
       {
         "name": ".277 Hollowpoint",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -179,6 +185,7 @@
       },
       {
         "name": ".277 Mono",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -199,6 +206,7 @@
       },
       {
         "name": ".277 Round Nose",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -219,6 +227,7 @@
       },
       {
         "name": ".277 Low Grain",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -239,18 +248,21 @@
       },
       {
         "name": ".277 High Grain",
+        "unlock_level": 17,
         "mods": {
           "bv_mod": 1.15,
           "range_mod": 1.1502
         }
       },
       {
-        "name": ".277 Overpressured+P"
+        "name": ".277 Overpressured+P",
+        "unlock_level": 0
       }
     ],
     "BARREL": [
       {
         "name": "Bruen Venom Long",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -271,6 +283,7 @@
       },
       {
         "name": "Crippling Malice Light",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 1.07,
@@ -291,6 +304,7 @@
       },
       {
         "name": "Light 9\" Bruen Wyvern Short",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 0,
@@ -311,6 +325,7 @@
       },
       {
         "name": "Short 8\" Bruen SZ-45",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 1.11,
           "ads_movement_mod": 0,
@@ -331,6 +346,7 @@
       },
       {
         "name": "Wyvern's Respite Long",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.04,
@@ -375,6 +391,7 @@
     "MAGAZINE": [
       {
         "name": "30 Round Mag",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 1.05,
           "ads_movement_mod": 0.97,
@@ -395,6 +412,7 @@
       },
       {
         "name": "45 Round Mag",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 1.12,
           "ads_movement_mod": 0.93,
@@ -416,26 +434,32 @@
     ],
     "MUZZLE": [
       {
-        "name": "EX-01 Match Compensator"
+        "name": "EX-01 Match Compensator",
+        "unlock_level": 11
       },
       {
-        "name": "VT-7 Spiritfire Suppressor"
+        "name": "VT-7 Spiritfire Suppressor",
+        "unlock_level": 18
       },
       {
-        "name": "Shadowstrike Suppressor"
+        "name": "Shadowstrike Suppressor",
+        "unlock_level": 24
       }
     ],
     "OPTIC": [
       {
-        "name": "TX4 Havoc"
+        "name": "TX4 Havoc",
+        "unlock_level": 5
       },
       {
-        "name": "SL Truesight 2.5x"
+        "name": "SL Truesight 2.5x",
+        "unlock_level": 29
       }
     ],
     "REAR GRIP": [
       {
         "name": "STT88 Grip",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -456,6 +480,7 @@
       },
       {
         "name": "Tourney Tac Grip",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -476,6 +501,7 @@
       },
       {
         "name": "Bruen Agro-76 Grip",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 1.11,
           "ads_movement_mod": 1.05,
@@ -495,12 +521,14 @@
         }
       },
       {
-        "name": "Bruen GR-500"
+        "name": "Bruen GR-500",
+        "unlock_level": 25
       }
     ],
     "STOCK": [
       {
         "name": "Ravage-20 Heavy",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -521,6 +549,7 @@
       },
       {
         "name": "Bruen Minuteman",
+        "unlock_level": 28,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.96,
@@ -561,6 +590,7 @@
       },
       {
         "name": "Bruen Laur4 Light Precision",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 0,
@@ -581,6 +611,7 @@
       },
       {
         "name": "Ravage-CS",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 0,
@@ -600,10 +631,12 @@
         }
       },
       {
-        "name": "Bruen Flash V8 Light"
+        "name": "Bruen Flash V8 Light",
+        "unlock_level": 21
       },
       {
-        "name": "Stockless Mod"
+        "name": "Stockless Mod",
+        "unlock_level": 15
       }
     ]
   }

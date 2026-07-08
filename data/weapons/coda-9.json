@@ -72,12 +72,14 @@
     "BARREL": [
       {
         "name": "5.6\" Banisher Barrel",
+        "unlock_level": 12,
         "mods": {
           "bv_mod": 1.3
         }
       },
       {
         "name": "4.1\" Paragon Barrel",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0.89,
           "stf_mod": 0.79,
@@ -87,12 +89,14 @@
       },
       {
         "name": "6.3\" Greaves Halberd Barrel",
+        "unlock_level": 17,
         "mods": {
           "range_mod": 1.25
         }
       },
       {
         "name": "4.9\" Omen Barrel",
+        "unlock_level": 21,
         "mods": {
           "gun_kick_mod": 1.3,
           "horiz_recoil_mod": 1.2,
@@ -101,6 +105,7 @@
       },
       {
         "name": "5\" LTI Epsilon-1 Barrel",
+        "unlock_level": 25,
         "mods": {
           "bv_mod": 1.15,
           "range_mod": 1.125
@@ -110,12 +115,14 @@
     "FIRE MODS": [
       {
         "name": "9mm Parabellum Overpressured",
+        "unlock_level": 22,
         "mods": {
           "bv_mod": 1.2
         }
       },
       {
         "name": "Recoil Sync Unit",
+        "unlock_level": 4,
         "mods": {
           "gun_kick_mod": 0.92,
           "horiz_recoil_mod": 0.92,
@@ -124,6 +131,7 @@
       },
       {
         "name": "Bolt Carrier Group",
+        "unlock_level": 27,
         "mods": {
           "bv_mod": 0.92,
           "gun_kick_mod": 1.2,
@@ -134,12 +142,14 @@
         }
       },
       {
-        "name": "9mm Parabellum FMJ"
+        "name": "9mm Parabellum FMJ",
+        "unlock_level": 9
       }
     ],
     "LASER": [
       {
         "name": "1mW Pulse Laser",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0.92,
           "stf_mod": 0.83,
@@ -149,38 +159,46 @@
       },
       {
         "name": "K-Flash Target Laser",
+        "unlock_level": 28,
         "mods": {
           "range_mod": 1.15
         }
       },
       {
         "name": "2mW Pinpoint Pistol Laser",
+        "unlock_level": 6,
         "mods": {
           "hipfire_max_mod": 0.85
         }
       },
       {
         "name": "Convergence Box Laser",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "hipfire_max_mod": 0.85
         }
       },
       {
-        "name": "4mW Snap Laser"
+        "name": "4mW Snap Laser",
+        "unlock_level": 14
       },
       {
-        "name": "Tactical Flex Laser"
+        "name": "Tactical Flex Laser",
+        "unlock_level": 20
       },
       {
-        "name": "Adaptive Tactical Laser"
+        "name": "Adaptive Tactical Laser",
+        "unlock_level": "Weekly Challenge Reward"
       },
       {
-        "name": "3mW Motion Strike Laser"
+        "name": "3mW Motion Strike Laser",
+        "unlock_level": "Weekly Challenge Reward"
       }
     ],
     "MAGAZINE": [
       {
         "name": "NanoFeed Fast Mag",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0.94,
           "mag_size_mod": -5,
@@ -192,6 +210,7 @@
       },
       {
         "name": "Hellgate Stick Mag",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 1.08,
           "mag_size_mod": 5,
@@ -203,6 +222,7 @@
       },
       {
         "name": "MFS DeltaCell Bulk Mag",
+        "unlock_level": "Weapon Prestige",
         "mods": {
           "ads_movement_mod": 1.17,
           "gun_kick_mod": 0.7,
@@ -218,6 +238,7 @@
     "MUZZLE": [
       {
         "name": "H-9mm Precision Comp",
+        "unlock_level": 15,
         "mods": {
           "gun_kick_mod": 0.85,
           "vert_recoil_mod": 0.85
@@ -225,6 +246,7 @@
       },
       {
         "name": "Hawker-9 Brake",
+        "unlock_level": 11,
         "mods": {
           "gun_kick_mod": 0.92,
           "vert_recoil_mod": 0.92,
@@ -234,6 +256,7 @@
       },
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 1.31,
           "bv_mod": 1.2,
@@ -243,6 +266,7 @@
       },
       {
         "name": "Hawker Ported Comp",
+        "unlock_level": 19,
         "mods": {
           "hipfire_max_mod": 0.75,
           "dive_fire_speed_mod": 0.8,
@@ -251,6 +275,7 @@
       },
       {
         "name": "Redwell Shade-X Suppressor",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "bv_mod": 0.87,
           "gun_kick_mod": 0.89,
@@ -261,6 +286,7 @@
       },
       {
         "name": "LTI Stentorian Brake",
+        "unlock_level": "Season 4 Battle Pass",
         "mods": {
           "gun_kick_mod": 1.09,
           "horiz_recoil_mod": 0.75,
@@ -269,20 +295,24 @@
         }
       },
       {
-        "name": "Bowen 9mm Suppressor"
+        "name": "Bowen 9mm Suppressor",
+        "unlock_level": 2
       }
     ],
     "OPTIC": [
       {
-        "name": "LTI Mini"
+        "name": "LTI Mini",
+        "unlock_level": 5
       },
       {
-        "name": "Kepler Prism-IX Mini"
+        "name": "Kepler Prism-IX Mini",
+        "unlock_level": 16
       }
     ],
     "REAR GRIP": [
       {
         "name": "Express Grip",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0.86,
           "jump_ads_mod": 0.86
@@ -290,6 +320,7 @@
       },
       {
         "name": "Pincer Grip",
+        "unlock_level": 13,
         "mods": {
           "stf_mod": 0.75,
           "jump_sprint_fire_speed_mod": 0.75
@@ -297,6 +328,7 @@
       },
       {
         "name": "ST3-Gloria Grip",
+        "unlock_level": 29,
         "mods": {
           "ads_mod": 0.93,
           "dive_fire_speed_mod": 0.8,
@@ -306,12 +338,14 @@
       },
       {
         "name": "Terra-1X Grip",
+        "unlock_level": 23,
         "mods": {
           "horiz_recoil_mod": 0.95
         }
       },
       {
         "name": "Muse Grip",
+        "unlock_level": 18,
         "mods": {
           "gun_kick_mod": 0.92,
           "vert_recoil_mod": 0.92,
@@ -322,6 +356,7 @@
     "STOCK": [
       {
         "name": "Akimbo Coda 9",
+        "unlock_level": 30,
         "mods": {
           "gun_kick_mod": 1.1,
           "hipfire_max_mod": 1.35,
@@ -332,6 +367,7 @@
       },
       {
         "name": "Coda 9 Adaptive Discharge Mod",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "ads_mod": 1.29,
           "ads_movement_mod": 0.92,
@@ -348,6 +384,7 @@
       },
       {
         "name": "Coda 9 Adaptive Discharge Mod (ADS)",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "ads_mod": 1.29,
           "ads_movement_mod": 0.92,
@@ -364,6 +401,7 @@
       },
       {
         "name": "Coda 9 Adaptive Discharge Mod (HipFire)",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "ads_mod": 1.29,
           "ads_movement_mod": 0.92,

@@ -120,6 +120,7 @@
       },
       {
         "name": ".500 Frangible",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -140,6 +141,7 @@
       },
       {
         "name": ".500 Snakeshot",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -160,6 +162,7 @@
       },
       {
         "name": ".500 Hollow Point",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -180,6 +183,7 @@
       },
       {
         "name": ".500 Overpressured +P",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -242,6 +246,7 @@
     "BARREL": [
       {
         "name": "FTAC FANG Ported",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -262,6 +267,7 @@
       },
       {
         "name": "6.75\" Corvus Cougar 500",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 1.06,
@@ -282,6 +288,7 @@
       },
       {
         "name": "10.5\" FTAC Arrow",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 1.09,
           "ads_movement_mod": 1.04,
@@ -302,6 +309,7 @@
       },
       {
         "name": "FTAC Carnivora 7\"",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0.95,
@@ -322,6 +330,7 @@
       },
       {
         "name": "Bryson Snubby",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0.83,
           "ads_movement_mod": 1.05,
@@ -344,6 +353,7 @@
     "CONVERSION KIT": [
       {
         "name": "JAK Gunslinger",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -366,6 +376,7 @@
     "LASER": [
       {
         "name": "Revo-LSD 7MW",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -386,6 +397,7 @@
       },
       {
         "name": "Basilisk Grip Laser",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -406,6 +418,7 @@
       },
       {
         "name": "Corvus LZR-790 ",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 0,
@@ -428,6 +441,7 @@
     "MAGAZINE": [
       {
         "name": "B-3ST Loader",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 1.17,
           "ads_movement_mod": 0.91,
@@ -448,6 +462,7 @@
       },
       {
         "name": "S40 Rapid Loader",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 1.06,
@@ -470,6 +485,7 @@
     "MUZZLE": [
       {
         "name": "FSS KL30",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -490,6 +506,7 @@
       },
       {
         "name": "FTAC H50 Ported",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -510,6 +527,7 @@
       },
       {
         "name": "RVS607 Compensator",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -530,6 +548,7 @@
       },
       {
         "name": "FSS VMW Flash Hider",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -552,6 +571,7 @@
     "REAR GRIP": [
       {
         "name": "Bryson WD-85 Grip",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -572,6 +592,7 @@
       },
       {
         "name": "SO RO-99 Grip",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -592,6 +613,7 @@
       },
       {
         "name": "Bryson Duel Grip",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -612,6 +634,7 @@
       },
       {
         "name": "Akimbo Basilisk",
+        "unlock_level": 28,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -634,6 +657,7 @@
     "TRIGGERACTION": [
       {
         "name": "Bryson Match Grade",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -654,6 +678,7 @@
       },
       {
         "name": "Bryson HTA",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -674,6 +699,7 @@
       },
       {
         "name": "Basilisk HT-7",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 0,

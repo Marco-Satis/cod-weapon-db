@@ -89,12 +89,14 @@
         "name": "7.62 Hollow Point"
       },
       {
-        "name": "7.62 Armor Piercing"
+        "name": "7.62 Armor Piercing",
+        "unlock_level": 17
       }
     ],
     "BARREL": [
       {
         "name": "Meer-76 449MM Factory",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0.95,
           "ads_movement_mod": 1.07,
@@ -115,6 +117,7 @@
       },
       {
         "name": "Romeo FT 16\" Barrel",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0,
@@ -135,6 +138,7 @@
       },
       {
         "name": "10.6\" Lachstrike",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -176,7 +180,8 @@
     ],
     "MAGAZINE": [
       {
-        "name": "100 Round Mag"
+        "name": "100 Round Mag",
+        "unlock_level": 7
       }
     ],
     "REAR GRIP": [
@@ -264,6 +269,7 @@
       },
       {
         "name": "FT Mobile Stock",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 1.1,

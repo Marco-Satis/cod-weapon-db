@@ -207,12 +207,14 @@
       },
       {
         "name": "9mm High Grain Rounds",
+        "unlock_level": 29,
         "mods": {
           "bv_mod": 1.25
         }
       },
       {
         "name": "9mm Low Grain Rounds",
+        "unlock_level": 8,
         "mods": {
           "gun_kick_mod": 0.88,
           "horiz_recoil_mod": 0.85
@@ -225,6 +227,7 @@
     "BARREL": [
       {
         "name": "Tectonic Micro Integral Suppressor",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0.95,
           "ads_movement_mod": 1.03,
@@ -245,6 +248,7 @@
       },
       {
         "name": "Nimbus-6 Integrated Suppressor",
+        "unlock_level": 28,
         "mods": {
           "ads_mod": 1.08,
           "ads_movement_mod": 0,
@@ -265,6 +269,7 @@
       },
       {
         "name": "Tectonic Herald Light",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.05,
@@ -285,6 +290,7 @@
       },
       {
         "name": "AMR9 Enforcer Long",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 1.15,
           "ads_movement_mod": 0,
@@ -304,12 +310,14 @@
         }
       },
       {
-        "name": "AMR9 Commando Pro"
+        "name": "AMR9 Commando Pro",
+        "unlock_level": 26
       }
     ],
     "CONVERSION KIT": [
       {
         "name": "JAK Ettin Double Barrel Kit",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -349,7 +357,8 @@
         }
       },
       {
-        "name": "The Ettin"
+        "name": "The Ettin",
+        "unlock_level": "Conversion Kit"
       }
     ],
     "LASER": [
@@ -657,6 +666,7 @@
     "MAGAZINE": [
       {
         "name": "20 Round Mag",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 1.06,
@@ -677,6 +687,7 @@
       },
       {
         "name": "50 Round Mag",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 1.19,
           "ads_movement_mod": 0.9,
@@ -697,6 +708,7 @@
       },
       {
         "name": "100 Round Drum",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 1.31,
           "ads_movement_mod": 0.76,
@@ -1159,6 +1171,7 @@
       },
       {
         "name": "L4R Flash Hider",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1319,6 +1332,7 @@
       },
       {
         "name": "STER45 Skyfury Compensator",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1538,20 +1552,24 @@
         }
       },
       {
-        "name": "STER45 Skyfury Compensator S"
+        "name": "STER45 Skyfury Compensator S",
+        "unlock_level": 4
       }
     ],
     "OPTIC": [
       {
-        "name": "KR Minitac-40 Riser"
+        "name": "KR Minitac-40 Riser",
+        "unlock_level": 3
       },
       {
-        "name": "FSS Spectre Microtherm"
+        "name": "FSS Spectre Microtherm",
+        "unlock_level": 19
       }
     ],
     "REAR GRIP": [
       {
         "name": "Harrow Palmrest Grip",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.79,
@@ -1572,6 +1590,7 @@
       },
       {
         "name": "Sakin ZX Grip",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1592,6 +1611,7 @@
       },
       {
         "name": "XTEN Grip",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1612,6 +1632,7 @@
       },
       {
         "name": "Phantom Grip",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -1654,6 +1675,7 @@
       },
       {
         "name": "Seraph-14 Heavy Carbine",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 0,
@@ -1674,6 +1696,7 @@
       },
       {
         "name": "TA Venom",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 0,
@@ -1694,6 +1717,7 @@
       },
       {
         "name": "Demo LTS",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 0,
@@ -1714,6 +1738,7 @@
       },
       {
         "name": "DAV15 Light Tactical",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.1,
@@ -1734,6 +1759,7 @@
       },
       {
         "name": "OORT-6 Precision",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.94,
@@ -1754,6 +1780,7 @@
       },
       {
         "name": "Demo D50 Buffer Tube",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.11,
@@ -1774,6 +1801,7 @@
       },
       {
         "name": "Pipeline Pro LTS",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1813,7 +1841,8 @@
         }
       },
       {
-        "name": "Wolfhound Carbine"
+        "name": "Wolfhound Carbine",
+        "unlock_level": 7
       }
     ],
     "UNDERBARREL": [
@@ -1919,6 +1948,7 @@
       },
       {
         "name": "XTEN Phantom-5 Handstop",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 0,

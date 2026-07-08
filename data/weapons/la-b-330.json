@@ -132,6 +132,7 @@
       },
       {
         "name": ".300 Overpressured +P",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -152,6 +153,7 @@
       },
       {
         "name": ".300 Frangible",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -171,7 +173,8 @@
         }
       },
       {
-        "name": ".300 Hollow Point"
+        "name": ".300 Hollow Point",
+        "unlock_level": 17
       }
     ],
     "BARREL": [
@@ -237,6 +240,7 @@
       },
       {
         "name": "23.5\" Fluted R-67",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.06,
@@ -259,6 +263,7 @@
     "BOLT": [
       {
         "name": "ZLR Reinforced Lockbolt",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -301,6 +306,7 @@
     "COMB": [
       {
         "name": "FSS EL-T Pouch",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0.98,
           "ads_movement_mod": 0,
@@ -321,6 +327,7 @@
       },
       {
         "name": "Cronen GI40 Cheek Riser",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -887,6 +894,7 @@
       },
       {
         "name": "Ported DZ38",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -947,6 +955,7 @@
       },
       {
         "name": "Bruen Agent 90",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1229,6 +1238,7 @@
     "STOCK": [
       {
         "name": "Bryson Streamline",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.15,
@@ -1249,6 +1259,7 @@
       },
       {
         "name": "ZLR T70 PAD Extension",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,

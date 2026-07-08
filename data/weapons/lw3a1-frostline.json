@@ -58,6 +58,7 @@
     "BARREL": [
       {
         "name": "Reinforced Barrel",
+        "unlock_level": 34,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -78,6 +79,7 @@
       },
       {
         "name": "CHF Barrel",
+        "unlock_level": 28,
         "mods": {
           "ads_mod": 1.22,
           "ads_movement_mod": 0,
@@ -98,6 +100,7 @@
       },
       {
         "name": "Long Barrel",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -118,6 +121,7 @@
       },
       {
         "name": "Short Barrel",
+        "unlock_level": 42,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -138,6 +142,7 @@
       },
       {
         "name": "Gain-Twist Barrel",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -160,6 +165,7 @@
     "COMB": [
       {
         "name": "Commando Riser",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 0.94,
           "ads_movement_mod": 0,
@@ -180,6 +186,7 @@
       },
       {
         "name": "Ergonomic Riser",
+        "unlock_level": 44,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 0,
@@ -200,6 +207,7 @@
       },
       {
         "name": "Quickdraw Riser",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0.89,
           "ads_movement_mod": 0,
@@ -220,6 +228,7 @@
       },
       {
         "name": "Combat Riser",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -240,6 +249,7 @@
       },
       {
         "name": "CQB Riser",
+        "unlock_level": 38,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -262,6 +272,7 @@
     "FIRE MODS": [
       {
         "name": "Rapid Fire",
+        "unlock_level": 33,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -282,6 +293,7 @@
       },
       {
         "name": "7.62 NATO FMJ",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -302,6 +314,7 @@
       },
       {
         "name": "7.62 NATO Overpressured",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -324,6 +337,7 @@
     "LASER": [
       {
         "name": "Fast Motion Laser",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -344,6 +358,7 @@
       },
       {
         "name": "Tactical Laser",
+        "unlock_level": 29,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -364,6 +379,7 @@
       },
       {
         "name": "Steady Aim Laser",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -384,6 +400,7 @@
       },
       {
         "name": "Strelok Laser",
+        "unlock_level": 41,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -404,6 +421,7 @@
       },
       {
         "name": "Target Laser",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -426,6 +444,7 @@
     "MAGAZINE": [
       {
         "name": "Extended Mag I",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -446,6 +465,7 @@
       },
       {
         "name": "Fast Mag I",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -466,6 +486,7 @@
       },
       {
         "name": "Extended Mag II",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 1.04,
           "ads_movement_mod": 0,
@@ -488,6 +509,7 @@
     "MUZZLE": [
       {
         "name": "Compensator",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -508,6 +530,7 @@
       },
       {
         "name": "Ported Compensator",
+        "unlock_level": 36,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -528,6 +551,7 @@
       },
       {
         "name": "Muzzle Brake",
+        "unlock_level": 31,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -548,6 +572,7 @@
       },
       {
         "name": "Suppressor",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -568,6 +593,7 @@
       },
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": "Armory Unlock",
         "mods": {
           "ads_mod": 1.1,
           "bv_mod": 1.2,
@@ -577,33 +603,42 @@
     ],
     "OPTIC": [
       {
-        "name": "Pinpoint Hybrid"
+        "name": "Pinpoint Hybrid",
+        "unlock_level": 5
       },
       {
-        "name": "Remuda Dual Zoom"
+        "name": "Remuda Dual Zoom",
+        "unlock_level": 10
       },
       {
-        "name": "Iron Sight"
+        "name": "Iron Sight",
+        "unlock_level": 15
       },
       {
-        "name": "Redwell Reflex"
+        "name": "Redwell Reflex",
+        "unlock_level": 20
       },
       {
-        "name": "Otero Thermal 2x"
+        "name": "Otero Thermal 2x",
+        "unlock_level": 25
       },
       {
-        "name": "Dobrych 4x"
+        "name": "Dobrych 4x",
+        "unlock_level": 30
       },
       {
-        "name": "OM3 '92 Holo"
+        "name": "OM3 '92 Holo",
+        "unlock_level": 35
       },
       {
-        "name": "R&K Multizoom"
+        "name": "R&K Multizoom",
+        "unlock_level": 40
       }
     ],
     "STOCK": [
       {
         "name": "Heavy Stock",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -624,6 +659,7 @@
       },
       {
         "name": "Combat Stock",
+        "unlock_level": 43,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.26,
@@ -644,6 +680,7 @@
       },
       {
         "name": "Light Stock",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -664,6 +701,7 @@
       },
       {
         "name": "Infiltrator Stock",
+        "unlock_level": 39,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.45,
@@ -684,6 +722,7 @@
       },
       {
         "name": "Balanced Stock",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.2,
@@ -706,6 +745,7 @@
     "STOCK PAD": [
       {
         "name": "Weighted Pad",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -726,6 +766,7 @@
       },
       {
         "name": "Lightweight Pad",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -746,6 +787,7 @@
       },
       {
         "name": "Marksman Pad",
+        "unlock_level": 37,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -766,6 +808,7 @@
       },
       {
         "name": "Precision Pad",
+        "unlock_level": 32,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -786,6 +829,7 @@
       },
       {
         "name": "Ranger Pad",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

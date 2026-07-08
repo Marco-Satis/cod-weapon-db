@@ -118,6 +118,7 @@
       },
       {
         "name": ".50 CAL Armor Piercing",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -138,6 +139,7 @@
       },
       {
         "name": ".50 CAL Frangible",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -158,6 +160,7 @@
       },
       {
         "name": ".50 CAL Explosive",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -240,6 +243,7 @@
     "BARREL": [
       {
         "name": "FSS Jetstream",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 0,
@@ -260,6 +264,7 @@
       },
       {
         "name": "21.5\" Fluted Fifty",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0.94,
           "ads_movement_mod": 1.07,
@@ -280,6 +285,7 @@
       },
       {
         "name": "23.5\" SA Fifty-H7",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 1.01,
           "ads_movement_mod": 0.95,
@@ -300,6 +306,7 @@
       },
       {
         "name": "29\" TV Kilo-50",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0.94,
@@ -502,6 +509,7 @@
       },
       {
         "name": "Schlager PEQ Box IV",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0.96,
           "ads_movement_mod": 0,
@@ -584,6 +592,7 @@
     "MAGAZINE": [
       {
         "name": "7 Round Magazine",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 0.94,
@@ -786,6 +795,7 @@
       },
       {
         "name": "Nilsound 90 Silencer",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -806,6 +816,7 @@
       },
       {
         "name": "H26 Ported Comp",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -826,6 +837,7 @@
       },
       {
         "name": "Demon Helix XL",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -866,6 +878,7 @@
       },
       {
         "name": "Legion Fire Comp",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1068,6 +1081,7 @@
     "REAR GRIP": [
       {
         "name": "SA Finesse Grip",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -1088,6 +1102,7 @@
       },
       {
         "name": "Stalwart Grip",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.94,
@@ -1108,6 +1123,7 @@
       },
       {
         "name": "Cronen Blockade Grip",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1130,6 +1146,7 @@
     "STOCK": [
       {
         "name": "FSS Echo",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 1.01,
           "ads_movement_mod": 0.95,
@@ -1150,6 +1167,7 @@
       },
       {
         "name": "FTAC INVISI-670",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.13,
@@ -1170,6 +1188,7 @@
       },
       {
         "name": "SO Inline",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 0,
@@ -1492,6 +1511,7 @@
       },
       {
         "name": "Xten Gravedigger",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

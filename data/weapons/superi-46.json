@@ -93,6 +93,7 @@
       },
       {
         "name": "4.6MM High Grain",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -172,12 +173,14 @@
         }
       },
       {
-        "name": "4.6MM Low Grain"
+        "name": "4.6MM Low Grain",
+        "unlock_level": 0
       }
     ],
     "BARREL": [
       {
         "name": "Houndguard Heavy Barrel",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.88,
@@ -198,6 +201,7 @@
       },
       {
         "name": "Bore 99 Short Barrel",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0.88,
           "ads_movement_mod": 0,
@@ -218,6 +222,7 @@
       },
       {
         "name": "Lux 30 Heavy Barrel",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 1.08,
           "ads_movement_mod": 0,
@@ -238,6 +243,7 @@
       },
       {
         "name": "Terminal V Suppressed Barrel",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 1.06,
@@ -258,6 +264,7 @@
       },
       {
         "name": "Atoll-Z4 Suppressed Barrel",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 1.04,
           "ads_movement_mod": 0,
@@ -278,6 +285,7 @@
       },
       {
         "name": "Zulu OP3 Light Barrel",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.14,
@@ -602,6 +610,7 @@
     "MAGAZINE": [
       {
         "name": "20 round mag",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 1.08,
@@ -622,6 +631,7 @@
       },
       {
         "name": "40 Round Mag",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0.97,
@@ -641,7 +651,8 @@
         }
       },
       {
-        "name": "20 Round Mag"
+        "name": "20 Round Mag",
+        "unlock_level": 11
       }
     ],
     "MUZZLE": [
@@ -847,6 +858,7 @@
       },
       {
         "name": "Shredder U40 Comp",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1489,6 +1501,7 @@
     "REAR GRIP": [
       {
         "name": "Phantom Grip",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -1509,6 +1522,7 @@
       },
       {
         "name": "XTen Grip",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1529,6 +1543,7 @@
       },
       {
         "name": "Sakin ZX Grip",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1549,6 +1564,7 @@
       },
       {
         "name": "Harrow Palmrest Grip",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.8,
@@ -1591,6 +1607,7 @@
       },
       {
         "name": "No Stock",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0.86,
           "ads_movement_mod": 1.1,
@@ -1611,6 +1628,7 @@
       },
       {
         "name": "Rescue-9 Stock",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1631,6 +1649,7 @@
       },
       {
         "name": "Tracer Tac Stock",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1651,6 +1670,7 @@
       },
       {
         "name": "Monolith 4.6 Stock",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 1.08,
           "ads_movement_mod": 0,

@@ -93,6 +93,7 @@
       },
       {
         "name": ".45 Auto Hardened Rounds",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -113,6 +114,7 @@
       },
       {
         "name": ".45 Auto High Grain",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -173,6 +175,7 @@
       },
       {
         "name": ".45 Auto Low Grain Rounds",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -215,6 +218,7 @@
     "BARREL": [
       {
         "name": "Striker Elite Long",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.96,
@@ -235,6 +239,7 @@
       },
       {
         "name": "Striker Stubby",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 1.08,
@@ -255,6 +260,7 @@
       },
       {
         "name": "Striker Recon Long",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.98,
@@ -537,6 +543,7 @@
       },
       {
         "name": "STOVL Tac Laser",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -579,6 +586,7 @@
     "MAGAZINE": [
       {
         "name": "20 round mag",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0.88,
           "ads_movement_mod": 1.1,
@@ -599,6 +607,7 @@
       },
       {
         "name": "48 Round Mag",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0.97,
@@ -619,6 +628,7 @@
       },
       {
         "name": "60 Round Drum",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 1.16,
           "ads_movement_mod": 0.92,
@@ -638,7 +648,8 @@
         }
       },
       {
-        "name": "20 Round Mag"
+        "name": "20 Round Mag",
+        "unlock_level": 5
       }
     ],
     "MUZZLE": [
@@ -664,6 +675,7 @@
       },
       {
         "name": "VP27 Mini Brake",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1364,6 +1376,7 @@
       },
       {
         "name": "Shadowstrike Suppressor",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1463,17 +1476,20 @@
         }
       },
       {
-        "name": "Shadowstrike Suppressor S"
+        "name": "Shadowstrike Suppressor S",
+        "unlock_level": 11
       }
     ],
     "OPTIC": [
       {
-        "name": "Slate Reflector"
+        "name": "Slate Reflector",
+        "unlock_level": 12
       }
     ],
     "REAR GRIP": [
       {
         "name": "TACGRIP",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1494,6 +1510,7 @@
       },
       {
         "name": "FTAC G-5 EXO",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.8,
@@ -1514,6 +1531,7 @@
       },
       {
         "name": "Sakin ZX Grip",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1536,6 +1554,7 @@
     "STOCK": [
       {
         "name": "No Stock",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.1,
@@ -1556,6 +1575,7 @@
       },
       {
         "name": "RB Crotalus Assault",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0.96,
           "ads_movement_mod": 0,
@@ -1576,6 +1596,7 @@
       },
       {
         "name": "Lachmann Recon Series",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.97,
@@ -1596,6 +1617,7 @@
       },
       {
         "name": "FSS Priority Tactical",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 0,
@@ -1616,6 +1638,7 @@
       },
       {
         "name": "Lachmann MK2 Light",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1636,6 +1659,7 @@
       },
       {
         "name": "Lachmann Nemesis-10",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -2198,6 +2222,7 @@
       },
       {
         "name": "Bruen Heavy Support Grip",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

@@ -164,6 +164,10 @@
               "minLength": 1,
               "description": "Attachment-Name."
             },
+            "unlock_level": {
+              "type": ["number", "string"],
+              "description": "Waffen-Level, auf dem dieser Aufsatz freigeschaltet wird (int), ODER Freischalt-Weg als Text (z.B. 'Weapon Prestige', 'Season 4 Battle Pass', 'Weekly Challenge Reward'). Quelle: codmunity attachments[].'Unlock Level'."
+            },
             "mods": {
               "type": "object",
               "description": "Stat-Multiplikatoren (<stat>_mod, z.B. ads_mod, gun_kick_mod). Wachstums-tolerant: jeder Wert numerisch.",

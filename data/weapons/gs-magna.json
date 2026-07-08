@@ -440,6 +440,7 @@
       },
       {
         "name": "GS Magna Akimbo",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

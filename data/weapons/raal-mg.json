@@ -72,6 +72,7 @@
     "AMMUNITION": [
       {
         "name": ".338 Mag Overpressured +P",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -92,6 +93,7 @@
       },
       {
         "name": ".338 Mag Hollow Point",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -112,6 +114,7 @@
       },
       {
         "name": ".338 Mag Armor Piercing",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -132,6 +135,7 @@
       },
       {
         "name": ".338 Mag Frangible",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -152,6 +156,7 @@
       },
       {
         "name": ".338 Mag High Velocity",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -172,6 +177,7 @@
       },
       {
         "name": ".338 Mag Incendiary",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -194,6 +200,7 @@
     "BARREL": [
       {
         "name": "EXF Gulf-16 Barrel",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0.97,
@@ -214,6 +221,7 @@
       },
       {
         "name": "26.5\" Demo Field Pro",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0,
@@ -234,6 +242,7 @@
       },
       {
         "name": "21\" EXF Rhino",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0.94,
@@ -586,6 +595,7 @@
       },
       {
         "name": "DXS Flash 90",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -608,6 +618,7 @@
     "MAGAZINE": [
       {
         "name": "50 Round Belt Mag",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.2,
@@ -628,6 +639,7 @@
       },
       {
         "name": "100 Round Belt Mag",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 1.04,
           "ads_movement_mod": 0.92,
@@ -850,6 +862,7 @@
       },
       {
         "name": "EXF Relentless-40",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -870,6 +883,7 @@
       },
       {
         "name": "TA CG76",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -970,6 +984,7 @@
       },
       {
         "name": "Dark KX50 Flash Hider",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1232,6 +1247,7 @@
     "REAR GRIP": [
       {
         "name": "Bruen Q900 Grip Wrap",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -1252,6 +1268,7 @@
       },
       {
         "name": "STIP-40 Grip",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1272,6 +1289,7 @@
       },
       {
         "name": "Bruen G305 Grip Wrap",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -1294,6 +1312,7 @@
     "STOCK": [
       {
         "name": "Demo H-40",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0,
@@ -1314,6 +1333,7 @@
       },
       {
         "name": "FSS Riot",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0.89,
           "ads_movement_mod": 0,
@@ -1334,6 +1354,7 @@
       },
       {
         "name": "Demo Nimble Stock",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.13,
@@ -1376,6 +1397,7 @@
     "UNDERBARREL": [
       {
         "name": "SA Side Grip",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1396,6 +1418,7 @@
       },
       {
         "name": "XRK Dune Grip",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1416,6 +1439,7 @@
       },
       {
         "name": "RAAL Bipod",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1436,6 +1460,7 @@
       },
       {
         "name": "Demo Narrow Grip",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.82,

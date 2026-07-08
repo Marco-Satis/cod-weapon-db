@@ -212,6 +212,7 @@
       },
       {
         "name": "5.56 Armor Piercing",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -277,6 +278,7 @@
       },
       {
         "name": "Hightower 20\" Barrel",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 1.1,
           "ads_movement_mod": 0.95,
@@ -317,6 +319,7 @@
       },
       {
         "name": "Tempus Trench Pro",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0.95,
           "ads_movement_mod": 1.05,
@@ -337,6 +340,7 @@
       },
       {
         "name": "11.5\" T-H4 Barrel",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 0,
@@ -399,6 +403,7 @@
     "CONVERSION KIT": [
       {
         "name": "JAK Harbinger Kit",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 1.33,
           "ads_movement_mod": 0.86,
@@ -641,6 +646,7 @@
       },
       {
         "name": "1MW Laser Box",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -723,6 +729,7 @@
     "MAGAZINE": [
       {
         "name": "45 Round Mag",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 1.1,
           "ads_movement_mod": 0.92,
@@ -743,6 +750,7 @@
       },
       {
         "name": "60 Round Mag",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 1.16,
           "ads_movement_mod": 0.87,
@@ -1005,6 +1013,7 @@
       },
       {
         "name": "Echoline GS-X",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1627,6 +1636,7 @@
     "REAR GRIP": [
       {
         "name": "Sakin ZX Grip",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1667,6 +1677,7 @@
       },
       {
         "name": "XTEN Grip",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -1729,6 +1740,7 @@
     "STOCK": [
       {
         "name": "Corio Precio Factory",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 0.94,
@@ -1809,6 +1821,7 @@
       },
       {
         "name": "Demo Fade Pro Stock",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.11,
@@ -1829,6 +1842,7 @@
       },
       {
         "name": "Tempus P80 Strike Stock",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 1.09,
@@ -1869,6 +1883,7 @@
       },
       {
         "name": "Demo D50 Buffer Tube",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.12,
@@ -2291,6 +2306,7 @@
       },
       {
         "name": "FSS Sharkfin 90",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

@@ -232,6 +232,7 @@
       },
       {
         "name": "5.56 Overpressured +P",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -257,6 +258,7 @@
     "BARREL": [
       {
         "name": "17.5\" Tundra Pro Barrel",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0,
@@ -277,6 +279,7 @@
       },
       {
         "name": "12\" Tacshort",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -439,6 +442,7 @@
       },
       {
         "name": "Canted Vibro-Dot 7",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0.98,
           "ads_movement_mod": 0,
@@ -601,6 +605,7 @@
     "MAGAZINE": [
       {
         "name": "60 Round Mag",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 1.12,
           "ads_movement_mod": 0.9,
@@ -621,6 +626,7 @@
       },
       {
         "name": "40 Round Mag",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 1.05,
           "ads_movement_mod": 0.95,
@@ -863,6 +869,7 @@
       },
       {
         "name": "Echoless-80 ",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1203,6 +1210,7 @@
       },
       {
         "name": "RF Crown 50",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1263,6 +1271,7 @@
       },
       {
         "name": "Corvus Slash Gen. 2",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1545,6 +1554,7 @@
       },
       {
         "name": "FSS Combat Grip",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1567,6 +1577,7 @@
     "STOCK": [
       {
         "name": "TV LPX-434",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -1587,6 +1598,7 @@
       },
       {
         "name": "TV Cardinal",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.11,
@@ -1909,6 +1921,7 @@
       },
       {
         "name": "Demo IMP-44 Grip",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -2389,6 +2402,7 @@
       },
       {
         "name": "Bruen Tilt Grip",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -2509,6 +2523,7 @@
       },
       {
         "name": "Hellscream 40MM",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

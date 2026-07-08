@@ -164,6 +164,7 @@
       },
       {
         "name": ".50 CAL incendiary",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -184,6 +185,7 @@
       },
       {
         "name": ".50 CAL High Velocity",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -226,6 +228,7 @@
     "BARREL": [
       {
         "name": "Mack 8 33.5 Super",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0,
@@ -246,6 +249,7 @@
       },
       {
         "name": "Executor 546",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0.89,
@@ -266,6 +270,7 @@
       },
       {
         "name": "Mack 8 21.5 Short",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0.96,
           "ads_movement_mod": 0,
@@ -286,6 +291,7 @@
       },
       {
         "name": "26\" Mammoth HB50",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0.89,
@@ -308,6 +314,7 @@
     "GUARD": [
       {
         "name": "Corvus Responder",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 1.11,
           "ads_movement_mod": 0,
@@ -390,6 +397,7 @@
       },
       {
         "name": "1mw Artemis Laser",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -592,6 +600,7 @@
     "MAGAZINE": [
       {
         "name": "7 Round Mag",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0.93,
@@ -612,6 +621,7 @@
       },
       {
         "name": "5 Round Mag",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 1.05,
           "ads_movement_mod": 0.86,
@@ -631,7 +641,8 @@
         }
       },
       {
-        "name": "9 Round mag"
+        "name": "9 Round mag",
+        "unlock_level": 24
       }
     ],
     "MUZZLE": [
@@ -717,6 +728,7 @@
       },
       {
         "name": "Bruen Counter-Ops",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -737,6 +749,7 @@
       },
       {
         "name": "Talon Sixteen ",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -757,6 +770,7 @@
       },
       {
         "name": "Bruen L40 Cobra",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -797,6 +811,7 @@
       },
       {
         "name": "SA Shroud Flash Hider",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -837,6 +852,7 @@
       },
       {
         "name": "Vigilante Comp",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1119,6 +1135,7 @@
       },
       {
         "name": "Bruen Q900 Grip",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -1139,6 +1156,7 @@
       },
       {
         "name": "STIP-40 Grip",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1158,12 +1176,14 @@
         }
       },
       {
-        "name": "Bruen G305 Grip"
+        "name": "Bruen G305 Grip",
+        "unlock_level": 5
       }
     ],
     "STOCK": [
       {
         "name": "XRK Rise 50",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 0,
@@ -1184,6 +1204,7 @@
       },
       {
         "name": "EXF Colonel",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0,
@@ -1204,6 +1225,7 @@
       },
       {
         "name": "FTAC Homeland",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.93,
@@ -1224,6 +1246,7 @@
       },
       {
         "name": "XRK Bullseye",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.18,
@@ -1266,6 +1289,7 @@
       },
       {
         "name": "XTEN Stable Shot",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

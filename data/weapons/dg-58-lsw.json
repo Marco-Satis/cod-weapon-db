@@ -73,6 +73,7 @@
     "AMMUNITION": [
       {
         "name": "5.8x42 High Grain Rounds",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -93,6 +94,7 @@
       },
       {
         "name": "5.8x42 Frangible",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -113,6 +115,7 @@
       },
       {
         "name": "5.8x42 Incendiary",
+        "unlock_level": 28,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -133,6 +136,7 @@
       },
       {
         "name": "5.8x42 Armor Piercing",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -153,6 +157,7 @@
       },
       {
         "name": "5.8x42 High Velocity",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -173,6 +178,7 @@
       },
       {
         "name": "5.8x42 Round Nose",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -193,6 +199,7 @@
       },
       {
         "name": "5.8x42 Mono",
+        "unlock_level": 29,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -213,6 +220,7 @@
       },
       {
         "name": "5.8x42 Low Grain Rounds",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -232,12 +240,14 @@
         }
       },
       {
-        "name": "5.8x42 Overpressured +P"
+        "name": "5.8x42 Overpressured +P",
+        "unlock_level": 20
       }
     ],
     "BARREL": [
       {
         "name": "DG Emperor-V Heavy",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 1.16,
           "ads_movement_mod": 0,
@@ -258,6 +268,7 @@
       },
       {
         "name": "WUDI Long",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.94,
@@ -278,6 +289,7 @@
       },
       {
         "name": "Culpa OGS Light",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0.95,
           "ads_movement_mod": 1.08,
@@ -298,6 +310,7 @@
       },
       {
         "name": "DG-58 LS18 Heavy",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0,
@@ -340,6 +353,7 @@
       },
       {
         "name": "5GN TAC-Comb",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -380,6 +394,7 @@
       },
       {
         "name": "Padded Shell Sleeve",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 1.08,
           "ads_movement_mod": 0,
@@ -399,15 +414,18 @@
         }
       },
       {
-        "name": "FSS Last Stand"
+        "name": "FSS Last Stand",
+        "unlock_level": 10
       },
       {
-        "name": "Warrant Control"
+        "name": "Warrant Control",
+        "unlock_level": 17
       }
     ],
     "CONVERSION KIT": [
       {
         "name": "JAK Nightshade Rifle Kit",
+        "unlock_level": "Conversion kit",
         "mods": {
           "ads_mod": 0.61,
           "ads_movement_mod": 1.11,
@@ -490,6 +508,7 @@
       },
       {
         "name": "STOVL DR Laser Box",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -712,6 +731,7 @@
     "MAGAZINE": [
       {
         "name": "100 Round Drum",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0.9,
@@ -797,6 +817,7 @@
       },
       {
         "name": "VT-7 Spiritfire Suppressor",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1598,7 +1619,8 @@
     ],
     "OPTIC": [
       {
-        "name": "Corio ELT-10 2.5"
+        "name": "Corio ELT-10 2.5",
+        "unlock_level": 5
       }
     ],
     "REAR GRIP": [
@@ -1624,6 +1646,7 @@
       },
       {
         "name": "Q22 Tactical Grip",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1644,6 +1667,7 @@
       },
       {
         "name": "Varanus Steady Grip",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1666,6 +1690,7 @@
     "STOCK": [
       {
         "name": "Recoil Reduction Buttplate",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 0,
@@ -1686,6 +1711,7 @@
       },
       {
         "name": "Extended TP-9 Buttplate",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0,
@@ -1706,6 +1732,7 @@
       },
       {
         "name": "Hardened Rubber CQC Buttplate",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 1.05,
@@ -1948,6 +1975,7 @@
       },
       {
         "name": "FTAC RS-9 Stealth Angled Grip",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

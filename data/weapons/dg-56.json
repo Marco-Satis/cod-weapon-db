@@ -178,7 +178,8 @@
         }
       },
       {
-        "name": "5.56 Incendiary"
+        "name": "5.56 Incendiary",
+        "unlock_level": 14
       },
       {
         "name": "5.56 Armor Piercing"
@@ -199,6 +200,7 @@
     "BARREL": [
       {
         "name": "DG-56 LS18",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -219,6 +221,7 @@
       },
       {
         "name": "Aiguo Defender Short",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 1.13,
           "ads_movement_mod": 0,
@@ -239,6 +242,7 @@
       },
       {
         "name": "CDG T-25 Light",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.04,
@@ -259,6 +263,7 @@
       },
       {
         "name": "Culpa OGS Light",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 1.1,
@@ -279,6 +284,7 @@
       },
       {
         "name": "DG-58 Micro",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 0,
@@ -301,6 +307,7 @@
     "COMB": [
       {
         "name": "FSS Last Stand Comb",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0.94,
@@ -321,6 +328,7 @@
       },
       {
         "name": "Padded Shell Sleeve",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 1.08,
           "ads_movement_mod": 0,
@@ -341,6 +349,7 @@
       },
       {
         "name": "Warrant Control Comb",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 1.05,
           "ads_movement_mod": 0,
@@ -361,6 +370,7 @@
       },
       {
         "name": "5GN TAC-Comb",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -623,6 +633,7 @@
       },
       {
         "name": "FTAC Grimline Laser",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -685,6 +696,7 @@
     "MAGAZINE": [
       {
         "name": "20 Round Mag",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 1.08,
@@ -705,6 +717,7 @@
       },
       {
         "name": "40 Round Mag",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0.97,
@@ -725,6 +738,7 @@
       },
       {
         "name": "60 Round Drum",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 1.13,
           "ads_movement_mod": 0.93,
@@ -1087,6 +1101,7 @@
       },
       {
         "name": "Wrathguard Compensator",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1628,12 +1643,14 @@
     ],
     "OPTIC": [
       {
-        "name": "KR Mortis Precision 2.5X"
+        "name": "KR Mortis Precision 2.5X",
+        "unlock_level": 4
       }
     ],
     "REAR GRIP": [
       {
         "name": "Harken OP Grip",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.81,
@@ -1654,6 +1671,7 @@
       },
       {
         "name": "Varanus Steady Grip",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1674,6 +1692,7 @@
       },
       {
         "name": "Q22 Tactical Grip",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1696,6 +1715,7 @@
     "STOCK": [
       {
         "name": "Recoil Reduction Buttplate",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.94,
@@ -1716,6 +1736,7 @@
       },
       {
         "name": "Extended TP-9 Buttplate",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0,
@@ -1736,6 +1757,7 @@
       },
       {
         "name": "Hardened Rubber CQC Buttplate",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 1.06,
@@ -1756,6 +1778,7 @@
       },
       {
         "name": "Soldier Pro Padded Buttplate",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -2098,6 +2121,7 @@
       },
       {
         "name": "Demo Firm Grip",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -2538,6 +2562,7 @@
       },
       {
         "name": "TTL-GS 40",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 1.04,
           "ads_movement_mod": 0,

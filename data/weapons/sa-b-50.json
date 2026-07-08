@@ -58,6 +58,7 @@
     "AMMUNITION": [
       {
         "name": ".308 Incendiary",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -78,6 +79,7 @@
       },
       {
         "name": ".308 Frangible",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -98,6 +100,7 @@
       },
       {
         "name": ".308 Overpressured +P",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -118,6 +121,7 @@
       },
       {
         "name": ".308 Armor Piercing",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -138,6 +142,7 @@
       },
       {
         "name": ".308 Hollow Point",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -158,6 +163,7 @@
       },
       {
         "name": ".308 High Velocity",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -200,6 +206,7 @@
       },
       {
         "name": "9\" Tac-CB 55",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0.89,
           "ads_movement_mod": 0,
@@ -220,6 +227,7 @@
       },
       {
         "name": "18.5\" XRK Resonate",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0.97,
@@ -606,6 +614,7 @@
     "MAGAZINE": [
       {
         "name": "15 Round Mag",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 1.12,
           "ads_movement_mod": 0.91,
@@ -626,6 +635,7 @@
       },
       {
         "name": "5 Round Mag",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0.89,
           "ads_movement_mod": 1.11,
@@ -748,6 +758,7 @@
       },
       {
         "name": "TY-LR8",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1490,6 +1501,7 @@
       },
       {
         "name": "Bruen Lynx Grip",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.96,
@@ -1512,6 +1524,7 @@
     "STOCK": [
       {
         "name": "FTAC EZX-PRO",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 0.96,
@@ -1532,6 +1545,7 @@
       },
       {
         "name": "Assault-60 Stock",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0.96,
           "ads_movement_mod": 1.08,
@@ -1552,6 +1566,7 @@
       },
       {
         "name": "XRK Specter MOD",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0.86,
           "ads_movement_mod": 1.12,

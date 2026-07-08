@@ -179,6 +179,7 @@
       },
       {
         "name": "5.56 Nato Low Grain",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -258,12 +259,14 @@
         }
       },
       {
-        "name": "5.56 NATO Low Grain"
+        "name": "5.56 NATO Low Grain",
+        "unlock_level": 5
       }
     ],
     "BARREL": [
       {
         "name": "Prime Lord Heavy",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 1.12,
           "ads_movement_mod": 0,
@@ -284,6 +287,7 @@
       },
       {
         "name": "Chrios-6 Match",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0.95,
           "ads_movement_mod": 1.04,
@@ -304,6 +308,7 @@
       },
       {
         "name": "Holger Factory",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 1.1,
           "ads_movement_mod": 0,
@@ -324,6 +329,7 @@
       },
       {
         "name": "HGL-92",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -343,22 +349,28 @@
         }
       },
       {
-        "name": "HGL -92"
+        "name": "HGL -92",
+        "unlock_level": 0
       },
       {
-        "name": "Ascendant Lord Heavy"
+        "name": "Ascendant Lord Heavy",
+        "unlock_level": 2
       },
       {
-        "name": "Ascent Lord Heavy"
+        "name": "Ascent Lord Heavy",
+        "unlock_level": 13
       },
       {
-        "name": "LM Influx Short Heavy"
+        "name": "LM Influx Short Heavy",
+        "unlock_level": 15
       },
       {
-        "name": "LM Spitfire"
+        "name": "LM Spitfire",
+        "unlock_level": 17
       },
       {
-        "name": "Bullwark Integrated Bipod"
+        "name": "Bullwark Integrated Bipod",
+        "unlock_level": 21
       }
     ],
     "CONVERSION KIT": [
@@ -626,6 +638,7 @@
       },
       {
         "name": "1MW Laser Box",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -668,6 +681,7 @@
     "MAGAZINE": [
       {
         "name": "40 Round Mag",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0.95,
           "ads_movement_mod": 1.05,
@@ -688,6 +702,7 @@
       },
       {
         "name": "100 Round Drum",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 1.1,
           "ads_movement_mod": 0.87,
@@ -1550,6 +1565,7 @@
       },
       {
         "name": "Purger Brake",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1569,17 +1585,20 @@
         }
       },
       {
-        "name": "Purifier Muzzle Brake"
+        "name": "Purifier Muzzle Brake",
+        "unlock_level": 12
       }
     ],
     "OPTIC": [
       {
-        "name": "Chrios Holo"
+        "name": "Chrios Holo",
+        "unlock_level": 16
       }
     ],
     "REAR GRIP": [
       {
         "name": "Morn-20 Grip",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.82,
@@ -1600,6 +1619,7 @@
       },
       {
         "name": "CT2000 Tactical Grip",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1620,6 +1640,7 @@
       },
       {
         "name": "Intruder Grip",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 1.13,
@@ -1640,6 +1661,7 @@
       },
       {
         "name": "Dana-7 Palmrest",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 1.27,
           "ads_movement_mod": 0.92,
@@ -1659,12 +1681,14 @@
         }
       },
       {
-        "name": "LM Intruder Grip"
+        "name": "LM Intruder Grip",
+        "unlock_level": 14
       }
     ],
     "STOCK": [
       {
         "name": "Holger 556 Factory",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.03,
@@ -1724,19 +1748,24 @@
         }
       },
       {
-        "name": "Ascent Lord"
+        "name": "Ascent Lord",
+        "unlock_level": 4
       },
       {
-        "name": "RB Addle Assault"
+        "name": "RB Addle Assault",
+        "unlock_level": 9
       },
       {
-        "name": "Lachmann Vehemence 90"
+        "name": "Lachmann Vehemence 90",
+        "unlock_level": 4
       },
       {
-        "name": "RB Crotalus Assault"
+        "name": "RB Crotalus Assault",
+        "unlock_level": 9
       },
       {
-        "name": "Default Stock"
+        "name": "Default Stock",
+        "unlock_level": 18
       }
     ],
     "UNDERBARREL": [
@@ -2062,6 +2091,7 @@
       },
       {
         "name": "Demo Cleanshot 40",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -2841,7 +2871,8 @@
         }
       },
       {
-        "name": "HGL-92"
+        "name": "HGL-92",
+        "unlock_level": 20
       }
     ]
   }

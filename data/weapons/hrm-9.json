@@ -279,6 +279,7 @@
     "BARREL": [
       {
         "name": "Princeps Long",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.93,
@@ -299,6 +300,7 @@
       },
       {
         "name": "Thorn-90",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0.93,
           "ads_movement_mod": 0,
@@ -318,7 +320,8 @@
         }
       },
       {
-        "name": "Taciturn Suppressed"
+        "name": "Taciturn Suppressed",
+        "unlock_level": 17
       }
     ],
     "LASER": [
@@ -626,6 +629,7 @@
     "MAGAZINE": [
       {
         "name": "50 Round Drum",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 1.11,
           "ads_movement_mod": 0.95,
@@ -646,6 +650,7 @@
       },
       {
         "name": "20 Round Mag",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 1.06,
@@ -1248,6 +1253,7 @@
       },
       {
         "name": "ZEHMN35 Compensated Flash Hider",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1489,12 +1495,14 @@
     ],
     "OPTIC": [
       {
-        "name": "TPS Incendio Reflex"
+        "name": "TPS Incendio Reflex",
+        "unlock_level": 7
       }
     ],
     "REAR GRIP": [
       {
         "name": "Range Grip",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.92,
@@ -1515,6 +1523,7 @@
       },
       {
         "name": "PCS-90 Assault grip",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 1.05,
           "ads_movement_mod": 0,
@@ -1535,6 +1544,7 @@
       },
       {
         "name": "TAC Handler Grip",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1557,6 +1567,7 @@
     "STOCK": [
       {
         "name": "Hatchet Light",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0.94,
           "ads_movement_mod": 1.06,
@@ -1577,6 +1588,7 @@
       },
       {
         "name": "Folding Stock",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 1.04,
           "ads_movement_mod": 0,
@@ -1597,6 +1609,7 @@
       },
       {
         "name": "No Stock",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0.86,
           "ads_movement_mod": 1.1,
@@ -2519,6 +2532,7 @@
       },
       {
         "name": "GRV-Z Short Grip",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

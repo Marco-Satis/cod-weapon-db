@@ -72,6 +72,7 @@
     "BARREL": [
       {
         "name": "17\" Bystro Speed Barrel",
+        "unlock_level": 6,
         "mods": {
           "ads_movement_mod": 1.07,
           "bv_mod": 0.94,
@@ -80,6 +81,7 @@
       },
       {
         "name": "16.3\" SWF Tumult Barrel",
+        "unlock_level": 46,
         "mods": {
           "ads_mod": 1.04,
           "bv_mod": 1.08
@@ -87,12 +89,14 @@
       },
       {
         "name": "18.2\" Vostok Extended Barrel",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 1.06
         }
       },
       {
         "name": "14\" Prism Light Barrel",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0.92,
           "stf_mod": 0.88,
@@ -102,6 +106,7 @@
       },
       {
         "name": "17.6\" Vandal Heavy Barrel",
+        "unlock_level": 34,
         "mods": {
           "ads_mod": 1.15,
           "ads_movement_mod": 0.9,
@@ -113,6 +118,7 @@
       },
       {
         "name": "AK-27 Battle-Scar Conversion",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "ads_mod": 1.31,
           "ads_movement_mod": 0.84,
@@ -131,18 +137,21 @@
     "COMB": [
       {
         "name": "Lithe Riser",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "ads_mod": 0.84
         }
       },
       {
         "name": "Garin Variable Comb",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "ads_mod": 0.95
         }
       },
       {
         "name": "Kronos Heavy Comb",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "ads_movement_mod": 1.15,
           "horiz_recoil_mod": 0.9
@@ -150,6 +159,7 @@
       },
       {
         "name": "Pugil Control Comb",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "ads_mod": 1.14,
           "ads_movement_mod": 0.88,
@@ -160,6 +170,7 @@
       },
       {
         "name": "Caliban Light Comb",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "crouch_movement_mod": 1.2,
           "movement_mod": 1.11,
@@ -171,6 +182,7 @@
     "FIRE MODS": [
       {
         "name": "Buffer Spring",
+        "unlock_level": 13,
         "mods": {
           "gun_kick_mod": 0.92,
           "horiz_recoil_mod": 0.88,
@@ -179,6 +191,7 @@
       },
       {
         "name": "Enhanced Cycle System",
+        "unlock_level": "Weapon Prestige",
         "mods": {
           "bv_mod": 0.88,
           "gun_kick_mod": 0.8,
@@ -190,12 +203,14 @@
       },
       {
         "name": "7.62 Soviet Overpressured",
+        "unlock_level": 18,
         "mods": {
           "bv_mod": 1.2
         }
       },
       {
         "name": "7.62 Soviet FMJ",
+        "unlock_level": 30,
         "mods": {
           "bv_mod": 1.18,
           "range_mod": 1.14
@@ -205,12 +220,14 @@
     "LASER": [
       {
         "name": "3mW Motion Strike Laser",
+        "unlock_level": 37,
         "mods": {
           "range_mod": 1.14
         }
       },
       {
         "name": "1mW Instinct Laser Array",
+        "unlock_level": 42,
         "mods": {
           "ads_mod": 0.94,
           "stf_mod": 0.9,
@@ -220,20 +237,24 @@
       },
       {
         "name": "Convergence Box Laser",
+        "unlock_level": 16,
         "mods": {
           "hipfire_max_mod": 0.85
         }
       },
       {
-        "name": "Adaptive Tactical Laser"
+        "name": "Adaptive Tactical Laser",
+        "unlock_level": 8
       },
       {
-        "name": "5mW Lockstep Laser"
+        "name": "5mW Lockstep Laser",
+        "unlock_level": 24
       }
     ],
     "MAGAZINE": [
       {
         "name": "Epitaph Extended Mag",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 1.04,
           "ads_movement_mod": 0.96,
@@ -242,6 +263,7 @@
       },
       {
         "name": "Saber Pack Heavy Drum",
+        "unlock_level": 38,
         "mods": {
           "ads_mod": 1.08,
           "ads_movement_mod": 0.92,
@@ -257,6 +279,7 @@
       },
       {
         "name": "Riker Flip Mag",
+        "unlock_level": 7,
         "mods": {
           "mag_size_mod": 10,
           "reload_mod": 0.75
@@ -264,6 +287,7 @@
       },
       {
         "name": "IronDivide Fast Mag",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0.96,
           "mag_size_mod": -5,
@@ -277,6 +301,7 @@
     "MUZZLE": [
       {
         "name": "Eclipse 7.62 Brake",
+        "unlock_level": 28,
         "mods": {
           "gun_kick_mod": 0.84,
           "vert_recoil_mod": 0.84,
@@ -286,6 +311,7 @@
       },
       {
         "name": "EMT3 Compensator",
+        "unlock_level": 3,
         "mods": {
           "gun_kick_mod": 0.81,
           "vert_recoil_mod": 0.8
@@ -293,6 +319,7 @@
       },
       {
         "name": "EMT3 Ported-70",
+        "unlock_level": 33,
         "mods": {
           "ads_movement_mod": 1.05,
           "hipfire_max_mod": 0.85,
@@ -304,6 +331,7 @@
       },
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": 44,
         "mods": {
           "ads_mod": 1.23,
           "bv_mod": 1.12,
@@ -313,6 +341,7 @@
       },
       {
         "name": "Redwell Shade-X Suppressor",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "gun_kick_mod": 0.89,
           "horiz_recoil_mod": 0.89,
@@ -322,12 +351,14 @@
       },
       {
         "name": "SWF Tishina-11",
+        "unlock_level": 14,
         "mods": {
           "range_mod": 1.1
         }
       },
       {
         "name": "LTI Stentorian Brake",
+        "unlock_level": "Season 4 Battle Pass",
         "mods": {
           "gun_kick_mod": 1.07,
           "horiz_recoil_mod": 0.82,
@@ -338,24 +369,30 @@
     ],
     "OPTIC": [
       {
-        "name": "VAS LED"
+        "name": "VAS LED",
+        "unlock_level": 5
       },
       {
-        "name": "LTI Reflex"
+        "name": "LTI Reflex",
+        "unlock_level": 12
       },
       {
-        "name": "PrismaTech Digital Holo"
+        "name": "PrismaTech Digital Holo",
+        "unlock_level": 22
       },
       {
-        "name": "RistRauch 7x"
+        "name": "RistRauch 7x",
+        "unlock_level": 32
       },
       {
-        "name": "Solaris Holo-IR"
+        "name": "Solaris Holo-IR",
+        "unlock_level": 41
       }
     ],
     "REAR GRIP": [
       {
         "name": "Dictum Light Grip",
+        "unlock_level": 4,
         "mods": {
           "stf_mod": 0.57,
           "jump_sprint_fire_speed_mod": 0.61
@@ -363,6 +400,7 @@
       },
       {
         "name": "Lithe Thin Grip",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0.73,
           "jump_ads_mod": 0.75
@@ -370,6 +408,7 @@
       },
       {
         "name": "Kronos Heavy Grip",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 1.03,
           "horiz_recoil_mod": 0.75
@@ -377,6 +416,7 @@
       },
       {
         "name": "Garin Advanced Grip",
+        "unlock_level": 39,
         "mods": {
           "ads_mod": 0.85,
           "dive_fire_speed_mod": 0.8,
@@ -386,6 +426,7 @@
       },
       {
         "name": "Czar Control Grip",
+        "unlock_level": 35,
         "mods": {
           "gun_kick_mod": 0.85,
           "vert_recoil_mod": 0.85,
@@ -396,6 +437,7 @@
     "STOCK": [
       {
         "name": "Viktor-7R Stock",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 1.19
@@ -403,6 +445,7 @@
       },
       {
         "name": "Pugil Heavy Stock",
+        "unlock_level": 29,
         "mods": {
           "ads_mod": 1.1,
           "ads_movement_mod": 0.83,
@@ -415,6 +458,7 @@
       },
       {
         "name": "SWF-62 Variable Stock",
+        "unlock_level": 45,
         "mods": {
           "ads_mod": 1.08,
           "gun_kick_mod": 0.9,
@@ -424,6 +468,7 @@
       },
       {
         "name": "Caliban Light Stock",
+        "unlock_level": 9,
         "mods": {
           "crouch_movement_mod": 1.33,
           "movement_mod": 1.2,
@@ -432,6 +477,7 @@
       },
       {
         "name": "Prodigal Skeleton Stock",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 0.94,
           "hipfire_max_mod": 0.85,
@@ -442,18 +488,21 @@
     "UNDERBARREL": [
       {
         "name": "Lateral Precision Grip",
+        "unlock_level": 2,
         "mods": {
           "horiz_recoil_mod": 0.75
         }
       },
       {
         "name": "Ironhold Angled Grip",
+        "unlock_level": 10,
         "mods": {
           "horiz_recoil_mod": 0.92
         }
       },
       {
         "name": "Flowguard Foregrip",
+        "unlock_level": 43,
         "mods": {
           "crouch_movement_mod": 1.08,
           "horiz_recoil_mod": 0.85,
@@ -463,6 +512,7 @@
       },
       {
         "name": "Strider Handstop",
+        "unlock_level": 31,
         "mods": {
           "ads_movement_mod": 1.1,
           "crouch_movement_mod": 1.08,
@@ -471,6 +521,7 @@
       },
       {
         "name": "VAS Convergence Foregrip",
+        "unlock_level": "Season 3 Battle Pass",
         "mods": {
           "gun_kick_mod": 0.9,
           "horiz_recoil_mod": 0.67,
@@ -478,19 +529,24 @@
         }
       },
       {
-        "name": "Respire Handstop"
+        "name": "Respire Handstop",
+        "unlock_level": 15
       },
       {
-        "name": "M335-X Frag"
+        "name": "M335-X Frag",
+        "unlock_level": 20
       },
       {
-        "name": "M335-X Tempest"
+        "name": "M335-X Tempest",
+        "unlock_level": 36
       },
       {
-        "name": "M335-X Cloak"
+        "name": "M335-X Cloak",
+        "unlock_level": 40
       },
       {
-        "name": "M335-X Drill Charge"
+        "name": "M335-X Drill Charge",
+        "unlock_level": 47
       }
     ]
   }

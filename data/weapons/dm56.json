@@ -261,6 +261,7 @@
     "BARREL": [
       {
         "name": "Chrios-6 Match",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -301,6 +302,7 @@
       },
       {
         "name": "Prime Lord Heavy",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.9,
@@ -321,6 +323,7 @@
       },
       {
         "name": "ROR4 SEER",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.05,
@@ -346,6 +349,7 @@
     "COMB": [
       {
         "name": "Wingman Comb",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 1.08,
           "ads_movement_mod": 0,
@@ -366,6 +370,7 @@
       },
       {
         "name": "Farseer Cheek Riser",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -386,6 +391,7 @@
       },
       {
         "name": "Lachmann X-TRA Pouch",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 1.26,
           "ads_movement_mod": 0.95,
@@ -406,6 +412,7 @@
       },
       {
         "name": "Chisel VX-0 Cheek Riser",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0.95,
@@ -610,6 +617,7 @@
       },
       {
         "name": "Luminate-44",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -752,6 +760,7 @@
     "MAGAZINE": [
       {
         "name": "30 Round Mag",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0.97,
@@ -772,6 +781,7 @@
       },
       {
         "name": "40 Round Mag",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0.97,
@@ -792,6 +802,7 @@
       },
       {
         "name": "10 Round Mag",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 1.11,
@@ -934,6 +945,7 @@
       },
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1114,6 +1126,7 @@
       },
       {
         "name": "STER45 Skyfury Compensator",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1675,15 +1688,18 @@
     ],
     "OPTIC": [
       {
-        "name": "Houndeye Integrated Optic"
+        "name": "Houndeye Integrated Optic",
+        "unlock_level": 2
       },
       {
-        "name": "Corio Eagleseye 2.5x"
+        "name": "Corio Eagleseye 2.5x",
+        "unlock_level": 19
       }
     ],
     "STOCK": [
       {
         "name": "Regency-12 Stock Pad",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -1704,6 +1720,7 @@
       },
       {
         "name": "ULS Recoil Stock Pad",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -1724,6 +1741,7 @@
       },
       {
         "name": "Holger Recoil Pad",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 1.04,
           "ads_movement_mod": 0,
@@ -1743,7 +1761,8 @@
         }
       },
       {
-        "name": "Surmount-8 Recoil Pad"
+        "name": "Surmount-8 Recoil Pad",
+        "unlock_level": 11
       }
     ],
     "UNDERBARREL": [
@@ -2329,6 +2348,7 @@
       },
       {
         "name": "FSS Sharkfin 90",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -2788,7 +2808,8 @@
         }
       },
       {
-        "name": "HGL-92"
+        "name": "HGL-92",
+        "unlock_level": 16
       }
     ]
   }

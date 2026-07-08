@@ -257,7 +257,8 @@
         }
       },
       {
-        "name": "7.62 Frangible"
+        "name": "7.62 Frangible",
+        "unlock_level": 7
       },
       {
         "name": "7.62 Armor Piercing"
@@ -281,6 +282,7 @@
     "BARREL": [
       {
         "name": "12.5\" Carbon Barrel",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0.87,
           "ads_movement_mod": 1.06,
@@ -301,6 +303,7 @@
       },
       {
         "name": "22.5\" Elevate-11",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0,
@@ -321,6 +324,7 @@
       },
       {
         "name": "16\" ZLR Executor 80",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0.98,
           "ads_movement_mod": 0.95,
@@ -383,6 +387,7 @@
     "BOLT": [
       {
         "name": "FSS ST87 Bolt",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -425,6 +430,7 @@
     "COMB": [
       {
         "name": "Aim-Assist 406",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0.93,
@@ -507,6 +513,7 @@
       },
       {
         "name": "SZ 1mw PEQ",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -789,6 +796,7 @@
     "MAGAZINE": [
       {
         "name": "15 Round Mag",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 1.09,
           "ads_movement_mod": 0.87,
@@ -809,6 +817,7 @@
       },
       {
         "name": "10 Round Mag",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 1.05,
           "ads_movement_mod": 0.93,
@@ -1351,6 +1360,7 @@
       },
       {
         "name": "Zulu-60",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1633,6 +1643,7 @@
     "STOCK": [
       {
         "name": "Bryson Inforcer Stock",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -1653,6 +1664,7 @@
       },
       {
         "name": "ZRL T70 PAD Extension",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 0,
@@ -1675,6 +1687,7 @@
     "UNDERBARREL": [
       {
         "name": "Level Aim Bipod",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

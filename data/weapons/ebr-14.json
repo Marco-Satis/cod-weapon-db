@@ -257,7 +257,8 @@
         }
       },
       {
-        "name": "7.62 Hollow Point"
+        "name": "7.62 Hollow Point",
+        "unlock_level": 7
       },
       {
         "name": "7.62 Frangible"
@@ -281,6 +282,7 @@
     "BARREL": [
       {
         "name": "22\" Boremaster",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0.96,
@@ -301,6 +303,7 @@
       },
       {
         "name": "18\" Lonestar Barrel",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0.95,
           "ads_movement_mod": 0,
@@ -341,6 +344,7 @@
       },
       {
         "name": "16\" Chrome-Lined RFX40",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -445,6 +449,7 @@
     "LASER": [
       {
         "name": "FSS OLE-V Laser",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0.95,
           "ads_movement_mod": 0,
@@ -747,6 +752,7 @@
     "MAGAZINE": [
       {
         "name": "20 Round Mag",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 1.14,
           "ads_movement_mod": 0.88,
@@ -767,6 +773,7 @@
       },
       {
         "name": "15 Round Mag",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0.94,
@@ -1169,6 +1176,7 @@
       },
       {
         "name": "Eight-Point Flash Hider",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1611,6 +1619,7 @@
     "REAR GRIP": [
       {
         "name": "Cronen EM55 Grip",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -1653,6 +1662,7 @@
     "STOCK": [
       {
         "name": "SO-90 Factory",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 1.04,
           "ads_movement_mod": 0,
@@ -1693,6 +1703,7 @@
       },
       {
         "name": "FTAC Valor",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 0.95,
@@ -2515,6 +2526,7 @@
       },
       {
         "name": "OP-X9 Foregrip",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

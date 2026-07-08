@@ -59,6 +59,7 @@
     "AMMUNITION": [
       {
         "name": ".50 Cal Mono",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -79,6 +80,7 @@
       },
       {
         "name": ".50 Cal High Grain Rounds",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -99,6 +101,7 @@
       },
       {
         "name": ".50 Cal Spire Point Rounds",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -139,6 +142,7 @@
       },
       {
         "name": ".50 Cal Low Grain Rounds",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -241,6 +245,7 @@
     "BARREL": [
       {
         "name": "ZANG-34",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -261,6 +266,7 @@
       },
       {
         "name": "Tempus Aura Heavy Long",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -281,6 +287,7 @@
       },
       {
         "name": "Perdition 24\" Short",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -629,6 +636,7 @@
     "MAGAZINE": [
       {
         "name": "7 Round Mag",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 0.96,
@@ -731,6 +739,7 @@
       },
       {
         "name": "Casus Brake L",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -831,6 +840,7 @@
       },
       {
         "name": "Sonic Suppressor L",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -851,6 +861,7 @@
       },
       {
         "name": "ELR Blackfire Compensator L",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -891,6 +902,7 @@
       },
       {
         "name": "XRK Nightfall Suppressor XL",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1071,6 +1083,7 @@
       },
       {
         "name": "VT-7 Spiritfire Suppressor",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1091,6 +1104,7 @@
       },
       {
         "name": "STER45 Skyfury Compensator",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1111,6 +1125,7 @@
       },
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1131,6 +1146,7 @@
       },
       {
         "name": "VT-7 Spiritfire Suppressor XL",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 1.09,
           "bv_mod": 1.14,
@@ -1141,22 +1157,28 @@
         "name": "Colossus Suppressor XL"
       },
       {
-        "name": "Casus Brake XL"
+        "name": "Casus Brake XL",
+        "unlock_level": 8
       },
       {
-        "name": "Monolithic Suppressor XL"
+        "name": "Monolithic Suppressor XL",
+        "unlock_level": 21
       },
       {
-        "name": "Sonic Suppressor XL"
+        "name": "Sonic Suppressor XL",
+        "unlock_level": 5
       },
       {
-        "name": "STER45 Skyfury Compensator XL"
+        "name": "STER45 Skyfury Compensator XL",
+        "unlock_level": 2
       },
       {
-        "name": "ELR Blackfire Compensator XL"
+        "name": "ELR Blackfire Compensator XL",
+        "unlock_level": 27
       },
       {
-        "name": "STER45 Skyfury Compensator S"
+        "name": "STER45 Skyfury Compensator S",
+        "unlock_level": 2
       },
       {
         "name": "L4R Flash Hider"
@@ -1168,7 +1190,8 @@
         "name": "Shadowstrike Suppressor"
       },
       {
-        "name": "Sonic Suppressor XS"
+        "name": "Sonic Suppressor XS",
+        "unlock_level": 5
       },
       {
         "name": "HMRES MOD Suppressor XS"
@@ -1189,7 +1212,8 @@
         "name": "Purifier Muzzle Brake"
       },
       {
-        "name": "Sonic Suppressor"
+        "name": "Sonic Suppressor",
+        "unlock_level": 5
       },
       {
         "name": "T51R Billeted Brake"
@@ -1207,7 +1231,8 @@
         "name": "DR-77 Ironhead Brake"
       },
       {
-        "name": "Casus Brake"
+        "name": "Casus Brake",
+        "unlock_level": 8
       },
       {
         "name": "T4LR Saber Compensator"
@@ -1216,16 +1241,19 @@
         "name": "Warthguard Compensator"
       },
       {
-        "name": "VT-7 Spiritfire Suppressor L"
+        "name": "VT-7 Spiritfire Suppressor L",
+        "unlock_level": 16
       },
       {
         "name": "EX-01 Match Compensator L"
       },
       {
-        "name": "Monolithic Suppressor L"
+        "name": "Monolithic Suppressor L",
+        "unlock_level": 21
       },
       {
-        "name": "STER45 Skyfury Compensator L"
+        "name": "STER45 Skyfury Compensator L",
+        "unlock_level": 2
       },
       {
         "name": "T4LR Saber Compensator L"
@@ -1237,7 +1265,8 @@
         "name": "Purifier Muzzle Brake L"
       },
       {
-        "name": "ELR Blackfire Compensator"
+        "name": "ELR Blackfire Compensator",
+        "unlock_level": 27
       },
       {
         "name": "Colossus Suppressor"
@@ -1249,13 +1278,16 @@
         "name": "Wrathguard Compensator L"
       },
       {
-        "name": "Monolithic Suppressor XS"
+        "name": "Monolithic Suppressor XS",
+        "unlock_level": 21
       },
       {
-        "name": "ELR Blackfire Compensator XS"
+        "name": "ELR Blackfire Compensator XS",
+        "unlock_level": 27
       },
       {
-        "name": "Monolithic Suppressor S"
+        "name": "Monolithic Suppressor S",
+        "unlock_level": 21
       },
       {
         "name": "Purifier Muzzle Brake S"
@@ -1279,7 +1311,8 @@
         "name": "HMRES MOD Suppressor"
       },
       {
-        "name": "STER45 Skyfury Compensator XS"
+        "name": "STER45 Skyfury Compensator XS",
+        "unlock_level": 2
       },
       {
         "name": "Lockshot KT85"
@@ -1288,13 +1321,15 @@
         "name": "VP27 Mini Brake XS"
       },
       {
-        "name": "ELR Blackfire Compensator S"
+        "name": "ELR Blackfire Compensator S",
+        "unlock_level": 27
       },
       {
         "name": "HMRES Mod Suppressor S"
       },
       {
-        "name": "Sonic Suppressor S"
+        "name": "Sonic Suppressor S",
+        "unlock_level": 5
       },
       {
         "name": "T51R Billeted Brake S"
@@ -1719,15 +1754,18 @@
     ],
     "OPTIC": [
       {
-        "name": "VLK 4.0"
+        "name": "VLK 4.0",
+        "unlock_level": 3
       },
       {
-        "name": "Corvus Ghostview"
+        "name": "Corvus Ghostview",
+        "unlock_level": 14
       }
     ],
     "REAR GRIP": [
       {
         "name": "Phantom Grip",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -1748,6 +1786,7 @@
       },
       {
         "name": "FSS Match Assault Grip",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1768,6 +1807,7 @@
       },
       {
         "name": "Singer LR Grip",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 1.13,
           "ads_movement_mod": 0.85,
@@ -1788,6 +1828,7 @@
       },
       {
         "name": "TACGRIP",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 1.08,
           "ads_movement_mod": 0,
@@ -1808,6 +1849,7 @@
       },
       {
         "name": "Tyrannical LX9 Grip",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.11,
@@ -1830,6 +1872,7 @@
     "STOCK": [
       {
         "name": "Lightweight Rubberized Stock Pad",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.09,
@@ -1870,6 +1913,7 @@
       },
       {
         "name": "Tactical Stock Pad",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -1890,6 +1934,7 @@
       },
       {
         "name": "Precision Stock Pad",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.87,
@@ -1909,7 +1954,8 @@
         }
       },
       {
-        "name": "Reduction Stock Pad"
+        "name": "Reduction Stock Pad",
+        "unlock_level": 10
       }
     ]
   }

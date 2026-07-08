@@ -42,6 +42,7 @@
           "additionalProperties": false,
           "properties": {
             "name": {"type": "string", "minLength": 1},
+            "unlock_level": {"type": ["number", "string"], "description": "Waffen-Level auf dem dieser Aufsatz freigeschaltet wird (int), ODER Freischalt-Weg als Text (z.B. 'Weapon Prestige', 'Season 4 Battle Pass', 'Weekly Challenge Reward'). Quelle: codmunity attachments[].'Unlock Level'."},
             "mods": {
               "type": "object",
               "additionalProperties": {"type": ["number", "string"]}

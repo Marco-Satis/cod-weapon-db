@@ -72,6 +72,7 @@
     "AMMUNITION": [
       {
         "name": ".45 GVT Armor Piercing",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -92,6 +93,7 @@
       },
       {
         "name": ".45 GVT Frangible",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -112,6 +114,7 @@
       },
       {
         "name": ".45 GVT Hollow Point",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -132,6 +135,7 @@
       },
       {
         "name": ".45 GVT Incendiary",
+        "unlock_level": 28,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -152,6 +156,7 @@
       },
       {
         "name": ".45 GVT Overpressured +P",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -172,6 +177,7 @@
       },
       {
         "name": ".45 GVT High Velocity",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -197,6 +203,7 @@
     "BARREL": [
       {
         "name": "Lockwood Frontiersman",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0.95,
           "ads_movement_mod": 1.05,
@@ -217,6 +224,7 @@
       },
       {
         "name": "13.5\" Lonestar Barrel",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0.88,
           "ads_movement_mod": 1.02,
@@ -237,6 +245,7 @@
       },
       {
         "name": "25\" Buffalo Barrel",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 1.03,
@@ -257,6 +266,7 @@
       },
       {
         "name": "22.5\" EXF Alamo",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 0.97,
@@ -277,6 +287,7 @@
       },
       {
         "name": "21\" Coyote Barrel",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0.97,
@@ -299,6 +310,7 @@
     "COMB": [
       {
         "name": "Wingman Comb",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -319,6 +331,7 @@
       },
       {
         "name": "Lockwood Defender Comb",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 1.25,
           "ads_movement_mod": 0.95,
@@ -339,6 +352,7 @@
       },
       {
         "name": "Lockwood Merciless",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0.95,
@@ -383,6 +397,7 @@
     "GUARD": [
       {
         "name": "Lockwood Combat Guard",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 1.29,
           "ads_movement_mod": 0,
@@ -403,6 +418,7 @@
       },
       {
         "name": "Lockwood Saddle Guard",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -423,6 +439,7 @@
       },
       {
         "name": "Lockwood Commando Guard",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -545,6 +562,7 @@
       },
       {
         "name": "Accu-Shot 5MW Laser",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 0,
@@ -747,6 +765,7 @@
     "LEVER": [
       {
         "name": "Longhorn Lever",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -767,6 +786,7 @@
       },
       {
         "name": "Stallion Lever",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -889,6 +909,7 @@
       },
       {
         "name": "Talon Sixteen ",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -989,6 +1010,7 @@
       },
       {
         "name": "BVM-338",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1371,6 +1393,7 @@
     "STOCK": [
       {
         "name": "Demo VX509 Stock",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.09,
@@ -1391,6 +1414,7 @@
       },
       {
         "name": "Lockwood Bullseye Stock",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 0,
@@ -1411,6 +1435,7 @@
       },
       {
         "name": "Cut Off Stock MOD",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.11,

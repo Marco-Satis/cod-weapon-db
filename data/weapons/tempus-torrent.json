@@ -295,6 +295,7 @@
     "BARREL": [
       {
         "name": "14\" Chroma LRS",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 1.12,
           "ads_movement_mod": 0.95,
@@ -315,6 +316,7 @@
       },
       {
         "name": "24\" Outreach 4",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 1.05,
           "ads_movement_mod": 0,
@@ -335,6 +337,7 @@
       },
       {
         "name": "12.5\" Rugged ZN",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0.84,
           "ads_movement_mod": 1.07,
@@ -355,6 +358,7 @@
       },
       {
         "name": "16\" Tour RP",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 0,
@@ -377,6 +381,7 @@
     "GUARD": [
       {
         "name": "TT-HG 40",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 1.24,
           "ads_movement_mod": 0,
@@ -397,6 +402,7 @@
       },
       {
         "name": "Torrent MOC-IV",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -417,6 +423,7 @@
       },
       {
         "name": "Torrent TAC Guard",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -741,6 +748,7 @@
     "MAGAZINE": [
       {
         "name": "50 round drum",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 1.17,
           "ads_movement_mod": 0.83,
@@ -761,6 +769,7 @@
       },
       {
         "name": "30 Round Mag",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 1.06,
           "ads_movement_mod": 0.94,
@@ -1787,6 +1796,7 @@
       },
       {
         "name": "PS0 Heavy",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0.93,

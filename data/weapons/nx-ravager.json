@@ -43,12 +43,14 @@
   "slots": {
     "FIRE MODS": [
       {
-        "name": "Explosive Crossbow Bolt"
+        "name": "Explosive Crossbow Bolt",
+        "unlock_level": 15
       }
     ],
     "MAGAZINE": [
       {
         "name": "Tribolt",
+        "unlock_level": "Weapon Prestige",
         "mods": {
           "ads_mod": 1.18,
           "hipfire_max_mod": 13333,
@@ -57,15 +59,18 @@
         }
       },
       {
-        "name": "TriBolt"
+        "name": "TriBolt",
+        "unlock_level": "Weapon Prestige"
       }
     ],
     "OPTIC": [
       {
-        "name": "Redwell 30-S 2x"
+        "name": "Redwell 30-S 2x",
+        "unlock_level": 5
       },
       {
-        "name": "Greaves Ultra Zoom"
+        "name": "Greaves Ultra Zoom",
+        "unlock_level": 25
       }
     ]
   },

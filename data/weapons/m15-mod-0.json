@@ -71,12 +71,14 @@
     "BARREL": [
       {
         "name": "18\" Bowen Watchtower Barrel",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 1.06
         }
       },
       {
         "name": "20\" Delta-F2 Barrel",
+        "unlock_level": 6,
         "mods": {
           "ads_movement_mod": 1.07,
           "bv_mod": 0.95,
@@ -85,6 +87,7 @@
       },
       {
         "name": "15\" Mirage Light Barrel",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0.91,
           "stf_mod": 0.91,
@@ -94,6 +97,7 @@
       },
       {
         "name": "16.5\" Fusion Barrel",
+        "unlock_level": 29,
         "mods": {
           "ads_mod": 1.04,
           "bv_mod": 1.08
@@ -101,6 +105,7 @@
       },
       {
         "name": "16\" Reticulated Barrel",
+        "unlock_level": 47,
         "mods": {
           "ads_mod": 1.15,
           "ads_movement_mod": 0.9,
@@ -115,12 +120,14 @@
     "FIRE MODS": [
       {
         "name": "5.56 NATO Overpressured",
+        "unlock_level": 10,
         "mods": {
           "bv_mod": 1.2
         }
       },
       {
         "name": "Buffer Spring",
+        "unlock_level": 26,
         "mods": {
           "gun_kick_mod": 0.9,
           "horiz_recoil_mod": 0.9,
@@ -129,6 +136,7 @@
       },
       {
         "name": "Bolt Carrier Group",
+        "unlock_level": 46,
         "mods": {
           "bv_mod": 0.85,
           "gun_kick_mod": 1.2,
@@ -140,6 +148,7 @@
       },
       {
         "name": "MFS 5.56 NATO FMJ",
+        "unlock_level": "Weapon Prestige",
         "mods": {
           "bv_mod": 0.82,
           "range_mod": 1.16
@@ -149,6 +158,7 @@
     "LASER": [
       {
         "name": "1mW Instinct Laser Array",
+        "unlock_level": 40,
         "mods": {
           "ads_mod": 0.94,
           "stf_mod": 0.9,
@@ -158,26 +168,31 @@
       },
       {
         "name": "3mW Motion Strike Laser",
+        "unlock_level": 34,
         "mods": {
           "range_mod": 1.2
         }
       },
       {
         "name": "Convergence Box Laser",
+        "unlock_level": 7,
         "mods": {
           "hipfire_max_mod": 0.85
         }
       },
       {
-        "name": "Adaptive Tactical Laser"
+        "name": "Adaptive Tactical Laser",
+        "unlock_level": 15
       },
       {
-        "name": "5mw Lockstep Laser"
+        "name": "5mw Lockstep Laser",
+        "unlock_level": 21
       }
     ],
     "MAGAZINE": [
       {
         "name": "Mayday Extended Mag",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 1.04,
           "ads_movement_mod": 0.96,
@@ -186,6 +201,7 @@
       },
       {
         "name": "Backline Flip Mag",
+        "unlock_level": 2,
         "mods": {
           "mag_size_mod": 5,
           "reload_mod": 0.84
@@ -193,6 +209,7 @@
       },
       {
         "name": "Nomad Reserve Fast Mag",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 0.96,
           "reload_mod": 0.73,
@@ -203,6 +220,7 @@
       },
       {
         "name": "Bowen Bulwark Mag",
+        "unlock_level": 44,
         "mods": {
           "ads_mod": 1.09,
           "ads_movement_mod": 0.91,
@@ -217,6 +235,7 @@
       },
       {
         "name": "Backline Flip Mags",
+        "unlock_level": 2,
         "mods": {
           "mag_size_mod": 10,
           "reload_mod": 0.74
@@ -226,6 +245,7 @@
     "MUZZLE": [
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": 37,
         "mods": {
           "ads_mod": 1.23,
           "bv_mod": 1.06,
@@ -235,6 +255,7 @@
       },
       {
         "name": "Titan-R 5.56 Compensator",
+        "unlock_level": 31,
         "mods": {
           "ads_movement_mod": 1.05,
           "hipfire_max_mod": 0.75,
@@ -246,6 +267,7 @@
       },
       {
         "name": "Redwell 5.56 Compensator",
+        "unlock_level": 13,
         "mods": {
           "gun_kick_mod": 0.83,
           "vert_recoil_mod": 0.82
@@ -253,6 +275,7 @@
       },
       {
         "name": "RL-5.56 Brake",
+        "unlock_level": 24,
         "mods": {
           "gun_kick_mod": 0.88,
           "vert_recoil_mod": 0.88,
@@ -262,6 +285,7 @@
       },
       {
         "name": "Redwell Shade-X Suppressor",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "gun_kick_mod": 0.89,
           "horiz_recoil_mod": 0.89,
@@ -271,12 +295,14 @@
       },
       {
         "name": "VAS 5.56 Suppressor",
+        "unlock_level": 19,
         "mods": {
           "range_mod": 1.1
         }
       },
       {
         "name": "LTI Stentorian Brake",
+        "unlock_level": "Season 4 Battle Pass",
         "mods": {
           "gun_kick_mod": 1.09,
           "horiz_recoil_mod": 0.85,
@@ -287,24 +313,30 @@
     ],
     "OPTIC": [
       {
-        "name": "LTI Mini"
+        "name": "LTI Mini",
+        "unlock_level": 5
       },
       {
-        "name": "Kepler-Pro Red Dot"
+        "name": "Kepler-Pro Red Dot",
+        "unlock_level": 12
       },
       {
-        "name": "EMT3 Holo Mk.2"
+        "name": "EMT3 Holo Mk.2",
+        "unlock_level": 22
       },
       {
-        "name": "Kepler Ultra 4x"
+        "name": "Kepler Ultra 4x",
+        "unlock_level": 32
       },
       {
-        "name": "Millimeter Scanner"
+        "name": "Millimeter Scanner",
+        "unlock_level": 41
       }
     ],
     "REAR GRIP": [
       {
         "name": "Contour Grip",
+        "unlock_level": 8,
         "mods": {
           "stf_mod": 0.77,
           "jump_sprint_fire_speed_mod": 0.76
@@ -312,6 +344,7 @@
       },
       {
         "name": "Peregrine Grip",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0.77,
           "jump_ads_mod": 0.78
@@ -319,6 +352,7 @@
       },
       {
         "name": "Contraband Grip",
+        "unlock_level": 30,
         "mods": {
           "ads_mod": 1.03,
           "horiz_recoil_mod": 0.85
@@ -326,6 +360,7 @@
       },
       {
         "name": "Caravan-H2 Grip",
+        "unlock_level": 43,
         "mods": {
           "gun_kick_mod": 0.92,
           "vert_recoil_mod": 0.92,
@@ -334,6 +369,7 @@
       },
       {
         "name": "Hexcut Grip",
+        "unlock_level": 36,
         "mods": {
           "ads_mod": 0.89,
           "dive_fire_speed_mod": 0.8,
@@ -344,6 +380,7 @@
     "STOCK": [
       {
         "name": "Telescopic Stock",
+        "unlock_level": 4,
         "mods": {
           "crouch_movement_mod": 1.37,
           "movement_mod": 1.22,
@@ -352,6 +389,7 @@
       },
       {
         "name": "Bowen Linchpin Stock",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 1.11,
           "ads_movement_mod": 0.86,
@@ -363,6 +401,7 @@
       },
       {
         "name": "Wander-3V Stock",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 1.24
@@ -370,6 +409,7 @@
       },
       {
         "name": "Intervention Stock",
+        "unlock_level": 38,
         "mods": {
           "ads_mod": 1.09,
           "gun_kick_mod": 0.92,
@@ -379,6 +419,7 @@
       },
       {
         "name": "Ultralight Tactical Stock",
+        "unlock_level": 33,
         "mods": {
           "ads_mod": 0.94,
           "hipfire_max_mod": 0.85,
@@ -389,12 +430,14 @@
     "UNDERBARREL": [
       {
         "name": "Ironhold Angled Grip",
+        "unlock_level": 3,
         "mods": {
           "horiz_recoil_mod": 0.92
         }
       },
       {
         "name": "Quickstep Foregrip",
+        "unlock_level": 39,
         "mods": {
           "ads_movement_mod": 1.12,
           "crouch_movement_mod": 1.08,
@@ -403,12 +446,14 @@
       },
       {
         "name": "Axis Shift Vertical Foregrip",
+        "unlock_level": 28,
         "mods": {
           "horiz_recoil_mod": 0.8
         }
       },
       {
         "name": "EAM Steady-90 Grip",
+        "unlock_level": 35,
         "mods": {
           "crouch_movement_mod": 1.08,
           "horiz_recoil_mod": 0.9,
@@ -418,6 +463,7 @@
       },
       {
         "name": "VAS Convergence Foregrip",
+        "unlock_level": "Season 3 Battle Pass",
         "mods": {
           "gun_kick_mod": 0.9,
           "horiz_recoil_mod": 0.91,
@@ -425,19 +471,24 @@
         }
       },
       {
-        "name": "M335-X Frag"
+        "name": "M335-X Frag",
+        "unlock_level": 9
       },
       {
-        "name": "Enhance-32 Handstop"
+        "name": "Enhance-32 Handstop",
+        "unlock_level": 17
       },
       {
-        "name": "M335-X Cloak"
+        "name": "M335-X Cloak",
+        "unlock_level": 23
       },
       {
-        "name": "M335-X Drill Charge"
+        "name": "M335-X Drill Charge",
+        "unlock_level": 42
       },
       {
-        "name": "M335-X Tempest"
+        "name": "M335-X Tempest",
+        "unlock_level": 45
       }
     ]
   }

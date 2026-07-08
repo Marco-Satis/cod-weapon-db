@@ -73,6 +73,7 @@
     "AMMUNITION": [
       {
         "name": "450 Huntsman Low Grain Rounds",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -93,6 +94,7 @@
       },
       {
         "name": "450 Huntsman Mono",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -113,6 +115,7 @@
       },
       {
         "name": "450 Huntsman High Grain Rounds",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -133,6 +136,7 @@
       },
       {
         "name": "450 Huntsman Round Nose",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -188,6 +192,7 @@
     "BARREL": [
       {
         "name": "Tempus Predator Precision",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -208,6 +213,7 @@
       },
       {
         "name": "76L-P Heavy",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.06,
@@ -228,6 +234,7 @@
       },
       {
         "name": "Rattleback Pro 14.5\" MAW",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -248,6 +255,7 @@
       },
       {
         "name": "SL Crater Heavy",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.13,
@@ -268,6 +276,7 @@
       },
       {
         "name": "Orchestra-40 Short Heavy",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -288,6 +297,7 @@
       },
       {
         "name": "Rattleback Deadeye 16\"",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 1.19,
           "ads_movement_mod": 0.97,
@@ -308,6 +318,7 @@
       },
       {
         "name": "Huntsman Series-R Integrated Suppressor",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -330,6 +341,7 @@
     "CONVERSION KIT": [
       {
         "name": "JAK Thunder LMG Kit",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 1.13,
           "ads_movement_mod": 0,
@@ -432,6 +444,7 @@
       },
       {
         "name": "Pro Sapphire Box Laser",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -654,6 +667,7 @@
     "MAGAZINE": [
       {
         "name": "15 Round Mag",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0.95,
           "ads_movement_mod": 1.05,
@@ -674,6 +688,7 @@
       },
       {
         "name": "30 Round Drum",
+        "unlock_level": 28,
         "mods": {
           "ads_mod": 1.12,
           "ads_movement_mod": 0.93,
@@ -694,6 +709,7 @@
       },
       {
         "name": "10 Round Mag",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 1.09,
@@ -1116,6 +1132,7 @@
       },
       {
         "name": "L4R Flash Hider",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1236,6 +1253,7 @@
       },
       {
         "name": "Casus Brake L",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1578,6 +1596,7 @@
     "REAR GRIP": [
       {
         "name": "RB Rapidstrike Grip",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0.89,
           "ads_movement_mod": 0,
@@ -1598,6 +1617,7 @@
       },
       {
         "name": "RB Borealis Grip",
+        "unlock_level": 27,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1618,6 +1638,7 @@
       },
       {
         "name": "RB Palm Shelf Grip",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 1.3,
           "ads_movement_mod": 0.93,
@@ -1640,6 +1661,7 @@
     "STOCK": [
       {
         "name": "RB Precision Heavy",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.94,
@@ -1660,6 +1682,7 @@
       },
       {
         "name": "SL Warforged Precision",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0,
@@ -1680,6 +1703,7 @@
       },
       {
         "name": "RB Regal Heavy",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0.96,
           "ads_movement_mod": 0.97,
@@ -1700,6 +1724,7 @@
       },
       {
         "name": "MCW Ironbark Tactical",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -1759,12 +1784,14 @@
         }
       },
       {
-        "name": "A90 Venom"
+        "name": "A90 Venom",
+        "unlock_level": 26
       }
     ],
     "UNDERBARREL": [
       {
         "name": "FTAC MSP-98 Handstop",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0.9,
           "ads_movement_mod": 0,

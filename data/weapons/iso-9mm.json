@@ -293,6 +293,7 @@
     "BARREL": [
       {
         "name": "ISO 45 Factory",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0,
@@ -373,6 +374,7 @@
       },
       {
         "name": "6\" Axeblade",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0.92,
@@ -697,6 +699,7 @@
     "MAGAZINE": [
       {
         "name": "50 round drum",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 1.12,
           "ads_movement_mod": 0.91,
@@ -717,6 +720,7 @@
       },
       {
         "name": "20 Round Mag",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 1.06,
@@ -1663,6 +1667,7 @@
       },
       {
         "name": "Collapsed Stock",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.1,

@@ -294,6 +294,7 @@
       },
       {
         "name": "Bruen Turaco 686MM",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 1.05,
           "ads_movement_mod": 0.93,
@@ -314,6 +315,7 @@
       },
       {
         "name": "FTAC Hornet 20\"",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.94,
@@ -353,7 +355,8 @@
         }
       },
       {
-        "name": "24.4\" Bruen S620"
+        "name": "24.4\" Bruen S620",
+        "unlock_level": 0
       }
     ],
     "COMB": [
@@ -399,6 +402,7 @@
       },
       {
         "name": "Bruen TS-30 Comb",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 1.19,
           "ads_movement_mod": 0.94,
@@ -743,6 +747,7 @@
       },
       {
         "name": "30 Round Mag",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0.85,
           "ads_movement_mod": 1.18,
@@ -763,6 +768,7 @@
       },
       {
         "name": "10 Round Mag",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0.91,
@@ -782,7 +788,8 @@
         }
       },
       {
-        "name": "100 Round Mag"
+        "name": "100 Round Mag",
+        "unlock_level": 3
       }
     ],
     "MUZZLE": [
@@ -1128,6 +1135,7 @@
       },
       {
         "name": "FSS Covert V",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1148,6 +1156,7 @@
       },
       {
         "name": "Xten Ported 290",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1670,6 +1679,7 @@
       },
       {
         "name": "Bruen G305 Grip Wrap",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -2374,6 +2384,7 @@
       },
       {
         "name": "TV Wrecker Grip",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -2394,6 +2405,7 @@
       },
       {
         "name": "Bruen Heavy Bipod",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

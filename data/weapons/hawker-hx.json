@@ -57,6 +57,7 @@
     "BARREL": [
       {
         "name": "MFS 25\" Voltve Barrel",
+        "unlock_level": "Weapon Prestige",
         "mods": {
           "bv_mod": 1.15,
           "range_mod": 1.1538
@@ -64,6 +65,7 @@
       },
       {
         "name": "23.7\" Composite-11 Barrel",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 1.12,
           "bv_mod": 0.95
@@ -71,6 +73,7 @@
       },
       {
         "name": "20.5\" Hawker Spring Barrel",
+        "unlock_level": 28,
         "mods": {
           "ads_mod": 0.96,
           "stf_mod": 0.89
@@ -78,26 +81,31 @@
       },
       {
         "name": "27.4\" Teleos Range Barrel",
+        "unlock_level": 2,
         "mods": {
           "range_mod": 1.2564
         }
       },
       {
         "name": "26.1\" Absolutlon Barrel",
+        "unlock_level": 16,
         "mods": {
           "bv_mod": 1.2
         }
       },
       {
-        "name": "26.1\" Absolution Barrel"
+        "name": "26.1\" Absolution Barrel",
+        "unlock_level": 16
       },
       {
-        "name": "MFS 25\" Votive Barrel"
+        "name": "MFS 25\" Votive Barrel",
+        "unlock_level": "Weapon Prestige"
       }
     ],
     "FIRE MODS": [
       {
         "name": "Light Bolt",
+        "unlock_level": 18,
         "mods": {
           "bv_mod": 0.75,
           "gun_kick_mod": 1.2,
@@ -108,12 +116,14 @@
       },
       {
         "name": ".338 LM Overpressured",
+        "unlock_level": 38,
         "mods": {
           "bv_mod": 1.18
         }
       },
       {
         "name": "Recoil Spring Assembly",
+        "unlock_level": 6,
         "mods": {
           "gun_kick_mod": 0.9,
           "horiz_recoil_mod": 0.9,
@@ -121,36 +131,43 @@
         }
       },
       {
-        "name": ".338 LM FMJ"
+        "name": ".338 LM FMJ",
+        "unlock_level": 31
       }
     ],
     "LASER": [
       {
         "name": "Convergence Box Laser",
+        "unlock_level": 3,
         "mods": {
           "hipfire_max_mod": 0.85
         }
       },
       {
         "name": "1mW Instinct Laser Array",
+        "unlock_level": 34,
         "mods": {
           "ads_mod": 0.93,
           "stf_mod": 0.91
         }
       },
       {
-        "name": "2mw Adaptive Tactical Laser"
+        "name": "2mw Adaptive Tactical Laser",
+        "unlock_level": 15
       },
       {
-        "name": "5mw Lockstep Laser"
+        "name": "5mw Lockstep Laser",
+        "unlock_level": 21
       },
       {
-        "name": "3mw Motion Strike Laser"
+        "name": "3mw Motion Strike Laser",
+        "unlock_level": 27
       }
     ],
     "MAGAZINE": [
       {
         "name": "Tyrant-II Bulk Mag",
+        "unlock_level": 32,
         "mods": {
           "ads_mod": 1.06,
           "mag_size_mod": 5,
@@ -160,6 +177,7 @@
       },
       {
         "name": ".338 Hawker Extension Mag",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 1.04,
           "mag_size_mod": 3,
@@ -168,6 +186,7 @@
       },
       {
         "name": "Flatload Speed Mag",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 0.98,
           "mag_size_mod": -1,
@@ -177,6 +196,7 @@
       },
       {
         "name": "Amrita Fast Mag",
+        "unlock_level": 9,
         "mods": {
           "reload_mod": 0.74
         }
@@ -185,6 +205,7 @@
     "MUZZLE": [
       {
         "name": "Redwell Shade-X Suppressor",
+        "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "bv_mod": 0.87,
           "gun_kick_mod": 0.89,
@@ -195,6 +216,7 @@
       },
       {
         "name": "Eclipse .338 Brake",
+        "unlock_level": 29,
         "mods": {
           "gun_kick_mod": 0.92,
           "vert_recoil_mod": 0.92
@@ -202,6 +224,7 @@
       },
       {
         "name": "Monolithic Suppressor",
+        "unlock_level": 35,
         "mods": {
           "ads_mod": 1.11,
           "bv_mod": 1.2,
@@ -210,12 +233,14 @@
       },
       {
         "name": "EMT3 Ported-70",
+        "unlock_level": 23,
         "mods": {
           "hipfire_max_mod": 0.87
         }
       },
       {
         "name": "EMT3 Compensator",
+        "unlock_level": 8,
         "mods": {
           "gun_kick_mod": 0.85,
           "vert_recoil_mod": 0.85
@@ -223,6 +248,7 @@
       },
       {
         "name": "LTI Stentorian Brake",
+        "unlock_level": "Season 4 Battle Pass",
         "mods": {
           "gun_kick_mod": 1.08,
           "horiz_recoil_mod": 0.78,
@@ -231,18 +257,21 @@
         }
       },
       {
-        "name": "SWF Tishina-11"
+        "name": "SWF Tishina-11",
+        "unlock_level": 11
       }
     ],
     "REAR GRIP": [
       {
         "name": "Hawker Syncretic Grip",
+        "unlock_level": 12,
         "mods": {
           "horiz_recoil_mod": 0.92
         }
       },
       {
         "name": "Scud Shelf Grip",
+        "unlock_level": 26,
         "mods": {
           "gun_kick_mod": 0.92,
           "vert_recoil_mod": 0.92
@@ -250,18 +279,21 @@
       },
       {
         "name": "Chimeric Mobile Grip",
+        "unlock_level": 36,
         "mods": {
           "ads_mod": 0.93
         }
       },
       {
         "name": "Volant Tight Grip",
+        "unlock_level": 5,
         "mods": {
           "stf_mod": 0.65
         }
       },
       {
         "name": "Auroral Light Grip",
+        "unlock_level": 30,
         "mods": {
           "ads_mod": 0.87
         }
@@ -270,24 +302,28 @@
     "STOCK": [
       {
         "name": "Infiltrator Stock",
+        "unlock_level": 13,
         "mods": {
           "ads_movement_mod": 1.28
         }
       },
       {
         "name": "Centurion Stitch Stock",
+        "unlock_level": 10,
         "mods": {
           "hipfire_max_mod": 0.87
         }
       },
       {
         "name": "Requiem-ZW Stock",
+        "unlock_level": 25,
         "mods": {
           "ads_movement_mod": 1.16
         }
       },
       {
         "name": "Bardo Light Stock",
+        "unlock_level": 4,
         "mods": {
           "crouch_movement_mod": 1.17,
           "movement_mod": 1.11,
@@ -295,12 +331,14 @@
         }
       },
       {
-        "name": "Hawker Steadfast Stock"
+        "name": "Hawker Steadfast Stock",
+        "unlock_level": 37
       }
     ],
     "UNDERBARREL": [
       {
         "name": "Hawker Mobile Grlp",
+        "unlock_level": 14,
         "mods": {
           "ads_movement_mod": 1.18,
           "crouch_movement_mod": 1.09,
@@ -309,12 +347,14 @@
       },
       {
         "name": "FlatTop Grlp",
+        "unlock_level": 20,
         "mods": {
           "horiz_recoil_mod": 0.8
         }
       },
       {
         "name": "UnderPitch Grlp",
+        "unlock_level": 33,
         "mods": {
           "crouch_movement_mod": 1.09,
           "horiz_recoil_mod": 0.83,
@@ -324,24 +364,30 @@
       },
       {
         "name": "Hawker Ridge Grlp",
+        "unlock_level": 7,
         "mods": {
           "horiz_recoil_mod": 0.65
         }
       },
       {
-        "name": "Hawker Ridge Grip"
+        "name": "Hawker Ridge Grip",
+        "unlock_level": 7
       },
       {
-        "name": "Hawker Mobile Grip"
+        "name": "Hawker Mobile Grip",
+        "unlock_level": 14
       },
       {
-        "name": "Knitline Focus Grip"
+        "name": "Knitline Focus Grip",
+        "unlock_level": 17
       },
       {
-        "name": "FlatTop Grip"
+        "name": "FlatTop Grip",
+        "unlock_level": 20
       },
       {
-        "name": "UnderPitch Grip"
+        "name": "UnderPitch Grip",
+        "unlock_level": 33
       }
     ]
   }

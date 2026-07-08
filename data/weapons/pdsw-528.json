@@ -72,6 +72,7 @@
     "AMMUNITION": [
       {
         "name": "5.7X28MM Frangible",
+        "unlock_level": 21,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -92,6 +93,7 @@
       },
       {
         "name": "5.7X28MM Armor Piercing",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -112,6 +114,7 @@
       },
       {
         "name": "5.7x28MM Overpressured +P",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -154,6 +157,7 @@
     "BARREL": [
       {
         "name": "18.75\" Cloak 90",
+        "unlock_level": 28,
         "mods": {
           "ads_mod": 1.17,
           "ads_movement_mod": 0.92,
@@ -174,6 +178,7 @@
       },
       {
         "name": "17\" Corvus Prorange",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 1.17,
           "ads_movement_mod": 0.92,
@@ -194,6 +199,7 @@
       },
       {
         "name": "16\" Cloak 90",
+        "unlock_level": 24,
         "mods": {
           "ads_mod": 1.1,
           "ads_movement_mod": 0.94,
@@ -214,6 +220,7 @@
       },
       {
         "name": "9.5\" DUKE-30",
+        "unlock_level": 2,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 0,
@@ -234,6 +241,7 @@
       },
       {
         "name": "FTAC Series IX 14.5\"",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 1.02,
           "ads_movement_mod": 1.05,
@@ -254,6 +262,7 @@
       },
       {
         "name": "FTAC Defense 14.5\"",
+        "unlock_level": 20,
         "mods": {
           "ads_mod": 1.09,
           "ads_movement_mod": 0.97,
@@ -276,6 +285,7 @@
     "COMB": [
       {
         "name": "TV Taccomb",
+        "unlock_level": 23,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0.94,
@@ -296,6 +306,7 @@
       },
       {
         "name": "Mack 8 Ontrak Comb",
+        "unlock_level": 26,
         "mods": {
           "ads_mod": 1.25,
           "ads_movement_mod": 0.94,
@@ -316,6 +327,7 @@
       },
       {
         "name": "FTAC H86 Cheek Rest",
+        "unlock_level": 10,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -338,6 +350,7 @@
     "LASER": [
       {
         "name": "Hipshot L20",
+        "unlock_level": 4,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -640,6 +653,7 @@
     "MUZZLE": [
       {
         "name": "XTEN RR-40",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -740,6 +754,7 @@
       },
       {
         "name": "Bruen Pendulum",
+        "unlock_level": 29,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1080,6 +1095,7 @@
       },
       {
         "name": "Spiral V3.5 Flash Hider",
+        "unlock_level": 7,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1422,6 +1438,7 @@
     "RAIL": [
       {
         "name": "Integrated Reflex Rail",
+        "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.04,
@@ -1442,6 +1459,7 @@
       },
       {
         "name": "GR33 Light Rail",
+        "unlock_level": 14,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 1.04,
@@ -1464,6 +1482,7 @@
     "REAR GRIP": [
       {
         "name": "Bruen G305 Grip Wrap",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.95,
@@ -1484,6 +1503,7 @@
       },
       {
         "name": "STIP-40 Grip",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1504,6 +1524,7 @@
       },
       {
         "name": "Bruen Q900 Grip",
+        "unlock_level": 25,
         "mods": {
           "ads_mod": 0.97,
           "ads_movement_mod": 0,
@@ -1526,6 +1547,7 @@
     "STOCK": [
       {
         "name": "Guard Duty Stock",
+        "unlock_level": 19,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0,
@@ -1546,6 +1568,7 @@
       },
       {
         "name": "CQB Stock",
+        "unlock_level": 5,
         "mods": {
           "ads_mod": 0.91,
           "ads_movement_mod": 0,
@@ -1586,6 +1609,7 @@
       },
       {
         "name": "FSS Heavy Stock Pro",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0.94,
@@ -1948,6 +1972,7 @@
       },
       {
         "name": "Bruen Sync Shot Grip",
+        "unlock_level": 22,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -2208,6 +2233,7 @@
       },
       {
         "name": "Operator Foregrip",
+        "unlock_level": 16,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,

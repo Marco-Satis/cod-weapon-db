@@ -92,6 +92,7 @@
       },
       {
         "name": ".300 Armor Piercing",
+        "unlock_level": 15,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -112,6 +113,7 @@
       },
       {
         "name": ".300 Incendiary",
+        "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -132,6 +134,7 @@
       },
       {
         "name": ".300 High Velocity",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -171,13 +174,15 @@
         }
       },
       {
-        "name": ".300 Mag Armor Piercing"
+        "name": ".300 Mag Armor Piercing",
+        "unlock_level": 15
       },
       {
         "name": ".300 Mag Hollow Point"
       },
       {
         "name": ".300 Mag High Velocity",
+        "unlock_level": 9,
         "mods": {
           "bv_mod": 1.25
         }
@@ -187,6 +192,7 @@
       },
       {
         "name": ".300 Mag Incendiary",
+        "unlock_level": 13,
         "mods": {
           "bv_mod": 0.75,
           "range_mod": 0.8984
@@ -202,6 +208,7 @@
     "BARREL": [
       {
         "name": "22\" Cavalry",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 0.98,
           "ads_movement_mod": 0.93,
@@ -262,6 +269,7 @@
       },
       {
         "name": "18.5\" Bryson LR Factory",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0.92,
           "ads_movement_mod": 0,
@@ -588,6 +596,7 @@
     "MAGAZINE": [
       {
         "name": "8-Round Mag",
+        "unlock_level": 18,
         "mods": {
           "ads_mod": 1.03,
           "ads_movement_mod": 0.94,
@@ -650,6 +659,7 @@
       },
       {
         "name": "Nilsound 90 ",
+        "unlock_level": 8,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -790,6 +800,7 @@
       },
       {
         "name": "XRK Kraken",
+        "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1212,6 +1223,7 @@
       },
       {
         "name": "Cronen Grip Wrap",
+        "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -1254,6 +1266,7 @@
     "STOCK": [
       {
         "name": "MAX DMR Precision",
+        "unlock_level": 0,
         "mods": {
           "ads_mod": 0.96,
           "ads_movement_mod": 0.93,
@@ -1274,6 +1287,7 @@
       },
       {
         "name": "PVZ-890 TAC",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0.88,
           "ads_movement_mod": 0,

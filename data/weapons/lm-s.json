@@ -301,6 +301,7 @@
       },
       {
         "name": "Lachmann Nova",
+        "unlock_level": 12,
         "mods": {
           "ads_mod": 0.82,
           "ads_movement_mod": 1.1,
@@ -625,6 +626,7 @@
     "MAGAZINE": [
       {
         "name": "15 Round Mag",
+        "unlock_level": 3,
         "mods": {
           "ads_mod": 1.09,
           "ads_movement_mod": 0.92,
@@ -1107,6 +1109,7 @@
       },
       {
         "name": "Cronen Dark KX30",
+        "unlock_level": 9,
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
