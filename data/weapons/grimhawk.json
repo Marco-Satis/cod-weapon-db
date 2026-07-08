@@ -5,13 +5,102 @@
   "game": "bo7",
   "weapon_type": "Special",
   "in_warzone": true,
-  "source": "callofduty.com + Fandom + Game8/Dexerto/gamesatlas (Roster-Recherche, non-TGD)",
-  "data_version": "S4_2026-06-07",
+  "source": "codmunity-api (data-mined)",
+  "data_version": "S4Reloaded_2026-07-08_codmunity",
   "note": "Vollautomatisch; Low-Velocity-Projektile mit leichtem Homing auf feuernde Gegner. Special (NICHT Melee - 1 GameRant-Artikel falsch). Keine weiteren numerischen TGD-Stats.",
   "base": {
-    "mag": 60
+    "rpm": 652,
+    "mag": 25,
+    "reload_s": 3.4,
+    "ads_ms": 340,
+    "sprint_to_fire_ms": 260,
+    "velocity_ms": 40,
+    "move_speed": 4.8,
+    "crouch_move_speed": 2.5,
+    "ads_move_speed": 3.1,
+    "sprint_speed": 7.3,
+    "gun_kick": 16.6,
+    "vert_recoil": 52.05,
+    "horiz_recoil": 14.36,
+    "hipfire_max": 9
   },
-  "slots": {},
+  "damage": [
+    {
+      "head": 34,
+      "neck": 30,
+      "chest": 30,
+      "stomach": 30,
+      "upperarm": 30,
+      "lowerarm": 30,
+      "upperleg": 30,
+      "lowerleg": 30,
+      "dropoff": 0,
+      "base_rpm": 652,
+      "final_rpm": 652,
+      "rpm_mod": 1.0
+    },
+    {
+      "head": 28,
+      "neck": 25,
+      "chest": 25,
+      "stomach": 25,
+      "upperarm": 25,
+      "lowerarm": 25,
+      "upperleg": 25,
+      "lowerleg": 25,
+      "dropoff": 20,
+      "base_rpm": 652,
+      "final_rpm": 652,
+      "rpm_mod": 1.0
+    },
+    {
+      "head": 21,
+      "neck": 19,
+      "chest": 19,
+      "stomach": 19,
+      "upperarm": 19,
+      "lowerarm": 19,
+      "upperleg": 19,
+      "lowerleg": 19,
+      "dropoff": 30,
+      "base_rpm": 652,
+      "final_rpm": 652,
+      "rpm_mod": 1.0
+    }
+  ],
+  "slots": {
+    "BARREL": [
+      {
+        "name": "MFS Circultal Barrel",
+        "mods": {
+          "bv_mod": 1.25,
+          "hipfire_max_mod": 0.33,
+          "movement_mod": 1.07
+        }
+      },
+      {
+        "name": "MFS Circuital Barrel"
+      }
+    ],
+    "MAGAZINE": [
+      {
+        "name": "P.T. Expanse Mag",
+        "mods": {
+          "mag_size_mod": 10,
+          "reload_mod": 1.09
+        }
+      }
+    ],
+    "OPTIC": [
+      {
+        "name": "PrismaTech Affirm 2x",
+        "mods": {
+          "ads_mod": 1.01,
+          "horiz_recoil_mod": 0.7
+        }
+      }
+    ]
+  },
   "subclass": "Homing-Rounds Rifle (Auto)",
   "unlock": "Season 4 - Weekly Challenge Week 1 (6 Challenges aus MP/Zombies/Endgame/Warzone)"
 }

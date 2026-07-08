@@ -5,12 +5,18 @@
   "game": "bo7",
   "weapon_type": "Melee",
   "in_warzone": true,
-  "source": "callofduty.com + Fandom + Game8/Dexerto/gamesatlas (Roster-Recherche, non-TGD)",
-  "data_version": "S4_2026-06-07",
+  "source": "codmunity-api (data-mined)",
+  "data_version": "S4Reloaded_2026-07-08_codmunity",
   "unlock_level": 1,
   "note": "Hoher Schaden, kurze Reichweite, schnelle Angriffsgeschwindigkeit. Max Weapon-Level 30.",
   "base": {},
-  "slots": {},
+  "slots": {
+    "MUZZLE": [
+      {
+        "name": "Monolithic Suppressor"
+      }
+    ]
+  },
   "subclass": "Knife",
   "unlock": "Launch (Standard, Level 1)"
 }

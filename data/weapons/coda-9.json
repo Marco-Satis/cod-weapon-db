@@ -5,8 +5,8 @@
   "game": "bo7",
   "weapon_type": "Pistols",
   "in_warzone": true,
-  "source": "truegamedata-api",
-  "data_version": "S3.5_2026-04-25",
+  "source": "codmunity-api (data-mined)",
+  "data_version": "S4Reloaded_2026-07-08_codmunity",
   "note": "Off-Meta BO7 Pistol (vollauto) (9mm, 938 RPM, 20-round). nSlots=0 in TGD S3.5 (kein Builder-Daten, base-only wie REV-46/Dresden). Aufsatz-Deltas via codmunity-S4/TGD-S4-Update nachziehen.",
   "base": {
     "rpm": 938,
@@ -16,15 +16,13 @@
     "sprint_to_fire_ms": 120,
     "velocity_ms": 280,
     "move_speed": 5.1,
-    "crouch_move_speed": 2.6,
+    "crouch_move_speed": 2.8,
     "ads_move_speed": 3.8,
     "sprint_speed": 7.5,
     "gun_kick": 24.53,
     "vert_recoil": 34.32,
     "horiz_recoil": 15.29,
-    "idle_sway": 0.1,
-    "hipfire_max": 7,
-    "flinch_resistance": 0.2
+    "hipfire_max": 7
   },
   "damage": [
     {
@@ -32,72 +30,353 @@
       "neck": 28,
       "chest": 28,
       "stomach": 25,
-      "upperleg": 25,
-      "lowerleg": 25,
       "upperarm": 28,
       "lowerarm": 28,
+      "upperleg": 25,
+      "lowerleg": 25,
       "dropoff": 0,
       "base_rpm": 938,
       "final_rpm": 938,
-      "rpm_mod": 1
+      "rpm_mod": 1.0
     },
     {
       "head": 25,
       "neck": 23,
       "chest": 23,
       "stomach": 20,
-      "upperleg": 20,
-      "lowerleg": 20,
       "upperarm": 23,
       "lowerarm": 23,
-      "dropoff": 8.3,
+      "upperleg": 20,
+      "lowerleg": 20,
+      "dropoff": 8,
       "base_rpm": 938,
       "final_rpm": 938,
-      "rpm_mod": 1
+      "rpm_mod": 1.0
     },
     {
       "head": 22,
       "neck": 20,
       "chest": 20,
       "stomach": 18,
-      "upperleg": 18,
-      "lowerleg": 18,
       "upperarm": 20,
       "lowerarm": 20,
+      "upperleg": 18,
+      "lowerleg": 18,
       "dropoff": 18,
       "base_rpm": 938,
       "final_rpm": 938,
-      "rpm_mod": 1
+      "rpm_mod": 1.0
     }
   ],
-  "slots": {},
-  "meta_build": [
-    {
-      "label": "Close Range",
-      "source": "codmunity-S4 + warzoneloadout.games",
-      "confidence": "bestaetigt",
-      "attachments": [
-        {
-          "slot": "Muzzle",
-          "attachment": "H-9mm Precision Comp"
-        },
-        {
-          "slot": "Barrel",
-          "attachment": "6.3\" Greaves Halberd Barrel"
-        },
-        {
-          "slot": "Magazine",
-          "attachment": "Hellgate Stick Mag"
-        },
-        {
-          "slot": "Rear Grip",
-          "attachment": "ST3-Gloria Grip"
-        },
-        {
-          "slot": "Fire Mods",
-          "attachment": "Recoil Sync Unit"
+  "slots": {
+    "BARREL": [
+      {
+        "name": "5.6\" Banisher Barrel",
+        "mods": {
+          "bv_mod": 1.3
         }
-      ]
-    }
-  ]
+      },
+      {
+        "name": "4.1\" Paragon Barrel",
+        "mods": {
+          "ads_mod": 0.89,
+          "stf_mod": 0.79,
+          "jump_ads_mod": 0.82,
+          "jump_sprint_fire_speed_mod": 0.74
+        }
+      },
+      {
+        "name": "6.3\" Greaves Halberd Barrel",
+        "mods": {
+          "range_mod": 1.25
+        }
+      },
+      {
+        "name": "4.9\" Omen Barrel",
+        "mods": {
+          "gun_kick_mod": 1.3,
+          "horiz_recoil_mod": 1.2,
+          "vert_recoil_mod": 1.3
+        }
+      },
+      {
+        "name": "5\" LTI Epsilon-1 Barrel",
+        "mods": {
+          "bv_mod": 1.15,
+          "range_mod": 1.125
+        }
+      }
+    ],
+    "FIRE MODS": [
+      {
+        "name": "9mm Parabellum Overpressured",
+        "mods": {
+          "bv_mod": 1.2
+        }
+      },
+      {
+        "name": "Recoil Sync Unit",
+        "mods": {
+          "gun_kick_mod": 0.92,
+          "horiz_recoil_mod": 0.92,
+          "vert_recoil_mod": 0.92
+        }
+      },
+      {
+        "name": "Bolt Carrier Group",
+        "mods": {
+          "bv_mod": 0.92,
+          "gun_kick_mod": 1.2,
+          "horiz_recoil_mod": 1.2,
+          "range_mod": 0.8889,
+          "rpm_mod": 1.05,
+          "vert_recoil_mod": 1.2
+        }
+      },
+      {
+        "name": "9mm Parabellum FMJ"
+      }
+    ],
+    "LASER": [
+      {
+        "name": "1mW Pulse Laser",
+        "mods": {
+          "ads_mod": 0.92,
+          "stf_mod": 0.83,
+          "jump_ads_mod": 0.91,
+          "jump_sprint_fire_speed_mod": 0.83
+        }
+      },
+      {
+        "name": "K-Flash Target Laser",
+        "mods": {
+          "range_mod": 1.15
+        }
+      },
+      {
+        "name": "2mW Pinpoint Pistol Laser",
+        "mods": {
+          "hipfire_max_mod": 0.85
+        }
+      },
+      {
+        "name": "Convergence Box Laser",
+        "mods": {
+          "hipfire_max_mod": 0.85
+        }
+      },
+      {
+        "name": "4mW Snap Laser"
+      },
+      {
+        "name": "Tactical Flex Laser"
+      },
+      {
+        "name": "Adaptive Tactical Laser"
+      },
+      {
+        "name": "3mW Motion Strike Laser"
+      }
+    ],
+    "MAGAZINE": [
+      {
+        "name": "NanoFeed Fast Mag",
+        "mods": {
+          "ads_mod": 0.94,
+          "mag_size_mod": -5,
+          "reload_mod": 0.8,
+          "stf_mod": 0.92,
+          "jump_ads_mod": 0.94,
+          "jump_sprint_fire_speed_mod": 0.91
+        }
+      },
+      {
+        "name": "Hellgate Stick Mag",
+        "mods": {
+          "ads_mod": 1.08,
+          "mag_size_mod": 5,
+          "reload_mod": 1.09,
+          "stf_mod": 1.13,
+          "jump_ads_mod": 1.09,
+          "jump_sprint_fire_speed_mod": 1.12
+        }
+      },
+      {
+        "name": "MFS DeltaCell Bulk Mag",
+        "mods": {
+          "ads_movement_mod": 1.17,
+          "gun_kick_mod": 0.7,
+          "horiz_recoil_mod": 0.7,
+          "mag_size_mod": 10,
+          "movement_mod": 1.14,
+          "reload_mod": 1.2,
+          "sprint_mod": 1.03,
+          "vert_recoil_mod": 0.7
+        }
+      }
+    ],
+    "MUZZLE": [
+      {
+        "name": "H-9mm Precision Comp",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Hawker-9 Brake",
+        "mods": {
+          "gun_kick_mod": 0.92,
+          "vert_recoil_mod": 0.92,
+          "first_shot_scale_mod": 0.5,
+          "kick_reset_speed_mod": 0.42
+        }
+      },
+      {
+        "name": "Monolithic Suppressor",
+        "mods": {
+          "ads_mod": 1.31,
+          "bv_mod": 1.2,
+          "range_mod": 1.125,
+          "jump_ads_mod": 1.32
+        }
+      },
+      {
+        "name": "Hawker Ported Comp",
+        "mods": {
+          "hipfire_max_mod": 0.75,
+          "dive_fire_speed_mod": 0.8,
+          "slide_fire_speed_mod": 0.8
+        }
+      },
+      {
+        "name": "Redwell Shade-X Suppressor",
+        "mods": {
+          "bv_mod": 0.87,
+          "gun_kick_mod": 0.89,
+          "horiz_recoil_mod": 0.89,
+          "range_mod": 0.85,
+          "vert_recoil_mod": 0.89
+        }
+      },
+      {
+        "name": "LTI Stentorian Brake",
+        "mods": {
+          "gun_kick_mod": 1.09,
+          "horiz_recoil_mod": 0.75,
+          "rpm_mod": 1.03,
+          "vert_recoil_mod": 1.09
+        }
+      },
+      {
+        "name": "Bowen 9mm Suppressor"
+      }
+    ],
+    "OPTIC": [
+      {
+        "name": "LTI Mini"
+      },
+      {
+        "name": "Kepler Prism-IX Mini"
+      }
+    ],
+    "REAR GRIP": [
+      {
+        "name": "Express Grip",
+        "mods": {
+          "ads_mod": 0.86,
+          "jump_ads_mod": 0.86
+        }
+      },
+      {
+        "name": "Pincer Grip",
+        "mods": {
+          "stf_mod": 0.75,
+          "jump_sprint_fire_speed_mod": 0.75
+        }
+      },
+      {
+        "name": "ST3-Gloria Grip",
+        "mods": {
+          "ads_mod": 0.93,
+          "dive_fire_speed_mod": 0.8,
+          "jump_ads_mod": 0.93,
+          "slide_fire_speed_mod": 0.8
+        }
+      },
+      {
+        "name": "Terra-1X Grip",
+        "mods": {
+          "horiz_recoil_mod": 0.95
+        }
+      },
+      {
+        "name": "Muse Grip",
+        "mods": {
+          "gun_kick_mod": 0.92,
+          "vert_recoil_mod": 0.92,
+          "first_shot_scale_mod": 0.5
+        }
+      }
+    ],
+    "STOCK": [
+      {
+        "name": "Akimbo Coda 9",
+        "mods": {
+          "gun_kick_mod": 1.1,
+          "hipfire_max_mod": 1.35,
+          "horiz_recoil_mod": 1.1,
+          "reload_mod": 1.13,
+          "vert_recoil_mod": 1.1
+        }
+      },
+      {
+        "name": "Coda 9 Adaptive Discharge Mod",
+        "mods": {
+          "ads_mod": 1.29,
+          "ads_movement_mod": 0.92,
+          "crouch_movement_mod": 0.9,
+          "gun_kick_mod": 0.87,
+          "hipfire_max_mod": 0.9,
+          "horiz_recoil_mod": 0.05,
+          "movement_mod": 0.94,
+          "rpm_mod": 1.07,
+          "sprint_mod": 0.96,
+          "stf_mod": 1.26,
+          "vert_recoil_mod": 0.05
+        }
+      },
+      {
+        "name": "Coda 9 Adaptive Discharge Mod (ADS)",
+        "mods": {
+          "ads_mod": 1.29,
+          "ads_movement_mod": 0.92,
+          "crouch_movement_mod": 0.9,
+          "gun_kick_mod": 0.87,
+          "hipfire_max_mod": 0.9,
+          "horiz_recoil_mod": 0.05,
+          "movement_mod": 0.94,
+          "rpm_mod": 0.2772,
+          "sprint_mod": 0.96,
+          "stf_mod": 1.26,
+          "vert_recoil_mod": 0.05
+        }
+      },
+      {
+        "name": "Coda 9 Adaptive Discharge Mod (HipFire)",
+        "mods": {
+          "ads_mod": 1.29,
+          "ads_movement_mod": 0.92,
+          "crouch_movement_mod": 0.9,
+          "gun_kick_mod": 0.87,
+          "horiz_recoil_mod": 0.05,
+          "movement_mod": 0.94,
+          "rpm_mod": 1.07,
+          "sprint_mod": 0.96,
+          "stf_mod": 1.26,
+          "vert_recoil_mod": 0.05
+        }
+      }
+    ]
+  }
 }

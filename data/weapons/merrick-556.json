@@ -5,35 +5,25 @@
   "game": "bo6",
   "weapon_type": "AR",
   "in_warzone": true,
-  "source": "truegamedata-api",
-  "data_version": "S3.5_2026-04-25",
+  "source": "codmunity-api (data-mined)",
+  "data_version": "S4Reloaded_2026-07-08_codmunity",
   "unlock_level": 5,
   "note": "BO6 AR (5.56, 732 RPM, Season-6-BP). TGD S3.5 ohne Attachment-Builder-Daten (nSlots=0) -> base-only, wie Dresden/Jager/REV-46-Gap. Attachments via codmunity-S4 / TGD-S4 nachtragen.",
-  "fire_modes": {
-    "fire_mode1": "Full Auto",
-    "fire_mode2": "Semi Auto"
-  },
   "base": {
     "rpm": 732,
     "mag": 30,
-    "reload_s": 2.86,
+    "reload_s": 2.717,
     "ads_ms": 230,
     "sprint_to_fire_ms": 178,
     "velocity_ms": 915,
     "move_speed": 4.9,
-    "crouch_move_speed": 2.3,
+    "crouch_move_speed": 2.5,
     "ads_move_speed": 3.3,
-    "sprint_speed": 6.3,
-    "swap_speed": 1510,
-    "gun_kick": 23.6,
-    "vert_recoil": 45,
-    "horiz_recoil": 11.6,
-    "idle_sway": 0.42,
-    "hipfire_max": 7.25,
-    "flinch_resistance": 0.15,
-    "target_flinch": 0.8,
-    "tac_spread": 2.6,
-    "zoom_x": 1
+    "sprint_speed": 7.3,
+    "gun_kick": 21.5,
+    "vert_recoil": 41.02,
+    "horiz_recoil": 10.57,
+    "hipfire_max": 7.25
   },
   "damage": [
     {
@@ -41,72 +31,288 @@
       "neck": 37,
       "chest": 37,
       "stomach": 35,
-      "upperleg": 35,
-      "lowerleg": 35,
       "upperarm": 37,
       "lowerarm": 37,
+      "upperleg": 35,
+      "lowerleg": 35,
       "dropoff": 0,
       "base_rpm": 732,
       "final_rpm": 732,
-      "rpm_mod": 1
+      "rpm_mod": 1.0
     },
     {
       "head": 33,
       "neck": 29,
       "chest": 29,
       "stomach": 27,
-      "upperleg": 27,
-      "lowerleg": 27,
       "upperarm": 29,
       "lowerarm": 29,
+      "upperleg": 27,
+      "lowerleg": 27,
       "dropoff": 36,
       "base_rpm": 732,
       "final_rpm": 732,
-      "rpm_mod": 1
+      "rpm_mod": 1.0
     },
     {
       "head": 27,
       "neck": 24,
       "chest": 24,
       "stomach": 22,
-      "upperleg": 22,
-      "lowerleg": 22,
       "upperarm": 24,
       "lowerarm": 24,
+      "upperleg": 22,
+      "lowerleg": 22,
       "dropoff": 48,
       "base_rpm": 732,
       "final_rpm": 732,
-      "rpm_mod": 1
+      "rpm_mod": 1.0
     }
   ],
-  "slots": {},
-  "meta_build": [
-    {
-      "label": "Meta",
-      "source": "wzhub.gg",
-      "confidence": "wahrscheinlich",
-      "attachments": [
-        {
-          "slot": "Optic",
-          "attachment": "Willis 3x"
-        },
-        {
-          "slot": "Muzzle",
-          "attachment": "Compensator"
-        },
-        {
-          "slot": "Barrel",
-          "attachment": "Gain-Twist Barrel"
-        },
-        {
-          "slot": "Underbarrel",
-          "attachment": "Vertical Foregrip"
-        },
-        {
-          "slot": "Magazine",
-          "attachment": "Extended Mag II"
+  "slots": {
+    "BARREL": [
+      {
+        "name": "Gain-Twist Barrel",
+        "mods": {
+          "bv_mod": 1.4
         }
-      ]
-    }
-  ]
+      },
+      {
+        "name": "Long Barrel",
+        "mods": {
+          "range_mod": 1.4444
+        }
+      },
+      {
+        "name": "CHF Semi-Auto Conversion",
+        "mods": {
+          "gun_kick_mod": 1.47,
+          "horiz_recoil_mod": 1.2,
+          "vert_recoil_mod": 1.5
+        }
+      },
+      {
+        "name": "Reinforced Barrel",
+        "mods": {
+          "bv_mod": 1.2,
+          "range_mod": 1.2222
+        }
+      },
+      {
+        "name": "Short Barrel"
+      }
+    ],
+    "FIRE MODS": [
+      {
+        "name": "5.56 NATO Overpressured",
+        "mods": {
+          "bv_mod": 1.2
+        }
+      },
+      {
+        "name": "Recoil Springs",
+        "mods": {
+          "gun_kick_mod": 0.82,
+          "horiz_recoil_mod": 0.82,
+          "vert_recoil_mod": 0.82
+        }
+      },
+      {
+        "name": "Rapid Fire",
+        "mods": {
+          "bv_mod": 0.8,
+          "gun_kick_mod": 1.16,
+          "horiz_recoil_mod": 1.2,
+          "rpm_mod": 1.06,
+          "vert_recoil_mod": 1.15
+        }
+      },
+      {
+        "name": "5.56 NATO FMJ"
+      }
+    ],
+    "LASER": [
+      {
+        "name": "Steady Aim Laser",
+        "mods": {
+          "hipfire_max_mod": 0.8
+        }
+      },
+      {
+        "name": "Strelok Laser"
+      },
+      {
+        "name": "Tactical Laser"
+      },
+      {
+        "name": "Fast Motion Laser"
+      },
+      {
+        "name": "Target Laser"
+      }
+    ],
+    "MAGAZINE": [
+      {
+        "name": "Extended Mag I",
+        "mods": {
+          "mag_size_mod": 15,
+          "reload_mod": 1.03
+        }
+      },
+      {
+        "name": "Fast Mag II",
+        "mods": {
+          "ads_mod": 0.87,
+          "mag_size_mod": -10,
+          "reload_mod": 0.74,
+          "stf_mod": 0.86
+        }
+      },
+      {
+        "name": "Extended Mag II",
+        "mods": {
+          "ads_mod": 1.09,
+          "mag_size_mod": 30,
+          "reload_mod": 1.15,
+          "stf_mod": 1.11
+        }
+      },
+      {
+        "name": "Fast Mag I",
+        "mods": {
+          "reload_mod": 0.83
+        }
+      }
+    ],
+    "MUZZLE": [
+      {
+        "name": "Compensator",
+        "mods": {
+          "gun_kick_mod": 0.74,
+          "vert_recoil_mod": 0.7
+        }
+      },
+      {
+        "name": "Ported Compensator",
+        "mods": {
+          "gun_kick_mod": 0.87,
+          "vert_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Monolithic Suppressor",
+        "mods": {
+          "ads_mod": 1.24,
+          "bv_mod": 1.2,
+          "range_mod": 1.1
+        }
+      },
+      {
+        "name": "Suppressor"
+      },
+      {
+        "name": "Muzzle Brake"
+      }
+    ],
+    "STOCK": [
+      {
+        "name": "Light Stock",
+        "mods": {
+          "crouch_movement_mod": 1.42,
+          "movement_mod": 1.25
+        }
+      },
+      {
+        "name": "Balanced Stock",
+        "mods": {
+          "crouch_movement_mod": 1.27,
+          "movement_mod": 1.16,
+          "stf_mod": 0.92
+        }
+      },
+      {
+        "name": "Agility Stock",
+        "mods": {
+          "ads_mod": 0.83,
+          "ads_movement_mod": 1.1
+        }
+      },
+      {
+        "name": "Quickdraw Stock",
+        "mods": {
+          "ads_mod": 0.65
+        }
+      },
+      {
+        "name": "Ergonomic Stock",
+        "mods": {
+          "ads_movement_mod": 1.11
+        }
+      },
+      {
+        "name": "Combat Stock",
+        "mods": {
+          "stf_mod": 0.86
+        }
+      },
+      {
+        "name": "Infiltrator Stock",
+        "mods": {
+          "ads_movement_mod": 1.22
+        }
+      }
+    ],
+    "UNDERBARREL": [
+      {
+        "name": "Precision Foregrip",
+        "mods": {
+          "gun_kick_mod": 0.98,
+          "horiz_recoil_mod": 0.8
+        }
+      },
+      {
+        "name": "Ranger Foregrip",
+        "mods": {
+          "gun_kick_mod": 0.98,
+          "horiz_recoil_mod": 0.8,
+          "sprint_mod": 1.06
+        }
+      },
+      {
+        "name": "G-Grip",
+        "mods": {
+          "gun_kick_mod": 0.98,
+          "horiz_recoil_mod": 0.8
+        }
+      },
+      {
+        "name": "Vertical Foregrip",
+        "mods": {
+          "gun_kick_mod": 0.96,
+          "horiz_recoil_mod": 0.6
+        }
+      },
+      {
+        "name": "Lightweight Foregrip"
+      },
+      {
+        "name": "Launcher - High Explosive"
+      },
+      {
+        "name": "Launcher - Standard"
+      },
+      {
+        "name": "Marksman Foregrip"
+      },
+      {
+        "name": "Launcher - Smoke"
+      },
+      {
+        "name": "Launcher - Drill Charge"
+      },
+      {
+        "name": "Crossbow"
+      }
+    ]
+  }
 }

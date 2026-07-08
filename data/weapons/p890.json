@@ -5,13 +5,9 @@
   "game": "mw2",
   "weapon_type": "Pistols",
   "in_warzone": true,
-  "source": "truegamedata-api",
-  "data_version": "S3.5_2026-04-25",
+  "source": "codmunity-api (data-mined)",
+  "data_version": "S4Reloaded_2026-07-08_codmunity",
   "note": "Off-Meta MW2 Pistol (.45 Auto, 286 RPM, 8-round). Hat TRIGGER ACTION-Slot. Universelle Slots = MW-Pool.",
-  "fire_modes": {
-    "fire_mode1": "Semi Auto",
-    "fire_mode2": ""
-  },
   "base": {
     "rpm": 286,
     "mag": 8,
@@ -23,16 +19,10 @@
     "crouch_move_speed": 2.9,
     "ads_move_speed": 3.7,
     "sprint_speed": 6.7,
-    "swap_speed": 1167,
     "gun_kick": 31.25,
     "vert_recoil": 77.82,
     "horiz_recoil": 54.49,
-    "idle_sway": 1.5,
-    "hipfire_max": 5,
-    "flinch_resistance": 0.2,
-    "target_flinch": 0.8,
-    "tac_spread": 10,
-    "zoom_x": 0.8
+    "hipfire_max": 5
   },
   "damage": [
     {
@@ -40,258 +30,496 @@
       "neck": 62,
       "chest": 62,
       "stomach": 57,
-      "upperleg": 52,
-      "lowerleg": 52,
       "upperarm": 62,
       "lowerarm": 62,
+      "upperleg": 52,
+      "lowerleg": 52,
       "dropoff": 0,
       "base_rpm": 286,
       "final_rpm": 286,
-      "rpm_mod": 1
+      "rpm_mod": 1.0
     },
     {
       "head": 80,
       "neck": 52,
       "chest": 52,
       "stomach": 48,
-      "upperleg": 44,
-      "lowerleg": 44,
       "upperarm": 52,
       "lowerarm": 52,
+      "upperleg": 44,
+      "lowerleg": 44,
       "dropoff": 9.1,
       "base_rpm": 286,
       "final_rpm": 286,
-      "rpm_mod": 1
+      "rpm_mod": 1.0
     },
     {
       "head": 70,
       "neck": 45,
       "chest": 45,
       "stomach": 42,
-      "upperleg": 38,
-      "lowerleg": 38,
       "upperarm": 45,
       "lowerarm": 45,
+      "upperleg": 38,
+      "lowerleg": 38,
       "dropoff": 19.5,
       "base_rpm": 286,
       "final_rpm": 286,
-      "rpm_mod": 1
+      "rpm_mod": 1.0
     },
     {
       "head": 62,
       "neck": 40,
       "chest": 40,
       "stomach": 37,
-      "upperleg": 34,
-      "lowerleg": 34,
       "upperarm": 40,
       "lowerarm": 40,
+      "upperleg": 34,
+      "lowerleg": 34,
       "dropoff": 27.5,
       "base_rpm": 286,
       "final_rpm": 286,
-      "rpm_mod": 1
+      "rpm_mod": 1.0
     },
     {
       "head": 58,
       "neck": 37,
       "chest": 37,
       "stomach": 34,
-      "upperleg": 31,
-      "lowerleg": 31,
       "upperarm": 37,
       "lowerarm": 37,
+      "upperleg": 31,
+      "lowerleg": 31,
       "dropoff": 38.9,
       "base_rpm": 286,
       "final_rpm": 286,
-      "rpm_mod": 1
+      "rpm_mod": 1.0
     }
   ],
   "slots": {
     "AMMUNITION": [
       {
-        "name": ".45 Auto High Grain Rounds",
+        "name": ".45 Auto Low Grain Rounds",
         "mods": {
-          "gun_kick_mod": 1.05,
-          "vert_recoil_mod": 1.08,
-          "horiz_recoil_mod": 1.08,
-          "range_mod": 1.1491,
-          "bv_mod": 1.15
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0.85,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0.95,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0.92,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0.848329,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0.92
         }
       },
       {
-        "name": ".45 Auto Low Grain Rounds",
+        "name": ".45 Auto Overpressured +P",
         "mods": {
-          "gun_kick_mod": 0.95,
-          "vert_recoil_mod": 0.92,
-          "horiz_recoil_mod": 0.92,
-          "range_mod": 0.848329,
-          "bv_mod": 0.85
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0
         }
       },
       {
         "name": ".45 Auto Hardened Rounds",
         "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0.85,
+          "crouch_movement_mod": 0,
           "gun_kick_mod": 1.03,
-          "vert_recoil_mod": 1.04,
+          "hipfire_max_mod": 0,
           "horiz_recoil_mod": 1.04,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
           "range_mod": 0.763496,
-          "bv_mod": 0.85
-        }
-      },
-      {
-        "name": ".45 Auto AET Rounds",
-        "mods": {
-          "bv_mod": 0.8,
-          "target_flinch_mod": 0.7
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 1.04
         }
       },
       {
         "name": ".45 Auto Frangible",
         "mods": {
-          "range_mod": 0.948586
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0.948586,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0
         }
       },
       {
-        "name": ".45 Auto Hollowpoint"
-      },
-      {
-        "name": ".45 Auto Armor Piercing"
-      },
-      {
-        "name": ".45 Auto Overpressured +P",
+        "name": ".45 Auto Armor Piercing",
         "mods": {
-          "target_flinch_mod": 1.8
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0
+        }
+      },
+      {
+        "name": ".45 Auto High Grain",
+        "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 1.15,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 1.05,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 1.08,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 1.1491,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 1.08
+        }
+      },
+      {
+        "name": ".45 Auto Hollow Point",
+        "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0
         }
       }
     ],
     "BARREL": [
       {
-        "name": "Matuzek Cottonmouth Barrel",
-        "mods": {
-          "ads_mod": 1.13,
-          "gun_kick_mod": 0.93,
-          "vert_recoil_mod": 0.93,
-          "horiz_recoil_mod": 0.93,
-          "ads_movement_mod": 0.96,
-          "hipfire_max_mod": 1.06,
-          "range_mod": 1.15681,
-          "idle_sway_mod": 0.94,
-          "bv_mod": 1.19,
-          "crouch_movement_mod": 0.97,
-          "movement_mod": 0.97,
-          "sprint_mod": 0.97
-        }
-      },
-      {
-        "name": "XRK TacOps Barrel",
-        "mods": {
-          "ads_mod": 0.96,
-          "gun_kick_mod": 1.04,
-          "vert_recoil_mod": 1.04,
-          "horiz_recoil_mod": 1.04,
-          "ads_movement_mod": 1.03,
-          "bv_mod": 0.96,
-          "crouch_movement_mod": 1.02,
-          "movement_mod": 1.03,
-          "sprint_mod": 1.01
-        }
-      },
-      {
         "name": "Matuzek Venom",
         "mods": {
           "ads_mod": 0.93,
-          "gun_kick_mod": 1.02,
-          "vert_recoil_mod": 1.02,
-          "horiz_recoil_mod": 1.02,
           "ads_movement_mod": 1.02,
-          "hipfire_max_mod": 0.95,
-          "range_mod": 0.969152,
-          "idle_sway_mod": 1.04,
           "bv_mod": 0.96,
           "crouch_movement_mod": 1.01,
-          "movement_mod": 1.01
+          "gun_kick_mod": 1.02,
+          "hipfire_max_mod": 0.95,
+          "horiz_recoil_mod": 1.02,
+          "mag_size_mod": 0,
+          "movement_mod": 1.01,
+          "range_mod": 0.969152,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 1.02
         }
       },
       {
-        "name": "XTEN Harbinger",
+        "name": "XRK Tacops",
+        "mods": {
+          "ads_mod": 0.96,
+          "ads_movement_mod": 1.03,
+          "bv_mod": 0.96,
+          "crouch_movement_mod": 1.02,
+          "gun_kick_mod": 1.04,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 1.04,
+          "mag_size_mod": 0,
+          "movement_mod": 1.03,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 1.01,
+          "stf_mod": 0,
+          "vert_recoil_mod": 1.04
+        }
+      },
+      {
+        "name": "Matuzek Cottonmouth",
+        "mods": {
+          "ads_mod": 1.13,
+          "ads_movement_mod": 0.96,
+          "bv_mod": 1.19,
+          "crouch_movement_mod": 0.97,
+          "gun_kick_mod": 0.93,
+          "hipfire_max_mod": 1.06,
+          "horiz_recoil_mod": 0.93,
+          "mag_size_mod": 0,
+          "movement_mod": 0.97,
+          "range_mod": 1.15681,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0.97,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0.93
+        }
+      },
+      {
+        "name": "Xten Harbinger",
         "mods": {
           "ads_mod": 1.21,
-          "gun_kick_mod": 0.65,
-          "vert_recoil_mod": 0.65,
-          "horiz_recoil_mod": 0.8,
           "ads_movement_mod": 0.94,
           "bv_mod": 1.13,
           "crouch_movement_mod": 0.95,
+          "gun_kick_mod": 0.65,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0.8,
+          "mag_size_mod": 0,
           "movement_mod": 0.95,
-          "sprint_mod": 0.95
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0.95,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0.65
         }
       }
     ],
     "LASER": [
       {
-        "name": "KR HX-15 Laser Light",
-        "mods": {
-          "ads_mod": 0.9,
-          "stf_mod": 0.85
-        }
-      },
-      {
         "name": "CS15 Scarlet Mounted Laser",
         "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
           "hipfire_max_mod": 1.3,
-          "idle_sway_mod": 0.1,
-          "stf_mod": 0.87
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0.87,
+          "vert_recoil_mod": 0
         }
       },
       {
         "name": "Verdant Hook Box Laser",
         "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
           "hipfire_max_mod": 0.9,
-          "idle_sway_mod": 0.9,
-          "stf_mod": 0.91
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0.91,
+          "vert_recoil_mod": 0
         }
       },
       {
-        "name": "Series 710 Pistol Laser"
+        "name": "KR HX-15 Laser Light",
+        "mods": {
+          "ads_mod": 0.9,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0.85,
+          "vert_recoil_mod": 0
+        }
       },
       {
-        "name": "FJX Diod-70",
+        "name": "1MW Pistol Laser",
+        "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0.92,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0.95,
+          "vert_recoil_mod": 0
+        }
+      },
+      {
+        "name": "Xten Sidearm-L400",
+        "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0.9,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0
+        }
+      },
+      {
+        "name": "FJX DIOD-70",
         "mods": {
           "ads_mod": 0.95,
-          "stf_mod": 0.94
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0.94,
+          "vert_recoil_mod": 0
         }
       },
       {
-        "name": "XTEN Sidearm-L400",
+        "name": "Series 710 Pistol Laser",
         "mods": {
-          "hipfire_max_mod": 0.9,
-          "idle_sway_mod": 0.8
-        }
-      },
-      {
-        "name": "1mW Pistol Laser",
-        "mods": {
-          "hipfire_max_mod": 0.92,
-          "idle_sway_mod": 0.92,
-          "stf_mod": 0.95
-        }
-      },
-      {
-        "name": "DZM-1000 L",
-        "mods": {
-          "stf_mod": 0.91
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0
         }
       },
       {
         "name": "FTAC Vortex 200",
         "mods": {
-          "stf_mod": 0.86
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0.86,
+          "vert_recoil_mod": 0
         }
       },
       {
-        "name": "Pro Sapphire Mounted Laser",
+        "name": "DZM-1000 L",
         "mods": {
-          "stf_mod": 0.87
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0.91,
+          "vert_recoil_mod": 0
+        }
+      },
+      {
+        "name": "Pro Sapphire Mounted",
+        "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0.87,
+          "vert_recoil_mod": 0
         }
       }
     ],
@@ -301,10 +529,19 @@
         "mods": {
           "ads_mod": 1.07,
           "ads_movement_mod": 0.96,
+          "bv_mod": 0,
           "crouch_movement_mod": 0.97,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
           "movement_mod": 0.97,
+          "range_mod": 0,
+          "reload_mod": 1.13,
+          "rpm_mod": 0,
           "sprint_mod": 0.98,
-          "reload_mod": 1.13
+          "stf_mod": 0,
+          "vert_recoil_mod": 0
         }
       },
       {
@@ -312,10 +549,19 @@
         "mods": {
           "ads_mod": 1.14,
           "ads_movement_mod": 0.93,
+          "bv_mod": 0,
           "crouch_movement_mod": 0.94,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
           "movement_mod": 0.94,
+          "range_mod": 0,
+          "reload_mod": 1.25,
+          "rpm_mod": 0,
           "sprint_mod": 0.96,
-          "reload_mod": 1.25
+          "stf_mod": 0,
+          "vert_recoil_mod": 0
         }
       }
     ],
@@ -323,193 +569,421 @@
       {
         "name": "HMRES Mod Suppressor S",
         "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 1.14,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
           "range_mod": 1.07969,
-          "bv_mod": 1.14
-        }
-      },
-      {
-        "name": "Sonic Suppressor S",
-        "mods": {
-          "range_mod": 1.07969,
-          "bv_mod": 1.14
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0
         }
       },
       {
         "name": "Colossus Suppressor S",
         "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 1.14,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
           "range_mod": 1.07969,
-          "bv_mod": 1.14
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0
         }
       },
       {
         "name": "CN30 Suppressor",
         "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 1.14,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
           "range_mod": 1.07969,
-          "bv_mod": 1.14
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0
         }
       },
       {
-        "name": "Forge DX90-F",
+        "name": "VP27 Mini Brake",
         "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0.85,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0.85,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Forge DX90-F ",
+        "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 1.14,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
           "range_mod": 1.07969,
-          "bv_mod": 1.14
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0
+        }
+      },
+      {
+        "name": "Sonic Suppressor S",
+        "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 1.14,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 1.07969,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0
         }
       },
       {
         "name": "FT Steel Fire",
         "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 1.14,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
           "range_mod": 1.07969,
-          "bv_mod": 1.14
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0
         }
       },
       {
         "name": "Forge DX30-S",
         "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 1.14,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
           "range_mod": 1.07969,
-          "bv_mod": 1.14
-        }
-      },
-      {
-        "name": "VP27 Mini Brake S",
-        "mods": {
-          "gun_kick_mod": 0.85,
-          "vert_recoil_mod": 0.85,
-          "horiz_recoil_mod": 0.85
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0
         }
       },
       {
         "name": "DZS Open Comp",
         "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
           "gun_kick_mod": 0.85,
-          "vert_recoil_mod": 0.85,
-          "horiz_recoil_mod": 0.85
-        }
-      },
-      {
-        "name": "Slab-10 Comp",
-        "mods": {
-          "gun_kick_mod": 0.85,
-          "vert_recoil_mod": 0.85,
-          "horiz_recoil_mod": 0.85
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0.85,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0.85
         }
       },
       {
         "name": "XRK Ventor-900",
         "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
           "gun_kick_mod": 0.85,
-          "vert_recoil_mod": 0.85,
-          "horiz_recoil_mod": 0.85
-        }
-      },
-      {
-        "name": "Comp 905F Pistol",
-        "mods": {
-          "gun_kick_mod": 0.85,
-          "vert_recoil_mod": 0.85,
-          "horiz_recoil_mod": 0.85
-        }
-      },
-      {
-        "name": "Bruen Tri-Port",
-        "mods": {
-          "gun_kick_mod": 0.85,
-          "vert_recoil_mod": 0.85,
-          "horiz_recoil_mod": 0.85
-        }
-      },
-      {
-        "name": "Corvus Series-D",
-        "mods": {
-          "gun_kick_mod": 0.85,
-          "vert_recoil_mod": 0.85,
-          "horiz_recoil_mod": 0.85
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0.85,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0.85
         }
       },
       {
         "name": "XRK QZ-105",
         "mods": {
-          "range_mod": 1.1054
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 1.1054,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0
         }
       },
       {
-        "name": "SA GF90 Flash Hider",
+        "name": "Comp 905F Pistol",
         "mods": {
-          "range_mod": 1.1054
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0.85,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0.85,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "SA GF90. Flash Hider",
+        "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 1.1054,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0
+        }
+      },
+      {
+        "name": "Bruen TRI-Port",
+        "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0.85,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0.85,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0.85
         }
       },
       {
         "name": "Hole Punch Breacher",
         "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
           "gun_kick_mod": 0.94,
-          "vert_recoil_mod": 0.94,
-          "horiz_recoil_mod": 0.94
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0.94,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0.94
         }
       },
       {
-        "name": "ZEHMN35 Compensated Flash Hider",
+        "name": "Slab-10 Comp",
         "mods": {
-          "vert_recoil_mod": 0.85,
-          "horiz_recoil_mod": 0.92
-        }
-      },
-      {
-        "name": "STER45 Skyfury Compensator",
-        "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
           "gun_kick_mod": 0.85,
-          "vert_recoil_mod": 0.85,
-          "horiz_recoil_mod": 0.85
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0.85,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Corvus Series-D",
+        "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0.85,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0.85,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0.85
         }
       },
       {
         "name": "Monolithic Suppressor",
         "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 1.14,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
           "range_mod": 1.07969,
-          "bv_mod": 1.14
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0
+        }
+      },
+      {
+        "name": "ZEHMN35 Compensated Flash Hider",
+        "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0.92,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "STER45 Skyfury Compensator",
+        "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0.85,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0.85,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0.85
         }
       },
       {
         "name": "ELR Blackfire Compensator",
         "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
           "gun_kick_mod": 0.85,
-          "vert_recoil_mod": 0.85,
-          "horiz_recoil_mod": 0.85
-        }
-      }
-    ],
-    "OPTIC": [
-      {
-        "name": "Cronen Intlas MSP-12",
-        "mods": {
-          "ads_mod": 0.97,
-          "hipfire_max_mod": 0.9,
-          "idle_sway_mod": 0.9
-        }
-      },
-      {
-        "name": "Slate Reflector"
-      },
-      {
-        "name": "Slimline Pro"
-      },
-      {
-        "name": "SZ Mini"
-      },
-      {
-        "name": "Cronen Mini Dot"
-      },
-      {
-        "name": "Cronen Mini Pro"
-      },
-      {
-        "name": "SZ Sigma-IV Optic"
-      },
-      {
-        "name": "SZ Minitac-40"
-      },
-      {
-        "name": "FSS Spectre Microtherm",
-        "mods": {
-          "ads_mod": 1.13
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0.85,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0.85
         }
       }
     ],
@@ -517,112 +991,168 @@
       {
         "name": "Bruen Anchor Grip",
         "mods": {
-          "ads_movement_mod": 0.95
-        }
-      },
-      {
-        "name": "FJX DVF60 Grip",
-        "mods": {
-          "gun_kick_mod": 0.9,
-          "vert_recoil_mod": 0.93,
-          "horiz_recoil_mod": 0.93
-        }
-      },
-      {
-        "name": "Bruen RSH-80 Grip",
-        "mods": {
-          "ads_mod": 0.97,
-          "gun_kick_mod": 1.06,
-          "vert_recoil_mod": 1.06,
-          "horiz_recoil_mod": 1.06,
-          "stf_mod": 0.85
+          "ads_mod": 0,
+          "ads_movement_mod": 0.95,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0
         }
       },
       {
         "name": "BP-Grain Grip",
         "mods": {
           "ads_mod": 1.53,
-          "ads_movement_mod": 0.92
+          "ads_movement_mod": 0.92,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0
+        }
+      },
+      {
+        "name": "FJX DVF60 Grip",
+        "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0.9,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0.93,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0.93
+        }
+      },
+      {
+        "name": "Bruen RSH-80 Grip",
+        "mods": {
+          "ads_mod": 0.97,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 1.06,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 1.06,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0.85,
+          "vert_recoil_mod": 1.06
         }
       },
       {
         "name": "Akimbo P890",
         "mods": {
-          "vert_recoil_mod": 0.55,
-          "horiz_recoil_mod": 0.55,
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
           "hipfire_max_mod": 0.8,
-          "range_mod": 0.565553,
-          "idle_sway_mod": 0.8,
+          "horiz_recoil_mod": 0.55,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0.57,
           "reload_mod": 1.35,
-          "swap_speed_mod": 0.59
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0.55
         }
       }
     ],
-    "TRIGGER ACTION": [
+    "TRIGGERACTION": [
       {
-        "name": "Bruen MG89 Trigger",
-        "mods": {
-          "hipfire_max_mod": 1.15,
-          "rpm_mod": 1.11
-        }
-      },
-      {
-        "name": "XRK Heavy v3",
+        "name": "XRK Heavy V3",
         "mods": {
           "ads_mod": 0.93,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0.91,
+          "sprint_mod": 0,
           "stf_mod": 0.86,
-          "rpm_mod": 0.91
-        }
-      },
-      {
-        "name": "Bruen Express",
-        "mods": {
-          "stf_mod": 1.15,
-          "rpm_mod": 1.24
+          "vert_recoil_mod": 0
         }
       },
       {
         "name": "P890 Double Action",
         "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
           "stf_mod": 0.8,
-          "swap_speed_mod": 0.77
+          "vert_recoil_mod": 0
         }
+      },
+      {
+        "name": "Bruen Express",
+        "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 1.24,
+          "sprint_mod": 0,
+          "stf_mod": 1.15,
+          "vert_recoil_mod": 0
+        }
+      },
+      {
+        "name": "Bruen MG80 Trigger"
       }
     ]
-  },
-  "blocking": [
-    {
-      "id": 39,
-      "gun": "P890",
-      "attachment": "Matuzek Cottonmouth Barrel",
-      "slot": "Barrel",
-      "blocks": "Muzzle",
-      "reason": "Extended Barrel",
-      "tooltip": "Unlock by removing the Matuzek Cottonmouth Barrel, the Matuzek Venom barrel, and the XTEN Harbinger barrel"
-    },
-    {
-      "id": 40,
-      "gun": "P890",
-      "attachment": "Matuzek Venom",
-      "slot": "Barrel",
-      "blocks": "Muzzle",
-      "tooltip": "Unlock by removing the Matuzek Cottonmouth Barrel, the Matuzek Venom barrel, and the XTEN Harbinger barrel"
-    },
-    {
-      "id": 41,
-      "gun": "P890",
-      "attachment": "XTEN Harbinger",
-      "slot": "Barrel",
-      "blocks": "Muzzle",
-      "tooltip": "Unlock by removing the Matuzek Cottonmouth Barrel, the Matuzek Venom barrel, and the XTEN Harbinger barrel"
-    },
-    {
-      "id": 44,
-      "gun": "P890",
-      "attachment": "XTEN Harbinger",
-      "slot": "Barrel",
-      "blocks": "Laser",
-      "tooltip": "Unlock by removing the XTEN Harbinger barrel"
-    }
-  ]
+  }
 }

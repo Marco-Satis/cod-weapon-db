@@ -5,8 +5,8 @@
   "game": "bo7",
   "weapon_type": "Pistols",
   "in_warzone": true,
-  "source": "truegamedata-api",
-  "data_version": "S3.5_2026-04-25",
+  "source": "codmunity-api (data-mined)",
+  "data_version": "S4Reloaded_2026-07-08_codmunity",
   "note": "Off-Meta BO7 Pistol (.45, 600 RPM, 10-round). TGD S3.5 ohne Attachment-Builder-Daten (nSlots=0 trotz geladener Waffe) -> base-only, wie Dresden/REV-46-Gap. Attachments via codmunity-S4 / TGD-S4 nachtragen.",
   "base": {
     "rpm": 600,
@@ -22,9 +22,7 @@
     "gun_kick": 32.5,
     "vert_recoil": 37.81,
     "horiz_recoil": 22.39,
-    "idle_sway": 0.1,
-    "hipfire_max": 6.5,
-    "flinch_resistance": 0.2
+    "hipfire_max": 6.5
   },
   "damage": [
     {
@@ -32,58 +30,295 @@
       "neck": 45,
       "chest": 45,
       "stomach": 30,
-      "upperleg": 30,
-      "lowerleg": 30,
       "upperarm": 45,
       "lowerarm": 45,
+      "upperleg": 30,
+      "lowerleg": 30,
       "dropoff": 0,
       "base_rpm": 600,
       "final_rpm": 600,
-      "rpm_mod": 1
+      "rpm_mod": 1.0
     },
     {
       "head": 44,
       "neck": 33,
       "chest": 33,
       "stomach": 22,
-      "upperleg": 22,
-      "lowerleg": 22,
       "upperarm": 33,
       "lowerarm": 33,
+      "upperleg": 22,
+      "lowerleg": 22,
       "dropoff": 20,
       "base_rpm": 600,
       "final_rpm": 600,
-      "rpm_mod": 1
+      "rpm_mod": 1.0
     }
   ],
-  "slots": {},
-  "meta_build": [
-    {
-      "label": "Close Range",
-      "source": "codmunity-S4 + game8",
-      "confidence": "bestaetigt",
-      "attachments": [
-        {
-          "slot": "Muzzle",
-          "attachment": "H-45 Precision Comp"
-        },
-        {
-          "slot": "Barrel",
-          "attachment": "8.7\" EAM Voyager Barrel"
-        },
-        {
-          "slot": "Magazine",
-          "attachment": "Goliath-X Extended+"
-        },
-        {
-          "slot": "Rear Grip",
-          "attachment": "VX-Shift Grip"
-        },
-        {
-          "slot": "Fire Mods",
-          "attachment": "Pistol Recoil Spring"
+  "slots": {
+    "BARREL": [
+      {
+        "name": "6.3\" Elevation Barrel",
+        "mods": {
+          "ads_mod": 0.9,
+          "stf_mod": 0.89,
+          "jump_ads_mod": 0.83,
+          "jump_sprint_fire_speed_mod": 0.82
         }
-      ]
-    }
-  ]
+      },
+      {
+        "name": "7.1\" Hawker Ion Barrel",
+        "mods": {
+          "bv_mod": 1.22,
+          "range_mod": 1.15
+        }
+      },
+      {
+        "name": "8.7\" EAM Voyager Barrel",
+        "mods": {
+          "range_mod": 1.3
+        }
+      },
+      {
+        "name": "8\" Warp-45 Barrel",
+        "mods": {
+          "bv_mod": 1.45
+        }
+      },
+      {
+        "name": "9.6” MFS Vital Ace Barrel",
+        "mods": {
+          "ads_mod": 1.13,
+          "ads_movement_mod": 0.93,
+          "gun_kick_mod": 2.46,
+          "horiz_recoil_mod": 1.7,
+          "rpm_mod": 0.62,
+          "stf_mod": 1.22,
+          "vert_recoil_mod": 2.16,
+          "jump_ads_mod": 1.14,
+          "jump_sprint_fire_speed_mod": 1.21
+        }
+      },
+      {
+        "name": "9.6\" MFS Vital Ace Barrel",
+        "mods": {
+          "ads_mod": 1.7,
+          "ads_movement_mod": 0.87,
+          "gun_kick_mod": 2.34,
+          "horiz_recoil_mod": 1.7,
+          "rpm_mod": 0.33,
+          "stf_mod": 1.28,
+          "vert_recoil_mod": 2.16,
+          "jump_ads_mod": 1.1,
+          "jump_sprint_fire_speed_mod": 1.11
+        }
+      }
+    ],
+    "FIRE MODS": [
+      {
+        "name": "Match Grade Trigger",
+        "mods": {
+          "gun_kick_mod": 1.2,
+          "horiz_recoil_mod": 1.15,
+          "rpm_mod": 1.09,
+          "vert_recoil_mod": 1.2
+        }
+      },
+      {
+        "name": ".45 Cal Overpressured",
+        "mods": {
+          "bv_mod": 1.15
+        }
+      },
+      {
+        "name": "Pistol Recoil Spring",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "horiz_recoil_mod": 0.9,
+          "vert_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": ".45 Cal FMJ"
+      }
+    ],
+    "LASER": [
+      {
+        "name": "Rapid Sight Motion Laser",
+        "mods": {
+          "ads_mod": 0.91,
+          "stf_mod": 0.83,
+          "jump_ads_mod": 0.91,
+          "jump_sprint_fire_speed_mod": 0.83
+        }
+      },
+      {
+        "name": "AirGlide Target Laser",
+        "mods": {
+          "range_mod": 1.13
+        }
+      },
+      {
+        "name": "Vector Sync Laser",
+        "mods": {
+          "hipfire_max_mod": 0.85
+        }
+      },
+      {
+        "name": "XS-1 Tactical Laser"
+      },
+      {
+        "name": "Jäger Rapid Zero-X Laser"
+      }
+    ],
+    "MAGAZINE": [
+      {
+        "name": "Goliath-X Extended+",
+        "mods": {
+          "ads_mod": 1.2,
+          "mag_size_mod": 5,
+          "reload_mod": 1.2,
+          "stf_mod": 1.28,
+          "jump_ads_mod": 1.21,
+          "jump_sprint_fire_speed_mod": 1.28
+        }
+      },
+      {
+        "name": "Warpath Capacity Mag",
+        "mods": {
+          "ads_mod": 1.1,
+          "mag_size_mod": 2,
+          "stf_mod": 1.17,
+          "jump_ads_mod": 1.1,
+          "jump_sprint_fire_speed_mod": 1.16
+        }
+      },
+      {
+        "name": "Stryder-Snap Speed Clip",
+        "mods": {
+          "ads_mod": 0.9,
+          "mag_size_mod": -2,
+          "reload_mod": 0.76,
+          "stf_mod": 0.86,
+          "jump_ads_mod": 0.9,
+          "jump_sprint_fire_speed_mod": 0.85
+        }
+      }
+    ],
+    "MUZZLE": [
+      {
+        "name": "Ported-45 Brake",
+        "mods": {
+          "gun_kick_mod": 0.92,
+          "vert_recoil_mod": 0.92,
+          "first_shot_scale_mod": 0.5,
+          "kick_reset_speed_mod": 0.62
+        }
+      },
+      {
+        "name": "Hawker Ported Comp",
+        "mods": {
+          "hipfire_max_mod": 0.75,
+          "dive_fire_speed_mod": 0.8,
+          "slide_fire_speed_mod": 0.8
+        }
+      },
+      {
+        "name": "Monolithic Suppressor",
+        "mods": {
+          "ads_mod": 1.37,
+          "bv_mod": 1.2,
+          "range_mod": 1.1,
+          "jump_ads_mod": 1.38
+        }
+      },
+      {
+        "name": "H-45 Precision Comp",
+        "mods": {
+          "gun_kick_mod": 0.86,
+          "vert_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Redwell Shade-X Suppressor",
+        "mods": {
+          "bv_mod": 0.87,
+          "gun_kick_mod": 0.89,
+          "horiz_recoil_mod": 0.89,
+          "range_mod": 0.85,
+          "vert_recoil_mod": 0.89
+        }
+      },
+      {
+        "name": "LTI Stentorian Brake",
+        "mods": {
+          "gun_kick_mod": 1.1,
+          "horiz_recoil_mod": 0.76,
+          "rpm_mod": 1.02,
+          "vert_recoil_mod": 1.1
+        }
+      },
+      {
+        "name": "Jäger Roar Suppressor"
+      }
+    ],
+    "OPTIC": [
+      {
+        "name": "EAM Micro Dot"
+      },
+      {
+        "name": "Bowen Pixel Reflex"
+      },
+      {
+        "name": "Bowen Scout Scope"
+      }
+    ],
+    "REAR GRIP": [
+      {
+        "name": "GL-3N Grip",
+        "mods": {
+          "horiz_recoil_mod": 0.92
+        }
+      },
+      {
+        "name": "Dash-L Grip",
+        "mods": {
+          "stf_mod": 0.72,
+          "jump_sprint_fire_speed_mod": 0.72
+        }
+      },
+      {
+        "name": "VX-Shift Grip",
+        "mods": {
+          "ads_mod": 0.9,
+          "dive_fire_speed_mod": 0.8,
+          "jump_ads_mod": 0.9,
+          "slide_fire_speed_mod": 0.8
+        }
+      },
+      {
+        "name": "Intercept Grip",
+        "mods": {
+          "ads_mod": 0.8,
+          "jump_ads_mod": 0.79
+        }
+      },
+      {
+        "name": "Ranger Lite Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "first_shot_scale_mod": 0.4
+        }
+      }
+    ],
+    "STOCK": [
+      {
+        "name": "Akimbo Jäger 45",
+        "mods": {
+          "hipfire_max_mod": 1.25,
+          "reload_mod": 1.35
+        }
+      }
+    ]
+  }
 }

@@ -5,8 +5,8 @@
   "game": "bo7",
   "weapon_type": "Pistols",
   "in_warzone": true,
-  "source": "truegamedata-api",
-  "data_version": "S3.5_2026-04-25",
+  "source": "codmunity-api (data-mined)",
+  "data_version": "S4Reloaded_2026-07-08_codmunity",
   "note": "Off-Meta BO7 Pistol (5.7x28, 549 RPM, 15-round, 0x). BO7-native (Velox-Naming). nSlots=0 in TGD S3.5 (kein Builder-Daten, base-only). Aufsatz-Deltas via codmunity-S4/TGD-S4-Update nachziehen.",
   "base": {
     "rpm": 549,
@@ -22,9 +22,7 @@
     "gun_kick": 42,
     "vert_recoil": 35.88,
     "horiz_recoil": 22.28,
-    "idle_sway": 0.1,
-    "hipfire_max": 6.75,
-    "flinch_resistance": 0.2
+    "hipfire_max": 6.75
   },
   "damage": [
     {
@@ -32,85 +30,279 @@
       "neck": 44,
       "chest": 44,
       "stomach": 44,
-      "upperleg": 44,
-      "lowerleg": 44,
       "upperarm": 44,
       "lowerarm": 44,
+      "upperleg": 44,
+      "lowerleg": 44,
       "dropoff": 0,
       "base_rpm": 549,
       "final_rpm": 549,
-      "rpm_mod": 1
+      "rpm_mod": 1.0
     },
     {
       "head": 34,
       "neck": 30,
       "chest": 30,
       "stomach": 30,
-      "upperleg": 30,
-      "lowerleg": 30,
       "upperarm": 30,
       "lowerarm": 30,
-      "dropoff": 8.8,
+      "upperleg": 30,
+      "lowerleg": 30,
+      "dropoff": 9,
       "base_rpm": 549,
       "final_rpm": 549,
-      "rpm_mod": 1
+      "rpm_mod": 1.0
     }
   ],
-  "slots": {},
-  "meta_build": [
-    {
-      "label": "Close Range",
-      "source": "codmunity-S4 + warzoneloadout.games",
-      "confidence": "bestaetigt",
-      "attachments": [
-        {
-          "slot": "Muzzle",
-          "attachment": "Greaves Multi-Port Compensator"
-        },
-        {
-          "slot": "Barrel",
-          "attachment": "4\" MFS Celeste Barrel"
-        },
-        {
-          "slot": "Magazine",
-          "attachment": "Draco Reserve Extended II"
-        },
-        {
-          "slot": "Laser",
-          "attachment": "Vector Sync Laser"
-        },
-        {
-          "slot": "Stock",
-          "attachment": "Akimbo Velox 5.7"
+  "slots": {
+    "BARREL": [
+      {
+        "name": "4” MFS Celeste Barrel",
+        "mods": {
+          "ads_movement_mod": 1.17,
+          "crouch_movement_mod": 1.05,
+          "movement_mod": 1.1,
+          "sprint_mod": 1.05,
+          "jump_ads_mod": 0.87,
+          "jump_sprint_fire_speed_mod": 0.75
         }
-      ]
-    },
-    {
-      "label": "Versatile",
-      "source": "codmunity-S4 + warzoneloadout.games",
-      "confidence": "bestaetigt",
-      "attachments": [
-        {
-          "slot": "Muzzle",
-          "attachment": "Redwell Shade-X Suppressor"
-        },
-        {
-          "slot": "Optic",
-          "attachment": "FANG HoverPoint ELO"
-        },
-        {
-          "slot": "Magazine",
-          "attachment": "Draco Reserve Extended II"
-        },
-        {
-          "slot": "Rear Grip",
-          "attachment": "Perennial Grip"
-        },
-        {
-          "slot": "Fire Mods",
-          "attachment": "Accelerated Recoil System"
+      },
+      {
+        "name": "7.8\" Redwell T-Arrow Barrel",
+        "mods": {
+          "range_mod": 1.2222
         }
-      ]
-    }
-  ]
+      },
+      {
+        "name": "7.1\" Anodized-88 Barrel",
+        "mods": {
+          "bv_mod": 1.4
+        }
+      },
+      {
+        "name": "5.2\" LX-3M Barrel",
+        "mods": {
+          "bv_mod": 1.2,
+          "range_mod": 1.1111
+        }
+      },
+      {
+        "name": "5.2\" Anvil Barrel",
+        "mods": {
+          "gun_kick_mod": 1.3,
+          "horiz_recoil_mod": 1.2,
+          "vert_recoil_mod": 1.3
+        }
+      },
+      {
+        "name": "4\" MFS Celeste Barrel",
+        "mods": {
+          "ads_movement_mod": 1.17,
+          "crouch_movement_mod": 1.05,
+          "movement_mod": 1.1,
+          "sprint_mod": 1.04
+        }
+      },
+      {
+        "name": "Velox 5.7 Carbine Chassis"
+      }
+    ],
+    "FIRE MODS": [
+      {
+        "name": "Accelerated Recoil System",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "horiz_recoil_mod": 0.9,
+          "vert_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Enhanced Cycle System",
+        "mods": {
+          "bv_mod": 0.92,
+          "gun_kick_mod": 1.2,
+          "horiz_recoil_mod": 1.25,
+          "range_mod": 0.08889,
+          "rpm_mod": 1.03,
+          "vert_recoil_mod": 1.2
+        }
+      },
+      {
+        "name": "5.7x28mm Overpressured",
+        "mods": {
+          "bv_mod": 1.2
+        }
+      },
+      {
+        "name": "5.7x28mm FMJ"
+      }
+    ],
+    "LASER": [
+      {
+        "name": "Rapid Sight Motion Laser",
+        "mods": {
+          "ads_mod": 0.91,
+          "stf_mod": 0.82,
+          "jump_ads_mod": 0.91,
+          "jump_sprint_fire_speed_mod": 0.82
+        }
+      },
+      {
+        "name": "AirGlide Target Laser",
+        "mods": {
+          "range_mod": 1.1
+        }
+      },
+      {
+        "name": "Vector Sync Laser",
+        "mods": {
+          "hipfire_max_mod": 0.85
+        }
+      },
+      {
+        "name": "XS-1 Tactical Laser"
+      },
+      {
+        "name": "Jäger Rapid Zero-X Laser"
+      }
+    ],
+    "MAGAZINE": [
+      {
+        "name": "Serpens Fast Mag",
+        "mods": {
+          "reload_mod": 0.85
+        }
+      },
+      {
+        "name": "Corvus Extended Mag",
+        "mods": {
+          "mag_size_mod": 3
+        }
+      },
+      {
+        "name": "Draco Reserve Extended II",
+        "mods": {
+          "ads_mod": 1.13,
+          "mag_size_mod": 9,
+          "reload_mod": 1.22,
+          "stf_mod": 1.18,
+          "jump_ads_mod": 1.12,
+          "jump_sprint_fire_speed_mod": 1.18
+        }
+      }
+    ],
+    "MUZZLE": [
+      {
+        "name": "Monolithic Suppressor",
+        "mods": {
+          "ads_mod": 1.34,
+          "bv_mod": 1.2,
+          "range_mod": 1.1111,
+          "jump_ads_mod": 1.34
+        }
+      },
+      {
+        "name": "G-57 Viper Compensator",
+        "mods": {
+          "gun_kick_mod": 0.86,
+          "vert_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Greaves Multi-Port Compensator",
+        "mods": {
+          "hipfire_max_mod": 0.75,
+          "dive_fire_speed_mod": 0.8,
+          "slide_fire_speed_mod": 0.8
+        }
+      },
+      {
+        "name": "Greaves 5.7 Narrow Brake",
+        "mods": {
+          "gun_kick_mod": 0.92,
+          "vert_recoil_mod": 0.92,
+          "first_shot_scale_mod": 0.5,
+          "kick_reset_speed_mod": 0.29
+        }
+      },
+      {
+        "name": "Redwell Shade-X Suppressor",
+        "mods": {
+          "bv_mod": 0.87,
+          "gun_kick_mod": 0.89,
+          "horiz_recoil_mod": 0.89,
+          "range_mod": 0.85,
+          "vert_recoil_mod": 0.89
+        }
+      },
+      {
+        "name": "LTI Stentorian Brake",
+        "mods": {
+          "gun_kick_mod": 1.09,
+          "horiz_recoil_mod": 0.71,
+          "rpm_mod": 1.02,
+          "vert_recoil_mod": 1.09
+        }
+      },
+      {
+        "name": "Greaves Covert-5"
+      }
+    ],
+    "OPTIC": [
+      {
+        "name": "VAS LED"
+      },
+      {
+        "name": "VAS MicroFlex"
+      }
+    ],
+    "REAR GRIP": [
+      {
+        "name": "Quick Spine Grip",
+        "mods": {
+          "ads_mod": 0.56,
+          "jump_ads_mod": 0.59
+        }
+      },
+      {
+        "name": "Perennial Grip",
+        "mods": {
+          "ads_mod": 0.75,
+          "dive_fire_speed_mod": 0.8,
+          "jump_ads_mod": 0.76,
+          "slide_fire_speed_mod": 0.8
+        }
+      },
+      {
+        "name": "Hunter Stability Grip",
+        "mods": {
+          "horiz_recoil_mod": 0.92
+        }
+      },
+      {
+        "name": "NT-Speed Grip",
+        "mods": {
+          "stf_mod": 0.73,
+          "jump_sprint_fire_speed_mod": 0.73
+        }
+      },
+      {
+        "name": "RDW-12 Fast Grip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "vert_recoil_mod": 0.9,
+          "first_shot_scale_mod": 0.4
+        }
+      }
+    ],
+    "STOCK": [
+      {
+        "name": "Akimbo Velox 5.7",
+        "mods": {
+          "hipfire_max_mod": 1.25,
+          "reload_mod": 1.24
+        }
+      }
+    ]
+  }
 }

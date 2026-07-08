@@ -5,11 +5,72 @@
   "game": "bo7",
   "weapon_type": "Special",
   "in_warzone": true,
-  "source": "callofduty.com + Fandom + Game8/Dexerto/gamesatlas (Roster-Recherche, non-TGD)",
-  "data_version": "S4_2026-06-07",
+  "source": "codmunity-api (data-mined)",
+  "data_version": "S4Reloaded_2026-07-08_codmunity",
   "note": "Pump-action; Granaten haften an Oberflaechen + remote-detonierbar; kein ADS; Schadenstyp Explosion. Keine numerischen TGD-Stats.",
-  "base": {},
-  "slots": {},
+  "base": {
+    "rpm": 82,
+    "mag": 4,
+    "reload_s": 4.08,
+    "ads_ms": 260,
+    "sprint_to_fire_ms": 230,
+    "velocity_ms": 790,
+    "move_speed": 4.8,
+    "crouch_move_speed": 2.5,
+    "ads_move_speed": 3.1,
+    "sprint_speed": 7.3,
+    "gun_kick": 20,
+    "vert_recoil": 18.48,
+    "horiz_recoil": 7.65,
+    "hipfire_max": 0.1
+  },
+  "slots": {
+    "MAGAZINE": [
+      {
+        "name": "MFS Airstrike Mag",
+        "mods": {
+          "reload_mod": 0.78
+        }
+      }
+    ],
+    "REAR GRIP": [
+      {
+        "name": "Strider Grip",
+        "mods": {
+          "crouch_movement_mod": 1.04,
+          "movement_mod": 1.05,
+          "sprint_mod": 1.03
+        }
+      },
+      {
+        "name": "Aberrant Grip",
+        "mods": {
+          "crouch_movement_mod": 1.08,
+          "movement_mod": 1.09
+        }
+      },
+      {
+        "name": "Actuator Grip",
+        "mods": {
+          "stf_mod": 0.62
+        }
+      },
+      {
+        "name": "Watch Grip",
+        "mods": {
+          "crouch_movement_mod": 1.04,
+          "movement_mod": 1.05,
+          "stf_mod": 0.83
+        }
+      },
+      {
+        "name": "Redwell Dash Grip",
+        "mods": {
+          "sprint_mod": 1.06
+        }
+      }
+    ]
+  },
   "subclass": "Grenade Launcher (Remote Detonation)",
   "unlock": "Season 2 - Armory Unlock (250k XP)"
 }

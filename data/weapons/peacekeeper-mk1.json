@@ -5,8 +5,8 @@
   "game": "bo7",
   "weapon_type": "AR",
   "in_warzone": true,
-  "source": "truegamedata-api",
-  "data_version": "S3.5_2026-04-25",
+  "source": "codmunity-api (data-mined)",
+  "data_version": "S4Reloaded_2026-07-08_codmunity",
   "base": {
     "rpm": 870,
     "mag": 30,
@@ -18,12 +18,10 @@
     "crouch_move_speed": 2.7,
     "ads_move_speed": 3.3,
     "sprint_speed": 7.4,
-    "gun_kick": 11.89,
-    "vert_recoil": 34.93,
-    "horiz_recoil": 12.6,
-    "idle_sway": 0.42,
-    "hipfire_max": 7.5,
-    "flinch_resistance": 0.18
+    "gun_kick": 11.88,
+    "vert_recoil": 34.65,
+    "horiz_recoil": 11.71,
+    "hipfire_max": 7.5
   },
   "damage": [
     {
@@ -31,104 +29,90 @@
       "neck": 31,
       "chest": 31,
       "stomach": 31,
-      "upperleg": 31,
-      "lowerleg": 31,
       "upperarm": 31,
       "lowerarm": 31,
+      "upperleg": 31,
+      "lowerleg": 31,
       "dropoff": 0,
       "base_rpm": 870,
       "final_rpm": 870,
-      "rpm_mod": 1
+      "rpm_mod": 1.0
     },
     {
       "head": 32,
       "neck": 26,
       "chest": 26,
       "stomach": 26,
-      "upperleg": 26,
-      "lowerleg": 26,
       "upperarm": 26,
       "lowerarm": 26,
-      "dropoff": 40,
+      "upperleg": 26,
+      "lowerleg": 26,
+      "dropoff": 41,
       "base_rpm": 870,
       "final_rpm": 870,
-      "rpm_mod": 1
+      "rpm_mod": 1.0
     },
     {
       "head": 28,
       "neck": 23,
       "chest": 23,
       "stomach": 23,
-      "upperleg": 23,
-      "lowerleg": 23,
       "upperarm": 23,
       "lowerarm": 23,
+      "upperleg": 23,
+      "lowerleg": 23,
       "dropoff": 50,
       "base_rpm": 870,
       "final_rpm": 870,
-      "rpm_mod": 1
+      "rpm_mod": 1.0
     }
   ],
   "slots": {
     "BARREL": [
       {
-        "name": "23.5 Longbow Barrel",
+        "name": "14.5\" E7-Cuff Barrel",
         "mods": {
-          "ads_mod": 1.065,
-          "range_mod": 1.153
-        }
-      },
-      {
-        "name": "19.4\" Stimulus Barrel",
-        "mods": {
-          "gun_kick_mod": 0.996,
-          "horiz_recoil_mod": 0.75,
-          "ads_movement_mod": 1.091,
-          "range_mod": 1.18,
-          "idle_sway_mod": 1.095,
-          "bv_mod": 0.94
+          "ads_mod": 0.89,
+          "stf_mod": 0.87,
+          "jump_ads_mod": 0.84,
+          "jump_sprint_fire_speed_mod": 0.82
         }
       },
       {
         "name": "21\" DF-3 Merge Barrel",
         "mods": {
-          "ads_mod": 1.043,
-          "range_mod": 1.077,
+          "ads_mod": 1.04,
           "bv_mod": 1.08
         }
       },
       {
-        "name": "14.5' E7-Cuff Barrel",
+        "name": "19.4\" Stimulus Barrel",
         "mods": {
-          "ads_mod": 0.891,
-          "stf_mod": 0.875
+          "ads_movement_mod": 1.1,
+          "bv_mod": 0.94,
+          "horiz_recoil_mod": 0.75
         }
       },
       {
         "name": "25\" EAM Heavy Barrel",
         "mods": {
-          "ads_mod": 1.152,
+          "ads_mod": 1.15,
+          "ads_movement_mod": 0.91,
+          "bv_mod": 1.15,
           "gun_kick_mod": 0.82,
-          "vert_recoil_mod": 0.82,
           "horiz_recoil_mod": 0.82,
-          "ads_movement_mod": 0.909,
-          "stf_mod": 1.081,
-          "bv_mod": 1.15
+          "stf_mod": 1.08,
+          "vert_recoil_mod": 0.82
+        }
+      },
+      {
+        "name": "23.5\" Longbow Barrel",
+        "mods": {
+          "ads_mod": 1.07
         }
       }
     ],
     "FIRE MODS": [
-      {
-        "name": "Bolt Carrier Group",
-        "mods": {
-          "gun_kick_mod": 1.199,
-          "vert_recoil_mod": 1.2,
-          "horiz_recoil_mod": 1.15,
-          "range_mod": 0.901,
-          "bv_mod": 0.85,
-          "rpm_mod": 1.045
-        }
-      },
       {
         "name": "5.7x28mm Overpressured",
         "mods": {
@@ -139,37 +123,53 @@
         "name": "Buffer Spring",
         "mods": {
           "gun_kick_mod": 0.88,
-          "vert_recoil_mod": 0.88,
-          "horiz_recoil_mod": 0.88
+          "horiz_recoil_mod": 0.88,
+          "vert_recoil_mod": 0.88
         }
       },
       {
-        "name": "5.7xz8mm FMJ",
+        "name": "Bolt Carrier Group",
         "mods": {
-          "range_mod": 1.131,
-          "bv_mod": 1.14
+          "bv_mod": 0.9,
+          "gun_kick_mod": 1.2,
+          "horiz_recoil_mod": 1.15,
+          "range_mod": 0.9024,
+          "rpm_mod": 1.05,
+          "vert_recoil_mod": 1.2
+        }
+      },
+      {
+        "name": "5.7x28mm FMJ",
+        "mods": {
+          "bv_mod": 1.14,
+          "range_mod": 1.14
         }
       }
     ],
     "LASER": [
       {
+        "name": "LTI SwiftPoint Laser",
+        "mods": {
+          "ads_mod": 0.91,
+          "stf_mod": 0.88,
+          "jump_ads_mod": 0.91,
+          "jump_sprint_fire_speed_mod": 0.89
+        }
+      },
+      {
+        "name": "EMT3 Agile Laser",
+        "mods": {
+          "range_mod": 1.15
+        }
+      },
+      {
         "name": "EAM ScatterLine Laser",
         "mods": {
-          "hipfire_max_mod": 0.851
+          "hipfire_max_mod": 0.85
         }
       },
       {
         "name": "Redwell Tactical Laser"
-      },
-      {
-        "name": "LTI SwiftPoint Laser",
-        "mods": {
-          "ads_mod": 0.913,
-          "stf_mod": 0.881
-        }
-      },
-      {
-        "name": "EMT3 Agile Laser"
       },
       {
         "name": "VAS Precision Shift Laser"
@@ -177,347 +177,261 @@
     ],
     "MAGAZINE": [
       {
+        "name": "ReconClip Speed Mag",
+        "mods": {
+          "ads_mod": 0.96,
+          "reload_mod": 0.74,
+          "stf_mod": 0.94,
+          "jump_ads_mod": 0.5,
+          "jump_sprint_fire_speed_mod": 0.94
+        }
+      },
+      {
         "name": "Vulcan Reach Extension",
         "mods": {
-          "ads_mod": 1.043,
-          "ads_movement_mod": 0.97
+          "ads_mod": 1.04,
+          "ads_movement_mod": 0.96,
+          "mag_size_mod": 15
         }
       },
       {
         "name": "Snap Switch Magazines",
         "mods": {
-          "reload_mod": 0.837
+          "mag_size_mod": 10,
+          "reload_mod": 0.76
         }
       },
       {
         "name": "Barrage Extended Mag",
         "mods": {
-          "ads_mod": 1.087,
-          "ads_movement_mod": 0.909,
-          "crouch_movement_mod": 0.963,
+          "ads_mod": 1.09,
+          "ads_movement_mod": 0.92,
+          "crouch_movement_mod": 0.95,
+          "mag_size_mod": 30,
           "movement_mod": 0.94,
-          "sprint_mod": 0.973,
-          "reload_mod": 1.24
-        }
-      },
-      {
-        "name": "Reconclip Speed Mag",
-        "mods": {
-          "ads_mod": 0.957,
-          "stf_mod": 0.938,
-          "reload_mod": 0.741
+          "reload_mod": 1.24,
+          "sprint_mod": 0.97,
+          "jump_ads_mod": 1.09,
+          "jump_sprint_fire_speed_mod": 1.12
         }
       }
     ],
     "MUZZLE": [
       {
-        "name": "KES Stalker 57-X"
-      },
-      {
-        "name": "KGS Compensator",
-        "mods": {
-          "gun_kick_mod": 0.834,
-          "vert_recoil_mod": 0.786,
-          "hipfire_max_mod": 0.933
-        }
-      },
-      {
-        "name": "KGS Brake-ZB",
-        "mods": {
-          "gun_kick_mod": 0.853,
-          "vert_recoil_mod": 0.85
-        }
-      },
-      {
         "name": "Kuhn Ported Comp",
         "mods": {
-          "hipfire_max_mod": 0.751
+          "hipfire_max_mod": 0.85,
+          "dive_fire_speed_mod": 0.8,
+          "slide_fire_speed_mod": 0.8
+        }
+      },
+      {
+        "name": "K&S Compensator",
+        "mods": {
+          "gun_kick_mod": 0.75,
+          "vert_recoil_mod": 0.75
         }
       },
       {
         "name": "Monolithic Suppressor",
         "mods": {
-          "ads_mod": 1.239,
-          "range_mod": 1.054,
-          "bv_mod": 1.1
+          "ads_mod": 1.24,
+          "bv_mod": 1.06,
+          "range_mod": 1.06,
+          "jump_ads_mod": 1.26
+        }
+      },
+      {
+        "name": "K&S Brake-2B",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "first_shot_scale_mod": 0.4,
+          "kick_reset_speed_mod": 0.33
+        }
+      },
+      {
+        "name": "Redwell Shade-X Suppressor",
+        "mods": {
+          "gun_kick_mod": 0.89,
+          "horiz_recoil_mod": 0.89,
+          "range_mod": 0.95,
+          "vert_recoil_mod": 0.89
+        }
+      },
+      {
+        "name": "Kühn Ported Comp",
+        "mods": {
+          "ads_movement_mod": 1.05,
+          "movement_mod": 1.05,
+          "sprint_mod": 1.05
+        }
+      },
+      {
+        "name": "K&S Stalker 57-X",
+        "mods": {
+          "range_mod": 1.1
+        }
+      },
+      {
+        "name": "LTI Stentorian Brake",
+        "mods": {
+          "gun_kick_mod": 1.08,
+          "horiz_recoil_mod": 0.8,
+          "rpm_mod": 1.03,
+          "vert_recoil_mod": 1.08
         }
       }
     ],
     "OPTIC": [
       {
-        "name": "LTI Mini"
-      },
-      {
-        "name": "VAS MicroFlex"
-      },
-      {
         "name": "Lethal Tools ELO"
-      },
-      {
-        "name": "EAM Micro Dot"
-      },
-      {
-        "name": "VAS LED"
-      },
-      {
-        "name": "Kepler-Pro Red Dot"
-      },
-      {
-        "name": "LTI Reflex"
       },
       {
         "name": "Greaves Red Dot"
       },
       {
-        "name": "KES Slim Reflex"
+        "name": "EAM Dyad xL"
       },
       {
-        "name": "EAM xL Reflex"
-      },
-      {
-        "name": "PrismaTech Digital Holo"
-      },
-      {
-        "name": "EMT3 Holo Mk.2"
-      },
-      {
-        "name": "Kepler T-Range Holo",
-        "mods": {
-          "ads_mod": 1.065,
-          "gun_kick_mod": 0.7
-        }
-      },
-      {
-        "name": "Solaris Holo-IR",
-        "mods": {
-          "gun_kick_mod": 0.75
-        }
-      },
-      {
-        "name": "EAM Dyad xL",
-        "mods": {
-          "ads_mod": 1.065,
-          "gun_kick_mod": 0.5
-        }
-      },
-      {
-        "name": "LTI Target Finder VZ",
-        "mods": {
-          "ads_mod": 1.217,
-          "ads_movement_mod": 0.879,
-          "stf_mod": 1.156
-        }
-      },
-      {
-        "name": "Millimeter Scanner",
-        "mods": {
-          "ads_mod": 1.13,
-          "gun_kick_mod": 1.1,
-          "stf_mod": 1.156
-        }
-      },
-      {
-        "name": "Redwell 30-5 2x",
-        "mods": {
-          "ads_mod": 1.043,
-          "gun_kick_mod": 0.726,
-          "hipfire_max_mod": 0.933
-        }
-      },
-      {
-        "name": "Greaves Accuspot 3x",
-        "mods": {
-          "ads_mod": 1.065,
-          "gun_kick_mod": 0.7
-        }
-      },
-      {
-        "name": "Kepler Ultra 4x",
-        "mods": {
-          "ads_mod": 1.087,
-          "gun_kick_mod": 0.7
-        }
-      },
-      {
-        "name": "PrismaTech Turbo 4x",
-        "mods": {
-          "ads_mod": 1.087,
-          "gun_kick_mod": 0.7
-        }
-      },
-      {
-        "name": "VAS Duo Hybrid Sight",
-        "mods": {
-          "ads_mod": 1.065,
-          "gun_kick_mod": 0.5
-        }
-      },
-      {
-        "name": "Bowen X-25 IR",
-        "mods": {
-          "ads_mod": 1.057,
-          "gun_kick_mod": 0.5
-        }
-      },
-      {
-        "name": "EAM Dual Zoom",
-        "mods": {
-          "ads_mod": 1.087,
-          "gun_kick_mod": 0.5
-        }
-      },
-      {
-        "name": "Greaves Ultra Zoom",
-        "mods": {
-          "ads_mod": 1.109,
-          "gun_kick_mod": 0.5
-        }
-      },
-      {
-        "name": "RistRauch 7x",
-        "mods": {
-          "ads_mod": 1.065,
-          "gun_kick_mod": 0.5
-        }
-      },
-      {
-        "name": "VAS Strix 6x Thermal",
-        "mods": {
-          "ads_mod": 1.152
-        }
+        "name": "Greaves Ultra Zoom"
       }
     ],
     "REAR GRIP": [
       {
-        "name": "Rapid-Lock Grip",
-        "mods": {
-          "ads_mod": 0.761
-        }
-      },
-      {
         "name": "EAM Dashfire Grip",
         "mods": {
-          "stf_mod": 0.656
+          "stf_mod": 0.66,
+          "jump_sprint_fire_speed_mod": 0.68
         }
       },
       {
-        "name": "Accordance Grip",
+        "name": "Rapid-Lock Grip",
         "mods": {
-          "ads_mod": 1.065,
-          "gun_kick_mod": 0.998,
-          "horiz_recoil_mod": 0.88
+          "ads_mod": 0.76,
+          "jump_ads_mod": 0.74
         }
       },
       {
         "name": "DiveEdge-7 Grip",
         "mods": {
-          "ads_mod": 0.883
+          "ads_mod": 0.88,
+          "dive_fire_speed_mod": 0.8,
+          "jump_ads_mod": 0.87,
+          "slide_fire_speed_mod": 0.8
         }
       },
       {
-        "name": "Kinetix-Mk Grip",
+        "name": "Kinetix-Mk 1 Grip",
         "mods": {
-          "gun_kick_mod": 0.823,
-          "vert_recoil_mod": 0.82
+          "gun_kick_mod": 0.82,
+          "vert_recoil_mod": 0.82,
+          "first_shot_scale_mod": 0.4
+        }
+      },
+      {
+        "name": "Accordance Grip",
+        "mods": {
+          "ads_mod": 1.03,
+          "horiz_recoil_mod": 0.8
         }
       }
     ],
     "STOCK": [
       {
-        "name": "MFS Counterforce-C1 Stock",
-        "mods": {
-          "ads_mod": 1.078,
-          "gun_kick_mod": 0.714,
-          "vert_recoil_mod": 0.738,
-          "horiz_recoil_mod": 0.75,
-          "hipfire_max_mod": 0.933,
-          "stf_mod": 1.094,
-          "crouch_movement_mod": 0.741
-        }
-      },
-      {
         "name": "Swift-B Guard Stock",
         "mods": {
-          "crouch_movement_mod": 1.333,
+          "crouch_movement_mod": 1.35,
           "movement_mod": 1.22,
-          "sprint_mod": 1.041
-        }
-      },
-      {
-        "name": "Vagrant-93 Stock",
-        "mods": {
-          "ads_mod": 0.848,
-          "ads_movement_mod": 1.242,
-          "flinch_resistance_mod": 1.167
-        }
-      },
-      {
-        "name": "Pathfinder-Skel Stock",
-        "mods": {
-          "ads_mod": 0.817,
-          "hipfire_max_mod": 0.851,
-          "stf_mod": 0.8
+          "sprint_mod": 1.03
         }
       },
       {
         "name": "EAM Blitzfire Stock",
         "mods": {
-          "ads_mod": 1.087,
+          "ads_mod": 1.09,
           "gun_kick_mod": 0.8,
-          "vert_recoil_mod": 0.8,
           "horiz_recoil_mod": 0.8,
-          "flinch_resistance_mod": 0.778
+          "vert_recoil_mod": 0.8
+        }
+      },
+      {
+        "name": "Vagrant-93 Stock",
+        "mods": {
+          "ads_mod": 0.85,
+          "ads_movement_mod": 1.23
+        }
+      },
+      {
+        "name": "MFS Counterforce-C1 Stock",
+        "mods": {
+          "ads_mod": 1.08,
+          "gun_kick_mod": 0.7,
+          "horiz_recoil_mod": 0.7,
+          "stf_mod": 1.09,
+          "vert_recoil_mod": 0.7,
+          "jump_ads_mod": 1.21,
+          "jump_sprint_fire_speed_mod": 1.09
+        }
+      },
+      {
+        "name": "Pathfinder-Skel Stock",
+        "mods": {
+          "ads_mod": 0.82,
+          "hipfire_max_mod": 0.85,
+          "stf_mod": 0.8
         }
       }
     ],
     "UNDERBARREL": [
       {
-        "name": "Lateral Precision Grip",
-        "mods": {
-          "gun_kick_mod": 0.996,
-          "horiz_recoil_mod": 0.75
-        }
-      },
-      {
-        "name": "Sentry Pro Handstop",
-        "mods": {
-          "gun_kick_mod": 0.997,
-          "horiz_recoil_mod": 0.85,
-          "idle_sway_mod": 0.5
-        }
-      },
-      {
-        "name": "Enhance-32 Handstop",
-        "mods": {
-          "flinch_resistance_mod": 0.611
-        }
-      },
-      {
         "name": "Quickstep Foregrip",
         "mods": {
-          "ads_movement_mod": 1.121,
-          "crouch_movement_mod": 1.074,
-          "movement_mod": 1.08
+          "ads_movement_mod": 1.12,
+          "crouch_movement_mod": 1.08,
+          "movement_mod": 1.09
         }
       },
       {
         "name": "EAM Steady-90 Grip",
         "mods": {
-          "gun_kick_mod": 0.997,
+          "crouch_movement_mod": 1.08,
           "horiz_recoil_mod": 0.82,
-          "crouch_movement_mod": 1.074,
           "movement_mod": 1.12,
-          "sprint_mod": 1.081
+          "sprint_mod": 1.08
         }
+      },
+      {
+        "name": "Sentry Pro Handstop",
+        "mods": {
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Lateral Precision Grip",
+        "mods": {
+          "horiz_recoil_mod": 0.75
+        }
+      },
+      {
+        "name": "VAS Convergence Foregrip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "horiz_recoil_mod": 0.76,
+          "vert_recoil_mod": 0.93
+        }
+      },
+      {
+        "name": "M335-X Tempest"
+      },
+      {
+        "name": "Enhance-32 Handstop"
       },
       {
         "name": "M335-X Frag"
       },
       {
         "name": "M335-X Cloak"
-      },
-      {
-        "name": "M335-X Tempest"
       },
       {
         "name": "M335-X Drill Charge"

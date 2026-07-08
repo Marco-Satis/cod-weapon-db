@@ -5,11 +5,70 @@
   "game": "bo7",
   "weapon_type": "Special",
   "in_warzone": true,
-  "source": "callofduty.com + Fandom + Game8/Dexerto/gamesatlas (Roster-Recherche, non-TGD)",
-  "data_version": "S4_2026-06-07",
+  "source": "codmunity-api (data-mined)",
+  "data_version": "S4Reloaded_2026-07-08_codmunity",
   "note": "Hochschaden-Bolzen; Fire-Mod explosive Bolzen (Detonation nach Impact); Prestige Tribolt (3 Bolzen). Keine numerischen TGD-Stats.",
-  "base": {},
-  "slots": {},
+  "base": {
+    "rpm": 113,
+    "mag": 1,
+    "reload_s": 2.933,
+    "ads_ms": 260,
+    "sprint_to_fire_ms": 180,
+    "velocity_ms": 127,
+    "move_speed": 4.8,
+    "crouch_move_speed": 2.5,
+    "ads_move_speed": 3.1,
+    "sprint_speed": 7.3,
+    "gun_kick": 25,
+    "vert_recoil": 5,
+    "horiz_recoil": 0.22,
+    "hipfire_max": 0.01
+  },
+  "damage": [
+    {
+      "head": 150,
+      "neck": 150,
+      "chest": 150,
+      "stomach": 150,
+      "upperarm": 150,
+      "lowerarm": 150,
+      "upperleg": 150,
+      "lowerleg": 150,
+      "dropoff": 0,
+      "base_rpm": 113,
+      "final_rpm": 113,
+      "rpm_mod": 1.0
+    }
+  ],
+  "slots": {
+    "FIRE MODS": [
+      {
+        "name": "Explosive Crossbow Bolt"
+      }
+    ],
+    "MAGAZINE": [
+      {
+        "name": "Tribolt",
+        "mods": {
+          "ads_mod": 1.18,
+          "hipfire_max_mod": 13333,
+          "mag_size_mod": 2,
+          "rpm_mod": 1.72
+        }
+      },
+      {
+        "name": "TriBolt"
+      }
+    ],
+    "OPTIC": [
+      {
+        "name": "Redwell 30-S 2x"
+      },
+      {
+        "name": "Greaves Ultra Zoom"
+      }
+    ]
+  },
   "subclass": "Crossbow / Bolt Launcher",
   "unlock": "Season 1 - Rally Point Event (Community + Personal Missions)"
 }

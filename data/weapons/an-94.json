@@ -5,11 +5,397 @@
   "game": "bo7",
   "weapon_type": "AR",
   "in_warzone": true,
-  "source": "callofduty.com + GameRant/Dexerto/Game8/GameSpot (S4-Recherche, non-TGD)",
-  "data_version": "S4_2026-06-08",
+  "source": "codmunity-api (data-mined)",
+  "data_version": "S4Reloaded_2026-07-08_codmunity",
   "note": "S4-Neuwaffe (AR), Mid-Season-Event-Unlock. Stats nicht in TGD / oeffentlich detailliert.",
-  "base": {},
-  "slots": {},
+  "base": {
+    "rpm": 645,
+    "mag": 30,
+    "reload_s": 2.72,
+    "ads_ms": 240,
+    "sprint_to_fire_ms": 257,
+    "velocity_ms": 920,
+    "move_speed": 4.6,
+    "crouch_move_speed": 2.3,
+    "ads_move_speed": 2.9,
+    "sprint_speed": 7.1,
+    "gun_kick": 34.51,
+    "vert_recoil": 48.98,
+    "horiz_recoil": 15.67,
+    "hipfire_max": 8.25
+  },
+  "damage": [
+    {
+      "head": 45,
+      "neck": 38,
+      "chest": 38,
+      "stomach": 34,
+      "upperarm": 38,
+      "lowerarm": 38,
+      "upperleg": 34,
+      "lowerleg": 34,
+      "dropoff": 0,
+      "base_rpm": 645,
+      "final_rpm": 645,
+      "rpm_mod": 1.0
+    },
+    {
+      "head": 40,
+      "neck": 34,
+      "chest": 34,
+      "stomach": 30,
+      "upperarm": 34,
+      "lowerarm": 34,
+      "upperleg": 30,
+      "lowerleg": 30,
+      "dropoff": 40,
+      "base_rpm": 645,
+      "final_rpm": 645,
+      "rpm_mod": 1.0
+    },
+    {
+      "head": 36,
+      "neck": 30,
+      "chest": 30,
+      "stomach": 27,
+      "upperarm": 30,
+      "lowerarm": 30,
+      "upperleg": 27,
+      "lowerleg": 27,
+      "dropoff": 60,
+      "base_rpm": 645,
+      "final_rpm": 645,
+      "rpm_mod": 1.0
+    }
+  ],
+  "slots": {
+    "BARREL": [
+      {
+        "name": "15\" MFS Triumvirate Barrel",
+        "mods": {
+          "gun_kick_mod": 1.3,
+          "horiz_recoil_mod": 1.3,
+          "vert_recoil_mod": 1.3
+        }
+      },
+      {
+        "name": "16\" Hoarfrost Barrel",
+        "mods": {
+          "ads_mod": 1.04,
+          "bv_mod": 1.08
+        }
+      },
+      {
+        "name": "18.5\" Aphelion Barrel",
+        "mods": {
+          "ads_mod": 1.06
+        }
+      },
+      {
+        "name": "14.3\" LTI Petrel Barrel",
+        "mods": {
+          "ads_mod": 0.92,
+          "stf_mod": 0.9
+        }
+      },
+      {
+        "name": "15\" Benthic Barrel",
+        "mods": {
+          "ads_mod": 1.15,
+          "ads_movement_mod": 0.9,
+          "bv_mod": 1.15,
+          "gun_kick_mod": 0.8,
+          "horiz_recoil_mod": 0.8,
+          "stf_mod": 1.08,
+          "vert_recoil_mod": 0.8
+        }
+      }
+    ],
+    "FIRE MODS": [
+      {
+        "name": "Buffer Spring",
+        "mods": {
+          "gun_kick_mod": 0.92,
+          "horiz_recoil_mod": 0.88,
+          "vert_recoil_mod": 0.92
+        }
+      },
+      {
+        "name": "5.45 FMJ",
+        "mods": {
+          "bv_mod": 1.18,
+          "range_mod": 1.15
+        }
+      },
+      {
+        "name": "5.45 Overpressured",
+        "mods": {
+          "bv_mod": 1.2
+        }
+      },
+      {
+        "name": "Bolt Carrier Group",
+        "mods": {
+          "bv_mod": 0.85,
+          "gun_kick_mod": 1.2,
+          "horiz_recoil_mod": 1.25,
+          "range_mod": 0.85,
+          "rpm_mod": 1.02,
+          "vert_recoil_mod": 1.2
+        }
+      }
+    ],
+    "LASER": [
+      {
+        "name": "Convergence Box Laser",
+        "mods": {
+          "hipfire_max_mod": 0.85
+        }
+      },
+      {
+        "name": "1mW Instinct Laser Array",
+        "mods": {
+          "ads_mod": 0.94,
+          "stf_mod": 0.92
+        }
+      },
+      {
+        "name": "5mw Lockstep Laser"
+      },
+      {
+        "name": "2mw Adaptive Tactical Laser"
+      },
+      {
+        "name": "3mW Motion Strike Laser"
+      }
+    ],
+    "MAGAZINE": [
+      {
+        "name": "Rexford Extended II",
+        "mods": {
+          "ads_mod": 1.04,
+          "ads_movement_mod": 0.91,
+          "crouch_movement_mod": 0.95,
+          "mag_size_mod": 30,
+          "movement_mod": 0.94,
+          "reload_mod": 1.06,
+          "sprint_mod": 0.96,
+          "stf_mod": 1.04
+        }
+      },
+      {
+        "name": "Valens Extended Mag",
+        "mods": {
+          "ads_mod": 1.04,
+          "ads_movement_mod": 0.95,
+          "mag_size_mod": 15
+        }
+      },
+      {
+        "name": "Vernal Flip Mag",
+        "mods": {
+          "mag_size_mod": 10,
+          "reload_mod": 0.72
+        }
+      },
+      {
+        "name": "Duma Quick Mag",
+        "mods": {
+          "ads_mod": 0.92,
+          "reload_mod": 0.78,
+          "stf_mod": 0.92
+        }
+      }
+    ],
+    "MUZZLE": [
+      {
+        "name": "Redwell 5.56 Compensator",
+        "mods": {
+          "gun_kick_mod": 0.8,
+          "vert_recoil_mod": 0.8
+        }
+      },
+      {
+        "name": "RL-5.56 Brake",
+        "mods": {
+          "gun_kick_mod": 0.84,
+          "vert_recoil_mod": 0.84
+        }
+      },
+      {
+        "name": "Redwell Shade-X Suppressor",
+        "mods": {
+          "gun_kick_mod": 0.89,
+          "horiz_recoil_mod": 0.89,
+          "range_mod": 0.95,
+          "vert_recoil_mod": 0.89
+        }
+      },
+      {
+        "name": "VAS 5.56 Suppressor",
+        "mods": {
+          "range_mod": 1.1
+        }
+      },
+      {
+        "name": "Titan-R 5.56 Compensator",
+        "mods": {
+          "ads_movement_mod": 1.05,
+          "hipfire_max_mod": 0.75,
+          "movement_mod": 1.05,
+          "sprint_mod": 1.05
+        }
+      },
+      {
+        "name": "LTI Stentorian Brake",
+        "mods": {
+          "horiz_recoil_mod": 0.69,
+          "rpm_mod": 1.02,
+          "vert_recoil_mod": 1.02
+        }
+      },
+      {
+        "name": "Monolithic Suppressor",
+        "mods": {
+          "ads_mod": 1.23,
+          "bv_mod": 1.1,
+          "range_mod": 1.05
+        }
+      }
+    ],
+    "REAR GRIP": [
+      {
+        "name": "Buller-625 Grip",
+        "mods": {
+          "ads_mod": 1.03,
+          "horiz_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Bowen Umbral Grip",
+        "mods": {
+          "ads_mod": 0.85
+        }
+      },
+      {
+        "name": "Albatross Quick Grip",
+        "mods": {
+          "ads_mod": 0.73
+        }
+      },
+      {
+        "name": "Liminal Grip",
+        "mods": {
+          "stf_mod": 0.65
+        }
+      },
+      {
+        "name": "Chatham Control Grip",
+        "mods": {
+          "gun_kick_mod": 0.85,
+          "vert_recoil_mod": 0.85
+        }
+      }
+    ],
+    "STOCK": [
+      {
+        "name": "Trammel Stock",
+        "mods": {
+          "ads_mod": 1.08,
+          "gun_kick_mod": 0.9,
+          "horiz_recoil_mod": 0.85,
+          "vert_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Reverie Tactical Stock",
+        "mods": {
+          "ads_mod": 0.94,
+          "hipfire_max_mod": 0.85,
+          "stf_mod": 0.9
+        }
+      },
+      {
+        "name": "Pro-Am Mobility Stock",
+        "mods": {
+          "crouch_movement_mod": 1.4,
+          "movement_mod": 1.23,
+          "sprint_mod": 1.04
+        }
+      },
+      {
+        "name": "Pelagic Stock",
+        "mods": {
+          "ads_mod": 1.1,
+          "ads_movement_mod": 0.85,
+          "gun_kick_mod": 0.85,
+          "horiz_recoil_mod": 0.82,
+          "vert_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Redwell Austral Stock",
+        "mods": {
+          "ads_mod": 0.92,
+          "ads_movement_mod": 1.22
+        }
+      }
+    ],
+    "UNDERBARREL": [
+      {
+        "name": "VAS Convergence Foregrip",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "horiz_recoil_mod": 0.33,
+          "vert_recoil_mod": 0.94
+        }
+      },
+      {
+        "name": "Ironhold Angled Grip",
+        "mods": {
+          "horiz_recoil_mod": 0.8
+        }
+      },
+      {
+        "name": "Lateral Precision Grip",
+        "mods": {
+          "horiz_recoil_mod": 0.8
+        }
+      },
+      {
+        "name": "Flowguard Foregrip",
+        "mods": {
+          "crouch_movement_mod": 1.09,
+          "horiz_recoil_mod": 0.9,
+          "movement_mod": 1.09,
+          "sprint_mod": 1.04
+        }
+      },
+      {
+        "name": "Strider Handstop",
+        "mods": {
+          "ads_movement_mod": 1.13,
+          "crouch_movement_mod": 1.09,
+          "movement_mod": 1.09
+        }
+      },
+      {
+        "name": "M335-X Frag"
+      },
+      {
+        "name": "Respire Handstop"
+      },
+      {
+        "name": "M335-X Drill Charge"
+      },
+      {
+        "name": "M335-X Tempest"
+      },
+      {
+        "name": "M335-X Cloak"
+      }
+    ]
+  },
   "subclass": "Assault Rifle",
   "unlock": "Season 4 - Mid-Season Event"
 }

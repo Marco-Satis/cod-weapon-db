@@ -5,13 +5,380 @@
   "game": "bo7",
   "weapon_type": "SMG",
   "in_warzone": true,
-  "source": "callofduty.com + GameRant/Dexerto/Game8/GameSpot (S4-Recherche, non-TGD)",
-  "data_version": "S4_2026-06-08",
+  "source": "codmunity-api (data-mined)",
+  "data_version": "S4Reloaded_2026-07-08_codmunity",
   "note": "Full-Auto SMG fuer Dauerfeuer, 60-Round-Mag default, ueberdurchschnittliche Range + Recoil-Kontrolle. Rechamber-Pause nach 20 (MP)/30 (WZ) Schuss -> MFS Carousel Fast Mag empfohlen. S4-Neuwaffe, nicht in TGD S3.5.",
   "base": {
-    "mag": 60
+    "rpm": 590,
+    "mag": 60,
+    "reload_s": 2.848,
+    "ads_ms": 160,
+    "sprint_to_fire_ms": 120,
+    "velocity_ms": 590,
+    "move_speed": 5.2,
+    "crouch_move_speed": 2.6,
+    "ads_move_speed": 3.7,
+    "sprint_speed": 7.6,
+    "gun_kick": 42.01,
+    "vert_recoil": 46.77,
+    "horiz_recoil": 7.59,
+    "hipfire_max": 7.6
   },
-  "slots": {},
+  "damage": [
+    {
+      "head": 54,
+      "neck": 42,
+      "chest": 42,
+      "stomach": 39,
+      "upperarm": 42,
+      "lowerarm": 42,
+      "upperleg": 39,
+      "lowerleg": 39,
+      "dropoff": 0,
+      "base_rpm": 740,
+      "final_rpm": 740,
+      "rpm_mod": 1.0
+    },
+    {
+      "head": 46,
+      "neck": 36,
+      "chest": 36,
+      "stomach": 34,
+      "upperarm": 36,
+      "lowerarm": 36,
+      "upperleg": 34,
+      "lowerleg": 34,
+      "dropoff": 14,
+      "base_rpm": 740,
+      "final_rpm": 740,
+      "rpm_mod": 1.0
+    },
+    {
+      "head": 36,
+      "neck": 28,
+      "chest": 28,
+      "stomach": 26,
+      "upperarm": 28,
+      "lowerarm": 28,
+      "upperleg": 26,
+      "lowerleg": 26,
+      "dropoff": 23,
+      "base_rpm": 740,
+      "final_rpm": 740,
+      "rpm_mod": 1.0
+    }
+  ],
+  "slots": {
+    "BARREL": [
+      {
+        "name": "11\" Gaunt Barrel",
+        "mods": {
+          "ads_mod": 0.84,
+          "hipfire_max_mod": 0.8,
+          "movement_mod": 1.06,
+          "sprint_mod": 1.02,
+          "stf_mod": 0.62
+        }
+      },
+      {
+        "name": "13\" Taryos Barrel",
+        "mods": {
+          "ads_mod": 0.84,
+          "ads_movement_mod": 0.95
+        }
+      },
+      {
+        "name": "15\" Redwell Parlay Barrel",
+        "mods": {
+          "ads_mod": 1.09,
+          "ads_movement_mod": 0.93
+        }
+      },
+      {
+        "name": "13.7\" LTI Subdue Barrel",
+        "mods": {
+          "ads_movement_mod": 0.96,
+          "bv_mod": 1.12,
+          "movement_mod": 0.97,
+          "sprint_mod": 0.97
+        }
+      },
+      {
+        "name": "14\" Rake Barrel",
+        "mods": {
+          "ads_mod": 1.06,
+          "bv_mod": 1.08
+        }
+      },
+      {
+        "name": "13\" Tarvos Barrel"
+      }
+    ],
+    "FIRE MODS": [
+      {
+        "name": "9mm Parabellum Overpressu",
+        "mods": {
+          "bv_mod": 1.2
+        }
+      },
+      {
+        "name": "9mm Parabellum FMJ",
+        "mods": {
+          "bv_mod": 1.08,
+          "range_mod": 1.08
+        }
+      },
+      {
+        "name": "Bolt Carrier Group",
+        "mods": {
+          "bv_mod": 0.9,
+          "gun_kick_mod": 1.15,
+          "horiz_recoil_mod": 1.2,
+          "range_mod": 0.8261,
+          "vert_recoil_mod": 1.15
+        }
+      },
+      {
+        "name": "Accelerated Recoil System",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "horiz_recoil_mod": 0.9,
+          "vert_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "9mm Parabellum Overpressured"
+      }
+    ],
+    "LASER": [
+      {
+        "name": "LTI SwiftPoint Laser",
+        "mods": {
+          "ads_mod": 0.91,
+          "stf_mod": 0.83
+        }
+      },
+      {
+        "name": "EAM ScatterLine Laser",
+        "mods": {
+          "hipfire_max_mod": 0.85
+        }
+      },
+      {
+        "name": "VAS Precision Shift Laser"
+      },
+      {
+        "name": "EMT3 Agile Laser"
+      },
+      {
+        "name": "Redwell Tactical Laser"
+      }
+    ],
+    "MAGAZINE": [
+      {
+        "name": "MFS Carrousel Fast Mag",
+        "mods": {
+          "ads_mod": 0.87,
+          "reload_mod": 0.72,
+          "stf_mod": 0.79
+        }
+      },
+      {
+        "name": "Redwell Sprocket Mag",
+        "mods": {
+          "ads_mod": 1.13,
+          "mag_size_mod": 15,
+          "reload_mod": 1.1,
+          "stf_mod": 1.17
+        }
+      },
+      {
+        "name": "MFS Carousel Fast Mag"
+      }
+    ],
+    "MUZZLE": [
+      {
+        "name": "Bowen 9mm Suppressor",
+        "mods": {
+          "range_mod": 1.1
+        }
+      },
+      {
+        "name": "Redwell Shade-X Suppressor",
+        "mods": {
+          "bv_mod": 0.95,
+          "gun_kick_mod": 0.89,
+          "horiz_recoil_mod": 0.89,
+          "range_mod": 0.95,
+          "vert_recoil_mod": 0.89
+        }
+      },
+      {
+        "name": "Monolithic Suppressor",
+        "mods": {
+          "ads_mod": 1.34,
+          "bv_mod": 1.2,
+          "range_mod": 1.087
+        }
+      },
+      {
+        "name": "Hawker Series 45",
+        "mods": {
+          "gun_kick_mod": 0.86,
+          "vert_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Hawker Stabilizer MK.II",
+        "mods": {
+          "gun_kick_mod": 0.93,
+          "vert_recoil_mod": 0.92
+        }
+      },
+      {
+        "name": "LTI Stentorian Brake",
+        "mods": {
+          "gun_kick_mod": 1.06,
+          "horiz_recoil_mod": 0.79,
+          "rpm_mod": 1.04,
+          "vert_recoil_mod": 1.06
+        }
+      },
+      {
+        "name": "Hawker Hybrid .45",
+        "mods": {
+          "ads_movement_mod": 1.05,
+          "hipfire_max_mod": 0.75,
+          "movement_mod": 1.04,
+          "sprint_mod": 1.05
+        }
+      }
+    ],
+    "REAR GRIP": [
+      {
+        "name": "Squall Control Grip",
+        "mods": {
+          "ads_mod": 1.03,
+          "gun_kick_mod": 0.99,
+          "horiz_recoil_mod": 0.92
+        }
+      },
+      {
+        "name": "Rounder Grip",
+        "mods": {
+          "stf_mod": 0.65
+        }
+      },
+      {
+        "name": "Alabaster Grip",
+        "mods": {
+          "ads_mod": 0.66
+        }
+      },
+      {
+        "name": "Intrepid Grip",
+        "mods": {
+          "gun_kick_mod": 0.91,
+          "vert_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Ante Grip",
+        "mods": {
+          "ads_mod": 0.78
+        }
+      }
+    ],
+    "STOCK": [
+      {
+        "name": "Slipway Stock",
+        "mods": {
+          "ads_mod": 0.89,
+          "ads_movement_mod": 1.17
+        }
+      },
+      {
+        "name": "Corinth Control Stock",
+        "mods": {
+          "ads_mod": 1.06,
+          "ads_movement_mod": 0.95,
+          "gun_kick_mod": 0.83,
+          "horiz_recoil_mod": 0.83,
+          "vert_recoil_mod": 0.83
+        }
+      },
+      {
+        "name": "Redwell Styx Stock",
+        "mods": {
+          "ads_mod": 0.87,
+          "hipfire_max_mod": 0.85,
+          "stf_mod": 0.87
+        }
+      },
+      {
+        "name": "Casino Light Stock",
+        "mods": {
+          "crouch_movement_mod": 1.28,
+          "movement_mod": 1.17,
+          "sprint_mod": 1.03
+        }
+      },
+      {
+        "name": "Diptych Hybrid Stock",
+        "mods": {
+          "ads_mod": 1.04,
+          "gun_kick_mod": 0.88,
+          "horiz_recoil_mod": 0.88,
+          "vert_recoil_mod": 0.88
+        }
+      }
+    ],
+    "UNDERBARREL": [
+      {
+        "name": "Quickstep Foregrip",
+        "mods": {
+          "ads_movement_mod": 1.1,
+          "crouch_movement_mod": 1.08,
+          "movement_mod": 1.08
+        }
+      },
+      {
+        "name": "VAS Convergence Foregrip",
+        "mods": {
+          "gun_kick_mod": 0.86,
+          "horiz_recoil_mod": 0.83,
+          "vert_recoil_mod": 0.87
+        }
+      },
+      {
+        "name": "Vitalize Handstop",
+        "mods": {
+          "gun_kick_mod": 0.99,
+          "horiz_recoil_mod": 0.8
+        }
+      },
+      {
+        "name": "Lateral Precision Grip",
+        "mods": {
+          "gun_kick_mod": 0.98,
+          "horiz_recoil_mod": 0.7
+        }
+      },
+      {
+        "name": "Sapper Guard Handstop",
+        "mods": {
+          "crouch_movement_mod": 1.08,
+          "gun_kick_mod": 0.99,
+          "horiz_recoil_mod": 0.85,
+          "movement_mod": 1.13,
+          "sprint_mod": 1.08
+        }
+      },
+      {
+        "name": "Respire Handstop"
+      }
+    ]
+  },
   "subclass": "Full-Auto SMG",
   "unlock": "Season 4 - Battle Pass Page 6 (HVT)"
 }

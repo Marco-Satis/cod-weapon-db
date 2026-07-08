@@ -3,7 +3,7 @@
   "data_version": "S4_2026-06_stub",
   "source": "truegamedata",
   "weapon_count": 213,
-  "base_only_count": 29,
+  "base_only_count": 14,
   "counts_by_class": {
     "AR": 51,
     "Battle Rifle": 22,
@@ -147,7 +147,7 @@
       "class": "AR",
       "game": "bo7",
       "in_warzone": true,
-      "base_only": true
+      "base_only": false
     },
     {
       "id": "arc-m1",
@@ -155,7 +155,7 @@
       "class": "Launcher",
       "game": "bo7",
       "in_warzone": true,
-      "base_only": true
+      "base_only": false
     },
     {
       "id": "as-val",
@@ -251,7 +251,7 @@
       "class": "SMG",
       "game": "bo7",
       "in_warzone": true,
-      "base_only": true
+      "base_only": false
     },
     {
       "id": "chimera",
@@ -267,7 +267,7 @@
       "class": "Pistol",
       "game": "bo7",
       "in_warzone": true,
-      "base_only": true
+      "base_only": false
     },
     {
       "id": "collateral",
@@ -371,7 +371,7 @@
       "class": "SMG",
       "game": "bo6",
       "in_warzone": true,
-      "base_only": true
+      "base_only": false
     },
     {
       "id": "ds20-mirage",
@@ -515,7 +515,7 @@
       "class": "Special",
       "game": "bo7",
       "in_warzone": true,
-      "base_only": true
+      "base_only": false
     },
     {
       "id": "goblin-mk2",
@@ -555,7 +555,7 @@
       "class": "Special",
       "game": "bo7",
       "in_warzone": true,
-      "base_only": true
+      "base_only": false
     },
     {
       "id": "gs-magna",
@@ -683,7 +683,7 @@
       "class": "Pistol",
       "game": "bo7",
       "in_warzone": true,
-      "base_only": true
+      "base_only": false
     },
     {
       "id": "kar98k",
@@ -763,7 +763,7 @@
       "class": "Melee",
       "game": "bo7",
       "in_warzone": true,
-      "base_only": true
+      "base_only": false
     },
     {
       "id": "kogot-7",
@@ -795,7 +795,7 @@
       "class": "Marksman Rifle",
       "game": "bo7",
       "in_warzone": true,
-      "base_only": true
+      "base_only": false
     },
     {
       "id": "ksv",
@@ -1011,7 +1011,7 @@
       "class": "AR",
       "game": "bo6",
       "in_warzone": true,
-      "base_only": true
+      "base_only": false
     },
     {
       "id": "minibak",
@@ -1115,7 +1115,7 @@
       "class": "Special",
       "game": "bo7",
       "in_warzone": true,
-      "base_only": true
+      "base_only": false
     },
     {
       "id": "p890",
@@ -1323,7 +1323,7 @@
       "class": "Special",
       "game": "bo7",
       "in_warzone": true,
-      "base_only": true
+      "base_only": false
     },
     {
       "id": "sirin-9mm",
@@ -1603,7 +1603,7 @@
       "class": "Pistol",
       "game": "bo7",
       "in_warzone": true,
-      "base_only": true
+      "base_only": false
     },
     {
       "id": "victus-xmr",
@@ -1643,7 +1643,7 @@
       "class": "AR",
       "game": "bo7",
       "in_warzone": true,
-      "base_only": true
+      "base_only": false
     },
     {
       "id": "warden-308",

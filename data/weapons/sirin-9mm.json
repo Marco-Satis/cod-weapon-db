@@ -5,8 +5,8 @@
   "game": "bo6",
   "weapon_type": "Pistols",
   "in_warzone": true,
-  "source": "truegamedata-api",
-  "data_version": "S3.5_2026-04-25",
+  "source": "codmunity-api (data-mined)",
+  "data_version": "S4Reloaded_2026-07-08_codmunity",
   "note": "Off-Meta BO6 Spezial-Pistole (9mm, 500 RPM, 32-round, 0.88x). Stark reduzierter Aufsatz-Pool (Editor nur 5 Slots: OPTIC/MUZZLE/BARREL/UNDERBARREL/MAGAZINE; kein FIRE MODS/AMMUNITION/STOCK/REAR GRIP). Weapon-spez: MUZZLE/BARREL/MAGAZINE (minimal).",
   "base": {
     "rpm": 500,
@@ -16,17 +16,13 @@
     "sprint_to_fire_ms": 110,
     "velocity_ms": 480,
     "move_speed": 5.1,
-    "crouch_move_speed": 2.3,
+    "crouch_move_speed": 2,
     "ads_move_speed": 3.6,
-    "sprint_speed": 6.7,
-    "swap_speed": 975,
+    "sprint_speed": 6.4,
     "gun_kick": 47.32,
     "vert_recoil": 69.69,
     "horiz_recoil": 7.12,
-    "idle_sway": 3.25,
-    "hipfire_max": 7.25,
-    "target_flinch": 0.8,
-    "zoom_x": 0.88
+    "hipfire_max": 7.25
   },
   "damage": [
     {
@@ -34,42 +30,42 @@
       "neck": 49,
       "chest": 49,
       "stomach": 44,
-      "upperleg": 44,
-      "lowerleg": 44,
       "upperarm": 49,
       "lowerarm": 49,
+      "upperleg": 44,
+      "lowerleg": 44,
       "dropoff": 0,
       "base_rpm": 500,
       "final_rpm": 500,
-      "rpm_mod": 1
+      "rpm_mod": 1.0
     },
     {
       "head": 55,
       "neck": 43,
       "chest": 43,
       "stomach": 38,
-      "upperleg": 38,
-      "lowerleg": 38,
       "upperarm": 43,
       "lowerarm": 43,
+      "upperleg": 38,
+      "lowerleg": 38,
       "dropoff": 10.9,
       "base_rpm": 500,
       "final_rpm": 500,
-      "rpm_mod": 1
+      "rpm_mod": 1.0
     },
     {
       "head": 45,
       "neck": 35,
       "chest": 35,
       "stomach": 31,
-      "upperleg": 31,
-      "lowerleg": 31,
       "upperarm": 35,
       "lowerarm": 35,
+      "upperleg": 31,
+      "lowerleg": 31,
       "dropoff": 17.8,
       "base_rpm": 500,
       "final_rpm": 500,
-      "rpm_mod": 1
+      "rpm_mod": 1.0
     }
   ],
   "slots": {
@@ -77,37 +73,100 @@
       {
         "name": "Long Barrel",
         "mods": {
-          "range_mod": 1.22271
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 1.22271,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0
         }
       }
     ],
     "MAGAZINE": [
       {
-        "name": "Extended Mag",
+        "name": "Extended Mag I",
         "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 8,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 1.09,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
           "stf_mod": 0.92,
-          "reload_mod": 1.09
+          "vert_recoil_mod": 0
         }
       },
       {
         "name": "Fast Mag I",
         "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": -7,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0.81,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
           "stf_mod": 0.92,
-          "reload_mod": 0.81
+          "vert_recoil_mod": 0
         }
       }
     ],
     "MUZZLE": [
       {
+        "name": "Suppressor ",
+        "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0
+        }
+      },
+      {
         "name": "Suppressor"
+      },
+      {
+        "name": "Monolithic Suppressor"
       }
     ],
     "OPTIC": [
       {
-        "name": "Iron Sight"
+        "name": "Carry Handle Sight"
       },
       {
-        "name": "Carry Handle Sight"
+        "name": "Iron Sight"
       }
     ],
     "UNDERBARREL": [
@@ -115,12 +174,20 @@
         "name": "Vertical Foregrip",
         "mods": {
           "ads_mod": 0.62,
-          "gun_kick_mod": 0.7,
-          "vert_recoil_mod": 0.7,
-          "horiz_recoil_mod": 0.8,
-          "stf_mod": 1.04,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
           "crouch_movement_mod": 1.31,
-          "movement_mod": 1.17
+          "gun_kick_mod": 0.7,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0.8,
+          "mag_size_mod": 0,
+          "movement_mod": 1.17,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 1.04,
+          "vert_recoil_mod": 0.7
         }
       },
       {
@@ -128,7 +195,19 @@
         "mods": {
           "ads_mod": 1.05,
           "ads_movement_mod": 1.18,
-          "stf_mod": 0.6
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0.6,
+          "vert_recoil_mod": 0
         }
       }
     ]

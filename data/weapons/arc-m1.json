@@ -5,14 +5,33 @@
   "game": "bo7",
   "weapon_type": "Launcher",
   "in_warzone": true,
-  "source": "callofduty.com + Fandom + Game8/Dexerto/gamesatlas (Roster-Recherche, non-TGD)",
-  "data_version": "S4_2026-06-07",
+  "source": "codmunity-api (data-mined)",
+  "data_version": "S4Reloaded_2026-07-08_codmunity",
   "unlock_level": 25,
   "note": "Halten = Energiestrahl aufladen; durchdringt Gegner; hoher Schaden gegen Fahrzeuge + Scorestreaks; kein Lock-on. (= Named-Exotic 'Criticality'/Mortar in Endgame.)",
   "base": {
-    "mag": 3
+    "rpm": 22,
+    "mag": 3,
+    "reload_s": 4.767,
+    "ads_ms": 325,
+    "sprint_to_fire_ms": 300,
+    "velocity_ms": 609.6,
+    "move_speed": 4.3,
+    "crouch_move_speed": 2,
+    "ads_move_speed": 1.4,
+    "sprint_speed": 6.3,
+    "gun_kick": 17.79,
+    "vert_recoil": 32.81,
+    "horiz_recoil": 4.38,
+    "hipfire_max": 0.01
   },
-  "slots": {},
+  "slots": {
+    "UNDERBARREL": [
+      {
+        "name": "A.R.C. M1 Assault Frame"
+      }
+    ]
+  },
   "subclass": "Energy Charge Launcher",
   "unlock": "Launch (Level 25)"
 }

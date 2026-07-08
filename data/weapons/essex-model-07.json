@@ -6,16 +6,12 @@
   "game": "bo6",
   "weapon_type": "MR",
   "in_warzone": true,
-  "source": "truegamedata-api",
-  "data_version": "S3.5_2026-04-25",
+  "source": "codmunity-api (data-mined)",
+  "data_version": "S4Reloaded_2026-07-08_codmunity",
   "unlock_level": 5,
   "note": "Off-Meta BO6 Lever-Action Marksman (7.62 NATO, 740 RPM). Weapon-unique Slot = LEVER. MUZZLE/BARREL = generischer BO6-Pool mit weapon-spez. %-Deltas.",
-  "fire_modes": {
-    "fire_mode1": "Full Auto",
-    "fire_mode2": "Semi Auto"
-  },
   "base": {
-    "rpm": 740,
+    "rpm": 67,
     "mag": 8,
     "reload_s": 3.16,
     "ads_ms": 330,
@@ -28,9 +24,7 @@
     "gun_kick": 35,
     "vert_recoil": 51.8,
     "horiz_recoil": 4.53,
-    "idle_sway": 0.52,
-    "hipfire_max": 10,
-    "zoom_x": 1
+    "hipfire_max": 10
   },
   "damage": [
     {
@@ -38,88 +32,77 @@
       "neck": 187,
       "chest": 187,
       "stomach": 132,
-      "upperleg": 132,
-      "lowerleg": 132,
       "upperarm": 187,
       "lowerarm": 132,
+      "upperleg": 132,
+      "lowerleg": 132,
       "dropoff": 0,
       "base_rpm": 67,
       "final_rpm": 67,
-      "rpm_mod": 1
+      "rpm_mod": 1.0
     },
     {
       "head": 270,
       "neck": 153,
       "chest": 153,
       "stomach": 108,
-      "upperleg": 108,
-      "lowerleg": 108,
       "upperarm": 153,
       "lowerarm": 108,
+      "upperleg": 108,
+      "lowerleg": 108,
       "dropoff": 25.4,
       "base_rpm": 67,
       "final_rpm": 67,
-      "rpm_mod": 1
+      "rpm_mod": 1.0
     },
     {
       "head": 255,
       "neck": 144,
       "chest": 144,
       "stomach": 102,
-      "upperleg": 102,
-      "lowerleg": 102,
       "upperarm": 144,
       "lowerarm": 102,
+      "upperleg": 102,
+      "lowerleg": 102,
       "dropoff": 80,
       "base_rpm": 67,
       "final_rpm": 67,
-      "rpm_mod": 1
+      "rpm_mod": 1.0
     }
   ],
   "slots": {
     "BARREL": [
       {
-        "name": "Gain-Twist Barrel",
+        "name": "Long Barrel",
         "mods": {
-          "bv_mod": 1.4
+          "range_mod": 1.3515
         }
       },
       {
-        "name": "Long Barrel",
+        "name": "CHF Barrel",
         "mods": {
-          "range_mod": 1.35
+          "gun_kick_mod": 1.48,
+          "horiz_recoil_mod": 1.2
         }
       },
       {
         "name": "Reinforced Barrel",
         "mods": {
-          "range_mod": 1.2,
-          "bv_mod": 1.3
+          "bv_mod": 1.3,
+          "range_mod": 1.2
+        }
+      },
+      {
+        "name": "Gain-Twist Barrel",
+        "mods": {
+          "bv_mod": 1.35
         }
       },
       {
         "name": "Short Barrel"
-      },
-      {
-        "name": "CHF Barrel",
-        "mods": {
-          "gun_kick_mod": 1.485,
-          "vert_recoil_mod": 1.55,
-          "horiz_recoil_mod": 1.201
-        }
       }
     ],
     "FIRE MODS": [
-      {
-        "name": "Rapid Fire",
-        "mods": {
-          "gun_kick_mod": 1.111,
-          "vert_recoil_mod": 1.1,
-          "horiz_recoil_mod": 1.15,
-          "bv_mod": 0.8,
-          "rpm_mod": 1.119
-        }
-      },
       {
         "name": "7.62 NATO Overpressured",
         "mods": {
@@ -127,11 +110,20 @@
         }
       },
       {
+        "name": "Rapid Fire",
+        "mods": {
+          "bv_mod": 0.8,
+          "gun_kick_mod": 1.11,
+          "horiz_recoil_mod": 1.15,
+          "range_mod": 0.7992,
+          "rpm_mod": 1.13
+        }
+      },
+      {
         "name": "Recoil Springs",
         "mods": {
           "gun_kick_mod": 0.82,
-          "vert_recoil_mod": 0.82,
-          "horiz_recoil_mod": 0.821
+          "horiz_recoil_mod": 0.82
         }
       },
       {
@@ -146,13 +138,13 @@
         }
       },
       {
-        "name": "Fast Motion Laser"
+        "name": "Strelok Laser"
       },
       {
         "name": "Tactical Laser"
       },
       {
-        "name": "Strelok Laser"
+        "name": "Fast Motion Laser"
       },
       {
         "name": "Target Laser"
@@ -160,9 +152,9 @@
     ],
     "LEVER": [
       {
-        "name": "Quickdraw Riser",
+        "name": "CQB Lever",
         "mods": {
-          "ads_mod": 0.727
+          "stf_mod": 0.8
         }
       },
       {
@@ -172,22 +164,22 @@
         }
       },
       {
-        "name": "Commando Riser",
+        "name": "Commando Lever",
         "mods": {
-          "ads_mod": 0.864,
+          "ads_mod": 0.86,
           "stf_mod": 0.9
         }
       },
       {
-        "name": "Ergonomic Riser",
+        "name": "Quickdraw Lever",
         "mods": {
-          "ads_mod": 0.833
+          "ads_mod": 0.73
         }
       },
       {
-        "name": "CQB Lever",
+        "name": "Ergonomic Lever",
         "mods": {
-          "stf_mod": 0.8
+          "ads_mod": 0.83
         }
       }
     ],
@@ -195,259 +187,124 @@
       {
         "name": "Extended Mag I",
         "mods": {
-          "reload_mod": 1.013
-        }
-      },
-      {
-        "name": "Stripper Clip",
-        "mods": {
-          "ads_mod": 0.955,
-          "stf_mod": 0.96,
-          "reload_mod": 0.715
+          "mag_size_mod": 2,
+          "reload_mod": 1.01
         }
       },
       {
         "name": "Extended Mag II",
         "mods": {
-          "ads_mod": 1.061,
-          "stf_mod": 1.08,
-          "reload_mod": 1.076
+          "ads_mod": 1.06,
+          "mag_size_mod": 4,
+          "reload_mod": 1.08,
+          "stf_mod": 1.08
+        }
+      },
+      {
+        "name": "Stripper Clip",
+        "mods": {
+          "ads_mod": 0.95,
+          "mag_size_mod": -2,
+          "reload_mod": 0.72,
+          "stf_mod": 0.96
         }
       }
     ],
     "MUZZLE": [
       {
-        "name": "Suppressor"
-      },
-      {
-        "name": "Compensator",
+        "name": "Monolithic Suppressor",
         "mods": {
-          "gun_kick_mod": 0.736,
-          "vert_recoil_mod": 0.65
+          "ads_mod": 1.14,
+          "bv_mod": 1.2,
+          "range_mod": 1.1
         }
-      },
-      {
-        "name": "Muzzle Brake"
       },
       {
         "name": "Ported Compensator",
         "mods": {
-          "gun_kick_mod": 0.808,
-          "vert_recoil_mod": 0.75
+          "gun_kick_mod": 0.81
         }
       },
       {
-        "name": "Monolithic Suppressor",
+        "name": "Compensator",
         "mods": {
-          "ads_mod": 1.167,
-          "range_mod": 1.1,
-          "bv_mod": 1.2
-        }
-      }
-    ],
-    "OPTIC": [
-      {
-        "name": "Kepler Microflex"
-      },
-      {
-        "name": "PrismaTech Reflex"
-      },
-      {
-        "name": "Volzhskiy Reflex"
-      },
-      {
-        "name": "Redwell Reflex"
-      },
-      {
-        "name": "K&S Red Dot"
-      },
-      {
-        "name": "Kepler Red Dot"
-      },
-      {
-        "name": "Otero Red Dot"
-      },
-      {
-        "name": "OM3 '92 Holo"
-      },
-      {
-        "name": "Pinpoint Holoscout"
-      },
-      {
-        "name": "Accu-Spot Ultra Holo",
-        "mods": {
-          "gun_kick_mod": 0.7
+          "gun_kick_mod": 0.74
         }
       },
       {
-        "name": "Jason Armory 2x",
-        "mods": {
-          "ads_mod": 1.03,
-          "gun_kick_mod": 0.7
-        }
+        "name": "Suppressor"
       },
       {
-        "name": "Willis 3x",
-        "mods": {
-          "ads_mod": 1.045,
-          "gun_kick_mod": 0.7
-        }
-      },
-      {
-        "name": "PrismaTech 4x",
-        "mods": {
-          "ads_mod": 1.061,
-          "gun_kick_mod": 0.7
-        }
-      },
-      {
-        "name": "Dobrych 4x",
-        "mods": {
-          "ads_mod": 1.061,
-          "gun_kick_mod": 0.7
-        }
-      },
-      {
-        "name": "K&S Thermal Holo",
-        "mods": {
-          "gun_kick_mod": 0.75
-        }
-      },
-      {
-        "name": "Pinpoint Hybrid",
-        "mods": {
-          "ads_mod": 1.061,
-          "gun_kick_mod": 0.5
-        }
-      },
-      {
-        "name": "PrismaPoint Hybrid",
-        "mods": {
-          "ads_mod": 1.061,
-          "gun_kick_mod": 0.5
-        }
-      },
-      {
-        "name": "R&K Multizoom",
-        "mods": {
-          "ads_mod": 1.076,
-          "gun_kick_mod": 0.5
-        }
-      },
-      {
-        "name": "Remuda Range Finder",
-        "mods": {
-          "ads_mod": 1.152,
-          "gun_kick_mod": 0.5
-        }
-      },
-      {
-        "name": "Remuda Dual Zoom",
-        "mods": {
-          "ads_mod": 1.152,
-          "gun_kick_mod": 0.5
-        }
-      },
-      {
-        "name": "VMF Variable Scope",
-        "mods": {
-          "ads_mod": 1.152,
-          "gun_kick_mod": 0.5
-        }
-      },
-      {
-        "name": "Redwell Custom Zoom",
-        "mods": {
-          "ads_mod": 1.152,
-          "gun_kick_mod": 0.5
-        }
-      },
-      {
-        "name": "Otero Thermal 2x",
-        "mods": {
-          "ads_mod": 1.03,
-          "gun_kick_mod": 0.5
-        }
-      },
-      {
-        "name": "Thermal 6x",
-        "mods": {
-          "ads_mod": 1.091,
-          "gun_kick_mod": 0.5
-        }
+        "name": "Muzzle Brake"
       }
     ],
     "STOCK": [
       {
-        "name": "Light Stock",
+        "name": "Combat Stock",
         "mods": {
-          "crouch_movement_mod": 1.476,
-          "movement_mod": 1.239
+          "ads_movement_mod": 1.13
+        }
+      },
+      {
+        "name": "Heavy Stock"
+      },
+      {
+        "name": "Balanced Stock",
+        "mods": {
+          "ads_movement_mod": 1.13,
+          "crouch_movement_mod": 1.24,
+          "movement_mod": 1.13
         }
       },
       {
         "name": "Infiltrator Stock",
         "mods": {
-          "ads_movement_mod": 1.233
+          "ads_movement_mod": 1.23
         }
       },
       {
-        "name": "Heavy Stock",
+        "name": "Light Stock",
         "mods": {
-          "flinch_resistance_mod": 0.45
-        }
-      },
-      {
-        "name": "Balanced Stock",
-        "mods": {
-          "ads_movement_mod": 1.133,
-          "crouch_movement_mod": 1.238,
-          "movement_mod": 1.13
-        }
-      },
-      {
-        "name": "Combat Stock",
-        "mods": {
-          "ads_movement_mod": 1.133,
-          "flinch_resistance_mod": 0.65
+          "crouch_movement_mod": 1.47,
+          "movement_mod": 1.25
         }
       },
       {
         "name": "Cut-Off Stock",
         "mods": {
-          "ads_mod": 0.955,
+          "ads_mod": 0.95,
           "ads_movement_mod": 1.1
         }
       }
     ],
     "UNDERBARREL": [
       {
-        "name": "Weighted Handguard",
-        "mods": {
-          "gun_kick_mod": 0.932,
-          "horiz_recoil_mod": 0.6
-        }
-      },
-      {
         "name": "Lightweight Handguard"
       },
       {
-        "name": "Marksman Handguard"
-      },
-      {
-        "name": "Precision Handguard",
+        "name": "Weighted Handguard",
         "mods": {
-          "gun_kick_mod": 0.962,
-          "horiz_recoil_mod": 0.801
+          "gun_kick_mod": 0.93,
+          "horiz_recoil_mod": 0.6
         }
       },
       {
         "name": "Ranger Handguard",
         "mods": {
-          "gun_kick_mod": 0.962,
-          "horiz_recoil_mod": 0.801,
-          "sprint_mod": 1.066
+          "gun_kick_mod": 0.96,
+          "horiz_recoil_mod": 0.8,
+          "sprint_mod": 1.06
         }
+      },
+      {
+        "name": "Precision Handguard",
+        "mods": {
+          "gun_kick_mod": 0.96,
+          "horiz_recoil_mod": 0.8
+        }
+      },
+      {
+        "name": "Marksman Handguard"
       }
     ]
   }

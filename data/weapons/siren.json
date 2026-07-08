@@ -5,11 +5,71 @@
   "game": "bo7",
   "weapon_type": "Special",
   "in_warzone": true,
-  "source": "callofduty.com + Fandom + Game8/Dexerto/gamesatlas (Roster-Recherche, non-TGD)",
-  "data_version": "S4_2026-06-07",
+  "source": "codmunity-api (data-mined)",
+  "data_version": "S4Reloaded_2026-07-08_codmunity",
   "note": "Charge-basiert; durchdringendes Energie-Projektil (pass-through); Charge erhoeht Projektilgeschwindigkeit; Prestige MFS Deflection Core (Ricochet + mehr Mag). Keine numerischen TGD-Stats.",
-  "base": {},
-  "slots": {},
+  "base": {
+    "rpm": 150,
+    "mag": 6,
+    "reload_s": 3.033,
+    "ads_ms": 260,
+    "sprint_to_fire_ms": 230,
+    "velocity_ms": 12.7,
+    "move_speed": 4.8,
+    "crouch_move_speed": 2.5,
+    "ads_move_speed": 3.1,
+    "sprint_speed": 7.3,
+    "gun_kick": 20,
+    "vert_recoil": 18.48,
+    "horiz_recoil": 7.65,
+    "hipfire_max": 0.1
+  },
+  "damage": [
+    {
+      "head": 180,
+      "neck": 180,
+      "chest": 180,
+      "stomach": 180,
+      "upperarm": 180,
+      "lowerarm": 180,
+      "upperleg": 180,
+      "lowerleg": 180,
+      "dropoff": 0,
+      "base_rpm": 150,
+      "final_rpm": 150,
+      "rpm_mod": 1.0
+    }
+  ],
+  "slots": {
+    "MAGAZINE": [
+      {
+        "name": "MFS Deflection Core",
+        "mods": {
+          "bv_mod": 1.5,
+          "mag_size_mod": 3,
+          "rpm_mod": 0.67
+        }
+      }
+    ],
+    "REAR GRIP": [
+      {
+        "name": "Soma-81 Grip",
+        "mods": {
+          "ads_movement_mod": 1.1,
+          "crouch_movement_mod": 1.05,
+          "movement_mod": 1.06,
+          "sprint_mod": 1.02
+        }
+      },
+      {
+        "name": "Lancet Tear Grip",
+        "mods": {
+          "ads_mod": 0.85,
+          "stf_mod": 0.83
+        }
+      }
+    ]
+  },
   "subclass": "Energy Weapon",
   "unlock": "Season 3 Reloaded - RoboCop Event Pass (Free Track, 460k XP)"
 }

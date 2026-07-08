@@ -5,11 +5,383 @@
   "game": "bo7",
   "weapon_type": "MR",
   "in_warzone": true,
-  "source": "callofduty.com + GameRant/Dexerto/Game8/GameSpot (S4-Recherche, non-TGD)",
-  "data_version": "S4_2026-06-08",
+  "source": "codmunity-api (data-mined)",
+  "data_version": "S4Reloaded_2026-07-08_codmunity",
   "note": "Semi-auto Marksman, hoher Schaden + gute Mobility, signifikanter First-Shot-Recoil. 2-Hit-Kill bis ~25m. S4-Neuwaffe, nicht in TGD.",
-  "base": {},
-  "slots": {},
+  "base": {
+    "rpm": 200,
+    "mag": 10,
+    "reload_s": 3.233,
+    "ads_ms": 340,
+    "sprint_to_fire_ms": 250,
+    "velocity_ms": 820,
+    "move_speed": 4.7,
+    "crouch_move_speed": 2.4,
+    "ads_move_speed": 3.1,
+    "sprint_speed": 7.2,
+    "gun_kick": 17,
+    "vert_recoil": 70.1,
+    "horiz_recoil": 25.03,
+    "hipfire_max": 8.6
+  },
+  "damage": [
+    {
+      "head": 105,
+      "neck": 75,
+      "chest": 75,
+      "stomach": 67,
+      "upperarm": 75,
+      "lowerarm": 75,
+      "upperleg": 67,
+      "lowerleg": 67,
+      "dropoff": 0,
+      "base_rpm": 200,
+      "final_rpm": 200,
+      "rpm_mod": 1.0
+    },
+    {
+      "head": 93,
+      "neck": 67,
+      "chest": 67,
+      "stomach": 60,
+      "upperarm": 67,
+      "lowerarm": 67,
+      "upperleg": 60,
+      "lowerleg": 60,
+      "dropoff": 35,
+      "base_rpm": 200,
+      "final_rpm": 200,
+      "rpm_mod": 1.0
+    },
+    {
+      "head": 75,
+      "neck": 54,
+      "chest": 54,
+      "stomach": 48,
+      "upperarm": 54,
+      "lowerarm": 54,
+      "upperleg": 48,
+      "lowerleg": 48,
+      "dropoff": 50,
+      "base_rpm": 200,
+      "final_rpm": 200,
+      "rpm_mod": 1.0
+    }
+  ],
+  "slots": {
+    "BARREL": [
+      {
+        "name": "15.9\" Bowen Asbury Barrel",
+        "mods": {
+          "ads_movement_mod": 0.97,
+          "bv_mod": 1.12,
+          "gun_kick_mod": 0.95,
+          "vert_recoil_mod": 0.95
+        }
+      },
+      {
+        "name": "16.5\" VAS Allay Barrel",
+        "mods": {
+          "ads_mod": 1.04
+        }
+      },
+      {
+        "name": "14.7\" KGS Hartha Barrel",
+        "mods": {
+          "ads_mod": 1.08,
+          "ads_movement_mod": 0.93,
+          "gun_kick_mod": 0.88,
+          "horiz_recoil_mod": 0.9,
+          "stf_mod": 1.08,
+          "vert_recoil_mod": 0.88
+        }
+      },
+      {
+        "name": "13.9\" Flyer-I Barrel",
+        "mods": {
+          "ads_mod": 0.94,
+          "stf_mod": 0.9
+        }
+      },
+      {
+        "name": "15\" MFS Incursion Barrel",
+        "mods": {
+          "bv_mod": 1.13
+        }
+      },
+      {
+        "name": "14.7\" K&S Hartha Barrel"
+      }
+    ],
+    "COMB": [
+      {
+        "name": "Percy-V Riser",
+        "mods": {
+          "ads_mod": 0.75
+        }
+      },
+      {
+        "name": "Serene Poise Comb",
+        "mods": {
+          "stf_mod": 0.73
+        }
+      },
+      {
+        "name": "Marshal Control Comb",
+        "mods": {
+          "ads_mod": 1.04,
+          "gun_kick_mod": 0.99,
+          "horiz_recoil_mod": 0.92
+        }
+      },
+      {
+        "name": "VAS Mettle Riser",
+        "mods": {
+          "ads_mod": 0.85
+        }
+      },
+      {
+        "name": "Bowen Lumet Comb",
+        "mods": {
+          "gun_kick_mod": 0.91,
+          "vert_recoil_mod": 0.9
+        }
+      }
+    ],
+    "FIRE MODS": [
+      {
+        "name": "7.62 NATO FMJ",
+        "mods": {
+          "bv_mod": 1.1,
+          "range_mod": 1.1429
+        }
+      },
+      {
+        "name": "7.62 NATO Overpressured",
+        "mods": {
+          "bv_mod": 1.2
+        }
+      },
+      {
+        "name": "Accelerated Recoil System",
+        "mods": {
+          "gun_kick_mod": 0.9,
+          "horiz_recoil_mod": 0.86,
+          "vert_recoil_mod": 0.9
+        }
+      },
+      {
+        "name": "Fast Trigger",
+        "mods": {
+          "gun_kick_mod": 1.15,
+          "horiz_recoil_mod": 1.15,
+          "rpm_mod": 1.03,
+          "vert_recoil_mod": 1.15
+        }
+      }
+    ],
+    "LASER": [
+      {
+        "name": "1mW Instinct Laser Array",
+        "mods": {
+          "ads_mod": 0.96,
+          "stf_mod": 0.92
+        }
+      },
+      {
+        "name": "Convergence Box Laser",
+        "mods": {
+          "hipfire_max_mod": 0.85
+        }
+      },
+      {
+        "name": "3mW Motion Strike Laser"
+      },
+      {
+        "name": "5mW Lockstep Laser"
+      },
+      {
+        "name": "2mW Adaptive Tactical Laser"
+      }
+    ],
+    "MAGAZINE": [
+      {
+        "name": "Zevon Light Mag",
+        "mods": {
+          "ads_mod": 0.94,
+          "mag_size_mod": -2,
+          "reload_mod": 0.63,
+          "stf_mod": 0.92
+        }
+      },
+      {
+        "name": "Satiate Extended Mag",
+        "mods": {
+          "ads_mod": 1.06,
+          "ads_movement_mod": 0.92,
+          "crouch_movement_mod": 0.95,
+          "mag_size_mod": 4,
+          "movement_mod": 0.94,
+          "reload_mod": 1.18,
+          "sprint_mod": 0.96,
+          "stf_mod": 1.08
+        }
+      },
+      {
+        "name": "VAS Elpis-X Magazine",
+        "mods": {
+          "mag_size_mod": 2
+        }
+      },
+      {
+        "name": "Verity Quick Mag",
+        "mods": {
+          "ads_mod": 0.93,
+          "reload_mod": 0.82,
+          "stf_mod": 0.96
+        }
+      }
+    ],
+    "MUZZLE": [
+      {
+        "name": "Titan-R 7.62 Compensator",
+        "mods": {
+          "hipfire_max_mod": 0.85
+        }
+      },
+      {
+        "name": "Monolithic Suppressor",
+        "mods": {
+          "ads_mod": 1.16,
+          "bv_mod": 1.12,
+          "range_mod": 1.0571
+        }
+      },
+      {
+        "name": "RL-7.62 Compensator",
+        "mods": {
+          "gun_kick_mod": 0.86,
+          "vert_recoil_mod": 0.85
+        }
+      },
+      {
+        "name": "Redwell 7.62 Brake",
+        "mods": {
+          "gun_kick_mod": 0.93,
+          "vert_recoil_mod": 0.92
+        }
+      },
+      {
+        "name": "Redwell Shade-X Suppressor",
+        "mods": {
+          "bv_mod": 0.95,
+          "gun_kick_mod": 0.89,
+          "horiz_recoil_mod": 0.89,
+          "range_mod": 0.95,
+          "vert_recoil_mod": 0.89
+        }
+      },
+      {
+        "name": "LTI Stentorian Brake",
+        "mods": {
+          "gun_kick_mod": 1.06,
+          "horiz_recoil_mod": 0.8,
+          "rpm_mod": 1,
+          "vert_recoil_mod": 1.06
+        }
+      },
+      {
+        "name": "Greaves A-762"
+      }
+    ],
+    "STOCK": [
+      {
+        "name": "Anglia Fleet Stock",
+        "mods": {
+          "ads_mod": 0.94,
+          "ads_movement_mod": 1.21
+        }
+      },
+      {
+        "name": "Cheval Gallant Stock",
+        "mods": {
+          "ads_mod": 1.06,
+          "gun_kick_mod": 0.95,
+          "horiz_recoil_mod": 0.95,
+          "vert_recoil_mod": 0.95
+        }
+      },
+      {
+        "name": "Epona-21 Stock",
+        "mods": {
+          "crouch_movement_mod": 1.39,
+          "movement_mod": 1.23,
+          "sprint_mod": 1.04
+        }
+      },
+      {
+        "name": "Karst-09 Stock",
+        "mods": {
+          "hipfire_max_mod": 0.85
+        }
+      },
+      {
+        "name": "Iris Stable Stock",
+        "mods": {
+          "ads_mod": 1.09,
+          "ads_movement_mod": 0.86,
+          "gun_kick_mod": 0.83,
+          "horiz_recoil_mod": 0.83,
+          "vert_recoil_mod": 0.83
+        }
+      }
+    ],
+    "UNDERBARREL": [
+      {
+        "name": "Quickstep Foregrip",
+        "mods": {
+          "ads_movement_mod": 1.12,
+          "crouch_movement_mod": 1.09,
+          "movement_mod": 1.09
+        }
+      },
+      {
+        "name": "Envoy Foregrip",
+        "mods": {
+          "crouch_movement_mod": 1.09,
+          "gun_kick_mod": 0.99,
+          "horiz_recoil_mod": 0.9,
+          "movement_mod": 1.09,
+          "sprint_mod": 1.05
+        }
+      },
+      {
+        "name": "Force Stabilizer Handstop",
+        "mods": {
+          "gun_kick_mod": 0.99,
+          "horiz_recoil_mod": 0.8
+        }
+      },
+      {
+        "name": "VAS Convergence Foregrip",
+        "mods": {
+          "gun_kick_mod": 0.91,
+          "horiz_recoil_mod": 0.8,
+          "vert_recoil_mod": 0.92
+        }
+      },
+      {
+        "name": "Ironhold Angled Grip",
+        "mods": {
+          "gun_kick_mod": 0.99,
+          "horiz_recoil_mod": 0.8
+        }
+      },
+      {
+        "name": "Enhance-32 Handstop"
+      }
+    ]
+  },
   "subclass": "Semi-Auto Marksman",
   "unlock": "Season 4 - Battle Pass Page 3 (HVT)"
 }
