@@ -102,21 +102,6 @@
           "jump_ads_mod": 1.14,
           "jump_sprint_fire_speed_mod": 1.21
         }
-      },
-      {
-        "name": "9.6\" MFS Vital Ace Barrel",
-        "unlock_level": "Weapon Prestige",
-        "mods": {
-          "ads_mod": 1.7,
-          "ads_movement_mod": 0.87,
-          "gun_kick_mod": 2.34,
-          "horiz_recoil_mod": 1.7,
-          "rpm_mod": 0.33,
-          "stf_mod": 1.28,
-          "vert_recoil_mod": 2.16,
-          "jump_ads_mod": 1.1,
-          "jump_sprint_fire_speed_mod": 1.11
-        }
       }
     ],
     "FIRE MODS": [

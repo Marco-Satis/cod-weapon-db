@@ -1779,27 +1779,6 @@
     ],
     "STOCK": [
       {
-        "name": "expedite grid pad",
-        "unlock_level": 14,
-        "mods": {
-          "ads_mod": 0,
-          "ads_movement_mod": 1.1,
-          "bv_mod": 0,
-          "crouch_movement_mod": 0,
-          "gun_kick_mod": 0,
-          "hipfire_max_mod": 0,
-          "horiz_recoil_mod": 0,
-          "mag_size_mod": 0,
-          "movement_mod": 0,
-          "range_mod": 0,
-          "reload_mod": 0,
-          "rpm_mod": 0,
-          "sprint_mod": 1.02,
-          "stf_mod": 0,
-          "vert_recoil_mod": 0
-        }
-      },
-      {
         "name": "Demo Tac Pad",
         "unlock_level": 19,
         "mods": {
@@ -1843,7 +1822,24 @@
       },
       {
         "name": "Expeditte Grip Pad",
-        "unlock_level": 14
+        "unlock_level": 14,
+        "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 1.1,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 1.02,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0
+        }
       }
     ],
     "UNDERBARREL": [

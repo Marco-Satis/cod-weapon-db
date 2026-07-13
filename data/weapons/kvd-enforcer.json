@@ -1746,7 +1746,7 @@
         }
       },
       {
-        "name": "Kastov-RAMA",
+        "name": "Kastov Rama",
         "unlock_level": 24,
         "mods": {
           "ads_mod": 0.97,
@@ -1785,10 +1785,6 @@
           "stf_mod": 1.02,
           "vert_recoil_mod": 0
         }
-      },
-      {
-        "name": "Kastov Rama",
-        "unlock_level": 24
       },
       {
         "name": "Spetsnaz S10",

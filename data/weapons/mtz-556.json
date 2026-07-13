@@ -92,7 +92,7 @@
         }
       },
       {
-        "name": "5.56 Nato Low Grain",
+        "name": "5.56 NATO Low Grain",
         "unlock_level": 13,
         "mods": {
           "ads_mod": 0,
@@ -271,10 +271,6 @@
           "stf_mod": 0,
           "vert_recoil_mod": 0
         }
-      },
-      {
-        "name": "5.56 NATO Low Grain",
-        "unlock_level": 13
       }
     ],
     "BARREL": [

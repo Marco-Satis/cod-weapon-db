@@ -220,7 +220,7 @@
         }
       },
       {
-        "name": "9x18mm Makarov fmj",
+        "name": "9x18mm Makarov FMJ",
         "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
@@ -241,7 +241,7 @@
         }
       },
       {
-        "name": "9x18mm makarov overpressured",
+        "name": "9x18mm Makarov Overpressured",
         "unlock_level": 37,
         "mods": {
           "ads_mod": 0,
@@ -260,14 +260,6 @@
           "stf_mod": 0,
           "vert_recoil_mod": 0
         }
-      },
-      {
-        "name": "9x18mm Makarov FMJ",
-        "unlock_level": 3
-      },
-      {
-        "name": "9x18mm Makarov Overpressured",
-        "unlock_level": 37
       }
     ],
     "LASER": [

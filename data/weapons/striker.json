@@ -585,7 +585,7 @@
     ],
     "MAGAZINE": [
       {
-        "name": "20 round mag",
+        "name": "20 Round Mag",
         "unlock_level": 5,
         "mods": {
           "ads_mod": 0.88,
@@ -646,10 +646,6 @@
           "stf_mod": 1.02,
           "vert_recoil_mod": 0
         }
-      },
-      {
-        "name": "20 Round Mag",
-        "unlock_level": 5
       }
     ],
     "MUZZLE": [

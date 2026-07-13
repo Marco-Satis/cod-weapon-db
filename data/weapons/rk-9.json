@@ -102,14 +102,6 @@
         }
       },
       {
-        "name": "9.9\" Bowen Cerlum Barrel",
-        "unlock_level": 30,
-        "mods": {
-          "ads_mod": 1.05,
-          "bv_mod": 1.08
-        }
-      },
-      {
         "name": "12.4\" VAS Tethys Barrel",
         "unlock_level": 3,
         "mods": {
@@ -119,7 +111,11 @@
       },
       {
         "name": "9.9\" Bowen Cerium Barrel",
-        "unlock_level": 30
+        "unlock_level": 30,
+        "mods": {
+          "ads_mod": 1.05,
+          "bv_mod": 1.08
+        }
       }
     ],
     "FIRE MODS": [

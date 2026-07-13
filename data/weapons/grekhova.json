@@ -178,7 +178,7 @@
     ],
     "FIRE MODS": [
       {
-        "name": "9x18mm Makarov fmj",
+        "name": "9x18mm Makarov FMJ",
         "unlock_level": 26,
         "mods": {
           "ads_mod": 0,
@@ -220,7 +220,7 @@
         }
       },
       {
-        "name": "9x18mm makarov overpressured",
+        "name": "9x18mm Makarov Overpressured",
         "unlock_level": 3,
         "mods": {
           "ads_mod": 0,
@@ -260,14 +260,6 @@
           "stf_mod": 0,
           "vert_recoil_mod": 1.2
         }
-      },
-      {
-        "name": "9x18mm Makarov Overpressured",
-        "unlock_level": 3
-      },
-      {
-        "name": "9x18mm Makarov FMJ",
-        "unlock_level": 26
       }
     ],
     "LASER": [
@@ -465,7 +457,7 @@
     ],
     "MUZZLE": [
       {
-        "name": "Suppressor ",
+        "name": "Suppressor",
         "unlock_level": 6,
         "mods": {
           "ads_mod": 0,
@@ -556,10 +548,6 @@
           "bv_mod": 1.2,
           "range_mod": 1.1
         }
-      },
-      {
-        "name": "Suppressor",
-        "unlock_level": 6
       }
     ],
     "OPTIC": [

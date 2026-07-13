@@ -473,7 +473,7 @@
         }
       },
       {
-        "name": "Suppressor ",
+        "name": "Suppressor",
         "unlock_level": 2,
         "mods": {
           "ads_mod": 0,
@@ -543,10 +543,6 @@
           "bv_mod": 1.2,
           "range_mod": 1.1
         }
-      },
-      {
-        "name": "Suppressor",
-        "unlock_level": 2
       }
     ],
     "OPTIC": [

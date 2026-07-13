@@ -77,17 +77,6 @@
         }
       },
       {
-        "name": "8.5\" Targll Hock-XR Barrel",
-        "unlock_level": 7,
-        "mods": {
-          "ads_mod": 0.81,
-          "ads_movement_mod": 1.02,
-          "hipfire_max_mod": 0,
-          "movement_mod": 1.06,
-          "stf_mod": 0.64
-        }
-      },
-      {
         "name": "11.7\" Cinerous Barrel",
         "unlock_level": 4,
         "mods": {
@@ -122,7 +111,8 @@
           "hipfire_max_mod": 0.8,
           "movement_mod": 1.06,
           "sprint_mod": 1.02,
-          "stf_mod": 0.59
+          "stf_mod": 0.59,
+          "ads_movement_mod": 1.02
         }
       }
     ],
@@ -219,7 +209,7 @@
         }
       },
       {
-        "name": "Welkln Fast Mag",
+        "name": "Welkin Fast Mag",
         "unlock_level": 24,
         "mods": {
           "ads_mod": 0.5,
@@ -227,10 +217,6 @@
           "reload_mod": 0.58,
           "stf_mod": 0.9
         }
-      },
-      {
-        "name": "Welkin Fast Mag",
-        "unlock_level": 24
       }
     ],
     "MUZZLE": [
@@ -352,14 +338,6 @@
         }
       },
       {
-        "name": "Targll Orbiter Stock",
-        "unlock_level": 21,
-        "mods": {
-          "ads_mod": 0.89,
-          "ads_movement_mod": 1.22
-        }
-      },
-      {
         "name": "F7-Howl Stock",
         "unlock_level": 30,
         "mods": {
@@ -369,33 +347,12 @@
         }
       },
       {
-        "name": "EMT3 Radlx Stock",
-        "unlock_level": 6,
-        "mods": {
-          "ads_mod": 1.16,
-          "ads_movement_mod": 0.88,
-          "gun_kick_mod": 0.82,
-          "horiz_recoil_mod": 0.82,
-          "vert_recoil_mod": 0.82
-        }
-      },
-      {
         "name": "Cinder Stock",
         "unlock_level": 27,
         "mods": {
           "ads_mod": 0.82,
           "hipfire_max_mod": 0.85,
           "stf_mod": 0.87
-        }
-      },
-      {
-        "name": "Malalse-64 Stock",
-        "unlock_level": 34,
-        "mods": {
-          "ads_mod": 1.11,
-          "gun_kick_mod": 0.9,
-          "horiz_recoil_mod": 0.9,
-          "vert_recoil_mod": 0.9
         }
       },
       {

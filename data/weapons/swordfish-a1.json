@@ -74,7 +74,7 @@
         }
       },
       {
-        "name": "16.5\" Gar-XL Barrel",
+        "name": "16.5\" Gar-xL Barrel",
         "unlock_level": 2,
         "mods": {
           "ads_movement_mod": 0.96,
@@ -101,10 +101,6 @@
           "ads_mod": 1.05,
           "range_mod": 1.1429
         }
-      },
-      {
-        "name": "16.5\" Gar-xL Barrel",
-        "unlock_level": 2
       }
     ],
     "FIRE MODS": [
@@ -373,13 +369,6 @@
     ],
     "UNDERBARREL": [
       {
-        "name": "Fluxus Underbarrel",
-        "unlock_level": 8,
-        "mods": {
-          "horiz_recoil_mod": 0.85
-        }
-      },
-      {
         "name": "Dart Grip",
         "unlock_level": 37,
         "mods": {
@@ -407,7 +396,10 @@
       },
       {
         "name": "Fixus Underbarrel",
-        "unlock_level": 8
+        "unlock_level": 8,
+        "mods": {
+          "horiz_recoil_mod": 0.85
+        }
       },
       {
         "name": "Aperture-2 Underbarrel",

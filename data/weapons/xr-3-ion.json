@@ -169,7 +169,7 @@
     ],
     "MAGAZINE": [
       {
-        "name": "PhantomV Fast Mag",
+        "name": "Phantom-V Fast Mag",
         "unlock_level": 8,
         "mods": {
           "ads_mod": 0.95,
@@ -201,10 +201,6 @@
           "jump_ads_mod": 1.03,
           "jump_sprint_fire_speed_mod": 1.08
         }
-      },
-      {
-        "name": "Phantom-V Fast Mag",
-        "unlock_level": 8
       }
     ],
     "MUZZLE": [

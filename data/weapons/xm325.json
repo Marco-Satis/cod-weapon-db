@@ -129,13 +129,6 @@
         }
       },
       {
-        "name": "5.56 Caseless Overpressuri",
-        "unlock_level": 7,
-        "mods": {
-          "bv_mod": 1.2
-        }
-      },
-      {
         "name": "5.56 Caseless Overpressured",
         "unlock_level": 7,
         "mods": {
@@ -200,18 +193,6 @@
         }
       },
       {
-        "name": "Wessl Fast Belt",
-        "unlock_level": 6,
-        "mods": {
-          "ads_mod": 0.96,
-          "mag_size_mod": -10,
-          "reload_mod": 0.91,
-          "stf_mod": 0.95,
-          "jump_ads_mod": 0.98,
-          "jump_sprint_fire_speed_mod": 0.95
-        }
-      },
-      {
         "name": "Enforcer Extended Belt",
         "unlock_level": 28,
         "mods": {
@@ -232,7 +213,15 @@
       },
       {
         "name": "Wessi Fast Belt",
-        "unlock_level": 6
+        "unlock_level": 6,
+        "mods": {
+          "ads_mod": 0.96,
+          "mag_size_mod": -10,
+          "reload_mod": 0.91,
+          "stf_mod": 0.95,
+          "jump_ads_mod": 0.98,
+          "jump_sprint_fire_speed_mod": 0.95
+        }
       }
     ],
     "MUZZLE": [
@@ -402,25 +391,6 @@
         }
       },
       {
-        "name": "ZR-Mobility Stock",
-        "unlock_level": 50,
-        "mods": {
-          "ads_mod": 1.07,
-          "gun_kick_mod": 0.95,
-          "horiz_recoil_mod": 0.95,
-          "vert_recoil_mod": 0.95
-        }
-      },
-      {
-        "name": "VG-O Light Stock",
-        "unlock_level": 2,
-        "mods": {
-          "crouch_movement_mod": 1.41,
-          "movement_mod": 1.2,
-          "sprint_mod": 1.03
-        }
-      },
-      {
         "name": "RX-7 Shock Stock",
         "unlock_level": 14,
         "mods": {
@@ -456,11 +426,22 @@
       },
       {
         "name": "VG-0 Light Stock",
-        "unlock_level": 2
+        "unlock_level": 2,
+        "mods": {
+          "crouch_movement_mod": 1.41,
+          "movement_mod": 1.2,
+          "sprint_mod": 1.03
+        }
       },
       {
         "name": "2R-Mobility Stock",
-        "unlock_level": 50
+        "unlock_level": 50,
+        "mods": {
+          "ads_mod": 1.07,
+          "gun_kick_mod": 0.95,
+          "horiz_recoil_mod": 0.95,
+          "vert_recoil_mod": 0.95
+        }
       }
     ],
     "UNDERBARREL": [

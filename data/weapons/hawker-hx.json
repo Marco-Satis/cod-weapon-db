@@ -56,14 +56,6 @@
   "slots": {
     "BARREL": [
       {
-        "name": "MFS 25\" Voltve Barrel",
-        "unlock_level": "Weapon Prestige",
-        "mods": {
-          "bv_mod": 1.15,
-          "range_mod": 1.1538
-        }
-      },
-      {
         "name": "23.7\" Composite-11 Barrel",
         "unlock_level": 22,
         "mods": {
@@ -87,19 +79,19 @@
         }
       },
       {
-        "name": "26.1\" Absolutlon Barrel",
+        "name": "26.1\" Absolution Barrel",
         "unlock_level": 16,
         "mods": {
           "bv_mod": 1.2
         }
       },
       {
-        "name": "26.1\" Absolution Barrel",
-        "unlock_level": 16
-      },
-      {
         "name": "MFS 25\" Votive Barrel",
-        "unlock_level": "Weapon Prestige"
+        "unlock_level": "Weapon Prestige",
+        "mods": {
+          "bv_mod": 1.15,
+          "range_mod": 1.1538
+        }
       }
     ],
     "FIRE MODS": [
@@ -337,7 +329,14 @@
     ],
     "UNDERBARREL": [
       {
-        "name": "Hawker Mobile Grlp",
+        "name": "Hawker Ridge Grip",
+        "unlock_level": 7,
+        "mods": {
+          "horiz_recoil_mod": 0.65
+        }
+      },
+      {
+        "name": "Hawker Mobile Grip",
         "unlock_level": 14,
         "mods": {
           "ads_movement_mod": 1.18,
@@ -346,14 +345,18 @@
         }
       },
       {
-        "name": "FlatTop Grlp",
+        "name": "Knitline Focus Grip",
+        "unlock_level": 17
+      },
+      {
+        "name": "FlatTop Grip",
         "unlock_level": 20,
         "mods": {
           "horiz_recoil_mod": 0.8
         }
       },
       {
-        "name": "UnderPitch Grlp",
+        "name": "UnderPitch Grip",
         "unlock_level": 33,
         "mods": {
           "crouch_movement_mod": 1.09,
@@ -361,33 +364,6 @@
           "movement_mod": 1.09,
           "sprint_mod": 1.04
         }
-      },
-      {
-        "name": "Hawker Ridge Grlp",
-        "unlock_level": 7,
-        "mods": {
-          "horiz_recoil_mod": 0.65
-        }
-      },
-      {
-        "name": "Hawker Ridge Grip",
-        "unlock_level": 7
-      },
-      {
-        "name": "Hawker Mobile Grip",
-        "unlock_level": 14
-      },
-      {
-        "name": "Knitline Focus Grip",
-        "unlock_level": 17
-      },
-      {
-        "name": "FlatTop Grip",
-        "unlock_level": 20
-      },
-      {
-        "name": "UnderPitch Grip",
-        "unlock_level": 33
       }
     ]
   }

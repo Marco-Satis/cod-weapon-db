@@ -10032,7 +10032,7 @@
             }
           },
           {
-            "name": "9MM Hollowpoint",
+            "name": "9MM Hollow Point",
             "mods": {
               "ads_mod": 0,
               "ads_movement_mod": 0,
@@ -10065,9 +10065,6 @@
               "gun_kick_mod": 0.88,
               "horiz_recoil_mod": 0.85
             }
-          },
-          {
-            "name": "9MM Hollow Point"
           }
         ],
         "BARREL": [
@@ -14115,7 +14112,7 @@
             }
           },
           {
-            "name": "5.7x28MM Armor Piercing",
+            "name": "5.7X28MM Armor Piercing",
             "unlock_level": 0,
             "mods": {
               "ads_mod": 0,
@@ -14136,7 +14133,7 @@
             }
           },
           {
-            "name": "5.7x28MM Frangible",
+            "name": "5.7X28MM Frangible",
             "unlock_level": 0,
             "mods": {
               "ads_mod": 0,
@@ -14157,7 +14154,7 @@
             }
           },
           {
-            "name": "5.7x28MM Overpressured +P",
+            "name": "5.7X28MM Overpressured P+",
             "unlock_level": 0,
             "mods": {
               "ads_mod": 0,
@@ -14199,7 +14196,7 @@
             }
           },
           {
-            "name": "5.7X28MM Hollowpoint",
+            "name": "5.7x28MM Hollow Point",
             "unlock_level": 0,
             "mods": {
               "ads_mod": 0,
@@ -14220,27 +14217,11 @@
             }
           },
           {
-            "name": "5.7x28MM Hollow Point",
-            "unlock_level": 0
-          },
-          {
             "name": "5.7X28MM Mono",
             "unlock_level": 0
           },
           {
             "name": "5.7X28MM Round Nose",
-            "unlock_level": 0
-          },
-          {
-            "name": "5.7X28MM Frangible",
-            "unlock_level": 0
-          },
-          {
-            "name": "5.7X28MM Armor Piercing",
-            "unlock_level": 0
-          },
-          {
-            "name": "5.7X28MM Overpressured P+",
             "unlock_level": 0
           },
           {
@@ -17475,7 +17456,7 @@
             }
           },
           {
-            "name": "9MM Hollowpoint",
+            "name": "9MM Hollow Point",
             "mods": {
               "ads_mod": 0,
               "ads_movement_mod": 0,
@@ -17614,9 +17595,6 @@
               "stf_mod": 0,
               "vert_recoil_mod": 0
             }
-          },
-          {
-            "name": "9MM Hollow Point"
           },
           {
             "name": "9mm Sub FR"
@@ -24903,14 +24881,6 @@
             }
           },
           {
-            "name": "13\" Taryos Barrel",
-            "unlock_level": 16,
-            "mods": {
-              "ads_mod": 0.84,
-              "ads_movement_mod": 0.95
-            }
-          },
-          {
             "name": "15\" Redwell Parlay Barrel",
             "unlock_level": 11,
             "mods": {
@@ -24938,17 +24908,14 @@
           },
           {
             "name": "13\" Tarvos Barrel",
-            "unlock_level": 16
+            "unlock_level": 16,
+            "mods": {
+              "ads_mod": 0.84,
+              "ads_movement_mod": 0.95
+            }
           }
         ],
         "FIRE MODS": [
-          {
-            "name": "9mm Parabellum Overpressu",
-            "unlock_level": 19,
-            "mods": {
-              "bv_mod": 1.2
-            }
-          },
           {
             "name": "9mm Parabellum FMJ",
             "unlock_level": 9,
@@ -24979,7 +24946,10 @@
           },
           {
             "name": "9mm Parabellum Overpressured",
-            "unlock_level": 19
+            "unlock_level": 19,
+            "mods": {
+              "bv_mod": 1.2
+            }
           }
         ],
         "LASER": [
@@ -25013,15 +24983,6 @@
         ],
         "MAGAZINE": [
           {
-            "name": "MFS Carrousel Fast Mag",
-            "unlock_level": "Weapon Prestige",
-            "mods": {
-              "ads_mod": 0.87,
-              "reload_mod": 0.72,
-              "stf_mod": 0.79
-            }
-          },
-          {
             "name": "Redwell Sprocket Mag",
             "unlock_level": 7,
             "mods": {
@@ -25033,7 +24994,12 @@
           },
           {
             "name": "MFS Carousel Fast Mag",
-            "unlock_level": "Weapon Prestige"
+            "unlock_level": "Weapon Prestige",
+            "mods": {
+              "ads_mod": 0.87,
+              "reload_mod": 0.72,
+              "stf_mod": 0.79
+            }
           }
         ],
         "MUZZLE": [
@@ -39578,7 +39544,7 @@
             }
           },
           {
-            "name": "Suppressor ",
+            "name": "Suppressor",
             "unlock_level": 4,
             "mods": {
               "ads_mod": 0,
@@ -39627,10 +39593,6 @@
               "bv_mod": 1.2,
               "range_mod": 1.1
             }
-          },
-          {
-            "name": "Suppressor",
-            "unlock_level": 4
           }
         ],
         "OPTIC": [
@@ -40285,7 +40247,7 @@
             }
           },
           {
-            "name": "HGL-92",
+            "name": "HGL -92",
             "mods": {
               "ads_mod": 0,
               "ads_movement_mod": 0,
@@ -40345,9 +40307,6 @@
               "stf_mod": 0.9,
               "vert_recoil_mod": 0
             }
-          },
-          {
-            "name": "HGL -92"
           }
         ],
         "COMB": [
@@ -53713,7 +53672,7 @@
             }
           },
           {
-            "name": "9MM Hollowpoint",
+            "name": "9MM Hollow Point",
             "mods": {
               "ads_mod": 0,
               "ads_movement_mod": 0,
@@ -53831,9 +53790,6 @@
               "stf_mod": 0,
               "vert_recoil_mod": 0
             }
-          },
-          {
-            "name": "9MM Hollow Point"
           },
           {
             "name": "9MM Sub AP"
@@ -66482,7 +66438,7 @@
             }
           },
           {
-            "name": "9MM Hollowpoint",
+            "name": "9MM Hollow Point",
             "mods": {
               "ads_mod": 0,
               "ads_movement_mod": 0,
@@ -66620,9 +66576,6 @@
               "stf_mod": 0,
               "vert_recoil_mod": 0
             }
-          },
-          {
-            "name": "9MM Hollow Point"
           }
         ],
         "BARREL": [
@@ -70576,7 +70529,7 @@
         ],
         "FIRE MODS": [
           {
-            "name": "9x18mm Makarov fmj",
+            "name": "9x18mm Makarov FMJ",
             "unlock_level": 26,
             "mods": {
               "ads_mod": 0,
@@ -70618,7 +70571,7 @@
             }
           },
           {
-            "name": "9x18mm makarov overpressured",
+            "name": "9x18mm Makarov Overpressured",
             "unlock_level": 3,
             "mods": {
               "ads_mod": 0,
@@ -70658,14 +70611,6 @@
               "stf_mod": 0,
               "vert_recoil_mod": 1.2
             }
-          },
-          {
-            "name": "9x18mm Makarov Overpressured",
-            "unlock_level": 3
-          },
-          {
-            "name": "9x18mm Makarov FMJ",
-            "unlock_level": 26
           }
         ],
         "LASER": [
@@ -70863,7 +70808,7 @@
         ],
         "MUZZLE": [
           {
-            "name": "Suppressor ",
+            "name": "Suppressor",
             "unlock_level": 6,
             "mods": {
               "ads_mod": 0,
@@ -70954,10 +70899,6 @@
               "bv_mod": 1.2,
               "range_mod": 1.1
             }
-          },
-          {
-            "name": "Suppressor",
-            "unlock_level": 6
           }
         ],
         "OPTIC": [
@@ -71196,17 +71137,13 @@
       "slots": {
         "BARREL": [
           {
-            "name": "MFS Circultal Barrel",
+            "name": "MFS Circuital Barrel",
             "unlock_level": "Weapon Prestige",
             "mods": {
               "bv_mod": 1.25,
               "hipfire_max_mod": 0.33,
               "movement_mod": 1.07
             }
-          },
-          {
-            "name": "MFS Circuital Barrel",
-            "unlock_level": "Weapon Prestige"
           }
         ],
         "MAGAZINE": [
@@ -72486,7 +72423,7 @@
             }
           },
           {
-            "name": "Suppressor ",
+            "name": "Suppressor",
             "unlock_level": 4,
             "mods": {
               "ads_mod": 0,
@@ -72535,10 +72472,6 @@
               "bv_mod": 1.2,
               "range_mod": 1.1
             }
-          },
-          {
-            "name": "Suppressor",
-            "unlock_level": 4
           }
         ],
         "OPTIC": [
@@ -72801,14 +72734,6 @@
       "slots": {
         "BARREL": [
           {
-            "name": "MFS 25\" Voltve Barrel",
-            "unlock_level": "Weapon Prestige",
-            "mods": {
-              "bv_mod": 1.15,
-              "range_mod": 1.1538
-            }
-          },
-          {
             "name": "23.7\" Composite-11 Barrel",
             "unlock_level": 22,
             "mods": {
@@ -72832,19 +72757,19 @@
             }
           },
           {
-            "name": "26.1\" Absolutlon Barrel",
+            "name": "26.1\" Absolution Barrel",
             "unlock_level": 16,
             "mods": {
               "bv_mod": 1.2
             }
           },
           {
-            "name": "26.1\" Absolution Barrel",
-            "unlock_level": 16
-          },
-          {
             "name": "MFS 25\" Votive Barrel",
-            "unlock_level": "Weapon Prestige"
+            "unlock_level": "Weapon Prestige",
+            "mods": {
+              "bv_mod": 1.15,
+              "range_mod": 1.1538
+            }
           }
         ],
         "FIRE MODS": [
@@ -73082,7 +73007,14 @@
         ],
         "UNDERBARREL": [
           {
-            "name": "Hawker Mobile Grlp",
+            "name": "Hawker Ridge Grip",
+            "unlock_level": 7,
+            "mods": {
+              "horiz_recoil_mod": 0.65
+            }
+          },
+          {
+            "name": "Hawker Mobile Grip",
             "unlock_level": 14,
             "mods": {
               "ads_movement_mod": 1.18,
@@ -73091,14 +73023,18 @@
             }
           },
           {
-            "name": "FlatTop Grlp",
+            "name": "Knitline Focus Grip",
+            "unlock_level": 17
+          },
+          {
+            "name": "FlatTop Grip",
             "unlock_level": 20,
             "mods": {
               "horiz_recoil_mod": 0.8
             }
           },
           {
-            "name": "UnderPitch Grlp",
+            "name": "UnderPitch Grip",
             "unlock_level": 33,
             "mods": {
               "crouch_movement_mod": 1.09,
@@ -73106,33 +73042,6 @@
               "movement_mod": 1.09,
               "sprint_mod": 1.04
             }
-          },
-          {
-            "name": "Hawker Ridge Grlp",
-            "unlock_level": 7,
-            "mods": {
-              "horiz_recoil_mod": 0.65
-            }
-          },
-          {
-            "name": "Hawker Ridge Grip",
-            "unlock_level": 7
-          },
-          {
-            "name": "Hawker Mobile Grip",
-            "unlock_level": 14
-          },
-          {
-            "name": "Knitline Focus Grip",
-            "unlock_level": 17
-          },
-          {
-            "name": "FlatTop Grip",
-            "unlock_level": 20
-          },
-          {
-            "name": "UnderPitch Grip",
-            "unlock_level": 33
           }
         ]
       }
@@ -76304,7 +76213,7 @@
             }
           },
           {
-            "name": "5.56 Nato Low Grain",
+            "name": "5.56 NATO Low Grain",
             "unlock_level": 5,
             "mods": {
               "ads_mod": 0,
@@ -76383,10 +76292,6 @@
               "stf_mod": 0,
               "vert_recoil_mod": 0
             }
-          },
-          {
-            "name": "5.56 NATO Low Grain",
-            "unlock_level": 5
           }
         ],
         "BARREL": [
@@ -76454,7 +76359,7 @@
             }
           },
           {
-            "name": "HGL-92",
+            "name": "HGL -92",
             "unlock_level": 0,
             "mods": {
               "ads_mod": 0,
@@ -76473,10 +76378,6 @@
               "stf_mod": 1.1,
               "vert_recoil_mod": 0.87
             }
-          },
-          {
-            "name": "HGL -92",
-            "unlock_level": 0
           },
           {
             "name": "Ascendant Lord Heavy",
@@ -82095,7 +81996,7 @@
             }
           },
           {
-            "name": "9MM Hollowpoint",
+            "name": "9MM Hollow Point",
             "mods": {
               "ads_mod": 0,
               "ads_movement_mod": 0,
@@ -82233,9 +82134,6 @@
               "stf_mod": 0,
               "vert_recoil_mod": 0.92
             }
-          },
-          {
-            "name": "9MM Hollow Point"
           },
           {
             "name": "9MM Sub AP"
@@ -87216,7 +87114,7 @@
       "slots": {
         "AMMUNITION": [
           {
-            "name": "9MM Hollowpoint",
+            "name": "9MM Hollow Point",
             "mods": {
               "ads_mod": 0,
               "ads_movement_mod": 0,
@@ -87374,9 +87272,6 @@
               "stf_mod": 0,
               "vert_recoil_mod": 1.08
             }
-          },
-          {
-            "name": "9MM Hollow Point"
           },
           {
             "name": "9MM Sub AP"
@@ -93654,21 +93549,6 @@
               "jump_ads_mod": 1.14,
               "jump_sprint_fire_speed_mod": 1.21
             }
-          },
-          {
-            "name": "9.6\" MFS Vital Ace Barrel",
-            "unlock_level": "Weapon Prestige",
-            "mods": {
-              "ads_mod": 1.7,
-              "ads_movement_mod": 0.87,
-              "gun_kick_mod": 2.34,
-              "horiz_recoil_mod": 1.7,
-              "rpm_mod": 0.33,
-              "stf_mod": 1.28,
-              "vert_recoil_mod": 2.16,
-              "jump_ads_mod": 1.1,
-              "jump_sprint_fire_speed_mod": 1.11
-            }
           }
         ],
         "FIRE MODS": [
@@ -94008,10 +93888,6 @@
               "bv_mod": 1.15,
               "range_mod": 1.1491
             }
-          },
-          {
-            "name": "7.92x57 Armor Piercing",
-            "unlock_level": 11
           },
           {
             "name": "7.92x57mm High Velocity",
@@ -109229,9 +109105,6 @@
             "name": "JCZ-390 Muzzle Device"
           },
           {
-            "name": "Zulu-60"
-          },
-          {
             "name": "FSS Covert IV"
           },
           {
@@ -109248,9 +109121,6 @@
           },
           {
             "name": "SilentFire XG6"
-          },
-          {
-            "name": "Corvus Slash Gen. 2"
           },
           {
             "name": "Cronen OP44"
@@ -109975,17 +109845,6 @@
             }
           },
           {
-            "name": "8.5\" Targll Hock-XR Barrel",
-            "unlock_level": 7,
-            "mods": {
-              "ads_mod": 0.81,
-              "ads_movement_mod": 1.02,
-              "hipfire_max_mod": 0,
-              "movement_mod": 1.06,
-              "stf_mod": 0.64
-            }
-          },
-          {
             "name": "11.7\" Cinerous Barrel",
             "unlock_level": 4,
             "mods": {
@@ -110020,7 +109879,8 @@
               "hipfire_max_mod": 0.8,
               "movement_mod": 1.06,
               "sprint_mod": 1.02,
-              "stf_mod": 0.59
+              "stf_mod": 0.59,
+              "ads_movement_mod": 1.02
             }
           }
         ],
@@ -110117,7 +109977,7 @@
             }
           },
           {
-            "name": "Welkln Fast Mag",
+            "name": "Welkin Fast Mag",
             "unlock_level": 24,
             "mods": {
               "ads_mod": 0.5,
@@ -110125,10 +109985,6 @@
               "reload_mod": 0.58,
               "stf_mod": 0.9
             }
-          },
-          {
-            "name": "Welkin Fast Mag",
-            "unlock_level": 24
           }
         ],
         "MUZZLE": [
@@ -110250,14 +110106,6 @@
             }
           },
           {
-            "name": "Targll Orbiter Stock",
-            "unlock_level": 21,
-            "mods": {
-              "ads_mod": 0.89,
-              "ads_movement_mod": 1.22
-            }
-          },
-          {
             "name": "F7-Howl Stock",
             "unlock_level": 30,
             "mods": {
@@ -110267,33 +110115,12 @@
             }
           },
           {
-            "name": "EMT3 Radlx Stock",
-            "unlock_level": 6,
-            "mods": {
-              "ads_mod": 1.16,
-              "ads_movement_mod": 0.88,
-              "gun_kick_mod": 0.82,
-              "horiz_recoil_mod": 0.82,
-              "vert_recoil_mod": 0.82
-            }
-          },
-          {
             "name": "Cinder Stock",
             "unlock_level": 27,
             "mods": {
               "ads_mod": 0.82,
               "hipfire_max_mod": 0.85,
               "stf_mod": 0.87
-            }
-          },
-          {
-            "name": "Malalse-64 Stock",
-            "unlock_level": 34,
-            "mods": {
-              "ads_mod": 1.11,
-              "gun_kick_mod": 0.9,
-              "horiz_recoil_mod": 0.9,
-              "vert_recoil_mod": 0.9
             }
           },
           {
@@ -112288,18 +112115,6 @@
             }
           },
           {
-            "name": "14.7\" KGS Hartha Barrel",
-            "unlock_level": 8,
-            "mods": {
-              "ads_mod": 1.08,
-              "ads_movement_mod": 0.93,
-              "gun_kick_mod": 0.88,
-              "horiz_recoil_mod": 0.9,
-              "stf_mod": 1.08,
-              "vert_recoil_mod": 0.88
-            }
-          },
-          {
             "name": "13.9\" Flyer-I Barrel",
             "unlock_level": 28,
             "mods": {
@@ -112316,7 +112131,15 @@
           },
           {
             "name": "14.7\" K&S Hartha Barrel",
-            "unlock_level": 8
+            "unlock_level": 8,
+            "mods": {
+              "ads_mod": 1.08,
+              "ads_movement_mod": 0.93,
+              "gun_kick_mod": 0.88,
+              "horiz_recoil_mod": 0.9,
+              "stf_mod": 1.08,
+              "vert_recoil_mod": 0.88
+            }
           }
         ],
         "COMB": [
@@ -117746,7 +117569,7 @@
             }
           },
           {
-            "name": "Kastov-RAMA",
+            "name": "Kastov Rama",
             "unlock_level": 24,
             "mods": {
               "ads_mod": 0.97,
@@ -117785,10 +117608,6 @@
               "stf_mod": 1.02,
               "vert_recoil_mod": 0
             }
-          },
-          {
-            "name": "Kastov Rama",
-            "unlock_level": 24
           },
           {
             "name": "Spetsnaz S10",
@@ -126138,13 +125957,7 @@
             "name": "7.62x39MM Round Nose"
           },
           {
-            "name": "9MM High Velocity"
-          },
-          {
             "name": "9MM Hardened Rounds"
-          },
-          {
-            "name": "9MM Hollowpoint"
           },
           {
             "name": "7.62x39mm HollowPoint"
@@ -126214,7 +126027,7 @@
         ],
         "CONVERSION KIT": [
           {
-            "name": "JAK Decimator",
+            "name": "JAK Decimator ",
             "unlock_level": 0,
             "mods": {
               "ads_mod": 0,
@@ -126233,10 +126046,6 @@
               "stf_mod": 0,
               "vert_recoil_mod": 2.4
             }
-          },
-          {
-            "name": "JAK Decimator ",
-            "unlock_level": 0
           }
         ],
         "LASER": [
@@ -128073,7 +127882,7 @@
             }
           },
           {
-            "name": "9MM Hollowpoint",
+            "name": "9MM Hollow Point",
             "unlock_level": 13,
             "mods": {
               "ads_mod": 0,
@@ -128092,10 +127901,6 @@
               "stf_mod": 0,
               "vert_recoil_mod": 0
             }
-          },
-          {
-            "name": "9MM Hollow Point",
-            "unlock_level": 13
           },
           {
             "name": "9mm Sub HP"
@@ -135428,16 +135233,12 @@
             "name": "7.62x39mm Incendiary"
           },
           {
-            "name": "7.62x39mm High Grain",
+            "name": "7.62x38MM High Grain",
             "unlock_level": 2,
             "mods": {
               "bv_mod": 1.15,
               "range_mod": 1.1509
             }
-          },
-          {
-            "name": "7.62x38MM High Grain",
-            "unlock_level": 2
           }
         ],
         "BARREL": [
@@ -144949,14 +144750,6 @@
             }
           },
           {
-            "name": "Backline Flip Mag",
-            "unlock_level": 2,
-            "mods": {
-              "mag_size_mod": 5,
-              "reload_mod": 0.84
-            }
-          },
-          {
             "name": "Nomad Reserve Fast Mag",
             "unlock_level": 27,
             "mods": {
@@ -151770,7 +151563,7 @@
             }
           },
           {
-            "name": "M8A1 Autostrike-X8 Conversion",
+            "name": "M8A1 AutoStrike-X8 Conversion",
             "unlock_level": "Weekly Challenge Reward",
             "mods": {
               "ads_mod": 0.87,
@@ -151783,10 +151576,6 @@
               "stf_mod": 0.87,
               "vert_recoil_mod": 0.85
             }
-          },
-          {
-            "name": "M8A1 AutoStrike-X8 Conversion",
-            "unlock_level": "Weekly Challenge Reward"
           }
         ],
         "FIRE MODS": [
@@ -152073,18 +151862,6 @@
             }
           },
           {
-            "name": "KGS Impact Stock",
-            "unlock_level": 37,
-            "mods": {
-              "ads_mod": 1.11,
-              "ads_movement_mod": 0.85,
-              "gun_kick_mod": 0.85,
-              "horiz_recoil_mod": 0.85,
-              "vert_recoil_mod": 0.85,
-              "jump_ads_mod": 1.17
-            }
-          },
-          {
             "name": "MFS Striker Tactical Stock",
             "unlock_level": "Weapon Prestige",
             "mods": {
@@ -152100,7 +151877,15 @@
           },
           {
             "name": "K&S Impact Stock",
-            "unlock_level": 37
+            "unlock_level": 37,
+            "mods": {
+              "ads_mod": 1.11,
+              "ads_movement_mod": 0.85,
+              "gun_kick_mod": 0.85,
+              "horiz_recoil_mod": 0.85,
+              "vert_recoil_mod": 0.85,
+              "jump_ads_mod": 1.17
+            }
           }
         ],
         "UNDERBARREL": [
@@ -155267,27 +155052,6 @@
             }
           },
           {
-            "name": "Wrathguard Compensator",
-            "unlock_level": 28,
-            "mods": {
-              "ads_mod": 0,
-              "ads_movement_mod": 0,
-              "bv_mod": 0,
-              "crouch_movement_mod": 0,
-              "gun_kick_mod": 0.85,
-              "hipfire_max_mod": 0,
-              "horiz_recoil_mod": 0.85,
-              "mag_size_mod": 0,
-              "movement_mod": 0,
-              "range_mod": 0,
-              "reload_mod": 0,
-              "rpm_mod": 0,
-              "sprint_mod": 0,
-              "stf_mod": 0,
-              "vert_recoil_mod": 0.85
-            }
-          },
-          {
             "name": "Xten Ported 290",
             "mods": {
               "ads_mod": 0,
@@ -155810,7 +155574,24 @@
           },
           {
             "name": "Warthguard Compensator",
-            "unlock_level": 28
+            "unlock_level": 28,
+            "mods": {
+              "ads_mod": 0,
+              "ads_movement_mod": 0,
+              "bv_mod": 0,
+              "crouch_movement_mod": 0,
+              "gun_kick_mod": 0.85,
+              "hipfire_max_mod": 0,
+              "horiz_recoil_mod": 0.85,
+              "mag_size_mod": 0,
+              "movement_mod": 0,
+              "range_mod": 0,
+              "reload_mod": 0,
+              "rpm_mod": 0,
+              "sprint_mod": 0,
+              "stf_mod": 0,
+              "vert_recoil_mod": 0.85
+            }
           }
         ],
         "OPTIC": [
@@ -155820,27 +155601,6 @@
           }
         ],
         "REAR GRIP": [
-          {
-            "name": "RB Rapidstrike Grip",
-            "unlock_level": 14,
-            "mods": {
-              "ads_mod": 0.91,
-              "ads_movement_mod": 0,
-              "bv_mod": 0,
-              "crouch_movement_mod": 0,
-              "gun_kick_mod": 1.1,
-              "hipfire_max_mod": 0,
-              "horiz_recoil_mod": 1.1,
-              "mag_size_mod": 0,
-              "movement_mod": 0,
-              "range_mod": 0,
-              "reload_mod": 0,
-              "rpm_mod": 0,
-              "sprint_mod": 0,
-              "stf_mod": 0.8,
-              "vert_recoil_mod": 1.1
-            }
-          },
           {
             "name": "RB Palm Shelf Grip",
             "unlock_level": 21,
@@ -155885,7 +155645,24 @@
           },
           {
             "name": "RB Roadstrike Grip",
-            "unlock_level": 14
+            "unlock_level": 14,
+            "mods": {
+              "ads_mod": 0.91,
+              "ads_movement_mod": 0,
+              "bv_mod": 0,
+              "crouch_movement_mod": 0,
+              "gun_kick_mod": 1.1,
+              "hipfire_max_mod": 0,
+              "horiz_recoil_mod": 1.1,
+              "mag_size_mod": 0,
+              "movement_mod": 0,
+              "range_mod": 0,
+              "reload_mod": 0,
+              "rpm_mod": 0,
+              "sprint_mod": 0,
+              "stf_mod": 0.8,
+              "vert_recoil_mod": 1.1
+            }
           }
         ],
         "STOCK": [
@@ -160683,19 +160460,6 @@
             }
           },
           {
-            "name": "22'' Impulse HB-762 Barrel",
-            "unlock_level": 36,
-            "mods": {
-              "ads_mod": 1.12,
-              "ads_movement_mod": 0.88,
-              "bv_mod": 1.15,
-              "gun_kick_mod": 0.8,
-              "horiz_recoil_mod": 0.8,
-              "stf_mod": 1.08,
-              "vert_recoil_mod": 0.8
-            }
-          },
-          {
             "name": "25\" EAM Heavy Barrel",
             "mods": {
               "ads_mod": 1.12,
@@ -161234,14 +160998,6 @@
             "unlock_level": "Weapon Prestige",
             "mods": {
               "hipfire_max_mod": 0.9
-            }
-          },
-          {
-            "name": "17\" LT1 Firetail Barrel",
-            "unlock_level": 35,
-            "mods": {
-              "ads_mod": 1.04,
-              "bv_mod": 1.08
             }
           },
           {
@@ -164159,15 +163915,6 @@
               "ads_mod": 1.05,
               "bv_mod": 1.08
             }
-          },
-          {
-            "name": "8.6\" MFS Stratus-X Barrel",
-            "unlock_level": "Weapon Prestige",
-            "mods": {
-              "gun_kick_mod": 0.65,
-              "horiz_recoil_mod": 0.65,
-              "vert_recoil_mod": 0.65
-            }
           }
         ],
         "FIRE MODS": [
@@ -164626,7 +164373,7 @@
             }
           },
           {
-            "name": "5.56 Nato Low Grain",
+            "name": "5.56 NATO Low Grain",
             "unlock_level": 13,
             "mods": {
               "ads_mod": 0,
@@ -164805,10 +164552,6 @@
               "stf_mod": 0,
               "vert_recoil_mod": 0
             }
-          },
-          {
-            "name": "5.56 NATO Low Grain",
-            "unlock_level": 13
           }
         ],
         "BARREL": [
@@ -173187,13 +172930,7 @@
             "name": "7.62x39MM Round Nose"
           },
           {
-            "name": "9MM High Velocity"
-          },
-          {
             "name": "9MM Hardened Rounds"
-          },
-          {
-            "name": "9MM Hollowpoint"
           },
           {
             "name": "7.62x39mm HollowPoint"
@@ -175255,7 +174992,7 @@
         ],
         "MAGAZINE": [
           {
-            "name": "Tribolt",
+            "name": "TriBolt",
             "unlock_level": "Weapon Prestige",
             "mods": {
               "ads_mod": 1.18,
@@ -175263,10 +175000,6 @@
               "mag_size_mod": 2,
               "rpm_mod": 1.72
             }
-          },
-          {
-            "name": "TriBolt",
-            "unlock_level": "Weapon Prestige"
           }
         ],
         "OPTIC": [
@@ -179260,15 +178993,6 @@
         ],
         "MUZZLE": [
           {
-            "name": "Kuhn Ported Comp",
-            "unlock_level": 20,
-            "mods": {
-              "hipfire_max_mod": 0.85,
-              "dive_fire_speed_mod": 0.8,
-              "slide_fire_speed_mod": 0.8
-            }
-          },
-          {
             "name": "K&S Compensator",
             "unlock_level": 13,
             "mods": {
@@ -179312,7 +179036,10 @@
             "mods": {
               "ads_movement_mod": 1.05,
               "movement_mod": 1.05,
-              "sprint_mod": 1.05
+              "sprint_mod": 1.05,
+              "hipfire_max_mod": 0.85,
+              "dive_fire_speed_mod": 0.8,
+              "slide_fire_speed_mod": 0.8
             }
           },
           {
@@ -180176,7 +179903,7 @@
             }
           },
           {
-            "name": "9x18mm Makarov fmj",
+            "name": "9x18mm Makarov FMJ",
             "unlock_level": 3,
             "mods": {
               "ads_mod": 0,
@@ -180197,7 +179924,7 @@
             }
           },
           {
-            "name": "9x18mm makarov overpressured",
+            "name": "9x18mm Makarov Overpressured",
             "unlock_level": 37,
             "mods": {
               "ads_mod": 0,
@@ -180216,14 +179943,6 @@
               "stf_mod": 0,
               "vert_recoil_mod": 0
             }
-          },
-          {
-            "name": "9x18mm Makarov FMJ",
-            "unlock_level": 3
-          },
-          {
-            "name": "9x18mm Makarov Overpressured",
-            "unlock_level": 37
           }
         ],
         "LASER": [
@@ -186952,7 +186671,7 @@
             }
           },
           {
-            "name": "9MM Hollowpoint",
+            "name": "9MM Hollow Point",
             "mods": {
               "ads_mod": 0,
               "ads_movement_mod": 0,
@@ -187030,9 +186749,6 @@
               "stf_mod": 0,
               "vert_recoil_mod": 0
             }
-          },
-          {
-            "name": "9MM Hollow Point"
           },
           {
             "name": "9MM Sub AP"
@@ -189848,7 +189564,7 @@
             }
           },
           {
-            "name": "12” MFS Sidewinder Barrel",
+            "name": "12\" MFS Sidewinder Barrel",
             "unlock_level": "Weapon Prestige",
             "mods": {
               "ads_mod": 1.07,
@@ -189859,18 +189575,6 @@
               "vert_recoil_mod": 0.9,
               "jump_ads_mod": 1.07,
               "jump_sprint_fire_speed_mod": 1.09
-            }
-          },
-          {
-            "name": "12\" MFS Sidewinder Barrel",
-            "unlock_level": "Weapon Prestige",
-            "mods": {
-              "ads_mod": 1.11,
-              "bv_mod": 1.1,
-              "gun_kick_mod": 0.82,
-              "horiz_recoil_mod": 0.88,
-              "stf_mod": 1.19,
-              "vert_recoil_mod": 0.82
             }
           }
         ],
@@ -189965,7 +189669,7 @@
             }
           },
           {
-            "name": "Bolt-Strike Fast Mag II",
+            "name": "Bolt Strike Fast Mag II",
             "unlock_level": 27,
             "mods": {
               "ads_mod": 0.94,
@@ -189994,10 +189698,6 @@
             "mods": {
               "reload_mod": 0.84
             }
-          },
-          {
-            "name": "Bolt Strike Fast Mag II",
-            "unlock_level": 27
           }
         ],
         "MUZZLE": [
@@ -190332,7 +190032,7 @@
             }
           },
           {
-            "name": "9MM Hollowpoint",
+            "name": "9MM Hollow Point",
             "mods": {
               "ads_mod": 0,
               "ads_movement_mod": 0,
@@ -190412,7 +190112,7 @@
             }
           },
           {
-            "name": "9mm High Velocity",
+            "name": "9MM High Velocity",
             "unlock_level": 11,
             "mods": {
               "ads_mod": 0,
@@ -190453,9 +190153,6 @@
             }
           },
           {
-            "name": "9MM Hollow Point"
-          },
-          {
             "name": "9MM Sub AP"
           },
           {
@@ -190466,10 +190163,6 @@
           },
           {
             "name": "9mm Sub OP"
-          },
-          {
-            "name": "9MM High Velocity",
-            "unlock_level": 11
           }
         ],
         "BARREL": [
@@ -190560,7 +190253,7 @@
             }
           },
           {
-            "name": "JAK Intimidator",
+            "name": "JAK Intimidator ",
             "unlock_level": 0,
             "mods": {
               "ads_mod": 0,
@@ -190579,10 +190272,6 @@
               "stf_mod": 0,
               "vert_recoil_mod": 0.93
             }
-          },
-          {
-            "name": "JAK Intimidator ",
-            "unlock_level": 0
           }
         ],
         "LASER": [
@@ -191796,14 +191485,6 @@
               "rpm_mod": 1.04,
               "vert_recoil_mod": 1.05
             }
-          },
-          {
-            "name": "Hawker Series 45",
-            "unlock_level": 18,
-            "mods": {
-              "gun_kick_mod": 0.86,
-              "vert_recoil_mod": 0.85
-            }
           }
         ],
         "REAR GRIP": [
@@ -192133,7 +191814,7 @@
             }
           },
           {
-            "name": "9MM Hollowpoint",
+            "name": "9MM Hollow Point",
             "mods": {
               "ads_mod": 0,
               "ads_movement_mod": 0,
@@ -192151,9 +191832,6 @@
               "stf_mod": 0,
               "vert_recoil_mod": 0
             }
-          },
-          {
-            "name": "9MM Hollow Point"
           }
         ],
         "BARREL": [
@@ -194626,14 +194304,6 @@
             }
           },
           {
-            "name": "9.9\" Bowen Cerlum Barrel",
-            "unlock_level": 30,
-            "mods": {
-              "ads_mod": 1.05,
-              "bv_mod": 1.08
-            }
-          },
-          {
             "name": "12.4\" VAS Tethys Barrel",
             "unlock_level": 3,
             "mods": {
@@ -194643,7 +194313,11 @@
           },
           {
             "name": "9.9\" Bowen Cerium Barrel",
-            "unlock_level": 30
+            "unlock_level": 30,
+            "mods": {
+              "ads_mod": 1.05,
+              "bv_mod": 1.08
+            }
           }
         ],
         "FIRE MODS": [
@@ -197785,19 +197459,12 @@
             }
           },
           {
-            "name": "10.5\" Greaves Whiptail Barre",
-            "unlock_level": 18,
-            "mods": {
-              "bv_mod": 1.13,
-              "range_mod": 1.2
-            }
-          },
-          {
             "name": "10.5\" Greaves Whiptail Barrel",
             "unlock_level": 18,
             "mods": {
               "ads_mod": 1.05,
-              "bv_mod": 1.08
+              "bv_mod": 1.08,
+              "range_mod": 1.2
             }
           }
         ],
@@ -208900,7 +208567,7 @@
         ],
         "MUZZLE": [
           {
-            "name": "Suppressor ",
+            "name": "Suppressor",
             "unlock_level": 17,
             "mods": {
               "ads_mod": 0,
@@ -208919,10 +208586,6 @@
               "stf_mod": 0,
               "vert_recoil_mod": 0
             }
-          },
-          {
-            "name": "Suppressor",
-            "unlock_level": 17
           },
           {
             "name": "Monolithic Suppressor",
@@ -225044,7 +224707,7 @@
             }
           },
           {
-            "name": "Chorus Gen4 Grip",
+            "name": "Chrous Gen4 Grip",
             "unlock_level": 5,
             "mods": {
               "ads_mod": 1.31,
@@ -225063,10 +224726,6 @@
               "stf_mod": 0,
               "vert_recoil_mod": 0
             }
-          },
-          {
-            "name": "Chrous Gen4 Grip",
-            "unlock_level": 5
           }
         ],
         "STOCK": [
@@ -227249,7 +226908,7 @@
         ],
         "MAGAZINE": [
           {
-            "name": "20 round mag",
+            "name": "20 Round Mag",
             "unlock_level": 5,
             "mods": {
               "ads_mod": 0.88,
@@ -227310,10 +226969,6 @@
               "stf_mod": 1.02,
               "vert_recoil_mod": 0
             }
-          },
-          {
-            "name": "20 Round Mag",
-            "unlock_level": 5
           }
         ],
         "MUZZLE": [
@@ -232410,7 +232065,7 @@
             }
           },
           {
-            "name": "Suppressor ",
+            "name": "Suppressor",
             "unlock_level": 2,
             "mods": {
               "ads_mod": 0,
@@ -232480,10 +232135,6 @@
               "bv_mod": 1.2,
               "range_mod": 1.1
             }
-          },
-          {
-            "name": "Suppressor",
-            "unlock_level": 2
           }
         ],
         "OPTIC": [
@@ -232697,17 +232348,6 @@
       "slots": {
         "BARREL": [
           {
-            "name": "11.5\" LT1 Ascendancy Barrel",
-            "unlock_level": 2,
-            "mods": {
-              "ads_mod": 0.82,
-              "hipfire_max_mod": 0.8,
-              "movement_mod": 1.06,
-              "sprint_mod": 1.02,
-              "stf_mod": 0.65
-            }
-          },
-          {
             "name": "12.3\" Lethal Conflux Barrel",
             "unlock_level": 32,
             "mods": {
@@ -232748,7 +232388,8 @@
               "ads_mod": 0.82,
               "movement_mod": 1.06,
               "sprint_mod": 1.02,
-              "stf_mod": 0.65
+              "stf_mod": 0.65,
+              "hipfire_max_mod": 0.8
             }
           }
         ],
@@ -233705,7 +233346,7 @@
         ],
         "MAGAZINE": [
           {
-            "name": "20 round mag",
+            "name": "20 Round Mag",
             "unlock_level": 11,
             "mods": {
               "ads_mod": 0.9,
@@ -233745,10 +233386,6 @@
               "stf_mod": 0,
               "vert_recoil_mod": 0
             }
-          },
-          {
-            "name": "20 Round Mag",
-            "unlock_level": 11
           }
         ],
         "MUZZLE": [
@@ -240250,7 +239887,7 @@
             }
           },
           {
-            "name": "16.5\" Gar-XL Barrel",
+            "name": "16.5\" Gar-xL Barrel",
             "unlock_level": 2,
             "mods": {
               "ads_movement_mod": 0.96,
@@ -240277,10 +239914,6 @@
               "ads_mod": 1.05,
               "range_mod": 1.1429
             }
-          },
-          {
-            "name": "16.5\" Gar-xL Barrel",
-            "unlock_level": 2
           }
         ],
         "FIRE MODS": [
@@ -240549,13 +240182,6 @@
         ],
         "UNDERBARREL": [
           {
-            "name": "Fluxus Underbarrel",
-            "unlock_level": 8,
-            "mods": {
-              "horiz_recoil_mod": 0.85
-            }
-          },
-          {
             "name": "Dart Grip",
             "unlock_level": 37,
             "mods": {
@@ -240583,7 +240209,10 @@
           },
           {
             "name": "Fixus Underbarrel",
-            "unlock_level": 8
+            "unlock_level": 8,
+            "mods": {
+              "horiz_recoil_mod": 0.85
+            }
           },
           {
             "name": "Aperture-2 Underbarrel",
@@ -258356,27 +257985,6 @@
         ],
         "STOCK": [
           {
-            "name": "expedite grid pad",
-            "unlock_level": 14,
-            "mods": {
-              "ads_mod": 0,
-              "ads_movement_mod": 1.1,
-              "bv_mod": 0,
-              "crouch_movement_mod": 0,
-              "gun_kick_mod": 0,
-              "hipfire_max_mod": 0,
-              "horiz_recoil_mod": 0,
-              "mag_size_mod": 0,
-              "movement_mod": 0,
-              "range_mod": 0,
-              "reload_mod": 0,
-              "rpm_mod": 0,
-              "sprint_mod": 1.02,
-              "stf_mod": 0,
-              "vert_recoil_mod": 0
-            }
-          },
-          {
             "name": "Demo Tac Pad",
             "unlock_level": 19,
             "mods": {
@@ -258420,7 +258028,24 @@
           },
           {
             "name": "Expeditte Grip Pad",
-            "unlock_level": 14
+            "unlock_level": 14,
+            "mods": {
+              "ads_mod": 0,
+              "ads_movement_mod": 1.1,
+              "bv_mod": 0,
+              "crouch_movement_mod": 0,
+              "gun_kick_mod": 0,
+              "hipfire_max_mod": 0,
+              "horiz_recoil_mod": 0,
+              "mag_size_mod": 0,
+              "movement_mod": 0,
+              "range_mod": 0,
+              "reload_mod": 0,
+              "rpm_mod": 0,
+              "sprint_mod": 1.02,
+              "stf_mod": 0,
+              "vert_recoil_mod": 0
+            }
           }
         ],
         "UNDERBARREL": [
@@ -261010,7 +260635,7 @@
             }
           },
           {
-            "name": "9MM Hollowpoint",
+            "name": "9MM Hollow Point",
             "mods": {
               "ads_mod": 0,
               "ads_movement_mod": 0,
@@ -261048,9 +260673,6 @@
               "stf_mod": 0,
               "vert_recoil_mod": 0
             }
-          },
-          {
-            "name": "9MM Hollow Point"
           },
           {
             "name": "9mm Sub FR"
@@ -263913,7 +263535,7 @@
       "slots": {
         "BARREL": [
           {
-            "name": "4” MFS Celeste Barrel",
+            "name": "4\" MFS Celeste Barrel",
             "unlock_level": "Weapon Prestige",
             "mods": {
               "ads_movement_mod": 1.17,
@@ -263953,16 +263575,6 @@
               "gun_kick_mod": 1.3,
               "horiz_recoil_mod": 1.2,
               "vert_recoil_mod": 1.3
-            }
-          },
-          {
-            "name": "4\" MFS Celeste Barrel",
-            "unlock_level": "Weapon Prestige",
-            "mods": {
-              "ads_movement_mod": 1.17,
-              "crouch_movement_mod": 1.05,
-              "movement_mod": 1.1,
-              "sprint_mod": 1.04
             }
           },
           {
@@ -265857,16 +265469,12 @@
             }
           },
           {
-            "name": "Targill Luster Grip",
+            "name": "Targil Luster Grip",
             "unlock_level": 35,
             "mods": {
               "gun_kick_mod": 0.75,
               "vert_recoil_mod": 0.75
             }
-          },
-          {
-            "name": "Targil Luster Grip",
-            "unlock_level": 35
           }
         ],
         "STOCK": [
@@ -266287,14 +265895,6 @@
             }
           },
           {
-            "name": "R-2-Laufen Grip",
-            "unlock_level": 3,
-            "mods": {
-              "stf_mod": 0.77,
-              "jump_sprint_fire_speed_mod": 0.77
-            }
-          },
-          {
             "name": "R-1 Shelf Grip",
             "unlock_level": 34,
             "mods": {
@@ -266314,7 +265914,11 @@
           },
           {
             "name": "R-2-Laúfen Grip",
-            "unlock_level": 3
+            "unlock_level": 3,
+            "mods": {
+              "stf_mod": 0.77,
+              "jump_sprint_fire_speed_mod": 0.77
+            }
           }
         ],
         "STOCK": [
@@ -266391,13 +265995,6 @@
               "vert_recoil_mod": 0.5,
               "jump_ads_mod": 0.97,
               "jump_sprint_fire_speed_mod": 0.92
-            }
-          },
-          {
-            "name": "AxisPro Handgaurd",
-            "unlock_level": 8,
-            "mods": {
-              "horiz_recoil_mod": 0.75
             }
           },
           {
@@ -270614,7 +270211,7 @@
             }
           },
           {
-            "name": "9MM Hollowpoint",
+            "name": "9MM Hollow Point",
             "mods": {
               "ads_mod": 0,
               "ads_movement_mod": 0,
@@ -270753,9 +270350,6 @@
               "stf_mod": 0,
               "vert_recoil_mod": 1.04
             }
-          },
-          {
-            "name": "9MM Hollow Point"
           },
           {
             "name": "9MM Sub AP"
@@ -277689,7 +277283,7 @@
       "slots": {
         "BARREL": [
           {
-            "name": "14.6” MFS Pulse Load+ Barrel",
+            "name": "14.6\" MFS Pulse Load+ Barrel",
             "unlock_level": "Weapon Prestige",
             "mods": {
               "ads_mod": 0.92,
@@ -277700,15 +277294,6 @@
               "stf_mod": 0.92,
               "jump_ads_mod": 0.84,
               "jump_sprint_fire_speed_mod": 0.8
-            }
-          },
-          {
-            "name": "17.6\" Chiral-O2 Barrel",
-            "unlock_level": 37,
-            "mods": {
-              "ads_mod": 1.04,
-              "bv_mod": 1.08,
-              "mag_size_mod": 15
             }
           },
           {
@@ -277746,16 +277331,6 @@
             }
           },
           {
-            "name": "14.6\" MFS Pulse Load+ Barrel",
-            "unlock_level": "Weapon Prestige",
-            "mods": {
-              "ads_mod": 0.88,
-              "ads_movement_mod": 1.12,
-              "movement_mod": 1.09,
-              "stf_mod": 0.87
-            }
-          },
-          {
             "name": "X9 Maverick Javelin Assembly",
             "unlock_level": "Weekly Challenge Reward",
             "mods": {
@@ -277769,7 +277344,12 @@
           },
           {
             "name": "17.6\" Chiral-02 Barrel",
-            "unlock_level": 37
+            "unlock_level": 37,
+            "mods": {
+              "ads_mod": 1.04,
+              "bv_mod": 1.08,
+              "mag_size_mod": 15
+            }
           }
         ],
         "FIRE MODS": [
@@ -278227,13 +277807,6 @@
             }
           },
           {
-            "name": "5.56 Caseless Overpressuri",
-            "unlock_level": 7,
-            "mods": {
-              "bv_mod": 1.2
-            }
-          },
-          {
             "name": "5.56 Caseless Overpressured",
             "unlock_level": 7,
             "mods": {
@@ -278298,18 +277871,6 @@
             }
           },
           {
-            "name": "Wessl Fast Belt",
-            "unlock_level": 6,
-            "mods": {
-              "ads_mod": 0.96,
-              "mag_size_mod": -10,
-              "reload_mod": 0.91,
-              "stf_mod": 0.95,
-              "jump_ads_mod": 0.98,
-              "jump_sprint_fire_speed_mod": 0.95
-            }
-          },
-          {
             "name": "Enforcer Extended Belt",
             "unlock_level": 28,
             "mods": {
@@ -278330,7 +277891,15 @@
           },
           {
             "name": "Wessi Fast Belt",
-            "unlock_level": 6
+            "unlock_level": 6,
+            "mods": {
+              "ads_mod": 0.96,
+              "mag_size_mod": -10,
+              "reload_mod": 0.91,
+              "stf_mod": 0.95,
+              "jump_ads_mod": 0.98,
+              "jump_sprint_fire_speed_mod": 0.95
+            }
           }
         ],
         "MUZZLE": [
@@ -278500,25 +278069,6 @@
             }
           },
           {
-            "name": "ZR-Mobility Stock",
-            "unlock_level": 50,
-            "mods": {
-              "ads_mod": 1.07,
-              "gun_kick_mod": 0.95,
-              "horiz_recoil_mod": 0.95,
-              "vert_recoil_mod": 0.95
-            }
-          },
-          {
-            "name": "VG-O Light Stock",
-            "unlock_level": 2,
-            "mods": {
-              "crouch_movement_mod": 1.41,
-              "movement_mod": 1.2,
-              "sprint_mod": 1.03
-            }
-          },
-          {
             "name": "RX-7 Shock Stock",
             "unlock_level": 14,
             "mods": {
@@ -278554,11 +278104,22 @@
           },
           {
             "name": "VG-0 Light Stock",
-            "unlock_level": 2
+            "unlock_level": 2,
+            "mods": {
+              "crouch_movement_mod": 1.41,
+              "movement_mod": 1.2,
+              "sprint_mod": 1.03
+            }
           },
           {
             "name": "2R-Mobility Stock",
-            "unlock_level": 50
+            "unlock_level": 50,
+            "mods": {
+              "ads_mod": 1.07,
+              "gun_kick_mod": 0.95,
+              "horiz_recoil_mod": 0.95,
+              "vert_recoil_mod": 0.95
+            }
           }
         ],
         "UNDERBARREL": [
@@ -280800,7 +280361,7 @@
         ],
         "MAGAZINE": [
           {
-            "name": "PhantomV Fast Mag",
+            "name": "Phantom-V Fast Mag",
             "unlock_level": 8,
             "mods": {
               "ads_mod": 0.95,
@@ -280832,10 +280393,6 @@
               "jump_ads_mod": 1.03,
               "jump_sprint_fire_speed_mod": 1.08
             }
-          },
-          {
-            "name": "Phantom-V Fast Mag",
-            "unlock_level": 8
           }
         ],
         "MUZZLE": [
@@ -282347,27 +281904,6 @@
             }
           },
           {
-            "name": "Bruen Lynx Grip",
-            "unlock_level": 3,
-            "mods": {
-              "ads_mod": 0,
-              "ads_movement_mod": 0.78,
-              "bv_mod": 0,
-              "crouch_movement_mod": 0,
-              "gun_kick_mod": 0,
-              "hipfire_max_mod": 0,
-              "horiz_recoil_mod": 0,
-              "mag_size_mod": 0,
-              "movement_mod": 0,
-              "range_mod": 0,
-              "reload_mod": 0,
-              "rpm_mod": 0,
-              "sprint_mod": 0,
-              "stf_mod": 0,
-              "vert_recoil_mod": 0
-            }
-          },
-          {
             "name": "XRK Stalker Factory Grip",
             "unlock_level": 19,
             "mods": {
@@ -282390,7 +281926,24 @@
           },
           {
             "name": "Bruen Lync Grip",
-            "unlock_level": 3
+            "unlock_level": 3,
+            "mods": {
+              "ads_mod": 0,
+              "ads_movement_mod": 0.78,
+              "bv_mod": 0,
+              "crouch_movement_mod": 0,
+              "gun_kick_mod": 0,
+              "hipfire_max_mod": 0,
+              "horiz_recoil_mod": 0,
+              "mag_size_mod": 0,
+              "movement_mod": 0,
+              "range_mod": 0,
+              "reload_mod": 0,
+              "rpm_mod": 0,
+              "sprint_mod": 0,
+              "stf_mod": 0,
+              "vert_recoil_mod": 0
+            }
           }
         ],
         "STOCK": [

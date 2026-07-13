@@ -186,7 +186,7 @@
         }
       },
       {
-        "name": "9MM Hollowpoint",
+        "name": "9MM Hollow Point",
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -219,9 +219,6 @@
           "gun_kick_mod": 0.88,
           "horiz_recoil_mod": 0.85
         }
-      },
-      {
-        "name": "9MM Hollow Point"
       }
     ],
     "BARREL": [

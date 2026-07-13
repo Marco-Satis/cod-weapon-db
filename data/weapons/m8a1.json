@@ -103,7 +103,7 @@
         }
       },
       {
-        "name": "M8A1 Autostrike-X8 Conversion",
+        "name": "M8A1 AutoStrike-X8 Conversion",
         "unlock_level": "Weekly Challenge Reward",
         "mods": {
           "ads_mod": 0.87,
@@ -116,10 +116,6 @@
           "stf_mod": 0.87,
           "vert_recoil_mod": 0.85
         }
-      },
-      {
-        "name": "M8A1 AutoStrike-X8 Conversion",
-        "unlock_level": "Weekly Challenge Reward"
       }
     ],
     "FIRE MODS": [
@@ -406,18 +402,6 @@
         }
       },
       {
-        "name": "KGS Impact Stock",
-        "unlock_level": 37,
-        "mods": {
-          "ads_mod": 1.11,
-          "ads_movement_mod": 0.85,
-          "gun_kick_mod": 0.85,
-          "horiz_recoil_mod": 0.85,
-          "vert_recoil_mod": 0.85,
-          "jump_ads_mod": 1.17
-        }
-      },
-      {
         "name": "MFS Striker Tactical Stock",
         "unlock_level": "Weapon Prestige",
         "mods": {
@@ -433,7 +417,15 @@
       },
       {
         "name": "K&S Impact Stock",
-        "unlock_level": 37
+        "unlock_level": 37,
+        "mods": {
+          "ads_mod": 1.11,
+          "ads_movement_mod": 0.85,
+          "gun_kick_mod": 0.85,
+          "horiz_recoil_mod": 0.85,
+          "vert_recoil_mod": 0.85,
+          "jump_ads_mod": 1.17
+        }
       }
     ],
     "UNDERBARREL": [

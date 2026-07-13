@@ -1203,27 +1203,6 @@
         }
       },
       {
-        "name": "Wrathguard Compensator",
-        "unlock_level": 28,
-        "mods": {
-          "ads_mod": 0,
-          "ads_movement_mod": 0,
-          "bv_mod": 0,
-          "crouch_movement_mod": 0,
-          "gun_kick_mod": 0.85,
-          "hipfire_max_mod": 0,
-          "horiz_recoil_mod": 0.85,
-          "mag_size_mod": 0,
-          "movement_mod": 0,
-          "range_mod": 0,
-          "reload_mod": 0,
-          "rpm_mod": 0,
-          "sprint_mod": 0,
-          "stf_mod": 0,
-          "vert_recoil_mod": 0.85
-        }
-      },
-      {
         "name": "Xten Ported 290",
         "mods": {
           "ads_mod": 0,
@@ -1746,7 +1725,24 @@
       },
       {
         "name": "Warthguard Compensator",
-        "unlock_level": 28
+        "unlock_level": 28,
+        "mods": {
+          "ads_mod": 0,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 0.85,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 0.85,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0,
+          "vert_recoil_mod": 0.85
+        }
       }
     ],
     "OPTIC": [
@@ -1756,27 +1752,6 @@
       }
     ],
     "REAR GRIP": [
-      {
-        "name": "RB Rapidstrike Grip",
-        "unlock_level": 14,
-        "mods": {
-          "ads_mod": 0.91,
-          "ads_movement_mod": 0,
-          "bv_mod": 0,
-          "crouch_movement_mod": 0,
-          "gun_kick_mod": 1.1,
-          "hipfire_max_mod": 0,
-          "horiz_recoil_mod": 1.1,
-          "mag_size_mod": 0,
-          "movement_mod": 0,
-          "range_mod": 0,
-          "reload_mod": 0,
-          "rpm_mod": 0,
-          "sprint_mod": 0,
-          "stf_mod": 0.8,
-          "vert_recoil_mod": 1.1
-        }
-      },
       {
         "name": "RB Palm Shelf Grip",
         "unlock_level": 21,
@@ -1821,7 +1796,24 @@
       },
       {
         "name": "RB Roadstrike Grip",
-        "unlock_level": 14
+        "unlock_level": 14,
+        "mods": {
+          "ads_mod": 0.91,
+          "ads_movement_mod": 0,
+          "bv_mod": 0,
+          "crouch_movement_mod": 0,
+          "gun_kick_mod": 1.1,
+          "hipfire_max_mod": 0,
+          "horiz_recoil_mod": 1.1,
+          "mag_size_mod": 0,
+          "movement_mod": 0,
+          "range_mod": 0,
+          "reload_mod": 0,
+          "rpm_mod": 0,
+          "sprint_mod": 0,
+          "stf_mod": 0.8,
+          "vert_recoil_mod": 1.1
+        }
       }
     ],
     "STOCK": [

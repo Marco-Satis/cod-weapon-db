@@ -49,7 +49,7 @@
     ],
     "MAGAZINE": [
       {
-        "name": "Tribolt",
+        "name": "TriBolt",
         "unlock_level": "Weapon Prestige",
         "mods": {
           "ads_mod": 1.18,
@@ -57,10 +57,6 @@
           "mag_size_mod": 2,
           "rpm_mod": 1.72
         }
-      },
-      {
-        "name": "TriBolt",
-        "unlock_level": "Weapon Prestige"
       }
     ],
     "OPTIC": [

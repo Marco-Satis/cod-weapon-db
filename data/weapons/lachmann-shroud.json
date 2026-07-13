@@ -209,13 +209,7 @@
         "name": "7.62x39MM Round Nose"
       },
       {
-        "name": "9MM High Velocity"
-      },
-      {
         "name": "9MM Hardened Rounds"
-      },
-      {
-        "name": "9MM Hollowpoint"
       },
       {
         "name": "7.62x39mm HollowPoint"
@@ -285,7 +279,7 @@
     ],
     "CONVERSION KIT": [
       {
-        "name": "JAK Decimator",
+        "name": "JAK Decimator ",
         "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
@@ -304,10 +298,6 @@
           "stf_mod": 0,
           "vert_recoil_mod": 2.4
         }
-      },
-      {
-        "name": "JAK Decimator ",
-        "unlock_level": 0
       }
     ],
     "LASER": [

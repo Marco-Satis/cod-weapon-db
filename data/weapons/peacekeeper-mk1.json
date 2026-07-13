@@ -236,15 +236,6 @@
     ],
     "MUZZLE": [
       {
-        "name": "Kuhn Ported Comp",
-        "unlock_level": 20,
-        "mods": {
-          "hipfire_max_mod": 0.85,
-          "dive_fire_speed_mod": 0.8,
-          "slide_fire_speed_mod": 0.8
-        }
-      },
-      {
         "name": "K&S Compensator",
         "unlock_level": 13,
         "mods": {
@@ -288,7 +279,10 @@
         "mods": {
           "ads_movement_mod": 1.05,
           "movement_mod": 1.05,
-          "sprint_mod": 1.05
+          "sprint_mod": 1.05,
+          "hipfire_max_mod": 0.85,
+          "dive_fire_speed_mod": 0.8,
+          "slide_fire_speed_mod": 0.8
         }
       },
       {

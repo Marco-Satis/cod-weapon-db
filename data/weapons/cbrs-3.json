@@ -82,14 +82,6 @@
         }
       },
       {
-        "name": "13\" Taryos Barrel",
-        "unlock_level": 16,
-        "mods": {
-          "ads_mod": 0.84,
-          "ads_movement_mod": 0.95
-        }
-      },
-      {
         "name": "15\" Redwell Parlay Barrel",
         "unlock_level": 11,
         "mods": {
@@ -117,17 +109,14 @@
       },
       {
         "name": "13\" Tarvos Barrel",
-        "unlock_level": 16
+        "unlock_level": 16,
+        "mods": {
+          "ads_mod": 0.84,
+          "ads_movement_mod": 0.95
+        }
       }
     ],
     "FIRE MODS": [
-      {
-        "name": "9mm Parabellum Overpressu",
-        "unlock_level": 19,
-        "mods": {
-          "bv_mod": 1.2
-        }
-      },
       {
         "name": "9mm Parabellum FMJ",
         "unlock_level": 9,
@@ -158,7 +147,10 @@
       },
       {
         "name": "9mm Parabellum Overpressured",
-        "unlock_level": 19
+        "unlock_level": 19,
+        "mods": {
+          "bv_mod": 1.2
+        }
       }
     ],
     "LASER": [
@@ -192,15 +184,6 @@
     ],
     "MAGAZINE": [
       {
-        "name": "MFS Carrousel Fast Mag",
-        "unlock_level": "Weapon Prestige",
-        "mods": {
-          "ads_mod": 0.87,
-          "reload_mod": 0.72,
-          "stf_mod": 0.79
-        }
-      },
-      {
         "name": "Redwell Sprocket Mag",
         "unlock_level": 7,
         "mods": {
@@ -212,7 +195,12 @@
       },
       {
         "name": "MFS Carousel Fast Mag",
-        "unlock_level": "Weapon Prestige"
+        "unlock_level": "Weapon Prestige",
+        "mods": {
+          "ads_mod": 0.87,
+          "reload_mod": 0.72,
+          "stf_mod": 0.79
+        }
       }
     ],
     "MUZZLE": [

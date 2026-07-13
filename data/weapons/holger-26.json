@@ -178,7 +178,7 @@
         }
       },
       {
-        "name": "5.56 Nato Low Grain",
+        "name": "5.56 NATO Low Grain",
         "unlock_level": 5,
         "mods": {
           "ads_mod": 0,
@@ -257,10 +257,6 @@
           "stf_mod": 0,
           "vert_recoil_mod": 0
         }
-      },
-      {
-        "name": "5.56 NATO Low Grain",
-        "unlock_level": 5
       }
     ],
     "BARREL": [
@@ -328,7 +324,7 @@
         }
       },
       {
-        "name": "HGL-92",
+        "name": "HGL -92",
         "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
@@ -347,10 +343,6 @@
           "stf_mod": 1.1,
           "vert_recoil_mod": 0.87
         }
-      },
-      {
-        "name": "HGL -92",
-        "unlock_level": 0
       },
       {
         "name": "Ascendant Lord Heavy",

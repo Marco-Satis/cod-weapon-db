@@ -200,14 +200,6 @@
         }
       },
       {
-        "name": "Backline Flip Mag",
-        "unlock_level": 2,
-        "mods": {
-          "mag_size_mod": 5,
-          "reload_mod": 0.84
-        }
-      },
-      {
         "name": "Nomad Reserve Fast Mag",
         "unlock_level": 27,
         "mods": {

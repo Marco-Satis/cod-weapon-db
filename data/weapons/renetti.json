@@ -97,7 +97,7 @@
         }
       },
       {
-        "name": "9MM Hollowpoint",
+        "name": "9MM Hollow Point",
         "mods": {
           "ads_mod": 0,
           "ads_movement_mod": 0,
@@ -177,7 +177,7 @@
         }
       },
       {
-        "name": "9mm High Velocity",
+        "name": "9MM High Velocity",
         "unlock_level": 11,
         "mods": {
           "ads_mod": 0,
@@ -218,9 +218,6 @@
         }
       },
       {
-        "name": "9MM Hollow Point"
-      },
-      {
         "name": "9MM Sub AP"
       },
       {
@@ -231,10 +228,6 @@
       },
       {
         "name": "9mm Sub OP"
-      },
-      {
-        "name": "9MM High Velocity",
-        "unlock_level": 11
       }
     ],
     "BARREL": [
@@ -325,7 +318,7 @@
         }
       },
       {
-        "name": "JAK Intimidator",
+        "name": "JAK Intimidator ",
         "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
@@ -344,10 +337,6 @@
           "stf_mod": 0,
           "vert_recoil_mod": 0.93
         }
-      },
-      {
-        "name": "JAK Intimidator ",
-        "unlock_level": 0
       }
     ],
     "LASER": [

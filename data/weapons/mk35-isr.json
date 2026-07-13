@@ -103,14 +103,6 @@
         }
       },
       {
-        "name": "17\" LT1 Firetail Barrel",
-        "unlock_level": 35,
-        "mods": {
-          "ads_mod": 1.04,
-          "bv_mod": 1.08
-        }
-      },
-      {
         "name": "16.5\" Greaves Bellum Barrel",
         "unlock_level": 14,
         "mods": {

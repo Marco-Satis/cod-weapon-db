@@ -138,7 +138,7 @@
     ],
     "MUZZLE": [
       {
-        "name": "Suppressor ",
+        "name": "Suppressor",
         "unlock_level": 17,
         "mods": {
           "ads_mod": 0,
@@ -157,10 +157,6 @@
           "stf_mod": 0,
           "vert_recoil_mod": 0
         }
-      },
-      {
-        "name": "Suppressor",
-        "unlock_level": 17
       },
       {
         "name": "Monolithic Suppressor",

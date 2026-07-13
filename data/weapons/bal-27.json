@@ -114,7 +114,7 @@
         }
       },
       {
-        "name": "5.7x28MM Armor Piercing",
+        "name": "5.7X28MM Armor Piercing",
         "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
@@ -135,7 +135,7 @@
         }
       },
       {
-        "name": "5.7x28MM Frangible",
+        "name": "5.7X28MM Frangible",
         "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
@@ -156,7 +156,7 @@
         }
       },
       {
-        "name": "5.7x28MM Overpressured +P",
+        "name": "5.7X28MM Overpressured P+",
         "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
@@ -198,7 +198,7 @@
         }
       },
       {
-        "name": "5.7X28MM Hollowpoint",
+        "name": "5.7x28MM Hollow Point",
         "unlock_level": 0,
         "mods": {
           "ads_mod": 0,
@@ -219,27 +219,11 @@
         }
       },
       {
-        "name": "5.7x28MM Hollow Point",
-        "unlock_level": 0
-      },
-      {
         "name": "5.7X28MM Mono",
         "unlock_level": 0
       },
       {
         "name": "5.7X28MM Round Nose",
-        "unlock_level": 0
-      },
-      {
-        "name": "5.7X28MM Frangible",
-        "unlock_level": 0
-      },
-      {
-        "name": "5.7X28MM Armor Piercing",
-        "unlock_level": 0
-      },
-      {
-        "name": "5.7X28MM Overpressured P+",
         "unlock_level": 0
       },
       {

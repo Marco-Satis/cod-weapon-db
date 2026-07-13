@@ -328,14 +328,6 @@
           "rpm_mod": 1.04,
           "vert_recoil_mod": 1.05
         }
-      },
-      {
-        "name": "Hawker Series 45",
-        "unlock_level": 18,
-        "mods": {
-          "gun_kick_mod": 0.86,
-          "vert_recoil_mod": 0.85
-        }
       }
     ],
     "REAR GRIP": [

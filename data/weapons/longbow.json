@@ -267,16 +267,12 @@
         "name": "7.62x39mm Incendiary"
       },
       {
-        "name": "7.62x39mm High Grain",
+        "name": "7.62x38MM High Grain",
         "unlock_level": 2,
         "mods": {
           "bv_mod": 1.15,
           "range_mod": 1.1509
         }
-      },
-      {
-        "name": "7.62x38MM High Grain",
-        "unlock_level": 2
       }
     ],
     "BARREL": [

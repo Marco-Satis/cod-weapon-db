@@ -100,10 +100,6 @@
         }
       },
       {
-        "name": "7.92x57 Armor Piercing",
-        "unlock_level": 11
-      },
-      {
         "name": "7.92x57mm High Velocity",
         "unlock_level": 0,
         "mods": {

@@ -70,7 +70,7 @@
   "slots": {
     "BARREL": [
       {
-        "name": "14.6” MFS Pulse Load+ Barrel",
+        "name": "14.6\" MFS Pulse Load+ Barrel",
         "unlock_level": "Weapon Prestige",
         "mods": {
           "ads_mod": 0.92,
@@ -81,15 +81,6 @@
           "stf_mod": 0.92,
           "jump_ads_mod": 0.84,
           "jump_sprint_fire_speed_mod": 0.8
-        }
-      },
-      {
-        "name": "17.6\" Chiral-O2 Barrel",
-        "unlock_level": 37,
-        "mods": {
-          "ads_mod": 1.04,
-          "bv_mod": 1.08,
-          "mag_size_mod": 15
         }
       },
       {
@@ -127,16 +118,6 @@
         }
       },
       {
-        "name": "14.6\" MFS Pulse Load+ Barrel",
-        "unlock_level": "Weapon Prestige",
-        "mods": {
-          "ads_mod": 0.88,
-          "ads_movement_mod": 1.12,
-          "movement_mod": 1.09,
-          "stf_mod": 0.87
-        }
-      },
-      {
         "name": "X9 Maverick Javelin Assembly",
         "unlock_level": "Weekly Challenge Reward",
         "mods": {
@@ -150,7 +131,12 @@
       },
       {
         "name": "17.6\" Chiral-02 Barrel",
-        "unlock_level": 37
+        "unlock_level": 37,
+        "mods": {
+          "ads_mod": 1.04,
+          "bv_mod": 1.08,
+          "mag_size_mod": 15
+        }
       }
     ],
     "FIRE MODS": [

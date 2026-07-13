@@ -110,19 +110,12 @@
         }
       },
       {
-        "name": "10.5\" Greaves Whiptail Barre",
-        "unlock_level": 18,
-        "mods": {
-          "bv_mod": 1.13,
-          "range_mod": 1.2
-        }
-      },
-      {
         "name": "10.5\" Greaves Whiptail Barrel",
         "unlock_level": 18,
         "mods": {
           "ads_mod": 1.05,
-          "bv_mod": 1.08
+          "bv_mod": 1.08,
+          "range_mod": 1.2
         }
       }
     ],

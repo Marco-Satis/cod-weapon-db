@@ -71,17 +71,13 @@
   "slots": {
     "BARREL": [
       {
-        "name": "MFS Circultal Barrel",
+        "name": "MFS Circuital Barrel",
         "unlock_level": "Weapon Prestige",
         "mods": {
           "bv_mod": 1.25,
           "hipfire_max_mod": 0.33,
           "movement_mod": 1.07
         }
-      },
-      {
-        "name": "MFS Circuital Barrel",
-        "unlock_level": "Weapon Prestige"
       }
     ],
     "MAGAZINE": [
